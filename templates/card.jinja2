@@ -1,0 +1,15 @@
+{% extends "base.jinja2" %}
+
+
+{% block content %}
+    <table>
+        <tr>
+            <td>
+                <img src="{{ url_for('static', filename=card.img) }}" height=400>
+            </td>
+            <td>
+                {% block details %}{% endblock details %}
+            </td>
+        </tr>
+    </table>
+{% endblock content %}

@@ -21,6 +21,7 @@ class Card:
         
         return naam
 
+    @property
     def img(self):
         nummer = self.attrs['nummer']
         naam = self.attrs['naam']
@@ -42,6 +43,7 @@ class Card:
             val = random.choice(val.split(', '))
         return val
 
+    @property
     def url(self):
         nummer = self.attrs['nummer']
         naam = self.attrs['naam']
@@ -106,22 +108,29 @@ class Deck:
             for row in reader:
                 self.cards.append(Card(row))
 
+    def __iter__(self):
+        self.current = 0
+        return self
+
+    def __next__(self):
+        self.current += 1
+        if self.current >= len(self.cards):
+            raise StopIteration
+        return self.cards[self.current]
+
     def question(self):
         cards = [self.cards[r] for r in random.sample(range(0, len(self.cards)), 4)]
         card = random.choice(cards)
         return Question(card, cards, card.randattr())
 
-    def test_links(self):
-        from urllib.request import urlopen
-        from urllib.error import HTTPError
-        for card in self.cards:
-            print(card)
-            url = card.url()
-            try:
-                urlopen(url)
-            except HTTPError as e:
-                print(url, e)
+    def nr(self, card):
+        return self.cards.index(card)
 
+class Symboliek:
 
-if __name__ == '__main__':
-    Deck().test_links()
+    def __init__(self, filename='symboliek.csv'):
+        self.symbolen = {}
+        with open(filename) as fin:
+            reader = csv.DictReader(fin)
+            for row in reader:
+                self.symbolen[row['naam'].lower()] = row['betekenis']

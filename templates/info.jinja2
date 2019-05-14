@@ -1,0 +1,22 @@
+{% extends "card.jinja2" %}
+
+
+{% block details %}
+    <h2>{{card}}</h2>
+    <table>
+        {% for field in ['kernwoord', 'steekwoord', 'advies', 'negatief advies', 'opmerking'] %}
+            {% if card.attrs[field] %}
+                <tr><td>{{field | capitalize}}:</td><td>{{card.attrs[field].lower()}}</td></tr>
+            {% endif %}
+        {% endfor %}
+    </table>
+    {% if card.symbolen %}
+        <h3>Symbolen</h3>
+        <table>
+            {% for symbol in card.symbolen %}
+            <tr><td>{{symbol}}</td><td>{{symbols[symbol]}}</td></tr>
+            {% endfor %}
+        </table>
+    {% endif %}
+    <p><a href="{{card.url}}" target="stap">Tarot Stap voor Stap</a> over {{card}}.</p>
+{% endblock details %}
