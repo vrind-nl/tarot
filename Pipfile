@@ -7,9 +7,8 @@ verify_ssl = true
 pylint = "*"
 
 [packages]
-bs4 = "*"
-requests = "*"
-requests-html = "*"
+flask = "*"
+python-dotenv = "*"
 
 [requires]
 python_version = "3.7"

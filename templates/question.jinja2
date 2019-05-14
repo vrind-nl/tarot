@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Tarot trainer</title>
+    <script src='{{ url_for('static', filename='question.js') }}'></script>
+  </head>
+  <body>
+    <h1>Tarot trainer</h1>
+    <table>
+    <tr>
+    <td>
+    <img src="{{ url_for('static', filename=question.card.img()) }}" height=400>
+    </td>
+    <td>
+    {{question}}
+
+    {% set answer = question.card.get(question.attr) %}
+    {% set answer_nr = question.answer() + 1 %}
+    <p>
+    {% for card in question.cards %}
+        {% if loop.index == answer_nr %}
+            <button onclick="check()">{{answer}}</button><br/>
+        {% else %}
+            {% set option = card.get(question.attr) %}
+            <button onclick="check('<p>{{option}} hoort bij {{card}}.<br/>Het goede antwoord was: {{answer}}<p>')">{{option}}</button><br/>
+        {% endif %}
+    {% endfor %}
+    </p>
+    <p id="result"></p>
+    <div id="next" style="display: none">
+        <p><a href="{{question.card.url()}}" target="stap">Tarot Stap voor Stap</a> over {{question.card}}.</p>
+        <button onclick="location.reload()">Volgende</button>
+    </div>
+    </td>
+    </tr>
+    </table>
+
+  </body>
+</html>
