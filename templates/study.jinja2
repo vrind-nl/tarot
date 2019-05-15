@@ -8,14 +8,15 @@
 
 
 {% block content %}
-<h2>Nummers</h2>
+<h2>Beknopte handleiding</h2>
+<h3>Nummers</h3>
 <ul>
     {% for nr in ROMANS %}
         <li>{{nr}}: {{symbols.get(nr)}}</li>
     {% endfor %}
 </ul>
 
-<h2>Grote arcana</h2>
+<h3>Grote arcana</h3>
 <ul>
     {% set card = deck.cards[0] %}
     <li>{{card.nummer}} {{card.naam}}: {{card.kernwoord}}
@@ -35,8 +36,8 @@
     <li>{{card.nummer}} {{card.naam}}: {{card.kernwoord}}
 </ul>
 
-<h2>Kleine arcana</h2>
-<h3>Series</h3>
+<h3>Kleine arcana</h3>
+<h4>Series</h4>
 <ul>
     {% for serie in ['Staven', 'Pentakels', 'Zwaarden', 'Kelken'] %}
         <li>{{serie}}: {{symbols.get(serie)}}</li>
@@ -50,8 +51,8 @@ De volgorde van de series is relevant:
     <li>kelken: eigen maken van het idee (inleven)</li>
 </ol>
 
-<h3>Kaartsoorten</h3>
-<h4>Deelseries</h4>
+<h4>Kaartsoorten</h4>
+<h5>Deelseries</h5>
 <ul>
     {% for serie in ['Nummerkaart', 'Hofkaart'] %}
         <li>{{serie}}: {{symbols.get(serie)}}</li>

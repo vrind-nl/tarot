@@ -3,6 +3,8 @@
 
 {% macro card_details(card) %}
     <script src='{{ url_for('static', filename='question.js') }}'></script>
+    <h2>Quiz-vraag</h2>
+    
     {{question}}
 
     {% set answer = question.card.get(question.attr) %}

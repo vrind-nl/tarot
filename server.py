@@ -20,9 +20,14 @@ def card(nr):
     return render_template('info.jinja2', deck=deck, symbols=symboliek, nr=nr)
 
 
-@app.route("/cards/<int:nr>")
-def cards(nr):
-    return render_template('cards.jinja2', cards=random.sample(deck.cards, nr), deck=deck, symbols=symboliek)
+@app.route("/cards/<int:nr>", defaults=dict(turned=False))
+def cards(nr, turned):
+    return render_template('cards.jinja2', cards=random.sample(deck.cards, nr), deck=deck, symbols=symboliek, turned=turned)
+
+
+@app.route("/turned/<int:nr>")
+def turned(nr):
+    return cards(nr, True)
 
 
 @app.route("/symbols")

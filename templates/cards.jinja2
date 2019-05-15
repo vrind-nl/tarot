@@ -8,13 +8,24 @@
 
 
 {% block content %}
+    <style>
+        .turned {
+            transform: rotate(180deg);
+        }
+    </style>
     <h2>Kaartlegging</h2>
     <table width=100%>
         <tr>
             {% for card in cards %}
-                <td><img src="{{ url_for('static', filename=card.img) }}" height=400></td>
+                {% set coin = turned and range(0, 2) | random %}
+                {% set turned = 'class="turned"' if coin else ''%}
+                <td><img src="{{ url_for('static', filename=card.img) }}" {{turned}} height=400></td>
             {% endfor %}
         </tr>
+        {% if turned %}
+            <script src="{{ url_for('static', filename='turn.js') }}"></script>
+            <tr><td><button onclick="turn()">Rechtop</button></td></tr>
+        {% endif %}
         <tr>
             {% for card in cards %}
                 <td>{{ card_details(card) }}</td>

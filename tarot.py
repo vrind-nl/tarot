@@ -41,7 +41,7 @@ class Card:
         return '%s.jpg' % naam.replace(' ', '-')
 
     def randattr(self):
-        return random.choice(['kernwoord', 'steekwoord', 'advies', 'negatief advies'])
+        return random.choice(['kernwoord', 'steekwoord', 'advies', 'negatief_advies'])
 
     def get(self, attr):
         val = getattr(self, attr)

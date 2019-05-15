@@ -5,20 +5,21 @@ Grote Arcana 11-20,,leren omgaan met de ervaringen die het leven brengt
 nummerkaart,,dingen die je zelf in de hand hebt
 hofkaart,,invloeden (van/naar je omgeving)
 ,,
-Kelken,,"hart, emotie, water"
-Zwaarden,,"verstand, denken, lucht"
 Staven,,"geest, intuïtie/ideeën, vuur"
 Pentakels,,"thuis, zintuigen, aarde"
+Zwaarden,,"verstand, denken, lucht"
+Kelken,,"hart, emotie, water"
 ,,
-Kelk,kelken,
-zwaard,zwaarden,
 staf,staven,
 Pentakel,pentakels,
+zwaard,zwaarden,
+Kelk,kelken,
 ,,
-harten,kelken,
-schoppen,zwaarden,
 klavers,staven,
 ruiten,pentakels,
+schoppen,zwaarden,
+harten,kelken,
+,,
 ,,
 O,,"leegte, alomvattendheid"
 I,,"eenheid, begin, potentie, oorsprong"
@@ -43,7 +44,6 @@ koning,volwassen man,"gezag, competentie"
 ,,
 aarde,,vruchtbaarheid
 adept,monnik,
-adept,geestelijke,"toewijding, toetreding"
 afgewend,,terugblikken
 altaar,,religie
 ankh,scepter,eeuwig leven
@@ -54,7 +54,7 @@ aureool,,"diepe trance, verandering in bewustzijn"
 baldakijn,troonhemel,
 bel,,"melaatsheid, ziekte"
 berg,,"standvastigheid, aarde, mystieke reis"
-bergtop,bergen,plaats dicht bij god
+bergtop,berg,plaats dicht bij god
 bisschop,geestelijke,uiterlijke religie
 blaadjes,yod,
 blauw,,"rust, vrede, intelligentie, stabiliteit, loyaal, conservatief"
@@ -77,18 +77,18 @@ cupido,,liefde
 davidsster,,harmonie
 draak,"vuur, slang","tegenstander, schatbewaker, onsterfelijkheid"
 drie-eenheid,,"geest/ziel/lichaam, vader/zoon/heilige geest, hemel/aarde/hel"
-driehoek,"vuur, drie-eenheid",
+driehoek,"Drie-eenheid, vuur",
 druiven,,"overvloed, rijke oogst"
 druppel,"dauw, yod","genade, vrede, hoop"
 duif,,"brenger van vrede, heilige geest"
 dwaas,de dwaas,
 edelstenen,,"hebzucht, materialisme"
 elementen,"water, vuur, lucht, aarde",
-engel,lucht,oorsprong van de mens
+engel,lucht,"Boodscahpper van god, oorsprong van de mens"
 feniks,,verjonging (door drievoudige onderdompeling in water)
 geel,,"(zon) levenskracht en warmte, bevordert concentratie, geestelijke activiteit, nadenken, vrolijkheid, fantasie, jaloezie, lafheid, onrust"
 geel kleed,geel,
-geestelijke,hiërofant,
+geestelijke,hiërofant,"toewijding, toetreding"
 geit,,"Voedster, doorzettingsvermogen, seksueel plezier"
 gezin,,huiselijk geluk
 globe,,de wereld ontdekken/veroveren
@@ -121,6 +121,7 @@ jod,yod,
 jonge man,man,
 jonge vrouw,vrouw,"maagd, (nog) niet seksueel actief"
 kasteel,burcht,
+ketens,,"gebondenheid, verbondenheid"
 kind,,"goddelijke onschuld, het resultaat van de samensmelting tussen de mannelijke en vrouwelijke energie, einde van de dualiteit, vernieuwde eenheid"
 koren,,"rijke oogst, toegeweid moederschap, scheppende kracht"
 kreeft,,"de angsten en illusies willen zich manifesteren, rusteloosheid"
@@ -160,6 +161,7 @@ pad,,"reis, bestemming, herkomst"
 palmhart,,stijgen naar hoger niveau
 palmtak,,overwinning
 parels,,"vrouw, verleiding"
+pentagram,"pentakel, zintuigen","de nieuwe mens, het universum, elementen + ether (geest)"
 pilaren,,"wijsheid, evenwicht in de wereld"
 poort,,"doorgang, toegang, naar hemel/hel"
 pyramide,,"energie, occulte wijsheid, universele wetten"

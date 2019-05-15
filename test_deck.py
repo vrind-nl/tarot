@@ -44,3 +44,16 @@ def test_symbols(deck, symbols):
     n = len(errors)
     m = min(10, n)
     assert not errors, 'Eerste %d van %d: %s' % (m, n, errors[:m])
+
+
+def test_kernwoord(deck):
+    ''' test if kernwoord is unique '''
+    kernwoorden = {}
+    errors = []
+    for card in deck:
+        if card.kernwoord in kernwoorden:
+            errors.append('%s komt voor in %s en %s' % (card.kernwoord, card.naam, kernwoorden[card.kernwoord]))
+        else:
+            kernwoorden[card.kernwoord] = card.naam
+    assert not errors
+
