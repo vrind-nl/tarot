@@ -1,10 +1,22 @@
 {% extends "base.jinja2" %}
 
 
+{% macro card_links(cards) %}
+    {% for card in cards %}
+        {{ deck.link(card) }}
+    {% endfor %}
+{% endmacro %}
+
+
 {% block content %}
+    <h2>Symboliek</h2>
     <table>
-        {% for symbol in symbols.symbolen %}
-            <tr><td><a name="{{symbol}}" />{{symbol}}</td><td>{{symbols.get(symbol)}}</td></tr>
+        {% for name, symbol in symbols.symbolen.items() %}
+            <tr>
+                <td><a name="{{symbol}}"></a>{{symbol}}</td>
+                <td>{{symbols.get(name)}}</td>
+                <td>{{card_links(symbol.cards)}}</td>
+            </tr>
         {% endfor %}
     </table>
 {% endblock content %}

@@ -1,4 +1,5 @@
 import random
+import sys
 
 from flask import Flask, render_template
 
@@ -7,7 +8,7 @@ import tarot
 
 app = Flask(__name__)
 symboliek = tarot.Symboliek()
-deck = tarot.Deck()
+deck = tarot.Deck(symboliek)
 
 
 @app.route("/")
@@ -32,7 +33,7 @@ def turned(nr):
 
 @app.route("/symbols")
 def symbols():
-    return render_template('symbols.jinja2', symbols=symboliek)
+    return render_template('symbols.jinja2', symbols=symboliek, deck=deck)
 
 
 @app.route("/quiz")

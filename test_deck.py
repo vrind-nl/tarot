@@ -6,13 +6,15 @@ import pytest
 
 import tarot
 
-@pytest.fixture
-def deck():
-    return tarot.Deck()
 
 @pytest.fixture
 def symbols():
-    return tarot.Symboliek().symbolen
+    return tarot.Symboliek()
+
+
+@pytest.fixture
+def deck(symbols):
+    return tarot.Deck(symbols)
 
 
 def test_img(deck):

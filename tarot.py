@@ -17,7 +17,7 @@ class Card:
         self.kernwoord = attrs['kernwoord']
         self.steekwoord = attrs['steekwoord']
         self.advies = attrs['advies']
-        self.negatief_advies = attrs['negatief advies']
+        self.waarschuwing = attrs['waarschuwing']
         self.opmerking = attrs['opmerking']
         self.symbolen = sorted(s.strip() for s in attrs['symbolen'].split(',') if s)
 
@@ -41,13 +41,21 @@ class Card:
         return '%s.jpg' % naam.replace(' ', '-')
 
     def randattr(self):
-        return random.choice(['kernwoord', 'steekwoord', 'advies', 'negatief_advies'])
+        return random.choice(['kernwoord', 'steekwoord', 'advies', 'waarschuwing'])
 
     def get(self, attr):
         val = getattr(self, attr)
         if attr == 'steekwoord':
             val = random.choice(val.split(', '))
         return val
+
+    def link_symbols(self, symbols):
+        for sym in self.symbolen:
+            try:
+                symbol = symbols[sym]
+                symbol.cards.append(self)
+            except KeyError:
+                print('Link %s to %s FAILED' % (self, sym))
 
     @property
     def url(self):
@@ -104,7 +112,7 @@ class Question:
 
 class Deck:
 
-    def __init__(self, filename='kaarten.csv'):
+    def __init__(self, symboliek, filename='kaarten.csv'):
         self.cards = []
         try:
             from data import cards
@@ -114,10 +122,12 @@ class Deck:
             with open(filename) as fin:
                 reader = csv.DictReader(fin)
                 self.parse_rows(reader)
+        for card in self.cards:
+            card.link_symbols(symboliek.symbolen)
 
     def parse_rows(self, reader):
-            for row in reader:
-                self.cards.append(Card(row))
+        for row in reader:
+            self.cards.append(Card(row))
 
     def __iter__(self):
         self.current = 0
@@ -137,15 +147,20 @@ class Deck:
     def nr(self, card):
         return self.cards.index(card)
 
+    def link(self, card):
+        return '<a href="%s">%s</a>' % (url_for('card', nr=self.nr(card)), card)
+
     def directions(self, nr):
         if nr == 0:
-            return (11, 21, 1, 21)
+            return (11, 1, 1, 21)
         elif nr == 1:
             return (0,2,11,10)
+        elif nr == 20:
+            return (10,21,21,19)
         elif nr == 21:
             return (20,0,10,0)
         elif nr == 10:
-            return (21,1,20,9)
+            return (21,11,20,9)
 
         if self.cards[nr].serie == 'groot':
             return (
@@ -170,6 +185,7 @@ class Symbool:
         self.naam = row['naam'].strip().lower()
         self.betekenis = row['betekenis']
         self.referenties = [r.strip().lower() for r in row['zie'].split(',') if r]
+        self.cards = []
 
     def __str__(self):
         return self.naam
