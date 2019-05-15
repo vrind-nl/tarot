@@ -106,8 +106,16 @@ class Deck:
 
     def __init__(self, filename='kaarten.csv'):
         self.cards = []
-        with open(filename) as fin:
-            reader = csv.DictReader(fin)
+        try:
+            from data import cards
+            self.parse_rows(cards)
+        except ImportError:
+            print('Reading from CSV. You may want to run csv2.py')
+            with open(filename) as fin:
+                reader = csv.DictReader(fin)
+                self.parse_rows(reader)
+
+    def parse_rows(self, reader):
             for row in reader:
                 self.cards.append(Card(row))
 
@@ -171,12 +179,20 @@ class Symboliek:
 
     def __init__(self, filename='symboliek.csv'):
         self.symbolen = {}
-        with open(filename) as fin:
-            reader = csv.DictReader(fin)
-            for row in reader:
-                if row['naam']:
-                    symbool = Symbool(row)
-                    self.symbolen[symbool.naam] = symbool
+        try:
+            from data import symbols
+            self.parse_rows(symbols)
+        except ImportError:
+            print('Reading from CSV. You may want to run csv2.py')
+            with open(filename) as fin:
+                reader = csv.DictReader(fin)
+                self.parse_rows(reader)
+
+    def parse_rows(self, reader):
+        for row in reader:
+            if row['naam']:
+                symbool = Symbool(row)
+                self.symbolen[symbool.naam] = symbool
 
     def get(self, naam):
         try:
