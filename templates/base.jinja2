@@ -3,13 +3,22 @@
   <head>
     <meta charset="utf-8">
     <title>Tarot trainer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" />
     <style>
-    td {
-        vertical-align: top;
-    }
+      * {
+        font-family: Bookman;
+      }
+      td {
+          vertical-align: top;
+      }
+      .hidden * {
+          color: white;
+          border-color: white;
+      }
     </style>
+    {% block head %}{% endblock %}
   </head>
-  <body>
+  <body class="container">
     <h1><a href="{{ url_for('index') }}">Tarot trainer</a></h1>
     {% set ROMANS = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X'] %}
     {% set NUMMERKAARTEN = ['Aas'] + ROMANS[1:] %}

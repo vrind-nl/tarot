@@ -4,6 +4,25 @@ import os
 import random
 
 from flask import url_for
+       
+
+class Question:
+
+    def __init__(self, options, attr, size=4):
+        ''' options is list of question/answer pairs '''
+        sample = None
+        if type(options) == dict:
+            sample = random.sample(options.keys(), size)
+        else:
+            sample = random.sample(range(0, len(options)), size)
+        self.options = [options[r] for r in sample]
+        self.nr = random.randint(0, size - 1)
+        self.answer = self.options[self.nr]
+        self.id = sample[self.nr]
+        self.attr = attr
+
+    def __str__(self):
+        return 'Welk %s past het best bij %s?' % (self.attr, self.answer)
 
 
 class Card:
@@ -40,10 +59,7 @@ class Card:
         
         return '%s.jpg' % naam.replace(' ', '-')
 
-    def randattr(self):
-        return random.choice(['kernwoord', 'steekwoord', 'advies', 'waarschuwing'])
-
-    def get(self, attr):
+    def get_attr(self, attr):
         val = getattr(self, attr)
         if attr == 'steekwoord':
             val = random.choice(val.split(', '))
@@ -94,21 +110,7 @@ class Card:
                 naam = 'rider-waite-%s' % naam
         
         return 'https://tarotstapvoorstap.nl/tarotkaarten/%s/' % naam.replace(' ', '-').lower()
-       
 
-class Question:
-
-    def __init__(self, card, cards, attr):
-        self.card = card
-        self.cards = cards
-        self.attr = attr
-
-    def __str__(self):
-        return 'Welk %s past het best bij %s?' % (self.attr, self.card)
-
-    def answer(self):
-        return self.cards.index(self.card)
- 
 
 class Deck:
 
@@ -140,25 +142,27 @@ class Deck:
         return self.cards[self.current]
 
     def question(self):
-        cards = [self.cards[r] for r in random.sample(range(0, len(self.cards)), 4)]
-        card = random.choice(cards)
-        return Question(card, cards, card.randattr())
+        return Question(self.cards, 
+                        random.choice(['kernwoord', 'steekwoord', 'advies', 'waarschuwing']))
 
     def nr(self, card):
         return self.cards.index(card)
 
-    def link(self, card):
-        return '<a href="%s">%s</a>' % (url_for('card', nr=self.nr(card)), card)
+    def url(self, card):
+        return url_for('card', nr=self.nr(card))
+
+    def link(self, symbol):
+        return '<a href="%s">%s</a>' % (symbol.url, symbol.naam)
 
     def directions(self, nr):
         if nr == 0:
             return (11, 1, 1, 21)
         elif nr == 1:
-            return (0,2,11,10)
+            return (0,2,11,21)
         elif nr == 20:
             return (10,21,21,19)
         elif nr == 21:
-            return (20,0,10,0)
+            return (20,0,10,20)
         elif nr == 10:
             return (21,11,20,9)
 
@@ -181,6 +185,8 @@ class Deck:
 
 class Symbool:
 
+    symboliek = None
+
     def __init__(self, row):
         self.naam = row['naam'].strip().lower()
         self.betekenis = row['betekenis']
@@ -190,11 +196,23 @@ class Symbool:
     def __str__(self):
         return self.naam
 
+    def get_attr(self, attr):  # for quiz answer
+        return self.symboliek.get(self)
+
+    @property
+    def img(self):
+        try:
+            card = random.choice(self.cards)
+            return card.img
+        except IndexError:
+            return 'achterkant.jpg'
 
 class Symboliek:
 
     def __init__(self, filename='symboliek.csv'):
         self.symbolen = {}
+        Symbool.symboliek = self
+        
         try:
             from data import symbols
             self.parse_rows(symbols)
@@ -215,10 +233,12 @@ class Symboliek:
             symbool = self.symbolen[naam.lower()]
         except KeyError:
             return ''
+        except AttributeError:
+            symbool = naam
         betekenis = symbool.betekenis
         if betekenis:
             if symbool.referenties:
-                betekenis += ' (zie ook %s)' % ', '.join(self.link(r) for r in symbool.referenties)
+                betekenis += ' (zie ook %s)' % ', '.join(self.link_for_name(r) for r in symbool.referenties)
         else:
             referenties = ['%s (via %s)' % (self.get(ref), ref) for ref in symbool.referenties]
             betekenis = ' '.join(referenties)
@@ -226,6 +246,16 @@ class Symboliek:
         return betekenis
 
     @staticmethod
-    def link(name):
+    def link_for_name(name):
         url = url_for('symbols')
         return '<a href="%s#%s">%s</a>' % (url, name, name)
+
+    def url(self, symbol):
+        url = url_for('symbols')
+        return '%s#%s' % (url, symbol.naam)
+
+    def link(self, symbol):
+        return '<a href="%s">%s</a>' % (symbol.url, symbol.naam)
+
+    def question(self):
+        return Question(self.symbolen, 'betekenis')

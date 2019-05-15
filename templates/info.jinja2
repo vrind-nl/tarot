@@ -5,7 +5,9 @@
 
 
 {% macro card_details(card) %}
-    <h2>{{card}}</h2>
+    {% if hidden %}
+        <button onclick="explanation()">Toelichting</button>
+    {% endif %}
     {{ card_info(card, nr) }}
     <hr/>
     {{ card_navigation(card) }}

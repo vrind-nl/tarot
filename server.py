@@ -2,7 +2,7 @@ import os
 import random
 import sys
 
-from flask import Flask, render_template
+from flask import Flask, render_template, request
 
 import tarot
 
@@ -19,12 +19,14 @@ def index():
 
 @app.route("/card/<int:nr>")
 def card(nr):
-    return render_template('info.jinja2', deck=deck, symbols=symboliek, nr=nr)
+    hidden = request.args.get('hidden', default = 1, type = int)
+    return render_template('info.jinja2', deck=deck, symbols=symboliek, nr=nr, hidden='hidden' if hidden else '')
 
 
 @app.route("/cards/<int:nr>", defaults=dict(turned=False))
 def cards(nr, turned):
-    return render_template('cards.jinja2', cards=random.sample(deck.cards, nr), deck=deck, symbols=symboliek, turned=turned)
+    hidden = request.args.get('hidden', default = 1, type = int)
+    return render_template('cards.jinja2', cards=random.sample(deck.cards, nr), deck=deck, symbols=symboliek, turned=turned, hidden='hidden' if hidden else '')
 
 
 @app.route("/turned/<int:nr>")
@@ -39,8 +41,9 @@ def symbols():
 
 @app.route("/quiz")
 def question():
-    q = deck.question()
-    return render_template('question.jinja2', question=q, card=q.card, nr=deck.nr(q.card))
+    q_src = random.choice([deck, symboliek])
+    q = q_src.question()
+    return render_template('question.jinja2', question=q, url='%s?hidden=0' % q_src.url(q.answer))
 
 
 @app.route("/overview")

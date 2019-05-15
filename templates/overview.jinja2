@@ -2,7 +2,7 @@
 
 
 {% macro render_card(card, nr) %}
-    <a href="{{ url_for('card', nr=nr) }}"><img src="{{ url_for('static', filename=card.img) }}" height=200></a><br/>{{card.get('kernwoord')}}
+    <a href="{{ url_for('card', nr=nr, hidden=0) }}"><img src="{{ url_for('static', filename=card.img) }}" height=200></a><br/>{{card.get_attr('kernwoord')}}
 {% endmacro %}
 
 

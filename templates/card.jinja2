@@ -2,6 +2,8 @@
 
 
 {% macro card_info(card, nr) %}
+<div class="{{hidden}} explanation">
+    <h3>{{card}}</h3>
     <table>
         {% if card.serie == 'groot' %}
             {% if nr > 0 and nr <= 10 %}
@@ -34,6 +36,7 @@
             <tr><td>{{symbol}}:</td><td>{{symbols.get(symbol)}}</td></tr>
         {% endfor %}
     </table>
+</div>
 {% endmacro %}
 
 
@@ -70,6 +73,16 @@
         </td>
     </tr>
 {% endmacro %}
+
+
+{% block head %}
+    <script src="{{ url_for('static', filename='cards.js') }}"></script>
+    <style>
+        .turned {
+            transform: rotate(180deg);
+        }
+    </style>
+{% endblock %}
 
 
 {% block content %}

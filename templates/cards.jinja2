@@ -1,22 +1,7 @@
 {% extends "card.jinja2" %}
 
 
-{% macro card_details(card) %}
-    <h3>{{card}}</h3>
-    {{ card_info(card, deck.nr(card)) }}
-{% endmacro %}
-
-
 {% block content %}
-    <script src="{{ url_for('static', filename='cards.js') }}"></script>
-    <style>
-        .turned {
-            transform: rotate(180deg);
-        }
-        .hidden * {
-            color: white;
-        }
-    </style>
     <h2>Kaartlegging</h2>
     <table width=100%>
         <tr>
@@ -26,14 +11,16 @@
                 <td><img src="{{ url_for('static', filename=card.img) }}" {{turned}} height=400></td>
             {% endfor %}
         </tr>
-        <tr><td><button onclick="explanation()">Toelichting</button>
+        <tr><td colspan="{{cards | length}}"><button onclick="explanation()">Toelichting</button>
         {% if turned %}
             <button onclick="turn()">Rechtop</button>
         {% endif %}
         </td></tr>
         <tr>
             {% for card in cards %}
-                <td class="hidden explanation">{{ card_details(card) }}</td>
+                <td>    
+                    {{ card_info(card, deck.nr(card)) }}
+                </td>
             {% endfor %}
         </tr>
     </table>
