@@ -52,8 +52,8 @@ def test_kernwoord(deck):
     errors = []
     for card in deck:
         if card.kernwoord in kernwoorden:
-            errors.append('%s komt voor in %s en %s' % (card.kernwoord, card.naam, kernwoorden[card.kernwoord]))
+            errors.append('%s komt voor in %s en %s' % (card.kernwoord, card, kernwoorden[card.kernwoord]))
         else:
-            kernwoorden[card.kernwoord] = card.naam
+            kernwoorden[card.kernwoord] = str(card)
     assert not errors
 
