@@ -8,9 +8,13 @@
 
 
 {% block content %}
+    <script src="{{ url_for('static', filename='cards.js') }}"></script>
     <style>
         .turned {
             transform: rotate(180deg);
+        }
+        .hidden * {
+            color: white;
         }
     </style>
     <h2>Kaartlegging</h2>
@@ -22,13 +26,14 @@
                 <td><img src="{{ url_for('static', filename=card.img) }}" {{turned}} height=400></td>
             {% endfor %}
         </tr>
+        <tr><td><button onclick="explanation()">Toelichting</button>
         {% if turned %}
-            <script src="{{ url_for('static', filename='turn.js') }}"></script>
-            <tr><td><button onclick="turn()">Rechtop</button></td></tr>
+            <button onclick="turn()">Rechtop</button>
         {% endif %}
+        </td></tr>
         <tr>
             {% for card in cards %}
-                <td>{{ card_details(card) }}</td>
+                <td class="hidden explanation">{{ card_details(card) }}</td>
             {% endfor %}
         </tr>
     </table>
