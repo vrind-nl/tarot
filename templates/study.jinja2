@@ -1,74 +1,67 @@
 {% extends "base.jinja2" %}
 
-
-{% macro render_card(card, nr) %}
-    <a href="{{ url_for('card', nr=nr) }}" target="stap"><img src="{{ url_for('static', filename=card.img) }}" height=200></a><br/>{{card.get('kernwoord')}}
-{% endmacro %}
-
-
-{% macro render_cards(cards, start, end) %}
-    {% for nr in range(start, end) %}
-        <td>{{render_card(cards[nr], nr)}}</td>
+{% macro list_cards(cards) %}
+    {% for card in cards %}
+        <li>{{card.nummer}} {{card.naam}}: {{card.kernwoord}}
     {% endfor %}
 {% endmacro %}
 
 
 {% block content %}
-    <style>
-        td {
-            text-align: center;
-        }
-    </style>
-    <h2>Grote arcana</h2>
-    <table>
-        <tr>
-            <td>&nbsp;</td>
-            <td>{{render_card(deck.cards[0], 0)}}</td>
-            <td colspan=8>&nbsp;</td>
-            <td>{{render_card(deck.cards[21], 21)}}</td>
-        </tr>
-        <tr>
-            <td>I-X: {{symbols['grote arcana 1-10']}}</td>
-            {{render_cards(deck.cards, 1, 11)}}
-        </tr>
-        <tr>
-            <td>XI-XX: {{symbols['grote arcana 11-20']}}</td>
-            {{render_cards(deck.cards, 11, 21)}}
-        </tr>
-    </table>
+<h2>Nummers</h2>
+<ul>
+    {% for nr in ROMANS %}
+        <li>{{nr}}: {{symbols.get(nr)}}</li>
+    {% endfor %}
+</ul>
 
-    <h2>Kleine arcana</h2>
-    <table>
-        <tr>
-            <td>&nbsp;</td>
-            <td>[</td>
-            <td colspan=8>Nummers: {{symbols['kleine arcana nummers']}}</td>
-            <td>]</td>
-            <td>[</td>
-            <td colspan=2>Hof: {{symbols['kleine arcana hof']}}</td>
-            <td>]</td>
-        </tr>
-        <tr>
-            <td>&nbsp;</td>
-            {% for nr in ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X', 'XI', 'XII', 'XIII', 'XIV'] %}
-                <td>{{nr}}: {{symbols[nr.lower()]}}</td>
-            {% endfor %}
-        </tr>
-        <tr>
-            <td>Staven: {{symbols['staven']}}</td>
-            {{render_cards(deck.cards, 22, 36)}}
-        </tr>
-        <tr>
-            <td>Pentakels: {{symbols['pentakels']}}</td>
-            {{render_cards(deck.cards, 36, 50)}}
-        </tr>
-        <tr>
-            <td>Zwaarden: {{symbols['zwaarden']}}</td>
-            {{render_cards(deck.cards, 50, 64)}}
-        </tr>
-        <tr>
-            <td>Kelken: {{symbols['kelken']}}</td>
-            {{render_cards(deck.cards, 64, 78)}}
-        </tr>
-    </table>
+<h2>Grote arcana</h2>
+<ul>
+    {% set card = deck.cards[0] %}
+    <li>{{card.nummer}} {{card.naam}}: {{card.kernwoord}}
+    <li>I-X: {{symbols.get('grote arcana 1-10')}}</li>
+    <ul>
+        {% for card in deck.cards[1:10] %}
+            <li>{{card.nummer}} {{card.naam}}: {{card.kernwoord}}
+        {% endfor %}
+    </ul>
+    <li>XI-XX: {{symbols.get('grote arcana 11-20')}}</li>
+    <ul>
+        {% for card in deck.cards[10:20] %}
+            <li>{{card.nummer}} {{card.naam}}: {{card.kernwoord}}
+        {% endfor %}
+    </ul>
+    {% set card = deck.cards[21] %}
+    <li>{{card.nummer}} {{card.naam}}: {{card.kernwoord}}
+</ul>
+
+<h2>Kleine arcana</h2>
+<h3>Series</h3>
+<ul>
+    {% for serie in ['Staven', 'Pentakels', 'Zwaarden', 'Kelken'] %}
+        <li>{{serie}}: {{symbols.get(serie)}}</li>
+    {% endfor %}
+</ul>
+De volgorde van de series is relevant:
+<ol>
+    <li>staven: het idee</li>
+    <li>pentakels: vorm geven aan het idee</li>
+    <li>zwaarden: begrijpen van het idee (afstand en overzicht)</li>
+    <li>kelken: eigen maken van het idee (inleven)</li>
+</ol>
+
+<h3>Kaartsoorten</h3>
+<h4>Deelseries</h4>
+<ul>
+    {% for serie in ['Nummerkaart', 'Hofkaart'] %}
+        <li>{{serie}}: {{symbols.get(serie)}}</li>
+    {% endfor %}
+    <ul>
+        {% for card in HOFKAARTEN %}
+            <li>{{card}}: {{symbols.get(card)}}</li>
+        {% endfor %}
+    </ul>
+</ul>
+
+Voor de Nummerkaarten, zie "Nummers". Voor de "Aas", zie "I".
 {% endblock content %}

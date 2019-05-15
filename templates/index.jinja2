@@ -2,6 +2,9 @@
 
 
 {% block content %}
+    <li><a href="{{ url_for('overview') }}">Overzicht</a></li>
+    <li><a href="{{ url_for('symbols') }}">Symboliek</a></li>
+    <li><a href="{{ url_for('cards', nr=3) }}">Kaartlegging</a> (3 willekeurige kaarten)</li>
+    <li><a href="{{ url_for('study') }}">Leren</a></li>
     <li><a href="{{ url_for('question') }}">Quiz</a></li>
-    <li><a href="{{ url_for('study') }}">Study</a></li>
 {% endblock content %}

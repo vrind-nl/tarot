@@ -1,0 +1,24 @@
+{% extends "card.jinja2" %}
+
+
+{% macro card_details(card) %}
+    <h3>{{card}}</h3>
+    {{ card_info(card, deck.nr(card)) }}
+{% endmacro %}
+
+
+{% block content %}
+    <h2>Kaartlegging</h2>
+    <table width=100%>
+        <tr>
+            {% for card in cards %}
+                <td><img src="{{ url_for('static', filename=card.img) }}" height=400></td>
+            {% endfor %}
+        </tr>
+        <tr>
+            {% for card in cards %}
+                <td>{{ card_details(card) }}</td>
+            {% endfor %}
+        </tr>
+    </table>
+{% endblock %}

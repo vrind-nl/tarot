@@ -1,15 +1,77 @@
 {% extends "base.jinja2" %}
 
 
-{% block content %}
+{% macro card_info(card, nr) %}
     <table>
+        {% if card.serie == 'groot' %}
+            {% if nr > 0 and nr <= 10 %}
+                <tr><td>Grote arcana I-X:</td><td>{{symbols.get('grote arcana 1-10')}}</td></tr>
+                <tr><td>{{card.nummer}}:</td><td>{{symbols.get(card.nummer)}}</td></tr>
+            {% elif nr > 10 and nr <= 20 %}
+                <tr><td>Grote arcana XI-XX:</td><td>{{symbols.get('grote arcana 11-20')}}</td></tr>
+            {% endif %}
+        {% else %}
+            {% for symbol in ['serie', 'naam'] %}
+                <tr><td>{{card[symbol]}}:</td><td>{{symbols.get(card[symbol])}}</td></tr>
+            {% endfor %}
+            {% if card.nummer or card.naam == 'Aas' %}
+                <tr><td>Nummerkaart:</td><td>{{symbols.get('nummerkaart')}}</td></tr>
+            {% else %}
+                <tr><td>Hofkaart:</td><td>{{symbols.get('hofkaart')}}</td></tr>
+            {% endif %}
+        {% endif %}
+        {% for field in ['kernwoord', 'steekwoord', 'advies', 'negatief_advies', 'opmerking'] %}
+            {% if card[field] %}
+                <tr><td>{{field | capitalize}}:</td><td>{{card[field]}}</td></tr>
+            {% endif %}
+        {% endfor %}
+    </table>
+    <h3>Symbolen</h3>
+    <table>
+        {% for symbol in card['symbolen'] %}
+            <tr><td>{{symbol}}:</td><td>{{symbols.get(symbol)}}</td></tr>
+        {% endfor %}
+    </table>
+{% endmacro %}
+
+
+{% macro card_navigation(card) %}
+    {% set dirs = deck.directions(nr) %}
+    <table width=100%>
         <tr>
-            <td>
-                <img src="{{ url_for('static', filename=card.img) }}" height=400>
-            </td>
-            <td>
-                {% block details %}{% endblock details %}
-            </td>
+            <td>&nbsp;</td>
+            <td style="text-align: center"><a href="{{ dirs[0] }}">Omhoog</a></td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td><a href="{{ dirs[3] }}">Vorige</a></td>
+            <td style="text-align: center"><a href="{{url_for('overview') }}">Index</a></td>
+            <td style="text-align: right"><a href="{{ dirs[1] }}">Volgende</a></td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td style="text-align: center"><a href="{{ dirs[2] }}">Omlaag</a></td>
+            <td>&nbsp;</td>
         </tr>
     </table>
-{% endblock content %}
+    <a href="{{card.url}}" target="stap">Tarot Stap voor Stap</a> over {{card}}.
+{% endmacro %}
+
+
+{% macro card_row(card, details) %}
+    <tr>
+        <td>
+            <img src="{{ url_for('static', filename=card.img) }}" height=400>
+        </td>
+        <td>
+            {{details}}
+        </td>
+    </tr>
+{% endmacro %}
+
+
+{% block content %}
+    <table>
+        {{ card_row(card, card_details(card)) }}
+    </table>
+{% endblock %}

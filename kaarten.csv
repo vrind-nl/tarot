@@ -1,79 +1,79 @@
-serie,nummer,naam,opmerking,kernwoord,steekwoord,advies,negatief advies
-groot,O,De Dwaas,De Zot,NAÏVETEIT,"Onschuld, onervarenheid, het ongevormde.",Je spontaniteit is een pré.,"Gedachteloosheid, je overziet de consequenties niet."
-groot,I,De Magier,,VAARDIGHEID,"Bewust van kracht en mogelijkheden, je (leer)proces aangaan.",Richt je op wat je wél kunt.,Je neemt teveel hooi op je vork.
-groot,II,De Hogepriesteres,,INTUÏTIE,"Gebruik je verbeelding om het mysterie te ontsluieren. Je eigen wijsheid, diepgang.",Vertrouw op je eigen gevoel.,"Betovering, hou je bij de feiten."
-groot,III,De Keizerin,,SCHOONHEID,"Ontspanning, de overvloed van het leven en de kracht van de bloeiende aarde.",Geniet van wat je hebt.,"Luiheid, hebzucht."
-groot,IV,De Keizer,,VERANTWOORDELIJKHEID,"Autoriteit, besturen, je macht gebruiken, zelfhandhaving.",Neem zelf het heft in handen.,On- of over-verantwoordelijkheid.
-groot,V,De Hogepriester,De Hiërofant,OVERTUIGING,"Staan voor je mening, verkondigen, expertise.",Kom naar buiten met wat jij vindt.,Je luistert slecht naar anderen.
-groot,VI,De Geliefden,,TEGENDELEN,"Dualiteit mannelijk - vrouwelijk; (sexuele) aantrekkingskracht, bewust van tegenstellingen.",Probeer dit met liefde te overwinnen.,Je houdt teveel rekening met anderen.
-groot,VII,De Zegewagen,,STUURMANSKUNST,"Wilskracht, zelfdiscipline, controle, tot stand brengen.",Bepaal je koers en hou die vast.,Teugels te strak of zwalkend.
-groot,VIII,Gerechtigheid,ook XI,RECHTVAARDIGHEID,"Oorzaak en gevolg, schuld en boete.",Erken je eigen aandeel maar niet meer dan dat.,"Schuldgevoelens, onrechtvaardigheid"
-groot,IX,De Kluizenaar,,ALLEEN STAAN,"Je eigen weg gaan, op zoek zijn, dwalen, inkeer en onthechting.",Volg je eigen licht.,"verdwaald, te eigengereid."
-groot,X,Het Rad van Fortuin,,LOT,"Aanvaarding, succes of falen.",Wie niet waagt die niet wint.,Je laat teveel aan het toeval over.
-groot,XI,Kracht,ook VIII,HARTSTOCHT,"Met respekt omgaan met kracht en emoties; temmen, beheersen.",Een besliste maar zachte hand is nodig.,Die Leeuw mag best af en toe eens brullen.
-groot,XII,De Gehangene,,OPOFFERING,"Ergens aan vast zitten, consequenties aanvaarden, beproeving.",Vrije wil is blijmoedig doen wat je moet doen.,Je zit vast.
-groot,XIII,De Dood,,VERGANKELIJKHEID,"Het onvermijdelijke, afscheid, angst, verlies.",Wat moet dood zodat je verder kunt?,Angst is een slechte raadgever.
-groot,XIV,Matigheid,,BALANS,"Afwegen, evenwicht verstand en gevoel. Integratie.",In harmonie komen met jezelf.,"Overmaat schaadt,  ondermaat ook."
-groot,XV,De Duivel,,VERLEIDING,"Obsessie, de Schaduw, sexualiteit, zwart-wit denken.",Doorzie de verleiding / angst.,Slaaf zijn van je verlangens.
-groot,XVI,De Toren,,VERANDERING,"Onvoorziene verandering, crisis, vertwijfeling, loslaten van zekerheid.",Hou het geloof in jezelf vast.,Wachten tot de bom barst.
-groot,XVII,De Ster,,HOOP,"Geloof, een nieuwe richting. Spiritualiteit.",Vertrouw op het bestaan.,"Valse hoop, misplaatst vertrouwen."
-groot,XVIII,De Maan,,GEVOELENS,"Verlangens, droom en daad, Behoefte aan bescherming,uit je schulp kruipen.",Bevrijding van beperkende conditioneringen.,"Kwetsbaarheid, gebondenheid. Angst voor verraad."
-groot,XIX,De Zon,,BEWUSTZIJN,"Creativiteit, speelsheid, levenslust, zelfvertrouwen. Je hart, je kern.",Plezier en ongedwongen jezelf zijn.,Het speelkwartier is allang voorbij.
-groot,XX,Het Oordeel,,OPSTANDING,"Transformatie, het laatste oordeel, verrijzenis.",Laat het verleden los.,Schuldgevoelens en zelfkritiek.
-groot,XXI,De Wereld,,LEVEN,Het leven aangaan zonder jezelf er in te verliezen.,Ga voluit voor wat je wilt bereiken.,Het is tijd voor bezinning.
-Staven,,Aas,,INSPIRATIE,"visie, enthousiasme, vitaliteit.",Bezieling.,Overmoed.
-Staven,2,II,,OVERWEGEN,pionieren.,Alle begin is moeilijk.,Vernieuwing is nog geen verbetering.
-Staven,3,III,,INZICHT,vooruitzien.,Formuleer een helder doel.,Je kunt nu niet meer terug.
-Staven,4,IV,,LOON,naar werken.,Je initiatief is vruchtbaar.,Op je lauweren rusten.
-Staven,5,V,,WEDIJVER,,Strijd haalt het beste in je naar voren.,Blijven hangen in gekissebis.
-Staven,6,VI,,LEIDERSCHAP,zegevieren.,Je verwachtingen komen uit.,Te resultaatgericht.
-Staven,7,VII,,HANDHAVEN,staande houden.,Neem het voor jezelf op.,Voortdurend in de verdediging.
-Staven,8,VIII,,IDEEËN,veel energie.,Uitlaatkleppen vinden.,Teveel tegelijk.
-Staven,9,IX,,BEZINNING,op krachten komen.,Herzie je tactiek.,opgebrand.
-Staven,10,X,,VOLHOUDEN,afmaken.,De laatste loodjes.,Je verdeelt je krachten verkeerd.
-Staven,,Page,,BRAINSTORMEN,op ideeën komen.,Oriënteer je op mogelijkheden.,Tunnelvisie.
-Staven,,Ridder,,DOORZETTEN,"idealen koesteren, overtuigingskracht.",Verruim je horizon.,Te idealistisch.
-Staven,,Koningin,,IDENTITEIT,je eigen belevings- en verbeeldingswereld.,Geloof in jezelf.,Te eigengereid.
-Staven,,Koning,,IDEEËNRIJKDOM,"creativiteit, het heilige vuur.",Hoe zou jij het aanpakken?,ongeduld.
-Pentakels,,Aas,,PRODUKTIVITEIT,"kunde, tot stand brengen, realisme, waarde.",Lever een constructieve bijdrage.,Perfectionisme.
-Pentakels,2,II,,MANIPULATIE,"goochelen, uitgekiende inzet van middelen.",Trek de zaak weer vlot.,Het ene gat met het andere stoppen.
-Pentakels,3,III,,WAARDERING,"vakmanschap, uitvoering, inzet.",Voer je plan uit.,Gevoelig voor kritiek.
-Pentakels,4,IV,,GIERIGHEID,houden wat je hebt.,Wees zuinig op je mogelijkheden.,Materialisme.
-Pentakels,5,V,,ARMOEDE,ontbering.,Wat heb je echt nodig?,Jezelf onderwaarderen.
-Pentakels,6,VI,,EERLIJK DELEN,nood lenigen.,Geven en nemen.,Wrok over onrecht / te kort komen.
-Pentakels,7,VII,,GEDULD,"afwachten, beheren.",Kijk het nog even aan.,"Toekijken, er buiten staan."
-Pentakels,8,VIII,,LEREN,"oefenen, nederig werk.",Verbeter je effectiviteit.,"Sleur, geen plezier in je werk."
-Pentakels,9,IX,,OVERVLOED,"genieten, verfraaien.",Geniet van wat je doet.,Gericht op uiterlijkheden.
-Pentakels,10,X,,WELSTAND,"traditie, iets opbouwen.",Draag bij aan het grotere geheel.,Gefixeerd op zekerheid.
-Pentakels,,Page,,PRAKTISCHE INSTELLING,"behulpzaam, precies, kritisch.",Hoe kun je jezelf nuttig maken?,detaillistisch.
-Pentakels,,Ridder,,MANAGEMENT KWALITEITEN,"organisatievermogen, plichtsgetrouw.",Richt je op het haalbare.,Veeleisend.
-Pentakels,,Koningin,,ZORGVULDIG BEHEREN,"innerlijke zekerheid, zelfwaardering.",Rust en geleidelijkheid.,Behoudzucht.
-Pentakels,,Koning,,ZAKELIJK TALENT,"standvastigheid, autoriteit.",Realisme.,"Rechtlijnig, onbuigzaam."
-Zwaarden,,Aas,,INTELLECTUELE PRESTATIE,"helderheid van geest, objectiviteit.",Een verstandelijke benadering.,In je hoofd zitten.
-Zwaarden,2,II,,ONDERSCHEID,"relativeren, twee kanten van de medaille zien.",Analyseer voor en tegen.,Twijfelen.
-Zwaarden,3,III,,WAARHEID,en die kan zeer doen.,Wind er geen doekjes om.,Onredelijkheid.
-Zwaarden,4,IV,,MEDITATIE,"overwegen, bezinnen.",Slaap er een nachtje over.,Besluiteloosheid.
-Zwaarden,5,V,,ARGUMENTEN,debatteren.,Wapen je met argumenten.,Altijd gelijk willen hebben.
-Zwaarden,6,VI,,DE WIJSTE ZIJN,je terug trekken.,Deze zaak is niet met argumenten te winnen.,Vlucht.
-Zwaarden,7,VII,,BEREKENING,"slimheid, spitsvondigheid.",Verzin een list.,Je wordt in de maling genomen.
-Zwaarden,8,VIII,,VICIEUZE CIRKEL,negatieve gedachtenpatronen.,Je redenering klopt niet.,Cirkelredeneringen.
-Zwaarden,9,IX,,ONTWAKEN,dagend inzicht.,Laat dit eerst bezinken.,Verwarring.
-Zwaarden,10,X,,UITGEDACHT,destructieve gedachten.,Een overtuiging volkomen loslaten.,Faalangst.
-Zwaarden,,Page,,FEITENKENNIS,"verstand van zaken, leren.",Stel jezelf op de hoogte.,Betweterigheid.
-Zwaarden,,Ridder,,BEREDENEREN,"logisch denken, een scherp verstand.",Staan voor je overtuiging.,Te theoretisch.
-Zwaarden,,Koningin,,INZICHT,"innerlijke overtuiging, eerlijkheid.",Rechtvaardigheid.,Rechtlijnigheid.
-Zwaarden,,Koning,,HELDER DENKEN,redelijkheid.,Vel een oordeel.,Te rationeel.
-Kelken,,Aas,,DE STROOM VAN HET LEVEN,"verlangen naar eenheid en verbondenheid, overgave, bewustwording, de bron, de Graal.",Laat je gevoel stromen.,Over-emotioneel.
-Kelken,2,II,,TWEE-EENHEID,verlangen naar een partner.,"Samenwerking, verbondenheid.",Gefixeerd op relatie.
-Kelken,3,III,,STROMEN,"plezier hebben, blijheid.",Laat jezelf eens gaan.,Losbandigheid.
-Kelken,4,IV,,ONTEVREDENHEID,verlangen naar meer.,Het is tijd voor verandering.,Onvervuld.
-Kelken,5,V,,DESILLUSIE,teleurstelling.,Kijk naar wat je wel hebt.,Blijven hangen in verdriet.
-Kelken,6,VI,,VERBINDEN,met wat er wél is.,Verheug je in kleine dingen.,verloren onschuld.
-Kelken,7,VII,,KIEZEN,"illusie, begoocheling.",Wat heb je werkelijk nodig?,Klatergoud.
-Kelken,8,VIII,,ESSENTIE,illusies achter je laten.,Laat het verleden los.,Een nieuwe illusie najagen.
-Kelken,9,IX,,TEVREDENHEID,evenwichtigheid.,Bewaar je gemoedsrust.,Traagheid.
-Kelken,10,X,,GELUK,"de regenboog, het ideaal.",Definieer wat je gelukkig zou maken.,Ophemelen.
-Kelken,,Page,,GELOOF,"fantasie, verbeelding.",Ontwikkel je creativiteit.,Goedgelovigheid.
-Kelken,,Ridder,,RELATIEVAARDIGHEID,"aanvoelen, betrokkenheid.",Zorg voor een goede verstandhouding.,Overbezorgheid.
-Kelken,,Koningin,,SCHOUWEN,"inlevingsvermogen, innerlijk weten.",Erover praten kan je beeld verhelderen.,Navelstaarderij.
-Kelken,,Koning,,EENHEID,"bewustwording, verdraagzaamheid.",Een rots in de branding.,Irreële verwachtingen.
+serie,nummer,naam,opmerking,kernwoord,steekwoord,advies,negatief advies,symbolen
+groot,O,De Dwaas,De Zot,NAÏVETEIT,"Onschuld, onervarenheid, het ongevormde.",Je spontaniteit is een pré.,"Gedachteloosheid, je overziet de consequenties niet.","jonge man, roos, staf, zon, bergen, hond, bloemenkrans"
+groot,I,De Magier,,VAARDIGHEID,"Bewust van kracht en mogelijkheden, je (leer)proces aangaan.",Richt je op wat je wél kunt.,Je neemt teveel hooi op je vork.,"natuur, roos, lelie,baldakijn, altaar, zwaard, staf, kelk, pentakel, jonge man, ourobouros, lemniscaat, bloemen"
+groot,II,De Hogepriesteres,,INTUÏTIE,"Gebruik je verbeelding om het mysterie te ontsluieren. Je eigen wijsheid, diepgang.",Vertrouw op je eigen gevoel.,"Betovering, hou je bij de feiten.","jonge vrouw, sluier, kroon, troon, palmhart, granaatappel, maan, kruis, schriftrol, pilaren, boaz, jachin"
+groot,III,De Keizerin,,SCHOONHEID,"Ontspanning, de overvloed van het leven en de kracht van de bloeiende aarde.",Geniet van wat je hebt.,"Luiheid, hebzucht.","volwassen vrouw, troon, kroon, parels, scepter, venussymbool, stroom, boom, koren"
+groot,IV,De Keizer,,VERANTWOORDELIJKHEID,"Autoriteit, besturen, je macht gebruiken, zelfhandhaving.",Neem zelf het heft in handen.,On- of over-verantwoordelijkheid.,"volwassen man, stroom, berg, troon, kroon, rijksappel, rood kleed"
+groot,V,De Hogepriester,De Hiërofant,OVERTUIGING,"Staan voor je mening, verkondigen, expertise.",Kom naar buiten met wat jij vindt.,Je luistert slecht naar anderen.,"zegening, pilaren, kruis, kroon, adept, rood kleed, sleutel"
+groot,VI,De Geliefden,,TEGENDELEN,"Dualiteit mannelijk - vrouwelijk; (sexuele) aantrekkingskracht, bewust van tegenstellingen.",Probeer dit met liefde te overwinnen.,Je houdt teveel rekening met anderen.,"naaktheid, engel, zegening, appelboom, slang, wolken, bergtop, zon"
+groot,VII,De Zegewagen,,STUURMANSKUNST,"Wilskracht, zelfdiscipline, controle, tot stand brengen.",Bepaal je koers en hou die vast.,Teugels te strak of zwalkend.,"jonge man, kroon, lauwerkrans, ster (achtpuntig), vierkant, yoni, lingam, sfinx, stadsmuur"
+groot,VIII,Gerechtigheid,ook XI,RECHTVAARDIGHEID,"Oorzaak en gevolg, schuld en boete.",Erken je eigen aandeel maar niet meer dan dat.,"Schuldgevoelens, onrechtvaardigheid","volwassen vrouw, zwaard (verticaal), weegschaal, vierkant, troon, pilaren, grijs kleed, rood kleed"
+groot,IX,De Kluizenaar,De Hermiet,ALLEEN STAAN,"Je eigen weg gaan, op zoek zijn, dwalen, inkeer en onthechting.",Volg je eigen licht.,"verdwaald, te eigengereid.","oude man, grijs, lantaarn, staf, ster (achtpuntig), rood kleed, groen kleed, afgewend, links, rechts"
+groot,X,Het Rad van Fortuin,,LOT,"Aanvaarding, succes of falen.",Wie niet waagt die niet wint.,Je laat teveel aan het toeval over.,"engel, arend, stier, leeuw, sfinx, slang, hermanubis, tora, feniks"
+groot,XI,Kracht,ook VIII,HARTSTOCHT,"Met respekt omgaan met kracht en emoties; temmen, beheersen.",Een besliste maar zachte hand is nodig.,Die Leeuw mag best af en toe eens brullen.,"jonge vrouw, leeuw, bloemenkrans, lemniscaat, bergtop"
+groot,XII,De Gehangene,,OPOFFERING,"Ergens aan vast zitten, consequenties aanvaarden, beproeving.",Vrije wil is blijmoedig doen wat je moet doen.,Je zit vast.,"volwassen man, ondersteboven, aureool, kruis"
+groot,XIII,De Dood,,VERGANKELIJKHEID,"Het onvermijdelijke, afscheid, angst, verlies.",Wat moet dood zodat je verder kunt?,Angst is een slechte raadgever.,"wit, vaandel, wolken, toren, zon, koning, bisschop, jonge vrouw, kind, boot"
+groot,XIV,Matigheid,,BALANS,"Afwegen, evenwicht verstand en gevoel. Integratie.",In harmonie komen met jezelf.,"Overmaat schaadt,  ondermaat ook.","engel, natuur, irissen, kelken, pad, driehoek"
+groot,XV,De Duivel,,VERLEIDING,"Obsessie, de Schaduw, sexualiteit, zwart-wit denken.",Doorzie de verleiding / angst.,Slaaf zijn van je verlangens.,"geit, vleermuisvleugels, vogelpoten, borsten, troon, zegening, vierkant, toorts, naaktheid"
+groot,XVI,De Toren,,VERANDERING,"Onvoorziene verandering, crisis, vertwijfeling, loslaten van zekerheid.",Hou het geloof in jezelf vast.,Wachten tot de bom barst.,"toren, vuur, bergtop, wolken, bliksem, kroon, druppel"
+groot,XVII,De Ster,,HOOP,"Geloof, een nieuwe richting. Spiritualiteit.",Vertrouw op het bestaan.,"Valse hoop, misplaatst vertrouwen.","ster (achtpuntig), naaktheid, jonge vrouw, kelken, heuvels, boom met vogel, water"
+groot,XVIII,De Maan,,GEVOELENS,"Verlangens, droom en daad, Behoefte aan bescherming,uit je schulp kruipen.",Bevrijding van beperkende conditioneringen.,"Kwetsbaarheid, gebondenheid. Angst voor verraad.","maan, pad, hond + wolf, hond, water, kreeft, druppel"
+groot,XIX,De Zon,,BEWUSTZIJN,"Creativiteit, speelsheid, levenslust, zelfvertrouwen. Je hart, je kern.",Plezier en ongedwongen jezelf zijn.,Het speelkwartier is allang voorbij.,"kind, bloemenkrans, wit, rood kleed, zon, zonnebloem"
+groot,XX,Het Oordeel,,OPSTANDING,"Transformatie, het laatste oordeel, verrijzenis.",Laat het verleden los.,Schuldgevoelens en zelfkritiek.,"engel, wolken, trompet, volwassen man, volwassen vrouw, kind, grijs, naaktheid"
+groot,XXI,De Wereld,,LEVEN,Het leven aangaan zonder jezelf er in te verliezen.,Ga voluit voor wat je wilt bereiken.,Het is tijd voor bezinning.,"jonge vrouw, staven, lauwerkrans, leeuw, stier, arend, engel"
+Staven,,Aas,,INSPIRATIE,"visie, enthousiasme, vitaliteit.",Bezieling.,Overmoed.,"wolken, stroom, heuvels, burcht, hand, rechts"
+Staven,2,II,,OVERWEGEN,"pionieren, opties afwegen",Alle begin is moeilijk.,Vernieuwing is nog geen verbetering.,"links, water, muur, globe, roos, lelie, berg, rood kleed"
+Staven,3,III,,INZICHT,vooruitzien.,Formuleer een helder doel.,Je kunt nu niet meer terug.,"rechts, rood kleed, groen kleed, boot, water, heuvels"
+Staven,4,IV,,LOON,"oogst, resultaten vieren, harmonieuze samenwerking, terugkerende feesten",Je initiatief is vruchtbaar.,Op je lauweren rusten.,"kasteel, wit kleed, rood kleed, blauw kleed, bloemen"
+Staven,5,V,,WEDIJVER,,Strijd haalt het beste in je naar voren.,Blijven hangen in gekissebis.,
+Staven,6,VI,,LEIDERSCHAP,"zegevieren, mijlpaal, beginnend succes, waardering",Je verwachtingen komen uit.,Te resultaatgericht.,"groen kleed, lauwerkrans, paard"
+Staven,7,VII,,HANDHAVEN,"staande houden, vaak alleen",Neem het voor jezelf op.,Vraag niet voortdurend goedkeuring. Doe het gewoon!,"stroom, heuvels"
+Staven,8,VIII,,IDEEËN,"veel energie, alles op één lijn, van een lijen dakje",Uitlaatkleppen vinden.,Teveel tegelijk.,"stroom, heuvels, linksboven, rechtsonder"
+Staven,9,IX,,BEZINNING,op krachten komen.,De laatste loodjes: zet door,opgebrand: laat los,muur
+Staven,10,X,,VOLHOUDEN,afmaken.,Consolideer,Je verdeelt je krachten verkeerd,stadsmuur
+Staven,,Page,,BRAINSTORMEN,op ideeën komen.,Oriënteer je op mogelijkheden.,Tunnelvisie.,"heuvels, pyramide, rood kleed"
+Staven,,Ridder,,DOORZETTEN,"idealen koesteren, overtuigingskracht.",Verruim je horizon.,Te idealistisch.,"salamander, geel, oranje, paard, harnas, vuur, pyramide"
+Staven,,Koningin,,IDENTITEIT,"je eigen belevings- en verbeeldingswereld, onafhankelijk, kundig",Geloof in jezelf.,Te eigengereid.,"geel kleed, grijs kleed, troon, leeuw, zonnebloem, kroon, bloemenkrans, zwarte kat"
+Staven,,Koning,,IDEEËNRIJKDOM,"creativiteit, inspirerend, charmant, geestig, rechtvaardig, gedisciplineerd",Hoe zou jij het aanpakken?,ongeduld.,"salamander, geel, rood kleed, groen kleed, troon, kroon, ourobouros, afgewend"
+Pentakels,,Aas,,ONTWIKKELING,"kunde, tot stand brengen, realisme, waarde.",Lever een constructieve bijdrage.,Perfectionisme.,"hand, wolken, boog, bloemen, links, roos, lelie, pad, bergtop"
+Pentakels,2,II,,BALANS,"jongleren, evenwicht zoeken/houden, uitgekiende inzet van middelen, oefenen",Trek de zaak weer vlot.,Het ene gat met het andere stoppen.,"lemniscaat, water, boot"
+Pentakels,3,III,,WAARDERING,"Meesterproef, vakmanschap, uitvoering, inzet",Voer je plan uit.,Gevoelig voor kritiek.,"monnik, hamer"
+Pentakels,4,IV,,GIERIGHEID,"houden wat je hebt, energiestroom blokkeren, hebzucht",Wees zuinig op je mogelijkheden.,Materialisme.,toren
+Pentakels,5,V,,ARMOEDE,"(angst voor) ontbering, gebrek, kou",Wat heb je echt nodig?,Jezelf onderwaarderen.,bel
+Pentakels,6,VI,,DELEN,Delen = vermenigvuldigen,Geven en nemen.,Wrok over onrecht / te kort komen.,"rood kleed, zegening, boom, burcht, weegschaal, geel kleed, blauw kleed"
+Pentakels,7,VII,,GEDULD,"afwachten, beheren",Kijk het nog even aan.,"Toekijken, er buiten staan.",
+Pentakels,8,VIII,,LEREN,"oefenen, nederig werk.",Verbeter je effectiviteit.,"Sleur, geen plezier in je werk.",hamer
+Pentakels,9,IX,,OVERVLOED,"genieten, verfraaien.",Geniet van wat je doet.,Gericht op uiterlijkheden.,"druiven, kasteel, geel kleed, valk, wijnhuisslak"
+Pentakels,10,X,,WELSTAND,"traditie, iets opbouwen, zekerheid, welvaart, gezin",Draag bij aan het grotere geheel.,Gefixeerd op zekerheid.,"druiven, hond, burcht, toren, poort, weegschaal, oude man"
+Pentakels,,Page,,PRAKTISCHE INSTELLING,"behulpzaam, precies, kritisch, student",Hoe kun je jezelf nuttig maken?,"detaillistisch, vluchtige belangstelling","natuur, heuvels, bloemen, groen kleed"
+Pentakels,,Ridder,,MANAGEMENT KWALITEITEN,"organisatievermogen, plichtsgetrouw, degelijk",Richt je op het haalbare.,Veeleisend.,"paard, harnas, rood kleed, afgewend"
+Pentakels,,Koningin,,ZORGVULDIG BEHEREN,"innerlijke zekerheid, zelfwaardering.",Rust en geleidelijkheid.,Behoudzucht.,"natuur, troon, kroon, bloemen, berg, cupido, geit, haas, afgewend"
+Pentakels,,Koning,,ZAKELIJK TALENT,"standvastigheid, autoriteit.",Realisme.,"Rechtlijnig, onbuigzaam.","stier, druiven, troon, kroon, harnas, groen kleed"
+Zwaarden,,Aas,,INTELLECTUELE PRESTATIE,"helderheid van geest, objectiviteit.",Een verstandelijke benadering.,In je hoofd zitten.,"wolken, hand, kroon, robijn, olijfblad, palmtak"
+Zwaarden,2,II,,ONDERSCHEID,"relativeren, twee kanten van de medaille zien, twijfel",Analyseer voor en tegen.,Twijfelen.,"wit kleed, water, heuvels, kubus, blinddoek, maan"
+Zwaarden,3,III,,VERDRIET,en die kan zeer doen.,Wind er geen doekjes om.,Onredelijkheid.,"hartvorm, wolken, grijs"
+Zwaarden,4,IV,,MEDITATIE,"overwegen, bezinnen, rusten, herstellen",Slaap er een nachtje over.,Besluiteloosheid.,"grijs, ridder"
+Zwaarden,5,V,,JALOEZIE,"debatteren, negatieve gedachtepatronen",Wapen je met argumenten.,Altijd gelijk willen hebben.,
+Zwaarden,6,VI,,DE WIJSTE ZIJN,je terug trekken.,Deze zaak is niet met argumenten te winnen.,Vlucht.,"water, golven"
+Zwaarden,7,VII,,BEREKENING,"slimheid, spitsvondigheid, oneerlijkheid",Verzin een list.,Je wordt in de maling genomen.,
+Zwaarden,8,VIII,,GEVANGEN,negatieve gedachtenpatronen.,Je redenering klopt niet.,Cirkelredeneringen.,"blinddoek, burcht, water, berg"
+Zwaarden,9,IX,,ONTWAKEN,dagend inzicht.,Laat dit eerst bezinken.,Verwarring.,"afgewend, roos, wit kleed, oosten"
+Zwaarden,10,X,,EINDE,destructieve gedachten.,Een overtuiging volkomen loslaten.,Faalangst.,"water, zon, heuvels, rood kleed, zegening"
+Zwaarden,,Page,,WAAKZAAM,"verstand van zaken, opmerkzaam",Stel jezelf op de hoogte.,Betweterigheid.,"wolken, heuvels, vogel"
+Zwaarden,,Ridder,,DURF,"logisch denken, een scherp verstand.",Staan voor je overtuiging.,Te theoretisch.,"oranje, rood kleed, paard, harnas, vogel"
+Zwaarden,,Koningin,,WIJSHEID,"innerlijke overtuiging, eerlijkheid, levenswijsheid, heldere/rustige geest",Rechtvaardigheid.,Rechtlijnigheid.,"afgewend, wolken, troon, kroon, wit kleed, volwassen vrouw"
+Zwaarden,,Koning,,DENKER,"De gedachte gaat aan de manifestatie vooraf, handhaver, rationeel, hard, dominant",Vel een oordeel.,Te rationeel.,"troon, kroon, blauw kleed, paars kleed, wolken, heuvels, boom"
+Kelken,,Aas,,DE STROOM VAN HET LEVEN,"verlangen naar eenheid en verbondenheid, overgave, bewustwording, de bron, de Graal.",Laat je gevoel stromen.,Over-emotioneel.,"rechts, hand, wolken, water, duif, yod, lelie"
+Kelken,2,II,,CONFLICT,"verlangen naar een partner (eventueel platonisch), gevoel vs verstand","Samenwerking, verbondenheid.",Gefixeerd op relatie.,"lauwerkrans, roos, slang, leeuw, heuvels"
+Kelken,3,III,,FEEST,"plezier hebben, blijheid.",Laat jezelf eens gaan.,Losbandigheid.,"druiven, bloemen, rood kleed, geel kleed, wit kleed"
+Kelken,4,IV,,ONTEVREDENHEID,"verlangen naar meer, lusteloosheid, meditatie",Het is tijd voor verandering.,Onvervuld.,"hand, wolken, boom, links"
+Kelken,5,V,,DESILLUSIE,"teleurstelling, verlies",Kijk naar wat je wel hebt.,Blijven hangen in verdriet.,"grijs, water, brug, burcht, afgewend, zwart kleed, bloed"
+Kelken,6,VI,,VERBINDEN,"met wat er wél is, delen vanuit overvloed, vreugde schenken",Verheug je in kleine dingen.,"verloren onschuld, zinloze nostalgie","dwaas, vrouw, lelie, burcht"
+Kelken,7,VII,,KIEZEN,"illusie, begoocheling.",Wat heb je werkelijk nodig?,Klatergoud.,"slang, lauwerkrans, draak, edelstenen, burcht, engel, wolken, afgewend"
+Kelken,8,VIII,,NIEUW PAD,"illusies achter je laten, het roer om",Laat het verleden los.,Een nieuwe illusie najagen.,"maan, water, berg, rood kleed"
+Kelken,9,IX,,TEVREDENHEID,"evenwichtigheid, dromen zijn werkelijkheid geworden, innerlijk geluk",Bewaar je gemoedsrust.,Luiheid en arrogantie,"blauw kleed,"
+Kelken,10,X,,GELUK,"huiselijk geluk, welzijn, voltooiing",Definieer wat je gelukkig zou maken.,Ophemelen.,"regenboog, water, gezin, huis, afgewend"
+Kelken,,Page,,VERWONDERING,"fantasie, verbeelding, puberteit",Ontwikkel je creativiteit.,Goedgelovigheid.,"lotus, vis, golven"
+Kelken,,Ridder,,ZOEKTOCHT,"aanvoelen, betrokkenheid.",Zorg voor een goede verstandhouding.,Overbezorgheid.,"hermusvleugels, harnas, paard, water, heuvels, vis, afgewend"
+Kelken,,Koningin,,SCHOUWEN,"inlevingsvermogen, innerlijk weten.",Erover praten kan je beeld verhelderen.,Navelstaarderij.,"water, troon, kroon, wit kleed, afgewend"
+Kelken,,Koning,,EENHEID,"bewustwording, verdraagzaamheid, gevoelig man, onderhandelaar, brede belangstelling",Een rots in de branding.,Onderdrukte gevoelens,"golven, vis, boot, kroon, troon, scepter, geel kleed, blauw kleed"

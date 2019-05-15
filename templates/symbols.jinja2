@@ -1,0 +1,10 @@
+{% extends "base.jinja2" %}
+
+
+{% block content %}
+    <table>
+        {% for symbol in symbols.symbolen %}
+            <tr><td><a name="{{symbol}}" />{{symbol}}</td><td>{{symbols.get(symbol)}}</td></tr>
+        {% endfor %}
+    </table>
+{% endblock content %}

@@ -1,101 +1,231 @@
-naam,zie,betekenis,kaarten
-Grote Arcana 1-10,,verwerven van eigenschappen en innerlijke kwaliteiten,
-Grote Arcana 11-20,,leren omgaan met de ervaringen die het leven brengt,
-,,,
-Kleine Arcana Nummers,,dingen die je zelf in de hand hebt,
-Kleine Arcana Hof,,invloeden (van/naar je omgeving),
-,,,
-Kelken,,"hart, emotie, water",magiër
-Zwaarden,,"verstand, denken, lucht",magiër
-Staven,,"geest, intuïtie/ideeën, vuur",magiër
-Pentakels,,"thuis, zintuigen, aarde",magiër
-,,,
-harten,kelken,,
-schoppen,zwaarden,,
-klavers,staven,,
-ruiten,pentakels,,
-,,,
-I,,"eenheid, begin","magiër, aas"
-II,,"tweestrijd, tegenstelling, dualiteit",hogepriesteres
-III,,"harmonie, gemak, groei, vruchtbaarheid, zie drie-eenheid",keizerin
-IV,,"inspanning, ontwikkeling, vaste structuur",keizer
-V,,"doorzetten, problemen oplossen",hogepriester
-VI,,delen,geliefden
-VII,,toepassen,zegewagen
-VIII,,"wetmatigheid, keuzes, oorzaak-gevolg",gerechtigheid
-IX,,"vervulling, perspectief",kluizenaar
-X,,"overgang, einde=begin",rad
-XII,,dierenriem,gehangene
-,,,
-page,,"boodschapper, nieuwsgierig, kans",
-ridder,,"strijder, werker",
-koningin,,"wijsheid, volwassenheid",
-koning,,"gezag, competentie",
-,,,
-lemniscaat,,oneindige verbondenheid,magiër
-Ourobouros riem,,"circulair proces, eenheid van alles",magiër
-rozen,,hartverlangens,magiër
-lelies,,hartverlangens,magiër
-wit kleed,,"onschuld, open",magiër
-rood kleed,,"fysieke manifestatie, macht","magiër, PVI"
-lingam,,fallussymbool (zie ook yoni),magiër
-jonge vrouw,,maagd,hogepriesteres
-sluier,,"mysterie, ontdekken",hogepriesteres
-troon,,macht,hogepriesteres
-Jakin,,"kracht, mededogen (vorm)",hogepriesteres
-Boaz,,"bevestigen, strengheid (intentie)",hogepriesteres
-water,,"oerzee, universele energie, spiegel",hogepriesteres
-granaatappel,,mensen in groep,hogepriesteres
-palmhart,,stijgen naar hoger niveau,hogepriesteres
-maan,,"vrouwelijkheid, intuïtie",hogepriesteres
-boekrol,,intuïtieve bron,hogepriesteres
-tora,,goddelijke wet of leer,hogepriesteres
-venus,,godin van liefde en vruchtbaarheid,keizerin
-bomen,,levenskracht,keizerin
-koren,,"rijke oogst, toegeweid moederschap, scheppende kracht",keizerin
-scepter,,,keizerin
-rijksappel,,macht over aarde,keizerin
-kroon,,,keizerin
-mirte,,"liefde, huwelijk, vruchtbaarheid",keizerin
-parels,,"vrouw, verleiding",keizerin
-lauwerkrans ,,vergankelijke macht,keizerin
-graan,koren,,
-rivier,,waterbron,keizerin
-hartvorm,,"vrouw, aantrekkingskracht",keizerin
-bergen,,"standvastigheid, aarde",keizer
-ankh (scepter),,eeuwig leven,keizer
-drie-eenheid,,"geest/ziel/lichaam, vader/zoon/heilige geest, hemel/aarde/hel",hogepriester
-tweesprong,,keuze,hogepriester
-Y-vorm,,zie tweesprong,hogepriester
-sleutels (gekruisd),,open en sluiten,hogepriester
-sleutel,,"meesterschap, toegang (tot de hemel)",hogepriester
-appelboom,,"boom van kennis (van goed en kwaad), bewustzijn",geliefden
-vijgenblad,,verschuilen,geliefden
-sfinx,,"wijsheid, levensvragen, macht, middelpunt","zegewagen, rad"
-harnas,,"mannelijkheid, beschermer",zegewagen
-sterren,,hemel,zegewagen
-zon,,"schepper, God",zegewagen
-yoni,,vrouwelijke geslachtsorganen (zie lingam),zegewagen
-pilaren,,"wijsheid, evenwicht","hogepriester, gerechtigheid"
-voorhang (bij pilaren),,"verborgen, innerlijk (tegenovergesteld bij ontbreken)","hogepriester, gerechtigheid"
-zwaard (geheven),,scherpzinnigheid,gerechtigheid
-weegschaal,,"evenwicht, rechtvaardigheid, juiste verhoudingen",gerechtigheid
-saffier,,,gerechtigheid
-wit,,ware' spiritualiteit,kluizenaar
-lantaarn,,wegwijzen,kluizenaar
-davidsster,,harmonie,kluizenaar
-linkerzijde,,terugblikken,kluizenaar
-stier,,zie aarde,rad
-leeuw,,zie vuur,rad
-engel,,zie lucht,rad
-arend,,"zie water, zie feniks",rad
-aarde,,vruchtbaarheid,
-vuur,,kracht,
-lucht,,"denken, liefhebben",
-feniks,,verjonging (door drievoudige onderdompeling in water),
-slang,,verleiding,"geliefden, rad"
-jakhalsgod Anubis,,"voorbode van de dood, begeleider van zielen naar onderwereld",rad
-rad,,cyclus,rad
-zwavel,,ziel,rad
-kwik,,geest,rad
-zout,,fysiek lichaam,
+naam,zie,betekenis
+Grote Arcana 1-10,,verwerven van eigenschappen en innerlijke kwaliteiten
+Grote Arcana 11-20,,leren omgaan met de ervaringen die het leven brengt
+,,
+nummerkaart,,dingen die je zelf in de hand hebt
+hofkaart,,invloeden (van/naar je omgeving)
+,,
+Kelken,,"hart, emotie, water"
+Zwaarden,,"verstand, denken, lucht"
+Staven,,"geest, intuïtie/ideeën, vuur"
+Pentakels,,"thuis, zintuigen, aarde"
+,,
+Kelk,kelken,
+zwaard,zwaarden,
+staf,staven,
+Pentakel,pentakels,
+,,
+harten,kelken,
+schoppen,zwaarden,
+klavers,staven,
+ruiten,pentakels,
+,,
+O,,"leegte, alomvattendheid"
+I,,"eenheid, begin, potentie, oorsprong"
+II,,"tweestrijd, vergelijking, dualiteit"
+III,Drie-eenheid,"harmonie, gemak, groei, vruchtbaarheid, leerling"
+IV,elementen,"ordening, volmaaktheid"
+V,zintuigen,"doorzetten, problemen oplossen, beweging, gezel"
+VI,,"verantwoordelijkheid, dienstvaardigheid"
+VII,,"Succesvol toepassen, de meester"
+VIII,,"crisis, gevaar, karma"
+IX,,"vervulling, perspectief, de bouwmeester"
+X,,"overgang, einde=begin"
+XI,,"openbaring, inspiratie"
+XII,,dierenriem
+XXII,,de bouwmeester
+,,
+aas,I,
+page,jonge man,"boodschapper, nieuwsgierig, kans"
+ridder,,"strijder, werker, beschermen van zwakkeren "
+koningin,volwassen vrouw,"wijsheid, volwassenheid"
+koning,volwassen man,"gezag, competentie"
+,,
+aarde,,vruchtbaarheid
+adept,monnik,
+adept,geestelijke,"toewijding, toetreding"
+afgewend,,terugblikken
+altaar,,religie
+ankh,scepter,eeuwig leven
+ankh,jakhalsgod,
+appelboom,,"boom van kennis (van goed en kwaad), bewustzijn"
+arend,"water, feniks",god ziet de mens
+aureool,,"diepe trance, verandering in bewustzijn"
+baldakijn,troonhemel,
+bel,,"melaatsheid, ziekte"
+berg,,"standvastigheid, aarde, mystieke reis"
+bergtop,bergen,plaats dicht bij god
+bisschop,geestelijke,uiterlijke religie
+blaadjes,yod,
+blauw,,"rust, vrede, intelligentie, stabiliteit, loyaal, conservatief"
+blauw kleed,blauw,
+bliksem,,"goddelijke communicatie, vernietiging"
+blinddoek,,"onwetendheid, verblinding, overgeleverd zijn aan het lot"
+bloed,,"liefde, levenskracht"
+bloemen,,"natuurlijke levenskracht, levensvreugde, actief en viriel"
+Bloemenkrans,bloemen,
+Boaz,,"bevestigen, strengheid (intentie)"
+boekrol,,intuïtieve bron
+boog,poort,
+boom,,levenskracht
+Boom met vogel,,"kennis, intelligentie, het goddelijke Woord"
+boot,,"reis door de onderwereld, beschermd door de goden"
+borsten,,"verborgen vruchtbaarheid, de mogelijkheid te creeëren en te vermenigvuldigen zonder de ander/Ander, androgyne figuur"
+brug,,overgang
+burcht,,"bescherming, veilige thuishaven"
+cupido,,liefde
+davidsster,,harmonie
+draak,"vuur, slang","tegenstander, schatbewaker, onsterfelijkheid"
+drie-eenheid,,"geest/ziel/lichaam, vader/zoon/heilige geest, hemel/aarde/hel"
+driehoek,"vuur, drie-eenheid",
+druiven,,"overvloed, rijke oogst"
+druppel,"dauw, yod","genade, vrede, hoop"
+duif,,"brenger van vrede, heilige geest"
+dwaas,de dwaas,
+edelstenen,,"hebzucht, materialisme"
+elementen,"water, vuur, lucht, aarde",
+engel,lucht,oorsprong van de mens
+feniks,,verjonging (door drievoudige onderdompeling in water)
+geel,,"(zon) levenskracht en warmte, bevordert concentratie, geestelijke activiteit, nadenken, vrolijkheid, fantasie, jaloezie, lafheid, onrust"
+geel kleed,geel,
+geestelijke,hiërofant,
+geit,,"Voedster, doorzettingsvermogen, seksueel plezier"
+gezin,,huiselijk geluk
+globe,,de wereld ontdekken/veroveren
+golven,water,"wisselende stemmingen, wisselend succes"
+graan,koren,
+granaatappel,,mensen in groep
+grijs,"zwart, wit","harmonie (zwart en wit gemengd), rust en onopvallendheid, intelligentie en creativiteit"
+grijs kleed,grijs,"eenvoud, bewust leven"
+groen,"blauw, geel","groei, ontwikkeling, harmonie, ontspanning, verveling, weerstand"
+groen kleed,groen,"afremmen, rusten, verlagen"
+groene omgeving,natuur,
+haag,muur,
+haas,,"vruchtbaarheid, opofferingsgezindheid, loyaal"
+hamer,,"kracht, activiteit"
+hand,,hand van god
+harnas,,"mannelijkheid, beschermer"
+hartvorm,,"vrouw, aantrekkingskracht, emoties, het onbewuste"
+hermanubis,jakhalsgod,
+hermus,,boodschapper van de goden
+hermusvleugels,hermus,
+heuvels,,"initiatie, vruchtbaarheid"
+hiërofant,hogepriester,
+Hond,,"trouw, waakzaam, getemd, kent de weg, ongebreidelde lust"
+Hond + wolf,,getemde en ongetemde energiën (in de mens)
+huis,gezin,"geborgenheid, thuis"
+irissen,,boodschappers
+Jachin,,"kracht, mededogen (vorm)"
+jakhalsgod,,"voorbode van de dood, begeleider van zielen naar onderwereld"
+jod,yod,
+jonge man,man,
+jonge vrouw,vrouw,"maagd, (nog) niet seksueel actief"
+kasteel,burcht,
+kind,,"goddelijke onschuld, het resultaat van de samensmelting tussen de mannelijke en vrouwelijke energie, einde van de dualiteit, vernieuwde eenheid"
+koren,,"rijke oogst, toegeweid moederschap, scheppende kracht"
+kreeft,,"de angsten en illusies willen zich manifesteren, rusteloosheid"
+kringloop,,"circulair proces, eenheid van alles"
+kroon,,"wereldse macht, talent, meesterschap"
+kruis,,religie
+kubus,,het aardse
+kwik,,geest
+lantaarn,,wegwijzen
+lauwerkrans ,,"vergankelijke macht, zegeviering na (innerlijke) strijd"
+leeuw,vuur,"moedige bewaker van grenzen, gevestigde macht, eenling, koning der dieren"
+lelie,,"hartverlangens, maagdelijkheid, reinheid, onschuld, goddelijke genade/gaven"
+lemniscaat,,oneindige verbondenheid
+lingam,,fallussymbool (zie ook yoni)
+links,,"vrouwelijke kant, intuïtie, binnen, verleden"
+linksboven,,gedachtenwereld
+lotus,,"spiritualiteit, kunst, inzicht, zelfvernieuwing"
+lucht,,"denken, liefhebben"
+maan,vrouw,"gids in donkere tijden (de maan reflecteert het licht van de zon), passiviteit"
+man,,"zichtbare, spirituele leider"
+mirte,,"liefde, huwelijk, vruchtbaarheid"
+monnik,,"aanbidding, onderwerping"
+muur,,"veiligheid, bescherming, het sensitieve leven is afgescheiden van het goddelijke leven"
+naaktheid,,goddelijkheid
+natuur,,werken met en in de natuur
+olijfblad,,vrede
+ondersteboven,,omgekeerde zienswijze
+oosten,,zegebrengend
+oranje,"geel, rood","passie, hartstocht, optimisme, overdaad, losbandig"
+oude man,,"ervaren, bewust van zijn pad"
+oude man,,wijsheid
+ourobouros,kringloop,
+paard,,"kracht en vitaliteit, edel en intelligent, fierheid, werklust"
+paars,,
+paars kleed,paars,
+pad,,"reis, bestemming, herkomst"
+palmhart,,stijgen naar hoger niveau
+palmtak,,overwinning
+parels,,"vrouw, verleiding"
+pilaren,,"wijsheid, evenwicht in de wereld"
+poort,,"doorgang, toegang, naar hemel/hel"
+pyramide,,"energie, occulte wijsheid, universele wetten"
+rad,,cyclus
+ram,,"daadkracht, onvoorzichtig, onvoorspelbaar, autoriteit, leiderschap, aggressiviteit"
+rechtsonder,,fysieke wereld
+rechts,oosten,"mannelijke kant, verstand, buiten, toekomst"
+regenboog,,"zegen van boven, goddelijke bescherming, (geestelijke) rijkdom"
+rijksappel,,macht over aarde
+rivier,,waterbron
+robijn,,"koninklijke waardigheid, hartstochtelijke liefde, levenskracht"
+rood,,"fysieke manifestatie, lichamelijkheid, macht, levenskracht"
+rood kleed,rood,
+roos,,hartverlangens
+saffier,,"geeft gemoedsrust en sereniteit en zorgt voor harmonie op het fysieke, geestelijke en spirituele vlak. Saffier kalmeert de geest, helpt je om te concentreren, laat je je zorgen vergeten en verlicht stress. Saffier staat voor kracht voor je pad en verbondenheid met de Goddelijke wereld."
+salamander,vuur,"geestelijk inzicht, ziel"
+scepter,,wereldse macht
+schip,boot,
+schriftrol,tora,
+sfinx,,"wijsheid, levensvragen, macht, middelpunt, balans"
+slang,kringloop,"verleiding, onderwereld, dodenrijk"
+sleutel,,"meesterschap, toegang (tot de hemel), open en sluiten"
+sluier,,"mysterie, ontdekken"
+stadsmuur,,herkomst
+ster (achtpuntig),,verdrijft als ochtendster de duisternis; vruchtbaarheid
+sterren,,hemel
+stier,aarde,"Offeren, mannelijke vruchtbaarheid, agressie, vechtlust"
+stroom,,zichtbare mysterie
+toorts,,"goddelijke energie, verschroeïng"
+tora,,goddelijke wet of leer
+toren,,"menselijke hoogmoed, huis van God, toren van Babel, de hel"
+trompet,,oproep van de Hogere Natuur 
+troon,,macht
+troonhemel,troon,
+tweesprong,,keuze
+vaandel,,zijn wapen is het leven zelf
+valk,,"adel, koninklijk, alziend oog, onkwetsbaar"
+venussymbool,,godin van liefde en vruchtbaarheid
+vierkant,aarde,
+vijgenblad,,verschuilen
+vis,,"diepgaande transformatie, inwijding"
+vleermuisvleugels,,"onze tijd van leven vervliegt bij dag en nacht, bij goed en kwaad"
+vogel,,"vrijheid, van ver halen"
+vogelpoten,,
+volwassen man,man,"viriele, beschermende kracht"
+Volwassen vrouw,vrouw,"actieve, vruchtbare kracht, moeder"
+voorhang (bij pilaren),,"verborgen, innerlijk (tegenovergesteld bij ontbreken)"
+vrouw,,intuïtie
+vuur,,"kracht, zowel verterend als reinigend"
+water,,"Emoties, gevoelens, oerzee, universele energie, spiegel, de diepte van de ziel, het nog niet gemanifesteerde"
+weegschaal,,"evenwicht, rechtvaardigheid, juiste verhoudingen, voortdurende aanpassing om gerechtigheid te garanderen"
+wereldbol,globe,
+wijnhuisslak,,"wedergeboorte, opstanding"
+wit,,"onschuld, open, zuiver, ‘ware' spiritualiteit, naïviteit, leegte, perfectionisme"
+wit kleed,wit,
+wolken,,scheiding tussen zichtbare en onzichtbare wereld
+Y-vorm,,zie tweesprong
+yod,,het kleinste teken van het Hebreeuwse alfabet (druppel/blad-vorm) en de eerste letter van de naam van God: JHWH
+yoni,,vrouwelijke geslachtsorganen (zie lingam)
+zegening,,creeëren van evenwicht
+zintuigen,,"horen, zien, ruiken, proeven, voelen"
+zon,,"het licht dat de mensheid leidt, schepper, God, levenskracht"
+zonnebloem,zo,"waarheidslievend, wilskracht en vitaliteit, roem en overwinning"
+zout,,fysiek lichaam
+zwaard (verticaal),,"scherpzinnigheid, gerechtigheid"
+zwart,,"nacht, duisternis, rebellie"
+zwart kleed,zwart,"rouw, verdriet"
+zwarte kat,zwart,"Vrijheidsdrang, intuïtieve gaven, magie, ongeluk, waarschuwer"
+zwavel,,ziel

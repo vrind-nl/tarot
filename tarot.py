@@ -1,6 +1,9 @@
+from collections import defaultdict
 import csv
 import os
 import random
+
+from flask import url_for
 
 
 class Card:
@@ -8,59 +11,60 @@ class Card:
     numbers = 'nul een twee drie vier vijf zes zeven acht negen tien'.split()
 
     def __init__(self, attrs):
-        self.attrs = attrs
+        self.nummer = attrs['nummer']
+        self.naam = attrs['naam']
+        self.serie = attrs['serie']
+        self.kernwoord = attrs['kernwoord']
+        self.steekwoord = attrs['steekwoord']
+        self.advies = attrs['advies']
+        self.negatief_advies = attrs['negatief advies']
+        self.opmerking = attrs['opmerking']
+        self.symbolen = sorted(s.strip() for s in attrs['symbolen'].split(',') if s)
 
     def __str__(self):
-        nummer = self.attrs['nummer']
-        naam = self.attrs['naam']
-        serie = self.attrs['serie']
-        if serie == 'groot':
-            naam = '%s (%s)' % (naam, nummer)
+        naam = self.naam
+        if self.serie == 'groot':
+            naam = '%s (%s)' % (naam, self.nummer)
         else:
-            naam = 'de %s van %s' % (naam, serie)
+            naam = 'de %s van %s' % (naam, self.serie)
         
         return naam
 
     @property
     def img(self):
-        nummer = self.attrs['nummer']
-        naam = self.attrs['naam']
-        serie = self.attrs['serie']
-        if serie == 'groot':
-            naam = 'GroteArcana/%s-%s' % (nummer, naam)
+        naam = self.naam
+        if self.serie == 'groot':
+            naam = 'GroteArcana/%s-%s' % (self.nummer, naam)
         else:
-            naam = 'KleineArcana/%s/%s-%s' % (serie, serie, naam)
+            naam = 'KleineArcana/%s/%s-%s' % (self.serie, self.serie, naam)
         
-        naam = naam.replace(' ', '-')
-        return '%s.jpg' % (naam)
+        return '%s.jpg' % naam.replace(' ', '-')
 
     def randattr(self):
         return random.choice(['kernwoord', 'steekwoord', 'advies', 'negatief advies'])
 
     def get(self, attr):
-        val = self.attrs[attr]
+        val = getattr(self, attr)
         if attr == 'steekwoord':
             val = random.choice(val.split(', '))
         return val
 
     @property
     def url(self):
-        nummer = self.attrs['nummer']
-        naam = self.attrs['naam']
-        serie = self.attrs['serie']
+        naam = self.naam
 
         # special cases
-        if serie == 'Zwaarden' and nummer == '9':
+        if self.serie == 'Zwaarden' and self.nummer == '9':
             return 'http://tarotstapvoorstap.nl/tarot-vragen/zwaarden-9-uit-de-tarot-ook-dit-gaat-voorbij/'
-        if serie == 'Staven' and nummer == '6':
+        if self.serie == 'Staven' and self.nummer == '6':
             return 'http://tarotstapvoorstap.nl/tarotkaarten/tarotkaarten-staven-zes/'
-        if serie == 'Pentakels' and naam == 'Page':
+        if self.serie == 'Pentakels' and self.naam == 'Page':
             return 'http://tarotstapvoorstap.nl/tarotkaarten/tarotkaart-pentakels-schildknaap-page/'
-        if serie == 'groot' and naam == 'De Dwaas':
+        if self.serie == 'groot' and self.naam == 'De Dwaas':
             return 'http://tarotstapvoorstap.nl/tarotkaarten/de-dwaas-tarot-nul/'
 
         # general case
-        if serie in ['groot']:
+        if self.serie in ['groot']:
             if naam == 'Kracht':
                 naam = 'De Kracht'
             elif naam == 'De Hogepriesteres':
@@ -68,7 +72,7 @@ class Card:
             naam = 'tarotkaart-%s' % naam
         else:
             try:
-                naam = self.numbers[int(nummer)]
+                naam = self.numbers[int(self.nummer)]
             except IndexError:
                 pass
             except ValueError:
@@ -77,12 +81,11 @@ class Card:
             if naam == 'Page':
                 naam = 'schildknaap'
                 
-            naam = 'tarotkaart-%s-%s' % (serie, naam)
-            if serie in ['Pentakels'] and (nummer or self.attrs['naam'] == 'Aas'):
+            naam = 'tarotkaart-%s-%s' % (self.serie, naam)
+            if self.serie in ['Pentakels'] and (self.nummer or self.naam == 'Aas'):
                 naam = 'rider-waite-%s' % naam
         
-        naam = naam.replace(' ', '-').lower()
-        return 'https://tarotstapvoorstap.nl/tarotkaarten/%s/' % naam
+        return 'https://tarotstapvoorstap.nl/tarotkaarten/%s/' % naam.replace(' ', '-').lower()
        
 
 class Question:
@@ -126,6 +129,44 @@ class Deck:
     def nr(self, card):
         return self.cards.index(card)
 
+    def directions(self, nr):
+        if nr == 0:
+            return (11, 21, 1, 21)
+        elif nr == 1:
+            return (0,2,11,10)
+        elif nr == 21:
+            return (20,0,10,0)
+        elif nr == 10:
+            return (21,1,20,9)
+
+        if self.cards[nr].serie == 'groot':
+            return (
+                nr - 10 if nr > 10 else nr + 10,
+                nr + 1 if nr < 20 else 11,
+                nr + 10 if nr < 11 else nr - 10,
+                nr - 1 if nr > 1 else 20
+            )
+        else:
+            return (
+                nr - 14 if nr > 35 else nr + 42,
+                nr + 1 if nr < 77 else 14,
+                nr + 14 if nr < 36 else nr - 42,
+                nr - 1 if nr > 22 else 77
+            )
+
+        return (0,0,0,0)
+
+class Symbool:
+
+    def __init__(self, row):
+        self.naam = row['naam'].strip().lower()
+        self.betekenis = row['betekenis']
+        self.referenties = [r.strip().lower() for r in row['zie'].split(',') if r]
+
+    def __str__(self):
+        return self.naam
+
+
 class Symboliek:
 
     def __init__(self, filename='symboliek.csv'):
@@ -133,4 +174,26 @@ class Symboliek:
         with open(filename) as fin:
             reader = csv.DictReader(fin)
             for row in reader:
-                self.symbolen[row['naam'].lower()] = row['betekenis']
+                if row['naam']:
+                    symbool = Symbool(row)
+                    self.symbolen[symbool.naam] = symbool
+
+    def get(self, naam):
+        try:
+            symbool = self.symbolen[naam.lower()]
+        except KeyError:
+            return ''
+        betekenis = symbool.betekenis
+        if betekenis:
+            if symbool.referenties:
+                betekenis += ' (zie ook %s)' % ', '.join(self.link(r) for r in symbool.referenties)
+        else:
+            referenties = ['%s (via %s)' % (self.get(ref), ref) for ref in symbool.referenties]
+            betekenis = ' '.join(referenties)
+
+        return betekenis
+
+    @staticmethod
+    def link(name):
+        url = url_for('symbols')
+        return '<a href="%s#%s">%s</a>' % (url, name, name)

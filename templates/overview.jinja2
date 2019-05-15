@@ -1,0 +1,77 @@
+{% extends "base.jinja2" %}
+
+
+{% macro render_card(card, nr) %}
+    <a href="{{ url_for('card', nr=nr) }}"><img src="{{ url_for('static', filename=card.img) }}" height=200></a><br/>{{card.get('kernwoord')}}
+{% endmacro %}
+
+
+{% macro render_cards(cards, start, end) %}
+    {% for nr in range(start, end) %}
+        <td>{{render_card(cards[nr], nr)}}</td>
+    {% endfor %}
+{% endmacro %}
+
+
+{% block content %}
+    <style>
+        td {
+            text-align: center;
+        }
+    </style>
+    <h2>Grote arcana</h2>
+    <table>
+        <tr>
+            <td>&nbsp;</td>
+            <td>{{render_card(deck.cards[0], 0)}}</td>
+            <td colspan=8>&nbsp;</td>
+            <td>{{render_card(deck.cards[21], 21)}}</td>
+        </tr>
+        <tr>
+            <td>I-X: {{symbols.get('grote arcana 1-10')}}</td>
+            {{render_cards(deck.cards, 1, 11)}}
+        </tr>
+        <tr>
+            <td>XI-XX: {{symbols.get('grote arcana 11-20')}}</td>
+            {{render_cards(deck.cards, 11, 21)}}
+        </tr>
+    </table>
+
+    <h2>Kleine arcana</h2>
+    <table>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&lt;</td>
+            <td colspan=8>Nummers: {{symbols.get('nummerkaart')}}</td>
+            <td>&gt;</td>
+            <td>&lt;</td>
+            <td colspan=2>Hof: {{symbols.get('hofkaart')}}</td>
+            <td>&gt;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            {% for nr in ROMANS %}
+                <td>{{nr}}: {{symbols.get(nr)}}</td>
+            {% endfor %}
+            {% for nr in HOFKAARTEN %}
+                <td>{{nr}}: {{symbols.get(nr)}}</td>
+            {% endfor %}
+        </tr>
+        <tr>
+            <td>Staven: {{symbols.get('staven')}}</td>
+            {{render_cards(deck.cards, 22, 36)}}
+        </tr>
+        <tr>
+            <td>Pentakels: {{symbols.get('pentakels')}}</td>
+            {{render_cards(deck.cards, 36, 50)}}
+        </tr>
+        <tr>
+            <td>Zwaarden: {{symbols.get('zwaarden')}}</td>
+            {{render_cards(deck.cards, 50, 64)}}
+        </tr>
+        <tr>
+            <td>Kelken: {{symbols.get('kelken')}}</td>
+            {{render_cards(deck.cards, 64, 78)}}
+        </tr>
+    </table>
+{% endblock content %}

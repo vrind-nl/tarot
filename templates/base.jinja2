@@ -10,7 +10,12 @@
     </style>
   </head>
   <body>
-    <h1>Tarot trainer</h1>
+    <h1><a href="{{ url_for('index') }}">Tarot trainer</a></h1>
+    {% set ROMANS = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X'] %}
+    {% set NUMMERKAARTEN = ['Aas'] + ROMANS[1:] %}
+    {% set HOFKAARTEN = ['Page', 'Ridder', 'Koningin', 'Koning'] %}
+    {% set PLAATJES = ['Aas'] + HOFKAARTEN %}
+    {% set KAARTEN = NUMMERKAARTEN + HOFKAARTEN %}
     {% block content %}{% endblock content %}
   </body>
 </html>
