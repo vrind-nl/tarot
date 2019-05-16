@@ -151,20 +151,20 @@ class Deck:
     def url(self, card):
         return url_for('card', nr=self.nr(card))
 
-    def link(self, symbol):
-        return '<a href="%s">%s</a>' % (symbol.url, symbol.naam)
+    def link(self, card):
+        return '<a href="%s?hidden=0">%s</a>' % (self.url(card), card.naam)
 
     def directions(self, nr):
         if nr == 0:
             return (11, 1, 1, 21)
         elif nr == 1:
             return (0,2,11,21)
+        elif nr == 11:
+            return (1,12,0,10)
         elif nr == 20:
             return (10,21,21,19)
         elif nr == 21:
             return (20,0,10,20)
-        elif nr == 10:
-            return (21,11,20,9)
 
         if self.cards[nr].serie == 'groot':
             return (

@@ -11,7 +11,7 @@
                 <script src='{{ url_for('static', filename='question.js') }}'></script>
                 <h2>Quiz-vraag</h2>
                 
-                {{question}}
+                <p>{{question}}</p>
 
                 {% set answer = question.answer.get_attr(question.attr) %}
                 <p>

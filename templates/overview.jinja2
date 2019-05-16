@@ -29,6 +29,12 @@
             <td>{{render_card(deck.cards[21], 21)}}</td>
         </tr>
         <tr>
+            <td>&nbsp;</td>
+            {% for nr in ROMANS %}
+                <td>{{nr}}: {{symbols.get(nr)}}</td>
+            {% endfor %}
+        </tr>
+        <tr>
             <td>I-X: {{symbols.get('grote arcana 1-10')}}</td>
             {{render_cards(deck.cards, 1, 11)}}
         </tr>

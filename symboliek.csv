@@ -1,12 +1,14 @@
 naam,zie,betekenis
+Grote Arcana,,"de grote geheimen van het leven, elke kaart is een archetype/persoonlijkheid"
 Grote Arcana 1-10,,verwerven van eigenschappen en innerlijke kwaliteiten
 Grote Arcana 11-20,,leren omgaan met de ervaringen die het leven brengt
+Kleine Arcana,,geheimen van het alledaagse leven
 ,,
 nummerkaart,,dingen die je zelf in de hand hebt
 hofkaart,,invloeden (van/naar je omgeving)
 ,,
 Staven,,"geest, intuïtie/ideeën, vuur, boeren/arbeiders"
-Pentakels,,"thuis, zintuigen, aarde/praktisch, ambachtslieden/handelaars"
+Pentakels,V,"thuis, zintuigen/praktisch, aarde, ambachtslieden/handelaars"
 Zwaarden,,"verstand, denken, lucht, adel"
 Kelken,,"hart, emotie, water, geestelijkheid/staatslieden"
 ,,
@@ -21,16 +23,16 @@ schoppen,zwaarden,
 harten,kelken,
 ,,
 ,,
-O,,"leegte, alomvattendheid"
-I,,"eenheid, begin, potentie, oorsprong"
-II,,"tweestrijd, vergelijking, dualiteit"
-III,Drie-eenheid,"harmonie, gemak, groei, vruchtbaarheid, leerling"
-IV,elementen,"ordening, volmaaktheid"
-V,zintuigen,"doorzetten, problemen oplossen, beweging, moraal, gezel"
-VI,,"verantwoordelijkheid, dienstvaardigheid"
-VII,,"Succesvol toepassen, de meester"
-VIII,,"crisis, gevaar, karma"
-IX,,"vervulling, perspectief, de bouwmeester"
+O,,"leegte, alomvattendheid, kosmische invloed"
+I,,"eenheid, oorsprong, potentie"
+II,,"spiegelbeeld, dualiteit"
+III,Drie-eenheid,"vruchtbaarheid, overvloed, gilden: leerling"
+IV,"elementen, aarde","standvastig, rechtvaardig, materie"
+V,zintuigen,"doorzetten, zoeken, moraal, gilden: gezel"
+VI,,"verantwoordelijkheid, dienstvaardigheid, perfectie"
+VII,,"heelheid, toeval, gilden: meester"
+VIII,,"crisis, gevaar, karma, promiscu"
+IX,,"vervulling, horizon, gilden: bouwmeester"
 X,,"overgang, einde=begin"
 XI,,"openbaring, inspiratie"
 XII,,"volledigheid, perfectie, deelbaarheid"
@@ -49,6 +51,7 @@ altaar,,religie
 ankh,scepter,eeuwig leven
 ankh,jakhalsgod,
 appelboom,,"boom van kennis (van goed en kwaad), bewustzijn"
+arcana,,geheimen
 arend,"water, feniks",god ziet de mens
 aureool,,"diepe trance, verandering in bewustzijn"
 baldakijn,troonhemel,
@@ -79,7 +82,7 @@ davidsster,,harmonie
 doodshoofd,,"de dood, sterfelijkheid"
 draak,"vuur, slang","tegenstander, schatbewaker, onsterfelijkheid"
 drie-eenheid,,"geest/ziel/lichaam, vader/zoon/heilige geest, hemel/aarde/hel"
-driehoek,"Drie-eenheid, vuur",
+driehoek,"III, vuur",geest
 druiven,,"overvloed, rijke oogst"
 druppel,"dauw, yod","genade, vrede, hoop"
 duif,,"brenger van vrede, heilige geest"
@@ -106,26 +109,28 @@ haag,muur,
 haas,,"vruchtbaarheid, opofferingsgezindheid, loyaal"
 hamer,,"kracht, activiteit"
 hand,,hand van god
-harnas,,"mannelijkheid, beschermer"
+harnas,,"mannelijkheid, beschermer, streng, onbuigzaam"
 hartvorm,,"vrouw, aantrekkingskracht, emoties, het onbewuste"
 hermanubis,jakhalsgod,
 hermes,,boodschapper van de goden
 hermesvleugels,hermes,
 heuvels,,"initiatie, vruchtbaarheid"
 hiërofant,hogepriester,
-hond,,"trouw, waakzaam, getemd, kent de weg, ongebreidelde lust"
+hond,,"trouw, waakzaam, getemd, kent de weg, ongebreidelde lust, instinct"
 hond + wolf,,getemde en ongetemde energiën (in de mens)
 hostie,,offer
 huis,gezin,"geborgenheid, thuis"
 iris,,boodschappers
 Jachin,,"kracht, mededogen (vorm)"
 jakhalsgod,,"voorbode van de dood, begeleider van zielen naar onderwereld"
+Jahwe,,"de geheime, onuitspreekbare naam van God"
 jod,yod,
 jonge man,man,
-jonge vrouw,vrouw,"maagd, (nog) niet seksueel actief"
+jonge vrouw,vrouw,
 kasteel,burcht,
 ketens,,"gebondenheid, verbondenheid"
 kind,,"goddelijke onschuld, het resultaat van de samensmelting tussen de mannelijke en vrouwelijke energie, einde van de dualiteit, vernieuwde eenheid"
+knapzak,,wereldse bezittingen
 koren,,"rijke oogst, toegeweid moederschap, scheppende kracht"
 kreeft,,"primitief dier, de angsten en illusies willen zich manifesteren, rusteloosheid"
 kringloop,,"circulair proces, eenheid van alles"
@@ -137,12 +142,13 @@ lantaarn,,wegwijzen
 lauwerkrans ,,"vergankelijke macht, zegeviering na (innerlijke) strijd"
 leeuw,vuur,"moedige bewaker van grenzen, gevestigde macht, eenling, koning der dieren"
 lelie,,"hartverlangens, maagdelijkheid, reinheid, onschuld, goddelijke genade/gaven"
-lemniscaat,,oneindige verbondenheid
+lemniscaat,,"oneindige verbondenheid, heilige geest"
 lingam,,fallussymbool (zie ook yoni)
 links,,"vrouwelijke kant, intuïtie, binnen, verleden"
 linksboven,,gedachtenwereld
 lotus,,"spiritualiteit, kunst, inzicht, zelfvernieuwing"
 lucht,,"denken, liefhebben"
+maagd,jonge vrouw,(nog) niet seksueel actief
 maan,vrouw,"gids in donkere tijden (de maan reflecteert het licht van de zon), passiviteit"
 man,,"zichtbare, spirituele leider"
 mirte,,"liefde, huwelijk, vruchtbaarheid"
@@ -156,7 +162,7 @@ oosten,,zegebrengend
 oranje,"geel, rood","passie, hartstocht, optimisme, overdaad, losbandig"
 oude man,,"ervaren, bewust van zijn pad"
 oude man,,wijsheid
-ourobouros,kringloop,
+ourobouros,kringloop,slangengordel
 paard,,"kracht en vitaliteit, edel en intelligent, fierheid, werklust"
 paars,,"inventiviteit, inspiratie, originaliteit, spiritualiteit, boete doen"
 paars kleed,paars,
@@ -192,18 +198,18 @@ stadsmuur,,herkomst
 ster (achtpuntig),,"verdrijft als ochtendster de duisternis,  vruchtbaarheid"
 sterren,,hemel
 stier,aarde,"offeren, mannelijke vruchtbaarheid, agressie, vechtlust"
-stroom,water,zichtbare mysterie
+stroom,waterbron,zichtbare mysterie
 toorts,,"goddelijke energie, verschroeïng"
 tora,,goddelijke wet of leer
 toren,,"menselijke hoogmoed, huis van God, toren van Babel, de hel"
-trompet,,oproep van de Hogere Natuur 
+bazuin,,oproep van de Hogere Natuur 
 troon,,macht
 troonhemel,troon,
 tweesprong,,keuze
 vaandel,,zijn wapen is het leven zelf
 valk,,"adel, koninklijk, alziend oog, onkwetsbaar"
 venussymbool,,godin van liefde en vruchtbaarheid
-vierkant,aarde,
+vierkant,"IV, aarde",materie
 vijgenblad,,verschuilen
 vis,,"diepgaande transformatie, inwijding"
 vleermuisvleugels,,"onze tijd van leven vervliegt bij dag en nacht, bij goed en kwaad"
@@ -215,6 +221,7 @@ voorhang (bij pilaren),,"verborgen, innerlijk (tegenovergesteld bij ontbreken)"
 vrouw,,intuïtie
 vuur,,"kracht, zowel verterend als reinigend"
 water,,"Emoties, gevoelens, oerzee, universele energie, spiegel, de diepte van de ziel, het nog niet gemanifesteerde"
+waterbron,water,geneeskrachtig
 weegschaal,,"evenwicht, rechtvaardigheid, juiste verhoudingen, voortdurende aanpassing om gerechtigheid te garanderen"
 wereldbol,globe,
 wijnhuisslak,,"wedergeboorte, opstanding"

@@ -9,6 +9,10 @@
         <button onclick="explanation()">Toelichting</button>
     {% endif %}
     {{ card_info(card, nr) }}
+{% endmacro %}
+
+
+{% block navigation %}
     <hr/>
     {{ card_navigation(card) }}
-{% endmacro %}
+{% endblock %}

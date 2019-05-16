@@ -15,11 +15,37 @@
           color: white;
           border-color: white;
       }
+      nav {
+        overflow: hidden;
+        background-color: darkgrey;
+        margin: 3pt;
+        border-radius: 3pt;
+      }
+      nav a {
+        float: left;
+        color: white;
+        text-align: center;
+        padding: 8px 8px;
+        text-decoration: none;
+      }
+      nav a:hover {
+        background-color: #555;
+      }
     </style>
     {% block head %}{% endblock %}
   </head>
   <body class="container">
-    <h1><a href="{{ url_for('index') }}">Tarot trainer</a></h1>
+    <nav>
+      <h1 style="padding-left: 3pt; margin-bottom: 0;">Tarot trainer </h1>
+
+      <a href="{{ url_for('overview') }}">Overzicht</a>
+      <a href="{{ url_for('symbols') }}">Symboliek</a>
+      <a href="{{ url_for('cards', nr=3) }}">Kaartlegging</a>
+      <a href="{{ url_for('turned', nr=3) }}">Kaartlegging (met omgekeerd)</a>
+      <a href="{{ url_for('study') }}">Uitleg</a>
+      <a href="{{ url_for('question') }}">Quiz</a>
+    </nav>
+
     {% set ROMANS = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X'] %}
     {% set NUMMERKAARTEN = ['Aas'] + ROMANS[1:] %}
     {% set HOFKAARTEN = ['Page', 'Ridder', 'Koningin', 'Koning'] %}

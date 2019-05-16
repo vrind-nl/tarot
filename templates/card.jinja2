@@ -3,7 +3,6 @@
 
 {% macro card_info(card, nr) %}
 <div class="{{hidden}} explanation">
-    <h3>{{card}}</h3>
     <table>
         {% if card.serie == 'groot' %}
             {% if nr > 0 and nr <= 10 %}
@@ -63,18 +62,6 @@
 {% endmacro %}
 
 
-{% macro card_row(card, details) %}
-    <tr>
-        <td>
-            <img src="{{ url_for('static', filename=card.img) }}" height=400>
-        </td>
-        <td>
-            {{details}}
-        </td>
-    </tr>
-{% endmacro %}
-
-
 {% block head %}
     <script src="{{ url_for('static', filename='cards.js') }}"></script>
     <style>
@@ -87,6 +74,15 @@
 
 {% block content %}
     <table>
-        {{ card_row(card, card_details(card)) }}
+        <tr>
+            <td>
+                <h3>{{card}}</h3>
+                <img src="{{ url_for('static', filename=card.img) }}" height=400>
+                {% block navigation %}{% endblock %}
+            </td>
+            <td>
+                {{ card_details(card) }}
+            </td>
+        </tr>
     </table>
 {% endblock %}

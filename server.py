@@ -14,7 +14,7 @@ deck = tarot.Deck(symboliek)
 
 @app.route("/")
 def index():
-    return render_template('index.jinja2')
+    return overview()
 
 
 @app.route("/card/<int:nr>")

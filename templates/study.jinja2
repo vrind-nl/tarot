@@ -8,7 +8,16 @@
 
 
 {% block content %}
-<h2>Beknopte handleiding</h2>
+<h2>Beknopte uitleg</h2>
+
+<p>Op deze site heb ik kennis van Tarot verzameld. Deze kennis komt uit verschillende bronnen, waaronder:
+<li>Het kleinde boekje bij mijn kaarten.</li>
+<li><a href="https://tarotstapvoorstap.nl">Tarot Stap voor Stap</a></li>
+<li><a href="http://www.inspiratiesite.nl/TAROT HANDLEIDING.pdf">Tarot handleiding</a> van Jan de Graaf.</li>
+<li><a href="https://nl.wikipedia.org/wiki/Tarot">wikipedia</a> en een <a href="https://nl.wikibooks.org/wiki/Tarot/">wikibook</a></li>
+</p>
+<p>Bij verschillen tussen de bronnen heb ik intuïtief mijn voorkeur gekozen.</p>
+
 <h3>Nummers</h3>
 <ul>
     {% for nr in ROMANS %}
@@ -16,53 +25,57 @@
     {% endfor %}
 </ul>
 
-<h3>Grote arcana</h3>
+<h3>Kaarten</h3>
 <ul>
-    {% set card = deck.cards[0] %}
-    <li>{{card.nummer}} {{card.naam}}: {{card.kernwoord}}
-    <li>I-X: {{symbols.get('grote arcana 1-10')}}</li>
+    <li>Arcana: {{symbols.get('arcana')}}</li>
+    <li>Grote Arcana (troeven): {{symbols.get('grote arcana')}}</li>
     <ul>
-        {% for card in deck.cards[1:10] %}
-            <li>{{card.nummer}} {{card.naam}}: {{card.kernwoord}}
-        {% endfor %}
+        {% set card = deck.cards[0] %}
+        <li>{{card.nummer}} {{card.naam}}: {{card.kernwoord}}
+        <li>I-X: {{symbols.get('grote arcana 1-10')}}</li>
+        <ul>
+            {% for card in deck.cards[1:10] %}
+                <li>{{card.nummer}} {{card.naam}}: {{card.kernwoord}}
+            {% endfor %}
+        </ul>
+        <li>XI-XX: {{symbols.get('grote arcana 11-20')}}</li>
+        <ul>
+            {% for card in deck.cards[10:20] %}
+                <li>{{card.nummer}} {{card.naam}}: {{card.kernwoord}}
+            {% endfor %}
+        </ul>
+        {% set card = deck.cards[21] %}
+        <li>{{card.nummer}} {{card.naam}}: {{card.kernwoord}}
     </ul>
-    <li>XI-XX: {{symbols.get('grote arcana 11-20')}}</li>
+
+    <li>Kleine Arcana: {{symbols.get('kleine arcana')}}</li>
     <ul>
-        {% for card in deck.cards[10:20] %}
-            <li>{{card.nummer}} {{card.naam}}: {{card.kernwoord}}
-        {% endfor %}
+        <li>Kleuren</li>
+            <ul>
+                {% for serie in ['Staven', 'Pentakels', 'Zwaarden', 'Kelken'] %}
+                    <li>{{serie}}: {{symbols.get(serie)}}</li>
+                {% endfor %}
+            </ul>
+        <li>De volgorde van de kleuren is relevant:</li>
+            <ol>
+                <li>staven: het idee</li>
+                <li>pentakels: vorm geven aan het idee</li>
+                <li>zwaarden: begrijpen van het idee (afstand en overzicht)</li>
+                <li>kelken: eigen maken van het idee (inleven)</li>
+            </ol>
+        <li>Deelseries</li>
+            <ul>
+                <li>Nummerkaart: {{symbols.get('Nummerkaart')}}</li>
+                <ul>
+                    <li>zie "Nummers"</li>
+                    <li>Voor de "Aas", zie "I".</li>
+                </ul>
+                <li>Hofkaart: {{symbols.get('Hofkaart')}}</li>
+                <ul>
+                    {% for card in HOFKAARTEN %}
+                        <li>{{card}}: {{symbols.get(card)}}</li>
+                    {% endfor %}
+                </ul>
+            </ul>
     </ul>
-    {% set card = deck.cards[21] %}
-    <li>{{card.nummer}} {{card.naam}}: {{card.kernwoord}}
-</ul>
-
-<h3>Kleine arcana</h3>
-<h4>Kleuren</h4>
-<ul>
-    {% for serie in ['Staven', 'Pentakels', 'Zwaarden', 'Kelken'] %}
-        <li>{{serie}}: {{symbols.get(serie)}}</li>
-    {% endfor %}
-</ul>
-De volgorde van de kleuren is relevant:
-<ol>
-    <li>staven: het idee</li>
-    <li>pentakels: vorm geven aan het idee</li>
-    <li>zwaarden: begrijpen van het idee (afstand en overzicht)</li>
-    <li>kelken: eigen maken van het idee (inleven)</li>
-</ol>
-
-<h4>Kaartsoorten</h4>
-<h5>Deelseries</h5>
-<ul>
-    {% for serie in ['Nummerkaart', 'Hofkaart'] %}
-        <li>{{serie}}: {{symbols.get(serie)}}</li>
-    {% endfor %}
-    <ul>
-        {% for card in HOFKAARTEN %}
-            <li>{{card}}: {{symbols.get(card)}}</li>
-        {% endfor %}
-    </ul>
-</ul>
-
-Voor de Nummerkaarten, zie "Nummers". Voor de "Aas", zie "I".
 {% endblock content %}
