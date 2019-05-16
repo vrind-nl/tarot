@@ -11,14 +11,14 @@
                 <tr><td>Grote arcana XI-XX:</td><td>{{symbols.get('grote arcana 11-20')}}</td></tr>
             {% endif %}
             {% if nr <= 12 %}
-                <tr><td>{{card.nummer}}:</td><td>{{symbols.get(card.nummer)}}</td></tr>
+                <tr><td>{{card.getal}}:</td><td>{{symbols.get(card.getal)}}</td></tr>
             {% endif %}
         {% else %}
             {% for symbol in ['serie', 'naam'] %}
                 <tr><td>{{card[symbol]}}:</td><td>{{symbols.get(card[symbol])}}</td></tr>
             {% endfor %}
-            {% if card.nummer or card.naam == 'Aas' %}
-                <tr><td>Nummerkaart:</td><td>{{symbols.get('nummerkaart')}}</td></tr>
+            {% if card.getal or card.naam == 'Aas' %}
+                <tr><td>getallen:</td><td>{{symbols.get('getallen')}}</td></tr>
             {% else %}
                 <tr><td>Hofkaart:</td><td>{{symbols.get('hofkaart')}}</td></tr>
             {% endif %}
@@ -73,10 +73,10 @@
 
 
 {% block content %}
+    <h3>{{card | capitalize}}</h3>
     <table>
         <tr>
             <td>
-                <h3>{{card}}</h3>
                 <img src="{{ url_for('static', filename=card.img) }}" height=400>
                 {% block navigation %}{% endblock %}
             </td>

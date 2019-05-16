@@ -1,9 +1,12 @@
 {% extends "base.jinja2" %}
 
+{% macro card_details(card) %}
+    <li>{{card.getal}} {{card.naam}}: {{card.kernwoord}}</li>
+{% endmacro %}
+
+
 {% macro list_cards(cards) %}
-    {% for card in cards %}
-        <li>{{card.nummer}} {{card.naam}}: {{card.kernwoord}}
-    {% endfor %}
+    <ul>{% for card in cards %} {{ card_details(card) }} {% endfor %}</ul>
 {% endmacro %}
 
 
@@ -12,13 +15,14 @@
 
 <p>Op deze site heb ik kennis van Tarot verzameld. Deze kennis komt uit verschillende bronnen, waaronder:
 <li>Het kleinde boekje bij mijn kaarten.</li>
-<li><a href="https://tarotstapvoorstap.nl">Tarot Stap voor Stap</a></li>
-<li><a href="http://www.inspiratiesite.nl/TAROT HANDLEIDING.pdf">Tarot handleiding</a> van Jan de Graaf.</li>
-<li><a href="https://nl.wikipedia.org/wiki/Tarot">wikipedia</a> en een <a href="https://nl.wikibooks.org/wiki/Tarot/">wikibook</a></li>
+<li><a target="_blank" href="https://tarotstapvoorstap.nl">Tarot Stap voor Stap</a></li>
+<li><a target="_blank" href="http://www.inspiratiesite.nl/TAROT HANDLEIDING.pdf">Tarot handleiding</a> van Jan de Graaf.</li>
+<li><a target="_blank" href="https://nl.wikipedia.org/wiki/Tarot">wikipedia</a> en een <a href="https://nl.wikibooks.org/wiki/Tarot/">wikibook</a></li>
+<li><a target="_blank" href="https://www.tijdgeest.eu/orakels/tarotkaarten">Tijdgeest</a></li>
 </p>
 <p>Bij verschillen tussen de bronnen heb ik intuïtief mijn voorkeur gekozen.</p>
 
-<h3>Nummers</h3>
+<h3>Getallen</h3>
 <ul>
     {% for nr in ROMANS %}
         <li>{{nr}}: {{symbols.get(nr)}}</li>
@@ -30,23 +34,20 @@
     <li>Arcana: {{symbols.get('arcana')}}</li>
     <li>Grote Arcana (troeven): {{symbols.get('grote arcana')}}</li>
     <ul>
-        {% set card = deck.cards[0] %}
-        <li>{{card.nummer}} {{card.naam}}: {{card.kernwoord}}
+        {{ card_details(deck.cards[0]) }}
         <li>I-X: {{symbols.get('grote arcana 1-10')}}</li>
-        <ul>
-            {% for card in deck.cards[1:10] %}
-                <li>{{card.nummer}} {{card.naam}}: {{card.kernwoord}}
-            {% endfor %}
-        </ul>
+            {{ list_cards(deck.cards[1:10]) }}
         <li>XI-XX: {{symbols.get('grote arcana 11-20')}}</li>
-        <ul>
-            {% for card in deck.cards[10:20] %}
-                <li>{{card.nummer}} {{card.naam}}: {{card.kernwoord}}
-            {% endfor %}
-        </ul>
-        {% set card = deck.cards[21] %}
-        <li>{{card.nummer}} {{card.naam}}: {{card.kernwoord}}
+            {{ list_cards(deck.cards[10:20]) }}
+        {{ card_details(deck.cards[21]) }}
     </ul>
+    <li>Grote Arcana (indeling naar levensfasen)</li>
+        <ul>
+            <li>O: Geboorte / De vonk</li>
+            <li>I-V: Jeugd / Drijfveren</li>
+            <li>VI-XII: Volwassen / Zelfontdekking / Het IK</li>
+            <li>XIII-XXI: Ouderdom / Inpassing / Bestemming</li>
+        </ul>
 
     <li>Kleine Arcana: {{symbols.get('kleine arcana')}}</li>
     <ul>
@@ -65,9 +66,9 @@
             </ol>
         <li>Deelseries</li>
             <ul>
-                <li>Nummerkaart: {{symbols.get('Nummerkaart')}}</li>
+                <li>getallen: {{symbols.get('getallen')}}</li>
                 <ul>
-                    <li>zie "Nummers"</li>
+                    <li>zie "Getallen"</li>
                     <li>Voor de "Aas", zie "I".</li>
                 </ul>
                 <li>Hofkaart: {{symbols.get('Hofkaart')}}</li>

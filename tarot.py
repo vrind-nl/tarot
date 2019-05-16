@@ -30,7 +30,7 @@ class Card:
     numbers = 'nul een twee drie vier vijf zes zeven acht negen tien'.split()
 
     def __init__(self, attrs):
-        self.nummer = attrs['nummer']
+        self.getal = attrs['getal']
         self.naam = attrs['naam']
         self.serie = attrs['serie']
         self.kernwoord = attrs['kernwoord']
@@ -43,7 +43,7 @@ class Card:
     def __str__(self):
         naam = self.naam
         if self.serie == 'groot':
-            naam = '%s (%s)' % (naam, self.nummer)
+            naam = '%s (%s)' % (naam, self.getal)
         else:
             naam = 'de %s van %s' % (naam, self.serie)
         
@@ -53,7 +53,7 @@ class Card:
     def img(self):
         naam = self.naam
         if self.serie == 'groot':
-            naam = 'GroteArcana/%s-%s' % (self.nummer, naam)
+            naam = 'GroteArcana/%s-%s' % (self.getal, naam)
         else:
             naam = 'KleineArcana/%s/%s-%s' % (self.serie, self.serie, naam)
         
@@ -78,9 +78,9 @@ class Card:
         naam = self.naam
 
         # special cases
-        if self.serie == 'Zwaarden' and self.nummer == '9':
+        if self.serie == 'Zwaarden' and self.getal == '9':
             return 'http://tarotstapvoorstap.nl/tarot-vragen/zwaarden-9-uit-de-tarot-ook-dit-gaat-voorbij/'
-        if self.serie == 'Staven' and self.nummer == '6':
+        if self.serie == 'Staven' and self.getal == '6':
             return 'http://tarotstapvoorstap.nl/tarotkaarten/tarotkaarten-staven-zes/'
         if self.serie == 'Pentakels' and self.naam == 'Page':
             return 'http://tarotstapvoorstap.nl/tarotkaarten/tarotkaart-pentakels-schildknaap-page/'
@@ -96,7 +96,7 @@ class Card:
             naam = 'tarotkaart-%s' % naam
         else:
             try:
-                naam = self.numbers[int(self.nummer)]
+                naam = self.numbers[int(self.getal)]
             except IndexError:
                 pass
             except ValueError:
@@ -106,7 +106,7 @@ class Card:
                 naam = 'schildknaap'
                 
             naam = 'tarotkaart-%s-%s' % (self.serie, naam)
-            if self.serie in ['Pentakels'] and (self.nummer or self.naam == 'Aas'):
+            if self.serie in ['Pentakels'] and (self.getal or self.naam == 'Aas'):
                 naam = 'rider-waite-%s' % naam
         
         return 'https://tarotstapvoorstap.nl/tarotkaarten/%s/' % naam.replace(' ', '-').lower()
