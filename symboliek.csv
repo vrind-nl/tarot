@@ -1,16 +1,16 @@
 naam,zie,betekenis
-Grote Arcana,,"de grote geheimen van het leven, elke kaart is een archetype/persoonlijkheid"
+Grote Arcana,,"de grote geheimen van het leven, archetypes"
 Grote Arcana 1-10,,verwerven van eigenschappen en innerlijke kwaliteiten
 Grote Arcana 11-20,,leren omgaan met de ervaringen die het leven brengt
 Kleine Arcana,,geheimen van het alledaagse leven
 ,,
-getallen,,Doen (dingen die je zelf in de hand hebt)
+getallen,,Doen/hebben (dingen die je zelf in de hand hebt)
 hofkaart,,Zijn (invloeden van/naar je omgeving)
 ,,
-Staven,,"willen, intuïtie/ideeën, vuur, boeren/arbeiders"
-Pentakels,V,"doen, zintuigen/praktisch, aarde, ambachtslieden/handelaars"
-Zwaarden,,"denken, verstand, lucht, adel"
-Kelken,,"voelen, emotie, water, geestelijkheid/staatslieden"
+Staven,vuur,"willen/initiatief, intuïtie/ideeën, boeren/arbeiders"
+Pentakels,"Aarde, V","doen, zintuigen/praktisch, ambachtslieden/handelaars"
+Zwaarden,lucht,"denken, verstand, adel"
+Kelken,water,"voelen, emotie, geestelijkheid/staatslieden"
 ,,
 staf,staven,
 Pentakel,pentakels,
@@ -24,16 +24,16 @@ harten,kelken,
 ,,
 ,,
 O,,"leegte, alomvattendheid, kosmische invloed"
-I,,"eenheid, oorsprong, potentie"
-II,,"spiegelbeeld, dualiteit"
-III,Drie-eenheid,"vruchtbaarheid, overvloed, gilden: leerling"
-IV,"elementen, aarde","standvastig, rechtvaardig, materie"
-V,zintuigen,"doorzetten, zoeken, moraal, gilden: gezel"
-VI,,"verantwoordelijkheid, dienstvaardigheid, perfectie"
-VII,,"heelheid, toeval, gilden: meester"
-VIII,,"crisis, gevaar, karma, promiscu"
+I,,"Potentie, eenheid, oorsprong"
+II,,"Dualiteit, spiegelbeeld"
+III,Drie-eenheid,"groei, vruchtbaarheid, gilden: leerling"
+IV,elementen,"stabiliteit, vorming, rechtvaardig, materie"
+V,zintuigen,"doorzetten, zoeken, zingeving, gilden: gezel"
+VI,,"kantelpunt, dienstvaardigheid"
+VII,,"Zelfkennnis, paradox, toeval, gilden: meester"
+VIII,,"kiezen, karma, promiscu"
 IX,,"vervulling, horizon, gilden: bouwmeester"
-X,,"overgang, einde=begin"
+X,,"Climax, overgang, einde=begin"
 XI,,"openbaring, inspiratie"
 XII,,"volledigheid, perfectie, deelbaarheid"
 XXII,,de bouwmeester
@@ -60,7 +60,7 @@ berg,,"standvastigheid, aarde, mystieke reis"
 bergtop,berg,plaats dicht bij god
 bisschop,geestelijke,uiterlijke religie
 blaadjes,yod,
-blauw,,"rust, vrede, intelligentie, stabiliteit, loyaal, conservatief"
+blauw,,"rust, vrede, intelligentie, stabiliteit, loyaal, conservatief, koelheid"
 blauw kleed,blauw,
 bliksem,,"goddelijke communicatie, vernietiging"
 blinddoek,,"onwetendheid, verblinding, overgeleverd zijn aan het lot"
@@ -91,7 +91,7 @@ edelstenen,,"hebzucht, materialisme"
 elementen,"water, vuur, lucht, aarde",
 engel,lucht,"boodschapper van god, oorsprong van de mens"
 feniks,,"verjonging (door drievoudige onderdompeling in water), herboren ziel"
-geel,,"(zon) levenskracht en warmte, bevordert concentratie, geestelijke activiteit, nadenken, vrolijkheid, fantasie, jaloezie, lafheid, onrust"
+geel,,"(zon) levenskracht en warmte, nadenken, vrolijkheid, creativiteit, afgunst, onrust"
 geel kleed,geel,
 geestelijke,hiërofant,"toewijding, toetreding"
 geit,,"voedster, doorzettingsvermogen, seksueel plezier"
@@ -100,7 +100,7 @@ globe,,de wereld ontdekken/veroveren
 golven,water,"wisselende stemmingen, wisselend succes"
 graan,koren,
 granaatappel,,mensen in groep
-grijs,"zwart, wit","harmonie (zwart en wit gemengd), rust en onopvallendheid, intelligentie en creativiteit"
+grijs,"zwart, wit","harmonie (zwart en wit gemengd), rust en onopvallendheid, evenwicht, wijsheid"
 grijs kleed,grijs,"eenvoud, bewust leven"
 groen,"blauw, geel","groei, ontwikkeling, harmonie, ontspanning, verveling, weerstand"
 groen kleed,groen,"afremmen, rusten, verlagen"
@@ -147,7 +147,7 @@ lingam,,fallussymbool (zie ook yoni)
 links,,"vrouwelijke kant, intuïtie, binnen, verleden"
 linksboven,,gedachtenwereld
 lotus,,"spiritualiteit, kunst, inzicht, zelfvernieuwing"
-lucht,,"denken, liefhebben"
+lucht,,"denken, liefhebben, van iedereen"
 maagd,jonge vrouw,(nog) niet seksueel actief
 maan,vrouw,"gids in donkere tijden (de maan reflecteert het licht van de zon), passiviteit"
 man,,"zichtbare, spirituele leider"
@@ -182,7 +182,7 @@ regenboog,,"zegen van boven, goddelijke bescherming, (geestelijke) rijkdom"
 rijksappel,,macht over aarde
 rivier,,waterbron
 robijn,,"koninklijke waardigheid, hartstochtelijke liefde, levenskracht"
-rood,,"fysieke manifestatie, lichamelijkheid, macht, levenskracht"
+rood,,"Hartstocht, fysieke manifestatie, actie, macht, levenskracht"
 rood kleed,rood,
 roos,,hartverlangens
 saffier,,"geeft gemoedsrust,  fysieke/geestelijke/spirituele harmonie, helpt te concentreren, verlicht stress, verbondenheid met de Goddelijke wereld"
@@ -220,7 +220,7 @@ Volwassen vrouw,vrouw,"actieve, vruchtbare kracht, moeder"
 voorhang (bij pilaren),,"verborgen, innerlijk (tegenovergesteld bij ontbreken)"
 vrouw,,intuïtie
 vuur,,"kracht, zowel verterend als reinigend"
-water,,"Emoties, gevoelens, oerzee, universele energie, spiegel, de diepte van de ziel, het nog niet gemanifesteerde"
+water,,"Emoties, gevoelens, oerzee, spiegel, de diepte van de ziel, het nog niet gemanifesteerde"
 waterbron,water,geneeskrachtig
 weegschaal,,"evenwicht, rechtvaardigheid, juiste verhoudingen, voortdurende aanpassing om gerechtigheid te garanderen"
 wereldbol,globe,
@@ -236,8 +236,8 @@ zintuigen,,"horen, zien, ruiken, proeven, voelen"
 zon,,"het licht dat de mensheid leidt, schepper, God, levenskracht"
 zonnebloem,zon,"waarheidslievend, wilskracht en vitaliteit, roem en overwinning"
 zout,,fysiek lichaam
-zwaard (verticaal),,"scherpzinnigheid, gerechtigheid"
-zwart,,"nacht, duisternis, rebellie"
+zwaard geheven,,"scherpzinnigheid, gerechtigheid"
+zwart,,"nacht, duisternis, rebellie, mysterie"
 zwart kleed,zwart,"rouw, verdriet"
 zwarte kat,zwart,"Vrijheidsdrang, intuïtieve gaven, magie, ongeluk, waarschuwer"
 zwavel,,ziel

@@ -155,33 +155,32 @@ class Deck:
         return '<a href="%s?hidden=0">%s</a>' % (self.url(card), card.naam)
 
     def directions(self, nr):
+        def move(jmp, bot, ceil): 
+            ''' move within [bot, ceil> '''
+            def clip(val):
+                if val < bot:
+                    return val + (ceil - bot)
+                if val >= ceil:
+                    return val - (ceil - bot)
+                return val
+            return (clip(nr - jmp), clip(nr + 1), clip(nr + jmp), clip(nr - 1))
+
+        up, nxt, dwn, prv = move(10, 1, 21) if nr <= 21 else move(14, 22, 78)
+
         if nr == 0:
-            return (11, 1, 1, 21)
+            up, dwn, prv = 11, 1, 21
         elif nr == 1:
-            return (0,2,11,21)
+            up, prv  = 0, 0
+        elif nr == 10:
+            up = 21
         elif nr == 11:
-            return (1,12,0,10)
+            dwn = 0
         elif nr == 20:
-            return (10,21,21,19)
+            dwn, nxt = 21, 21
         elif nr == 21:
-            return (20,0,10,20)
+            up, nxt, dwn = 20, 0, 10
 
-        if self.cards[nr].serie == 'groot':
-            return (
-                nr - 10 if nr > 10 else nr + 10,
-                nr + 1 if nr < 20 else 11,
-                nr + 10 if nr < 11 else nr - 10,
-                nr - 1 if nr > 1 else 20
-            )
-        else:
-            return (
-                nr - 14 if nr > 35 else nr + 42,
-                nr + 1 if nr < 77 else 14,
-                nr + 14 if nr < 36 else nr - 42,
-                nr - 1 if nr > 22 else 77
-            )
-
-        return (0,0,0,0)
+        return up, nxt, dwn, prv
 
 class Symbool:
 
