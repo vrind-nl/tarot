@@ -10,13 +10,11 @@
             {% elif nr > 10 and nr <= 20 %}
                 <tr><td>grote arcana XI-XX:</td><td>{{symbols.get('grote arcana 11-20')}}</td></tr>
             {% endif %}
-            {% if nr <= 12 %}
-                <tr><td>{{card.getal}}:</td><td>{{symbols.get(card.getal)}}</td></tr>
-            {% endif %}
         {% else %}
-            {% for symbol in ['kleur', 'naam'] %}
-                <tr><td>{{card[symbol]}}:</td><td>{{symbols.get(card[symbol])}}</td></tr>
-            {% endfor %}
+            <tr><td>{{card.kleur}}:</td><td>{{symbols.get(card.kleur)}}</td></tr>
+            {% if card.naam in ['Aas', 'Page', 'Ridder', 'Koningin', 'Koning'] %}
+                <tr><td>{{card.naam}}:</td><td>{{symbols.get(card.naam)}}</td></tr>
+            {% endif %}
             {% if card.naam == 'Aas' %}
             {% elif card.getal %}
                 <tr><td>getallen:</td><td>{{symbols.get('getallen')}}</td></tr>
@@ -24,6 +22,7 @@
                 <tr><td>hofkaart:</td><td>{{symbols.get('hofkaart')}}</td></tr>
             {% endif %}
         {% endif %}
+        <tr><td>nummer:</td><td>{{card.nummer}}</td></tr>
         {% for field in ['kernwoord', 'steekwoorden', 'uitnodiging', 'waarschuwing', 'opmerking'] %}
             {% if card[field] %}
                 <tr><td>{{field}}:</td><td>{{card[field]}}</td></tr>
@@ -37,36 +36,6 @@
         {% endfor %}
     </table>
 </div>
-{% endmacro %}
-
-
-{% macro card_navigation(card) %}
-    {% set dirs = deck.directions(nr) %}
-    <table width=100%>
-        <tr>
-            <td>&nbsp;</td>
-            <td style="text-align: center"><a href="{{ dirs[0] }}">Omhoog</a></td>
-            <td>&nbsp;</td>
-        </tr>
-        <tr>
-            <td><a href="{{ dirs[3] }}">Vorige</a></td>
-            <td style="text-align: center"><a href="{{url_for('overview') }}">Overzicht</a></td>
-            <td style="text-align: right"><a href="{{ dirs[1] }}">Volgende</a></td>
-        </tr>
-        <tr>
-            <td>&nbsp;</td>
-            <td style="text-align: center"><a href="{{ dirs[2] }}">Omlaag</a></td>
-            <td>&nbsp;</td>
-        </tr>
-    </table>
-    <p>Zie ook:
-    <ul>
-        <li><a href="{{card.pictorialkey()}}" target="waite">Pictorial Key to the Tarot</a> (Eng.)</li>
-        <li><a href="{{card.stapvoorstap()}}" target="stap">Tarot Stap voor Stap</a></li>
-        <li><a href="{{card.kaartensterren()}}" target="kes">Kaart en Sterren</a></li>
-        {% if card.kleur == 'groot' %}
-            <li><a href="{{card.spiridoc()}}" target="spiri">Spiridoc</a></li>
-        {% endif %}
 {% endmacro %}
 
 

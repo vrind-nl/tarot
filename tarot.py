@@ -6,7 +6,7 @@ import random
 from flask import url_for
 
 import links
-
+from roman import roman2int, int2roman
 
 class Question:
 
@@ -42,6 +42,11 @@ class Card:
         self.opmerking = attrs['opmerking']
         self.symbolen = sorted(s.strip() for s in attrs['symbolen'].split(',') if s)
 
+        def optellen(waarde):
+            ''' keep adding digits until there's one left '''
+            return waarde if waarde < 10 else optellen(sum(int(c) for c in str(waarde)))
+        self.nummer = optellen(self.waarde)
+
     def __str__(self):
         naam = self.naam
         if self.kleur == 'groot':
@@ -74,6 +79,22 @@ class Card:
                 symbol.cards.append(self)
             except KeyError:
                 print('Link %s to %s FAILED' % (self, sym))
+        roman = int2roman(self.nummer)
+        self.nummer = '%s (%s): %s' % (self.nummer, roman, symbols[roman.lower()].betekenis)
+
+    @property
+    def waarde(self):
+        waarde = None
+        try:
+            waarde = int(self.getal)
+        except ValueError:
+            try:
+                waarde = roman2int(self.getal)
+            except ValueError:
+                waarde = dict(Aas=1, Page=11, Ridder=12, Koningin=13, Koning=14)[self.naam]
+    
+        return waarde
+        
 
 # monkey patch link methods
 Card.pictorialkey = links.pictorialkey
@@ -94,7 +115,7 @@ class Deck:
             with open(filename) as fin:
                 reader = csv.DictReader(fin)
                 self.parse_rows(reader)
-        for card in self.cards:
+        for card in self:
             card.link_symbols(symboliek.symbolen)
 
     def parse_rows(self, reader):

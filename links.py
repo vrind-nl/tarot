@@ -1,8 +1,7 @@
 ''' link generators to be monkey patched in the tarrot.Card class '''
 from urllib.parse import quote
 
-
-ROMAN2INT = dict(O=0, I=1, II=2, III=3, IV=4, V=5, VI=6, VII=7, VIII=8, IX=9, X=10, XI=11, XII=12, XIII=13, XIV=14, XV=15, XVI=16, XVII=17, XVIII=18, XIX=19, XX=20, XXI=21)
+from roman import roman2int
 
 
 def pictorialkey(self):
@@ -102,7 +101,10 @@ def kaartensterren(self):
     if kleur == 'kelken':
         kleur = 'bekers'
 
-    getal = ROMAN2INT[self.getal] if self.getal in ROMAN2INT else self.getal
+    try:
+        getal = roman2int(self.getal)
+    except ValueError:
+        getal = self.getal
     naam = self.naam.lower()
     if naam.startswith('de '):
         naam = naam[3:]
@@ -135,7 +137,7 @@ def spiridoc(self):
     
     naam = ''
     if self.kleur == 'groot':
-        getal = ROMAN2INT[self.getal]
+        getal = roman2int(self.getal)
         naam = self.naam
         if getal == 20:
             getal = 2
