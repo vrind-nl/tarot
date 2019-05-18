@@ -1,4 +1,9 @@
+''' link generators to be monkey patched in the tarrot.Card class '''
 from urllib.parse import quote
+
+
+ROMAN2INT = dict(O=0, I=1, II=2, III=3, IV=4, V=5, VI=6, VII=7, VIII=8, IX=9, X=10, XI=11, XII=12, XIII=13, XIV=14, XV=15, XVI=16, XVII=17, XVIII=18, XIX=19, XX=20, XXI=21)
+
 
 def pictorialkey(self):
     ''' https://en.wikisource.org/wiki/The_Pictorial_Key_to_the_Tarot#Seven_of_Cups '''
@@ -97,8 +102,7 @@ def kaartensterren(self):
     if kleur == 'kelken':
         kleur = 'bekers'
 
-    romans = dict(O=0, I=1, II=2, III=3, IV=4, V=5, VI=6, VII=7, VIII=8, IX=9, X=10, XI=11, XII=12, XIII=13, XIV=14, XV=15, XVI=16, XVII=17, XVIII=18, XIX=19, XX=20, XXI=21)
-    getal = romans[self.getal] if self.getal in romans else self.getal
+    getal = ROMAN2INT[self.getal] if self.getal in ROMAN2INT else self.getal
     naam = self.naam.lower()
     if naam.startswith('de '):
         naam = naam[3:]
@@ -121,7 +125,35 @@ def kaartensterren(self):
     else:
         naam = ' '.join([kleur, getal])
 
-    return quote(base + '%s/pagina %s.html' % (kleur, naam), safe=':/')
+    return base + quote('%s/pagina %s.html' % (kleur, naam))
+
+
+def spiridoc(self):
+    ''' http://www.spiridoc.nl/grotearcana/1_de_magier.htm '''
+    'http://www.spiridoc.nl/grotearcana/5_de_hierophant.htm'
+    base = 'http://www.spiridoc.nl/grotearcana/'
+    
+    naam = ''
+    if self.kleur == 'groot':
+        getal = ROMAN2INT[self.getal]
+        naam = self.naam
+        if getal == 20:
+            getal = 2
+        elif getal == 8:
+            getal = 11
+        elif getal == 11:
+            getal = 8
+            
+        if naam == 'De Hogepriester':
+            naam = 'de hierophant'
+        if naam == 'Gerechtigheid':
+            naam = 'rechtvaardigheid'
+        elif naam == 'Het Rad van Fortuin':
+            naam = naam[4:]
+        elif naam in ['De Dood', 'De Gehangene']:
+            naam = naam[3:]
+        naam = '%d %s.htm' % (getal, naam)
+    return base + naam.lower().replace(' ', '_')
 
 
 if __name__ == '__main__':
@@ -134,8 +166,9 @@ if __name__ == '__main__':
 
     for card in deck:
         # print(card)
-        url = card.pictorialkey()
-        print('<a href="%s" target="waite">%s</a><br/>' % (url, card))
+        url = card.spiridoc()
+        # print('<a href="%s" target="waite">%s</a><br/>' % (url, card))
+        print(url)
         # try:
         #     urlopen(url)
         # except HTTPError:

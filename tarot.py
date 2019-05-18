@@ -36,8 +36,8 @@ class Card:
         self.naam = attrs['naam']
         self.kleur = attrs['kleur']
         self.kernwoord = attrs['kernwoord']
-        self.steekwoord = attrs['steekwoord']
-        self.advies = attrs['advies']
+        self.steekwoorden = attrs['steekwoorden']
+        self.uitnodiging = attrs['uitnodiging']
         self.waarschuwing = attrs['waarschuwing']
         self.opmerking = attrs['opmerking']
         self.symbolen = sorted(s.strip() for s in attrs['symbolen'].split(',') if s)
@@ -63,7 +63,7 @@ class Card:
 
     def get_attr(self, attr):
         val = getattr(self, attr)
-        if attr == 'steekwoord':
+        if attr == 'steekwoorden':
             val = random.choice(val.split(', '))
         return val
 
@@ -79,6 +79,7 @@ class Card:
 Card.pictorialkey = links.pictorialkey
 Card.stapvoorstap = links.stapvoorstap
 Card.kaartensterren = links.kaartensterren
+Card.spiridoc = links.spiridoc
 
 
 class Deck:
@@ -110,9 +111,15 @@ class Deck:
             raise StopIteration
         return self.cards[self.current]
 
+    def grote_arcana(self):
+        return self.cards[:21]
+
+    def kleine_arcana(self):
+        return self.cards[22:]
+
     def question(self):
         return Question(self.cards, 
-                        random.choice(['kernwoord', 'steekwoord', 'advies', 'waarschuwing']))
+                        random.choice(['kernwoord', 'steekwoorden', 'uitnodiging', 'waarschuwing']))
 
     def nr(self, card):
         return self.cards.index(card)

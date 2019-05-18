@@ -47,6 +47,17 @@ def test_kaartensterren(deck):
         except HTTPError:
             errors.append(url)
     assert not errors
+
+            
+def test_spiridoc(deck):
+    errors = []
+    for card in deck.grote_arcana():
+        url = card.spiridoc()
+        try:
+            urlopen(url)
+        except HTTPError:
+            errors.append(url)
+    assert not errors
     
   
 def test_symbols(deck, symbols):

@@ -17,13 +17,14 @@
             {% for symbol in ['kleur', 'naam'] %}
                 <tr><td>{{card[symbol]}}:</td><td>{{symbols.get(card[symbol])}}</td></tr>
             {% endfor %}
-            {% if card.getal or card.naam == 'Aas' %}
+            {% if card.naam == 'Aas' %}
+            {% elif card.getal %}
                 <tr><td>getallen:</td><td>{{symbols.get('getallen')}}</td></tr>
             {% else %}
                 <tr><td>Hofkaart:</td><td>{{symbols.get('hofkaart')}}</td></tr>
             {% endif %}
         {% endif %}
-        {% for field in ['kernwoord', 'steekwoord', 'advies', 'waarschuwing', 'opmerking'] %}
+        {% for field in ['kernwoord', 'steekwoorden', 'uitnodiging', 'waarschuwing', 'opmerking'] %}
             {% if card[field] %}
                 <tr><td>{{field | capitalize}}:</td><td>{{card[field]}}</td></tr>
             {% endif %}
@@ -60,9 +61,12 @@
     </table>
     <p>Zie ook:
     <ul>
-        <li><a href="{{card.pictorialkey()}}" target="waite">Pictorial Key to the Tarot</a> (eng)</li>
+        <li><a href="{{card.pictorialkey()}}" target="waite">Pictorial Key to the Tarot</a> (Eng.)</li>
         <li><a href="{{card.stapvoorstap()}}" target="stap">Tarot Stap voor Stap</a></li>
         <li><a href="{{card.kaartensterren()}}" target="kes">Kaart en Sterren</a></li>
+        {% if card.kleur == 'groot' %}
+            <li><a href="{{card.spiridoc()}}" target="spiri">Spiridoc</a></li>
+        {% endif %}
 {% endmacro %}
 
 
