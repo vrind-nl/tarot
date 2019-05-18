@@ -1,7 +1,7 @@
 {% extends "base.jinja2" %}
 
 {% macro card_details(card) %}
-    <li>{{card.getal}} {{card.naam}}: {{card.kernwoord}}</li>
+    <li>{{card}}: {{card.kernwoord}}</li>
 {% endmacro %}
 
 
@@ -14,14 +14,17 @@
 <h2>Beknopte uitleg</h2>
 
 <p>Op deze site heb ik kennis van Tarot verzameld. Deze kennis komt uit verschillende bronnen, waaronder:
-<li>Het kleinde boekje bij mijn kaarten.</li>
+<li><a target="_blank" href="https://en.wikisource.org/wiki/The_Pictorial_Key_to_the_Tarot">The Pictorial Key To The Tarot (Illustrated)</a> van Arthur Edward Waite en de vertaalde betekenissen in het kleinde boekje bij mijn kaarten.</li>
 <li><a target="_blank" href="https://tarotstapvoorstap.nl">Tarot Stap voor Stap</a></li>
 <li><a target="_blank" href="http://www.inspiratiesite.nl/TAROT HANDLEIDING.pdf">Tarot handleiding</a> van Jan de Graaf.</li>
-<li><a target="_blank" href="https://nl.wikipedia.org/wiki/Tarot">wikipedia</a> en een <a href="https://nl.wikibooks.org/wiki/Tarot/">wikibook</a></li>
+<li><a target="_blank" href="https://nl.wikipedia.org/wiki/Tarot">wikipedia</a> en een <a href="https://nl.wikibooks.org/wiki/Tarot">wikibook</a></li>
 <li><a target="_blank" href="https://www.tijdgeest.eu/orakels/tarotkaarten">Tijdgeest</a></li>
 <li><a target="_blank" href="http://www.kaartensterren.nl/pagina's/tarot%201.html">Kaart en sterren</a></li>
 </p>
 <p>Bij verschillen tussen de bronnen heb ik intuïtief mijn voorkeur gekozen.</p>
+
+<p>Om mij te helpen om de betekenissen van de kaarten te onthouden, heb ik elke kaart een kernwoord toegenkend. 
+Dit kernwoord is persoonlijk, waarbij ik heb geprobeerd om binnen de geldende duidingen te blijven.</p>
 
 <h3>Getallen</h3>
 <ul>
@@ -49,13 +52,13 @@
             <li>VI-XII: Volwassen / Zelfontdekking / Het IK</li>
             <li>XIII-XXI: Ouderdom / Inpassing / Bestemming</li>
         </ul>
-
+    <li>Waite heeft {{deck.cards[8]}} en  {{deck.cards[11]}} zonder verdere toelichting omgedraaid.</li>
     <li>Kleine Arcana: {{symbols.get('kleine arcana')}}</li>
     <ul>
         <li>Kleuren</li>
             <ul>
-                {% for serie in ['Staven', 'Pentakels', 'Zwaarden', 'Kelken'] %}
-                    <li>{{serie}}: {{symbols.get(serie)}}</li>
+                {% for kleur in ['Staven', 'Pentakels', 'Zwaarden', 'Kelken'] %}
+                    <li>{{kleur}}: {{symbols.get(kleur)}}</li>
                 {% endfor %}
             </ul>
         <li>De volgorde van de kleuren is relevant:</li>
@@ -65,6 +68,7 @@
                 <li>zwaarden: begrijpen van het idee (afstand en overzicht)</li>
                 <li>kelken: eigen maken van het idee (inleven)</li>
             </ol>
+        <li>Waite hanteert de volgorde: staven, kelken, zwaarden, pentakels. En hij beschrijft de kaarten per kleur van Koning tot Aas.</li>
         <li>Deelseries</li>
             <ul>
                 <li>getallen: {{symbols.get('getallen')}}</li>

@@ -4,7 +4,9 @@ import os
 import random
 
 from flask import url_for
-       
+
+import links
+
 
 class Question:
 
@@ -32,7 +34,7 @@ class Card:
     def __init__(self, attrs):
         self.getal = attrs['getal']
         self.naam = attrs['naam']
-        self.serie = attrs['serie']
+        self.kleur = attrs['kleur']
         self.kernwoord = attrs['kernwoord']
         self.steekwoord = attrs['steekwoord']
         self.advies = attrs['advies']
@@ -42,20 +44,20 @@ class Card:
 
     def __str__(self):
         naam = self.naam
-        if self.serie == 'groot':
+        if self.kleur == 'groot':
             naam = '%s (%s)' % (naam, self.getal)
         else:
-            naam = 'de %s van %s' % (naam, self.serie)
+            naam = 'de %s van %s' % (naam, self.kleur)
         
         return naam
 
     @property
     def img(self):
         naam = self.naam
-        if self.serie == 'groot':
+        if self.kleur == 'groot':
             naam = 'GroteArcana/%s-%s' % (self.getal, naam)
         else:
-            naam = 'KleineArcana/%s/%s-%s' % (self.serie, self.serie, naam)
+            naam = 'KleineArcana/%s/%s-%s' % (self.kleur, self.kleur, naam)
         
         return '%s.jpg' % naam.replace(' ', '-')
 
@@ -73,43 +75,10 @@ class Card:
             except KeyError:
                 print('Link %s to %s FAILED' % (self, sym))
 
-    @property
-    def url(self):
-        naam = self.naam
-
-        # special cases
-        if self.serie == 'Zwaarden' and self.getal == '9':
-            return 'http://tarotstapvoorstap.nl/tarot-vragen/zwaarden-9-uit-de-tarot-ook-dit-gaat-voorbij/'
-        if self.serie == 'Staven' and self.getal == '6':
-            return 'http://tarotstapvoorstap.nl/tarotkaarten/tarotkaarten-staven-zes/'
-        if self.serie == 'Pentakels' and self.naam == 'Page':
-            return 'http://tarotstapvoorstap.nl/tarotkaarten/tarotkaart-pentakels-schildknaap-page/'
-        if self.serie == 'groot' and self.naam == 'De Dwaas':
-            return 'http://tarotstapvoorstap.nl/tarotkaarten/de-dwaas-tarot-nul/'
-
-        # general case
-        if self.serie in ['groot']:
-            if naam == 'Kracht':
-                naam = 'De Kracht'
-            elif naam == 'De Hogepriesteres':
-                naam = 'Hogepriesteres'
-            naam = 'tarotkaart-%s' % naam
-        else:
-            try:
-                naam = self.numbers[int(self.getal)]
-            except IndexError:
-                pass
-            except ValueError:
-                pass
-            
-            if naam == 'Page':
-                naam = 'schildknaap'
-                
-            naam = 'tarotkaart-%s-%s' % (self.serie, naam)
-            if self.serie in ['Pentakels'] and (self.getal or self.naam == 'Aas'):
-                naam = 'rider-waite-%s' % naam
-        
-        return 'https://tarotstapvoorstap.nl/tarotkaarten/%s/' % naam.replace(' ', '-').lower()
+# monkey patch link methods
+Card.pictorialkey = links.pictorialkey
+Card.stapvoorstap = links.stapvoorstap
+Card.kaartensterren = links.kaartensterren
 
 
 class Deck:

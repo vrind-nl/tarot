@@ -26,10 +26,22 @@ def test_img(deck):
     assert not errors
 
             
-def test_url(deck):
+def test_stapvoorstap(deck):
     errors = []
     for card in deck:
-        url = card.url()
+        print(card)
+        url = card.stapvoorstap()()
+        try:
+            urlopen(url)
+        except HTTPError:
+            errors.append(url)
+    assert not errors
+
+            
+def test_kaartensterren(deck):
+    errors = []
+    for card in deck:
+        url = card.kaartensterren()
         try:
             urlopen(url)
         except HTTPError:

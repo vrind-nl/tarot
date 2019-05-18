@@ -4,7 +4,7 @@
 {% macro card_info(card, nr) %}
 <div class="{{hidden}} explanation">
     <table>
-        {% if card.serie == 'groot' %}
+        {% if card.kleur == 'groot' %}
             {% if nr > 0 and nr <= 10 %}
                 <tr><td>Grote arcana I-X:</td><td>{{symbols.get('grote arcana 1-10')}}</td></tr>
             {% elif nr > 10 and nr <= 20 %}
@@ -14,7 +14,7 @@
                 <tr><td>{{card.getal}}:</td><td>{{symbols.get(card.getal)}}</td></tr>
             {% endif %}
         {% else %}
-            {% for symbol in ['serie', 'naam'] %}
+            {% for symbol in ['kleur', 'naam'] %}
                 <tr><td>{{card[symbol]}}:</td><td>{{symbols.get(card[symbol])}}</td></tr>
             {% endfor %}
             {% if card.getal or card.naam == 'Aas' %}
@@ -58,7 +58,11 @@
             <td>&nbsp;</td>
         </tr>
     </table>
-    <a href="{{card.url}}" target="stap">Tarot Stap voor Stap</a> over {{card}}.
+    <p>Zie ook:
+    <ul>
+        <li><a href="{{card.pictorialkey()}}" target="waite">Pictorial Key to the Tarot</a> (eng)</li>
+        <li><a href="{{card.stapvoorstap()}}" target="stap">Tarot Stap voor Stap</a></li>
+        <li><a href="{{card.kaartensterren()}}" target="kes">Kaart en Sterren</a></li>
 {% endmacro %}
 
 
