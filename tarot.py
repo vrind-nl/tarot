@@ -158,6 +158,10 @@ class Deck:
 
         return up, nxt, dwn, prv
 
+    def pick(self, amount=3):
+        ''' return random cards '''
+        return random.sample(self.cards, amount)
+
 class Symbool:
 
     symboliek = None

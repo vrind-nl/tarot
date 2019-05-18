@@ -6,9 +6,9 @@
     <table>
         {% if card.kleur == 'groot' %}
             {% if nr > 0 and nr <= 10 %}
-                <tr><td>Grote arcana I-X:</td><td>{{symbols.get('grote arcana 1-10')}}</td></tr>
+                <tr><td>grote arcana I-X:</td><td>{{symbols.get('grote arcana 1-10')}}</td></tr>
             {% elif nr > 10 and nr <= 20 %}
-                <tr><td>Grote arcana XI-XX:</td><td>{{symbols.get('grote arcana 11-20')}}</td></tr>
+                <tr><td>grote arcana XI-XX:</td><td>{{symbols.get('grote arcana 11-20')}}</td></tr>
             {% endif %}
             {% if nr <= 12 %}
                 <tr><td>{{card.getal}}:</td><td>{{symbols.get(card.getal)}}</td></tr>
@@ -21,12 +21,12 @@
             {% elif card.getal %}
                 <tr><td>getallen:</td><td>{{symbols.get('getallen')}}</td></tr>
             {% else %}
-                <tr><td>Hofkaart:</td><td>{{symbols.get('hofkaart')}}</td></tr>
+                <tr><td>hofkaart:</td><td>{{symbols.get('hofkaart')}}</td></tr>
             {% endif %}
         {% endif %}
         {% for field in ['kernwoord', 'steekwoorden', 'uitnodiging', 'waarschuwing', 'opmerking'] %}
             {% if card[field] %}
-                <tr><td>{{field | capitalize}}:</td><td>{{card[field]}}</td></tr>
+                <tr><td>{{field}}:</td><td>{{card[field]}}</td></tr>
             {% endif %}
         {% endfor %}
     </table>
@@ -50,7 +50,7 @@
         </tr>
         <tr>
             <td><a href="{{ dirs[3] }}">Vorige</a></td>
-            <td style="text-align: center"><a href="{{url_for('overview') }}">Index</a></td>
+            <td style="text-align: center"><a href="{{url_for('overview') }}">Overzicht</a></td>
             <td style="text-align: right"><a href="{{ dirs[1] }}">Volgende</a></td>
         </tr>
         <tr>
@@ -72,16 +72,12 @@
 
 {% block head %}
     <script src="{{ url_for('static', filename='cards.js') }}"></script>
-    <style>
-        .turned {
-            transform: rotate(180deg);
-        }
-    </style>
 {% endblock %}
 
 
 {% block content %}
-    <h3>{{card | capitalize}}</h3>
+    {% set title = card | string %}
+    <h3>{{title[0].upper()}}{{title[1:]}}</h3>
     <table>
         <tr>
             <td>

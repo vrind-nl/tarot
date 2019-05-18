@@ -1,4 +1,5 @@
-{% extends "base.jinja2" %}
+{% extends "index.jinja2" %}
+
 
 {% macro card_details(card) %}
     <li>{{card}}: {{card.kernwoord}}</li>
@@ -10,24 +11,11 @@
 {% endmacro %}
 
 
-{% block content %}
-<h2>Beknopte uitleg</h2>
+{% block title %}Beknopte uitleg{% endblock %}
 
-<p>Op deze site heb ik kennis van Tarot verzameld. Deze kennis komt uit verschillende bronnen, waaronder:
-<li><a target="_blank" href="https://en.wikisource.org/wiki/The_Pictorial_Key_to_the_Tarot">The Pictorial Key To The Tarot (Illustrated)</a> van Arthur Edward Waite en de vertaalde betekenissen in het kleinde boekje bij mijn kaarten.</li>
-<li><a target="_blank" href="https://tarotstapvoorstap.nl">Tarot Stap voor Stap</a></li>
-<li><a target="_blank" href="http://www.inspiratiesite.nl/TAROT HANDLEIDING.pdf">Tarot handleiding</a> van Jan de Graaf.</li>
-<li><a target="_blank" href="https://nl.wikipedia.org/wiki/Tarot">wikipedia</a> en een <a href="https://nl.wikibooks.org/wiki/Tarot">wikibook</a></li>
-<li><a target="_blank" href="https://www.tijdgeest.eu/orakels/tarotkaarten">Tijdgeest</a></li>
-<li><a target="_blank" href="http://www.kaartensterren.nl/pagina's/tarot%201.html">Kaart en sterren</a></li>
-<li><a target="_blank" href="http://www.spiridoc.nl/tarot_intro.htm">Spiridoc</a>.</li>
-<li><a target="_blank" href="https://tallsay.com/page/4294988601/tarot-archetypen-naar-de-ontwikkelingspsychologie-van-carl-gustav-jung">Archetypes</a> van de Grote Arcana.</li>
-</p>
-<p>Bij verschillen tussen de bronnen heb ik intuïtief mijn voorkeur gekozen.</p>
 
-<p>Om mij te helpen om de betekenissen van de kaarten te onthouden, heb ik elke kaart een kernwoord toegenkend. 
-Dit kernwoord is persoonlijk, waarbij ik heb geprobeerd om binnen de geldende duidingen te blijven.</p>
-
+{% block details %}
+<p>Hieronder volgt een beknopte opsomming van sommige gegevens uit bovenstaande bronnen:</p>
 <h3>Getallen</h3>
 <ul>
     {% for nr in ROMANS %}
@@ -47,20 +35,20 @@ Dit kernwoord is persoonlijk, waarbij ik heb geprobeerd om binnen de geldende du
             {{ list_cards(deck.cards[10:20]) }}
         {{ card_details(deck.cards[21]) }}
     </ul>
-    <li>Grote Arcana (indeling naar levensfasen)</li>
+    <li>Grote Arcana: indeling naar levensfasen</li>
         <ul>
             <li>O: Geboorte / De vonk</li>
             <li>I-V: Jeugd / Drijfveren</li>
             <li>VI-XII: Volwassen / Zelfontdekking / Het IK</li>
             <li>XIII-XXI: Ouderdom / Inpassing / Bestemming</li>
         </ul>
-    <li>Grote Arcana (<a href="http://www.spiridoc.nl/grotearcana/grarc_inleiding.htm">indeling</a> naar bewustzijn)</li>
+    <li>Grote Arcana: <a href="http://www.spiridoc.nl/grotearcana/grarc_inleiding.htm">indeling</a> naar bewustzijn</li>
         <ul>
             <li>O-VII: Bewustzijn</li>
             <li>VIII-XIV: Het onderbewuste / Zelfontdekking</li>
             <li>XV-XXI: Het bovenbewuste</li>
         </ul>
-    <li>Waite heeft {{deck.cards[8]}} en  {{deck.cards[11]}} zonder verdere toelichting omgedraaid.</li>
+    <li>Waite heeft {{deck.cards[8]}} en  {{deck.cards[11]}} zonder verdere toelichting omgedraaid. Op deze site doe ik dat <i>niet</i>.</li>
     <li>Kleine Arcana: {{symbols.get('kleine arcana')}}</li>
     <ul>
         <li>Kleuren</li>
@@ -92,4 +80,4 @@ Dit kernwoord is persoonlijk, waarbij ik heb geprobeerd om binnen de geldende du
                 </ul>
             </ul>
     </ul>
-{% endblock content %}
+{% endblock details %}

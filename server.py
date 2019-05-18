@@ -14,7 +14,7 @@ deck = tarot.Deck(symboliek)
 
 @app.route("/")
 def index():
-    return overview()
+    return render_template('index.jinja2')
 
 
 @app.route("/card/<int:nr>")
@@ -26,7 +26,7 @@ def card(nr):
 @app.route("/cards/<int:nr>", defaults=dict(turned=False))
 def cards(nr, turned):
     hidden = request.args.get('hidden', default = 1, type = int)
-    return render_template('cards.jinja2', cards=random.sample(deck.cards, nr), deck=deck, symbols=symboliek, turned=turned, hidden='hidden' if hidden else '')
+    return render_template('cards.jinja2', cards=deck.pick(nr), deck=deck, symbols=symboliek, turned=turned, hidden='hidden' if hidden else '')
 
 
 @app.route("/turned/<int:nr>")

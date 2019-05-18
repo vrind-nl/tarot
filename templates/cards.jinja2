@@ -3,6 +3,10 @@
 
 {% block content %}
     <h2>Kaartlegging</h2>
+    <p>Hieronder zie {{cards | length}} willekeurige kaarten. 
+    De toelichting is aanvankelijk verborgen, maar kan zichtbaar worden gemaakt met de knop "Toelichting" onder de kaarten.<p>
+    {% if turned %}<p>Bij deze kaartlegging kunnen de kaarten omgedraaid zijn.
+    Je kunt ze rechtop zetten met de knop "Rechtop".{% endif %}
     <table width=100%>
         <tr>
             {% for card in cards %}
