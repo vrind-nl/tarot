@@ -24,23 +24,17 @@ class Question:
         self.attr = attr
 
     def __str__(self):
-        return 'Welk %s past het best bij %s?' % (self.attr, self.answer)
+        return 'Welke %s past het best bij %s?' % (self.attr, self.answer)
 
 
-class Card:
+class Card:  # pylint: disable=no-member,access-member-before-definition
 
     numbers = 'nul een twee drie vier vijf zes zeven acht negen tien'.split()
 
     def __init__(self, attrs):
-        self.getal = attrs['getal']
-        self.naam = attrs['naam']
-        self.kleur = attrs['kleur']
-        self.kernwoord = attrs['kernwoord']
-        self.steekwoorden = attrs['steekwoorden']
-        self.uitnodiging = attrs['uitnodiging']
-        self.waarschuwing = attrs['waarschuwing']
-        self.opmerking = attrs['opmerking']
-        self.symbolen = sorted(s.strip() for s in attrs['symbolen'].split(',') if s)
+        for attr in ['getal', 'naam', 'kleur', 'kernwoord', 'steekwoorden', 'uitnodiging',
+            'waarschuwing', 'opmerking', 'symbolen']:
+            setattr(self, attr, attrs[attr])
 
         def optellen(waarde):
             ''' keep adding digits until there's one left '''
@@ -56,6 +50,17 @@ class Card:
         
         return naam
 
+    def link_symbols(self, symbols):
+        self.symbolen = sorted(s.strip() for s in self.symbolen.split(',') if s)
+        for sym in self.symbolen:
+            try:
+                symbol = symbols[sym]
+                symbol.cards.append(self)
+            except KeyError:
+                print('Link %s to %s FAILED' % (self, sym))
+        roman = int2roman(self.nummer)
+        self.nummer = '%s (%s): %s' % (self.nummer, roman, symbols[roman.lower()].betekenis)
+
     @property
     def img(self):
         naam = self.naam
@@ -66,21 +71,11 @@ class Card:
         
         return '%s.jpg' % naam.replace(' ', '-')
 
-    def get_attr(self, attr):
+    def get_attr(self, attr, *args):
         val = getattr(self, attr)
         if attr == 'steekwoorden':
             val = random.choice(val.split(', '))
         return val
-
-    def link_symbols(self, symbols):
-        for sym in self.symbolen:
-            try:
-                symbol = symbols[sym]
-                symbol.cards.append(self)
-            except KeyError:
-                print('Link %s to %s FAILED' % (self, sym))
-        roman = int2roman(self.nummer)
-        self.nummer = '%s (%s): %s' % (self.nummer, roman, symbols[roman.lower()].betekenis)
 
     @property
     def waarde(self):
@@ -201,8 +196,8 @@ class Symbool:
     def __str__(self):
         return self.naam
 
-    def get_attr(self, attr):  # for quiz answer
-        return self.symboliek.get(self)
+    def get_attr(self, attr, referenties=True):  # for quiz answer
+        return self.symboliek.get(self, referenties)
 
     @property
     def img(self):
@@ -233,7 +228,7 @@ class Symboliek:
                 symbool = Symbool(row)
                 self.symbolen[symbool.naam] = symbool
 
-    def get(self, naam):
+    def get(self, naam, referenties=True):
         try:
             symbool = self.symbolen[naam.lower()]
         except KeyError:
@@ -242,7 +237,7 @@ class Symboliek:
             symbool = naam
         betekenis = symbool.betekenis
         if betekenis:
-            if symbool.referenties:
+            if referenties and symbool.referenties:
                 betekenis += ' (zie ook %s)' % ', '.join(self.link_for_name(r) for r in symbool.referenties)
         else:
             referenties = ['%s (via %s)' % (self.get(ref), ref) for ref in symbool.referenties]

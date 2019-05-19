@@ -31,7 +31,7 @@
     </table>
     <h3>Symbolen</h3>
     <table>
-        {% for symbol in card['symbolen'] %}
+        {% for symbol in card.symbolen %}
             <tr><td>{{symbol}}:</td><td>{{symbols.get(symbol)}}</td></tr>
         {% endfor %}
     </table>

@@ -13,13 +13,13 @@
                 
                 <p>{{question}}</p>
 
-                {% set answer = question.answer.get_attr(question.attr) %}
+                {% set answer = question.answer.get_attr(question.attr, false) %}
                 <p>
                 {% for option in question.options %}
                     {% if loop.index == question.nr + 1 %}
                         <button onclick="check()">{{answer}}</button><br/>
                     {% else %}
-                        {% set wrong = option.get_attr(question.attr) %}
+                        {% set wrong = option.get_attr(question.attr, false) %}
                         <button onclick="check('<p>{{wrong | striptags}} hoort bij {{option}}.<br/>Het goede antwoord was: {{answer | striptags}}<p>')">{{wrong}}</button><br/>
                     {% endif %}
                 {% endfor %}
