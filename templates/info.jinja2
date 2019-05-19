@@ -13,17 +13,6 @@
 
 
 {% block navigation %}
-    <p>Zie ook:</p>
-    <ul>
-        <li><a href="{{card.pictorialkey()}}" target="waite">Pictorial Key to the Tarot</a> (Eng.)</li>
-        <li><a href="{{card.stapvoorstap()}}" target="stap">Tarot Stap voor Stap</a></li>
-        <li><a href="{{card.kaartensterren()}}" target="kes">Kaart en Sterren</a></li>
-        {% if card.kleur == 'groot' %}
-            <li><a href="{{card.spiridoc()}}" target="spiri">Spiridoc</a></li>
-        {% endif %}
-    </ul>
-
-    <hr/>
     {% set dirs = deck.directions(nr) %}
     <table width=100%>
         <tr>

@@ -23,12 +23,14 @@ def card(nr):
     return render_template('info.jinja2', deck=deck, symbols=symboliek, nr=nr, hidden='hidden' if hidden else '')
 
 
+@app.route("/cards/", defaults=dict(turned=False, nr=3))
 @app.route("/cards/<int:nr>", defaults=dict(turned=False))
 def cards(nr, turned):
     hidden = request.args.get('hidden', default = 1, type = int)
-    return render_template('cards.jinja2', cards=deck.pick(nr), deck=deck, symbols=symboliek, turned=turned, hidden='hidden' if hidden else '')
+    return render_template('cards.jinja2', cards=deck.pick(nr), nr=nr, deck=deck, symbols=symboliek, turned=turned, hidden='hidden' if hidden else '')
 
 
+@app.route("/turned/", defaults=dict(nr=3))
 @app.route("/turned/<int:nr>")
 def turned(nr):
     return cards(nr, True)

@@ -3,7 +3,7 @@
 
 {% block content %}
     <h2>Kaartlegging</h2>
-    <p>Hieronder zie {{cards | length}} willekeurige kaarten. 
+    <p>Hieronder zie je {{nr}} willekeurige kaart{% if nr > 1 %}en{% endif %}. 
     De toelichting is aanvankelijk verborgen, maar kan zichtbaar worden gemaakt met de knop "Toelichting" onder de kaarten.<p>
     {% if turned %}<p>Bij deze kaartlegging kunnen de kaarten omgedraaid zijn.
     Je kunt ze rechtop zetten met de knop "Rechtop".{% endif %}
@@ -15,7 +15,7 @@
                 <td><img src="{{ url_for('static', filename=card.img) }}" {{turned}} height=400></td>
             {% endfor %}
         </tr>
-        <tr><td colspan="{{cards | length}}"><button onclick="explanation()">Toelichting</button>
+        <tr><td colspan="{{nr}}"><button onclick="explanation()">Toelichting</button>
         {% if turned %}
             <button onclick="turn()">Rechtop</button>
         {% endif %}
@@ -24,6 +24,7 @@
             {% for card in cards %}
                 <td>    
                     {{ card_info(card, deck.nr(card)) }}
+                    {{ card_src(card) }}
                 </td>
             {% endfor %}
         </tr>

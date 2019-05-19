@@ -107,6 +107,7 @@ class Deck:
 
     def __init__(self, symboliek, filename='kaarten.csv'):
         self.cards = []
+        self.shuffled = []
         try:
             from data import cards
             self.parse_rows(cards)
@@ -179,9 +180,13 @@ class Deck:
 
         return up, nxt, dwn, prv
 
-    def pick(self, amount=3):
-        ''' return random cards '''
-        return random.sample(self.cards, amount)
+    def pick(self, amount=1):
+        ''' return random cards, by shuffling the deck and picking cards one by one until the deck is too small '''
+        if amount > len(self.shuffled):
+            self.shuffled = self.cards[:]
+            random.shuffle(self.shuffled)
+        return random.sample(self.shuffled, amount)
+
 
 class Symbool:
 

@@ -44,6 +44,19 @@
 {% endblock %}
 
 
+{% macro card_src(card) %}
+    <p>Zie ook:</p>
+    <ul>
+        <li><a href="{{card.pictorialkey()}}" target="waite">Pictorial Key to the Tarot</a> (Eng.)</li>
+        <li><a href="{{card.stapvoorstap()}}" target="stap">Tarot Stap voor Stap</a></li>
+        <li><a href="{{card.kaartensterren()}}" target="kes">Kaart en Sterren</a></li>
+        {% if card.kleur == 'groot' %}
+            <li><a href="{{card.spiridoc()}}" target="spiri">Spiridoc</a></li>
+        {% endif %}
+    </ul>
+{% endmacro %}
+
+
 {% block content %}
     {% set title = card | string %}
     <h3>{{title[0].upper()}}{{title[1:]}}</h3>
@@ -51,7 +64,10 @@
         <tr>
             <td>
                 <img src="{{ url_for('static', filename=card.img) }}" height=400>
+                {{ card_src(card) }}
+                <hr/>
                 {% block navigation %}{% endblock %}
+
             </td>
             <td>
                 {{ card_details(card) }}

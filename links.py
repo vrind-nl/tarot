@@ -68,7 +68,7 @@ def stapvoorstap(self):
         return 'http://tarotstapvoorstap.nl/tarotkaarten/tarotkaarten-staven-zes/'
     if self.kleur == 'Pentakels' and self.naam == 'Page':
         return 'http://tarotstapvoorstap.nl/tarotkaarten/tarotkaart-pentakels-schildknaap-page/'
-    if self.kleur == 'groot' and self.naam == 'De Dwaas':
+    if self.naam == 'De Dwaas':
         return 'http://tarotstapvoorstap.nl/tarotkaarten/de-dwaas-tarot-nul/'
 
     # general case
@@ -77,6 +77,8 @@ def stapvoorstap(self):
             naam = 'De Kracht'
         elif naam == 'De Hogepriesteres':
             naam = 'Hogepriesteres'
+        elif naam == 'De Kluizenaar':
+            naam += '-heremiet'
         naam = 'tarotkaart-%s' % naam
     else:
         try:
@@ -93,7 +95,8 @@ def stapvoorstap(self):
         if self.kleur in ['Pentakels'] and (self.getal or self.naam == 'Aas'):
             naam = 'rider-waite-%s' % naam
     
-    return 'https://tarotstapvoorstap.nl/tarotkaarten/%s/' % naam.replace(' ', '-').lower()
+    url = 'https://tarotstapvoorstap.nl/tarotkaarten/%s/' % naam.replace(' ', '-').lower()
+    return url
 
 def kaartensterren(self):
     base = "http://www.kaartensterren.nl/pagina's tarotkaarten/"
