@@ -1,8 +1,8 @@
 {% extends "base.jinja2" %}
 
 
-{% macro card_info(card, nr) %}
-<div class="{{hidden}} explanation">
+{% macro card_info(card) %}
+    {% set nr = card.nr %}
     <table>
         {% if card.kleur == 'groot' %}
             {% if nr > 0 and nr <= 10 %}
@@ -22,7 +22,7 @@
                 <tr><td>hofkaart:</td><td>{{symbols.get('hofkaart')}}</td></tr>
             {% endif %}
         {% endif %}
-        <tr><td>nummer:</td><td>{{card.nummer}}</td></tr>
+        <tr><td>numerologie:</td><td>{{card.nummer}}</td></tr>
         {% for field in ['kernwoord', 'steekwoorden', 'uitnodiging', 'waarschuwing', 'opmerking'] %}
             {% if card[field] %}
                 <tr><td>{{field}}:</td><td>{{card[field]}}</td></tr>
@@ -35,7 +35,6 @@
             <tr><td>{{symbol}}:</td><td>{{symbols.get(symbol)}}</td></tr>
         {% endfor %}
     </table>
-</div>
 {% endmacro %}
 
 

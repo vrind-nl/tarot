@@ -2,29 +2,63 @@
 
 
 {% block content %}
+    <style>
+        td.card-container {
+            perspective: 600px;
+        }
+        div.card {
+            position: relative;
+            width: 237px;
+            height: 400px;
+            cursor: pointer;
+            transform-style: preserve-3d;
+            transform-origin: center right;
+            transition: transform 1s;
+        }
+        .card.is-flipped {
+            transform: translateX(-100%) rotateY(-180deg);
+        }
+        .face {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            backface-visibility: hidden;
+        }
+        .face--front {
+            transform: rotateY(180deg);
+        }
+        .face--front.turned {
+            transform: rotateY(180deg) rotate(180deg);
+        }
+
+    </style>
     <h2>Kaartlegging</h2>
     <p>Hieronder zie je {{nr}} willekeurige kaart{% if nr > 1 %}en{% endif %}. 
-    De toelichting is aanvankelijk verborgen, maar kan zichtbaar worden gemaakt met de knop "Toelichting" onder de kaarten.<p>
-    {% if turned %}<p>Bij deze kaartlegging kunnen de kaarten omgedraaid zijn.
+    Je kunt een kaart omdraaien door er op te klikken.
+    Er komt dan ook een knop "Toelichting" beschikbaar, waarmee je extra informatie over die kaart zichtbaar kunt maken.<p>
+    {% if turned %}<p>Bij deze kaartlegging kunnen de kaarten op de kop liggen.
     Je kunt ze rechtop zetten met de knop "Rechtop".{% endif %}
     <table width=100%>
         <tr>
             {% for card in cards %}
+                {% set card_id = 'card_%02d' % card.nr %}
                 {% set coin = turned and range(0, 2) | random %}
-                {% set turned = 'class="turned"' if coin else ''%}
-                <td><img src="{{ url_for('static', filename=card.img) }}" {{turned}} height=400></td>
-            {% endfor %}
-        </tr>
-        <tr><td colspan="{{nr}}"><button onclick="explanation()">Toelichting</button>
-        {% if turned %}
-            <button onclick="turn()">Rechtop</button>
-        {% endif %}
-        </td></tr>
-        <tr>
-            {% for card in cards %}
-                <td>    
-                    {{ card_info(card, deck.nr(card)) }}
-                    {{ card_src(card) }}
+                {% set img_cls = ' turned' if coin else ''%}
+                <td class="card-container">
+                    <div class="card" id="{{card_id}}">
+                        <img src="{{ url_for('static', filename=card.img) }}" class="face face--front{{img_cls}}">
+                        <img src="{{ url_for('static', filename='achterkant.jpg') }}" class="face">
+                    </div>
+                    <div class="hidden {{card_id}} buttons">
+                        <button onclick="explanation('{{card_id}}')">Toelichting</button>
+                        {% if turned %}
+                            <button class="{{card_id}} hidden" onclick="turn()">Rechtop</button>
+                        {% endif %}
+                    </div>
+                    <div class="{{hidden}} {{card_id}} explanation">
+                        {{ card_info(card) }}
+                        {{ card_src(card) }}
+                    </div>
                 </td>
             {% endfor %}
         </tr>

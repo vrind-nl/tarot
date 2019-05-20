@@ -1,19 +1,16 @@
 {% extends "card.jinja2" %}
 
 
-{% set card = deck.cards[nr] %}
-
-
 {% macro card_details(card) %}
     {% if hidden %}
         <button onclick="explanation()">Toelichting</button>
     {% endif %}
-    {{ card_info(card, nr) }}
+    {{ card_info(card) }}
 {% endmacro %}
 
 
 {% block navigation %}
-    {% set dirs = deck.directions(nr) %}
+    {% set dirs = card.directions() %}
     <table width=100%>
         <tr>
             <td>&nbsp;</td>

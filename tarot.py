@@ -31,10 +31,12 @@ class Card:  # pylint: disable=no-member,access-member-before-definition
 
     numbers = 'nul een twee drie vier vijf zes zeven acht negen tien'.split()
 
-    def __init__(self, attrs):
+    def __init__(self, nr, attrs):
+        self.nr = nr
         for attr in ['getal', 'naam', 'kleur', 'kernwoord', 'steekwoorden', 'uitnodiging',
-            'waarschuwing', 'opmerking', 'symbolen']:
+            'waarschuwing', 'opmerking']:
             setattr(self, attr, attrs[attr])
+        self.symbolen = sorted(s.strip() for s in attrs['symbolen'].split(',') if s)
 
         def optellen(waarde):
             ''' keep adding digits until there's one left '''
@@ -51,7 +53,6 @@ class Card:  # pylint: disable=no-member,access-member-before-definition
         return naam
 
     def link_symbols(self, symbols):
-        self.symbolen = sorted(s.strip() for s in self.symbolen.split(',') if s)
         for sym in self.symbolen:
             try:
                 symbol = symbols[sym]
@@ -89,65 +90,9 @@ class Card:  # pylint: disable=no-member,access-member-before-definition
                 waarde = dict(Aas=1, Page=11, Ridder=12, Koningin=13, Koning=14)[self.naam]
     
         return waarde
-        
 
-# monkey patch link methods
-Card.pictorialkey = links.pictorialkey
-Card.stapvoorstap = links.stapvoorstap
-Card.kaartensterren = links.kaartensterren
-Card.spiridoc = links.spiridoc
-
-
-class Deck:
-
-    def __init__(self, symboliek, filename='kaarten.csv'):
-        self.cards = []
-        self.shuffled = []
-        try:
-            from data import cards
-            self.parse_rows(cards)
-        except ImportError:
-            print('Reading from CSV. You may want to run csv2.py')
-            with open(filename) as fin:
-                reader = csv.DictReader(fin)
-                self.parse_rows(reader)
-        for card in self:
-            card.link_symbols(symboliek.symbolen)
-
-    def parse_rows(self, reader):
-        for row in reader:
-            self.cards.append(Card(row))
-
-    def __iter__(self):
-        self.current = 0
-        return self
-
-    def __next__(self):
-        self.current += 1
-        if self.current >= len(self.cards):
-            raise StopIteration
-        return self.cards[self.current]
-
-    def grote_arcana(self):
-        return self.cards[:21]
-
-    def kleine_arcana(self):
-        return self.cards[22:]
-
-    def question(self):
-        return Question(self.cards, 
-                        random.choice(['kernwoord', 'steekwoorden', 'uitnodiging', 'waarschuwing']))
-
-    def nr(self, card):
-        return self.cards.index(card)
-
-    def url(self, card):
-        return url_for('card', nr=self.nr(card))
-
-    def link(self, card):
-        return '<a href="%s?hidden=0">%s</a>' % (self.url(card), card.naam)
-
-    def directions(self, nr):
+    def directions(self):
+        nr = self.nr
         def move(jmp, bot, ceil): 
             ''' move within [bot, ceil> '''
             def clip(val):
@@ -174,13 +119,69 @@ class Deck:
             up, nxt, dwn = 20, 0, 10
 
         return up, nxt, dwn, prv
+        
+
+# monkey patch link methods
+Card.pictorialkey = links.pictorialkey
+Card.stapvoorstap = links.stapvoorstap
+Card.kaartensterren = links.kaartensterren
+Card.spiridoc = links.spiridoc
+
+
+class Deck:
+
+    def __init__(self, symboliek, filename='kaarten.csv'):
+        self.cards = []
+        self.shuffled = []
+        try:
+            from data import cards
+            self.parse_rows(cards)
+        except ImportError:
+            print('Reading from CSV. You may want to run csv2.py')
+            with open(filename) as fin:
+                reader = csv.DictReader(fin)
+                self.parse_rows(reader)
+        for card in self:
+            card.link_symbols(symboliek.symbolen)
+
+    def parse_rows(self, reader):
+        for nr, row in enumerate(reader):
+            self.cards.append(Card(nr, row))
+
+    def __iter__(self):
+        self.current = 0
+        return self
+
+    def __next__(self):
+        self.current += 1
+        if self.current >= len(self.cards):
+            raise StopIteration
+        return self.cards[self.current]
+
+    def grote_arcana(self):
+        return self.cards[:21]
+
+    def kleine_arcana(self):
+        return self.cards[22:]
+
+    def question(self):
+        return Question(self.cards, 
+                        random.choice(['kernwoord', 'steekwoorden', 'uitnodiging', 'waarschuwing']))
+
+    def url(self, card):
+        return url_for('card', nr=card.nr)
+
+    def link(self, card):
+        return '<a href="%s?hidden=0">%s</a>' % (self.url(card), card.naam)
 
     def pick(self, amount=1):
         ''' return random cards, by shuffling the deck and picking cards one by one until the deck is too small '''
         if amount > len(self.shuffled):
             self.shuffled = self.cards[:]
             random.shuffle(self.shuffled)
-        return random.sample(self.shuffled, amount)
+        sample = self.shuffled[:amount]
+        self.shuffled = self.shuffled[amount:]
+        return sample
 
 
 class Symbool:

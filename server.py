@@ -20,7 +20,7 @@ def index():
 @app.route("/card/<int:nr>")
 def card(nr):
     hidden = request.args.get('hidden', default = 1, type = int)
-    return render_template('info.jinja2', deck=deck, symbols=symboliek, nr=nr, hidden='hidden' if hidden else '')
+    return render_template('info.jinja2', card=deck.cards[nr], symbols=symboliek, hidden='hidden' if hidden else '')
 
 
 @app.route("/cards/", defaults=dict(turned=False, nr=3))
