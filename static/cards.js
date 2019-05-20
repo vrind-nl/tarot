@@ -7,10 +7,8 @@ function turn(choice) {
 }
 
 function explanation(card_id) {
-    elems = document.querySelectorAll(".explanation."+card_id);
-    [].forEach.call(elems, function(el) {
-        el.classList.toggle("hidden");
-    })
+    elem = document.querySelector(".explanation."+card_id);
+    elem.classList.toggle("hidden");
 }
 
 window.addEventListener('DOMContentLoaded', (event) => {
@@ -18,10 +16,10 @@ window.addEventListener('DOMContentLoaded', (event) => {
     [].forEach.call(cards, function(card) {
         card.addEventListener( 'click', function() {
             card.classList.toggle('is-flipped');
-            elems = document.querySelectorAll('.buttons.'+card.id);
-            [].forEach.call(elems, function(el) {
-                el.classList.toggle("hidden");
-            })
+            elem = document.querySelector('.buttons.'+card.id);
+            elem.classList.toggle("hidden");
+            elem = document.querySelector(".explanation."+card.id);
+            elem.classList.add("hidden");
         });
     })
 });
