@@ -3,10 +3,10 @@
 
 {% block content %}
     <style>
-        td.card-container {
+        .card-container {
             perspective: 600px;
         }
-        div.card {
+        .card {
             position: relative;
             width: 237px;
             height: 400px;
@@ -30,7 +30,6 @@
         .face--front.turned {
             transform: rotateY(180deg) rotate(180deg);
         }
-
     </style>
     <h2>Kaartlegging</h2>
     <p>Hieronder zie je {{nr}} willekeurige kaart{% if nr > 1 %}en{% endif %}. 
