@@ -3,9 +3,11 @@
 
 {% macro card_details(card) %}
     {% if hidden %}
-        <button onclick="explanation()">Toelichting</button>
+        <button onclick="explanation('card')">Toelichting</button>
     {% endif %}
+    <div class="card explanation {{hidden}}">
     {{ card_info(card) }}
+    </div>
 {% endmacro %}
 
 

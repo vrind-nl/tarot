@@ -30,13 +30,17 @@
         .face--front.turned {
             transform: rotateY(180deg) rotate(180deg);
         }
+        .buttons {
+            margin-top: 10pt;
+        }
     </style>
     <h2>Kaartlegging</h2>
     <p>Hieronder zie je {{nr}} willekeurige kaart{% if nr > 1 %}en{% endif %}. 
     Je kunt een kaart omdraaien door er op te klikken.
-    Er komt dan ook een knop "Toelichting" beschikbaar, waarmee je extra informatie over die kaart zichtbaar kunt maken.<p>
-    {% if turned %}<p>Bij deze kaartlegging kunnen de kaarten op de kop liggen.
+    Er komt dan ook een knop "Toelichting" beschikbaar, waarmee je extra informatie over die kaart zichtbaar kunt maken.
+    {% if turned %}Bij deze kaartlegging kunnen de kaarten op de kop liggen.
     Je kunt ze rechtop zetten met de knop "Rechtop".{% endif %}
+    Druk op de knop "Verversen" van uw browser voor een nieuwe legging.</p>
     <table width=100%>
         <tr>
             {% for card in cards %}
