@@ -96,7 +96,7 @@ cards = [OrderedDict([('kleur', 'groot'),
               ('getal', 'VII'),
               ('naam', 'De Zegewagen'),
               ('opmerking', ''),
-              ('kernwoord', 'VEROVERING'),
+              ('kernwoord', 'SUCCES'),
               ('steekwoorden',
                'Wilskracht, zelfdiscipline, controle, tot stand brengen, '
                'sprong voorwaarts'),
