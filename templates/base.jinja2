@@ -4,46 +4,7 @@
     <meta charset="utf-16">
     <title>Tarot trainer</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" />
-    <style>
-      * {
-        font-family: Bookman;
-      }
-      td {
-          vertical-align: top;
-      }
-      .hidden * {
-        display: none;
-      }
-      .turned {
-          transform: rotate(180deg);
-      }
-      nav {
-        overflow: hidden;
-        background-color: darkgrey;
-        padding: 5pt;
-        margin-top: 5pt;
-        border-radius: 3pt;
-        /* background: linear-gradient(135deg, yellow 0%, royalblue 50%, tomato 100%); */
-        background: lightgrey;
-      }
-      nav a {
-        float: left;
-        color: #888;
-        text-align: center;
-        padding: 8px;
-        text-decoration: none;
-        font-weight: bold;
-        font-size: 110%;
-      }
-      nav a:hover {
-        background-color: #555;
-      }
-      footer * {
-        font-size: 70%;
-        margin: 5px;
-        text-align: right;
-      }
-    </style>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
     {% block head %}{% endblock %}
   </head>
   <body class="container">

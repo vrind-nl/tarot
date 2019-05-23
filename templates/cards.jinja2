@@ -4,35 +4,7 @@
 {% block content %}
     <style>
         .card-container {
-            perspective: 600px;
             width: {{(100 / nr) | int}}%;
-        }
-        .card {
-            position: relative;
-            width: 237px;
-            height: 400px;
-            cursor: pointer;
-            transform-style: preserve-3d;
-            transform-origin: center right;
-            transition: transform 1s;
-        }
-        .card.is-flipped {
-            transform: translateX(-100%) rotateY(-180deg);
-        }
-        .face {
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            backface-visibility: hidden;
-        }
-        .face--front {
-            transform: rotateY(180deg);
-        }
-        .face--front.turned {
-            transform: rotateY(180deg) rotate(180deg);
-        }
-        .buttons {
-            margin-top: 10pt;
         }
     </style>
     <h2>Kaartlegging</h2>
