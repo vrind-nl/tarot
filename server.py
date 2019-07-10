@@ -28,13 +28,14 @@ def card(nr):
     )
 
 
-@app.route("/cards/", defaults=dict(turned=False, nr=3))
-@app.route("/cards/<int:nr>", defaults=dict(turned=False))
-def cards(nr, turned):
+@app.route("/cards/", defaults=dict(turned=False, cards=None, nr=3))
+@app.route("/cards/<int:nr>", defaults=dict(turned=False, cards=None))
+def cards(nr, turned=False, cards=None):
     hidden = request.args.get("hidden", default=1, type=int)
+    cards = cards or deck.pick(nr)
     return render_template(
         "cards.jinja2",
-        cards=deck.pick(nr),
+        cards=cards,
         nr=nr,
         deck=deck,
         symbols=symboliek,
@@ -47,6 +48,12 @@ def cards(nr, turned):
 @app.route("/turned/<int:nr>")
 def turned(nr):
     return cards(nr, True)
+
+
+@app.route("/perma/<nrs>")
+def perma(nrs):
+    nrs = [int(nr) for nr in nrs.split("-")]
+    return cards(len(nrs), cards=[deck.cards[nr] for nr in nrs])
 
 
 @app.route("/symbols")

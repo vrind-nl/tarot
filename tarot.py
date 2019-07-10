@@ -1,8 +1,5 @@
-from collections import defaultdict
 import csv
-import os
 import random
-
 from flask import url_for
 
 import links
@@ -195,13 +192,18 @@ class Deck:
         return '<a href="%s?hidden=0">%s</a>' % (self.url(card), card.naam)
 
     def pick(self, amount=1):
-        """ return random cards, by shuffling the deck and picking cards one by one until the deck is too small """
+        """ return random cards, by shuffling the deck and
+        picking cards one by one until the deck is too small """
         if amount > len(self.shuffled):
             self.shuffled = self.cards[:]
             random.shuffle(self.shuffled)
         sample = self.shuffled[:amount]
         self.shuffled = self.shuffled[amount:]
         return sample
+
+    @classmethod
+    def permalink(cls, cards):
+        return url_for("perma", nrs="-".join(str(c.nr) for c in cards))
 
 
 class Symbool:
