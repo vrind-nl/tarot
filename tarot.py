@@ -8,10 +8,10 @@ from flask import url_for
 import links
 from roman import roman2int, int2roman
 
-class Question:
 
+class Question:
     def __init__(self, options, attr, size=4):
-        ''' options is list of question/answer pairs '''
+        """ options is list of question/answer pairs """
         sample = None
         if type(options) == dict:
             sample = random.sample(options.keys(), size)
@@ -24,32 +24,41 @@ class Question:
         self.attr = attr
 
     def __str__(self):
-        return 'Welke %s past het best bij %s?' % (self.attr, self.answer)
+        return "Welke %s past het best bij %s?" % (self.attr, self.answer)
 
 
 class Card:  # pylint: disable=no-member,access-member-before-definition
 
-    numbers = 'nul een twee drie vier vijf zes zeven acht negen tien'.split()
+    numbers = "nul een twee drie vier vijf zes zeven acht negen tien".split()
 
     def __init__(self, nr, attrs):
         self.nr = nr
-        for attr in ['getal', 'naam', 'kleur', 'kernwoord', 'steekwoorden', 'uitnodiging',
-            'waarschuwing', 'opmerking']:
+        for attr in [
+            "getal",
+            "naam",
+            "kleur",
+            "kernwoord",
+            "steekwoorden",
+            "uitnodiging",
+            "waarschuwing",
+            "opmerking",
+        ]:
             setattr(self, attr, attrs[attr])
-        self.symbolen = sorted(s.strip() for s in attrs['symbolen'].split(',') if s)
+        self.symbolen = sorted(s.strip() for s in attrs["symbolen"].split(",") if s)
 
         def optellen(waarde):
-            ''' keep adding digits until there's one left '''
+            """ keep adding digits until there's one left """
             return waarde if waarde < 10 else optellen(sum(int(c) for c in str(waarde)))
+
         self.nummer = optellen(self.waarde)
 
     def __str__(self):
         naam = self.naam
-        if self.kleur == 'groot':
-            naam = '%s (%s)' % (naam, self.getal)
+        if self.kleur == "groot":
+            naam = "%s (%s)" % (naam, self.getal)
         else:
-            naam = 'de %s van %s' % (naam, self.kleur)
-        
+            naam = "de %s van %s" % (naam, self.kleur)
+
         return naam
 
     def link_symbols(self, symbols):
@@ -58,24 +67,28 @@ class Card:  # pylint: disable=no-member,access-member-before-definition
                 symbol = symbols[sym]
                 symbol.cards.append(self)
             except KeyError:
-                print('Link %s to %s FAILED' % (self, sym))
+                print("Link %s to %s FAILED" % (self, sym))
         roman = int2roman(self.nummer)
-        self.nummer = '%s (%s): %s' % (self.nummer, roman, symbols[roman.lower()].betekenis)
+        self.nummer = "%s (%s): %s" % (
+            self.nummer,
+            roman,
+            symbols[roman.lower()].betekenis,
+        )
 
     @property
     def img(self):
         naam = self.naam
-        if self.kleur == 'groot':
-            naam = 'GroteArcana/%s-%s' % (self.getal, naam)
+        if self.kleur == "groot":
+            naam = "GroteArcana/%s-%s" % (self.getal, naam)
         else:
-            naam = 'KleineArcana/%s/%s-%s' % (self.kleur, self.kleur, naam)
-        
-        return '%s.jpg' % naam.replace(' ', '-')
+            naam = "KleineArcana/%s/%s-%s" % (self.kleur, self.kleur, naam)
+
+        return "%s.jpg" % naam.replace(" ", "-")
 
     def get_attr(self, attr, *args):
         val = getattr(self, attr)
-        if attr == 'steekwoorden':
-            val = random.choice(val.split(', '))
+        if attr == "steekwoorden":
+            val = random.choice(val.split(", "))
         return val
 
     @property
@@ -87,20 +100,25 @@ class Card:  # pylint: disable=no-member,access-member-before-definition
             try:
                 waarde = roman2int(self.getal)
             except ValueError:
-                waarde = dict(Aas=1, Page=11, Ridder=12, Koningin=13, Koning=14)[self.naam]
-    
+                waarde = dict(Aas=1, Page=11, Ridder=12, Koningin=13, Koning=14)[
+                    self.naam
+                ]
+
         return waarde
 
     def directions(self):
         nr = self.nr
-        def move(jmp, bot, ceil): 
-            ''' move within [bot, ceil> '''
+
+        def move(jmp, bot, ceil):
+            """ move within [bot, ceil> """
+
             def clip(val):
                 if val < bot:
                     return val + (ceil - bot)
                 if val >= ceil:
                     return val - (ceil - bot)
                 return val
+
             return (clip(nr - jmp), clip(nr + 1), clip(nr + jmp), clip(nr - 1))
 
         up, nxt, dwn, prv = move(10, 1, 21) if nr <= 21 else move(14, 22, 78)
@@ -108,7 +126,7 @@ class Card:  # pylint: disable=no-member,access-member-before-definition
         if nr == 0:
             up, dwn, prv = 11, 1, 21
         elif nr == 1:
-            up, prv  = 0, 0
+            up, prv = 0, 0
         elif nr == 10:
             up = 21
         elif nr == 11:
@@ -119,7 +137,7 @@ class Card:  # pylint: disable=no-member,access-member-before-definition
             up, nxt, dwn = 20, 0, 10
 
         return up, nxt, dwn, prv
-        
+
 
 # monkey patch link methods
 Card.pictorialkey = links.pictorialkey
@@ -129,15 +147,15 @@ Card.spiridoc = links.spiridoc
 
 
 class Deck:
-
-    def __init__(self, symboliek, filename='kaarten.csv'):
+    def __init__(self, symboliek, filename="kaarten.csv"):
         self.cards = []
         self.shuffled = []
         try:
             from data import cards
+
             self.parse_rows(cards)
         except ImportError:
-            print('Reading from CSV. You may want to run csv2.py')
+            print("Reading from CSV. You may want to run csv2.py")
             with open(filename) as fin:
                 reader = csv.DictReader(fin)
                 self.parse_rows(reader)
@@ -165,17 +183,19 @@ class Deck:
         return self.cards[22:]
 
     def question(self):
-        return Question(self.cards, 
-                        random.choice(['kernwoord', 'steekwoorden', 'uitnodiging', 'waarschuwing']))
+        return Question(
+            self.cards,
+            random.choice(["kernwoord", "steekwoorden", "uitnodiging", "waarschuwing"]),
+        )
 
     def url(self, card):
-        return url_for('card', nr=card.nr)
+        return url_for("card", nr=card.nr)
 
     def link(self, card):
         return '<a href="%s?hidden=0">%s</a>' % (self.url(card), card.naam)
 
     def pick(self, amount=1):
-        ''' return random cards, by shuffling the deck and picking cards one by one until the deck is too small '''
+        """ return random cards, by shuffling the deck and picking cards one by one until the deck is too small """
         if amount > len(self.shuffled):
             self.shuffled = self.cards[:]
             random.shuffle(self.shuffled)
@@ -189,9 +209,9 @@ class Symbool:
     symboliek = None
 
     def __init__(self, row):
-        self.naam = row['naam'].strip().lower()
-        self.betekenis = row['betekenis']
-        self.referenties = [r.strip().lower() for r in row['zie'].split(',') if r]
+        self.naam = row["naam"].strip().lower()
+        self.betekenis = row["betekenis"]
+        self.referenties = [r.strip().lower() for r in row["zie"].split(",") if r]
         self.cards = []
 
     def __str__(self):
@@ -206,26 +226,27 @@ class Symbool:
             card = random.choice(self.cards)
             return card.img
         except IndexError:
-            return 'achterkant.jpg'
+            return "achterkant.jpg"
+
 
 class Symboliek:
-
-    def __init__(self, filename='symboliek.csv'):
+    def __init__(self, filename="symboliek.csv"):
         self.symbolen = {}
         Symbool.symboliek = self
-        
+
         try:
             from data import symbols
+
             self.parse_rows(symbols)
         except ImportError:
-            print('Reading from CSV. You may want to run csv2.py')
+            print("Reading from CSV. You may want to run csv2.py")
             with open(filename) as fin:
                 reader = csv.DictReader(fin)
                 self.parse_rows(reader)
 
     def parse_rows(self, reader):
         for row in reader:
-            if row['naam']:
+            if row["naam"]:
                 symbool = Symbool(row)
                 self.symbolen[symbool.naam] = symbool
 
@@ -233,30 +254,34 @@ class Symboliek:
         try:
             symbool = self.symbolen[naam.lower()]
         except KeyError:
-            return ''
+            return ""
         except AttributeError:
             symbool = naam
         betekenis = symbool.betekenis
         if betekenis:
             if referenties and symbool.referenties:
-                betekenis += ' (zie ook %s)' % ', '.join(self.link_for_name(r) for r in symbool.referenties)
+                betekenis += " (zie ook %s)" % ", ".join(
+                    self.link_for_name(r) for r in symbool.referenties
+                )
         else:
-            referenties = ['%s (via %s)' % (self.get(ref), ref) for ref in symbool.referenties]
-            betekenis = ' '.join(referenties)
+            referenties = [
+                "%s (via %s)" % (self.get(ref), ref) for ref in symbool.referenties
+            ]
+            betekenis = " ".join(referenties)
 
         return betekenis
 
     @staticmethod
     def link_for_name(name):
-        url = url_for('symbols')
+        url = url_for("symbols")
         return '<a href="%s#%s">%s</a>' % (url, name, name)
 
     def url(self, symbol):
-        url = url_for('symbols')
-        return '%s#%s' % (url, symbol.naam)
+        url = url_for("symbols")
+        return "%s#%s" % (url, symbol.naam)
 
     def link(self, symbol):
         return '<a href="%s">%s</a>' % (symbol.url, symbol.naam)
 
     def question(self):
-        return Question(self.symbolen, 'betekenis')
+        return Question(self.symbolen, "betekenis")
