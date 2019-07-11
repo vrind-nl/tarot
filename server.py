@@ -53,7 +53,7 @@ def turned(nr):
 @app.route("/perma/<nrs>")
 def perma(nrs):
     nrs = [int(nr) for nr in nrs.split("-")]
-    return cards(len(nrs), cards=[deck.cards[nr] for nr in nrs])
+    return cards(len(nrs), True, [deck.cards[nr] for nr in nrs])
 
 
 @app.route("/symbols")
