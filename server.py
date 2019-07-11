@@ -1,6 +1,5 @@
 import os
 import random
-import sys
 
 from flask import Flask, render_template, request
 
@@ -30,7 +29,7 @@ def card(nr):
 
 @app.route("/cards/", defaults=dict(turned=False, cards=None, nr=3))
 @app.route("/cards/<int:nr>", defaults=dict(turned=False, cards=None))
-def cards(nr, turned=False, cards=None):
+def cards(nr, turned=False, flipped=False, cards=None):
     hidden = request.args.get("hidden", default=1, type=int)
     cards = cards or deck.pick(nr)
     return render_template(
@@ -40,7 +39,8 @@ def cards(nr, turned=False, cards=None):
         deck=deck,
         symbols=symboliek,
         turned=turned,
-        hidden="hidden" if hidden else "",
+        hidden=hidden,
+        flipped=flipped,
     )
 
 
@@ -53,7 +53,7 @@ def turned(nr):
 @app.route("/perma/<nrs>")
 def perma(nrs):
     nrs = [int(nr) for nr in nrs.split("-")]
-    return cards(len(nrs), True, [deck.cards[nr] for nr in nrs])
+    return cards(len(nrs), flipped=True, cards=[deck.cards[nr] for nr in nrs])
 
 
 @app.route("/symbols")
