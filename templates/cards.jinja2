@@ -34,7 +34,7 @@
                     class="face"
                 />
             </div>
-            <div class="hidden {{card_id}} buttons">
+            <div class="{% if not flipped %}hidden {% endif %}{{card_id}} buttons">
                 <button onclick="explanation('{{card_id}}')">Toelichting</button>
                 {% if turned %}
                 <button class="{{card_id}} hidden" onclick="turn()">Rechtop</button>
