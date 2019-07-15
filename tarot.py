@@ -1,5 +1,7 @@
+from collections import defaultdict
 import csv
 import random
+
 from flask import url_for
 
 import links
@@ -42,12 +44,7 @@ class Card:  # pylint: disable=no-member,access-member-before-definition
         ]:
             setattr(self, attr, attrs[attr])
         self.symbolen = sorted(s.strip() for s in attrs["symbolen"].split(",") if s)
-
-        def optellen(waarde):
-            """ keep adding digits until there's one left """
-            return waarde if waarde < 10 else optellen(sum(int(c) for c in str(waarde)))
-
-        self.nummer = optellen(self.waarde)
+        self.nummer = self.get_nummer()
 
     def __str__(self):
         naam = self.naam
@@ -57,6 +54,13 @@ class Card:  # pylint: disable=no-member,access-member-before-definition
             naam = "de %s van %s" % (naam, self.kleur)
 
         return naam
+
+    def get_nummer(self):
+        def optellen(waarde):
+            """ keep adding digits until there's one left """
+            return waarde if waarde < 10 else optellen(sum(int(c) for c in str(waarde)))
+
+        return optellen(self.waarde)
 
     def link_symbols(self, symbols):
         for sym in self.symbolen:
@@ -205,6 +209,12 @@ class Deck:
     def permalink(cls, cards):
         return url_for("perma", nrs="-".join(str(c.nr) for c in cards))
 
+    def numbers(self):
+        numbers = defaultdict(list)
+        for card in self:
+            numbers[int2roman(card.get_nummer())].append(card)
+        return numbers
+
 
 class Symbool:
 
@@ -253,6 +263,8 @@ class Symboliek:
                 self.symbolen[symbool.naam] = symbool
 
     def get(self, naam, referenties=True):
+        if isinstance(naam, int):
+            naam = str(naam)
         try:
             symbool = self.symbolen[naam.lower()]
         except KeyError:

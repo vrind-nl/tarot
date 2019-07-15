@@ -1,0 +1,18 @@
+{% extends "overview.jinja2" %}
+
+
+{% block content %}
+  <h2>Numerologie</h2>
+  <table>
+    {% for nr in ROMANS %}
+      <tr>
+        <td>{{nr}}: {{symbols.get(nr)}}</td>
+        {% for card in numbers[nr] %}
+          <td>
+            {{render_card(card, card.waarde)}}
+          </td>
+        {% endfor %}
+      </tr>
+    {% endfor %}
+  </table>
+{% endblock content %}

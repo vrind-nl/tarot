@@ -586,11 +586,14 @@ cards = [
             ("getal", ""),
             ("naam", "Page"),
             ("opmerking", ""),
-            ("kernwoord", "BOODSCHAPPER"),
-            ("steekwoorden", "op ideeën komen."),
+            ("kernwoord", "PREDIKER"),
+            (
+                "steekwoorden",
+                "op ideeën komen, meeslepende impuls, groene blaadjes in de woestijn",
+            ),
             ("uitnodiging", "Grijp je kans!"),
             ("waarschuwing", "Pas op voor (te) mooie verhalen"),
-            ("symbolen", "heuvels, pyramide, rood kleed, blauw"),
+            ("symbolen", "heuvels, pyramide, rood kleed, geel kleed, blauw"),
         ]
     ),
     OrderedDict(
@@ -1688,7 +1691,7 @@ symbols = [
         [
             ("naam", "geestelijke"),
             ("zie", "hiërofant"),
-            ("betekenis", "toewijding, toetreding"),
+            ("betekenis", "toewijding, toetreding, intelligentie"),
         ]
     ),
     OrderedDict(
