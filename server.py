@@ -16,6 +16,13 @@ def index():
     return render_template("index.jinja2")
 
 
+@app.route("/overview", defaults={"num": False})
+@app.route("/overview/num", defaults={"num": True})
+def overview(num):
+    template = "overview_num.jinja2" if num else "overview.jinja2"
+    return render_template(template, deck=deck, symbols=symboliek)
+
+
 @app.route("/card/<int:nr>")
 def card(nr):
     hidden = request.args.get("hidden", default=1, type=int)
@@ -56,6 +63,14 @@ def perma(nrs):
     return cards(len(nrs), flipped=True, cards=[deck.cards[nr] for nr in nrs])
 
 
+@app.route("/related/", defaults=dict(nr=3))
+@app.route("/related/<int:nr>")
+def related(nr):
+    return render_template(
+        "related.jinja2", card=deck.cards[nr], symbols=symboliek, deck=deck
+    )
+
+
 @app.route("/symbols")
 def symbols():
     return render_template("symbols.jinja2", symbols=symboliek, deck=deck)
@@ -68,13 +83,6 @@ def question():
     return render_template(
         "question.jinja2", question=q, url="%s?hidden=0" % q_src.url(q.answer)
     )
-
-
-@app.route("/overview", defaults={"num": False})
-@app.route("/overview/num", defaults={"num": True})
-def overview(num):
-    template = "overview_num.jinja2" if num else "overview.jinja2"
-    return render_template(template, deck=deck, symbols=symboliek)
 
 
 @app.route("/study")

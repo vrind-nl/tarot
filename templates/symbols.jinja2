@@ -1,20 +1,22 @@
 {% extends "base.jinja2" %}
 
+{% from "macros.jinja2" import render_card, render_cards %}
+
 
 {% block content %}
-    <h2>Symboliek</h2>
-    <table>
-        {% for name, symbol in symbols.symbolen.items() | sort %}
-            <tr>
-                <td><a name="{{symbol}}"></a>{{symbol}}</td>
-                <td>{{symbols.get(name)}}</td>
-                <td>
-                    {% for card in symbol.cards %}
-                        {{ deck.link(card) }}
-                    {% endfor %}
-                </td>
-            </tr>
+  <h2>Symboliek</h2>
+  <table>
+    {% for name, symbol in symbols.symbolen.items() | sort %}
+      <tr>
+        <td><a name="{{symbol}}"></a>{{symbol}}</td>
+        <td>{{symbols.get(name)}}</td>
+        {% for card in symbol.cards %}
+          <td>
+            {{ render_card(card) }}
+          </td>
         {% endfor %}
-    </table>
-    <p>Zie ook <a href="https://www.kaartlegging.nl/symbolen-van-de-tarot">Kaartlegging.nl</a>.</p>
+      </tr>
+    {% endfor %}
+  </table>
+<p>Zie ook <a href="https://www.kaartlegging.nl/symbolen-van-de-tarot">Kaartlegging.nl</a>.</p>
 {% endblock content %}

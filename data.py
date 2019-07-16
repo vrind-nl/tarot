@@ -38,7 +38,7 @@ cards = [
             (
                 "symbolen",
                 "natuur, roos, lelie,baldakijn, altaar, zwaard, staf, kelk, "
-                "pentakel, jonge man, ourobouros, lemniscaat, bloemen, geel",
+                "pentakel, jonge man, ourobouros, lemniscaat, bloemen, geel, skepter",
             ),
         ]
     ),
@@ -80,7 +80,7 @@ cards = [
             ("waarschuwing", "Leef je in harmonie met je omgeving/de natuur?"),
             (
                 "symbolen",
-                "volwassen vrouw, troon, kroon, parels, scepter, venussymbool, "
+                "volwassen vrouw, troon, kroon, parels, skepter, venussymbool, "
                 "stroom, boom, koren",
             ),
         ]
@@ -120,7 +120,10 @@ cards = [
             ),
             ("uitnodiging", "Wees niet bang om je mening te delen."),
             ("waarschuwing", "Luister ook goed naar anderen."),
-            ("symbolen", "zegening, pilaren, kruis, kroon, adept, rood kleed, sleutel"),
+            (
+                "symbolen",
+                "zegening, pilaren, kruis, kroon, adept, rood kleed, sleutel, skepter",
+            ),
         ]
     ),
     OrderedDict(
@@ -140,7 +143,7 @@ cards = [
             ("waarschuwing", "Verlies jezelf niet in deze relatie."),
             (
                 "symbolen",
-                "naaktheid, engel, zegening, appelboom, slang, wolken, bergtop, "
+                "naaktheid, borsten, engel, zegening, appelboom, slang, wolken, bergtop, "
                 "zon, jonge man, jonge vrouw, paars kleed",
             ),
         ]
@@ -163,7 +166,7 @@ cards = [
                 "symbolen",
                 "jonge man, kroon, lauwerkrans, ster (achtpuntig), vierkant, "
                 "yoni, lingam, sfinx, stadsmuur, hermesvleugels, maan, harnas, "
-                "baldakijn",
+                "baldakijn, skepter",
             ),
         ]
     ),
@@ -352,7 +355,7 @@ cards = [
             (
                 "symbolen",
                 "ster (achtpuntig), naaktheid, jonge vrouw, kruik, heuvels, "
-                "feniks, water",
+                "feniks, water, borsten",
             ),
         ]
     ),
@@ -407,7 +410,7 @@ cards = [
             (
                 "symbolen",
                 "engel, wolken, bazuin, volwassen man, volwassen vrouw, kind, "
-                "grijs, naaktheid, berg, ijs, vlag",
+                "grijs, naaktheid, berg, ijs, vlag, borsten",
             ),
         ]
     ),
@@ -642,7 +645,7 @@ cards = [
             ("getal", ""),
             ("naam", "Koning"),
             ("opmerking", ""),
-            ("kernwoord", "RAADSMAN"),
+            ("kernwoord", "AANVOERDER"),
             (
                 "steekwoorden",
                 "creatief, inspirerend, charmant, geestig, rechtvaardig, gedreven",
@@ -804,7 +807,10 @@ cards = [
             ),
             ("uitnodiging", "Draag bij aan het grotere geheel."),
             ("waarschuwing", "Wees niet te gefixeerd op zekerheid."),
-            ("symbolen", "druiven, hond, burcht, toren, poort, weegschaal, oude man"),
+            (
+                "symbolen",
+                "druiven, hond, burcht, toren, poort, weegschaal, oude man, brug",
+            ),
         ]
     ),
     OrderedDict(
@@ -1067,10 +1073,10 @@ cards = [
             ("getal", ""),
             ("naam", "Koning"),
             ("opmerking", ""),
-            ("kernwoord", "DENKER"),
+            ("kernwoord", "HANDHAVER"),
             (
                 "steekwoorden",
-                "De gedachte gaat aan de manifestatie vooraf, handhaver, "
+                "De gedachte gaat aan de manifestatie vooraf, "
                 "rationeel, skeptisch, hard, dominant",
             ),
             ("uitnodiging", "Kom tot een conclusie"),
@@ -1305,7 +1311,7 @@ cards = [
             ("getal", ""),
             ("naam", "Koning"),
             ("opmerking", ""),
-            ("kernwoord", "HANDHAVER"),
+            ("kernwoord", "RAADSMAN"),
             (
                 "steekwoorden",
                 "bewustwording, compassie, gevoelig man, onderhandelaar, brede "
@@ -1313,7 +1319,10 @@ cards = [
             ),
             ("uitnodiging", "Ben jij een rots in de branding?"),
             ("waarschuwing", "Vergeet je eigen gevoelens niet"),
-            ("symbolen", "golven, vis, boot, kroon, troon, scepter, geel kleed, blauw"),
+            (
+                "symbolen",
+                "golven, vis, boot, kroon, troon, skepter, geel kleed, blauw, skepter",
+            ),
         ]
     ),
 ]
@@ -1520,7 +1529,7 @@ symbols = [
         ]
     ),
     OrderedDict([("naam", "altaar"), ("zie", ""), ("betekenis", "religie")]),
-    OrderedDict([("naam", "ankh"), ("zie", "scepter"), ("betekenis", "eeuwig leven")]),
+    OrderedDict([("naam", "ankh"), ("zie", "skepter"), ("betekenis", "eeuwig leven")]),
     OrderedDict([("naam", "ankh"), ("zie", "jakhalsgod"), ("betekenis", "")]),
     OrderedDict(
         [
@@ -2023,9 +2032,7 @@ symbols = [
             ("betekenis", "oneindige verbondenheid, heilige geest"),
         ]
     ),
-    OrderedDict(
-        [("naam", "lingam"), ("zie", ""), ("betekenis", "fallussymbool (zie ook yoni)")]
-    ),
+    OrderedDict([("naam", "lingam"), ("zie", "yoni"), ("betekenis", "fallussymbool")]),
     OrderedDict(
         [
             ("naam", "links"),
@@ -2284,7 +2291,7 @@ symbols = [
             ("betekenis", "vernieuwing, geestelijk inzicht, ziel"),
         ]
     ),
-    OrderedDict([("naam", "scepter"), ("zie", ""), ("betekenis", "wereldse macht")]),
+    OrderedDict([("naam", "skepter"), ("zie", ""), ("betekenis", "wereldse macht")]),
     OrderedDict(
         [
             ("naam", "schild"),
@@ -2541,8 +2548,8 @@ symbols = [
     OrderedDict(
         [
             ("naam", "yoni"),
-            ("zie", ""),
-            ("betekenis", "vrouwelijke geslachtsorganen (zie lingam)"),
+            ("zie", "lingam"),
+            ("betekenis", "vrouwelijke geslachtsorganen"),
         ]
     ),
     OrderedDict(

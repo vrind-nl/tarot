@@ -165,6 +165,13 @@ class Deck:
         for card in self:
             card.link_symbols(symboliek.symbolen)
 
+        self.numbers = defaultdict(list)
+        for card in self:
+            nr = card.get_nummer()
+            rom = int2roman(nr)
+            print("%s: %s (%d)" % (card, rom, nr))
+            self.numbers[rom].append(card)
+
     def parse_rows(self, reader):
         for nr, row in enumerate(reader):
             self.cards.append(Card(nr, row))
@@ -210,15 +217,6 @@ class Deck:
     @classmethod
     def permalink(cls, cards):
         return url_for("perma", nrs="-".join(str(c.nr) for c in cards))
-
-    def numbers(self):
-        numbers = defaultdict(list)
-        for card in self:
-            nr = card.get_nummer()
-            rom = int2roman(nr)
-            print("%s: %s (%d)" % (card, rom, nr))
-            numbers[rom].append(card)
-        return numbers
 
 
 class Symbool:
