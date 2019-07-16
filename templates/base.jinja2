@@ -11,12 +11,11 @@
     <nav>
       <h1 style="padding-left: 3pt; margin-bottom: 0;">Tarot trainer </h1>
 
-      <a href="{{ url_for('overview') }}">Overzicht</a>
+      <a href="{{ url_for('overview', num=False) }}">Overzicht</a>
       <a href="{{ url_for('symbols') }}">Symboliek</a>
       <a href="{{ url_for('cards') }}">Kaartlegging</a>
       <a href="{{ url_for('turned') }}" class="turned">Kaartlegging</a>
       <a href="{{ url_for('study') }}">Uitleg</a>
-      <a href="{{ url_for('numerologie') }}">Numerologie</a>
       <a href="{{ url_for('question') }}">Quiz</a>
     </nav>
 

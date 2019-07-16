@@ -1,14 +1,14 @@
 {% extends "base.jinja2" %}
 
 
-{% macro render_card(card, nr) %}
-    <a href="{{ url_for('card', nr=nr, hidden=0) }}"><img src="{{ url_for('static', filename=card.img) }}" height=200></a><br/>{{card.get_attr('kernwoord')}}
+{% macro render_card(card) %}
+    <a href="{{ url_for('card', nr=card.nr, hidden=0) }}"><img src="{{ url_for('static', filename=card.img) }}" height=200></a><br/>{{card.get_attr('kernwoord')}}
 {% endmacro %}
 
 
 {% macro render_cards(cards, start, end) %}
     {% for nr in range(start, end) %}
-        <td>{{render_card(cards[nr], nr)}}</td>
+        <td>{{render_card(cards[nr])}}</td>
     {% endfor %}
 {% endmacro %}
 
@@ -24,9 +24,9 @@
     <table>
         <tr>
             <td>&nbsp;</td>
-            <td>{{render_card(deck.cards[0], 0)}}</td>
+            <td>{{render_card(deck.cards[0])}}</td>
             <td colspan=8>&nbsp;</td>
-            <td>{{render_card(deck.cards[21], 21)}}</td>
+            <td>{{render_card(deck.cards[21])}}</td>
         </tr>
         <tr>
             <td>&nbsp;</td>
@@ -82,4 +82,6 @@
             {{render_cards(deck.cards, 64, 78)}}
         </tr>
     </table>
+
+    <p>Zie ook het <a href="{{url_for('overview', num=True)}}">numerologische overzicht</a>.</p>
 {% endblock content %}

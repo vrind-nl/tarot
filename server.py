@@ -56,13 +56,6 @@ def perma(nrs):
     return cards(len(nrs), flipped=True, cards=[deck.cards[nr] for nr in nrs])
 
 
-@app.route("/numerologie")
-def numerologie():
-    return render_template(
-        "numerologie.jinja2", numbers=deck.numbers(), symbols=symboliek
-    )
-
-
 @app.route("/symbols")
 def symbols():
     return render_template("symbols.jinja2", symbols=symboliek, deck=deck)
@@ -77,9 +70,11 @@ def question():
     )
 
 
-@app.route("/overview")
-def overview():
-    return render_template("overview.jinja2", deck=deck, symbols=symboliek)
+@app.route("/overview", defaults={"num": False})
+@app.route("/overview/num", defaults={"num": True})
+def overview(num):
+    template = "overview_num.jinja2" if num else "overview.jinja2"
+    return render_template(template, deck=deck, symbols=symboliek)
 
 
 @app.route("/study")

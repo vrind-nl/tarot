@@ -1,0 +1,75 @@
+{% extends "overview.jinja2" %}
+
+{% block content %}
+  <style>
+    td {
+    text-align: center;
+    }
+  </style>
+  <h2>Numerologisch overzicht</h2>
+<p>Het onderstaande overzicht toont de enkelvoudige getallen en de kaarten die daar bij horen.</p>
+
+<p>Aanvullende informatie over numerologie:
+  <ul>
+    <li><a href="https://tarotstapvoorstap.nl/tarot-numerologie/">Tarot stap voor stap</a></li>
+    <li><a href="http://www.kaartensterren.nl/pagina's/tarot%203%20getallen.html">Kaarten Sterren</a></li>
+  </ul>
+</p>
+
+<h3>Grote arcana</h3>
+<table>
+  <tr>
+    {% for nr in ROMANS0 %}
+      <td>{{nr}}: {{symbols.get(nr)}}</td>
+    {% endfor %}
+  </tr>
+  <tr>
+    {{render_cards(deck.cards, 0, 9)}}
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    {{render_cards(deck.cards, 10, 18)}}
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    {{render_cards(deck.cards, 19, 22)}}
+  </tr>
+</table>
+
+<h3>Kleine arcana</h3>
+<table>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&lt; Aas: {{symbols.get('aas')}} &gt;</td>
+    <td>&lt;</td>
+    <td colspan=8>Getallen: {{symbols.get('getallen')}}</td>
+    <td>&gt;</td>
+    <td>&lt;</td>
+    <td colspan=2>Hof: {{symbols.get('hofkaart')}}</td>
+    <td>&gt;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    {% for nr in ROMANS[:9] + ROMANS[:5] %}
+      <td>{{nr}}: {{symbols.get(nr)}}</td>
+    {% endfor %}
+  </tr>
+  <tr>
+    <td>Staven: {{symbols.get('staven')}}</td>
+    {{render_cards(deck.cards, 22, 36)}}
+  </tr>
+  <tr>
+    <td>Pentakels: {{symbols.get('pentakels')}}</td>
+    {{render_cards(deck.cards, 36, 50)}}
+  </tr>
+  <tr>
+    <td>Zwaarden: {{symbols.get('zwaarden')}}</td>
+    {{render_cards(deck.cards, 50, 64)}}
+  </tr>
+  <tr>
+    <td>Kelken: {{symbols.get('kelken')}}</td>
+    {{render_cards(deck.cards, 64, 78)}}
+  </tr>
+</table>
+<p>Zie ook het <a href="{{url_for('overview', num=False)}}">algemene overzicht</a>.</p>
+{% endblock content %}
