@@ -615,11 +615,10 @@ cards = [
             ("getal", ""),
             ("naam", "Koningin"),
             ("opmerking", ""),
-            ("kernwoord", "KUNDIG"),
+            ("kernwoord", "STEVIG"),
             (
                 "steekwoorden",
-                "je eigen belevings- en verbeeldingswereld, onafhankelijk, "
-                "identiteit, zelfvertrouwen",
+                "onafhankelijk, " "kundig, identiteit, mild, zelfvertrouwen",
             ),
             ("uitnodiging", "Geloof in jezelf."),
             ("waarschuwing", "Neem ook eens iets van een ander aan"),
@@ -636,10 +635,10 @@ cards = [
             ("getal", ""),
             ("naam", "Koning"),
             ("opmerking", ""),
-            ("kernwoord", "RECHTER"),
+            ("kernwoord", "RAADSMAN"),
             (
                 "steekwoorden",
-                "creatief, inspirerend, charmant, geestig, rechtvaardig, " "gedreven",
+                "creatief, inspirerend, charmant, geestig, rechtvaardig, gedreven",
             ),
             ("uitnodiging", "Hoe zou hij het aanpakken?"),
             ("waarschuwing", "Eerlijk duurt het langst"),
@@ -824,7 +823,7 @@ cards = [
             ("steekwoorden", "organisatievermogen, degelijk, plichtgetrouw, praktisch"),
             ("uitnodiging", "Richt je op het haalbare."),
             ("waarschuwing", "Hoe stevig is je basis?"),
-            ("symbolen", "paard, harnas, rood kleed, afgewend, geel"),
+            ("symbolen", "paard, harnas, rood kleed, afgewend, geel, zwart"),
         ]
     ),
     OrderedDict(
@@ -1283,7 +1282,7 @@ cards = [
             (
                 "steekwoorden",
                 "inlevingsvermogen, innerlijk weten, visioenen/dromerig, "
-                "gedistingeerd",
+                "gedistingeerd, toegewijd",
             ),
             ("uitnodiging", "Erover praten kan je beeld verhelderen."),
             ("waarschuwing", "Vergeet jezelf niet"),
@@ -1296,7 +1295,7 @@ cards = [
             ("getal", ""),
             ("naam", "Koning"),
             ("opmerking", ""),
-            ("kernwoord", "RAADSMAN"),
+            ("kernwoord", "HANDHAVER"),
             (
                 "steekwoorden",
                 "bewustwording, compassie, gevoelig man, onderhandelaar, brede "
@@ -1500,7 +1499,9 @@ symbols = [
     OrderedDict([("naam", ""), ("zie", ""), ("betekenis", "")]),
     OrderedDict([("naam", "aarde"), ("zie", ""), ("betekenis", "vruchtbaarheid")]),
     OrderedDict([("naam", "adept"), ("zie", "monnik"), ("betekenis", "")]),
-    OrderedDict([("naam", "afgewend"), ("zie", ""), ("betekenis", "terugblikken")]),
+    OrderedDict(
+        [("naam", "afgewend"), ("zie", ""), ("betekenis", "vooruit- of terugblikken")]
+    ),
     OrderedDict([("naam", "altaar"), ("zie", ""), ("betekenis", "religie")]),
     OrderedDict([("naam", "ankh"), ("zie", "scepter"), ("betekenis", "eeuwig leven")]),
     OrderedDict([("naam", "ankh"), ("zie", "jakhalsgod"), ("betekenis", "")]),
