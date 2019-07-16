@@ -51,7 +51,7 @@ class Card:  # pylint: disable=no-member,access-member-before-definition
         if self.kleur == "groot":
             naam = "%s (%s)" % (naam, self.getal)
         else:
-            naam = "de %s van %s" % (naam, self.kleur)
+            naam = "%s van %s" % (naam, self.kleur)
 
         return naam
 
@@ -195,7 +195,7 @@ class Deck:
         return url_for("card", nr=card.nr)
 
     def link(self, card):
-        return '<a href="%s?hidden=0">%s</a>' % (self.url(card), card.naam)
+        return '<a href="%s?hidden=0">%s</a>' % (self.url(card), card)
 
     def pick(self, amount=1):
         """ return random cards, by shuffling the deck and

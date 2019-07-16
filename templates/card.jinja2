@@ -11,7 +11,7 @@
                 <tr><td>grote arcana XI-XX:</td><td>{{symbols.get('grote arcana 11-20')}}</td></tr>
             {% endif %}
         {% else %}
-            <tr><td>{{card.kleur}}:</td><td>{{symbols.get(card.kleur)}}</td></tr>
+            <tr><td>{{card.kleur | lower}}:</td><td>{{symbols.get(card.kleur)}}</td></tr>
             {% if card.naam in ['Aas', 'Page', 'Ridder', 'Koningin', 'Koning'] %}
                 <tr><td>{{card.naam}}:</td><td>{{symbols.get(card.naam)}}</td></tr>
             {% endif %}

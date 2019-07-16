@@ -15,7 +15,10 @@ cards = [
             ),
             ("uitnodiging", "Doe eens iets spontaans."),
             ("waarschuwing", "Waar is het kind je je gebleven?"),
-            ("symbolen", "jonge man, roos, staf, zon, berg, hond, bloemenkrans, geel"),
+            (
+                "symbolen",
+                "jonge man, roos, staf, zon, berg, hond, bloemenkrans, geel, ijs",
+            ),
         ]
     ),
     OrderedDict(
@@ -98,8 +101,8 @@ cards = [
             ("waarschuwing", "Is er voldoende ruimte voor je gevoelens?"),
             (
                 "symbolen",
-                "volwassen man, stroom, berg, troon, kroon, rijksappel, rood "
-                "kleed,harnas",
+                "volwassen man, stroom, ankh, berg, troon, kroon, rijksappel, rood "
+                "kleed, harnas, globe",
             ),
         ]
     ),
@@ -270,7 +273,7 @@ cards = [
                 "symbolen",
                 "wit, vaandel, wolken, toren, zon, koning, bisschop, jonge "
                 "vrouw, kind, boot, man, stroom, paard, afgewend, zwart, zon, "
-                "roos, harnas, doodshoofd",
+                "roos, harnas, doodshoofd, vlag",
             ),
         ]
     ),
@@ -348,7 +351,7 @@ cards = [
             ("waarschuwing", "Valse hoop, misplaatst vertrouwen."),
             (
                 "symbolen",
-                "ster (achtpuntig), naaktheid, jonge vrouw, kelken, heuvels, "
+                "ster (achtpuntig), naaktheid, jonge vrouw, kruik, heuvels, "
                 "feniks, water",
             ),
         ]
@@ -387,7 +390,7 @@ cards = [
             ("waarschuwing", "Het speelkwartier is allang voorbij."),
             (
                 "symbolen",
-                "kind, bloemenkrans, wit, rood kleed, zon, zonnebloem, " "golven",
+                "kind, bloemenkrans, wit, rood kleed, zon, zonnebloem, golven, vlag",
             ),
         ]
     ),
@@ -404,7 +407,7 @@ cards = [
             (
                 "symbolen",
                 "engel, wolken, bazuin, volwassen man, volwassen vrouw, kind, "
-                "grijs, naaktheid, berg",
+                "grijs, naaktheid, berg, ijs, vlag",
             ),
         ]
     ),
@@ -453,7 +456,8 @@ cards = [
             ("waarschuwing", "Vernieuwing is nog geen verbetering."),
             (
                 "symbolen",
-                "links, water, muur, globe, roos, lelie, berg, rood kleed, " "grijs",
+                "globe, links, oceaan, muur, globe, roos, lelie, berg, rood kleed, "
+                "grijs",
             ),
         ]
     ),
@@ -467,7 +471,10 @@ cards = [
             ("steekwoorden", "vooruitzien, handel, ontdekkingsreizen"),
             ("uitnodiging", "Wacht rustig af"),
             ("waarschuwing", "Je kunt nu niet meer terug."),
-            ("symbolen", "rechts, rood kleed, groen kleed, boot, water, heuvels, geel"),
+            (
+                "symbolen",
+                "rechts, rood kleed, groen kleed, boot, oceaan, heuvels, geel",
+            ),
         ]
     ),
     OrderedDict(
@@ -577,7 +584,7 @@ cards = [
             ("steekwoorden", "afmaken, heroverwegen, opstand tegen onderdrukking"),
             ("uitnodiging", "Wie kan je helpen om deze last te dragen?"),
             ("waarschuwing", "Laat op tijd los"),
-            ("symbolen", "stadsmuur"),
+            ("symbolen", "akker, stadsmuur"),
         ]
     ),
     OrderedDict(
@@ -696,7 +703,7 @@ cards = [
             ),
             ("uitnodiging", "Waarmee kan je jezelf bewijzen?"),
             ("waarschuwing", "Sta open voor feedback"),
-            ("symbolen", "monnik, hamer, grijs, zwart"),
+            ("symbolen", "bank, monnik, hamer, grijs, zwart"),
         ]
     ),
     OrderedDict(
@@ -721,7 +728,7 @@ cards = [
             ("kernwoord", "VREZEN"),
             (
                 "steekwoorden",
-                "(angst voor) ontbering, gebrek, kou, angst voor de toekoms",
+                "(angst voor) ontbering, gebrek, kou, angst voor de toekomst",
             ),
             ("uitnodiging", "Wat heb je echt nodig?"),
             ("waarschuwing", "Angst is een slechte raadgever."),
@@ -755,7 +762,7 @@ cards = [
             ("steekwoorden", "ongeduld, onvrede, beheren"),
             ("uitnodiging", "Kijk het nog even aan. Zie je voortgang."),
             ("waarschuwing", "Blijf niet toekijken"),
-            ("symbolen", "staf, paars"),
+            ("symbolen", "schoffel, paars"),
         ]
     ),
     OrderedDict(
@@ -768,7 +775,7 @@ cards = [
             ("steekwoorden", "oefenen, nederig werk, ambachten, kundigheid"),
             ("uitnodiging", "Wat zou je willen leren?"),
             ("waarschuwing", "Moet je niet eens iets nieuws proberen?"),
-            ("symbolen", "hamer, geel"),
+            ("symbolen", "bank, hamer, geel"),
         ]
     ),
     OrderedDict(
@@ -781,7 +788,7 @@ cards = [
             ("steekwoorden", "vervulling, verfraaien, zekerheid, meevaller"),
             ("uitnodiging", "Geniet van wat je doet."),
             ("waarschuwing", "Ben je alert op nieuwe kansen?"),
-            ("symbolen", "druiven, kasteel, geel, valk, wijnhuisslak"),
+            ("symbolen", "druiven, kasteel, geel, valk, wijngaardslak"),
         ]
     ),
     OrderedDict(
@@ -810,7 +817,7 @@ cards = [
             ("steekwoorden", "behulpzaam, precies, kritisch, student, ijverig"),
             ("uitnodiging", "Hoe kun je jezelf nuttig maken?"),
             ("waarschuwing", "Pas op voor vluchtige belangstelling"),
-            ("symbolen", "natuur, heuvels, bloemen, groen kleed, stroom, geel"),
+            ("symbolen", "akker, natuur, heuvels, bloemen, groen kleed, stroom, geel"),
         ]
     ),
     OrderedDict(
@@ -823,7 +830,7 @@ cards = [
             ("steekwoorden", "organisatievermogen, degelijk, plichtgetrouw, praktisch"),
             ("uitnodiging", "Richt je op het haalbare."),
             ("waarschuwing", "Hoe stevig is je basis?"),
-            ("symbolen", "paard, harnas, rood kleed, afgewend, geel, zwart"),
+            ("symbolen", "akker, paard, harnas, rood kleed, afgewend, geel, zwart"),
         ]
     ),
     OrderedDict(
@@ -891,7 +898,7 @@ cards = [
             ),
             ("uitnodiging", "Luister naar je innerlijke stem"),
             ("waarschuwing", "Is het belangrijk om alles zo veel te analyseren?"),
-            ("symbolen", "wit kleed, water, heuvels, kubus, blinddoek, maan, blauw"),
+            ("symbolen", "wit kleed, oceaan, heuvels, kubus, blinddoek, maan, blauw"),
         ]
     ),
     OrderedDict(
@@ -1001,7 +1008,7 @@ cards = [
             ("steekwoorden", "destructieve gedachten, voortijdig einde"),
             ("uitnodiging", "Waar moet je nu rigoureus een streep onder zetten?"),
             ("waarschuwing", "Is het verstandig om er nu radicaal mee te breken?"),
-            ("symbolen", "water, zon, heuvels, rood kleed, zegening, zwart"),
+            ("symbolen", "oceaan, zon, heuvels, rood kleed, zegening, zwart"),
         ]
     ),
     OrderedDict(
@@ -1050,7 +1057,7 @@ cards = [
             (
                 "symbolen",
                 "afgewend, wolken, troon, kroon, wit kleed, volwassen vrouw, "
-                "zwaard geheven, cupido, vogel, grijs",
+                "zwaard geheven, cupido, vogel, grijs, vlinder",
             ),
         ]
     ),
@@ -1110,7 +1117,10 @@ cards = [
             ),
             ("uitnodiging", "Treed de ander liefdevol tegemoet"),
             ("waarschuwing", "Sta ik open voor een eerlijk compromis?"),
-            ("symbolen", "lauwerkrans, roos, slang, leeuw, heuvels, hermesvleugels"),
+            (
+                "symbolen",
+                "caduceus, lauwerkrans, roos, slang, leeuw, heuvels, hermesvleugels",
+            ),
         ]
     ),
     OrderedDict(
@@ -1223,7 +1233,7 @@ cards = [
             ),
             ("uitnodiging", "Sta eens stil om écht te genieten"),
             ("waarschuwing", "Kan je je zorgen loslaten en genieten?"),
-            ("symbolen", "blauw kleed"),
+            ("symbolen", "bank, blauw kleed"),
         ]
     ),
     OrderedDict(
@@ -1252,7 +1262,7 @@ cards = [
             ("steekwoorden", "fantasie, verbeelding, puberteit, vlijtige jeugd"),
             ("uitnodiging", "Laat je verwonderen"),
             ("waarschuwing", "Pas op voor goedgelovigheid."),
-            ("symbolen", "lotus, vis, golven, blauw"),
+            ("symbolen", "lotus, vis, oceaan, blauw"),
         ]
     ),
     OrderedDict(
@@ -1355,7 +1365,7 @@ symbols = [
     OrderedDict([("naam", ""), ("zie", ""), ("betekenis", "")]),
     OrderedDict(
         [
-            ("naam", "Staven"),
+            ("naam", "staven"),
             ("zie", "vuur"),
             (
                 "betekenis",
@@ -1366,7 +1376,7 @@ symbols = [
     ),
     OrderedDict(
         [
-            ("naam", "Pentakels"),
+            ("naam", "pentakels"),
             ("zie", "Aarde, V"),
             (
                 "betekenis",
@@ -1377,14 +1387,14 @@ symbols = [
     ),
     OrderedDict(
         [
-            ("naam", "Zwaarden"),
+            ("naam", "zwaarden"),
             ("zie", "lucht"),
             ("betekenis", "denken, verstand, tactisch, adel"),
         ]
     ),
     OrderedDict(
         [
-            ("naam", "Kelken"),
+            ("naam", "kelken"),
             ("zie", "water"),
             ("betekenis", "voelen, emotie, strategisch, geestelijkheid/staatslieden"),
         ]
@@ -1392,7 +1402,8 @@ symbols = [
     OrderedDict([("naam", "staf"), ("zie", "staven"), ("betekenis", "")]),
     OrderedDict([("naam", "pentakel"), ("zie", "pentakels"), ("betekenis", "")]),
     OrderedDict([("naam", "zwaard"), ("zie", "zwaarden"), ("betekenis", "")]),
-    OrderedDict([("naam", "Kelk"), ("zie", "kelken"), ("betekenis", "")]),
+    OrderedDict([("naam", "beker"), ("zie", "kelken"), ("betekenis", "")]),
+    OrderedDict([("naam", "kelk"), ("zie", "kelken"), ("betekenis", "")]),
     OrderedDict([("naam", "klavers"), ("zie", "staven"), ("betekenis", "")]),
     OrderedDict([("naam", "ruiten"), ("zie", "pentakels"), ("betekenis", "")]),
     OrderedDict([("naam", "schoppen"), ("zie", "zwaarden"), ("betekenis", "")]),
@@ -1496,11 +1507,17 @@ symbols = [
             ("betekenis", "gezag, competentie, wereldlijke macht"),
         ]
     ),
-    OrderedDict([("naam", ""), ("zie", ""), ("betekenis", "")]),
-    OrderedDict([("naam", "aarde"), ("zie", ""), ("betekenis", "vruchtbaarheid")]),
+    OrderedDict([("naam", "aarde"), ("zie", "globe"), ("betekenis", "vruchtbaarheid")]),
     OrderedDict([("naam", "adept"), ("zie", "monnik"), ("betekenis", "")]),
     OrderedDict(
         [("naam", "afgewend"), ("zie", ""), ("betekenis", "vooruit- of terugblikken")]
+    ),
+    OrderedDict(
+        [
+            ("naam", "akker"),
+            ("zie", ""),
+            ("betekenis", "Wat je zaait, zul je oogsten. Groei kost tijd."),
+        ]
     ),
     OrderedDict([("naam", "altaar"), ("zie", ""), ("betekenis", "religie")]),
     OrderedDict([("naam", "ankh"), ("zie", "scepter"), ("betekenis", "eeuwig leven")]),
@@ -1524,12 +1541,22 @@ symbols = [
         ]
     ),
     OrderedDict([("naam", "baldakijn"), ("zie", "troonhemel"), ("betekenis", "")]),
+    OrderedDict(
+        [("naam", "bank"), ("zie", ""), ("betekenis", "Neem tijd om na te denken")]
+    ),
+    OrderedDict(
+        [
+            ("naam", "bazuin"),
+            ("zie", ""),
+            ("betekenis", "belangrijke aankondiging, oproep van de Hogere Natuur "),
+        ]
+    ),
     OrderedDict([("naam", "bel"), ("zie", ""), ("betekenis", "melaatsheid, ziekte")]),
     OrderedDict(
         [
             ("naam", "berg"),
             ("zie", ""),
-            ("betekenis", "standvastigheid, aarde, mystieke reis"),
+            ("betekenis", "standvastigheid, verwezenlijking, mystieke reis"),
         ]
     ),
     OrderedDict(
@@ -1581,7 +1608,7 @@ symbols = [
             ("betekenis", "natuurlijke levenskracht, levensvreugde, actief en viriel"),
         ]
     ),
-    OrderedDict([("naam", "Bloemenkrans"), ("zie", "bloemen"), ("betekenis", "")]),
+    OrderedDict([("naam", "bloemenkrans"), ("zie", "bloemen"), ("betekenis", "")]),
     OrderedDict(
         [
             ("naam", "Boaz"),
@@ -1621,6 +1648,13 @@ symbols = [
             ("betekenis", "bescherming, veilige thuishaven"),
         ]
     ),
+    OrderedDict(
+        [
+            ("naam", "caduceus"),
+            ("zie", ""),
+            ("betekenis", "vereniging van tegengestelden, respect voor diversiteit"),
+        ]
+    ),
     OrderedDict([("naam", "cupido"), ("zie", ""), ("betekenis", "liefde")]),
     OrderedDict([("naam", "davidsster"), ("zie", ""), ("betekenis", "harmonie")]),
     OrderedDict(
@@ -1645,7 +1679,11 @@ symbols = [
     ),
     OrderedDict([("naam", "driehoek"), ("zie", "III, vuur"), ("betekenis", "geest")]),
     OrderedDict(
-        [("naam", "druiven"), ("zie", ""), ("betekenis", "overvloed, rijke oogst")]
+        [
+            ("naam", "druiven"),
+            ("zie", ""),
+            ("betekenis", "overvloed, rijke oogst, verlossing, gastvrijheid"),
+        ]
     ),
     OrderedDict(
         [("naam", "druppel"), ("zie", ""), ("betekenis", "genade, vrede, hoop")]
@@ -1657,7 +1695,6 @@ symbols = [
             ("betekenis", "brenger van vrede, heilige geest"),
         ]
     ),
-    OrderedDict([("naam", "dwaas"), ("zie", "de dwaas"), ("betekenis", "")]),
     OrderedDict(
         [("naam", "edelstenen"), ("zie", ""), ("betekenis", "hebzucht, materialisme")]
     ),
@@ -1708,9 +1745,20 @@ symbols = [
             ("betekenis", "voedster, doorzettingsvermogen, seksueel plezier"),
         ]
     ),
+    OrderedDict(
+        [
+            ("naam", "schoffel"),
+            ("zie", "gereedschap"),
+            ("betekenis", "leunen, gebruik de juiste gereedschappen"),
+        ]
+    ),
     OrderedDict([("naam", "gezin"), ("zie", ""), ("betekenis", "huiselijk geluk")]),
     OrderedDict(
-        [("naam", "globe"), ("zie", ""), ("betekenis", "de wereld ontdekken/veroveren")]
+        [
+            ("naam", "globe"),
+            ("zie", ""),
+            ("betekenis", "de wereld ontdekken/veroveren, het grote plaatje zien"),
+        ]
     ),
     OrderedDict(
         [
@@ -1721,7 +1769,11 @@ symbols = [
     ),
     OrderedDict([("naam", "graan"), ("zie", "koren"), ("betekenis", "")]),
     OrderedDict(
-        [("naam", "granaatappel"), ("zie", ""), ("betekenis", "mensen in groep")]
+        [
+            ("naam", "granaatappel"),
+            ("zie", ""),
+            ("betekenis", "weelde, mensen in groep, vrouwelijke sexualiteit"),
+        ]
     ),
     OrderedDict(
         [
@@ -1764,11 +1816,24 @@ symbols = [
         [
             ("naam", "haas"),
             ("zie", ""),
-            ("betekenis", "vruchtbaarheid, opofferingsgezindheid, loyaal"),
+            ("betekenis", "vruchtbaarheid, opofferingsgezindheid, reflexen, snel"),
         ]
     ),
-    OrderedDict([("naam", "hamer"), ("zie", ""), ("betekenis", "kracht, activiteit")]),
-    OrderedDict([("naam", "hand"), ("zie", ""), ("betekenis", "hand van god")]),
+    OrderedDict([("naam", "hagedis"), ("zie", "salamander"), ("betekenis", "")]),
+    OrderedDict(
+        [
+            ("naam", "hamer"),
+            ("zie", "gereedschap"),
+            ("betekenis", "kracht, actie, de klus klaren"),
+        ]
+    ),
+    OrderedDict(
+        [
+            ("naam", "hand"),
+            ("zie", ""),
+            ("betekenis", "geven en ontvangen, bescherming, hand van god"),
+        ]
+    ),
     OrderedDict(
         [
             ("naam", "harnas"),
@@ -1780,9 +1845,10 @@ symbols = [
         [
             ("naam", "hartvorm"),
             ("zie", ""),
-            ("betekenis", "vrouw, aantrekkingskracht, emoties, het onbewuste"),
+            ("betekenis", "vrouw, aantrekkingskracht, emoties, het onbewuste, geweten"),
         ]
     ),
+    OrderedDict([("naam", "herautenstaaf"), ("zie", "caduceus"), ("betekenis", "")]),
     OrderedDict([("naam", "hermanubis"), ("zie", "jakhalsgod"), ("betekenis", "")]),
     OrderedDict(
         [("naam", "hermes"), ("zie", ""), ("betekenis", "boodschapper van de goden")]
@@ -1798,7 +1864,7 @@ symbols = [
             ("zie", ""),
             (
                 "betekenis",
-                "trouw, waakzaam, getemd, kent de weg, ongebreidelde lust, " "instinct",
+                "trouw, waakzaam, getemd, kent de weg, ongebreidelde lust, instinct",
             ),
         ]
     ),
@@ -1809,11 +1875,17 @@ symbols = [
             ("betekenis", "getemde en ongetemde energiën (in de mens)"),
         ]
     ),
+    OrderedDict([("naam", "hoorn"), ("zie", "bazuin"), ("betekenis", "")]),
     OrderedDict([("naam", "hostie"), ("zie", ""), ("betekenis", "offer")]),
     OrderedDict(
-        [("naam", "huis"), ("zie", "gezin"), ("betekenis", "geborgenheid, thuis")]
+        [
+            ("naam", "huis"),
+            ("zie", "gezin"),
+            ("betekenis", "geborgenheid, thuis, diepste geheimen"),
+        ]
     ),
     OrderedDict([("naam", "iris"), ("zie", ""), ("betekenis", "boodschappers")]),
+    OrderedDict([("naam", "ijs"), ("zie", ""), ("betekenis", "wachten, geduld")]),
     OrderedDict(
         [("naam", "Jachin"), ("zie", ""), ("betekenis", "kracht, mededogen (vorm)")]
     ),
@@ -1842,8 +1914,13 @@ symbols = [
         [("naam", "jonge vrouw"), ("zie", "vrouw"), ("betekenis", "vruchtbaar, zuiver")]
     ),
     OrderedDict([("naam", "kasteel"), ("zie", "burcht"), ("betekenis", "")]),
+    OrderedDict([("naam", "kat"), ("zie", ""), ("betekenis", "magie, bewustzijn")]),
     OrderedDict(
-        [("naam", "ketens"), ("zie", ""), ("betekenis", "gebondenheid, verbondenheid")]
+        [
+            ("naam", "ketens"),
+            ("zie", ""),
+            ("betekenis", "gebondenheid, verbondenheid, beperking, verslaving"),
+        ]
     ),
     OrderedDict(
         [
@@ -1853,13 +1930,14 @@ symbols = [
                 "betekenis",
                 "goddelijke onschuld, het resultaat van de samensmelting tussen "
                 "de mannelijke en vrouwelijke energie, einde van de dualiteit, "
-                "vernieuwde eenheid",
+                "vernieuwde eenheid, frisse blik, toekomst",
             ),
         ]
     ),
     OrderedDict(
         [("naam", "knapzak"), ("zie", ""), ("betekenis", "wereldse bezittingen")]
     ),
+    OrderedDict([("naam", "konijn"), ("zie", "haas"), ("betekenis", "")]),
     OrderedDict(
         [
             ("naam", "koren"),
@@ -1892,10 +1970,23 @@ symbols = [
             ("betekenis", "wereldse macht, talent, meesterschap"),
         ]
     ),
+    OrderedDict(
+        [
+            ("naam", "kruik"),
+            ("zie", ""),
+            ("betekenis", "het gaat om de inhoud, wat hou je vast?"),
+        ]
+    ),
     OrderedDict([("naam", "kruis"), ("zie", ""), ("betekenis", "religie")]),
     OrderedDict([("naam", "kubus"), ("zie", ""), ("betekenis", "het aardse")]),
     OrderedDict([("naam", "kwik"), ("zie", ""), ("betekenis", "geest")]),
-    OrderedDict([("naam", "lantaarn"), ("zie", ""), ("betekenis", "wegwijzen")]),
+    OrderedDict(
+        [
+            ("naam", "lantaarn"),
+            ("zie", ""),
+            ("betekenis", "wegwijzen, verlichting, waakzaamheid"),
+        ]
+    ),
     OrderedDict(
         [
             ("naam", "lauwerkrans "),
@@ -1910,7 +2001,7 @@ symbols = [
             (
                 "betekenis",
                 "moedige bewaker van grenzen, gevestigde macht, eenling, koning "
-                "der dieren",
+                "der dieren, nobel",
             ),
         ]
     ),
@@ -1921,7 +2012,7 @@ symbols = [
             (
                 "betekenis",
                 "hartverlangens, maagdelijkheid, reinheid, onschuld, goddelijke "
-                "genade/gaven",
+                "genade/gaven, vrijheid om jezelf te zijn",
             ),
         ]
     ),
@@ -1973,7 +2064,7 @@ symbols = [
             (
                 "betekenis",
                 "gids in donkere tijden (de maan reflecteert het licht van de "
-                "zon), passiviteit",
+                "zon), passiviteit, cycli, beweegt oceanen",
             ),
         ]
     ),
@@ -2011,6 +2102,13 @@ symbols = [
     OrderedDict(
         [("naam", "natuur"), ("zie", ""), ("betekenis", "werken met en in de natuur")]
     ),
+    OrderedDict(
+        [
+            ("naam", "oceaan"),
+            ("zie", "water, golven"),
+            ("betekenis", "oneindige mogelijkheden, grootsheid, mysterie, diepgang"),
+        ]
+    ),
     OrderedDict([("naam", "olijfblad"), ("zie", ""), ("betekenis", "vrede")]),
     OrderedDict(
         [("naam", "ondersteboven"), ("zie", ""), ("betekenis", "omgekeerde zienswijze")]
@@ -2040,7 +2138,7 @@ symbols = [
             ("zie", ""),
             (
                 "betekenis",
-                "kracht en vitaliteit, edel en intelligent, fierheid, " "werklust",
+                "kracht en vitaliteit, edel en intelligent, fierheid, werklust",
             ),
         ]
     ),
@@ -2057,7 +2155,14 @@ symbols = [
     ),
     OrderedDict([("naam", "paars kleed"), ("zie", "paars"), ("betekenis", "")]),
     OrderedDict(
-        [("naam", "pad"), ("zie", ""), ("betekenis", "reis, bestemming, herkomst")]
+        [
+            ("naam", "pad"),
+            ("zie", ""),
+            (
+                "betekenis",
+                "reis, bestemming, herkomst, elke reis begint met de eerste stap",
+            ),
+        ]
     ),
     OrderedDict(
         [("naam", "palmhart"), ("zie", ""), ("betekenis", "stijgen naar hoger niveau")]
@@ -2071,6 +2176,7 @@ symbols = [
             ("betekenis", "de nieuwe mens, het universum, elementen + ether (geest)"),
         ]
     ),
+    OrderedDict([("naam", "perkamentrol"), ("zie", "schriftrol"), ("betekenis", "")]),
     OrderedDict(
         [
             ("naam", "pilaren"),
@@ -2100,7 +2206,7 @@ symbols = [
             (
                 "betekenis",
                 "daadkracht, onvoorzichtig, onvoorspelbaar, autoriteit, "
-                "leiderschap, aggressiviteit",
+                "leiderschap, aggressiviteit, vasteberaden",
             ),
         ]
     ),
@@ -2114,7 +2220,9 @@ symbols = [
             ("betekenis", "mannelijke kant, verstand, buiten, toekomst"),
         ]
     ),
-    OrderedDict([("naam", "regen"), ("zie", ""), ("betekenis", "schoonspoelen")]),
+    OrderedDict(
+        [("naam", "regen"), ("zie", ""), ("betekenis", "schoonspoelen, schenkt leven")]
+    ),
     OrderedDict(
         [
             ("naam", "regenboog"),
@@ -2150,7 +2258,13 @@ symbols = [
         ]
     ),
     OrderedDict([("naam", "rood kleed"), ("zie", "rood"), ("betekenis", "")]),
-    OrderedDict([("naam", "roos"), ("zie", ""), ("betekenis", "hartverlangens")]),
+    OrderedDict(
+        [
+            ("naam", "roos"),
+            ("zie", ""),
+            ("betekenis", "hartverlangens, schoonheid, doornen"),
+        ]
+    ),
     OrderedDict(
         [
             ("naam", "saffier"),
@@ -2167,17 +2281,36 @@ symbols = [
         [
             ("naam", "salamander"),
             ("zie", "vuur"),
-            ("betekenis", "geestelijk inzicht, ziel"),
+            ("betekenis", "vernieuwing, geestelijk inzicht, ziel"),
         ]
     ),
     OrderedDict([("naam", "scepter"), ("zie", ""), ("betekenis", "wereldse macht")]),
+    OrderedDict(
+        [
+            ("naam", "schild"),
+            ("zie", ""),
+            ("betekenis", "beschermen wat belangrijk/kwestbaar is"),
+        ]
+    ),
     OrderedDict([("naam", "schip"), ("zie", "boot"), ("betekenis", "")]),
-    OrderedDict([("naam", "schriftrol"), ("zie", "tora"), ("betekenis", "")]),
+    OrderedDict(
+        [("naam", "schoffel"), ("zie", "gereedschap"), ("betekenis", "hard werk")]
+    ),
+    OrderedDict(
+        [("naam", "schriftrol"), ("zie", ""), ("betekenis", "kennisoverdracht")]
+    ),
     OrderedDict(
         [
             ("naam", "sfinx"),
             ("zie", ""),
             ("betekenis", "wijsheid, levensvragen, macht, middelpunt, balans"),
+        ]
+    ),
+    OrderedDict(
+        [
+            ("naam", "slak"),
+            ("zie", "huis"),
+            ("betekenis", "langzaam maar zeker, draagt zijn eigen huis"),
         ]
     ),
     OrderedDict(
@@ -2197,7 +2330,13 @@ symbols = [
     OrderedDict(
         [("naam", "sluier"), ("zie", ""), ("betekenis", "mysterie, ontdekken")]
     ),
-    OrderedDict([("naam", "stadsmuur"), ("zie", ""), ("betekenis", "herkomst")]),
+    OrderedDict(
+        [
+            ("naam", "stadsmuur"),
+            ("zie", ""),
+            ("betekenis", "herkomst, samen ben je sterk, bescherming"),
+        ]
+    ),
     OrderedDict(
         [
             ("naam", "ster (achtpuntig)"),
@@ -2224,7 +2363,11 @@ symbols = [
         ]
     ),
     OrderedDict(
-        [("naam", "tora"), ("zie", ""), ("betekenis", "goddelijke wet of leer")]
+        [
+            ("naam", "tora"),
+            ("zie", "schriftrol"),
+            ("betekenis", "goddelijke wet of leer, heilige kennis"),
+        ]
     ),
     OrderedDict(
         [
@@ -2233,9 +2376,7 @@ symbols = [
             ("betekenis", "menselijke hoogmoed, huis van God, toren van Babel, de hel"),
         ]
     ),
-    OrderedDict(
-        [("naam", "bazuin"), ("zie", ""), ("betekenis", "oproep van de Hogere Natuur ")]
-    ),
+    OrderedDict([("naam", "touw"), ("zie", "ketens"), ("betekenis", "knopen")]),
     OrderedDict([("naam", "troon"), ("zie", ""), ("betekenis", "macht")]),
     OrderedDict([("naam", "troonhemel"), ("zie", "troon"), ("betekenis", "")]),
     OrderedDict([("naam", "tweesprong"), ("zie", ""), ("betekenis", "keuze")]),
@@ -2249,7 +2390,7 @@ symbols = [
     OrderedDict(
         [
             ("naam", "valk"),
-            ("zie", ""),
+            ("zie", "vogel"),
             ("betekenis", "adel, koninklijk, alziend oog, onkwetsbaar"),
         ]
     ),
@@ -2278,6 +2419,13 @@ symbols = [
     ),
     OrderedDict(
         [
+            ("naam", "vlag"),
+            ("zie", ""),
+            ("betekenis", "een grote verschuiving vereist aanpassing"),
+        ]
+    ),
+    OrderedDict(
+        [
             ("naam", "vleermuisvleugels"),
             ("zie", ""),
             (
@@ -2286,8 +2434,13 @@ symbols = [
             ),
         ]
     ),
+    OrderedDict([("naam", "vlinder"), ("zie", ""), ("betekenis", "transformatie")]),
     OrderedDict(
-        [("naam", "vogel"), ("zie", ""), ("betekenis", "vrijheid, van ver halen")]
+        [
+            ("naam", "vogel"),
+            ("zie", ""),
+            ("betekenis", "vrijheid, van ver halen, hoogvlieger"),
+        ]
     ),
     OrderedDict([("naam", "vogelpoten"), ("zie", ""), ("betekenis", "")]),
     OrderedDict(
@@ -2299,7 +2452,7 @@ symbols = [
     ),
     OrderedDict(
         [
-            ("naam", "Volwassen vrouw"),
+            ("naam", "volwassen vrouw"),
             ("zie", "vrouw"),
             ("betekenis", "actieve, vruchtbare kracht, moeder"),
         ]
@@ -2348,11 +2501,7 @@ symbols = [
     ),
     OrderedDict([("naam", "wereldbol"), ("zie", "globe"), ("betekenis", "")]),
     OrderedDict(
-        [
-            ("naam", "wijnhuisslak"),
-            ("zie", ""),
-            ("betekenis", "wedergeboorte, opstanding"),
-        ]
+        [("naam", "wijngaardslak"), ("zie", "slak"), ("betekenis", "overwinteren")]
     ),
     OrderedDict(
         [
@@ -2370,7 +2519,10 @@ symbols = [
         [
             ("naam", "wolken"),
             ("zie", ""),
-            ("betekenis", "scheiding tussen zichtbare en onzichtbare wereld"),
+            (
+                "betekenis",
+                "openbaring, scheiding tussen zichtbare en onzichtbare wereld",
+            ),
         ]
     ),
     OrderedDict([("naam", "Y-vorm"), ("zie", ""), ("betekenis", "zie tweesprong")]),
@@ -2444,10 +2596,10 @@ symbols = [
     OrderedDict(
         [
             ("naam", "zwarte kat"),
-            ("zie", "zwart"),
+            ("zie", "zwart, kat"),
             (
                 "betekenis",
-                "Vrijheidsdrang, intuïtieve gaven, magie, ongeluk, " "waarschuwer",
+                "Vrijheidsdrang, intuïtieve gaven, magie, ongeluk, waarschuwer",
             ),
         ]
     ),
