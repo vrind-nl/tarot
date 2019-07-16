@@ -56,8 +56,10 @@ class Card:  # pylint: disable=no-member,access-member-before-definition
         return naam
 
     def get_nummer(self):
+        """ get numerology number """
+
         def optellen(waarde):
-            """ keep adding digits until there's one left """
+            """ keep summing digits until there's one left """
             return waarde if waarde < 10 else optellen(sum(int(c) for c in str(waarde)))
 
         return optellen(self.waarde)
@@ -168,7 +170,7 @@ class Deck:
             self.cards.append(Card(nr, row))
 
     def __iter__(self):
-        self.current = 0
+        self.current = -1
         return self
 
     def __next__(self):
@@ -212,7 +214,10 @@ class Deck:
     def numbers(self):
         numbers = defaultdict(list)
         for card in self:
-            numbers[int2roman(card.get_nummer())].append(card)
+            nr = card.get_nummer()
+            rom = int2roman(nr)
+            print("%s: %s (%d)" % (card, rom, nr))
+            numbers[rom].append(card)
         return numbers
 
 

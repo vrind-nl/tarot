@@ -148,7 +148,7 @@ cards = [
             ("getal", "VII"),
             ("naam", "De Zegewagen"),
             ("opmerking", ""),
-            ("kernwoord", "HELD"),
+            ("kernwoord", "HEERSCHAPPIJ"),
             (
                 "steekwoorden",
                 "Wilskracht, zelfdiscipline, controle, tot stand brengen, "
@@ -434,7 +434,7 @@ cards = [
             ("getal", ""),
             ("naam", "Aas"),
             ("opmerking", ""),
-            ("kernwoord", "DROOM"),
+            ("kernwoord", "INITIATIEF"),
             ("steekwoorden", "visie, enthousiasme, vitaliteit."),
             ("uitnodiging", "Sta open om te groeien"),
             ("waarschuwing", "Wat doe ik aan mijn ontplooiing?"),
@@ -636,7 +636,7 @@ cards = [
             ("getal", ""),
             ("naam", "Koning"),
             ("opmerking", ""),
-            ("kernwoord", "INTEGER"),
+            ("kernwoord", "RECHTER"),
             (
                 "steekwoorden",
                 "creatief, inspirerend, charmant, geestig, rechtvaardig, " "gedreven",
@@ -653,7 +653,7 @@ cards = [
     OrderedDict(
         [
             ("kleur", "Pentakels"),
-            ("getal", ""),
+            ("getal", "1"),
             ("naam", "Aas"),
             ("opmerking", ""),
             ("kernwoord", "POTENTIE"),
@@ -867,7 +867,7 @@ cards = [
             ("getal", ""),
             ("naam", "Aas"),
             ("opmerking", ""),
-            ("kernwoord", "VISIE"),
+            ("kernwoord", "INZICHT"),
             ("steekwoorden", "helderheid van geest, objectiviteit"),
             ("uitnodiging", "Welke beslissing moet je nu nemen?"),
             ("waarschuwing", "Heb je alles goed overwogen?"),
@@ -1082,9 +1082,10 @@ cards = [
             ("getal", ""),
             ("naam", "Aas"),
             ("opmerking", ""),
-            ("kernwoord", "OVERVLOED"),
+            ("kernwoord", "DROOM"),
             (
                 "steekwoorden",
+                "overvloed, "
                 "verlangen naar eenheid en verbondenheid, overgave, "
                 "bewustwording, de bron, de Graal.",
             ),
@@ -1359,7 +1360,8 @@ symbols = [
             ("zie", "vuur"),
             (
                 "betekenis",
-                "willen/initiatief, intuïtie/ideeën, uitvoerend, " "boeren/arbeiders",
+                "willen/daadkracht, intuïtie/ideeën/inspiratie, uitvoerend, "
+                "boeren/arbeiders",
             ),
         ]
     ),
@@ -1369,7 +1371,8 @@ symbols = [
             ("zie", "Aarde, V"),
             (
                 "betekenis",
-                "doen, zintuigen/praktisch, operationeel, " "ambachtslieden/handelaars",
+                "realiseren/materie, zintuigen/praktisch, operationeel, "
+                "ambachtslieden/handelaars",
             ),
         ]
     ),
@@ -1387,27 +1390,27 @@ symbols = [
             ("betekenis", "voelen, emotie, strategisch, geestelijkheid/staatslieden"),
         ]
     ),
-    OrderedDict([("naam", ""), ("zie", ""), ("betekenis", "")]),
     OrderedDict([("naam", "staf"), ("zie", "staven"), ("betekenis", "")]),
-    OrderedDict([("naam", "Pentakel"), ("zie", "pentakels"), ("betekenis", "")]),
+    OrderedDict([("naam", "pentakel"), ("zie", "pentakels"), ("betekenis", "")]),
     OrderedDict([("naam", "zwaard"), ("zie", "zwaarden"), ("betekenis", "")]),
     OrderedDict([("naam", "Kelk"), ("zie", "kelken"), ("betekenis", "")]),
-    OrderedDict([("naam", ""), ("zie", ""), ("betekenis", "")]),
     OrderedDict([("naam", "klavers"), ("zie", "staven"), ("betekenis", "")]),
     OrderedDict([("naam", "ruiten"), ("zie", "pentakels"), ("betekenis", "")]),
     OrderedDict([("naam", "schoppen"), ("zie", "zwaarden"), ("betekenis", "")]),
     OrderedDict([("naam", "harten"), ("zie", "kelken"), ("betekenis", "")]),
-    OrderedDict([("naam", ""), ("zie", ""), ("betekenis", "")]),
-    OrderedDict([("naam", ""), ("zie", ""), ("betekenis", "")]),
     OrderedDict(
         [
             ("naam", "O"),
             ("zie", ""),
-            ("betekenis", "leegte, alomvattendheid, kosmische invloed"),
+            ("betekenis", "leegte, alomvattendheid, kosmische invloed, chaos"),
         ]
     ),
     OrderedDict(
-        [("naam", "I"), ("zie", ""), ("betekenis", "Potentie, eenheid, oorsprong")]
+        [
+            ("naam", "I"),
+            ("zie", ""),
+            ("betekenis", "Potentie, eenheid, oorsprong, uniek"),
+        ]
     ),
     OrderedDict(
         [("naam", "II"), ("zie", ""), ("betekenis", "Dualiteit, spiegelbeeld")]
@@ -1423,7 +1426,7 @@ symbols = [
         [
             ("naam", "IV"),
             ("zie", "elementen"),
-            ("betekenis", "stabiliteit, vorming, rechtvaardig, materie"),
+            ("betekenis", "stabiliteit, orde, rechtvaardig, materie"),
         ]
     ),
     OrderedDict(
@@ -1434,23 +1437,23 @@ symbols = [
         ]
     ),
     OrderedDict(
-        [("naam", "VI"), ("zie", ""), ("betekenis", "kantelpunt, dienstvaardigheid")]
+        [("naam", "VI"), ("zie", ""), ("betekenis", "harmonie, perfectie, efficiëntie")]
     ),
     OrderedDict(
         [
             ("naam", "VII"),
             ("zie", ""),
-            ("betekenis", "Zelfkennnis, paradox, toeval, gilden: meester"),
+            ("betekenis", "wijsheid, heelheid, spiritualiteit, gilden: meester"),
         ]
     ),
     OrderedDict(
-        [("naam", "VIII"), ("zie", ""), ("betekenis", "kiezen, karma, promiscu")]
+        [("naam", "VIII"), ("zie", ""), ("betekenis", "meesterschap, karma, promiscu")]
     ),
     OrderedDict(
         [
             ("naam", "IX"),
             ("zie", ""),
-            ("betekenis", "vervulling, horizon, gilden: bouwmeester"),
+            ("betekenis", "voltooïng, horizon, gilden: bouwmeester"),
         ]
     ),
     OrderedDict(
@@ -1554,7 +1557,10 @@ symbols = [
         [
             ("naam", "bliksem"),
             ("zie", ""),
-            ("betekenis", "goddelijke communicatie, vernietiging"),
+            (
+                "betekenis",
+                "goddelijke communicatie, vernietiging, plotseling en kortstondig inzicht",
+            ),
         ]
     ),
     OrderedDict(
