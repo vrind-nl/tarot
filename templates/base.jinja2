@@ -19,13 +19,8 @@
       <a href="{{ url_for('question') }}">Quiz</a>
     </nav>
 
-    {% set ROMANS = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X'] %}
-    {% set ROMANS0 = ['O'] + ROMANS[:9] %}
-    {% set getallenEN = ['Aas'] + ROMANS[1:] %}
-    {% set HOFKAARTEN = ['Page', 'Ridder', 'Koningin', 'Koning'] %}
-    {% set PLAATJES = ['Aas'] + HOFKAARTEN %}
-    {% set KAARTEN = getallenEN + HOFKAARTEN %}
     {% block content %}{% endblock content %}
+
     <footer>
     <hr/><p>&copy; 2018 - <script>document.write(new Date().getFullYear())</script></p>
     </footer>

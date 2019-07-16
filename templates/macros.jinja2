@@ -1,0 +1,17 @@
+{% macro render_card(card) %}
+  <a href="{{ url_for('card', nr=card.nr, hidden=0) }}"><img src="{{ url_for('static', filename=card.img) }}" height=200></a><br/>{{card.get_attr('kernwoord')}}
+{% endmacro %}
+
+
+{% macro render_cards(cards, start, end) %}
+  {% for nr in range(start, end) %}
+    <td>{{render_card(cards[nr])}}</td>
+  {% endfor %}
+{% endmacro %}
+
+{% set ROMANS = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X'] %}
+{% set ROMANS0 = ['O'] + ROMANS[:9] %}
+{% set getallenEN = ['Aas'] + ROMANS[1:] %}
+{% set HOFKAARTEN = ['Page', 'Ridder', 'Koningin', 'Koning'] %}
+{% set PLAATJES = ['Aas'] + HOFKAARTEN %}
+{% set KAARTEN = getallenEN + HOFKAARTEN %}

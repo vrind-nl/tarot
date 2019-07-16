@@ -1,5 +1,7 @@
 {% extends "index.jinja2" %}
 
+{% from "base.jinja2" import ROMANS %}
+
 
 {% macro card_details(card) %}
     <li>{{card}}: {{card.kernwoord}}</li>
