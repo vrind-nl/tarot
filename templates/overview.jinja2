@@ -1,6 +1,5 @@
 {% extends "base.jinja2" %}
 
-
 {% from "macros.jinja2" import render_card, render_cards, ROMANS %}
 
 
@@ -13,69 +12,84 @@
 {% endblock head %}
 
 {% block content %}
-  <h2>Overzicht</h2>
-  <h3>Grote arcana</h3>
-  <table>
-    <tr>
-      <td>&nbsp;</td>
-      <td>{{render_card(deck.cards[0])}}</td>
-      <td colspan=8>&nbsp;</td>
-      <td>{{render_card(deck.cards[21])}}</td>
-    </tr>
-    <tr>
-      <td>&nbsp;</td>
-      {% for nr in ROMANS %}
-        <td>{{nr}}: {{symbols.get(nr)}}</td>
-      {% endfor %}
-    </tr>
-    <tr>
-      <td>I-X: {{symbols.get('grote arcana 1-10')}}</td>
-      {{render_cards(deck.cards, 1, 11)}}
-    </tr>
-    <tr>
-      <td>XI-XX: {{symbols.get('grote arcana 11-20')}}</td>
-      {{render_cards(deck.cards, 11, 21)}}
-    </tr>
-  </table>
+  {% block cards %}
+    <h2>Overzicht</h2>
+    <h3>Grote arcana</h3>
+    <table>
+      <tr>
+        <td>&nbsp;</td>
+        <td>{{render_card(cards[0])}}</td>
+        <td colspan=8>&nbsp;</td>
+        <td>{{render_card(cards[21])}}</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        {% for nr in ROMANS %}
+          <td>{{nr}}: {{symbols.get(nr)}}</td>
+        {% endfor %}
+      </tr>
+      <tr>
+        <td>I-X: {{symbols.get('grote arcana 1-10')}}</td>
+        {{render_cards(cards[1:11])}}
+      </tr>
+      <tr>
+        <td>XI-XX: {{symbols.get('grote arcana 11-20')}}</td>
+        {{render_cards(cards[11:21])}}
+      </tr>
+    </table>
 
-  <h3>Kleine arcana</h3>
-  <table>
-    <tr>
-      <td>&nbsp;</td>
-      <td>&lt; Aas: {{symbols.get('aas')}} &gt;</td>
-      <td>&lt;</td>
-      <td colspan=7>Getallen: {{symbols.get('getallen')}}</td>
-      <td>&gt;</td>
-      <td>&lt;</td>
-      <td colspan=2>Hof: {{symbols.get('hofkaart')}}</td>
-      <td>&gt;</td>
-    </tr>
-    <tr>
-      <td>&nbsp;</td>
-      {% for nr in ROMANS %}
-        <td>{{nr}}: {{symbols.get(nr)}}</td>
-      {% endfor %}
-      {% for nr in HOFKAARTEN %}
-        <td>{{nr}}: {{symbols.get(nr)}}</td>
-      {% endfor %}
-    </tr>
-    <tr>
-      <td>Staven: {{symbols.get('staven')}}</td>
-      {{render_cards(deck.cards, 22, 36)}}
-    </tr>
-    <tr>
-      <td>Pentakels: {{symbols.get('pentakels')}}</td>
-      {{render_cards(deck.cards, 36, 50)}}
-    </tr>
-    <tr>
-      <td>Zwaarden: {{symbols.get('zwaarden')}}</td>
-      {{render_cards(deck.cards, 50, 64)}}
-    </tr>
-    <tr>
-      <td>Kelken: {{symbols.get('kelken')}}</td>
-      {{render_cards(deck.cards, 64, 78)}}
-    </tr>
-  </table>
+    <h3>Kleine arcana</h3>
+    <table>
+      <tr>
+        <td>&nbsp;</td>
+        <td>&lt; Aas: {{symbols.get('aas')}} &gt;</td>
+        <td>&lt;</td>
+        <td colspan=7>Getallen: {{symbols.get('getallen')}}</td>
+        <td>&gt;</td>
+        <td>&lt;</td>
+        <td colspan=2>Hof: {{symbols.get('hofkaart')}}</td>
+        <td>&gt;</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        {% for nr in ROMANS %}
+          <td>{{nr}}: {{symbols.get(nr)}}</td>
+        {% endfor %}
+        {% for nr in HOFKAARTEN %}
+          <td>{{nr}}: {{symbols.get(nr)}}</td>
+        {% endfor %}
+      </tr>
+      <tr>
+        <td>Staven: {{symbols.get('staven')}}</td>
+        {{render_cards(cards[22:36])}}
+      </tr>
+      <tr>
+        <td>Pentakels: {{symbols.get('pentakels')}}</td>
+        {{render_cards(cards[36:50])}}
+      </tr>
+      <tr>
+        <td>Zwaarden: {{symbols.get('zwaarden')}}</td>
+        {{render_cards(cards[50:64])}}
+      </tr>
+      <tr>
+        <td>Kelken: {{symbols.get('kelken')}}</td>
+        {{render_cards(cards[64:78])}}
+      </tr>
+    </table>
+  {% endblock cards %}
 
-  <p>Zie ook het <a href="{{url_for('overview', num=True)}}">numerologische overzicht</a>.</p>
+  <p>
+    Zie ook het
+    {% if num %}
+      <a href="{{url_for('overview', num=False, order=order)}}">schematisch overzicht</a>.
+    {% else %}
+      <a href="{{url_for('overview', num=True)}}">numerologische overzicht</a>.
+    {% endif %}
+    Of verander de volgorde van {{order}} naar
+    {% for o in ["klassiek", "waite"] %}
+      {% if o != order %}
+        <a href="{{ url_for('overview', order=o, num=num)}}">{{o}}</a>
+      {% endif %}
+    {% endfor %}.
+  </p>
 {% endblock content %}

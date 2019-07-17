@@ -103,9 +103,12 @@ class Card:  # pylint: disable=no-member,access-member-before-definition
             try:
                 waarde = roman2int(self.getal)
             except ValueError:
-                waarde = dict(Aas=1, Page=11, Ridder=12, Koningin=13, Koning=14)[
-                    self.naam
-                ]
+                try:
+                    waarde = dict(Aas=1, Page=11, Ridder=12, Koningin=13, Koning=14)[
+                        self.naam
+                    ]
+                except KeyError:
+                    waarde = 0
 
         return waarde
 
@@ -147,6 +150,7 @@ Card.pictorialkey = links.pictorialkey
 Card.stapvoorstap = links.stapvoorstap
 Card.kaartensterren = links.kaartensterren
 Card.spiridoc = links.spiridoc
+Card.letarot = links.letarot
 
 
 class Deck:
@@ -169,7 +173,6 @@ class Deck:
         for card in self:
             nr = card.get_nummer()
             rom = int2roman(nr)
-            print("%s: %s (%d)" % (card, rom, nr))
             self.numbers[rom].append(card)
 
     def parse_rows(self, reader):
@@ -217,6 +220,24 @@ class Deck:
     @classmethod
     def permalink(cls, cards):
         return url_for("perma", nrs="-".join(str(c.nr) for c in cards))
+
+
+Deck.order = dict(
+    klassiek=list(range(0, 78)),
+    waite=list(range(0, 78)),
+    hersteld=[
+        int(i)
+        for i in (
+            "0 1 2 4 6 78 5 3 7 9 8 21 11 12 14 13 15 79 16 18 17 19 20 10 49 "
+            "48 47 46 36 37 38 39 40 41 42 43 44 45 35 34 33 32 22 23 24 25 26 "
+            "27 28 29 30 31 77 76 75 74 64 65 66 67 68 69 70 71 72 73 63 62 61 "
+            "60 50 51 52 53 54 55 56 57 58 59"
+        ).split()
+    ],
+)
+
+Deck.order["waite"][8] = 11
+Deck.order["waite"][11] = 8
 
 
 class Symbool:

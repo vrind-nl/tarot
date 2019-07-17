@@ -112,7 +112,7 @@ cards = [
             ("getal", "V"),
             ("naam", "De Hogepriester"),
             ("opmerking", "De Hiërofant, De Paus"),
-            ("kernwoord", "LERAAR"),
+            ("kernwoord", "MORAAL"),
             (
                 "steekwoorden",
                 "Beschermkaart, religie, geestelijkheid, staan voor je mening, "
@@ -176,10 +176,10 @@ cards = [
             ("getal", "VIII"),
             ("naam", "Gerechtigheid"),
             ("opmerking", "Waite XI"),
-            ("kernwoord", "GERECHTIGHEID"),
+            ("kernwoord", "OORDEEL"),
             (
                 "steekwoorden",
-                "Oorzaak en gevolg, schuld en boete, rechtvaardig, " "zelfbeoordeling",
+                "oorzaak en gevolg, schuld en boete, rechtvaardig, zelfbeoordeling",
             ),
             ("uitnodiging", "Erken je eigen aandeel maar niet meer dan dat."),
             ("waarschuwing", "Zijn je motieven zuiver?"),
@@ -250,9 +250,9 @@ cards = [
             (
                 "steekwoorden",
                 "Ergens aan vast zitten, consequenties aanvaarden, beproeving, "
-                "ommekeer, herprioriteren",
+                "opoffering, ommekeer, herprioriteren",
             ),
-            ("uitnodiging", "Vrije wil is blijmoedig doen wat je moet doen."),
+            ("uitnodiging", "Bekijk het eens anders"),
             ("waarschuwing", "Waardoor zit je vast?"),
             ("symbolen", "volwassen man, ondersteboven, aureool, kruis, blauw, staf"),
         ]
@@ -430,7 +430,7 @@ cards = [
             ("waarschuwing", "Het is tijd voor bezinning."),
             (
                 "symbolen",
-                "jonge vrouw, staven, lauwerkrans, leeuw, stier, arend, " "engel",
+                "jonge vrouw, staven, lauwerkrans, leeuw, stier, arend, engel",
             ),
         ]
     ),
@@ -534,7 +534,7 @@ cards = [
             ("getal", "7"),
             ("naam", "VII"),
             ("opmerking", ""),
-            ("kernwoord", "HANDHAVEN"),
+            ("kernwoord", "STRIJDEN"),
             (
                 "steekwoorden",
                 "staande houden, vaak alleen, overmacht, gunstige positie",
@@ -645,7 +645,7 @@ cards = [
             ("getal", ""),
             ("naam", "Koning"),
             ("opmerking", ""),
-            ("kernwoord", "AANVOERDER"),
+            ("kernwoord", "VOORMAN"),
             (
                 "steekwoorden",
                 "creatief, inspirerend, charmant, geestig, rechtvaardig, gedreven",
@@ -791,7 +791,7 @@ cards = [
             ("steekwoorden", "vervulling, verfraaien, zekerheid, meevaller"),
             ("uitnodiging", "Geniet van wat je doet."),
             ("waarschuwing", "Ben je alert op nieuwe kansen?"),
-            ("symbolen", "druiven, kasteel, geel, valk, wijngaardslak"),
+            ("symbolen", "druiven, burcht, boom, geel, valk, wijngaardslak"),
         ]
     ),
     OrderedDict(
@@ -870,7 +870,7 @@ cards = [
             ),
             ("uitnodiging", "Ga voor realistische ambitie"),
             ("waarschuwing", "Bezit maakt niet gelukkig"),
-            ("symbolen", "stier, druiven, troon, kroon, harnas, geel"),
+            ("symbolen", "stier, druiven, troon, kroon, harnas, geel, skepter"),
         ]
     ),
     OrderedDict(
@@ -946,7 +946,7 @@ cards = [
             ),
             ("uitnodiging", "Eerlijk duurt het langst"),
             ("waarschuwing", "Is het belangrijk om persé te winnen?"),
-            ("symbolen", "afgewend, oranje, blauw"),
+            ("symbolen", "afgewend, oceaan, berg, zwaard geheven, oranje, blauw"),
         ]
     ),
     OrderedDict(
@@ -984,7 +984,8 @@ cards = [
             ("kernwoord", "VASTLOPEN"),
             (
                 "steekwoorden",
-                "negatieve gedachtenpatronen, censuur, ziekte, schaamte, " "verdenking",
+                "negatieve gedachtenpatronen, censuur, ziekte, schaamte, verdenking, "
+                "angst voor confrontatie, dubbelhartigheid",
             ),
             ("uitnodiging", "Laat alle remmende gedachten los"),
             ("waarschuwing", "Wat houdt je tegen?"),
@@ -998,7 +999,7 @@ cards = [
             ("naam", "IX"),
             ("opmerking", ""),
             ("kernwoord", "WANHOPEN"),
-            ("steekwoorden", "zelfverwijt, wanhoop, weeklagen"),
+            ("steekwoorden", "zelfverwijt, wanhoop, weeklagen, zelfkastijding"),
             ("uitnodiging", "Waar heb je spijt van?"),
             ("waarschuwing", "Is je verdriet terecht?"),
             ("symbolen", "afgewend, roos, wit kleed, oosten, vrouw, zwart"),
@@ -1036,7 +1037,7 @@ cards = [
             ("getal", ""),
             ("naam", "Ridder"),
             ("opmerking", ""),
-            ("kernwoord", "ONSTUIMIG"),
+            ("kernwoord", "ONVERSCHROKKEN"),
             (
                 "steekwoorden",
                 "onverwachte doorbraak, confrontatie, bekwaamheid, dapperheid",
@@ -1162,7 +1163,7 @@ cards = [
             ("naam", "V"),
             ("opmerking", ""),
             ("kernwoord", "BETREUREN"),
-            ("steekwoorden", "teleurstelling, verlies, desillusie"),
+            ("steekwoorden", "teleurstelling, verlies, desillusie, heroverwegen"),
             ("uitnodiging", "Wat blijft er over?"),
             ("waarschuwing", "Blijven hangen in verdriet."),
             (
@@ -1319,12 +1320,35 @@ cards = [
             ),
             ("uitnodiging", "Ben jij een rots in de branding?"),
             ("waarschuwing", "Vergeet je eigen gevoelens niet"),
-            (
-                "symbolen",
-                "golven, vis, boot, kroon, troon, skepter, geel kleed, blauw, skepter",
-            ),
+            ("symbolen", "golven, vis, boot, kroon, troon, skepter, geel kleed, blauw"),
         ]
     ),
+    # OrderedDict(
+    #     [
+    #         ("kleur", "groot"),
+    #         ("getal", "-"),
+    #         ("naam", "De Intuitie"),
+    #         ("opmerking", ""),
+    #         ("kernwoord", "VROUW"),
+    #         ("steekwoorden", "innerlijke waarheid, raadsvrouw, lerares"),
+    #         ("uitnodiging", "Luister naar je innerlijke stem"),
+    #         ("waarschuwing", "Laat onafgemaakte zaken zich niet opstapelen"),
+    #         ("symbolen", "vrouw, pauw, ster (achtpuntig), wolken"),
+    #     ]
+    # ),
+    # OrderedDict(
+    #     [
+    #         ("kleur", "groot"),
+    #         ("getal", "+"),
+    #         ("naam", "De Waarheid"),
+    #         ("opmerking", ""),
+    #         ("kernwoord", "MAN"),
+    #         ("steekwoorden", "objectieve zekerheid"),
+    #         ("uitnodiging", "Aanvaard het onvermijdelijke"),
+    #         ("waarschuwing", "Pas op voor schijnwaarheden"),
+    #         ("symbolen", "man, lauwerkrans, arend, wolken, bliksem"),
+    #     ]
+    # ),
 ]
 
 symbols = [
@@ -1378,7 +1402,7 @@ symbols = [
             ("zie", "vuur"),
             (
                 "betekenis",
-                "willen/daadkracht, intuïtie/ideeën/inspiratie, uitvoerend, "
+                "&clubs;, verlangen, intuïtie/ideeën/inspiratie, daadkracht/uitvoerend, "
                 "boeren/arbeiders",
             ),
         ]
@@ -1389,7 +1413,7 @@ symbols = [
             ("zie", "Aarde, V"),
             (
                 "betekenis",
-                "realiseren/materie, zintuigen/praktisch, operationeel, "
+                "&diams;, realiseren/materie, zintuigen/praktisch, operationeel, "
                 "ambachtslieden/handelaars",
             ),
         ]
@@ -1398,14 +1422,17 @@ symbols = [
         [
             ("naam", "zwaarden"),
             ("zie", "lucht"),
-            ("betekenis", "denken, verstand, tactisch, adel"),
+            ("betekenis", "&spades;, denken, verstand, tactisch, adel"),
         ]
     ),
     OrderedDict(
         [
             ("naam", "kelken"),
             ("zie", "water"),
-            ("betekenis", "voelen, emotie, strategisch, geestelijkheid/staatslieden"),
+            (
+                "betekenis",
+                "&hearts;, voelen, emotie, strategisch, geestelijkheid/staatslieden",
+            ),
         ]
     ),
     OrderedDict([("naam", "staf"), ("zie", "staven"), ("betekenis", "")]),
@@ -1452,7 +1479,7 @@ symbols = [
         [
             ("naam", "V"),
             ("zie", "zintuigen"),
-            ("betekenis", "doorzetten, zoeken, zingeving, gilden: gezel"),
+            ("betekenis", "zoeken, doorzetten, zingeving, gilden: gezel"),
         ]
     ),
     OrderedDict(
@@ -1791,7 +1818,7 @@ symbols = [
             (
                 "betekenis",
                 "harmonie (zwart en wit gemengd), rust en onopvallendheid, "
-                "evenwicht, wijsheid",
+                "evenwicht, wijsheid, dreiging",
             ),
         ]
     ),
@@ -2178,6 +2205,13 @@ symbols = [
     OrderedDict([("naam", "parels"), ("zie", ""), ("betekenis", "vrouw, verleiding")]),
     OrderedDict(
         [
+            ("naam", "pauw"),
+            ("zie", "zon"),
+            ("betekenis", "onsterfelijkheid, zelfvertrouwen"),
+        ]
+    ),
+    OrderedDict(
+        [
             ("naam", "pentagram"),
             ("zie", "pentakel, zintuigen"),
             ("betekenis", "de nieuwe mens, het universum, elementen + ether (geest)"),
@@ -2236,7 +2270,7 @@ symbols = [
             ("zie", ""),
             (
                 "betekenis",
-                "zegen van boven, goddelijke bescherming, (geestelijke) " "rijkdom",
+                "zegen van boven, goddelijke bescherming, (geestelijke) rijkdom, brug naar het paradijs",
             ),
         ]
     ),
@@ -2528,7 +2562,7 @@ symbols = [
             ("zie", ""),
             (
                 "betekenis",
-                "openbaring, scheiding tussen zichtbare en onzichtbare wereld",
+                "openbaring, scheiding tussen zichtbare en onzichtbare wereld, dreiging",
             ),
         ]
     ),

@@ -82,6 +82,7 @@ def stapvoorstap(self):
             naam = "Hogepriesteres"
         elif naam == "De Kluizenaar":
             naam += "-heremiet"
+
         naam = "tarotkaart-%s" % naam
     else:
         try:
@@ -114,6 +115,7 @@ def kaartensterren(self):
         getal = roman2int(self.getal)
     except ValueError:
         getal = self.getal
+
     naam = self.naam.lower()
     if naam.startswith("de "):
         naam = naam[3:]
@@ -146,7 +148,11 @@ def spiridoc(self):
 
     naam = ""
     if self.kleur == "groot":
-        getal = roman2int(self.getal)
+        try:
+            getal = roman2int(self.getal)
+        except ValueError:
+            getal = self.getal
+
         naam = self.naam
         if getal == 20:
             getal = 2
@@ -163,8 +169,97 @@ def spiridoc(self):
             naam = naam[4:]
         elif naam in ["De Dood", "De Gehangene"]:
             naam = naam[3:]
+
         naam = "%d %s.htm" % (getal, naam)
     return base + naam.lower().replace(" ", "_")
+
+
+pages = [
+    "01-de-dwaas-0-grote-arcana-de-tarot-in-de-herstelde-orde",
+    "02-de-magier-1-grote-arcana-de-tarot-in-de-herstelde-orde",
+    "03-de-priesteres-2-grote-arcana-de-tarot-in-de-herstelde-orde",
+    "08-de-keizerin-6-grote-arcana-de-tarot-in-de-herstelde-orde",
+    "04-de-keizer-3-grote-arcana-de-tarot-in-de-herstelde-orde",
+    "07-de-priester-5-de-paus-grote-arcana-de-tarot-in-de-herstelde-orde",
+    "05-de-geliefden-4-grote-arcana-de-tarot-in-de-herstelde-orde",
+    "09-de-zegewagen-7-grote-arcana-de-tarot-in-de-herstelde-orde",
+    "11-de-rechtvaardigheid-9-grote-arcana-de-tarot-in-de-herstelde-orde",
+    "10-de-kluizenaar-8-de-heremiet-grote-arcana-de-tarot-in-de-herstelde-orde",
+    "24-het-universum-21-grote-arcana-de-tarot-in-de-herstelde-orde",
+    "13-de-kracht-11-grote-arcana-de-tarot-in-de-herstelde-orde",
+    "14-de-gehangene-12-grote-arcana-de-tarot-in-de-herstelde-orde",
+    "16-de-dood-14-grote-arcana-de-tarot-in-de-herstelde-orde",
+    "15-de-gematigdheid-13-grote-arcana-de-tarot-in-de-herstelde-orde",
+    "17-de-duivel-15-grote-arcana-de-tarot-in-de-herstelde-orde",
+    "19-de-toren-16-grote-arcana-de-tarot-in-de-herstelde-orde",
+    "21-de-ster-18-grote-arcana-de-tarot-in-de-herstelde-orde",
+    "20-de-maan-17-grote-arcana-de-tarot-in-de-herstelde-orde",
+    "22-de-zon-19-grote-arcana-de-tarot-in-de-herstelde-orde",
+    "23-het-laatste-oordeel-20-grote-arcana-de-tarot-in-de-herstelde-orde",
+    "12-de-wereld-10-het-rad-van-fortuin-grote-arcana-de-tarot-in-de-herstelde-orde",
+    "43-staven-1-aas-stokken-scepters-knotsen-of-batons-kleine-arcana",
+    "44-staven-2-twee-stokken-scepters-knotsen-of-batons-kleine-arcana",
+    "45-staven-3-drie-stokken-scepters-knotsen-of-batons-kleine-arcana",
+    "46-staven-4-vier-stokken-scepters-knotsen-of-batons-kleine-arcana",
+    "47-staven-5-vijf-stokken-scepters-knotsen-of-batons-kleine-arcana",
+    "48-staven-6-zes-stokken-scepters-knotsen-of-batons-kleine-arcana",
+    "49-staven-7-zeven-stokken-scepters-knotsen-of-batons-kleine-arcana",
+    "50-staven-8-acht-stokken-scepters-of-batons-kleine-arcana",
+    "51-staven-9-negen-stokken-scepters-knotsen-of-batons-kleine-arcana",
+    "52-staven-10-tien-stokken-scepters-knotsen-of-batons-kleine-arcana",
+    "42-staven-page-schildknaap-hofkaart-stokken-scepters-knotsen-of-batons-kleine-arcana",
+    "41-staven-ridder-hofkaart-stokken-scepters-knotsen-of-batons-kleine-arcana",
+    "40-staven-koningin-hofkaart-stokken-scepters-knotsen-of-batons-kleine-arcana",
+    "39-staven-koning-hofkaart-stokken-scepters-knotsen-of-batons-kleine-arcana",
+    "29-pentagrammen-1-aas-munten-pentakels-of-schijven-kleine-arcana",
+    "30-pentagrammen-2-twee-munten-pentakels-of-schijven-2-kleine-arcana",
+    "31-pentagrammen-3-drie-munten-pentakels-of-schijven-kleine-arcana",
+    "32-pentagrammen-4-vier-munten-pentakels-of-schijven-kleine-arcana",
+    "33-pentagrammen-5-vijf-munten-pentakels-of-schijven-kleine-arcana",
+    "34-pentagrammen-6-zes-munten-pentakels-of-schijven-kleine-arcana",
+    "35-pentagrammen-7-zeven-munten-pentakels-of-schijven-kleine-arcana",
+    "36-pentagrammen-8-acht-munten-pentakels-of-schijven-kleine-arcana",
+    "37-pentagrammen-9-negen-munten-pentakels-of-schijven-kleine-arcana",
+    "38-pentagrammen-10-tien-munten-pentakels-of-schijven-kleine-arcana",
+    "28-pentagrammen-page-schildknaap-hofkaart-munten-pentakels-of-schijven-kleine-arcana",
+    "27-pentagrammen-ridder-hofkaart-munten-pentakels-of-schijven-kleine-arcana",
+    "26-pentagrammen-koningin-hofkaart-munten-pentakels-of-schijven-kleine-arcana",
+    "25-pentagrammen-koning-hofkaart-munten-pentakels-of-schijven-kleine-arcana",
+    "71-zwaarden-aas-1-een-kleine-arcana",
+    "72-zwaarden-2-twee-kleine-arcana",
+    "73-zwaarden-3-drie-kleine-arcana",
+    "74-zwaarden-4-vier-kleine-arcana",
+    "75-zwaarden-5-vijf-kleine-arcana",
+    "76-zwaarden-6-zes-kleine-arcana",
+    "77-zwaarden7-zeven",
+    "78-zwaarden-08-acht-kleine-arcana",
+    "79-zwaarden-09-negen-kleine-arcana",
+    "80-zwaarden-10-tien-kleine-arcana",
+    "70-zwaarden-page-schildknaap",
+    "69-zwaarden-ridder-kleine-arcana",
+    "68-zwaarden-koningin-hofkaart-kleine-arcana",
+    "67-zwaarden-koning-hofkaart-kleine-arcana",
+    "57-bekers-1-aas-een-bokalen-kleine-arcana",
+    "58-bekers-bokalen-2-twee-kleine-arcana",
+    "59-bekers-3-drie-bokalen-kleine-arcana",
+    "60-bekers-4-vier-bokalen-kleine-arcana",
+    "61-bekers-5-vijf-bokalen-kleine-arcana",
+    "62-bekers-6-zes-bokalen-kleine-arcana",
+    "63-bekers-7-zeven-bokalen",
+    "64-bekers-bokalen-8-acht-kleine-arcana",
+    "65-bekers-bokalen-9-negen-kleine-arcana",
+    "66-bekers-10-tien-bokalen-kelken-kleine-arcana",
+    "56-bekers-page-schildknaap-hofkaart-bokalen-kleine-arcana",
+    "55-bekers-ridder-bokalen-hofkaart-kleine-arcana",
+    "54-bekers-koningin-bokalen-hofkaart-kleine-arcana",
+    "53-bekers-koning-bokalen-hofkaart-kleine-arcana",
+    "06-de-intuitie-min-grote-arcana-de-tarot-in-de-herstelde-orde",
+    "18-de-waarheid-plus-grote-arcana-de-tarot-in-de-herstelde-orde",
+]
+
+
+def letarot(self):
+    return "http://www.letarot.nl/tarotkaart-" + pages[self.nr]
 
 
 if __name__ == "__main__":

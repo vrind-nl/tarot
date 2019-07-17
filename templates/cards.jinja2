@@ -3,52 +3,175 @@
 {% set hidden = "hidden" if hidden else "" %}
 
 {% block content %}
-<style>
- .card-container {
-     width: {{(100 / nr) | int}}%;
- }
-</style>
-<h2>Kaartlegging</h2>
+  <style>
+    .card-container {
+    width: {{(100 / nr) | int}}%;
+    }
+  </style>
+  <h2>Kaartlegging</h2>
 <p>
-    Hieronder zie je {{nr}} willekeurige kaart{% if nr > 1 %}en{% endif %}. Je
-    kunt een kaart omdraaien door er op te klikken. Er komt dan ook een knop
-    "Toelichting" beschikbaar, waarmee je extra informatie over die kaart
-    zichtbaar kunt maken. {% if turned %}Bij deze kaartlegging kunnen de kaarten
-    op de kop liggen. Je kunt ze rechtop zetten met de knop "Rechtop".{% endif %}
+  Hieronder zie je {{nr}} willekeurige kaart{% if nr > 1 %}en{% endif %}. Je
+  kunt een kaart omdraaien door er op te klikken. Er komt dan ook een knop
+  "Toelichting" beschikbaar, waarmee je extra informatie over die kaart
+  zichtbaar kunt maken. {% if turned %}Bij deze kaartlegging kunnen de kaarten
+  op de kop liggen. Je kunt ze rechtop zetten met de knop "Rechtop".{% endif %}
 </p>
 <table width="100%">
-    <tr>
-        {% for card in cards %}
-        {% set card_id = 'card_%02d' % card.nr %}
-        {% set coin = turned and range(0, 2) | random %}
-        {% set img_cls = ' turned' if coin else ''%}
+  <tr>
+    {% for card in cards %}
+      {% set card_id = 'card_%02d' % card.nr %}
+      {% set coin = turned and range(0, 2) | random %}
+      {% set img_cls = ' turned' if coin else ''%}
 
-        <td class="card-container">
-            <div class="card{% if flipped %} is-flipped{% endif %}" id="{{card_id}}">
-                <img
-                    src="{{ url_for('static', filename=card.img) }}"
-                    class="face face--front{{img_cls}}"
-                />
-                <img
-                    src="{{ url_for('static', filename='achterkant.jpg') }}"
-                    class="face"
-                />
-            </div>
-            <div class="{% if not flipped %}hidden {% endif %}{{card_id}} buttons">
-                <button onclick="explanation('{{card_id}}')">Toelichting</button>
-                {% if turned %}
-                <button class="{{card_id}} hidden" onclick="turn()">Rechtop</button>
-                {% endif %}
-            </div>
-            <div class="{{hidden}} {{card_id}} explanation">
-                {{ card_info(card) }} {{ card_src(card) }}
-            </div>
-        </td>
-        {% endfor %}
-    </tr>
+      <td class="card-container">
+        <div class="card{% if flipped %} is-flipped{% endif %}" id="{{card_id}}">
+          <img
+            src="{{ url_for('static', filename=card.img) }}"
+            class="face face--front{{img_cls}}"
+            />
+            <img
+              src="{{ url_for('static', filename='achterkant.jpg') }}"
+              class="face"
+              />
+        </div>
+        <div class="{% if not flipped %}hidden {% endif %}{{card_id}} buttons">
+          <button onclick="explanation('{{card_id}}')">Toelichting</button>
+          {% if turned %}
+            <button class="{{card_id}} hidden" onclick="turn()">Rechtop</button>
+          {% endif %}
+        </div>
+        <div class="{{hidden}} {{card_id}} explanation">
+          {{ card_info(card) }} {{ card_src(card) }}
+        </div>
+      </td>
+    {% endfor %}
+  </tr>
 </table>
 
 <p>
-    <a href="{{deck.permalink(cards)}}">Permalink</a>
+  <a href="{{deck.permalink(cards)}}">Permalink</a>
+</p>
+{% if nr == 1 %}
+  <ul>Interpretaties:
+    <li>dag-, week-, maand-, jaarkaart</li>
+    <li>inspiratie</li>
+  </ul>
+{% elif nr == 2 %}
+  <ul>Interpretaties:
+    <li>los/vast (wat kan ik loslaten, wat moet ik vasthouden)</li>
+    <li>kansen / bedreigingen</li>
+    <li>wat te doen / wat te laten</li>
+    <li>sterke punten / verbeterpunten</li>
+  </ul>
+{% elif nr == 3 %}
+  <ul>Interpretaties:
+    <li>verleden - heden - toekomst</li>
+    <li>probleem - oorzaak - oplossing</li>
+    <li>gevoel - verstand - verbinding</li>
+  </ul>
+{% elif nr == 4 %}
+  <ul>Interpretaties:
+    <li>hier gaat het om - wat te doen - wat te laten - resultaat</li>
+    <li>maandlegging: één kaart voor elke week</li>
+    <li>jaarlegging: één kaart voor elk seizoen/kwartaal</li>
+  </ul>
+{% elif nr == 5 %}
+  <ul>Interpretaties:
+    <li>
+      <ol>
+        <li>Actie</li>
+        <li>Obstakel</li>
+        <li>Misleiding</li>
+        <li>Fortuin</li>
+        <li>Uitkomst</li>
+      </ol>
+    </li>
+    <li>
+      <ol>Maandwiel:
+        <li>Huidige situatie</li>
+        <li>Afnemende invloeden</li>
+        <li>Verborgen invloeden</li>
+        <li>Toenemende invloeden</li>
+        <li>Uitkomst</li>
+      </ol>
+    </li>
+  </ul>
+{% elif nr == 6 %}
+  <ul>Interpretatie (legging over een onderwerp, bijvoorbeeld een persoon):
+    <li>
+      <ol>
+        <li>Persoonskaart</li>
+        <li>Wat de vraagsteller voelt</li>
+        <li>Wat de vraagsteller denkt</li>
+        <li>Wat de vraagsteller onderdrukt</li>
+        <li>Wat de vraagsteller leuk vindt aan het onderwerp</li>
+        <li>Wat de vraagsteller <i>niet</i> leuk vindt aan het onderwerp</li>
+      </ol>
+    </li>
+    <li>
+      <ul>
+        <li>Keuze A: positief / kern / negatief</li>
+        <li>Keuze B: positief / kern / negatief</li>
+      </ul>
+    </li>
+  </ul>
+{% elif nr == 7 %}
+  <ul>Interpretaties:
+    <li>weeklegging: één kaart voor elke dag van de week</li>
+    <li>
+      <ol>
+        <li>Verleden</li>
+        <li>Heden</li>
+        <li>Invloed</li>
+        <li>Kern</li>
+        <li>Invloed</li>
+        <li>Doen</li>
+        <li>Uitkomst</li>
+      </ol>
+    </li>
+    <li>
+      <ol>
+        <li>Verleden</li>
+        <li>Heden</li>
+        <li>Toekomst</li>
+        <li>Wat te doen</li>
+        <li>Invloed / uitwerking</li>
+        <li>Hindernissen</li>
+        <li>Uitkomst</li>
+      </ol>
+    </li>
+  </ul>
+{% elif nr == 9 %}
+  <ol>Persoonlijke balans:
+    <li>Persoonlijke groei</li>
+    <li>Vrije tijd</li>
+    <li>Gezondheid</li>
+    <li>Familie & Vrienden</li>
+    <li>Carrière</li>
+    <li>Thuis</li>
+    <li>Gezin</li>
+    <li>Financiën</li>
+    <li>Balans</li>
+  </ol>
+{% elif nr == 10 %}
+  <ol>Keltisch kruis:
+    <li>Huidige positie van de vraagsteller</li>
+    <li>Directe invloeden</li>
+    <li>Recente invloede</li>
+    <li>Eerdere invloeden</li>
+    <li>Mogelijk doel</li>
+    <li>Toekomstige invloeden</li>
+    <li>Negatieve gevoelens van de vraagsteller</li>
+    <li>Familie en vrienden</li>
+    <li>Hoop en idealen van de vraagsteller</li>
+    <li>Uitkomst</li>
+  </ol>
+{% endif %}
+<p>Legging met
+  {% for i in range(1,11) %}
+    {% if i != nr %}
+      [<a href="{{url_for('cards', nr=i)}}">{{i}}</a>]
+    {% endif %}
+  {% endfor %} kaarten.
 </p>
 {% endblock %}

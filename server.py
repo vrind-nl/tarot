@@ -16,11 +16,27 @@ def index():
     return render_template("index.jinja2")
 
 
-@app.route("/overview", defaults={"num": False})
-@app.route("/overview/num", defaults={"num": True})
-def overview(num):
-    template = "overview_num.jinja2" if num else "overview.jinja2"
-    return render_template(template, deck=deck, symbols=symboliek)
+@app.route("/overview", defaults={"order": "klassiek", "num": False})
+@app.route("/overview/num", defaults={"order": "klassiek", "num": True})
+@app.route(
+    '/overview/<any("klassiek", "waite", "hersteld"):order>', defaults={"num": False}
+)
+@app.route(
+    '/overview/num/<any("klassiek", "waite", "hersteld"):order>', defaults={"num": True}
+)
+def overview(order, num):
+    template = "overview"
+    if num:
+        template += "_num"
+    elif order == "hersteld":
+        template += "_hersteld"
+    return render_template(
+        template + ".jinja2",
+        cards=[deck.cards[n] for n in deck.order[order]],
+        symbols=symboliek,
+        order=order,
+        num=num,
+    )
 
 
 @app.route("/card/<int:nr>")

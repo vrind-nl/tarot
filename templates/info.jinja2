@@ -13,23 +13,13 @@
 
 
 {% block navigation %}
+  <center><a href="{{url_for('related', nr=card.nr)}}">Gerelateerd</a></center>
   {% set dirs = card.directions() %}
-  <table width=100%>
-    <tr>
-      <td>&nbsp;</td>
-      <td style="text-align: center"><a href="{{ dirs[0] }}">Omhoog</a></td>
-      <td>&nbsp;</td>
-    </tr>
-    <tr>
-      <td><a href="{{ dirs[3] }}">Vorige</a></td>
-      <td style="text-align: center"><a href="{{url_for('overview') }}">Overzicht</a></td>
-      <td style="text-align: right"><a href="{{ dirs[1] }}">Volgende</a></td>
-    </tr>
-    <tr>
-      <td>&nbsp;</td>
-      <td style="text-align: center"><a href="{{ dirs[2] }}">Omlaag</a></td>
-      <td>&nbsp;</td>
-    </tr>
-  </table>
-  <a href="{{url_for('related', nr=card.nr)}}">Gerelateerd</a>
+  <div id="nav">
+    <a href="{{ dirs[0] }}">&blacktriangle;</a><br/>
+    <a href="{{ dirs[3] }}">&blacktriangleleft;</a>
+    <a href="{{url_for('overview') }}">&FilledSmallSquare;</a>
+    <a href="{{ dirs[1] }}">&blacktriangleright;</a></br>
+    <a href="{{ dirs[2] }}">&blacktriangledown;</a>
+  </div>
 {% endblock %}

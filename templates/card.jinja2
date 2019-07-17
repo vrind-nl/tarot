@@ -46,12 +46,17 @@
 {% macro card_src(card) %}
     <p>Zie ook:</p>
     <ul>
+      {% if card.getal != "-" and card.getal != "+" %}
         <li><a href="{{card.pictorialkey()}}" target="waite">Pictorial Key to the Tarot</a> (Eng.)</li>
         <li><a href="{{card.stapvoorstap()}}" target="stap">Tarot Stap voor Stap</a></li>
+      {% endif %}
+      <li><a href="{{card.letarot()}}" target="letarot">Le Tarot</a></li>
+      {% if card.getal != "-" and card.getal != "+" %}
         <li><a href="{{card.kaartensterren()}}" target="kes">Kaart en Sterren</a></li>
         {% if card.kleur == 'groot' %}
             <li><a href="{{card.spiridoc()}}" target="spiri">Spiridoc</a></li>
         {% endif %}
+      {% endif %}
     </ul>
 {% endmacro %}
 
@@ -63,10 +68,8 @@
         <tr>
             <td>
                 <img src="{{ url_for('static', filename=card.img) }}" height=400>
-                {{ card_src(card) }}
-                <hr/>
                 {% block navigation %}{% endblock %}
-
+                {{ card_src(card) }}
             </td>
             <td>
                 {{ card_details(card) }}
