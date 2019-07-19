@@ -1,28 +1,9 @@
 {% extends "base.jinja2" %}
 
 {% block content %}
-<h2>{% block title %}Welkom{% endblock %}</h2>
+<h2>Welkom</h2>
 
-<p>Op deze site heb ik kennis van Tarot verzameld. Deze kennis komt uit verschillende bronnen, waaronder:
-<li><a target="waite" href="https://en.wikisource.org/wiki/The_Pictorial_Key_to_the_Tarot">The Pictorial Key To The Tarot (Illustrated)</a> van Arthur Edward Waite
-en de vertaalde betekenissen in het kleine boekje bij mijn kaarten.</li>
-<li><a target="stap" href="https://tarotstapvoorstap.nl">Tarot Stap voor Stap</a></li>
-<li><a target="letarot" href="http://www.letarot.nl/tarotkaart/overzicht/">Le Tarot</a>: de kaarten in <a target="letarot" href="http://www.letarot.nl/welke-tarotkaarten-gebruik-ik-en-waarom-de-tarot-in-de-herstelde-orde/">herstelde orde</a> en met 2 extra</li>
-<li><a target="_blank" href="http://www.inspiratiesite.nl/TAROT HANDLEIDING.pdf">Tarot handleiding</a> van Jan de Graaf.</li>
-<li><a target="wiki" href="https://nl.wikipedia.org/wiki/Tarot">wikipedia</a> en een <a target="book" href="https://nl.wikibooks.org/wiki/Tarot">wikibook</a></li>
-<li><a target="tijdgeest" href="https://www.tijdgeest.eu/orakels/tarotkaarten">Tijdgeest</a></li>
-<li><a target="kes" href="http://www.kaartensterren.nl/pagina's/tarot%201.html">Kaart en sterren</a></li>
-<li><a target="spiri" href="http://www.spiridoc.nl/tarot_intro.htm">Spiridoc</a></li>
-<li><a target="_blank" href="https://tallsay.com/page/4294988601/tarot-archetypen-naar-de-ontwikkelingspsychologie-van-carl-gustav-jung">Archetypes</a> van de Grote Arcana.</li>
-</p>
-<p>Bij verschillen tussen de bronnen heb ik intuïtief mijn voorkeur gekozen.</p>
-
-<p>Om mij te helpen om de betekenissen van de kaarten te onthouden, heb ik elke kaart een kernwoord toegenkend.
-Dit kernwoord is persoonlijk, waarbij ik heb geprobeerd om binnen de geldende duidingen van de betreffende kaart te blijven.</p>
-
-{% block details %}
-<p>Voor het gebruik van deze site is het aan te raden om bovenstaande bronnen te bestuderen.
-Deze site gaat vooral over de duiding van de kaarten en symboliek.</p>
+<p>Op deze site heb ik kennis van Tarot verzameld. Voor het gebruik van deze site is het aan te raden om <a href"{{url_for('study')}}">uitleg</a> te bestuderen. Hier vindt u ook bronnen met diepgaandere informatie: deze site gaat vooral in op de duiding van de kaarten en symboliek.</p>
 
 <p>Via het menu hierboven kunt u de volgende functies kiezen:</p>
 
@@ -36,5 +17,4 @@ Deze site gaat vooral over de duiding van de kaarten en symboliek.</p>
     <dt>Uitleg</dt><dd>Beknopte uitleg over Tarot.</dd>
     </dl>
 </blockquote>
-{% endblock details %}
 {% endblock content %}

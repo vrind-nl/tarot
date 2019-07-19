@@ -26,15 +26,28 @@ def index():
 )
 def overview(order, num):
     template = "overview"
+
+    suits = dict(
+        klassiek=["staven", "pentakels", "zwaarden", "kelken"],
+        waite=["staven", "kelken", "zwaarden", "pentakels"],
+    )
+    cards = [deck.cards[n] for n in deck.order[order]]
     if num:
         template += "_num"
     elif order == "hersteld":
         template += "_hersteld"
     return render_template(
         template + ".jinja2",
-        cards=[deck.cards[n] for n in deck.order[order]],
+        cards=dict(
+            groot=cards[0:22],
+            staven=cards[22:36],
+            pentakels=cards[36:50],
+            zwaarden=cards[50:64],
+            kelken=cards[64:78],
+        ),
         symbols=symboliek,
         order=order,
+        suits=suits[order],
         num=num,
     )
 

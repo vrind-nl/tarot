@@ -51,33 +51,35 @@
 <p>
   <a href="{{deck.permalink(cards)}}">Permalink</a>
 </p>
+<h4>Interpretatie</h4>
+<p>Er zijn veel manieren om de kaarten te interpreteren. Om je op weg te helpen:</p>
 {% if nr == 1 %}
-  <ul>Interpretaties:
+  <ul>
     <li>dag-, week-, maand-, jaarkaart</li>
     <li>inspiratie</li>
   </ul>
 {% elif nr == 2 %}
-  <ul>Interpretaties:
+  <ul>
     <li>los/vast (wat kan ik loslaten, wat moet ik vasthouden)</li>
     <li>kansen / bedreigingen</li>
     <li>wat te doen / wat te laten</li>
     <li>sterke punten / verbeterpunten</li>
   </ul>
 {% elif nr == 3 %}
-  <ul>Interpretaties:
+  <ul>
     <li>verleden - heden - toekomst</li>
     <li>probleem - oorzaak - oplossing</li>
     <li>gevoel - verstand - verbinding</li>
   </ul>
 {% elif nr == 4 %}
-  <ul>Interpretaties:
+  <ul>
     <li>hier gaat het om - wat te doen - wat te laten - resultaat</li>
     <li>maandlegging: één kaart voor elke week</li>
     <li>jaarlegging: één kaart voor elk seizoen/kwartaal</li>
   </ul>
 {% elif nr == 5 %}
-  <ul>Interpretaties:
-    <li>
+  <ul>
+    <li>Mogelijkheid I:
       <ol>
         <li>Actie</li>
         <li>Obstakel</li>
@@ -86,8 +88,8 @@
         <li>Uitkomst</li>
       </ol>
     </li>
-    <li>
-      <ol>Maandwiel:
+    <li>Maandwiel:
+      <ol>
         <li>Huidige situatie</li>
         <li>Afnemende invloeden</li>
         <li>Verborgen invloeden</li>
@@ -97,8 +99,8 @@
     </li>
   </ul>
 {% elif nr == 6 %}
-  <ul>Interpretatie (legging over een onderwerp, bijvoorbeeld een persoon):
-    <li>
+  <ul>
+    <li>Legging over een onderwerp, bijvoorbeeld een persoon:
       <ol>
         <li>Persoonskaart</li>
         <li>Wat de vraagsteller voelt</li>
@@ -108,7 +110,7 @@
         <li>Wat de vraagsteller <i>niet</i> leuk vindt aan het onderwerp</li>
       </ol>
     </li>
-    <li>
+    <li>Kiezen tussen A en B:
       <ul>
         <li>Keuze A: positief / kern / negatief</li>
         <li>Keuze B: positief / kern / negatief</li>
@@ -116,9 +118,9 @@
     </li>
   </ul>
 {% elif nr == 7 %}
-  <ul>Interpretaties:
+  <ul>
     <li>weeklegging: één kaart voor elke dag van de week</li>
-    <li>
+    <li>mogelijkheid II:
       <ol>
         <li>Verleden</li>
         <li>Heden</li>
@@ -129,7 +131,7 @@
         <li>Uitkomst</li>
       </ol>
     </li>
-    <li>
+    <li>mogelijkheid III:
       <ol>
         <li>Verleden</li>
         <li>Heden</li>
@@ -141,8 +143,21 @@
       </ol>
     </li>
   </ul>
+{% elif nr == 8 %}
+  <p>Keuze tussen A en B:</a>
+  <ol>
+    <li>De kern</li>
+    <li>Obstakel</li>
+    <li>De kern van optie A</li>
+    <li>Het positieve van optie A</li>
+    <li>Het negatieve van optie A</li>
+    <li>De kern van optie B</li>
+    <li>Het positieve van optie B</li>
+    <li>Het negatieve van optie B</li>
+  </ol>
 {% elif nr == 9 %}
-  <ol>Persoonlijke balans:
+  <p>Persoonlijke balans:</p>
+  <ol>
     <li>Persoonlijke groei</li>
     <li>Vrije tijd</li>
     <li>Gezondheid</li>
@@ -154,7 +169,8 @@
     <li>Balans</li>
   </ol>
 {% elif nr == 10 %}
-  <ol>Keltisch kruis:
+  <p>Keltisch kruis:</p>
+  <ol>
     <li>Huidige positie van de vraagsteller</li>
     <li>Directe invloeden</li>
     <li>Recente invloede</li>
@@ -167,11 +183,17 @@
     <li>Uitkomst</li>
   </ol>
 {% endif %}
+
+<p>Een succesvolle interpretatie staat of valt echter met een duidelijke vraag:</p>
+<ul>
+  <li>concreet</li>
+  <li>specifiek</li>
+  <li>over iets waar je zelf invloed op hebt</li>
+</ul>
+
 <p>Legging met
   {% for i in range(1,11) %}
-    {% if i != nr %}
-      [<a href="{{url_for('cards', nr=i)}}">{{i}}</a>]
-    {% endif %}
+    [<a href="{{url_for('cards', nr=i)}}">{{i}}</a>]
   {% endfor %} kaarten.
 </p>
 {% endblock %}

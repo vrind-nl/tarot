@@ -1,85 +1,107 @@
-{% extends "index.jinja2" %}
+{% extends "base.jinja2" %}
 
-{% from "macros.jinja2" import ROMANS %}
-
-
-{% macro card_details(card) %}
-    <li>{{card}}: {{card.kernwoord}}</li>
-{% endmacro %}
+{% from "macros.jinja2" import ROMANS0 %}
 
 
-{% macro list_cards(cards) %}
-    <ul>{% for card in cards %} {{ card_details(card) }} {% endfor %}</ul>
-{% endmacro %}
+{% block content %}
+  <h2>Beknopte uitleg</h2>
+<p>De informatie op deze site komt uit verschillende bronnen, waaronder:
+  <li><a target="waite" href="https://en.wikisource.org/wiki/The_Pictorial_Key_to_the_Tarot">The Pictorial Key To The Tarot (Illustrated)</a> van Arthur Edward Waite
+    en de vertaalde betekenissen in het kleine boekje bij mijn kaarten.</li>
+    <li><a target="stap" href="https://tarotstapvoorstap.nl">Tarot Stap voor Stap</a></li>
+  <li><a target="letarot" href="http://www.letarot.nl/tarotkaart/overzicht/">Le Tarot</a>: de kaarten in <a target="letarot" href="http://www.letarot.nl/welke-tarotkaarten-gebruik-ik-en-waarom-de-tarot-in-de-herstelde-orde/">herstelde orde</a> en met 2 extra</li>
+  <li><a target="_blank" href="http://www.inspiratiesite.nl/TAROT HANDLEIDING.pdf">Tarot handleiding</a> van Jan de Graaf.</li>
+  <li><a target="wiki" href="https://nl.wikipedia.org/wiki/Tarot">wikipedia</a> en een <a target="book" href="https://nl.wikibooks.org/wiki/Tarot">wikibook</a></li>
+  <li><a target="tijdgeest" href="https://www.tijdgeest.eu/orakels/tarotkaarten">Tijdgeest</a></li>
+  <li><a target="kes" href="http://www.kaartensterren.nl/pagina's/tarot%201.html">Kaart en sterren</a></li>
+  <li><a target="spiri" href="http://www.spiridoc.nl/tarot_intro.htm">Spiridoc</a></li>
+  <li><a target="_blank" href="https://tallsay.com/page/4294988601/tarot-archetypen-naar-de-ontwikkelingspsychologie-van-carl-gustav-jung">Archetypes</a> van de Grote Arcana.</li>
+</p>
+<p>Bij verschillen tussen de bronnen heb ik intuïtief mijn voorkeur gekozen.</p>
 
+<p>Om mij te helpen om de betekenissen van de kaarten te onthouden, heb ik elke kaart een kernwoord toegenkend.
+  Dit kernwoord is persoonlijk, waarbij ik heb geprobeerd om binnen de geldende duidingen van de betreffende kaart te blijven.</p>
 
-{% block title %}Beknopte uitleg{% endblock %}
-
-
-{% block details %}
-<p>Hieronder volgt een beknopte opsomming van sommige gegevens uit bovenstaande bronnen:</p>
-<h3>Getallen</h3>
+  <p>Hieronder volgt een beknopte opsomming van sommige gegevens uit bovenstaande bronnen:</p>
+  <h3>Arcana</h3>
+<p>Arcana: {{symbols.get('arcana')}}</p>
 <ul>
-    {% for nr in ROMANS %}
-        <li>{{nr}}: {{symbols.get(nr)}}</li>
+  <li>Grote Arcana ('troeven'): {{symbols.get('grote arcana')}}</li>
+  <li>Kleine Arcana: {{symbols.get('kleine arcana')}}</li>
+  <ul>
+    {% for kleur in ['Staven', 'Pentakels', 'Zwaarden', 'Kelken'] %}
+      <li>{{kleur}}: {{symbols.get(kleur)}}</li>
     {% endfor %}
+  </ul>
 </ul>
 
-<h3>Kaarten</h3>
+<h3>Volgorde</h3>
+
+<p>De diverse interpretaties hanteren verschillende volgordes:</p>
+
+<h4>Grote Arcana</h4>
+
+<p>De Grote Arcana wordt veelal ingedeeld naar levensfase:</p>
 <ul>
-    <li>Arcana: {{symbols.get('arcana')}}</li>
-    <li>Grote Arcana (troeven): {{symbols.get('grote arcana')}}</li>
-    <ul>
-        {{ card_details(deck.cards[0]) }}
-        <li>I-X: {{symbols.get('grote arcana 1-10')}}</li>
-            {{ list_cards(deck.cards[1:10]) }}
-        <li>XI-XX: {{symbols.get('grote arcana 11-20')}}</li>
-            {{ list_cards(deck.cards[10:20]) }}
-        {{ card_details(deck.cards[21]) }}
-    </ul>
-    <li>Grote Arcana: indeling naar levensfasen</li>
-        <ul>
-            <li>O: Geboorte / De vonk</li>
-            <li>I-V: Jeugd / Drijfveren</li>
-            <li>VI-XII: Volwassen / Zelfontdekking / Het IK</li>
-            <li>XIII-XXI: Ouderdom / Inpassing / Bestemming</li>
-        </ul>
-    <li>Grote Arcana: <a href="http://www.spiridoc.nl/grotearcana/grarc_inleiding.htm">indeling</a> naar bewustzijn</li>
-        <ul>
-            <li>O-VII: Bewustzijn</li>
-            <li>VIII-XIV: Het onderbewuste / Zelfontdekking</li>
-            <li>XV-XXI: Het bovenbewuste</li>
-        </ul>
-    <li>Waite heeft {{deck.cards[8]}} en  {{deck.cards[11]}} zonder verdere toelichting omgedraaid. Op deze site doe ik dat <i>niet</i>.</li>
-    <li>Kleine Arcana: {{symbols.get('kleine arcana')}}</li>
-    <ul>
-        <li>Kleuren</li>
-            <ul>
-                {% for kleur in ['Staven', 'Pentakels', 'Zwaarden', 'Kelken'] %}
-                    <li>{{kleur}}: {{symbols.get(kleur)}}</li>
-                {% endfor %}
-            </ul>
-        <li>De volgorde van de kleuren is relevant:</li>
-            <ol>
-                <li>staven: het idee</li>
-                <li>pentakels: vorm geven aan het idee</li>
-                <li>zwaarden: begrijpen van het idee (afstand en overzicht)</li>
-                <li>kelken: eigen maken van het idee (inleven)</li>
-            </ol>
-        <li>Waite hanteert de volgorde: staven, kelken, zwaarden, pentakels. En hij beschrijft de kaarten per kleur van Koning tot Aas.</li>
-        <li>Deelseries</li>
-            <ul>
-                <li>getallen: {{symbols.get('getallen')}}</li>
-                <ul>
-                    <li>zie "Getallen"</li>
-                    <li>Voor de "Aas", zie "I".</li>
-                </ul>
-                <li>Hofkaart: {{symbols.get('Hofkaart')}}</li>
-                <ul>
-                    {% for card in HOFKAARTEN %}
-                        <li>{{card}}: {{symbols.get(card)}}</li>
-                    {% endfor %}
-                </ul>
-            </ul>
-    </ul>
-{% endblock details %}
+  <li>Variant I (gehanteerd in het <a href="{{url_for('overview', num=False)}}">overzicht</a>):</li>
+  <ul>
+    <li>{{deck.cards[0]}} en {{deck.cards[21]}} als begin en einde</li>
+    <li>I-X: {{symbols.get('grote arcana 1-10')}}</li>
+    <li>XI-XX: {{symbols.get('grote arcana 11-20')}}</li>
+  </ul>
+  <li>Variant II:</li>
+  <ul>
+    <li>O: Geboorte / De vonk</li>
+    <li>I-V: Jeugd / Drijfveren</li>
+    <li>VI-XII: Volwassen / Zelfontdekking / Het IK</li>
+    <li>XIII-XXI: Ouderdom / Inpassing / Bestemming</li>
+  </ul>
+  <li><a target="spiri" href="http://www.spiridoc.nl/grotearcana/grarc_inleiding.htm">indeling</a> naar bewustzijn</li>
+  <ul>
+    <li>O-VII: Bewustzijn</li>
+    <li>VIII-XIV: Het onderbewuste / Zelfontdekking</li>
+    <li>XV-XXI: Het bovenbewuste</li>
+  </ul>
+  <li>Waite heeft {{deck.cards[8]}} en  {{deck.cards[11]}} zonder verdere toelichting omgedraaid. Dit is zichtbaar in het <a href="{{url_for('overview', order='waite', num=False)}}">Waite-overzicht</a>.</li>
+</ul>
+
+<h4>Kleuren</h4>
+<ul>
+  <li>Middeleeuwse standen:</li>
+  <ol>
+    <li>staven: boeren en arbeiders</li>
+    <li>pentakels: ambachtsleiden en handelaars</li>
+    <li>zwaarden: adel</li>
+    <li>kelken: geestelijkheid</li>
+  </ol>
+  <li>Uitwerking van een idee:</li>
+  <ol>
+    <li>staven: het idee</li>
+    <li>pentakels: vorm geven aan het idee</li>
+    <li>zwaarden: begrijpen van het idee (afstand en overzicht)</li>
+    <li>kelken: eigen maken van het idee (inleven)</li>
+  </ol>
+</ul>
+
+<p>Deze volgordes heb ik gebruikt in het <a href="{{url_for('overview', num=False)}}">standaardoverzicht</a> ("klassiek").</p>
+
+<p>Waite hanteert de volgorde: staven, kelken, zwaarden, pentakels. En hij beschrijft de kaarten per kleur van Koning tot Aas. Dit is beschikbaar in het <a href="{{url_for('overview', order='waite', num=False)}}">Waite-overzicht</a>.</p>
+
+<h4>Deelseries</h4>
+<ul>
+  <li>Getallen: {{symbols.get('getallen')}}</li>
+  <ul>
+    {% for nr in ROMANS0 %}
+      <li>{{nr}}: {{symbols.get(nr)}}</li>
+    {% endfor %}
+  </ul>
+  <li>Hofkaart: {{symbols.get('hofkaart')}}</li>
+  <ul>
+    {% for card in HOFKAARTEN %}
+      <li>{{card}}: {{symbols.get(card)}}</li>
+    {% endfor %}
+  </ul>
+</ul>
+</ul>
+
+{% endblock content %}

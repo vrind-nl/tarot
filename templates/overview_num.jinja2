@@ -16,15 +16,15 @@
     {% endfor %}
   </tr>
   <tr>
-    {{render_cards(cards[0:10])}}
+    {{render_cards(cards.groot[0:10])}}
   </tr>
   <tr>
     <td>&nbsp;</td>
-    {{render_cards(cards[10:19])}}
+    {{render_cards(cards.groot[10:19])}}
   </tr>
   <tr>
     <td>&nbsp;</td>
-    {{render_cards(cards[19:22])}}
+    {{render_cards(cards.groot[19:22])}}
   </tr>
   <tr><td colspan=10 style="text-align: left"><h3>Kleine arcana</h3></td></tr>
   <tr>
@@ -33,34 +33,16 @@
       <td>{{nr}}: {{symbols.get(nr)}}</td>
     {% endfor %}
   </tr>
+  {% for suit in suits %}
+    {% set row = cards[suit] %}
+    <tr>
+      <td rowspan=2>{{suit | title }}: {{ symbols.get(suit) }}</td>
+      {{ render_cards(row[0:9]) }}
+    </tr>
   <tr>
-    <td rowspan=2>Staven: {{symbols.get('staven')}}</td>
-    {{render_cards(cards[22:31])}}
+    {{ render_cards(row[9:14]) }}
   </tr>
-  <tr>
-    {{render_cards(cards[31:36])}}
-  </tr>
-  <tr>
-    <td rowspan=2>Pentakels: {{symbols.get('pentakels')}}</td>
-    {{render_cards(cards[36:45])}}
-  </tr>
-  <tr>
-    {{render_cards(cards[45:50])}}
-  </tr>
-  <tr>
-    <td rowspan=2>Zwaarden: {{symbols.get('zwaarden')}}</td>
-    {{render_cards(cards[50:59])}}
-  </tr>
-  <tr>
-    {{render_cards(cards[59:64])}}
-  </tr>
-  <tr>
-    <td rowspan=2>Kelken: {{symbols.get('kelken')}}</td>
-    {{render_cards(cards[64:73])}}
-  </tr>
-  <tr>
-    {{render_cards(cards[73:78])}}
-  </tr>
+{% endfor %}
 </table>
 
 <p>Aanvullende informatie over numerologie:
