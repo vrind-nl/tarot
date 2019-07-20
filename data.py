@@ -1199,10 +1199,10 @@ cards = [
             (
                 "steekwoorden",
                 "visioenen, illusie, mystery guest, verbeelding, vergankelijke "
-                "weelde",
+                "weelde, luchtkastelen",
             ),
             ("uitnodiging", "Wat heb je werkelijk nodig?"),
-            ("waarschuwing", "Klatergoud."),
+            ("waarschuwing", "Wat is de echte waarde?"),
             (
                 "symbolen",
                 "slang, lauwerkrans, draak, edelstenen, burcht, engel, wolken, "
