@@ -534,7 +534,7 @@ cards = [
             ("getal", "7"),
             ("naam", "VII"),
             ("opmerking", ""),
-            ("kernwoord", "STRIJDEN"),
+            ("kernwoord", "HANDHAVEN"),
             (
                 "steekwoorden",
                 "staande houden, vaak alleen, overmacht, gunstige positie",
@@ -1479,7 +1479,7 @@ symbols = [
         [
             ("naam", "V"),
             ("zie", "zintuigen"),
-            ("betekenis", "zoeken, doorzetten, zingeving, gilden: gezel"),
+            ("betekenis", "zoeken, doorzetten, zingeving, kantelpunt, gilden: gezel"),
         ]
     ),
     OrderedDict(
@@ -1489,7 +1489,7 @@ symbols = [
         [
             ("naam", "VII"),
             ("zie", ""),
-            ("betekenis", "wijsheid, heelheid, spiritualiteit, gilden: meester"),
+            ("betekenis", "zoeken, mysterie, nieuwsgierigheid, gilden: meester"),
         ]
     ),
     OrderedDict(
@@ -1503,7 +1503,7 @@ symbols = [
         ]
     ),
     OrderedDict(
-        [("naam", "X"), ("zie", ""), ("betekenis", "Climax, overgang, einde=begin")]
+        [("naam", "X"), ("zie", ""), ("betekenis", "climax, overgang, einde=begin")]
     ),
     OrderedDict([("naam", "XI"), ("zie", ""), ("betekenis", "openbaring, inspiratie")]),
     OrderedDict(

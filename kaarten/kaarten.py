@@ -1,7 +1,8 @@
-rw = [l.strip() for l in open("rw.txt")]
+rws = [l.strip() for l in open("rws.txt")]
 tarot = [l.strip() for l in open("tarot.txt")]  # decks from tarot.com
 hersteld = [l.strip() for l in open("hersteld.txt")]
 shadow = [l.strip() for l in open("shadow.txt")]
+marseille = [l.strip() for l in open("marseille.txt")]
 
 print(
     """
@@ -33,8 +34,8 @@ for c in range(78):
         )
     print(
         """<tr>
-        <td><img width=200 src="classic/%s"></td>
-        <td><img width=220 src="rw/%s"></td>
+        <td><img width=180 src="marseille/%s"></td>
+        <td><img width=220 src="rws/%s"></td>
         <td><img width=210 src="hersteld/%s"></td>
         <td><img style="margin-bottom: 10" src="mg/%s"></td>
         <td><img width=220 src="connolly/%s"></td>
@@ -42,6 +43,6 @@ for c in range(78):
         <td><img width=210 src="shadow/%s"></td>
     </tr>
     """
-        % (tarot[c], rw[c], hersteld[c], tarot[c], tarot[c], tarot[c], shadow[c])
+        % (marseille[c], rws[c], hersteld[c], tarot[c], tarot[c], tarot[c], shadow[c])
     )
 print("</table>")
