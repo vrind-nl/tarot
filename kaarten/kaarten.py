@@ -22,7 +22,7 @@ for c in range(78):
             """
 <table>
 <tr>
-<th>Classic</th>
+<th>Marseille</th>
 <th>Rider-Waite</th>
 <th>Hersteld</th>
 <th>Morgan-Greer</th>

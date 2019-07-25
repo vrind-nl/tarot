@@ -151,6 +151,7 @@ Card.stapvoorstap = links.stapvoorstap
 Card.kaartensterren = links.kaartensterren
 Card.spiridoc = links.spiridoc
 Card.letarot = links.letarot
+Card.orakels = links.orakels
 
 
 class Deck:
