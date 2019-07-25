@@ -574,7 +574,7 @@ cards = [
             ),
             ("uitnodiging", "Bekijk het eens uit het perspectief van de ander"),
             ("waarschuwing", "Is de dreiging wel echt?"),
-            ("symbolen", "muur"),
+            ("symbolen", "muur, podium"),
         ]
     ),
     OrderedDict(
@@ -587,7 +587,7 @@ cards = [
             ("steekwoorden", "afmaken, heroverwegen, opstand tegen onderdrukking"),
             ("uitnodiging", "Wie kan je helpen om deze last te dragen?"),
             ("waarschuwing", "Laat op tijd los"),
-            ("symbolen", "akker, stadsmuur"),
+            ("symbolen", "akker, stadsmuur, podium"),
         ]
     ),
     OrderedDict(
@@ -690,7 +690,7 @@ cards = [
             ),
             ("uitnodiging", "Speel met je mogelijkheden"),
             ("waarschuwing", "Je kan niet alle opties open houden"),
-            ("symbolen", "lemniscaat, golven, boot, jonge man, blauw"),
+            ("symbolen", "lemniscaat, golven, boot, jonge man, blauw, podium"),
         ]
     ),
     OrderedDict(
@@ -719,7 +719,7 @@ cards = [
             ("steekwoorden", "houden wat je hebt, energiestroom blokkeren, hebzucht"),
             ("uitnodiging", "Wees zuinig op je mogelijkheden."),
             ("waarschuwing", "Wat probeer je te krampachtig vast te houden?"),
-            ("symbolen", "toren, paars"),
+            ("symbolen", "toren, paars, podium"),
         ]
     ),
     OrderedDict(
@@ -751,7 +751,7 @@ cards = [
             (
                 "symbolen",
                 "rood kleed, zegening, boom, burcht, weegschaal, geel kleed, "
-                "blauw kleed",
+                "blauw kleed, podium",
             ),
         ]
     ),
@@ -778,7 +778,7 @@ cards = [
             ("steekwoorden", "oefenen, nederig werk, ambachten, kundigheid"),
             ("uitnodiging", "Wat zou je willen leren?"),
             ("waarschuwing", "Moet je niet eens iets nieuws proberen?"),
-            ("symbolen", "bank, hamer, geel"),
+            ("symbolen", "bank, hamer, geel, podium"),
         ]
     ),
     OrderedDict(
@@ -904,7 +904,10 @@ cards = [
             ),
             ("uitnodiging", "Luister naar je innerlijke stem"),
             ("waarschuwing", "Is het belangrijk om alles zo veel te analyseren?"),
-            ("symbolen", "wit kleed, oceaan, heuvels, kubus, blinddoek, maan, blauw"),
+            (
+                "symbolen",
+                "wit kleed, oceaan, heuvels, kubus, blinddoek, maan, blauw, podium",
+            ),
         ]
     ),
     OrderedDict(
@@ -946,7 +949,10 @@ cards = [
             ),
             ("uitnodiging", "Eerlijk duurt het langst"),
             ("waarschuwing", "Is het belangrijk om persé te winnen?"),
-            ("symbolen", "afgewend, oceaan, berg, zwaard geheven, oranje, blauw"),
+            (
+                "symbolen",
+                "afgewend, oceaan, berg, zwaard geheven, oranje, blauw, podium",
+            ),
         ]
     ),
     OrderedDict(
@@ -972,7 +978,7 @@ cards = [
             ("steekwoorden", "slimheid, spitsvondigheid, oneerlijkheid"),
             ("uitnodiging", "Verzin een list."),
             ("waarschuwing", "Je wordt in de maling genomen."),
-            ("symbolen", "oranje"),
+            ("symbolen", "oranje, podium"),
         ]
     ),
     OrderedDict(
@@ -1126,7 +1132,7 @@ cards = [
             ("waarschuwing", "Sta ik open voor een eerlijk compromis?"),
             (
                 "symbolen",
-                "caduceus, lauwerkrans, roos, slang, leeuw, heuvels, hermesvleugels",
+                "caduceus, lauwerkrans, roos, slang, leeuw, heuvels, hermesvleugels, podium",
             ),
         ]
     ),
@@ -1256,7 +1262,7 @@ cards = [
             ),
             ("uitnodiging", "Maak ruimte voor gezamenlijk geluk"),
             ("waarschuwing", "Wat van ver komt is niet altijd lekkerder"),
-            ("symbolen", "regenboog, stroom, gezin, huis, afgewend"),
+            ("symbolen", "regenboog, stroom, gezin, huis, afgewend, podium"),
         ]
     ),
     OrderedDict(
@@ -1269,7 +1275,7 @@ cards = [
             ("steekwoorden", "fantasie, verbeelding, puberteit, vlijtige jeugd"),
             ("uitnodiging", "Laat je verwonderen"),
             ("waarschuwing", "Pas op voor goedgelovigheid."),
-            ("symbolen", "lotus, vis, oceaan, blauw"),
+            ("symbolen", "lotus, vis, oceaan, blauw, podium"),
         ]
     ),
     OrderedDict(
@@ -2224,6 +2230,9 @@ symbols = [
             ("zie", ""),
             ("betekenis", "wijsheid, evenwicht in de wereld"),
         ]
+    ),
+    OrderedDict(
+        [("naam", "podium"), ("zie", ""), ("betekenis", "abstractie, toneelstuk")]
     ),
     OrderedDict(
         [

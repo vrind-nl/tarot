@@ -6,10 +6,10 @@ major04.jpg
 major05.jpg
 major06.jpg
 major07.jpg
-major08.jpg
+major11.jpg
 major09.jpg
 major10.jpg
-major11.jpg
+major08.jpg
 major12.jpg
 major13.jpg
 major14.jpg
