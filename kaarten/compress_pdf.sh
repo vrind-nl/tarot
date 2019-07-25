@@ -1,1 +1,1 @@
-gs -sDEVICE=pdfwrite -dPDFSETTINGS=/ebook -q -o ../static/tarot.pdf cards.html.pdf
+gs -sDEVICE=pdfwrite -dPDFSETTINGS=/ebook -q -o ../static/tarot.pdf ~/Downloads/cards.html.pdf

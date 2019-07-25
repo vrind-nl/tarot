@@ -16,7 +16,7 @@ print(
 )
 
 for c in range(78):
-    if (c % 5) == 0:
+    if (c % 6) == 0:
         if c > 0:
             print("</table>")
         print(
