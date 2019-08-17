@@ -14,7 +14,7 @@ cards = [
                 "kinderlijk, ongericht",
             ),
             ("uitnodiging", "Doe eens iets spontaans."),
-            ("waarschuwing", "Waar is het kind je je gebleven?"),
+            ("waarschuwing", "Waar is het kind in je gebleven?"),
             (
                 "symbolen",
                 "jonge man, roos, staf, zon, berg, hond, bloemenkrans, geel, ijs",
@@ -236,7 +236,7 @@ cards = [
             ("waarschuwing", "Die Leeuw mag best af en toe eens brullen."),
             (
                 "symbolen",
-                "jonge vrouw, leeuw, bloemenkrans, lemniscaat, bergtop, " "oranje",
+                "jonge vrouw, leeuw, bloemenkrans, lemniscaat, bergtop, oranje",
             ),
         ]
     ),
@@ -348,7 +348,7 @@ cards = [
             ("kernwoord", "HOOP"),
             (
                 "steekwoorden",
-                "bezieling, wees de ster in je eigen leven, de sterren " "bereiken",
+                "bezieling, wees de ster in je eigen leven, de sterren bereiken",
             ),
             ("uitnodiging", "Durf vol vertrouwen je toekomst tegemoet te zien."),
             ("waarschuwing", "Valse hoop, misplaatst vertrouwen."),
@@ -489,13 +489,13 @@ cards = [
             ("kernwoord", "OOGSTEN"),
             (
                 "steekwoorden",
-                "resultaten vieren, harmonieuze samenwerking, terugkerende " "feesten",
+                "resultaten vieren, harmonieuze samenwerking, terugkerende feesten",
             ),
             ("uitnodiging", "Je initiatief is vruchtbaar."),
             ("waarschuwing", "Het is nog te vroeg om op je lauweren te rusten."),
             (
                 "symbolen",
-                "kasteel, wit kleed, rood kleed, blauw kleed, bloemen, " "oranje",
+                "kasteel, wit kleed, rood kleed, blauw kleed, bloemen, oranje",
             ),
         ]
     ),
@@ -521,7 +521,7 @@ cards = [
             ("kernwoord", "TRIOMFEREN"),
             (
                 "steekwoorden",
-                "zegevieren, mijlpaal, beginnend succes, waardering, groot " "nieuws",
+                "zegevieren, mijlpaal, beginnend succes, waardering, groot nieuws",
             ),
             ("uitnodiging", "Stel je op als een leider"),
             ("waarschuwing", "Eén zwaluw maakt nog geen zomer"),
@@ -626,10 +626,7 @@ cards = [
             ("naam", "Koningin"),
             ("opmerking", ""),
             ("kernwoord", "STEVIG"),
-            (
-                "steekwoorden",
-                "onafhankelijk, " "kundig, identiteit, mild, zelfvertrouwen",
-            ),
+            ("steekwoorden", "onafhankelijk, kundig, identiteit, mild, zelfvertrouwen"),
             ("uitnodiging", "Geloof in jezelf."),
             ("waarschuwing", "Neem ook eens iets van een ander aan"),
             (
@@ -702,7 +699,7 @@ cards = [
             ("kernwoord", "BEWIJZEN"),
             (
                 "steekwoorden",
-                "waardering, vakmanschap, uitvoering, inzet, proef, " "presenteren",
+                "waardering, vakmanschap, uitvoering, inzet, proef, presenteren",
             ),
             ("uitnodiging", "Waarmee kan je jezelf bewijzen?"),
             ("waarschuwing", "Sta open voor feedback"),
@@ -945,7 +942,7 @@ cards = [
             ("kernwoord", "MISGUNNEN"),
             (
                 "steekwoorden",
-                "debatteren, negatieve gedachtepatronen, verraad, degradatie, " "oneer",
+                "debatteren, negatieve gedachtepatronen, verraad, degradatie, oneer",
             ),
             ("uitnodiging", "Eerlijk duurt het langst"),
             ("waarschuwing", "Is het belangrijk om persé te winnen?"),
@@ -1101,18 +1098,18 @@ cards = [
             ("getal", ""),
             ("naam", "Aas"),
             ("opmerking", ""),
-            ("kernwoord", "DROOM"),
+            ("kernwoord", "INSPIRATIE"),
             (
                 "steekwoorden",
                 "overvloed, "
                 "verlangen naar eenheid en verbondenheid, overgave, "
-                "bewustwording, de bron, de Graal.",
+                "bewustwording, de bron, de Graal, droom",
             ),
             ("uitnodiging", "Laat je gevoel stromen."),
             ("waarschuwing", "Laat deze kans niet schieten"),
             (
                 "symbolen",
-                "rechts, hand, wolken, waterbron, duif, yod, lelie, hostie, " "blauw",
+                "rechts, hand, wolken, waterbron, duif, yod, lelie, hostie, blauw",
             ),
         ]
     ),
@@ -1174,7 +1171,7 @@ cards = [
             ("waarschuwing", "Blijven hangen in verdriet."),
             (
                 "symbolen",
-                "grijs, stroom, brug, burcht, afgewend, zwart kleed, bloed, " "groen",
+                "grijs, stroom, brug, burcht, afgewend, zwart kleed, bloed, groen",
             ),
         ]
     ),
@@ -1258,7 +1255,7 @@ cards = [
             ("kernwoord", "THUISKOMEN"),
             (
                 "steekwoorden",
-                "welzijn, voltooiing, samen (gezin/dorp/gemeente), veilig, " "geborgen",
+                "welzijn, voltooiing, samen (gezin/dorp/gemeente), veilig, geborgen",
             ),
             ("uitnodiging", "Maak ruimte voor gezamenlijk geluk"),
             ("waarschuwing", "Wat van ver komt is niet altijd lekkerder"),
@@ -1478,7 +1475,7 @@ symbols = [
         [
             ("naam", "IV"),
             ("zie", "elementen"),
-            ("betekenis", "stabiliteit, orde, rechtvaardig, materie"),
+            ("betekenis", "fixatie, vastzetten/vastzitten"),
         ]
     ),
     OrderedDict(
@@ -1715,7 +1712,7 @@ symbols = [
             ("zie", ""),
             (
                 "betekenis",
-                "geest/ziel/lichaam, vader/zoon/heilige geest, " "hemel/aarde/hel",
+                "geest/ziel/lichaam, vader/zoon/heilige geest, hemel/aarde/hel",
             ),
         ]
     ),
@@ -1841,7 +1838,7 @@ symbols = [
             ("zie", "blauw, geel"),
             (
                 "betekenis",
-                "groei, ontwikkeling, harmonie, ontspanning, verveling, " "weerstand",
+                "groei, ontwikkeling, harmonie, ontspanning, verveling, weerstand",
             ),
         ]
     ),
@@ -1937,7 +1934,7 @@ symbols = [
             ("zie", ""),
             (
                 "betekenis",
-                "voorbode van de dood, begeleider van zielen naar " "onderwereld",
+                "voorbode van de dood, begeleider van zielen naar onderwereld",
             ),
         ]
     ),
@@ -2293,7 +2290,7 @@ symbols = [
             ("zie", ""),
             (
                 "betekenis",
-                "koninklijke waardigheid, hartstochtelijke liefde, " "levenskracht",
+                "koninklijke waardigheid, hartstochtelijke liefde, levenskracht",
             ),
         ]
     ),
@@ -2303,7 +2300,7 @@ symbols = [
             ("zie", ""),
             (
                 "betekenis",
-                "Hartstocht, fysieke manifestatie, actie, macht, " "levenskracht",
+                "Hartstocht, fysieke manifestatie, actie, macht, levenskracht",
             ),
         ]
     ),
@@ -2480,7 +2477,7 @@ symbols = [
             ("zie", ""),
             (
                 "betekenis",
-                "onze tijd van leven vervliegt bij dag en nacht, bij goed en " "kwaad",
+                "onze tijd van leven vervliegt bij dag en nacht, bij goed en kwaad",
             ),
         ]
     ),
@@ -2611,7 +2608,7 @@ symbols = [
             ("zie", ""),
             (
                 "betekenis",
-                "het licht dat de mensheid leidt, schepper, God, " "levenskracht",
+                "het licht dat de mensheid leidt, schepper, God, levenskracht",
             ),
         ]
     ),
@@ -2621,7 +2618,7 @@ symbols = [
             ("zie", "zon"),
             (
                 "betekenis",
-                "waarheidslievend, wilskracht en vitaliteit, roem en " "overwinning",
+                "waarheidslievend, wilskracht en vitaliteit, roem en overwinning",
             ),
         ]
     ),
