@@ -440,8 +440,8 @@ cards = [
             ("getal", ""),
             ("naam", "Aas"),
             ("opmerking", ""),
-            ("kernwoord", "INITIATIEF"),
-            ("steekwoorden", "visie, enthousiasme, vitaliteit."),
+            ("kernwoord", "INSPIRATIE"),
+            ("steekwoorden", "visie, enthousiasme, vitaliteit, initiatief"),
             ("uitnodiging", "Sta open om te groeien"),
             ("waarschuwing", "Wat doe ik aan mijn ontplooiing?"),
             ("symbolen", "wolken, stroom, heuvels, burcht, hand, rechts, grijs"),
@@ -1098,12 +1098,10 @@ cards = [
             ("getal", ""),
             ("naam", "Aas"),
             ("opmerking", ""),
-            ("kernwoord", "INSPIRATIE"),
+            ("kernwoord", "OVERVLOED"),
             (
                 "steekwoorden",
-                "overvloed, "
-                "verlangen naar eenheid en verbondenheid, overgave, "
-                "bewustwording, de bron, de Graal, droom",
+                "verlangen naar eenheid en verbondenheid, overgave, bewustwording, de bron, de Graal, droom",
             ),
             ("uitnodiging", "Laat je gevoel stromen."),
             ("waarschuwing", "Laat deze kans niet schieten"),
