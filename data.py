@@ -1460,7 +1460,7 @@ symbols = [
         ]
     ),
     OrderedDict(
-        [("naam", "II"), ("zie", ""), ("betekenis", "Dualiteit, spiegelbeeld")]
+        [("naam", "II"), ("zie", ""), ("betekenis", "dualiteit, spiegelbeeld")]
     ),
     OrderedDict(
         [
@@ -1480,27 +1480,27 @@ symbols = [
         [
             ("naam", "V"),
             ("zie", "zintuigen"),
-            ("betekenis", "zoeken, doorzetten, zingeving, kantelpunt, gilden: gezel"),
+            ("betekenis", "conflict, tegenslag, kantelpunt, gilden: gezel"),
         ]
     ),
     OrderedDict(
-        [("naam", "VI"), ("zie", ""), ("betekenis", "harmonie, perfectie, efficiëntie")]
+        [("naam", "VI"), ("zie", ""), ("betekenis", "voortgang, hoogtepunten")]
     ),
     OrderedDict(
         [
             ("naam", "VII"),
             ("zie", ""),
-            ("betekenis", "zoeken, mysterie, nieuwsgierigheid, gilden: meester"),
+            ("betekenis", "onzekerheid, geheimzinnigheid, gilden: meester"),
         ]
     ),
     OrderedDict(
-        [("naam", "VIII"), ("zie", ""), ("betekenis", "meesterschap, karma, promiscu")]
+        [("naam", "VIII"), ("zie", ""), ("betekenis", "grenzen, stagnatie, promiscu")]
     ),
     OrderedDict(
         [
             ("naam", "IX"),
             ("zie", ""),
-            ("betekenis", "voltooïng, horizon, gilden: bouwmeester"),
+            ("betekenis", "voltooïng, bewustzijn, gilden: bouwmeester"),
         ]
     ),
     OrderedDict(
