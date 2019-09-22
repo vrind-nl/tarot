@@ -1,5 +1,6 @@
 import os
 import random
+from collections import defaultdict
 
 from flask import Flask, render_template, request
 
@@ -9,6 +10,11 @@ import tarot
 app = Flask(__name__)
 symboliek = tarot.Symboliek()
 deck = tarot.Deck(symboliek)
+
+visits = defaultdict(lambda: defaultdict(int))
+@app.before_request
+def register_client():
+    visits[request.remote_addr][str(request.url_rule)] += 1
 
 
 @app.route("/")
@@ -119,11 +125,22 @@ def study():
     return render_template("study.jinja2", deck=deck, symbols=symboliek)
 
 
-@app.route("/env")
-def env():
-    return "\n".join(
-        ["<li>%s: %s</li>" % (key, val) for key, val in os.environ.items()]
-    )
+@app.route("/info")
+def info():
+    data = []
+    for title, src in [('Environment', os.environ), ('Headers', request.headers), ('Values', request.values)]:
+        data.append('<h3>%s</h3>' % title)
+        data.append("\n".join(["<li>%s: %s</li>" % (key, val) for key, val in sorted(src.items())]))
+    return "\n".join(data)
+
+@app.route("/visits")
+def visits_route():
+    data = []
+    for addr, routes in visits.items():
+        routes = ['<li>%s: %d</li>' % (route, count) for route, count in sorted(routes.items())]
+        data.append('<li>%s<ol>%s</ol>' % (addr, '\n'.join(routes)))
+    return "\n".join(data)
+
 
 
 if __name__ == "__main__":

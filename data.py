@@ -459,7 +459,7 @@ cards = [
             ("waarschuwing", "Vernieuwing is nog geen verbetering."),
             (
                 "symbolen",
-                "globe, links, oceaan, muur, globe, roos, lelie, berg, rood kleed, "
+                "globe, links, oceaan, muur, roos, lelie, berg, rood kleed, "
                 "grijs",
             ),
         ]
@@ -1187,7 +1187,7 @@ cards = [
             ),
             ("uitnodiging", "Verheug je in kleine dingen."),
             ("waarschuwing", "Behoudt het goede"),
-            ("symbolen", "dwaas, vrouw, lelie, burcht"),
+            ("symbolen", "vrouw, lelie, burcht"),
         ]
     ),
     OrderedDict(
