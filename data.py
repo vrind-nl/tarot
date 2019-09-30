@@ -470,8 +470,8 @@ cards = [
             ("getal", "3"),
             ("naam", "III"),
             ("opmerking", ""),
-            ("kernwoord", "AFWACHTEN"),
-            ("steekwoorden", "vooruitzien, handel, ontdekkingsreizen"),
+            ("kernwoord", "ANTICIPEREN"),
+            ("steekwoorden", "vooruitzien, handel, ontdekkingsreizen, actief wachten"),
             ("uitnodiging", "Wacht rustig af"),
             ("waarschuwing", "Je kunt nu niet meer terug."),
             (
@@ -550,7 +550,7 @@ cards = [
             ("getal", "8"),
             ("naam", "VIII"),
             ("opmerking", ""),
-            ("kernwoord", "OPLIJNEN"),
+            ("kernwoord", "CONVERGEREN"),
             (
                 "steekwoorden",
                 "veel energie, alles op één lijn, van een lijen dakje, haast, "
@@ -1484,7 +1484,7 @@ symbols = [
         ]
     ),
     OrderedDict(
-        [("naam", "VI"), ("zie", ""), ("betekenis", "voortgang, hoogtepunten")]
+        [("naam", "VI"), ("zie", ""), ("betekenis", "voortgang, hoogtepunten, delen")]
     ),
     OrderedDict(
         [
