@@ -423,8 +423,8 @@ cards = [
             ("kernwoord", "VOLEINDING"),
             (
                 "steekwoorden",
-                "Het leven aangaan zonder jezelf er in te verliezen, hervonden "
-                "paradijs",
+                "Het leven aangaan zonder jezelf er in te verliezen, verlichting "
+                "hervonden paradijs",
             ),
             ("uitnodiging", "Ga voluit voor wat je wilt bereiken."),
             ("waarschuwing", "Het is tijd voor bezinning."),
@@ -771,7 +771,7 @@ cards = [
             ("getal", "8"),
             ("naam", "VIII"),
             ("opmerking", ""),
-            ("kernwoord", "OEFENEN"),
+            ("kernwoord", "WERKEN"),
             ("steekwoorden", "oefenen, nederig werk, ambachten, kundigheid"),
             ("uitnodiging", "Wat zou je willen leren?"),
             ("waarschuwing", "Moet je niet eens iets nieuws proberen?"),
@@ -1196,7 +1196,7 @@ cards = [
             ("getal", "7"),
             ("naam", "VII"),
             ("opmerking", ""),
-            ("kernwoord", "MISLEIDEN"),
+            ("kernwoord", "DROMEN"),
             (
                 "steekwoorden",
                 "visioenen, illusie, mystery guest, verbeelding, vergankelijke "
@@ -1414,7 +1414,7 @@ symbols = [
             ("zie", "Aarde, V"),
             (
                 "betekenis",
-                "&diams;, realiseren/materie, zintuigen/praktisch, operationeel, "
+                "&diams;, fysiek/materie, zintuigen/praktisch, comfort, operationeel, "
                 "ambachtslieden/handelaars",
             ),
         ]
@@ -1423,7 +1423,7 @@ symbols = [
         [
             ("naam", "zwaarden"),
             ("zie", "lucht"),
-            ("betekenis", "&spades;, denken, verstand, tactisch, adel"),
+            ("betekenis", "&spades;, denken, verstand, woorden, tactisch, adel"),
         ]
     ),
     OrderedDict(
@@ -1432,7 +1432,7 @@ symbols = [
             ("zie", "water"),
             (
                 "betekenis",
-                "&hearts;, voelen, emotie, strategisch, geestelijkheid/staatslieden",
+                "&hearts;, onderbewuste, emotie, strategisch, geestelijkheid/staatslieden",
             ),
         ]
     ),
@@ -1500,7 +1500,7 @@ symbols = [
         [
             ("naam", "IX"),
             ("zie", ""),
-            ("betekenis", "voltooïng, bewustzijn, gilden: bouwmeester"),
+            ("betekenis", "voltooïng, bewustzijn, reflecteren, gilden: bouwmeester"),
         ]
     ),
     OrderedDict(
@@ -1520,28 +1520,28 @@ symbols = [
         [
             ("naam", "page"),
             ("zie", "jonge man"),
-            ("betekenis", "boodschapper, nieuwsgierig, kans"),
+            ("betekenis", "jongeling, kans"),
         ]
     ),
     OrderedDict(
         [
             ("naam", "ridder"),
             ("zie", ""),
-            ("betekenis", "strijder, werker, beschermen van zwakkeren "),
+            ("betekenis", "strijder, beschermen van zwakkeren, impulsief"),
         ]
     ),
     OrderedDict(
         [
             ("naam", "koningin"),
             ("zie", "volwassen vrouw"),
-            ("betekenis", "wijsheid, volwassenheid"),
+            ("betekenis", "invloed, wijsheid, niet moederlijk"),
         ]
     ),
     OrderedDict(
         [
             ("naam", "koning"),
             ("zie", "volwassen man"),
-            ("betekenis", "gezag, competentie, wereldlijke macht"),
+            ("betekenis", "gezag, competentie, verantwoordelijk"),
         ]
     ),
     OrderedDict([("naam", "aarde"), ("zie", "globe"), ("betekenis", "vruchtbaarheid")]),
