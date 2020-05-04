@@ -3,6 +3,7 @@ import { Switch, Route, Link } from "react-router-dom";
 
 import { Home } from "../pages/Home";
 import { Card } from "../pages/Card";
+import { Reading } from "../pages/Reading";
 import { Symbols } from "../pages/Symbol";
 
 function NavLink({ name }) {
@@ -20,6 +21,7 @@ export function Navigation() {
     <nav className="pure-menu pure-menu-horizontal">
       <NavLink name="Overzicht" />
       <NavLink name="Symbolen" />
+      <NavLink name="Legging" />
     </nav>
   );
 }
@@ -32,6 +34,9 @@ export function Routes() {
       </Route>
       <Route path="/symbolen">
         <Symbols />
+      </Route>
+      <Route path="/legging">
+        <Reading />
       </Route>
       <Route path="/card/:suite/:name">
         <Card />

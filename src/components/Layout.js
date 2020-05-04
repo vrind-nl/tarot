@@ -1,13 +1,16 @@
 import React from "react";
 // import PropTypes from "prop-types";
 
-import { Card } from "./Card";
+import { cleanRecords } from "../db";
+import { Thumbnail } from "./Card";
 
 function LayoutRow({ cards, layout }) {
   return (
     <tr>
       {layout.map((card, nr) => (
-        <td key={nr}>{card !== null && <Card {...cards[card]} />}</td>
+        <td key={nr}>
+          {card !== null && <Thumbnail {...cards[card]} link={1} />}
+        </td>
       ))}
     </tr>
   );
@@ -22,7 +25,7 @@ function LayoutSuite({ suite, cards, layout }) {
       <table>
         <tbody>
           {layout.map((row, nr) => (
-            <LayoutRow key={nr} cards={cards} layout={row} />
+            <LayoutRow key={nr} cards={cleanRecords(cards)} layout={row} />
           ))}
         </tbody>
       </table>

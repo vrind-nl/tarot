@@ -18,3 +18,13 @@ export function suites(crds = cards) {
       return acc;
     }, {});
 }
+
+export function cleanRecord(record) {
+  delete record.___s;
+  delete record.___id;
+  return record;
+}
+
+export function cleanRecords(records) {
+  return records.map(record => record).map(cleanRecord);
+}
