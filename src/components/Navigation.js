@@ -33,7 +33,7 @@ export function Routes() {
       <Route path="/symbolen">
         <Symbols />
       </Route>
-      <Route path="/card/:name">
+      <Route path="/card/:suite/:name">
         <Card />
       </Route>
       <Route path="/">

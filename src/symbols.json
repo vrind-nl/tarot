@@ -51,48 +51,39 @@
   },
   {
     "name": "staf",
-    "refs": ["staven"],
-    "definition": ""
+    "refs": ["staven"]
   },
   {
     "name": "pentakel",
-    "refs": ["pentakels"],
-    "definition": ""
+    "refs": ["pentakels"]
   },
   {
     "name": "zwaard",
-    "refs": ["zwaarden"],
-    "definition": ""
+    "refs": ["zwaarden"]
   },
   {
     "name": "beker",
-    "refs": ["kelken"],
-    "definition": ""
+    "refs": ["kelken"]
   },
   {
     "name": "kelk",
-    "refs": ["kelken"],
-    "definition": ""
+    "refs": ["kelken"]
   },
   {
     "name": "klavers",
-    "refs": ["staven"],
-    "definition": ""
+    "refs": ["staven"]
   },
   {
     "name": "ruiten",
-    "refs": ["pentakels"],
-    "definition": ""
+    "refs": ["pentakels"]
   },
   {
     "name": "schoppen",
-    "refs": ["zwaarden"],
-    "definition": ""
+    "refs": ["zwaarden"]
   },
   {
     "name": "harten",
-    "refs": ["kelken"],
-    "definition": ""
+    "refs": ["kelken"]
   },
   {
     "name": "O",
@@ -161,8 +152,7 @@
   },
   {
     "name": "",
-    "refs": [],
-    "definition": ""
+    "refs": []
   },
   {
     "name": "aas",
@@ -196,8 +186,7 @@
   },
   {
     "name": "adept",
-    "refs": ["monnik"],
-    "definition": ""
+    "refs": ["monnik"]
   },
   {
     "name": "afgewend",
@@ -241,8 +230,7 @@
   },
   {
     "name": "baldakijn",
-    "refs": ["troonhemel"],
-    "definition": ""
+    "refs": ["troonhemel"]
   },
   {
     "name": "bank",
@@ -281,8 +269,7 @@
   },
   {
     "name": "blauw kleed",
-    "refs": ["blauw"],
-    "definition": ""
+    "refs": ["blauw"]
   },
   {
     "name": "bliksem",
@@ -306,8 +293,7 @@
   },
   {
     "name": "bloemenkrans",
-    "refs": ["bloemen"],
-    "definition": ""
+    "refs": ["bloemen"]
   },
   {
     "name": "Boaz",
@@ -326,8 +312,7 @@
   },
   {
     "name": "boog",
-    "refs": ["poort"],
-    "definition": ""
+    "refs": ["poort"]
   },
   {
     "name": "boom",
@@ -411,8 +396,7 @@
   },
   {
     "name": "elementen",
-    "refs": ["water", "vuur", "lucht", "aarde"],
-    "definition": ""
+    "refs": ["water", "vuur", "lucht", "aarde"]
   },
   {
     "name": "engel",
@@ -426,13 +410,12 @@
   },
   {
     "name": "geel",
-    "refs": [],
-    "definition": "(zon) levenskracht en warmte, nadenken, vrolijkheid, creativiteit, afgunst, onrust"
+    "refs": ["zon"],
+    "definition": "levenskracht en warmte, nadenken, vrolijkheid, creativiteit, afgunst, onrust"
   },
   {
     "name": "geel kleed",
-    "refs": ["geel"],
-    "definition": ""
+    "refs": ["geel"]
   },
   {
     "name": "geestelijke",
@@ -466,8 +449,7 @@
   },
   {
     "name": "graan",
-    "refs": ["koren"],
-    "definition": ""
+    "refs": ["koren"]
   },
   {
     "name": "granaatappel",
@@ -496,13 +478,11 @@
   },
   {
     "name": "groene omgeving",
-    "refs": ["natuur"],
-    "definition": ""
+    "refs": ["natuur"]
   },
   {
     "name": "haag",
-    "refs": ["muur"],
-    "definition": ""
+    "refs": ["muur"]
   },
   {
     "name": "haas",
@@ -511,8 +491,7 @@
   },
   {
     "name": "hagedis",
-    "refs": ["salamander"],
-    "definition": ""
+    "refs": ["salamander"]
   },
   {
     "name": "hamer",
@@ -536,13 +515,11 @@
   },
   {
     "name": "herautenstaaf",
-    "refs": ["caduceus"],
-    "definition": ""
+    "refs": ["caduceus"]
   },
   {
     "name": "hermanubis",
-    "refs": ["jakhalsgod"],
-    "definition": ""
+    "refs": ["jakhalsgod"]
   },
   {
     "name": "hermes",
@@ -551,8 +528,7 @@
   },
   {
     "name": "hermesvleugels",
-    "refs": ["hermes"],
-    "definition": ""
+    "refs": ["hermes"]
   },
   {
     "name": "heuvels",
@@ -561,8 +537,7 @@
   },
   {
     "name": "hi\u00ebrofant",
-    "refs": ["hogepriester"],
-    "definition": ""
+    "refs": ["hogepriester"]
   },
   {
     "name": "hond",
@@ -576,8 +551,7 @@
   },
   {
     "name": "hoorn",
-    "refs": ["bazuin"],
-    "definition": ""
+    "refs": ["bazuin"]
   },
   {
     "name": "hostie",
@@ -616,8 +590,7 @@
   },
   {
     "name": "jod",
-    "refs": ["yod"],
-    "definition": ""
+    "refs": ["yod"]
   },
   {
     "name": "jonge man",
@@ -631,8 +604,7 @@
   },
   {
     "name": "kasteel",
-    "refs": ["burcht"],
-    "definition": ""
+    "refs": ["burcht"]
   },
   {
     "name": "kat",
@@ -656,8 +628,7 @@
   },
   {
     "name": "konijn",
-    "refs": ["haas"],
-    "definition": ""
+    "refs": ["haas"]
   },
   {
     "name": "koren",
@@ -836,8 +807,7 @@
   },
   {
     "name": "paars kleed",
-    "refs": ["paars"],
-    "definition": ""
+    "refs": ["paars"]
   },
   {
     "name": "pad",
@@ -871,8 +841,7 @@
   },
   {
     "name": "perkamentrol",
-    "refs": ["schriftrol"],
-    "definition": ""
+    "refs": ["schriftrol"]
   },
   {
     "name": "pilaren",
@@ -946,8 +915,7 @@
   },
   {
     "name": "rood kleed",
-    "refs": ["rood"],
-    "definition": ""
+    "refs": ["rood"]
   },
   {
     "name": "roos",
@@ -976,8 +944,7 @@
   },
   {
     "name": "schip",
-    "refs": ["boot"],
-    "definition": ""
+    "refs": ["boot"]
   },
   {
     "name": "schriftrol",
@@ -1061,8 +1028,7 @@
   },
   {
     "name": "troonhemel",
-    "refs": ["troon"],
-    "definition": ""
+    "refs": ["troon"]
   },
   {
     "name": "tweesprong",
@@ -1126,8 +1092,7 @@
   },
   {
     "name": "vogelpoten",
-    "refs": [],
-    "definition": ""
+    "refs": []
   },
   {
     "name": "volwassen man",
@@ -1171,8 +1136,7 @@
   },
   {
     "name": "wereldbol",
-    "refs": ["globe"],
-    "definition": ""
+    "refs": ["globe"]
   },
   {
     "name": "wijngaardslak",
@@ -1186,8 +1150,7 @@
   },
   {
     "name": "wit kleed",
-    "refs": ["wit"],
-    "definition": ""
+    "refs": ["wit"]
   },
   {
     "name": "wolken",
@@ -1196,8 +1159,7 @@
   },
   {
     "name": "Y-vorm",
-    "refs": [],
-    "definition": "zie tweesprong"
+    "refs": ["tweesprong"]
   },
   {
     "name": "yod",
