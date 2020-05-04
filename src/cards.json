@@ -1,0 +1,1652 @@
+[
+  {
+    "suite": "groot",
+    "number": "O",
+    "name": "De Dwaas",
+    "comment": "De Zot",
+    "keyword": "ONSCHULD",
+    "keywords": [
+      "onschuld",
+      "ongevormd",
+      "lichtzinnig",
+      "afgrond",
+      "nieuw begin",
+      "na\u00efef",
+      "kinderlijk",
+      "ongericht"
+    ],
+    "invitation": "Doe eens iets spontaans.",
+    "warning": "Waar is het kind in je gebleven?",
+    "symbols": [
+      "jonge man",
+      "roos",
+      "staf",
+      "zon",
+      "berg",
+      "hond",
+      "bloemenkrans",
+      "geel",
+      "ijs"
+    ]
+  },
+  {
+    "suite": "groot",
+    "number": "I",
+    "name": "De Magier",
+    "comment": "",
+    "keyword": "MEESTERSCHAP",
+    "keywords": [
+      "Bewust van kracht en mogelijkheden",
+      "je (leer)proces aangaan",
+      "diplomatie",
+      "zo boven zo beneden"
+    ],
+    "invitation": "Richt je op wat je w\u00e9l kunt.",
+    "warning": "Je neemt teveel hooi op je vork.",
+    "symbols": [
+      "natuur",
+      "roos",
+      "lelie",
+      "baldakijn",
+      "altaar",
+      "zwaard",
+      "staf",
+      "kelk",
+      "pentakel",
+      "jonge man",
+      "ourobouros",
+      "lemniscaat",
+      "bloemen",
+      "geel",
+      "skepter"
+    ]
+  },
+  {
+    "suite": "groot",
+    "number": "II",
+    "name": "De Hogepriesteres",
+    "comment": "De Pausin",
+    "keyword": "INTU\u00cfTIE",
+    "keywords": [
+      "Beschermkaart",
+      "verborgen wijsheid",
+      "esoterische kennis",
+      "innerlijk conflict",
+      "vooruitziend"
+    ],
+    "invitation": "Laat je eens leiden door je innerlijke stem.",
+    "warning": "Laat de dingen niet te veel op hun beloop.",
+    "symbols": [
+      "maagd",
+      "sluier",
+      "kroon",
+      "troon",
+      "palmhart",
+      "granaatappel",
+      "maan",
+      "kruis",
+      "schriftrol",
+      "pilaren",
+      "boaz",
+      "jachin",
+      "blauw",
+      "waterbron",
+      "zwart"
+    ]
+  },
+  {
+    "suite": "groot",
+    "number": "III",
+    "name": "De Keizerin",
+    "comment": "",
+    "keyword": "VRUCHTBAARHEID",
+    "keywords": [
+      "Ontspanning",
+      "de overvloed van het leven en de kracht van de bloeiende aarde",
+      "moeder",
+      "liefde geven en ontvangen"
+    ],
+    "invitation": "Kijk eens om je heen en geniet.",
+    "warning": "Leef je in harmonie met je omgeving/de natuur?",
+    "symbols": [
+      "volwassen vrouw",
+      "troon",
+      "kroon",
+      "parels",
+      "skepter",
+      "venussymbool",
+      "stroom",
+      "boom",
+      "koren"
+    ]
+  },
+  {
+    "suite": "groot",
+    "number": "IV",
+    "name": "De Keizer",
+    "comment": "",
+    "keyword": "GEZAG",
+    "keywords": [
+      "Verwezenlijking",
+      "verantwoordelijkheid",
+      "zelfhandhaving",
+      "bescherming",
+      "vader"
+    ],
+    "invitation": "Neem zelf het heft in handen.",
+    "warning": "Is er voldoende ruimte voor je gevoelens?",
+    "symbols": [
+      "volwassen man",
+      "stroom",
+      "ankh",
+      "berg",
+      "troon",
+      "kroon",
+      "rijksappel",
+      "rood kleed",
+      "harnas",
+      "globe"
+    ]
+  },
+  {
+    "suite": "groot",
+    "number": "V",
+    "name": "De Hogepriester",
+    "comment": "De Hi\u00ebrofant, De Paus",
+    "keyword": "MORAAL",
+    "keywords": [
+      "Beschermkaart",
+      "religie",
+      "geestelijkheid",
+      "staan voor je mening",
+      "verkondigen",
+      "expertise",
+      "inspiratie",
+      "gewoontegetrouw"
+    ],
+    "invitation": "Wees niet bang om je mening te delen.",
+    "warning": "Luister ook goed naar anderen.",
+    "symbols": [
+      "zegening",
+      "pilaren",
+      "kruis",
+      "kroon",
+      "adept",
+      "rood kleed",
+      "sleutel",
+      "skepter"
+    ]
+  },
+  {
+    "suite": "groot",
+    "number": "VI",
+    "name": "De Geliefden",
+    "comment": "",
+    "keyword": "KEUZE",
+    "keywords": [
+      "Dualiteit mannelijk - vrouwelijk; (sexuele) aantrekkingskracht",
+      "bewust van tegenstellingen",
+      "samenwerking",
+      "onvoorwaardelijk ja",
+      "zich losmaken"
+    ],
+    "invitation": "Maak een definitievem, bindende keuze.",
+    "warning": "Verlies jezelf niet in deze relatie.",
+    "symbols": [
+      "naaktheid",
+      "borsten",
+      "engel",
+      "zegening",
+      "appelboom",
+      "slang",
+      "wolken",
+      "bergtop",
+      "zon",
+      "jonge man",
+      "jonge vrouw",
+      "paars kleed"
+    ]
+  },
+  {
+    "suite": "groot",
+    "number": "VII",
+    "name": "De Zegewagen",
+    "comment": "",
+    "keyword": "HEERSCHAPPIJ",
+    "keywords": [
+      "wilskracht",
+      "zelfdiscipline",
+      "controle",
+      "tot stand brengen",
+      "sprong voorwaarts",
+      "blij vertrek"
+    ],
+    "invitation": "Bepaal je koers en hou die vast.",
+    "warning": "Teugels te strak of zwalkend.",
+    "symbols": [
+      "jonge man",
+      "kroon",
+      "lauwerkrans",
+      "ster (achtpuntig)",
+      "vierkant",
+      "yoni",
+      "lingam",
+      "sfinx",
+      "stadsmuur",
+      "hermesvleugels",
+      "maan",
+      "harnas",
+      "baldakijn",
+      "skepter"
+    ]
+  },
+  {
+    "suite": "groot",
+    "number": "VIII",
+    "name": "Gerechtigheid",
+    "comment": "Waite XI",
+    "keyword": "OORDEEL",
+    "keywords": [
+      "oorzaak en gevolg",
+      "schuld en boete",
+      "rechtvaardig",
+      "zelfbeoordeling"
+    ],
+    "invitation": "Erken je eigen aandeel maar niet meer dan dat.",
+    "warning": "Zijn je motieven zuiver?",
+    "symbols": [
+      "man",
+      "zwaard geheven",
+      "weegschaal",
+      "vierkant",
+      "troon",
+      "pilaren",
+      "paars kleed",
+      "rood kleed",
+      "groen kleed",
+      "kubus",
+      "vrouw"
+    ]
+  },
+  {
+    "suite": "groot",
+    "number": "IX",
+    "name": "De Kluizenaar",
+    "comment": "De Heremiet",
+    "keyword": "TOP",
+    "keywords": [
+      "Je eigen weg gaan",
+      "op zoek zijn",
+      "dwalen",
+      "inkeer",
+      "teruggetrokken",
+      "voorzichtig",
+      "geduldig",
+      "zorgvuldig",
+      "baken"
+    ],
+    "invitation": "Volg je eigen licht.",
+    "warning": "Heb je genoeg aan jezelf?",
+    "symbols": [
+      "oude man",
+      "blauw",
+      "lantaarn",
+      "staf",
+      "ster (achtpuntig)",
+      "afgewend",
+      "links",
+      "rechts"
+    ]
+  },
+  {
+    "suite": "groot",
+    "number": "X",
+    "name": "Het Rad van Fortuin",
+    "comment": "Wiel van Fortuin",
+    "keyword": "LOT",
+    "keywords": ["Aanvaarding", "succes of falen."],
+    "invitation": "Wie niet waagt die niet wint.",
+    "warning": "Je laat teveel aan het toeval over.",
+    "symbols": [
+      "engel",
+      "stier",
+      "leeuw",
+      "sfinx",
+      "slang",
+      "hermanubis",
+      "tora",
+      "feniks"
+    ]
+  },
+  {
+    "suite": "groot",
+    "number": "XI",
+    "name": "Kracht",
+    "comment": "Waite VIII",
+    "keyword": "BEHEERSING",
+    "keywords": ["Met respekt omgaan met kracht en emoties", "temmen"],
+    "invitation": "Een besliste maar zachte hand is nodig.",
+    "warning": "Die Leeuw mag best af en toe eens brullen.",
+    "symbols": [
+      "jonge vrouw",
+      "leeuw",
+      "bloemenkrans",
+      "lemniscaat",
+      "bergtop",
+      "oranje"
+    ]
+  },
+  {
+    "suite": "groot",
+    "number": "XII",
+    "name": "De Gehangene",
+    "comment": "",
+    "keyword": "PERSPECTIEF",
+    "keywords": [
+      "Ergens aan vast zitten",
+      "consequenties aanvaarden",
+      "beproeving",
+      "opoffering",
+      "ommekeer",
+      "herprioriteren"
+    ],
+    "invitation": "Bekijk het eens anders",
+    "warning": "Waardoor zit je vast?",
+    "symbols": [
+      "volwassen man",
+      "ondersteboven",
+      "aureool",
+      "kruis",
+      "blauw",
+      "staf"
+    ]
+  },
+  {
+    "suite": "groot",
+    "number": "XIII",
+    "name": "De Dood",
+    "comment": "De Kaart zonder Naam",
+    "keyword": "TRANSFORMATIE",
+    "keywords": [
+      "vernietiging van het oude",
+      "doorbraak",
+      "het onvermijdelijke",
+      "afsluiting",
+      "vergankelijkheid",
+      "voltooiing",
+      "overgang naar het onbekende"
+    ],
+    "invitation": "Acceptatie is de eerste stap op weg naar verandering.",
+    "warning": "Steek je energie in iets wat onhaalbaar is?",
+    "symbols": [
+      "wit",
+      "vaandel",
+      "wolken",
+      "toren",
+      "zon",
+      "koning",
+      "bisschop",
+      "jonge vrouw",
+      "kind",
+      "boot",
+      "man",
+      "stroom",
+      "paard",
+      "afgewend",
+      "zwart",
+      "zon",
+      "roos",
+      "harnas",
+      "doodshoofd",
+      "vlag"
+    ]
+  },
+  {
+    "suite": "groot",
+    "number": "XIV",
+    "name": "Matigheid",
+    "comment": "",
+    "keyword": "HARMONIE",
+    "keywords": [
+      "Afwegen",
+      "evenwicht verstand en gevoel",
+      "integratie",
+      "zuinigheid",
+      "tact"
+    ],
+    "invitation": "Wat kan je weglaten?",
+    "warning": "Overmaat schaadt, ondermaat ook.",
+    "symbols": [
+      "engel",
+      "natuur",
+      "iris",
+      "kelken",
+      "pad",
+      "driehoek",
+      "stroom",
+      "berg",
+      "vierkant met driehoek"
+    ]
+  },
+  {
+    "suite": "groot",
+    "number": "XV",
+    "name": "De Duivel",
+    "comment": "",
+    "keyword": "VERLEIDING",
+    "keywords": [
+      "Obsessie",
+      "de Schaduw",
+      "sexualiteit",
+      "zwart-wit denken",
+      "fanatisme",
+      "materialisme"
+    ],
+    "invitation": "Welke principes zitten je in de weg?",
+    "warning": "Zit je verstrikt in dat wat niet goed voor je is?",
+    "symbols": [
+      "geit",
+      "vleermuisvleugels",
+      "vogelpoten",
+      "borsten",
+      "troon",
+      "zegening",
+      "vierkant",
+      "toorts",
+      "naaktheid",
+      "ketens",
+      "pentagram",
+      "zwart"
+    ]
+  },
+  {
+    "suite": "groot",
+    "number": "XVI",
+    "name": "De Toren",
+    "comment": "Het Huis Gods",
+    "keyword": "VERWOESTING",
+    "keywords": [
+      "Onvoorziene verandering",
+      "crisis",
+      "vertwijfeling",
+      "loslaten van zekerheid",
+      "noodlot",
+      "toren van Babel"
+    ],
+    "invitation": "Wat moet je openbreken?",
+    "warning": "Zit je gevangen in vastgeroeste patronen?",
+    "symbols": [
+      "toren",
+      "vuur",
+      "bergtop",
+      "wolken",
+      "bliksem",
+      "kroon",
+      "yod",
+      "zwart"
+    ]
+  },
+  {
+    "suite": "groot",
+    "number": "XVII",
+    "name": "De Ster",
+    "comment": "",
+    "keyword": "HOOP",
+    "keywords": [
+      "bezieling",
+      "wees de ster in je eigen leven",
+      "de sterren bereiken"
+    ],
+    "invitation": "Durf vol vertrouwen je toekomst tegemoet te zien.",
+    "warning": "Valse hoop, misplaatst vertrouwen.",
+    "symbols": [
+      "ster (achtpuntig)",
+      "naaktheid",
+      "jonge vrouw",
+      "kruik",
+      "heuvels",
+      "feniks",
+      "water",
+      "borsten"
+    ]
+  },
+  {
+    "suite": "groot",
+    "number": "XVIII",
+    "name": "De Maan",
+    "comment": "",
+    "keyword": "SCHEMER",
+    "keywords": [
+      "verlangens",
+      "droom en daad",
+      "behoefte aan bescherming",
+      "uit je schulp kruipen",
+      "dwaling",
+      "stemmingswisselingen",
+      "onbestemde angst",
+      "hersenschimmen",
+      "betovering"
+    ],
+    "invitation": "Durf je angsten onder ogen te zien",
+    "warning": "Waar ben je zo bang voor?",
+    "symbols": [
+      "maan",
+      "pad",
+      "hond + wolf",
+      "water",
+      "kreeft",
+      "yod",
+      "toren",
+      "pilaren"
+    ]
+  },
+  {
+    "suite": "groot",
+    "number": "XIX",
+    "name": "De Zon",
+    "comment": "",
+    "keyword": "OPTIMISME",
+    "keywords": [
+      "creativiteit",
+      "speelsheid",
+      "levenslust",
+      "zelfvertrouwen",
+      "je hart",
+      "je kern"
+    ],
+    "invitation": "Wees ongedwongen jezelf",
+    "warning": "Het speelkwartier is allang voorbij.",
+    "symbols": [
+      "kind",
+      "bloemenkrans",
+      "wit",
+      "rood kleed",
+      "zon",
+      "zonnebloem",
+      "golven",
+      "vlag"
+    ]
+  },
+  {
+    "suite": "groot",
+    "number": "XX",
+    "name": "Het Oordeel",
+    "comment": "",
+    "keyword": "VERLOSSING",
+    "keywords": ["Transformatie", "het laatste oordeel", "verrijzenis"],
+    "invitation": "Laat het verleden los.",
+    "warning": "Waar heb je je de hele tijd van afgesloten?",
+    "symbols": [
+      "engel",
+      "wolken",
+      "bazuin",
+      "volwassen man",
+      "volwassen vrouw",
+      "kind",
+      "grijs",
+      "naaktheid",
+      "berg",
+      "ijs",
+      "vlag",
+      "borsten"
+    ]
+  },
+  {
+    "suite": "groot",
+    "number": "XXI",
+    "name": "De Wereld",
+    "comment": "",
+    "keyword": "VOLEINDING",
+    "keywords": [
+      "Het leven aangaan zonder jezelf er in te verliezen",
+      "verlichting hervonden paradijs"
+    ],
+    "invitation": "Ga voluit voor wat je wilt bereiken.",
+    "warning": "Het is tijd voor bezinning.",
+    "symbols": [
+      "jonge vrouw",
+      "staven",
+      "lauwerkrans",
+      "leeuw",
+      "stier",
+      "arend",
+      "engel"
+    ]
+  },
+  {
+    "suite": "Staven",
+    "number": "",
+    "name": "Aas",
+    "comment": "",
+    "keyword": "INSPIRATIE",
+    "keywords": ["visie", "enthousiasme", "vitaliteit", "initiatief"],
+    "invitation": "Sta open om te groeien",
+    "warning": "Wat doe ik aan mijn ontplooiing?",
+    "symbols": [
+      "wolken",
+      "stroom",
+      "heuvels",
+      "burcht",
+      "hand",
+      "rechts",
+      "grijs"
+    ]
+  },
+  {
+    "suite": "Staven",
+    "number": "2",
+    "name": "II",
+    "comment": "",
+    "keyword": "PLANNEN",
+    "keywords": ["pionieren", "opties afwegen"],
+    "invitation": "Alle begin is moeilijk.",
+    "warning": "Vernieuwing is nog geen verbetering.",
+    "symbols": [
+      "globe",
+      "links",
+      "oceaan",
+      "muur",
+      "roos",
+      "lelie",
+      "berg",
+      "rood kleed",
+      "grijs"
+    ]
+  },
+  {
+    "suite": "Staven",
+    "number": "3",
+    "name": "III",
+    "comment": "",
+    "keyword": "ANTICIPEREN",
+    "keywords": [
+      "vooruitzien",
+      "handel",
+      "ontdekkingsreizen",
+      "actief wachten"
+    ],
+    "invitation": "Wacht rustig af",
+    "warning": "Je kunt nu niet meer terug.",
+    "symbols": [
+      "rechts",
+      "rood kleed",
+      "groen kleed",
+      "boot",
+      "oceaan",
+      "heuvels",
+      "geel"
+    ]
+  },
+  {
+    "suite": "Staven",
+    "number": "4",
+    "name": "IV",
+    "comment": "",
+    "keyword": "OOGSTEN",
+    "keywords": [
+      "resultaten vieren",
+      "harmonieuze samenwerking",
+      "terugkerende feesten"
+    ],
+    "invitation": "Je initiatief is vruchtbaar.",
+    "warning": "Het is nog te vroeg om op je lauweren te rusten.",
+    "symbols": [
+      "kasteel",
+      "wit kleed",
+      "rood kleed",
+      "blauw kleed",
+      "bloemen",
+      "oranje"
+    ]
+  },
+  {
+    "suite": "Staven",
+    "number": "5",
+    "name": "V",
+    "comment": "",
+    "keyword": "WEDIJVEREN",
+    "keywords": ["schijngevecht", "rellen"],
+    "invitation": "Laat je niet zomaar opzij zetten",
+    "warning": "Blijf niet hangen in gekissebis.",
+    "symbols": [""]
+  },
+  {
+    "suite": "Staven",
+    "number": "6",
+    "name": "VI",
+    "comment": "",
+    "keyword": "TRIOMFEREN",
+    "keywords": [
+      "zegevieren",
+      "mijlpaal",
+      "beginnend succes",
+      "waardering",
+      "groot nieuws"
+    ],
+    "invitation": "Stel je op als een leider",
+    "warning": "E\u00e9n zwaluw maakt nog geen zomer",
+    "symbols": ["groen kleed", "lauwerkrans", "paard"]
+  },
+  {
+    "suite": "Staven",
+    "number": "7",
+    "name": "VII",
+    "comment": "",
+    "keyword": "HANDHAVEN",
+    "keywords": [
+      "staande houden",
+      "vaak alleen",
+      "overmacht",
+      "gunstige positie"
+    ],
+    "invitation": "Neem het voor jezelf op.",
+    "warning": "Vraag niet voortdurend goedkeuring. Doe het gewoon!",
+    "symbols": ["stroom", "heuvels"]
+  },
+  {
+    "suite": "Staven",
+    "number": "8",
+    "name": "VIII",
+    "comment": "",
+    "keyword": "CONVERGEREN",
+    "keywords": [
+      "veel energie",
+      "alles op \u00e9\u00e9n lijn",
+      "van een lijen dakje",
+      "haast",
+      "liefdespijlen"
+    ],
+    "invitation": "Laat je meevoeren",
+    "warning": "Blijf zelf aan het roer",
+    "symbols": ["stroom", "heuvels", "linksboven", "rechtsonder"]
+  },
+  {
+    "suite": "Staven",
+    "number": "9",
+    "name": "IX",
+    "comment": "",
+    "keyword": "WAKEN",
+    "keywords": [
+      "op krachten komen",
+      "verzet",
+      "achterdocht",
+      "oponthoud",
+      "uitstel"
+    ],
+    "invitation": "Bekijk het eens uit het perspectief van de ander",
+    "warning": "Is de dreiging wel echt?",
+    "symbols": ["muur", "podium"]
+  },
+  {
+    "suite": "Staven",
+    "number": "10",
+    "name": "X",
+    "comment": "",
+    "keyword": "VOLHOUDEN",
+    "keywords": [
+      "afmaken",
+      "heroverwegen",
+      "opstand tegen onderdrukking",
+      "koppig"
+    ],
+    "invitation": "Wie kan je helpen om deze last te dragen?",
+    "warning": "Laat op tijd los",
+    "symbols": ["akker", "stadsmuur", "podium"]
+  },
+  {
+    "suite": "Staven",
+    "number": "",
+    "name": "Page",
+    "comment": "",
+    "keyword": "PREDIKER",
+    "keywords": [
+      "op idee\u00ebn komen",
+      "meeslepende impuls",
+      "groene blaadjes in de woestijn"
+    ],
+    "invitation": "Grijp je kans!",
+    "warning": "Pas op voor (te) mooie verhalen",
+    "symbols": ["heuvels", "pyramide", "rood kleed", "geel kleed", "blauw"]
+  },
+  {
+    "suite": "Staven",
+    "number": "",
+    "name": "Ridder",
+    "comment": "",
+    "keyword": "VURIG",
+    "keywords": ["idealen koesteren", "overtuigingskracht."],
+    "invitation": "Laat jezelf eens lekker gaan",
+    "warning": "Wie/wat zet je in vuur en vlam?",
+    "symbols": [
+      "salamander",
+      "geel",
+      "oranje",
+      "paard",
+      "harnas",
+      "vuur",
+      "pyramide"
+    ]
+  },
+  {
+    "suite": "Staven",
+    "number": "",
+    "name": "Koningin",
+    "comment": "",
+    "keyword": "STEVIG",
+    "keywords": [
+      "onafhankelijk",
+      "kundig",
+      "identiteit",
+      "mild",
+      "zelfvertrouwen"
+    ],
+    "invitation": "Geloof in jezelf.",
+    "warning": "Neem ook eens iets van een ander aan",
+    "symbols": [
+      "geel kleed",
+      "grijs kleed",
+      "troon",
+      "leeuw",
+      "zonnebloem",
+      "kroon",
+      "bloemenkrans",
+      "zwarte kat"
+    ]
+  },
+  {
+    "suite": "Staven",
+    "number": "",
+    "name": "Koning",
+    "comment": "",
+    "keyword": "VOORMAN",
+    "keywords": [
+      "creatief",
+      "inspirerend",
+      "charmant",
+      "geestig",
+      "rechtvaardig",
+      "gedreven"
+    ],
+    "invitation": "Hoe zou hij het aanpakken?",
+    "warning": "Eerlijk duurt het langst",
+    "symbols": [
+      "salamander",
+      "geel",
+      "rood kleed",
+      "groen kleed",
+      "troon",
+      "kroon",
+      "ourobouros",
+      "afgewend",
+      "leeuw",
+      "oranje"
+    ]
+  },
+  {
+    "suite": "Pentakels",
+    "number": "1",
+    "name": "Aas",
+    "comment": "",
+    "keyword": "POTENTIE",
+    "keywords": ["kunde", "tot stand brengen", "realisme", "waarde"],
+    "invitation": "Hoe kan je deze kans verzilveren?",
+    "warning": "Lever een constructieve bijdrage.",
+    "symbols": [
+      "hand",
+      "wolken",
+      "boog",
+      "bloemen",
+      "links",
+      "roos",
+      "lelie",
+      "pad",
+      "bergtop",
+      "blauw"
+    ]
+  },
+  {
+    "suite": "Pentakels",
+    "number": "2",
+    "name": "II",
+    "comment": "",
+    "keyword": "JONGLEREN",
+    "keywords": [
+      "evenwicht zoeken/houden",
+      "uitgekiende inzet van middelen",
+      "oefenen",
+      "schijnplezier"
+    ],
+    "invitation": "Speel met je mogelijkheden",
+    "warning": "Je kan niet alle opties open houden",
+    "symbols": ["lemniscaat", "golven", "boot", "jonge man", "blauw", "podium"]
+  },
+  {
+    "suite": "Pentakels",
+    "number": "3",
+    "name": "III",
+    "comment": "",
+    "keyword": "BEWIJZEN",
+    "keywords": [
+      "waardering",
+      "vakmanschap",
+      "uitvoering",
+      "inzet",
+      "proef",
+      "presenteren"
+    ],
+    "invitation": "Waarmee kan je jezelf bewijzen?",
+    "warning": "Sta open voor feedback",
+    "symbols": ["bank", "monnik", "hamer", "grijs", "zwart"]
+  },
+  {
+    "suite": "Pentakels",
+    "number": "4",
+    "name": "IV",
+    "comment": "",
+    "keyword": "VASTHOUDEN",
+    "keywords": ["houden wat je hebt", "energiestroom blokkeren", "hebzucht"],
+    "invitation": "Wees zuinig op je mogelijkheden.",
+    "warning": "Wat probeer je te krampachtig vast te houden?",
+    "symbols": ["toren", "paars", "podium"]
+  },
+  {
+    "suite": "Pentakels",
+    "number": "5",
+    "name": "V",
+    "comment": "",
+    "keyword": "VREZEN",
+    "keywords": [
+      "(angst voor) ontbering",
+      "gebrek",
+      "kou",
+      "angst voor de toekomst"
+    ],
+    "invitation": "Wat heb je echt nodig?",
+    "warning": "Angst is een slechte raadgever.",
+    "symbols": ["bel"]
+  },
+  {
+    "suite": "Pentakels",
+    "number": "6",
+    "name": "VI",
+    "comment": "",
+    "keyword": "BEDELEN",
+    "keywords": ["Bedelen vs beDElen", "arm vs rijk", "zaaien"],
+    "invitation": "Delen = vermenigvuldigen",
+    "warning": "Ben je bereid hulp te accepteren?",
+    "symbols": [
+      "rood kleed",
+      "zegening",
+      "boom",
+      "burcht",
+      "weegschaal",
+      "geel kleed",
+      "blauw kleed",
+      "podium"
+    ]
+  },
+  {
+    "suite": "Pentakels",
+    "number": "7",
+    "name": "VII",
+    "comment": "",
+    "keyword": "VERLANGEN",
+    "keywords": ["ongeduld", "onvrede", "beheren"],
+    "invitation": "Kijk het nog even aan. Zie je voortgang.",
+    "warning": "Blijf niet toekijken",
+    "symbols": ["schoffel", "paars"]
+  },
+  {
+    "suite": "Pentakels",
+    "number": "8",
+    "name": "VIII",
+    "comment": "",
+    "keyword": "IJVEREN",
+    "keywords": ["oefening baart kunst", "nederig werk", "ambachten"],
+    "invitation": "Wat zou je willen leren?",
+    "warning": "Moet je niet eens iets nieuws proberen?",
+    "symbols": ["bank", "hamer", "geel", "podium"]
+  },
+  {
+    "suite": "Pentakels",
+    "number": "9",
+    "name": "IX",
+    "comment": "",
+    "keyword": "GENIETEN",
+    "keywords": ["vervulling", "verfraaien", "zekerheid", "meevaller"],
+    "invitation": "Geniet van wat je doet.",
+    "warning": "Ben je alert op nieuwe kansen?",
+    "symbols": ["druiven", "burcht", "boom", "geel", "valk", "wijngaardslak"]
+  },
+  {
+    "suite": "Pentakels",
+    "number": "10",
+    "name": "X",
+    "comment": "",
+    "keyword": "DOORGEVEN",
+    "keywords": [
+      "traditie",
+      "iets opbouwen",
+      "zekerheid",
+      "welvaart",
+      "familiezaken"
+    ],
+    "invitation": "Draag bij aan het grotere geheel.",
+    "warning": "Wees niet te gefixeerd op zekerheid.",
+    "symbols": [
+      "druiven",
+      "hond",
+      "burcht",
+      "toren",
+      "poort",
+      "weegschaal",
+      "oude man",
+      "brug"
+    ]
+  },
+  {
+    "suite": "Pentakels",
+    "number": "",
+    "name": "Page",
+    "comment": "",
+    "keyword": "LEERGIERIG",
+    "keywords": ["behulpzaam", "precies", "kritisch", "student", "ijverig"],
+    "invitation": "Hoe kun je jezelf nuttig maken?",
+    "warning": "Pas op voor vluchtige belangstelling",
+    "symbols": [
+      "akker",
+      "natuur",
+      "heuvels",
+      "bloemen",
+      "groen kleed",
+      "stroom",
+      "geel"
+    ]
+  },
+  {
+    "suite": "Pentakels",
+    "number": "",
+    "name": "Ridder",
+    "comment": "",
+    "keyword": "STANDVASTIG",
+    "keywords": [
+      "organisatievermogen",
+      "degelijk",
+      "plichtgetrouw",
+      "praktisch"
+    ],
+    "invitation": "Richt je op het haalbare.",
+    "warning": "Hoe stevig is je basis?",
+    "symbols": [
+      "akker",
+      "paard",
+      "harnas",
+      "rood kleed",
+      "afgewend",
+      "geel",
+      "zwart"
+    ]
+  },
+  {
+    "suite": "Pentakels",
+    "number": "",
+    "name": "Koningin",
+    "comment": "",
+    "keyword": "ZORGZAAM",
+    "keywords": ["innerlijke zekerheid", "zelfwaardering", "royaal"],
+    "invitation": "Kies voor rust en geleidelijkheid.",
+    "warning": "Je hoeft niet alles te behouden",
+    "symbols": [
+      "natuur",
+      "troon",
+      "kroon",
+      "bloemen",
+      "berg",
+      "cupido",
+      "geit",
+      "haas",
+      "afgewend",
+      "geel"
+    ]
+  },
+  {
+    "suite": "Pentakels",
+    "number": "",
+    "name": "Koning",
+    "comment": "",
+    "keyword": "ONDERNEMER",
+    "keywords": [
+      "standvastigheid",
+      "autoriteit",
+      "realiserende intelligentie",
+      "rechtlijnig",
+      "besluitvaardig"
+    ],
+    "invitation": "Ga voor realistische ambitie",
+    "warning": "Bezit maakt niet gelukkig",
+    "symbols": [
+      "stier",
+      "druiven",
+      "troon",
+      "kroon",
+      "harnas",
+      "geel",
+      "skepter"
+    ]
+  },
+  {
+    "suite": "Zwaarden",
+    "number": "",
+    "name": "Aas",
+    "comment": "",
+    "keyword": "INZICHT",
+    "keywords": ["helderheid van geest", "objectiviteit"],
+    "invitation": "Welke beslissing moet je nu nemen?",
+    "warning": "Heb je alles goed overwogen?",
+    "symbols": [
+      "wolken",
+      "hand",
+      "kroon",
+      "robijn",
+      "olijfblad",
+      "palmtak",
+      "zwaard geheven",
+      "blauw"
+    ]
+  },
+  {
+    "suite": "Zwaarden",
+    "number": "2",
+    "name": "II",
+    "comment": "",
+    "keyword": "TWIJFELEN",
+    "keywords": [
+      "relativeren",
+      "twee kanten van de medaille zien",
+      "dilemma",
+      "elke keuze is beter dan geen keuze"
+    ],
+    "invitation": "Luister naar je innerlijke stem",
+    "warning": "Is het belangrijk om alles zo veel te analyseren?",
+    "symbols": [
+      "wit kleed",
+      "oceaan",
+      "heuvels",
+      "kubus",
+      "blinddoek",
+      "maan",
+      "blauw",
+      "podium"
+    ]
+  },
+  {
+    "suite": "Zwaarden",
+    "number": "3",
+    "name": "III",
+    "comment": "",
+    "keyword": "DOORBOREN",
+    "keywords": ["pijn", "verdriet"],
+    "invitation": "Ben je sterk genoeg om te doen wat noodzakelijk is?",
+    "warning": "Laat je niet beheersen door je verdriet",
+    "symbols": ["hartvorm", "wolken", "grijs", "regen"]
+  },
+  {
+    "suite": "Zwaarden",
+    "number": "4",
+    "name": "IV",
+    "comment": "",
+    "keyword": "BEZINNEN",
+    "keywords": ["overwegen", "rusten", "herstellen", "retraite", "testament"],
+    "invitation": "Slaap er een nachtje over.",
+    "warning": "Waarom staat alles stil?",
+    "symbols": ["grijs", "ridder"]
+  },
+  {
+    "suite": "Zwaarden",
+    "number": "5",
+    "name": "V",
+    "comment": "",
+    "keyword": "MISGUNNEN",
+    "keywords": [
+      "debatteren",
+      "negatieve gedachtepatronen",
+      "verraad",
+      "degradatie",
+      "oneer"
+    ],
+    "invitation": "Eerlijk duurt het langst",
+    "warning": "Is het belangrijk om pers\u00e9 te winnen?",
+    "symbols": [
+      "afgewend",
+      "oceaan",
+      "berg",
+      "zwaard geheven",
+      "oranje",
+      "blauw",
+      "podium"
+    ]
+  },
+  {
+    "suite": "Zwaarden",
+    "number": "6",
+    "name": "VI",
+    "comment": "",
+    "keyword": "OVERSTEKEN",
+    "keywords": ["je terug trekken", "vlucht"],
+    "invitation": "Maak een nieuw begin",
+    "warning": "Is het gras echt groener?",
+    "symbols": ["water", "golven"]
+  },
+  {
+    "suite": "Zwaarden",
+    "number": "7",
+    "name": "VII",
+    "comment": "",
+    "keyword": "SLUIPEN",
+    "keywords": ["slimheid", "spitsvondigheid", "oneerlijkheid"],
+    "invitation": "Verzin een list.",
+    "warning": "Je wordt in de maling genomen.",
+    "symbols": ["oranje", "podium"]
+  },
+  {
+    "suite": "Zwaarden",
+    "number": "8",
+    "name": "VIII",
+    "comment": "",
+    "keyword": "VASTLOPEN",
+    "keywords": [
+      "negatieve gedachtenpatronen",
+      "censuur",
+      "ziekte",
+      "schaamte",
+      "verdenking",
+      "angst voor confrontatie",
+      "dubbelhartigheid"
+    ],
+    "invitation": "Laat alle remmende gedachten los",
+    "warning": "Wat houdt je tegen?",
+    "symbols": ["blinddoek", "burcht", "stroom", "berg", "grijs"]
+  },
+  {
+    "suite": "Zwaarden",
+    "number": "9",
+    "name": "IX",
+    "comment": "",
+    "keyword": "WANHOPEN",
+    "keywords": ["zelfverwijt", "wanhoop", "weeklagen", "zelfkastijding"],
+    "invitation": "Waar heb je spijt van?",
+    "warning": "Is je verdriet terecht?",
+    "symbols": ["afgewend", "roos", "wit kleed", "oosten", "vrouw", "zwart"]
+  },
+  {
+    "suite": "Zwaarden",
+    "number": "10",
+    "name": "X",
+    "comment": "",
+    "keyword": "BEEINDIGEN",
+    "keywords": ["destructieve gedachten", "voortijdig einde"],
+    "invitation": "Waar moet je nu rigoureus een streep onder zetten?",
+    "warning": "Is het verstandig om er nu radicaal mee te breken?",
+    "symbols": ["oceaan", "zon", "heuvels", "rood kleed", "zegening", "zwart"]
+  },
+  {
+    "suite": "Zwaarden",
+    "number": "",
+    "name": "Page",
+    "comment": "",
+    "keyword": "ALERT",
+    "keywords": ["verstand van zaken", "opmerkzaam", "escalatie"],
+    "invitation": "Laat het over je heen komen",
+    "warning": "Komt de dreiging wel van buiten?",
+    "symbols": [
+      "wolken",
+      "heuvels",
+      "vogel",
+      "water",
+      "grijs",
+      "zwaard geheven"
+    ]
+  },
+  {
+    "suite": "Zwaarden",
+    "number": "",
+    "name": "Ridder",
+    "comment": "",
+    "keyword": "ONVERSCHROKKEN",
+    "keywords": [
+      "onverwachte doorbraak",
+      "confrontatie",
+      "bekwaamheid",
+      "dapperheid"
+    ],
+    "invitation": "Bezint, eer ge begint",
+    "warning": "Is dit geen storm in een glas water?",
+    "symbols": ["oranje", "rood kleed", "paard", "harnas", "vogel"]
+  },
+  {
+    "suite": "Zwaarden",
+    "number": "",
+    "name": "Koningin",
+    "comment": "",
+    "keyword": "WIJS",
+    "keywords": [
+      "innerlijke overtuiging",
+      "eerlijkheid",
+      "levenswijsheid",
+      "heldere/rustige geest",
+      "deugdzaam",
+      "streng"
+    ],
+    "invitation": "Blijf bij de hoofdzaken",
+    "warning": "Wat is de meest logische verklaring?",
+    "symbols": [
+      "afgewend",
+      "wolken",
+      "troon",
+      "kroon",
+      "wit kleed",
+      "volwassen vrouw",
+      "zwaard geheven",
+      "cupido",
+      "vogel",
+      "grijs",
+      "vlinder"
+    ]
+  },
+  {
+    "suite": "Zwaarden",
+    "number": "",
+    "name": "Koning",
+    "comment": "",
+    "keyword": "HANDHAVER",
+    "keywords": [
+      "De gedachte gaat aan de manifestatie vooraf",
+      "rationeel",
+      "skeptisch",
+      "hard",
+      "dominant"
+    ],
+    "invitation": "Kom tot een conclusie",
+    "warning": "Schenk ook aandacht aan de relatie",
+    "symbols": [
+      "troon",
+      "kroon",
+      "blauw",
+      "paars kleed",
+      "wolken",
+      "heuvels",
+      "boom",
+      "zwaard geheven",
+      "vogel"
+    ]
+  },
+  {
+    "suite": "Kelken",
+    "number": "",
+    "name": "Aas",
+    "comment": "",
+    "keyword": "OVERVLOED",
+    "keywords": [
+      "verlangen naar eenheid en verbondenheid",
+      "overgave",
+      "bewustwording",
+      "de bron",
+      "de Graal",
+      "droom"
+    ],
+    "invitation": "Laat je gevoel stromen.",
+    "warning": "Laat deze kans niet schieten",
+    "symbols": [
+      "rechts",
+      "hand",
+      "wolken",
+      "waterbron",
+      "duif",
+      "yod",
+      "lelie",
+      "hostie",
+      "blauw"
+    ]
+  },
+  {
+    "suite": "Kelken",
+    "number": "2",
+    "name": "II",
+    "comment": "",
+    "keyword": "VERBINDEN",
+    "keywords": [
+      "verlangen naar een partner (eventueel platonisch)",
+      "gevoel vs verstand",
+      "valse liefde"
+    ],
+    "invitation": "Treed de ander liefdevol tegemoet",
+    "warning": "Sta ik open voor een eerlijk compromis?",
+    "symbols": [
+      "caduceus",
+      "lauwerkrans",
+      "roos",
+      "slang",
+      "leeuw",
+      "heuvels",
+      "hermesvleugels",
+      "podium"
+    ]
+  },
+  {
+    "suite": "Kelken",
+    "number": "3",
+    "name": "III",
+    "comment": "",
+    "keyword": "FEESTEN",
+    "keywords": ["plezier hebben", "blijheid", "genezing", "troost"],
+    "invitation": "Laat jezelf eens lekker gaan.",
+    "warning": "Succes moet je vieren",
+    "symbols": [
+      "druiven",
+      "bloemen",
+      "rood kleed",
+      "geel kleed",
+      "wit kleed",
+      "blauw"
+    ]
+  },
+  {
+    "suite": "Kelken",
+    "number": "4",
+    "name": "IV",
+    "comment": "",
+    "keyword": "MOPPEREN",
+    "keywords": ["verlangen naar meer", "lusteloosheid"],
+    "invitation": "Wat heb je w\u00e9l?",
+    "warning": "Is je onvrede wel terecht?",
+    "symbols": ["hand", "wolken", "boom", "links"]
+  },
+  {
+    "suite": "Kelken",
+    "number": "5",
+    "name": "V",
+    "comment": "",
+    "keyword": "BETREUREN",
+    "keywords": ["teleurstelling", "verlies", "desillusie", "heroverwegen"],
+    "invitation": "Wat blijft er over?",
+    "warning": "Blijven hangen in verdriet.",
+    "symbols": [
+      "grijs",
+      "stroom",
+      "brug",
+      "burcht",
+      "afgewend",
+      "zwart kleed",
+      "bloed",
+      "groen"
+    ]
+  },
+  {
+    "suite": "Kelken",
+    "number": "6",
+    "name": "VI",
+    "comment": "",
+    "keyword": "HERINNEREN",
+    "keywords": [
+      "verbinden",
+      "delen vanuit overvloed",
+      "vreugde schenken",
+      "(zinloze) nostalgie"
+    ],
+    "invitation": "Verheug je in kleine dingen.",
+    "warning": "Behoudt het goede",
+    "symbols": ["vrouw", "lelie", "burcht"]
+  },
+  {
+    "suite": "Kelken",
+    "number": "7",
+    "name": "VII",
+    "comment": "",
+    "keyword": "DROMEN",
+    "keywords": [
+      "visioenen",
+      "illusie",
+      "mystery guest",
+      "verbeelding",
+      "vergankelijke weelde",
+      "luchtkastelen"
+    ],
+    "invitation": "Wat heb je werkelijk nodig?",
+    "warning": "Wat is de echte waarde?",
+    "symbols": [
+      "slang",
+      "lauwerkrans",
+      "draak",
+      "edelstenen",
+      "burcht",
+      "engel",
+      "wolken",
+      "afgewend",
+      "doodshoofd",
+      "zwart"
+    ]
+  },
+  {
+    "suite": "Kelken",
+    "number": "8",
+    "name": "VIII",
+    "comment": "",
+    "keyword": "WEGLOPEN",
+    "keywords": [
+      "illusies achter je laten",
+      "het roer om",
+      "een nieuw pad kiezen"
+    ],
+    "invitation": "Laat het verleden los.",
+    "warning": "Een nieuwe illusie najagen.",
+    "symbols": ["maan", "water", "berg", "rood kleed", "blauw"]
+  },
+  {
+    "suite": "Kelken",
+    "number": "9",
+    "name": "IX",
+    "comment": "",
+    "keyword": "WAARDEREN",
+    "keywords": [
+      "evenwichtigheid",
+      "dromen zijn werkelijkheid geworden",
+      "innerlijk geluk"
+    ],
+    "invitation": "Sta eens stil om \u00e9cht te genieten",
+    "warning": "Kan je je zorgen loslaten en genieten?",
+    "symbols": ["bank", "blauw kleed"]
+  },
+  {
+    "suite": "Kelken",
+    "number": "10",
+    "name": "X",
+    "comment": "",
+    "keyword": "THUISKOMEN",
+    "keywords": [
+      "welzijn",
+      "voltooiing",
+      "samen (gezin/dorp/gemeente)",
+      "veilig",
+      "geborgen"
+    ],
+    "invitation": "Maak ruimte voor gezamenlijk geluk",
+    "warning": "Wat van ver komt is niet altijd lekkerder",
+    "symbols": ["regenboog", "stroom", "gezin", "huis", "afgewend", "podium"]
+  },
+  {
+    "suite": "Kelken",
+    "number": "",
+    "name": "Page",
+    "comment": "",
+    "keyword": "VERWONDERD",
+    "keywords": ["fantasie", "verbeelding", "puberteit", "vlijtige jeugd"],
+    "invitation": "Laat je verwonderen",
+    "warning": "Pas op voor goedgelovigheid.",
+    "symbols": ["lotus", "vis", "oceaan", "blauw", "podium"]
+  },
+  {
+    "suite": "Kelken",
+    "number": "",
+    "name": "Ridder",
+    "comment": "",
+    "keyword": "VERZOENER",
+    "keywords": ["aanvoelen", "betrokkenheid", "waarheidsvinding", "voorstel"],
+    "invitation": "Met wie wil je vrede sluiten?",
+    "warning": "Zorg voor een goede verstandhouding.",
+    "symbols": [
+      "hermesvleugels",
+      "harnas",
+      "paard",
+      "stroom",
+      "heuvels",
+      "vis",
+      "afgewend",
+      "blauw"
+    ]
+  },
+  {
+    "suite": "Kelken",
+    "number": "",
+    "name": "Koningin",
+    "comment": "",
+    "keyword": "ZIENER",
+    "keywords": [
+      "inlevingsvermogen",
+      "innerlijk weten",
+      "visioenen/dromerig",
+      "gedistingeerd",
+      "toegewijd"
+    ],
+    "invitation": "Erover praten kan je beeld verhelderen.",
+    "warning": "Vergeet jezelf niet",
+    "symbols": ["golven", "troon", "kroon", "wit kleed", "afgewend", "blauw"]
+  },
+  {
+    "suite": "Kelken",
+    "number": "",
+    "name": "Koning",
+    "comment": "",
+    "keyword": "RAADSMAN",
+    "keywords": [
+      "bewustwording",
+      "compassie",
+      "gevoelig man",
+      "onderhandelaar",
+      "brede belangstelling",
+      "wetsman",
+      "wetenschapper"
+    ],
+    "invitation": "Ben jij een rots in de branding?",
+    "warning": "Vergeet je eigen gevoelens niet",
+    "symbols": [
+      "golven",
+      "vis",
+      "boot",
+      "kroon",
+      "troon",
+      "skepter",
+      "geel kleed",
+      "blauw"
+    ]
+  }
+]

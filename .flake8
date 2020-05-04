@@ -1,6 +1,0 @@
-# -*- mode: conf -*-
-[flake8]
-# ignore = D203
-exclude = .git,venv
-max-complexity = 11
-max-line-length = 100

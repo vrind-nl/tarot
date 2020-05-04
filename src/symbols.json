@@ -1,0 +1,1262 @@
+[
+  {
+    "name": "Grote Arcana",
+    "refs": [],
+    "definition": "de grote geheimen van het leven, archetypes"
+  },
+  {
+    "name": "Grote Arcana 1-10",
+    "refs": [],
+    "definition": "verwerven van eigenschappen en innerlijke kwaliteiten"
+  },
+  {
+    "name": "Grote Arcana 11-20",
+    "refs": [],
+    "definition": "leren omgaan met de ervaringen die het leven brengt"
+  },
+  {
+    "name": "Kleine Arcana",
+    "refs": [],
+    "definition": "geheimen van het alledaagse leven"
+  },
+  {
+    "name": "getallen",
+    "refs": [],
+    "definition": "Doen (dingen die je zelf in de hand hebt)"
+  },
+  {
+    "name": "hofkaart",
+    "refs": [],
+    "definition": "Zijn (invloeden van/naar je omgeving)"
+  },
+  {
+    "name": "staven",
+    "refs": ["vuur"],
+    "definition": "&clubs;, verlangen, intu\u00eftie/idee\u00ebn/inspiratie, daadkracht/uitvoerend, boeren/arbeiders"
+  },
+  {
+    "name": "pentakels",
+    "refs": ["Aarde", "V"],
+    "definition": "&diams;, fysiek/materie, zintuigen/praktisch, comfort, operationeel, ambachtslieden/handelaars"
+  },
+  {
+    "name": "zwaarden",
+    "refs": ["lucht"],
+    "definition": "&spades;, denken, verstand, woorden, tactisch, adel"
+  },
+  {
+    "name": "kelken",
+    "refs": ["water"],
+    "definition": "&hearts;, onderbewuste, emotie, strategisch, geestelijkheid/staatslieden"
+  },
+  {
+    "name": "staf",
+    "refs": ["staven"],
+    "definition": ""
+  },
+  {
+    "name": "pentakel",
+    "refs": ["pentakels"],
+    "definition": ""
+  },
+  {
+    "name": "zwaard",
+    "refs": ["zwaarden"],
+    "definition": ""
+  },
+  {
+    "name": "beker",
+    "refs": ["kelken"],
+    "definition": ""
+  },
+  {
+    "name": "kelk",
+    "refs": ["kelken"],
+    "definition": ""
+  },
+  {
+    "name": "klavers",
+    "refs": ["staven"],
+    "definition": ""
+  },
+  {
+    "name": "ruiten",
+    "refs": ["pentakels"],
+    "definition": ""
+  },
+  {
+    "name": "schoppen",
+    "refs": ["zwaarden"],
+    "definition": ""
+  },
+  {
+    "name": "harten",
+    "refs": ["kelken"],
+    "definition": ""
+  },
+  {
+    "name": "O",
+    "refs": [],
+    "definition": "leegte, alomvattendheid, kosmische invloed, chaos"
+  },
+  {
+    "name": "I",
+    "refs": [],
+    "definition": "Potentie, eenheid, oorsprong, uniek"
+  },
+  {
+    "name": "II",
+    "refs": [],
+    "definition": "dualiteit, spiegelbeeld"
+  },
+  {
+    "name": "III",
+    "refs": ["Drie-eenheid"],
+    "definition": "groei, vruchtbaarheid, gilden: leerling"
+  },
+  {
+    "name": "IV",
+    "refs": ["elementen"],
+    "definition": "fixatie, vastzetten/vastzitten"
+  },
+  {
+    "name": "V",
+    "refs": ["zintuigen"],
+    "definition": "conflict, tegenslag, kantelpunt, gilden: gezel"
+  },
+  {
+    "name": "VI",
+    "refs": [],
+    "definition": "voortgang, hoogtepunten, delen"
+  },
+  {
+    "name": "VII",
+    "refs": [],
+    "definition": "onzekerheid, geheimzinnigheid, gilden: meester"
+  },
+  {
+    "name": "VIII",
+    "refs": [],
+    "definition": "grenzen, stagnatie, promiscu"
+  },
+  {
+    "name": "IX",
+    "refs": [],
+    "definition": "voltoo\u00efng, bewustzijn, reflecteren, gilden: bouwmeester"
+  },
+  {
+    "name": "X",
+    "refs": [],
+    "definition": "climax, overgang, einde=begin"
+  },
+  {
+    "name": "XI",
+    "refs": [],
+    "definition": "openbaring, inspiratie"
+  },
+  {
+    "name": "XII",
+    "refs": [],
+    "definition": "volledigheid, perfectie, deelbaarheid"
+  },
+  {
+    "name": "",
+    "refs": [],
+    "definition": ""
+  },
+  {
+    "name": "aas",
+    "refs": ["I"],
+    "definition": "waar je mee begint"
+  },
+  {
+    "name": "page",
+    "refs": ["jonge man"],
+    "definition": "jongeling, kans"
+  },
+  {
+    "name": "ridder",
+    "refs": [],
+    "definition": "strijder, beschermen van zwakkeren, impulsief"
+  },
+  {
+    "name": "koningin",
+    "refs": ["volwassen vrouw"],
+    "definition": "invloed, wijsheid, niet moederlijk"
+  },
+  {
+    "name": "koning",
+    "refs": ["volwassen man"],
+    "definition": "gezag, competentie, verantwoordelijk"
+  },
+  {
+    "name": "aarde",
+    "refs": ["globe"],
+    "definition": "vruchtbaarheid"
+  },
+  {
+    "name": "adept",
+    "refs": ["monnik"],
+    "definition": ""
+  },
+  {
+    "name": "afgewend",
+    "refs": [],
+    "definition": "vooruit- of terugblikken"
+  },
+  {
+    "name": "akker",
+    "refs": [],
+    "definition": "Wat je zaait, zul je oogsten. Groei kost tijd."
+  },
+  {
+    "name": "altaar",
+    "refs": [],
+    "definition": "religie"
+  },
+  {
+    "name": "ankh",
+    "refs": ["skepter", "jakhalsgod"],
+    "definition": "eeuwig leven"
+  },
+  {
+    "name": "appelboom",
+    "refs": [],
+    "definition": "boom van kennis (van goed en kwaad), bewustzijn"
+  },
+  {
+    "name": "arcana",
+    "refs": [],
+    "definition": "geheimen"
+  },
+  {
+    "name": "arend",
+    "refs": ["water", "feniks"],
+    "definition": "god ziet de mens"
+  },
+  {
+    "name": "aureool",
+    "refs": [],
+    "definition": "diepe trance, verandering in bewustzijn"
+  },
+  {
+    "name": "baldakijn",
+    "refs": ["troonhemel"],
+    "definition": ""
+  },
+  {
+    "name": "bank",
+    "refs": [],
+    "definition": "Neem tijd om na te denken"
+  },
+  {
+    "name": "bazuin",
+    "refs": [],
+    "definition": "belangrijke aankondiging, oproep van de Hogere Natuur "
+  },
+  {
+    "name": "bel",
+    "refs": [],
+    "definition": "melaatsheid, ziekte"
+  },
+  {
+    "name": "berg",
+    "refs": [],
+    "definition": "standvastigheid, verwezenlijking, mystieke reis"
+  },
+  {
+    "name": "bergtop",
+    "refs": ["berg"],
+    "definition": "plaats dicht bij god"
+  },
+  {
+    "name": "bisschop",
+    "refs": ["geestelijke"],
+    "definition": "uiterlijke religie, kerkelijke macht"
+  },
+  {
+    "name": "blauw",
+    "refs": [],
+    "definition": "rust, vrede, intelligentie, stabiliteit, loyaal, conservatief, koelheid"
+  },
+  {
+    "name": "blauw kleed",
+    "refs": ["blauw"],
+    "definition": ""
+  },
+  {
+    "name": "bliksem",
+    "refs": [],
+    "definition": "goddelijke communicatie, vernietiging, plotseling en kortstondig inzicht"
+  },
+  {
+    "name": "blinddoek",
+    "refs": [],
+    "definition": "onwetendheid, verblinding, overgeleverd zijn aan het lot"
+  },
+  {
+    "name": "bloed",
+    "refs": [],
+    "definition": "liefde, levenskracht"
+  },
+  {
+    "name": "bloemen",
+    "refs": [],
+    "definition": "natuurlijke levenskracht, levensvreugde, actief en viriel"
+  },
+  {
+    "name": "bloemenkrans",
+    "refs": ["bloemen"],
+    "definition": ""
+  },
+  {
+    "name": "Boaz",
+    "refs": [],
+    "definition": "bevestigen, strengheid (intentie)"
+  },
+  {
+    "name": "boek",
+    "refs": [],
+    "definition": "kennisbron"
+  },
+  {
+    "name": "boekrol",
+    "refs": ["boek"],
+    "definition": "intu\u00eftieve bron"
+  },
+  {
+    "name": "boog",
+    "refs": ["poort"],
+    "definition": ""
+  },
+  {
+    "name": "boom",
+    "refs": [],
+    "definition": "levenskracht"
+  },
+  {
+    "name": "boot",
+    "refs": [],
+    "definition": "Verre reis (door de onderwereld?)"
+  },
+  {
+    "name": "borsten",
+    "refs": [],
+    "definition": "verborgen vruchtbaarheid, de mogelijkheid te cree\u00ebren en te vermenigvuldigen zonder de ander/Ander, androgyne figuur"
+  },
+  {
+    "name": "brug",
+    "refs": [],
+    "definition": "overgang"
+  },
+  {
+    "name": "burcht",
+    "refs": [],
+    "definition": "bescherming, veilige thuishaven"
+  },
+  {
+    "name": "caduceus",
+    "refs": [],
+    "definition": "vereniging van tegengestelden, respect voor diversiteit"
+  },
+  {
+    "name": "cupido",
+    "refs": [],
+    "definition": "liefde"
+  },
+  {
+    "name": "davidsster",
+    "refs": [],
+    "definition": "harmonie"
+  },
+  {
+    "name": "doodshoofd",
+    "refs": [],
+    "definition": "de dood, sterfelijkheid"
+  },
+  {
+    "name": "draak",
+    "refs": ["vuur", "slang"],
+    "definition": "tegenstander, schatbewaker, onsterfelijkheid"
+  },
+  {
+    "name": "drie-eenheid",
+    "refs": [],
+    "definition": "geest/ziel/lichaam, vader/zoon/heilige geest, hemel/aarde/hel"
+  },
+  {
+    "name": "driehoek",
+    "refs": ["III", "vuur"],
+    "definition": "geest"
+  },
+  {
+    "name": "druiven",
+    "refs": [],
+    "definition": "overvloed, rijke oogst, verlossing, gastvrijheid"
+  },
+  {
+    "name": "druppel",
+    "refs": [],
+    "definition": "genade, vrede, hoop"
+  },
+  {
+    "name": "duif",
+    "refs": [],
+    "definition": "brenger van vrede, heilige geest"
+  },
+  {
+    "name": "edelstenen",
+    "refs": [],
+    "definition": "hebzucht, materialisme"
+  },
+  {
+    "name": "elementen",
+    "refs": ["water", "vuur", "lucht", "aarde"],
+    "definition": ""
+  },
+  {
+    "name": "engel",
+    "refs": ["lucht"],
+    "definition": "boodschapper van god, oorsprong van de mens"
+  },
+  {
+    "name": "feniks",
+    "refs": [],
+    "definition": "verjonging (door drievoudige onderdompeling in water), herboren ziel"
+  },
+  {
+    "name": "geel",
+    "refs": [],
+    "definition": "(zon) levenskracht en warmte, nadenken, vrolijkheid, creativiteit, afgunst, onrust"
+  },
+  {
+    "name": "geel kleed",
+    "refs": ["geel"],
+    "definition": ""
+  },
+  {
+    "name": "geestelijke",
+    "refs": ["hi\u00ebrofant"],
+    "definition": "toewijding, toetreding, intelligentie"
+  },
+  {
+    "name": "geit",
+    "refs": [],
+    "definition": "voedster, doorzettingsvermogen, seksueel plezier"
+  },
+  {
+    "name": "schoffel",
+    "refs": ["gereedschap"],
+    "definition": "hard werk, leunen, gebruik de juiste gereedschappen"
+  },
+  {
+    "name": "gezin",
+    "refs": [],
+    "definition": "huiselijk geluk"
+  },
+  {
+    "name": "globe",
+    "refs": [],
+    "definition": "de wereld ontdekken/veroveren, het grote plaatje zien"
+  },
+  {
+    "name": "golven",
+    "refs": ["water"],
+    "definition": "wisselende stemmingen, wisselend succes"
+  },
+  {
+    "name": "graan",
+    "refs": ["koren"],
+    "definition": ""
+  },
+  {
+    "name": "granaatappel",
+    "refs": [],
+    "definition": "weelde, mensen in groep, vrouwelijke sexualiteit"
+  },
+  {
+    "name": "grijs",
+    "refs": ["zwart", "wit"],
+    "definition": "harmonie (zwart en wit gemengd), rust en onopvallendheid, evenwicht, wijsheid, dreiging"
+  },
+  {
+    "name": "grijs kleed",
+    "refs": ["grijs"],
+    "definition": "eenvoud, bewust leven"
+  },
+  {
+    "name": "groen",
+    "refs": ["blauw", "geel"],
+    "definition": "groei, ontwikkeling, harmonie, ontspanning, verveling, weerstand"
+  },
+  {
+    "name": "groen kleed",
+    "refs": ["groen"],
+    "definition": "afremmen, rusten, verlagen"
+  },
+  {
+    "name": "groene omgeving",
+    "refs": ["natuur"],
+    "definition": ""
+  },
+  {
+    "name": "haag",
+    "refs": ["muur"],
+    "definition": ""
+  },
+  {
+    "name": "haas",
+    "refs": [],
+    "definition": "vruchtbaarheid, opofferingsgezindheid, reflexen, snel"
+  },
+  {
+    "name": "hagedis",
+    "refs": ["salamander"],
+    "definition": ""
+  },
+  {
+    "name": "hamer",
+    "refs": ["gereedschap"],
+    "definition": "kracht, actie, de klus klaren"
+  },
+  {
+    "name": "hand",
+    "refs": [],
+    "definition": "geven en ontvangen, bescherming, hand van god"
+  },
+  {
+    "name": "harnas",
+    "refs": [],
+    "definition": "mannelijkheid, beschermer, streng, onbuigzaam"
+  },
+  {
+    "name": "hartvorm",
+    "refs": [],
+    "definition": "vrouw, aantrekkingskracht, emoties, het onbewuste, geweten"
+  },
+  {
+    "name": "herautenstaaf",
+    "refs": ["caduceus"],
+    "definition": ""
+  },
+  {
+    "name": "hermanubis",
+    "refs": ["jakhalsgod"],
+    "definition": ""
+  },
+  {
+    "name": "hermes",
+    "refs": [],
+    "definition": "boodschapper van de goden"
+  },
+  {
+    "name": "hermesvleugels",
+    "refs": ["hermes"],
+    "definition": ""
+  },
+  {
+    "name": "heuvels",
+    "refs": [],
+    "definition": "initiatie, vruchtbaarheid"
+  },
+  {
+    "name": "hi\u00ebrofant",
+    "refs": ["hogepriester"],
+    "definition": ""
+  },
+  {
+    "name": "hond",
+    "refs": [],
+    "definition": "trouw, waakzaam, getemd, kent de weg, ongebreidelde lust, instinct"
+  },
+  {
+    "name": "hond + wolf",
+    "refs": [],
+    "definition": "getemde en ongetemde energi\u00ebn (in de mens)"
+  },
+  {
+    "name": "hoorn",
+    "refs": ["bazuin"],
+    "definition": ""
+  },
+  {
+    "name": "hostie",
+    "refs": [],
+    "definition": "offer"
+  },
+  {
+    "name": "huis",
+    "refs": ["gezin"],
+    "definition": "geborgenheid, thuis, diepste geheimen"
+  },
+  {
+    "name": "iris",
+    "refs": [],
+    "definition": "boodschappers"
+  },
+  {
+    "name": "ijs",
+    "refs": [],
+    "definition": "wachten, geduld"
+  },
+  {
+    "name": "Jachin",
+    "refs": [],
+    "definition": "kracht, mededogen (vorm)"
+  },
+  {
+    "name": "jakhalsgod",
+    "refs": [],
+    "definition": "voorbode van de dood, begeleider van zielen naar onderwereld"
+  },
+  {
+    "name": "Jahwe",
+    "refs": [],
+    "definition": "de geheime, onuitspreekbare naam van God"
+  },
+  {
+    "name": "jod",
+    "refs": ["yod"],
+    "definition": ""
+  },
+  {
+    "name": "jonge man",
+    "refs": ["man"],
+    "definition": "energie, initiatief"
+  },
+  {
+    "name": "jonge vrouw",
+    "refs": ["vrouw"],
+    "definition": "vruchtbaar, zuiver"
+  },
+  {
+    "name": "kasteel",
+    "refs": ["burcht"],
+    "definition": ""
+  },
+  {
+    "name": "kat",
+    "refs": [],
+    "definition": "magie, bewustzijn"
+  },
+  {
+    "name": "ketens",
+    "refs": [],
+    "definition": "gebondenheid, verbondenheid, beperking, verslaving"
+  },
+  {
+    "name": "kind",
+    "refs": [],
+    "definition": "goddelijke onschuld, het resultaat van de samensmelting tussen de mannelijke en vrouwelijke energie, einde van de dualiteit, vernieuwde eenheid, frisse blik, toekomst"
+  },
+  {
+    "name": "knapzak",
+    "refs": [],
+    "definition": "wereldse bezittingen"
+  },
+  {
+    "name": "konijn",
+    "refs": ["haas"],
+    "definition": ""
+  },
+  {
+    "name": "koren",
+    "refs": [],
+    "definition": "rijke oogst, toegeweid moederschap, scheppende kracht"
+  },
+  {
+    "name": "kreeft",
+    "refs": [],
+    "definition": "primitief dier, de angsten en illusies willen zich manifesteren, rusteloosheid"
+  },
+  {
+    "name": "kringloop",
+    "refs": [],
+    "definition": "circulair proces, eenheid van alles"
+  },
+  {
+    "name": "kroon",
+    "refs": [],
+    "definition": "wereldse macht, talent, meesterschap"
+  },
+  {
+    "name": "kruik",
+    "refs": [],
+    "definition": "het gaat om de inhoud, wat hou je vast?"
+  },
+  {
+    "name": "kruis",
+    "refs": [],
+    "definition": "religie"
+  },
+  {
+    "name": "kubus",
+    "refs": [],
+    "definition": "het aardse"
+  },
+  {
+    "name": "kwik",
+    "refs": [],
+    "definition": "geest"
+  },
+  {
+    "name": "lantaarn",
+    "refs": [],
+    "definition": "wegwijzen, verlichting, waakzaamheid"
+  },
+  {
+    "name": "lauwerkrans ",
+    "refs": [],
+    "definition": "vergankelijke macht, zegeviering na (innerlijke) strijd"
+  },
+  {
+    "name": "leeuw",
+    "refs": ["vuur"],
+    "definition": "moedige bewaker van grenzen, gevestigde macht, eenling, koning der dieren, nobel"
+  },
+  {
+    "name": "lelie",
+    "refs": [],
+    "definition": "hartverlangens, maagdelijkheid, reinheid, onschuld, goddelijke genade/gaven, vrijheid om jezelf te zijn"
+  },
+  {
+    "name": "lemniscaat",
+    "refs": [],
+    "definition": "oneindige verbondenheid, heilige geest"
+  },
+  {
+    "name": "lingam",
+    "refs": ["yoni"],
+    "definition": "fallussymbool"
+  },
+  {
+    "name": "links",
+    "refs": [],
+    "definition": "vrouwelijke kant, intu\u00eftie, binnen, verleden"
+  },
+  {
+    "name": "linksboven",
+    "refs": [],
+    "definition": "gedachtenwereld"
+  },
+  {
+    "name": "lotus",
+    "refs": [],
+    "definition": "spiritualiteit, kunst, inzicht, zelfvernieuwing"
+  },
+  {
+    "name": "lucht",
+    "refs": [],
+    "definition": "denken, liefhebben, van iedereen"
+  },
+  {
+    "name": "maagd",
+    "refs": ["jonge vrouw"],
+    "definition": "(nog) niet seksueel actief"
+  },
+  {
+    "name": "maan",
+    "refs": ["vrouw"],
+    "definition": "gids in donkere tijden (de maan reflecteert het licht van de zon), passiviteit, cycli, beweegt oceanen"
+  },
+  {
+    "name": "man",
+    "refs": [],
+    "definition": "zichtbare, spirituele leider"
+  },
+  {
+    "name": "mirte",
+    "refs": [],
+    "definition": "liefde, huwelijk, vruchtbaarheid"
+  },
+  {
+    "name": "monnik",
+    "refs": [],
+    "definition": "aanbidding, onderwerping"
+  },
+  {
+    "name": "muur",
+    "refs": [],
+    "definition": "veiligheid, bescherming, het sensitieve leven is afgescheiden van het goddelijke leven"
+  },
+  {
+    "name": "naaktheid",
+    "refs": [],
+    "definition": "vrijheid, niets te verbergen, kwetsbaarheid"
+  },
+  {
+    "name": "natuur",
+    "refs": [],
+    "definition": "werken met en in de natuur"
+  },
+  {
+    "name": "oceaan",
+    "refs": ["water", "golven"],
+    "definition": "oneindige mogelijkheden, grootsheid, mysterie, diepgang"
+  },
+  {
+    "name": "olijfblad",
+    "refs": [],
+    "definition": "vrede"
+  },
+  {
+    "name": "ondersteboven",
+    "refs": [],
+    "definition": "omgekeerde zienswijze"
+  },
+  {
+    "name": "oosten",
+    "refs": [],
+    "definition": "zegebrengend"
+  },
+  {
+    "name": "oranje",
+    "refs": ["geel", "rood"],
+    "definition": "passie, hartstocht, optimisme, overdaad, losbandig"
+  },
+  {
+    "name": "oude man",
+    "refs": [],
+    "definition": "wijs, ervaren, bewust van zijn pad"
+  },
+  {
+    "name": "ourobouros",
+    "refs": ["kringloop"],
+    "definition": "slangengordel"
+  },
+  {
+    "name": "paard",
+    "refs": [],
+    "definition": "kracht en vitaliteit, edel en intelligent, fierheid, werklust"
+  },
+  {
+    "name": "paars",
+    "refs": [],
+    "definition": "inventiviteit, inspiratie, originaliteit, spiritualiteit, boete doen"
+  },
+  {
+    "name": "paars kleed",
+    "refs": ["paars"],
+    "definition": ""
+  },
+  {
+    "name": "pad",
+    "refs": [],
+    "definition": "reis, bestemming, herkomst, elke reis begint met de eerste stap"
+  },
+  {
+    "name": "palmhart",
+    "refs": [],
+    "definition": "stijgen naar hoger niveau"
+  },
+  {
+    "name": "palmtak",
+    "refs": [],
+    "definition": "overwinning"
+  },
+  {
+    "name": "parels",
+    "refs": [],
+    "definition": "vrouw, verleiding"
+  },
+  {
+    "name": "pauw",
+    "refs": ["zon"],
+    "definition": "onsterfelijkheid, zelfvertrouwen"
+  },
+  {
+    "name": "pentagram",
+    "refs": ["pentakel", "zintuigen"],
+    "definition": "de nieuwe mens, het universum, elementen + ether (geest)"
+  },
+  {
+    "name": "perkamentrol",
+    "refs": ["schriftrol"],
+    "definition": ""
+  },
+  {
+    "name": "pilaren",
+    "refs": [],
+    "definition": "wijsheid, evenwicht in de wereld"
+  },
+  {
+    "name": "podium",
+    "refs": [],
+    "definition": "abstractie, toneelstuk"
+  },
+  {
+    "name": "poort",
+    "refs": [],
+    "definition": "doorgang, toegang, naar hemel/hel"
+  },
+  {
+    "name": "pyramide",
+    "refs": [],
+    "definition": "energie, occulte wijsheid, universele wetten"
+  },
+  {
+    "name": "rad",
+    "refs": [],
+    "definition": "cyclus"
+  },
+  {
+    "name": "ram",
+    "refs": [],
+    "definition": "daadkracht, onvoorzichtig, onvoorspelbaar, autoriteit, leiderschap, aggressiviteit, vasteberaden"
+  },
+  {
+    "name": "rechtsonder",
+    "refs": [],
+    "definition": "fysieke wereld"
+  },
+  {
+    "name": "rechts",
+    "refs": ["oosten"],
+    "definition": "mannelijke kant, verstand, buiten, toekomst"
+  },
+  {
+    "name": "regen",
+    "refs": [],
+    "definition": "schoonspoelen, schenkt leven"
+  },
+  {
+    "name": "regenboog",
+    "refs": [],
+    "definition": "zegen van boven, goddelijke bescherming, (geestelijke) rijkdom, brug naar het paradijs"
+  },
+  {
+    "name": "rijksappel",
+    "refs": [],
+    "definition": "macht over aarde"
+  },
+  {
+    "name": "rivier",
+    "refs": [],
+    "definition": "waterbron"
+  },
+  {
+    "name": "robijn",
+    "refs": [],
+    "definition": "koninklijke waardigheid, hartstochtelijke liefde, levenskracht"
+  },
+  {
+    "name": "rood",
+    "refs": [],
+    "definition": "Hartstocht, fysieke manifestatie, actie, macht, levenskracht"
+  },
+  {
+    "name": "rood kleed",
+    "refs": ["rood"],
+    "definition": ""
+  },
+  {
+    "name": "roos",
+    "refs": [],
+    "definition": "hartverlangens, schoonheid, doornen"
+  },
+  {
+    "name": "saffier",
+    "refs": [],
+    "definition": "geeft gemoedsrust,  fysieke/geestelijke/spirituele harmonie, helpt te concentreren, verlicht stress, verbondenheid met de Goddelijke wereld"
+  },
+  {
+    "name": "salamander",
+    "refs": ["vuur"],
+    "definition": "vernieuwing, geestelijk inzicht, ziel"
+  },
+  {
+    "name": "skepter",
+    "refs": [],
+    "definition": "wereldse macht"
+  },
+  {
+    "name": "schild",
+    "refs": [],
+    "definition": "beschermen wat belangrijk/kwestbaar is"
+  },
+  {
+    "name": "schip",
+    "refs": ["boot"],
+    "definition": ""
+  },
+  {
+    "name": "schriftrol",
+    "refs": [],
+    "definition": "kennisoverdracht"
+  },
+  {
+    "name": "sfinx",
+    "refs": [],
+    "definition": "wijsheid, levensvragen, macht, middelpunt, balans"
+  },
+  {
+    "name": "slak",
+    "refs": ["huis"],
+    "definition": "langzaam maar zeker, draagt zijn eigen huis"
+  },
+  {
+    "name": "slang",
+    "refs": ["kringloop"],
+    "definition": "verleiding, onderwereld, dodenrijk"
+  },
+  {
+    "name": "sleutel",
+    "refs": [],
+    "definition": "meesterschap, toegang (tot de hemel), open en sluiten"
+  },
+  {
+    "name": "sluier",
+    "refs": [],
+    "definition": "mysterie, ontdekken"
+  },
+  {
+    "name": "stadsmuur",
+    "refs": [],
+    "definition": "herkomst, samen ben je sterk, bescherming"
+  },
+  {
+    "name": "ster (achtpuntig)",
+    "refs": [],
+    "definition": "verdrijft als ochtendster de duisternis,  vruchtbaarheid"
+  },
+  {
+    "name": "sterren",
+    "refs": [],
+    "definition": "hemel"
+  },
+  {
+    "name": "stier",
+    "refs": ["aarde"],
+    "definition": "offeren, mannelijke vruchtbaarheid, agressie, vechtlust"
+  },
+  {
+    "name": "stroom",
+    "refs": ["waterbron"],
+    "definition": "zichtbare mysterie"
+  },
+  {
+    "name": "toorts",
+    "refs": [],
+    "definition": "goddelijke energie, verschroe\u00efng"
+  },
+  {
+    "name": "tora",
+    "refs": ["schriftrol"],
+    "definition": "goddelijke wet of leer, heilige kennis"
+  },
+  {
+    "name": "toren",
+    "refs": [],
+    "definition": "menselijke hoogmoed, huis van God, toren van Babel, de hel"
+  },
+  {
+    "name": "touw",
+    "refs": ["ketens"],
+    "definition": "knopen"
+  },
+  {
+    "name": "troon",
+    "refs": [],
+    "definition": "macht"
+  },
+  {
+    "name": "troonhemel",
+    "refs": ["troon"],
+    "definition": ""
+  },
+  {
+    "name": "tweesprong",
+    "refs": [],
+    "definition": "keuze"
+  },
+  {
+    "name": "vaandel",
+    "refs": [],
+    "definition": "zijn wapen is het leven zelf"
+  },
+  {
+    "name": "valk",
+    "refs": ["vogel"],
+    "definition": "adel, koninklijk, alziend oog, onkwetsbaar"
+  },
+  {
+    "name": "venussymbool",
+    "refs": [],
+    "definition": "godin van liefde en vruchtbaarheid"
+  },
+  {
+    "name": "vierkant",
+    "refs": ["IV", "aarde"],
+    "definition": "materie"
+  },
+  {
+    "name": "vierkant met driehoek",
+    "refs": ["vierkant", "driehoek", "VII"],
+    "definition": "het stoffelijke en het geestelijke"
+  },
+  {
+    "name": "vijgenblad",
+    "refs": [],
+    "definition": "verschuilen"
+  },
+  {
+    "name": "vis",
+    "refs": [],
+    "definition": "diepgaande transformatie, inwijding"
+  },
+  {
+    "name": "vlag",
+    "refs": [],
+    "definition": "een grote verschuiving vereist aanpassing"
+  },
+  {
+    "name": "vleermuisvleugels",
+    "refs": [],
+    "definition": "onze tijd van leven vervliegt bij dag en nacht, bij goed en kwaad"
+  },
+  {
+    "name": "vlinder",
+    "refs": [],
+    "definition": "transformatie"
+  },
+  {
+    "name": "vogel",
+    "refs": [],
+    "definition": "vrijheid, van ver halen, hoogvlieger"
+  },
+  {
+    "name": "vogelpoten",
+    "refs": [],
+    "definition": ""
+  },
+  {
+    "name": "volwassen man",
+    "refs": ["man"],
+    "definition": "viriele, beschermende kracht"
+  },
+  {
+    "name": "volwassen vrouw",
+    "refs": ["vrouw"],
+    "definition": "actieve, vruchtbare kracht, moeder"
+  },
+  {
+    "name": "voorhang (bij pilaren)",
+    "refs": [],
+    "definition": "verborgen, innerlijk (tegenovergesteld bij ontbreken)"
+  },
+  {
+    "name": "vrouw",
+    "refs": [],
+    "definition": "intu\u00eftie, ontvankelijk"
+  },
+  {
+    "name": "vuur",
+    "refs": [],
+    "definition": "kracht, zowel verterend als reinigend"
+  },
+  {
+    "name": "water",
+    "refs": [],
+    "definition": "Emoties, gevoelens, oerzee, spiegel, de diepte van de ziel, het nog niet gemanifesteerde"
+  },
+  {
+    "name": "waterbron",
+    "refs": ["water"],
+    "definition": "geneeskrachtig"
+  },
+  {
+    "name": "weegschaal",
+    "refs": [],
+    "definition": "evenwicht, rechtvaardigheid, juiste verhoudingen, voortdurende aanpassing om gerechtigheid te garanderen"
+  },
+  {
+    "name": "wereldbol",
+    "refs": ["globe"],
+    "definition": ""
+  },
+  {
+    "name": "wijngaardslak",
+    "refs": ["slak"],
+    "definition": "overwinteren"
+  },
+  {
+    "name": "wit",
+    "refs": [],
+    "definition": "onschuld, open, zuiver, \u2018ware' spiritualiteit, na\u00efviteit, leegte, perfectionisme"
+  },
+  {
+    "name": "wit kleed",
+    "refs": ["wit"],
+    "definition": ""
+  },
+  {
+    "name": "wolken",
+    "refs": [],
+    "definition": "openbaring, scheiding tussen zichtbare en onzichtbare wereld, dreiging"
+  },
+  {
+    "name": "Y-vorm",
+    "refs": [],
+    "definition": "zie tweesprong"
+  },
+  {
+    "name": "yod",
+    "refs": ["druppel"],
+    "definition": "het kleinste teken van het Hebreeuwse alfabet (druppel/blad-vorm) en de eerste letter van de naam van God: JHWH"
+  },
+  {
+    "name": "yoni",
+    "refs": ["lingam"],
+    "definition": "vrouwelijke geslachtsorganen"
+  },
+  {
+    "name": "zegening",
+    "refs": [],
+    "definition": "cree\u00ebren van evenwicht"
+  },
+  {
+    "name": "zintuigen",
+    "refs": [],
+    "definition": "horen, zien, ruiken, proeven, voelen"
+  },
+  {
+    "name": "zon",
+    "refs": [],
+    "definition": "het licht dat de mensheid leidt, schepper, God, levenskracht"
+  },
+  {
+    "name": "zonnebloem",
+    "refs": ["zon"],
+    "definition": "waarheidslievend, wilskracht en vitaliteit, roem en overwinning"
+  },
+  {
+    "name": "zout",
+    "refs": [],
+    "definition": "fysiek lichaam"
+  },
+  {
+    "name": "zwaard geheven",
+    "refs": [],
+    "definition": "scherpzinnigheid, gerechtigheid"
+  },
+  {
+    "name": "zwart",
+    "refs": [],
+    "definition": "nacht, duisternis, rebellie, mysterie"
+  },
+  {
+    "name": "zwart kleed",
+    "refs": ["zwart"],
+    "definition": "rouw, verdriet"
+  },
+  {
+    "name": "zwarte kat",
+    "refs": ["zwart", "kat"],
+    "definition": "Vrijheidsdrang, intu\u00eftieve gaven, magie, ongeluk, waarschuwer"
+  },
+  {
+    "name": "zwavel",
+    "refs": [],
+    "definition": "ziel"
+  }
+]
