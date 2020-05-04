@@ -28,17 +28,17 @@ export function Reading() {
   const [size, setSize] = React.useState(3);
   const [reversed, setReversed] = React.useState(false);
   const [majors, setMajors] = React.useState(false);
-  const [reading, setReading] = React.useState([]);
+  const [reading, setReading] = React.useState(draw());
   const [info, setInfo] = React.useState(-1);
+  // const [flipped, setFlipped] = React.useState([]);
 
   function draw() {
-    setInfo(-1);
     var shuffled = cards();
     if (majors) {
       shuffled = shuffled.filter({ suite: "groot" });
     }
     shuffled = shuffleFisherYates(shuffled.get());
-    setReading(cleanRecords(shuffled.splice(0, size)));
+    return cleanRecords(shuffled.splice(0, size));
   }
 
   return (
@@ -49,10 +49,16 @@ export function Reading() {
             <div
               key={nr}
               style={{
-                marginLeft: "10pt"
+                marginLeft: "10pt",
+                backgroundColor: nr === info ? "grey" : "white"
               }}
             >
-              <Thumbnail {...card} height="300pt" onClick={e => setInfo(nr)} />
+              <Thumbnail
+                {...card}
+                flipped={0}
+                height="300pt"
+                onClick={e => setInfo(nr)}
+              />
             </div>
           ))}
         </div>
@@ -64,6 +70,8 @@ export function Reading() {
             type="number"
             label="Aantal kaarten"
             value={size}
+            min={0}
+            max={10}
             onChange={({ value }) => setSize(value)}
           />
           <FormRow
@@ -82,7 +90,10 @@ export function Reading() {
             type="button"
             label=""
             value="Nieuwe legging"
-            onClick={draw}
+            onClick={() => {
+              setInfo(-1);
+              setReading(draw());
+            }}
           />
         </tbody>
       </table>

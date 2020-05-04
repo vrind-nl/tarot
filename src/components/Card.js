@@ -6,19 +6,27 @@ import { Link } from "react-router-dom";
 import { findSymbol } from "../db";
 import { SymbolList } from "./Symbol";
 
-function Image({ suite, number, name, ...props }) {
-  const safeName = name.replace(/ /g, "-");
-  const src =
-    suite === "groot"
-      ? `/GroteArcana/${number}-${safeName}.jpg`
-      : `/KleineArcana/${suite}/${suite}-${safeName}.jpg`;
-  return <img src={src} alt={name} {...props} />;
+function Image({ suite, number, name, flipped, ...props }) {
+  if (flipped) {
+    const safeName = name.replace(/ /g, "-");
+    const src =
+      suite === "groot"
+        ? `/GroteArcana/${number}-${safeName}.jpg`
+        : `/KleineArcana/${suite}/${suite}-${safeName}.jpg`;
+    return <img src={src} alt={name} {...props} />;
+  } else {
+    return <img src="/achterkant.jpg" alt="" {...props} />;
+  }
 }
 
 Image.propTypes = {
   number: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
   suite: PropTypes.string.isRequired
+};
+
+Image.defaultProps = {
+  flipped: 1
 };
 
 export function CardLink({ suite, name, children }) {
@@ -30,18 +38,24 @@ CardLink.propTypes = {
   suite: PropTypes.string.isRequired
 };
 
-export function Thumbnail({ link, ...props }) {
-  var img = <Image {...props} />;
-  if (link) {
-    img = <CardLink {...props}>{img}</CardLink>;
+export function Thumbnail({ link, flipped, ...props }) {
+  const [isFlipped, setIsFlipped] = React.useState(flipped);
+
+  if (isFlipped) {
+    var img = <Image {...props} />;
+    if (link) {
+      img = <CardLink {...props}>{img}</CardLink>;
+    }
+    return (
+      <div style={{ textAlign: "center" }}>
+        {img}
+        <br />
+        {props.keyword}
+      </div>
+    );
+  } else {
+    return <Image {...props} flipped={0} onClick={() => setIsFlipped(true)} />;
   }
-  return (
-    <div style={{ textAlign: "center" }}>
-      {img}
-      <br />
-      {props.keyword}
-    </div>
-  );
 }
 
 Thumbnail.propTypes = {
@@ -52,7 +66,8 @@ Thumbnail.propTypes = {
 
 Thumbnail.defaultProps = {
   height: "200pt",
-  link: 0
+  link: 0,
+  flipped: 1
 };
 
 function OptionalInfo({ label, symbol, children }) {
