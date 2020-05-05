@@ -6,16 +6,25 @@ import { Link } from "react-router-dom";
 import { findSymbol } from "../db";
 import { SymbolList } from "./Symbol";
 
-function Image({ suite, number, name, flipped, ...props }) {
+function Image({ suite, number, name, flipped, reversed, height, onClick }) {
   if (flipped) {
     const safeName = name.replace(/ /g, "-");
     const src =
       suite === "groot"
         ? `/GroteArcana/${number}-${safeName}.jpg`
         : `/KleineArcana/${suite}/${suite}-${safeName}.jpg`;
-    return <img src={src} alt={name} {...props} />;
+    return (
+      <img
+        style={reversed ? { transform: "rotate(180deg)" } : {}}
+        src={src}
+        alt={name}
+        height={height}
+      />
+    );
   } else {
-    return <img src="/achterkant.jpg" alt="" {...props} />;
+    return (
+      <img src="/achterkant.jpg" alt="" height={height} onClick={onClick} />
+    );
   }
 }
 
@@ -26,7 +35,8 @@ Image.propTypes = {
 };
 
 Image.defaultProps = {
-  flipped: 1
+  flipped: 1,
+  reversed: 0
 };
 
 export function CardLink({ suite, name, children }) {
@@ -67,7 +77,8 @@ Thumbnail.propTypes = {
 Thumbnail.defaultProps = {
   height: "200pt",
   link: 0,
-  flipped: 1
+  flipped: 1,
+  reversed: 0
 };
 
 function OptionalInfo({ label, symbol, children }) {
@@ -96,7 +107,9 @@ export function CardInfo(props) {
       <OptionalInfo label="Kleur" symbol={props.suite.toLowerCase()}>
         {props.suite !== "groot" && props.suite}
       </OptionalInfo>
-      <OptionalInfo label="Nummer">{props.number}</OptionalInfo>
+      <OptionalInfo label="Nummer" symbol={props.number}>
+        {props.number}
+      </OptionalInfo>
       <OptionalInfo label="Kaart" symbol={props.name}>
         {props.name}
       </OptionalInfo>

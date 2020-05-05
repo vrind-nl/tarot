@@ -25,75 +25,94 @@ function FormRow({ label, onChange, ...props }) {
 }
 
 export function Reading() {
-  const [size, setSize] = React.useState(3);
-  const [reversed, setReversed] = React.useState(false);
-  const [majors, setMajors] = React.useState(false);
-  const [reading, setReading] = React.useState(draw());
-  const [info, setInfo] = React.useState(-1);
-  // const [flipped, setFlipped] = React.useState([]);
+  const [config, setConfig] = React.useState({
+    size: 3,
+    reversed: false,
+    majors: false
+  });
+  const [reading, setReading] = React.useState({
+    cards: draw(),
+    info: -1,
+    seqNr: 0,
+    reversed: randomBools(config.size)
+  });
 
   function draw() {
     var shuffled = cards();
-    if (majors) {
+    if (config.majors) {
       shuffled = shuffled.filter({ suite: "groot" });
     }
     shuffled = shuffleFisherYates(shuffled.get());
-    return cleanRecords(shuffled.splice(0, size));
+    return cleanRecords(shuffled.splice(0, config.size));
+  }
+
+  function randomBools(length) {
+    return Array.from({ length }, () => Math.random() > 0.5);
   }
 
   return (
     <Page title="Legging">
-      {reading.length > 0 && (
+      {reading.cards.length > 0 && (
         <div style={{ marginBottom: "20pt", display: "flex" }}>
-          {reading.map((card, nr) => (
+          {reading.cards.map((card, nr) => (
             <div
               key={nr}
               style={{
                 marginLeft: "10pt",
-                backgroundColor: nr === info ? "grey" : "white"
+                backgroundColor: nr === reading.info ? "#ddd" : "white"
               }}
             >
               <Thumbnail
+                key={reading.seqNr}
                 {...card}
                 flipped={0}
+                reversed={config.reversed && reading.reversed[nr]}
                 height="300pt"
-                onClick={e => setInfo(nr)}
+                onClick={e => setReading({ ...reading, info: nr })}
               />
             </div>
           ))}
         </div>
       )}
-      {info >= 0 && <CardInfo {...reading[info]} />}
+      {reading.info >= 0 && <CardInfo {...reading.cards[reading.info]} />}
       <table className="pure-table" style={{ marginTop: "20pt" }}>
         <tbody>
           <FormRow
             type="number"
             label="Aantal kaarten"
-            value={size}
+            value={config.size}
             min={0}
             max={10}
-            onChange={({ value }) => setSize(value)}
+            onChange={({ value }) => setConfig({ ...config, size: value })}
           />
           <FormRow
             type="checkbox"
             label="Ondersteboven"
-            checked={reversed}
-            onChange={({ checked }) => setReversed(checked)}
+            checked={config.reversed}
+            onChange={({ checked }) =>
+              setConfig({ ...config, reversed: checked })
+            }
           />
           <FormRow
             type="checkbox"
             label="Alleen Grote Arcana"
-            checked={majors}
-            onChange={({ checked }) => setMajors(checked)}
+            checked={config.majors}
+            onChange={({ checked }) =>
+              setConfig({ ...config, majors: checked })
+            }
           />
           <FormRow
             type="button"
             label=""
             value="Nieuwe legging"
-            onClick={() => {
-              setInfo(-1);
-              setReading(draw());
-            }}
+            onClick={() =>
+              setReading({
+                info: -1,
+                seqNr: reading.seqNr + 1,
+                cards: draw(),
+                reversed: randomBools(config.size)
+              })
+            }
           />
         </tbody>
       </table>
