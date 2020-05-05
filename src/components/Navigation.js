@@ -1,10 +1,11 @@
 import React from "react";
 import { Switch, Route, Link } from "react-router-dom";
 
-import { Home } from "../pages/Home";
-import { Card } from "../pages/Card";
+import { Index } from "../pages/Index";
+import { Help } from "../pages/Help";
+import { Card, CardByNumber } from "../pages/Card";
 import { Reading } from "../pages/Reading";
-import { Symbols } from "../pages/Symbol";
+import { Terms } from "../pages/Term";
 
 function NavLink({ name }) {
   return (
@@ -20,8 +21,9 @@ export function Navigation() {
   return (
     <nav className="pure-menu pure-menu-horizontal">
       <NavLink name="Overzicht" />
-      <NavLink name="Symbolen" />
+      <NavLink name="Begrippen" />
       <NavLink name="Legging" />
+      <NavLink name="Uitleg" />
     </nav>
   );
 }
@@ -30,19 +32,25 @@ export function Routes() {
   return (
     <Switch>
       <Route path="/overzicht">
-        <Home />
+        <Index />
       </Route>
-      <Route path="/symbolen">
-        <Symbols />
+      <Route path="/begrippen">
+        <Terms />
       </Route>
       <Route path="/legging">
         <Reading />
       </Route>
+      <Route path="/card/number/:seqnr">
+        <CardByNumber />
+      </Route>
       <Route path="/card/:suite/:name">
         <Card />
       </Route>
+      <Route path="/uitleg">
+        <Help />
+      </Route>
       <Route path="/">
-        <Home />
+        <Index />
       </Route>
     </Switch>
   );

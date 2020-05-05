@@ -1,13 +1,13 @@
 import cardData from "./cards";
-import symbolData from "./symbols";
+import termData from "./terms";
 
 import taffy from "taffy";
 
-export const symbols = taffy(symbolData);
+export const terms = taffy(termData);
 export const cards = taffy(cardData);
 
-export function findSymbol(name) {
-  return symbols({ name }).first();
+export function findTerm(name) {
+  return terms({ name }).first();
 }
 
 export function suites(crds = cards) {
@@ -21,6 +21,7 @@ export function suites(crds = cards) {
 
 export function cleanRecord(record) {
   delete record.___s;
+  record.id = record.___id;
   delete record.___id;
   return record;
 }

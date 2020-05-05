@@ -138,7 +138,7 @@ function kaartEnSterren({ suite, name, number }) {
     name = "gematigdheid";
   }
 
-  // number = number ? "%02d" % int(number) : name;
+  number = number ? String(number).padStart(2, "0") : name;
   if (suite === "arcana") {
     name = `${number} ${name}`;
   } else {
@@ -263,8 +263,8 @@ const LE_TAROT = [
   "18-de-waarheid-plus-grote-arcana-de-tarot-in-de-herstelde-orde"
 ];
 
-function leTarot(self) {
-  return "http://www.letarot.nl/tarotkaart-" + LE_TAROT[self.nr];
+function leTarot({ seqnr }) {
+  return "http://www.letarot.nl/tarotkaart-" + LE_TAROT[seqnr];
 }
 
 const ORAKELS = [
@@ -348,30 +348,40 @@ const ORAKELS = [
   "koning-van-bekers"
 ];
 
-function orakels(self) {
-  return "https://www.orakels.net/tarot/oud-engels/" + ORAKELS[self.nr];
+function orakels({ seqnr }) {
+  return "https://www.orakels.net/tarot/oud-engels/" + ORAKELS[seqnr];
 }
 
 export function CardLinks(props) {
   return (
     <ul>
       <li>
-        <a href={pictorialKey(props)}>Pictorial Key to the Tarot (Eng)</a>
+        <a href={pictorialKey(props)} target="_blank">
+          Pictorial Key to the Tarot (Eng)
+        </a>
       </li>
       <li>
-        <a href={stapVoorStap(props)}>Tarot Stap Voor Stap</a>
+        <a href={stapVoorStap(props)} target="_blank">
+          Tarot Stap Voor Stap
+        </a>
+      </li>
+      <li>
+        <a href={kaartEnSterren(props)} target="_blank">
+          Kaart en Sterren
+        </a>
+      </li>
+      <li>
+        <a href={leTarot(props)} target="_blank">
+          Le Tarot
+        </a>
+      </li>
+      <li>
+        <a href={spiriDoc(props)} target="_blank">
+          SpiriDoc
+        </a>
       </li>
       {/* <li> */}
-      {/*   <a href={kaartEnSterren(props)}>Kaart en Sterren</a> */}
-      {/* </li> */}
-      {/* <li> */}
-      {/*   <a href={leTarot(props)}>Le Tarot</a> */}
-      {/* </li> */}
-      {/* <li> */}
-      {/*   <a href={orakels(props)}>Orakels</a> */}
-      {/* </li> */}
-      {/* <li> */}
-      {/*   <a href={spiriDoc(props)}>SpiriDoc</a> */}
+      {/*   <a href={orakels(props)} target="_blank">Orakels</a> */}
       {/* </li> */}
     </ul>
   );

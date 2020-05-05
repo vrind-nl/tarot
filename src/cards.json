@@ -27,7 +27,8 @@
       "bloemenkrans",
       "geel",
       "ijs"
-    ]
+    ],
+    "seqnr": 1
   },
   {
     "suite": "groot",
@@ -58,7 +59,8 @@
       "bloemen",
       "geel",
       "skepter"
-    ]
+    ],
+    "seqnr": 2
   },
   {
     "suite": "groot",
@@ -91,7 +93,8 @@
       "troon",
       "waterbron",
       "zwart"
-    ]
+    ],
+    "seqnr": 3
   },
   {
     "suite": "groot",
@@ -116,7 +119,8 @@
       "stroom",
       "boom",
       "koren"
-    ]
+    ],
+    "seqnr": 4
   },
   {
     "suite": "groot",
@@ -143,7 +147,8 @@
       "rood kleed",
       "harnas",
       "globe"
-    ]
+    ],
+    "seqnr": 5
   },
   {
     "suite": "groot",
@@ -172,7 +177,8 @@
       "rood kleed",
       "sleutel",
       "skepter"
-    ]
+    ],
+    "seqnr": 6
   },
   {
     "suite": "groot",
@@ -201,7 +207,8 @@
       "jonge man",
       "jonge vrouw",
       "paars kleed"
-    ]
+    ],
+    "seqnr": 7
   },
   {
     "suite": "groot",
@@ -233,7 +240,8 @@
       "harnas",
       "baldakijn",
       "skepter"
-    ]
+    ],
+    "seqnr": 8
   },
   {
     "suite": "groot",
@@ -261,7 +269,8 @@
       "groen kleed",
       "kubus",
       "vrouw"
-    ]
+    ],
+    "seqnr": 9
   },
   {
     "suite": "groot",
@@ -291,7 +300,8 @@
       "afgewend",
       "links",
       "rechts"
-    ]
+    ],
+    "seqnr": 10
   },
   {
     "suite": "groot",
@@ -311,7 +321,8 @@
       "hermanubis",
       "tora",
       "feniks"
-    ]
+    ],
+    "seqnr": 11
   },
   {
     "suite": "groot",
@@ -329,7 +340,8 @@
       "lemniscaat",
       "bergtop",
       "oranje"
-    ]
+    ],
+    "seqnr": 12
   },
   {
     "suite": "groot",
@@ -353,7 +365,8 @@
       "kruis",
       "blauw",
       "staf"
-    ]
+    ],
+    "seqnr": 13
   },
   {
     "suite": "groot",
@@ -392,7 +405,8 @@
       "harnas",
       "doodshoofd",
       "vlag"
-    ]
+    ],
+    "seqnr": 14
   },
   {
     "suite": "groot",
@@ -418,7 +432,8 @@
       "stroom",
       "berg",
       "vierkant met driehoek"
-    ]
+    ],
+    "seqnr": 15
   },
   {
     "suite": "groot",
@@ -448,7 +463,8 @@
       "ketens",
       "pentagram",
       "zwart"
-    ]
+    ],
+    "seqnr": 16
   },
   {
     "suite": "groot",
@@ -475,7 +491,8 @@
       "kroon",
       "yod",
       "zwart"
-    ]
+    ],
+    "seqnr": 17
   },
   {
     "suite": "groot",
@@ -498,7 +515,8 @@
       "feniks",
       "water",
       "borsten"
-    ]
+    ],
+    "seqnr": 18
   },
   {
     "suite": "groot",
@@ -527,7 +545,8 @@
       "yod",
       "toren",
       "pilaren"
-    ]
+    ],
+    "seqnr": 19
   },
   {
     "suite": "groot",
@@ -553,7 +572,8 @@
       "zonnebloem",
       "golven",
       "vlag"
-    ]
+    ],
+    "seqnr": 20
   },
   {
     "suite": "groot",
@@ -576,7 +596,8 @@
       "ijs",
       "vlag",
       "borsten"
-    ]
+    ],
+    "seqnr": 21
   },
   {
     "suite": "groot",
@@ -597,7 +618,8 @@
       "stier",
       "arend",
       "engel"
-    ]
+    ],
+    "seqnr": 22
   },
   {
     "suite": "Staven",
@@ -615,7 +637,8 @@
       "hand",
       "rechts",
       "grijs"
-    ]
+    ],
+    "seqnr": 23
   },
   {
     "suite": "Staven",
@@ -635,7 +658,8 @@
       "berg",
       "rood kleed",
       "grijs"
-    ]
+    ],
+    "seqnr": 24
   },
   {
     "suite": "Staven",
@@ -658,7 +682,8 @@
       "oceaan",
       "heuvels",
       "geel"
-    ]
+    ],
+    "seqnr": 25
   },
   {
     "suite": "Staven",
@@ -679,7 +704,8 @@
       "blauw kleed",
       "bloemen",
       "oranje"
-    ]
+    ],
+    "seqnr": 26
   },
   {
     "suite": "Staven",
@@ -689,7 +715,8 @@
     "keywords": ["schijngevecht", "rellen"],
     "invitation": "Laat je niet zomaar opzij zetten",
     "warning": "Blijf niet hangen in gekissebis.",
-    "symbols": [""]
+    "symbols": [""],
+    "seqnr": 27
   },
   {
     "suite": "Staven",
@@ -705,7 +732,8 @@
     ],
     "invitation": "Stel je op als een leider",
     "warning": "E\u00e9n zwaluw maakt nog geen zomer",
-    "symbols": ["groen kleed", "lauwerkrans", "paard"]
+    "symbols": ["groen kleed", "lauwerkrans", "paard"],
+    "seqnr": 28
   },
   {
     "suite": "Staven",
@@ -720,7 +748,8 @@
     ],
     "invitation": "Neem het voor jezelf op.",
     "warning": "Vraag niet voortdurend goedkeuring. Doe het gewoon!",
-    "symbols": ["stroom", "heuvels"]
+    "symbols": ["stroom", "heuvels"],
+    "seqnr": 29
   },
   {
     "suite": "Staven",
@@ -736,7 +765,8 @@
     ],
     "invitation": "Laat je meevoeren",
     "warning": "Blijf zelf aan het roer",
-    "symbols": ["stroom", "heuvels", "linksboven", "rechtsonder"]
+    "symbols": ["stroom", "heuvels", "linksboven", "rechtsonder"],
+    "seqnr": 30
   },
   {
     "suite": "Staven",
@@ -752,7 +782,8 @@
     ],
     "invitation": "Bekijk het eens uit het perspectief van de ander",
     "warning": "Is de dreiging wel echt?",
-    "symbols": ["muur", "podium"]
+    "symbols": ["muur", "podium"],
+    "seqnr": 31
   },
   {
     "suite": "Staven",
@@ -767,7 +798,8 @@
     ],
     "invitation": "Wie kan je helpen om deze last te dragen?",
     "warning": "Laat op tijd los",
-    "symbols": ["akker", "stadsmuur", "podium"]
+    "symbols": ["akker", "stadsmuur", "podium"],
+    "seqnr": 32
   },
   {
     "suite": "Staven",
@@ -781,7 +813,8 @@
     ],
     "invitation": "Grijp je kans!",
     "warning": "Pas op voor (te) mooie verhalen",
-    "symbols": ["heuvels", "pyramide", "rood kleed", "geel kleed", "blauw"]
+    "symbols": ["heuvels", "pyramide", "rood kleed", "geel kleed", "blauw"],
+    "seqnr": 33
   },
   {
     "suite": "Staven",
@@ -799,7 +832,8 @@
       "harnas",
       "vuur",
       "pyramide"
-    ]
+    ],
+    "seqnr": 34
   },
   {
     "suite": "Staven",
@@ -824,7 +858,8 @@
       "kroon",
       "bloemenkrans",
       "zwarte kat"
-    ]
+    ],
+    "seqnr": 35
   },
   {
     "suite": "Staven",
@@ -852,7 +887,8 @@
       "afgewend",
       "leeuw",
       "oranje"
-    ]
+    ],
+    "seqnr": 36
   },
   {
     "suite": "Pentakels",
@@ -873,7 +909,8 @@
       "pad",
       "bergtop",
       "blauw"
-    ]
+    ],
+    "seqnr": 37
   },
   {
     "suite": "Pentakels",
@@ -888,7 +925,8 @@
     ],
     "invitation": "Speel met je mogelijkheden",
     "warning": "Je kan niet alle opties open houden",
-    "symbols": ["lemniscaat", "golven", "boot", "jonge man", "blauw", "podium"]
+    "symbols": ["lemniscaat", "golven", "boot", "jonge man", "blauw", "podium"],
+    "seqnr": 38
   },
   {
     "suite": "Pentakels",
@@ -905,7 +943,8 @@
     ],
     "invitation": "Waarmee kan je jezelf bewijzen?",
     "warning": "Sta open voor feedback",
-    "symbols": ["bank", "monnik", "hamer", "grijs", "zwart"]
+    "symbols": ["bank", "monnik", "hamer", "grijs", "zwart"],
+    "seqnr": 39
   },
   {
     "suite": "Pentakels",
@@ -915,7 +954,8 @@
     "keywords": ["houden wat je hebt", "energiestroom blokkeren", "hebzucht"],
     "invitation": "Wees zuinig op je mogelijkheden.",
     "warning": "Wat probeer je te krampachtig vast te houden?",
-    "symbols": ["toren", "paars", "podium"]
+    "symbols": ["toren", "paars", "podium"],
+    "seqnr": 40
   },
   {
     "suite": "Pentakels",
@@ -930,7 +970,8 @@
     ],
     "invitation": "Wat heb je echt nodig?",
     "warning": "Angst is een slechte raadgever.",
-    "symbols": ["bel"]
+    "symbols": ["bel"],
+    "seqnr": 41
   },
   {
     "suite": "Pentakels",
@@ -949,7 +990,8 @@
       "geel kleed",
       "blauw kleed",
       "podium"
-    ]
+    ],
+    "seqnr": 42
   },
   {
     "suite": "Pentakels",
@@ -959,7 +1001,8 @@
     "keywords": ["ongeduld", "onvrede", "beheren"],
     "invitation": "Kijk het nog even aan. Zie je voortgang.",
     "warning": "Blijf niet toekijken",
-    "symbols": ["schoffel", "paars"]
+    "symbols": ["schoffel", "paars"],
+    "seqnr": 43
   },
   {
     "suite": "Pentakels",
@@ -969,7 +1012,8 @@
     "keywords": ["oefening baart kunst", "nederig werk", "ambachten"],
     "invitation": "Wat zou je willen leren?",
     "warning": "Moet je niet eens iets nieuws proberen?",
-    "symbols": ["bank", "hamer", "geel", "podium"]
+    "symbols": ["bank", "hamer", "geel", "podium"],
+    "seqnr": 44
   },
   {
     "suite": "Pentakels",
@@ -979,7 +1023,8 @@
     "keywords": ["vervulling", "verfraaien", "zekerheid", "meevaller"],
     "invitation": "Geniet van wat je doet.",
     "warning": "Ben je alert op nieuwe kansen?",
-    "symbols": ["druiven", "burcht", "boom", "geel", "valk", "wijngaardslak"]
+    "symbols": ["druiven", "burcht", "boom", "geel", "valk", "wijngaardslak"],
+    "seqnr": 45
   },
   {
     "suite": "Pentakels",
@@ -1004,7 +1049,8 @@
       "weegschaal",
       "oude man",
       "brug"
-    ]
+    ],
+    "seqnr": 46
   },
   {
     "suite": "Pentakels",
@@ -1022,7 +1068,8 @@
       "groen kleed",
       "stroom",
       "geel"
-    ]
+    ],
+    "seqnr": 47
   },
   {
     "suite": "Pentakels",
@@ -1045,7 +1092,8 @@
       "afgewend",
       "geel",
       "zwart"
-    ]
+    ],
+    "seqnr": 48
   },
   {
     "suite": "Pentakels",
@@ -1066,7 +1114,8 @@
       "haas",
       "afgewend",
       "geel"
-    ]
+    ],
+    "seqnr": 49
   },
   {
     "suite": "Pentakels",
@@ -1090,7 +1139,8 @@
       "harnas",
       "geel",
       "skepter"
-    ]
+    ],
+    "seqnr": 50
   },
   {
     "suite": "Zwaarden",
@@ -1109,7 +1159,8 @@
       "palmtak",
       "zwaard geheven",
       "blauw"
-    ]
+    ],
+    "seqnr": 51
   },
   {
     "suite": "Zwaarden",
@@ -1133,7 +1184,8 @@
       "maan",
       "blauw",
       "podium"
-    ]
+    ],
+    "seqnr": 52
   },
   {
     "suite": "Zwaarden",
@@ -1143,7 +1195,8 @@
     "keywords": ["pijn", "verdriet"],
     "invitation": "Ben je sterk genoeg om te doen wat noodzakelijk is?",
     "warning": "Laat je niet beheersen door je verdriet",
-    "symbols": ["hartvorm", "wolken", "grijs", "regen"]
+    "symbols": ["hartvorm", "wolken", "grijs", "regen"],
+    "seqnr": 53
   },
   {
     "suite": "Zwaarden",
@@ -1153,7 +1206,8 @@
     "keywords": ["overwegen", "rusten", "herstellen", "retraite", "testament"],
     "invitation": "Slaap er een nachtje over.",
     "warning": "Waarom staat alles stil?",
-    "symbols": ["grijs", "ridder"]
+    "symbols": ["grijs", "ridder"],
+    "seqnr": 54
   },
   {
     "suite": "Zwaarden",
@@ -1177,7 +1231,8 @@
       "oranje",
       "blauw",
       "podium"
-    ]
+    ],
+    "seqnr": 55
   },
   {
     "suite": "Zwaarden",
@@ -1187,7 +1242,8 @@
     "keywords": ["je terug trekken", "vlucht"],
     "invitation": "Maak een nieuw begin",
     "warning": "Is het gras echt groener?",
-    "symbols": ["water", "golven"]
+    "symbols": ["water", "golven"],
+    "seqnr": 56
   },
   {
     "suite": "Zwaarden",
@@ -1197,7 +1253,8 @@
     "keywords": ["slimheid", "spitsvondigheid", "oneerlijkheid"],
     "invitation": "Verzin een list.",
     "warning": "Je wordt in de maling genomen.",
-    "symbols": ["oranje", "podium"]
+    "symbols": ["oranje", "podium"],
+    "seqnr": 57
   },
   {
     "suite": "Zwaarden",
@@ -1215,7 +1272,8 @@
     ],
     "invitation": "Laat alle remmende gedachten los",
     "warning": "Wat houdt je tegen?",
-    "symbols": ["blinddoek", "burcht", "stroom", "berg", "grijs"]
+    "symbols": ["blinddoek", "burcht", "stroom", "berg", "grijs"],
+    "seqnr": 58
   },
   {
     "suite": "Zwaarden",
@@ -1225,7 +1283,8 @@
     "keywords": ["zelfverwijt", "wanhoop", "weeklagen", "zelfkastijding"],
     "invitation": "Waar heb je spijt van?",
     "warning": "Is je verdriet terecht?",
-    "symbols": ["afgewend", "roos", "wit kleed", "oosten", "vrouw", "zwart"]
+    "symbols": ["afgewend", "roos", "wit kleed", "oosten", "vrouw", "zwart"],
+    "seqnr": 59
   },
   {
     "suite": "Zwaarden",
@@ -1235,7 +1294,8 @@
     "keywords": ["destructieve gedachten", "voortijdig einde"],
     "invitation": "Waar moet je nu rigoureus een streep onder zetten?",
     "warning": "Is het verstandig om er nu radicaal mee te breken?",
-    "symbols": ["oceaan", "zon", "heuvels", "rood kleed", "zegening", "zwart"]
+    "symbols": ["oceaan", "zon", "heuvels", "rood kleed", "zegening", "zwart"],
+    "seqnr": 60
   },
   {
     "suite": "Zwaarden",
@@ -1252,7 +1312,8 @@
       "water",
       "grijs",
       "zwaard geheven"
-    ]
+    ],
+    "seqnr": 61
   },
   {
     "suite": "Zwaarden",
@@ -1267,7 +1328,8 @@
     ],
     "invitation": "Bezint, eer ge begint",
     "warning": "Is dit geen storm in een glas water?",
-    "symbols": ["oranje", "rood kleed", "paard", "harnas", "vogel"]
+    "symbols": ["oranje", "rood kleed", "paard", "harnas", "vogel"],
+    "seqnr": 62
   },
   {
     "suite": "Zwaarden",
@@ -1296,7 +1358,8 @@
       "vogel",
       "grijs",
       "vlinder"
-    ]
+    ],
+    "seqnr": 63
   },
   {
     "suite": "Zwaarden",
@@ -1322,7 +1385,8 @@
       "boom",
       "zwaard geheven",
       "vogel"
-    ]
+    ],
+    "seqnr": 64
   },
   {
     "suite": "Kelken",
@@ -1349,7 +1413,8 @@
       "lelie",
       "hostie",
       "blauw"
-    ]
+    ],
+    "seqnr": 65
   },
   {
     "suite": "Kelken",
@@ -1372,7 +1437,8 @@
       "heuvels",
       "hermesvleugels",
       "podium"
-    ]
+    ],
+    "seqnr": 66
   },
   {
     "suite": "Kelken",
@@ -1389,7 +1455,8 @@
       "geel kleed",
       "wit kleed",
       "blauw"
-    ]
+    ],
+    "seqnr": 67
   },
   {
     "suite": "Kelken",
@@ -1399,7 +1466,8 @@
     "keywords": ["verlangen naar meer", "lusteloosheid"],
     "invitation": "Wat heb je w\u00e9l?",
     "warning": "Is je onvrede wel terecht?",
-    "symbols": ["hand", "wolken", "boom", "links"]
+    "symbols": ["hand", "wolken", "boom", "links"],
+    "seqnr": 68
   },
   {
     "suite": "Kelken",
@@ -1418,7 +1486,8 @@
       "zwart kleed",
       "bloed",
       "groen"
-    ]
+    ],
+    "seqnr": 69
   },
   {
     "suite": "Kelken",
@@ -1433,7 +1502,8 @@
     ],
     "invitation": "Verheug je in kleine dingen.",
     "warning": "Behoudt het goede",
-    "symbols": ["vrouw", "lelie", "burcht"]
+    "symbols": ["vrouw", "lelie", "burcht"],
+    "seqnr": 70
   },
   {
     "suite": "Kelken",
@@ -1461,7 +1531,8 @@
       "afgewend",
       "doodshoofd",
       "zwart"
-    ]
+    ],
+    "seqnr": 71
   },
   {
     "suite": "Kelken",
@@ -1475,7 +1546,8 @@
     ],
     "invitation": "Laat het verleden los.",
     "warning": "Een nieuwe illusie najagen.",
-    "symbols": ["maan", "water", "berg", "rood kleed", "blauw"]
+    "symbols": ["maan", "water", "berg", "rood kleed", "blauw"],
+    "seqnr": 72
   },
   {
     "suite": "Kelken",
@@ -1489,7 +1561,8 @@
     ],
     "invitation": "Sta eens stil om \u00e9cht te genieten",
     "warning": "Kan je je zorgen loslaten en genieten?",
-    "symbols": ["bank", "blauw kleed"]
+    "symbols": ["bank", "blauw kleed"],
+    "seqnr": 73
   },
   {
     "suite": "Kelken",
@@ -1505,7 +1578,8 @@
     ],
     "invitation": "Maak ruimte voor gezamenlijk geluk",
     "warning": "Wat van ver komt is niet altijd lekkerder",
-    "symbols": ["regenboog", "stroom", "gezin", "huis", "afgewend", "podium"]
+    "symbols": ["regenboog", "stroom", "gezin", "huis", "afgewend", "podium"],
+    "seqnr": 74
   },
   {
     "suite": "Kelken",
@@ -1515,7 +1589,8 @@
     "keywords": ["fantasie", "verbeelding", "puberteit", "vlijtige jeugd"],
     "invitation": "Laat je verwonderen",
     "warning": "Pas op voor goedgelovigheid.",
-    "symbols": ["lotus", "vis", "oceaan", "blauw", "podium"]
+    "symbols": ["lotus", "vis", "oceaan", "blauw", "podium"],
+    "seqnr": 75
   },
   {
     "suite": "Kelken",
@@ -1534,7 +1609,8 @@
       "vis",
       "afgewend",
       "blauw"
-    ]
+    ],
+    "seqnr": 76
   },
   {
     "suite": "Kelken",
@@ -1550,7 +1626,8 @@
     ],
     "invitation": "Erover praten kan je beeld verhelderen.",
     "warning": "Vergeet jezelf niet",
-    "symbols": ["golven", "troon", "kroon", "wit kleed", "afgewend", "blauw"]
+    "symbols": ["golven", "troon", "kroon", "wit kleed", "afgewend", "blauw"],
+    "seqnr": 77
   },
   {
     "suite": "Kelken",
@@ -1577,6 +1654,7 @@
       "skepter",
       "geel kleed",
       "blauw"
-    ]
+    ],
+    "seqnr": 78
   }
 ]

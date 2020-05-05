@@ -4,9 +4,9 @@ import { cards } from "../db";
 import { Page } from "../components/Page";
 import { Layout } from "../components/Layout";
 
-export function Home(props) {
+export function Index(props) {
   return (
-    <Page className="container" title="Tarot">
+    <Page title="Tarot">
       <Layout cards={cards()} />
     </Page>
   );

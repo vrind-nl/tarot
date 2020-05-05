@@ -3,9 +3,9 @@ import PropTypes from "prop-types";
 
 import { Link } from "react-router-dom";
 
-import { findSymbol } from "../db";
-import { SymbolList } from "./Symbol";
-import { CardLinks } from "./Link";
+import { findTerm } from "../db";
+import { Terms } from "./Term";
+import { CardLinks } from "./Reference";
 
 function Image({ suite, number, name, flipped, reversed, height, onClick }) {
   const props = { height, onClick };
@@ -40,8 +40,12 @@ Image.defaultProps = {
   reversed: 0
 };
 
-export function CardLink({ suite, name, children }) {
-  return <Link to={`/card/${suite}/${name}`}>{children}</Link>;
+export function cardLink({ suite, name }) {
+  return `/card/${suite}/${name}`;
+}
+
+export function CardLink({ children, ...props }) {
+  return <Link to={cardLink(props)}>{children}</Link>;
 }
 
 CardLink.propTypes = {
@@ -82,13 +86,13 @@ Thumbnail.defaultProps = {
   reversed: 0
 };
 
-function OptionalInfo({ label, symbol, children }) {
-  symbol = findSymbol(symbol);
+function OptionalInfo({ label, term, children }) {
+  term = findTerm(term);
   return children ? (
     <>
       <div className="pure-u-1-5">{label}: </div>
       <div className="pure-u-4-5">
-        {children} {symbol && `(${symbol.definition})`}
+        {children} {term && `(${term.term})`}
       </div>
     </>
   ) : (
@@ -101,17 +105,17 @@ export function CardInfo(props) {
     <>
       <OptionalInfo
         label="Arcana"
-        symbol={props.suite === "groot" ? "Grote Arcana" : "Kleine Arcana"}
+        term={props.suite === "groot" ? "Grote Arcana" : "Kleine Arcana"}
       >
         {props.suite === "groot" ? "Groot" : "Klein"}
       </OptionalInfo>
-      <OptionalInfo label="Kleur" symbol={props.suite.toLowerCase()}>
+      <OptionalInfo label="Kleur" term={props.suite.toLowerCase()}>
         {props.suite !== "groot" && props.suite}
       </OptionalInfo>
-      <OptionalInfo label="Nummer" symbol={props.number}>
+      <OptionalInfo label="Nummer" term={props.number}>
         {props.number}
       </OptionalInfo>
-      <OptionalInfo label="Kaart" symbol={props.name}>
+      <OptionalInfo label="Kaart" term={props.name}>
         {props.name}
       </OptionalInfo>
       <OptionalInfo label="Alias">{props.alias}</OptionalInfo>
@@ -127,9 +131,9 @@ export function CardInfo(props) {
             : props.comment.map((comment, nr) => <li key={nr}>{comment}</li>)}
         </OptionalInfo>
       )}
-      <h3>Symbolen</h3>
-      <SymbolList
-        symbols={props.symbols.sort().map(name => ({
+      <h3>Begrippen</h3>
+      <Terms
+        terms={props.symbols.sort().map(name => ({
           name
         }))}
       />
