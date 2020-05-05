@@ -5,8 +5,11 @@ import { Link } from "react-router-dom";
 
 import { findSymbol } from "../db";
 import { SymbolList } from "./Symbol";
+import { CardLinks } from "./Link";
 
 function Image({ suite, number, name, flipped, reversed, height, onClick }) {
+  const props = { height, onClick };
+
   if (flipped) {
     const safeName = name.replace(/ /g, "-");
     const src =
@@ -18,13 +21,11 @@ function Image({ suite, number, name, flipped, reversed, height, onClick }) {
         style={reversed ? { transform: "rotate(180deg)" } : {}}
         src={src}
         alt={name}
-        height={height}
+        {...props}
       />
     );
   } else {
-    return (
-      <img src="/achterkant.jpg" alt="" height={height} onClick={onClick} />
-    );
+    return <img src="/achterkant.jpg" alt="" {...props} />;
   }
 }
 
@@ -132,6 +133,8 @@ export function CardInfo(props) {
           name
         }))}
       />
+      <h3>Links</h3>
+      <CardLinks {...props} />
     </>
   );
 }
