@@ -50,7 +50,10 @@ export function Reading() {
     return Array.from({ length }, () => Math.random() > 0.5);
   }
 
-  function handleInfo(nr) {
+  function handleInfo(nr, flipped) {
+    if (flipped && reading.info === -1) {
+      return;
+    }
     if (nr === reading.info) {
       nr = -1;
     }
@@ -75,14 +78,18 @@ export function Reading() {
                 flipped={0}
                 reversed={config.reversed && reading.reversed[nr]}
                 height="300pt"
-                onClick={e => handleInfo(nr)}
-                onTouch={e => handleInfo(nr)}
+                onClick={(e, flipped) => handleInfo(nr, flipped)}
+                onTouch={(e, flipped) => handleInfo(nr, flipped)}
               />
             </div>
           ))}
         </div>
       )}
-      {reading.info >= 0 && <CardInfo {...reading.cards[reading.info]} />}
+      {reading.info >= 0 && (
+        <div className="definitions">
+          <CardInfo {...reading.cards[reading.info]} />
+        </div>
+      )}
       <table className="pure-table" style={{ marginTop: "20pt" }}>
         <tbody>
           <FormRow

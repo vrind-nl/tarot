@@ -74,8 +74,8 @@ export function Thumbnail({ link, flipped, ...props }) {
         {...props}
         flipped={0}
         onClick={e => {
-          setIsFlipped(!isFlipped);
-          props.onClick(e);
+          setIsFlipped(true);
+          props.onClick(e, true);
         }}
       />
     );
