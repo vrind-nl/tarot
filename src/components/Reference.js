@@ -62,18 +62,20 @@ function pictorialKey({ suite, name }) {
 }
 
 function stapVoorStap({ suite, name, number }) {
+  const site = "http://tarotstapvoorstap.nl/";
+  const base = site + "tarotkaarten/";
   // special cases
   if (suite === "Zwaarden" && number === "9") {
-    return "http://tarotstapvoorstap.nl/tarot-vragen/zwaarden-9-uit-de-tarot-ook-dit-gaat-voorbij/";
+    return site + "tarot-vragen/zwaarden-9-uit-de-tarot-ook-dit-gaat-voorbij/";
   }
   if (suite === "Staven" && number === "6") {
-    return "http://tarotstapvoorstap.nl/tarotkaarten/tarotkaarten-staven-zes/";
+    return base + "tarotkaarten-staven-zes/";
   }
   if (suite === "Pentakels" && name === "Page") {
-    return "http://tarotstapvoorstap.nl/tarotkaarten/tarotkaart-pentakels-schildknaap-page/";
+    return base + "tarotkaart-pentakels-schildknaap-page/";
   }
   if (name === "De Dwaas") {
-    return "http://tarotstapvoorstap.nl/tarotkaarten/de-dwaas-tarot-nul/";
+    return base + "de-dwaas-tarot-nul/";
   }
 
   //  general case
@@ -88,12 +90,21 @@ function stapVoorStap({ suite, name, number }) {
 
     name = `tarotkaart-${name}`;
   } else {
-    // try:
-    //     name = self.numbers[int(number)]
-    // except IndexError:
-    //     pass
-    // except ValueError:
-    //     pass
+    try {
+      name = [
+        "nul",
+        "een",
+        "twee",
+        "drie",
+        "vier",
+        "vijf",
+        "zes",
+        "zeven",
+        "acht",
+        "negen",
+        "tien"
+      ][parseInt(number)];
+    } catch (err) {}
 
     if (name === "Page") {
       name = "schildknaap";
@@ -101,14 +112,11 @@ function stapVoorStap({ suite, name, number }) {
 
     name = `tarotkaart-${suite}-${name}`;
     if (suite === "Pentakels" && (number || name === "Aas")) {
-      name = "rider-waite-%s" % name;
+      name = `rider-waite-${name}`;
     }
   }
 
-  return (
-    "https://tarotstapvoorstap.nl/tarotkaarten/" +
-    name.replace(/ /g, "-").toLowerCase()
-  );
+  return base + name.replace(/ /g, "-").toLowerCase();
 }
 
 function kaartEnSterren({ suite, name, number }) {

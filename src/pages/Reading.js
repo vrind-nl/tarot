@@ -50,6 +50,13 @@ export function Reading() {
     return Array.from({ length }, () => Math.random() > 0.5);
   }
 
+  function handleInfo(nr) {
+    if (nr === reading.info) {
+      nr = -1;
+    }
+    setReading({ ...reading, info: nr });
+  }
+
   return (
     <Page title="Legging">
       {reading.cards.length > 0 && (
@@ -68,8 +75,8 @@ export function Reading() {
                 flipped={0}
                 reversed={config.reversed && reading.reversed[nr]}
                 height="300pt"
-                onClick={e => setReading({ ...reading, info: nr })}
-                onTouch={e => setReading({ ...reading, info: nr })}
+                onClick={e => handleInfo(nr)}
+                onTouch={e => handleInfo(nr)}
               />
             </div>
           ))}

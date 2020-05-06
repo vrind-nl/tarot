@@ -12,7 +12,7 @@ export function Card(props) {
     suite === "groot" ? `${card.number} - ${name}` : `${suite} ${name}`;
 
   const prev = card.seqnr > 1 ? card.seqnr - 1 : 78;
-  const next = card.seqnr < 78 ? card.seqnr + 1 : 0;
+  const next = card.seqnr < 78 ? card.seqnr + 1 : 1;
 
   return (
     <Page title={title}>

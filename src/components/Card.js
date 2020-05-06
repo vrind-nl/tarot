@@ -69,7 +69,16 @@ export function Thumbnail({ link, flipped, ...props }) {
       </div>
     );
   } else {
-    return <Image {...props} flipped={0} onClick={() => setIsFlipped(true)} />;
+    return (
+      <Image
+        {...props}
+        flipped={0}
+        onClick={e => {
+          setIsFlipped(!isFlipped);
+          props.onClick(e);
+        }}
+      />
+    );
   }
 }
 
