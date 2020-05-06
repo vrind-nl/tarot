@@ -8,7 +8,7 @@ import { findTerm } from "../db";
 import "./Term.css";
 
 export function TermLink({ name }) {
-  return <HashLink to={"/termen#" + name}>{name}</HashLink>;
+  return <HashLink to={"/begrippen#" + name}>{name}</HashLink>;
 }
 
 export function Term({ name, term, refs, nr }) {
