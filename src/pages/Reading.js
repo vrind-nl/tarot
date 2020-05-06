@@ -69,6 +69,7 @@ export function Reading() {
                 reversed={config.reversed && reading.reversed[nr]}
                 height="300pt"
                 onClick={e => setReading({ ...reading, info: nr })}
+                onTouch={e => setReading({ ...reading, info: nr })}
               />
             </div>
           ))}

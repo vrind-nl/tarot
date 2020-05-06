@@ -352,37 +352,26 @@ function orakels({ seqnr }) {
   return "https://www.orakels.net/tarot/oud-engels/" + ORAKELS[seqnr];
 }
 
+function Ref({ href, children }) {
+  return (
+    <li>
+      <a href={href} target="_blank" rel="noopener noreferrer">
+        {children}
+      </a>
+    </li>
+  );
+}
+
 export function CardLinks(props) {
+  orakels(props); // silence warning while not in use
   return (
     <ul>
-      <li>
-        <a href={pictorialKey(props)} target="_blank">
-          Pictorial Key to the Tarot (Eng)
-        </a>
-      </li>
-      <li>
-        <a href={stapVoorStap(props)} target="_blank">
-          Tarot Stap Voor Stap
-        </a>
-      </li>
-      <li>
-        <a href={kaartEnSterren(props)} target="_blank">
-          Kaart en Sterren
-        </a>
-      </li>
-      <li>
-        <a href={leTarot(props)} target="_blank">
-          Le Tarot
-        </a>
-      </li>
-      <li>
-        <a href={spiriDoc(props)} target="_blank">
-          SpiriDoc
-        </a>
-      </li>
-      {/* <li> */}
-      {/*   <a href={orakels(props)} target="_blank">Orakels</a> */}
-      {/* </li> */}
+      <Ref href={pictorialKey(props)}>Pictorial Key to the Tarot (Eng)</Ref>
+      <Ref href={stapVoorStap(props)}>Tarot Stap Voor Stap</Ref>
+      <Ref href={kaartEnSterren(props)}>Kaart en Sterren</Ref>
+      <Ref href={leTarot(props)}>Le Tarot</Ref>
+      <Ref href={spiriDoc(props)}>SpiriDoc</Ref>
+      {/* <Ref href={orakels(props)}>Orakels</Ref> */}
     </ul>
   );
 }
