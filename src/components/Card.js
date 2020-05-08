@@ -101,7 +101,10 @@ function OptionalInfo({ label, term, children }) {
     <>
       <div className="pure-u-1-5">{label}: </div>
       <div className="pure-u-4-5">
-        {children} {term && `(${term.definition})`}
+        {children}{" "}
+        {term && (
+          <span dangerouslySetInnerHTML={{ __html: `(${term.definition})` }} />
+        )}
       </div>
     </>
   ) : (

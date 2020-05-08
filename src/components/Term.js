@@ -28,7 +28,7 @@ export function Term({ name, term, refs, nr }) {
       style={nr % 2 === 0 ? { backgroundColor: "#eee" } : {}}
     >
       <div className="pure-u-1-5">{name}</div>
-      <div className="pure-u-3-5">{term}</div>
+      <div dangerouslySetInnerHTML={{ __html: term }} className="pure-u-3-5" />
       <div className="pure-u-1-5">
         {refs && refs.length > 0 && (
           <>
