@@ -1,6 +1,10 @@
 import React from "react";
 import PropTypes from "prop-types";
 
+export function RawContent({ children }) {
+  return <span dangerouslySetInnerHTML={{ __html: children }} />;
+}
+
 export function Content({ file }) {
   const [content, setContent] = React.useState("");
 
@@ -19,7 +23,7 @@ export function Content({ file }) {
     resp.send(null);
   });
 
-  return <div dangerouslySetInnerHTML={{ __html: content }} />;
+  return <RawContent>{content}</RawContent>;
 }
 
 Content.propTypes = {

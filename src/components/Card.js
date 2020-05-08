@@ -4,6 +4,7 @@ import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 
 import { findTerm } from "../db";
+import { RawContent } from "./Content";
 import { Terms } from "./Term";
 import { CardLinks } from "./Reference";
 
@@ -98,15 +99,12 @@ Thumbnail.defaultProps = {
 function OptionalInfo({ label, term, children }) {
   term = findTerm(term);
   return children ? (
-    <>
-      <div className="pure-u-1-5">{label}: </div>
-      <div className="pure-u-4-5">
-        {children}{" "}
-        {term && (
-          <span dangerouslySetInnerHTML={{ __html: `(${term.definition})` }} />
-        )}
-      </div>
-    </>
+    <tr>
+      <td>{label}: </td>
+      <td>
+        {children} {term && <RawContent>{term.definition}</RawContent>}
+      </td>
+    </tr>
   ) : (
     ""
   );
@@ -115,34 +113,40 @@ function OptionalInfo({ label, term, children }) {
 export function CardInfo(props) {
   return (
     <>
-      <OptionalInfo
-        label="Arcana"
-        term={props.suite === "groot" ? "Grote Arcana" : "Kleine Arcana"}
-      >
-        {props.suite === "groot" ? "Groot" : "Klein"}
-      </OptionalInfo>
-      <OptionalInfo label="Kleur" term={props.suite.toLowerCase()}>
-        {props.suite !== "groot" && props.suite}
-      </OptionalInfo>
-      <OptionalInfo label="Nummer" term={props.number}>
-        {props.number}
-      </OptionalInfo>
-      <OptionalInfo label="Kaart" term={props.name}>
-        {props.name}
-      </OptionalInfo>
-      <OptionalInfo label="Alias">{props.alias}</OptionalInfo>
-      <OptionalInfo label="Kernwoorden">
-        {props.keywords.join(", ")}
-      </OptionalInfo>
-      <OptionalInfo label="Uitnodiging">{props.invitation}</OptionalInfo>
-      <OptionalInfo label="Waarschuwing">{props.warning}</OptionalInfo>
-      {props.comment && (
-        <OptionalInfo label="Opmerking">
-          {typeof props.comment === "string"
-            ? props.comment
-            : props.comment.map((comment, nr) => <li key={nr}>{comment}</li>)}
-        </OptionalInfo>
-      )}
+      <table>
+        <tbody>
+          <OptionalInfo
+            label="Arcana"
+            term={props.suite === "groot" ? "Grote Arcana" : "Kleine Arcana"}
+          >
+            {props.suite === "groot" ? "Groot" : "Klein"}
+          </OptionalInfo>
+          <OptionalInfo label="Kleur" term={props.suite.toLowerCase()}>
+            {props.suite !== "groot" && props.suite}
+          </OptionalInfo>
+          <OptionalInfo label="Nummer" term={props.number}>
+            {props.number}
+          </OptionalInfo>
+          <OptionalInfo label="Kaart" term={props.name}>
+            {props.name}
+          </OptionalInfo>
+          <OptionalInfo label="Alias">{props.alias}</OptionalInfo>
+          <OptionalInfo label="Kernwoorden">
+            {props.keywords.join(", ")}
+          </OptionalInfo>
+          <OptionalInfo label="Uitnodiging">{props.invitation}</OptionalInfo>
+          <OptionalInfo label="Waarschuwing">{props.warning}</OptionalInfo>
+          {props.comment && (
+            <OptionalInfo label="Opmerking">
+              {typeof props.comment === "string"
+                ? props.comment
+                : props.comment.map((comment, nr) => (
+                    <li key={nr}>{comment}</li>
+                  ))}
+            </OptionalInfo>
+          )}
+        </tbody>
+      </table>
       <h3>Begrippen</h3>
       <Terms
         terms={props.symbols.sort().map(name => ({

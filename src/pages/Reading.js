@@ -90,7 +90,7 @@ export function Reading() {
           <CardInfo {...reading.cards[reading.info]} />
         </div>
       )}
-      <table className="pure-table" style={{ marginTop: "20pt" }}>
+      <table style={{ marginTop: "20pt" }}>
         <tbody>
           <FormRow
             type="number"

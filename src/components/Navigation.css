@@ -1,0 +1,12 @@
+nav {
+  overflow: hidden;
+  background-color: lightgrey;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 5pt;
+}
+
+nav * {
+    margin: 10pt;
+}

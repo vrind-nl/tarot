@@ -4,6 +4,7 @@ import PropTypes from "prop-types";
 import { HashLink } from "react-router-hash-link";
 
 import { findTerm } from "../db";
+import { RawContent } from "./Content";
 
 import "./Term.css";
 
@@ -22,14 +23,16 @@ export function Term({ name, term, refs, nr }) {
     }
   }
   return (
-    <div
+    <tr
       id={name}
       className="terms"
       style={nr % 2 === 0 ? { backgroundColor: "#eee" } : {}}
     >
-      <div className="pure-u-1-5">{name}</div>
-      <div dangerouslySetInnerHTML={{ __html: term }} className="pure-u-3-5" />
-      <div className="pure-u-1-5">
+      <td>{name}</td>
+      <td>
+        <RawContent>{term}</RawContent>
+      </td>
+      <td>
         {refs && refs.length > 0 && (
           <>
             {refs
@@ -37,8 +40,8 @@ export function Term({ name, term, refs, nr }) {
               .map((link, nr) => [nr > 0 && ", ", link])}
           </>
         )}
-      </div>
-    </div>
+      </td>
+    </tr>
   );
 }
 
@@ -54,19 +57,19 @@ Term.defaultProps = {
 
 export function Terms({ terms }) {
   return (
-    <>
-      <div className="pure-u-1-5">
-        <b>Begrip</b>
-      </div>
-      <div className="pure-u-3-5">
-        <b>Definitie</b>
-      </div>
-      <div className="pure-u-1-5">
-        <b>Zie ook</b>
-      </div>
-      {terms.map((term, nr) => {
-        return <Term key={term.name} {...term} nr={nr} />;
-      })}
-    </>
+    <table>
+      <thead>
+        <tr>
+          <th>Begrip</th>
+          <th>Definitie</th>
+          <th>Zie ook</th>
+        </tr>
+      </thead>
+      <tbody>
+        {terms.map((term, nr) => {
+          return <Term key={term.name} {...term} nr={nr} />;
+        })}
+      </tbody>
+    </table>
   );
 }

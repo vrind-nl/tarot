@@ -7,19 +7,15 @@ import { Card, CardByNumber } from "../pages/Card";
 import { Reading } from "../pages/Reading";
 import { Terms } from "../pages/Term";
 
+import "./Navigation.css";
+
 function NavLink({ name }) {
-  return (
-    <li className="pure-menu-item">
-      <Link className="pure-menu-link" to={"/" + name.toLowerCase()}>
-        {name}
-      </Link>
-    </li>
-  );
+  return <Link to={"/" + name.toLowerCase()}>{name}</Link>;
 }
 
 export function Navigation() {
   return (
-    <nav className="pure-menu pure-menu-horizontal">
+    <nav>
       <NavLink name="Overzicht" />
       <NavLink name="Begrippen" />
       <NavLink name="Legging" />
