@@ -102,7 +102,7 @@ function OptionalInfo({ label, term, children }) {
     <tr>
       <td>{label}: </td>
       <td>
-        {children} {term && <RawContent>{term.definition}</RawContent>}
+        {children} {term && <RawContent>{` (${term.definition})`}</RawContent>}
       </td>
     </tr>
   ) : (
