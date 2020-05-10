@@ -62,13 +62,7 @@ export function Thumbnail({ link, flipped, ...props }) {
     if (link) {
       img = <CardLink {...props}>{img}</CardLink>;
     }
-    return (
-      <div style={{ textAlign: "center" }}>
-        {img}
-        <br />
-        {props.keyword}
-      </div>
-    );
+    return <div style={{ textAlign: "center" }}>{img}</div>;
   } else {
     return (
       <Image
@@ -130,8 +124,9 @@ export function CardInfo(props) {
           <OptionalInfo label="Kaart" term={props.name}>
             {props.name}
           </OptionalInfo>
+          <OptionalInfo label="Kernwoord">{props.keyword}</OptionalInfo>
           <OptionalInfo label="Alias">{props.alias}</OptionalInfo>
-          <OptionalInfo label="Kernwoorden">
+          <OptionalInfo label="Steekwoorden">
             {props.keywords.join(", ")}
           </OptionalInfo>
           <OptionalInfo label="Uitnodiging">{props.invitation}</OptionalInfo>

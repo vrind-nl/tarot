@@ -13,7 +13,7 @@ export function Card(props) {
 
   const prev = card.seqnr > 1 ? card.seqnr - 1 : 78;
   const next = card.seqnr < 78 ? card.seqnr + 1 : 1;
-
+  const rnd = Math.floor(Math.random() * 78) + 1;
   return (
     <Page title={title}>
       <table>
@@ -23,6 +23,8 @@ export function Card(props) {
               <Thumbnail {...card} />
               <div style={{ marginTop: "15pt" }}>
                 <Link to={"/card/number/" + prev}>&lt;&lt;&lt;</Link>
+                {"  "}
+                <Link to={"/card/number/" + rnd}>X</Link>
                 {"  "}
                 <Link to={"/card/number/" + next}>&gt;&gt;&gt;</Link>
               </div>

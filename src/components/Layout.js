@@ -8,8 +8,13 @@ function LayoutRow({ cards, layout }) {
   return (
     <tr>
       {layout.map((card, nr) => (
-        <td key={nr}>
-          {card !== null && <Thumbnail {...cards[card]} link={1} />}
+        <td key={nr} style={{ textAlign: "center" }}>
+          {card !== null && (
+            <>
+              <Thumbnail {...cards[card]} link={1} />
+              {cards[card].keyword}
+            </>
+          )}
         </td>
       ))}
     </tr>
