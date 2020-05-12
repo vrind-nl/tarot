@@ -5,7 +5,9 @@ import { Page } from "../components/Page";
 import { Terms as TermList } from "../components/Term";
 
 export function Terms() {
-  const categories = terms().distinct("category");
+  const categories = terms()
+    .distinct("category")
+    .sort();
   return (
     <Page title="Begrippen">
       {categories.map(category => (

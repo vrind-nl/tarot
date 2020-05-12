@@ -99,7 +99,7 @@
     "refs": ["kelken"]
   },
   {
-    "category": "Symbolen",
+    "category": "Getallen",
     "name": "O",
     "definition": "leegte, alomvattendheid, kosmische invloed, chaos"
   },
@@ -116,7 +116,7 @@
   {
     "category": "Getallen",
     "name": "III",
-    "refs": ["Drie-eenheid"],
+    "refs": ["drie-eenheid"],
     "definition": "groei, vruchtbaarheid, gilden: leerling"
   },
   {
@@ -196,7 +196,7 @@
     "definition": "gezag, competentie, verantwoordelijk"
   },
   {
-    "category": "Symbolen",
+    "category": "Elementen",
     "name": "aarde",
     "refs": ["globe"],
     "definition": "vruchtbaarheid"
@@ -233,12 +233,12 @@
     "definition": "boom van kennis (van goed en kwaad), bewustzijn"
   },
   {
-    "category": "Symbolen",
+    "category": "Kaartsoorten",
     "name": "arcana",
     "definition": "geheimen"
   },
   {
-    "category": "Symbolen",
+    "category": "Dieren",
     "name": "arend",
     "refs": ["water", "feniks"],
     "definition": "god ziet de mens"
@@ -286,7 +286,7 @@
     "definition": "uiterlijke religie, kerkelijke macht"
   },
   {
-    "category": "Symbolen",
+    "category": "Kleuren",
     "name": "blauw",
     "definition": "rust, vrede, intelligentie, stabiliteit, loyaal, conservatief, koelheid"
   },
@@ -334,7 +334,7 @@
     "category": "Symbolen",
     "name": "boekrol",
     "refs": ["boek"],
-    "definition": "intu\u00eftieve bron"
+    "definition": "intuïeftieve bron"
   },
   {
     "category": "Symbolen",
@@ -387,7 +387,7 @@
     "definition": "de dood, sterfelijkheid"
   },
   {
-    "category": "Symbolen",
+    "category": "Dieren",
     "name": "draak",
     "refs": ["vuur", "slang"],
     "definition": "tegenstander, schatbewaker, onsterfelijkheid"
@@ -414,7 +414,7 @@
     "definition": "genade, vrede, hoop"
   },
   {
-    "category": "Symbolen",
+    "category": "Dieren",
     "name": "duif",
     "definition": "brenger van vrede, heilige geest"
   },
@@ -435,12 +435,12 @@
     "definition": "boodschapper van god, oorsprong van de mens"
   },
   {
-    "category": "Symbolen",
+    "category": "Dieren",
     "name": "feniks",
     "definition": "verjonging (door drievoudige onderdompeling in water), herboren ziel"
   },
   {
-    "category": "Symbolen",
+    "category": "Kleuren",
     "name": "geel",
     "refs": ["zon"],
     "definition": "levenskracht en warmte, nadenken, vrolijkheid, creativiteit, afgunst, onrust"
@@ -453,11 +453,11 @@
   {
     "category": "Symbolen",
     "name": "geestelijke",
-    "refs": ["hi\u00ebrofant"],
+    "refs": ["hiërofant"],
     "definition": "toewijding, toetreding, intelligentie"
   },
   {
-    "category": "Symbolen",
+    "category": "Dieren",
     "name": "geit",
     "definition": "voedster, doorzettingsvermogen, seksueel plezier"
   },
@@ -494,7 +494,7 @@
     "definition": "weelde, mensen in groep, vrouwelijke sexualiteit"
   },
   {
-    "category": "Symbolen",
+    "category": "Kleuren",
     "name": "grijs",
     "refs": ["zwart", "wit"],
     "definition": "harmonie (zwart en wit gemengd), rust en onopvallendheid, evenwicht, wijsheid, dreiging"
@@ -506,7 +506,7 @@
     "definition": "eenvoud, bewust leven"
   },
   {
-    "category": "Symbolen",
+    "category": "Kleuren",
     "name": "groen",
     "refs": ["blauw", "geel"],
     "definition": "groei, ontwikkeling, harmonie, ontspanning, verveling, weerstand"
@@ -528,12 +528,12 @@
     "refs": ["muur"]
   },
   {
-    "category": "Symbolen",
+    "category": "Dieren",
     "name": "haas",
     "definition": "vruchtbaarheid, opofferingsgezindheid, reflexen, snel"
   },
   {
-    "category": "Symbolen",
+    "category": "Dieren",
     "name": "hagedis",
     "refs": ["salamander"]
   },
@@ -585,7 +585,7 @@
   },
   {
     "category": "Symbolen",
-    "name": "hi\u00ebrofant",
+    "name": "hiërofant",
     "refs": ["hogepriester"]
   },
   {
@@ -594,7 +594,7 @@
     "definition": "trouw, waakzaam, getemd, kent de weg, ongebreidelde lust, instinct"
   },
   {
-    "category": "Symbolen",
+    "category": "Dieren",
     "name": "hond + wolf",
     "definition": "getemde en ongetemde energi\u00ebn (in de mens)"
   },
@@ -662,7 +662,7 @@
     "refs": ["burcht"]
   },
   {
-    "category": "Symbolen",
+    "category": "Dieren",
     "name": "kat",
     "definition": "magie, bewustzijn"
   },
@@ -682,7 +682,7 @@
     "definition": "wereldse bezittingen"
   },
   {
-    "category": "Symbolen",
+    "category": "Dieren",
     "name": "konijn",
     "refs": ["haas"]
   },
@@ -692,7 +692,7 @@
     "definition": "rijke oogst, toegeweid moederschap, scheppende kracht"
   },
   {
-    "category": "Symbolen",
+    "category": "Dieren",
     "name": "kreeft",
     "definition": "primitief dier, de angsten en illusies willen zich manifesteren, rusteloosheid"
   },
@@ -737,7 +737,7 @@
     "definition": "vergankelijke macht, zegeviering na (innerlijke) strijd"
   },
   {
-    "category": "Symbolen",
+    "category": "Dieren",
     "name": "leeuw",
     "refs": ["vuur"],
     "definition": "moedige bewaker van grenzen, gevestigde macht, eenling, koning der dieren, nobel"
@@ -774,7 +774,7 @@
     "definition": "spiritualiteit, kunst, inzicht, zelfvernieuwing"
   },
   {
-    "category": "Symbolen",
+    "category": "Elementen",
     "name": "lucht",
     "definition": "denken, liefhebben, van iedereen"
   },
@@ -842,7 +842,7 @@
     "definition": "zegebrengend"
   },
   {
-    "category": "Symbolen",
+    "category": "Kleuren",
     "name": "oranje",
     "refs": ["geel", "rood"],
     "definition": "passie, hartstocht, optimisme, overdaad, losbandig"
@@ -859,12 +859,12 @@
     "definition": "slangengordel"
   },
   {
-    "category": "Symbolen",
+    "category": "Dieren",
     "name": "paard",
     "definition": "kracht en vitaliteit, edel en intelligent, fierheid, werklust"
   },
   {
-    "category": "Symbolen",
+    "category": "Kleuren",
     "name": "paars",
     "definition": "inventiviteit, inspiratie, originaliteit, spiritualiteit, boete doen"
   },
@@ -894,7 +894,7 @@
     "definition": "vrouw, verleiding"
   },
   {
-    "category": "Symbolen",
+    "category": "Dieren",
     "name": "pauw",
     "refs": ["zon"],
     "definition": "onsterfelijkheid, zelfvertrouwen"
@@ -936,7 +936,7 @@
     "definition": "cyclus"
   },
   {
-    "category": "Symbolen",
+    "category": "Dieren",
     "name": "ram",
     "definition": "daadkracht, onvoorzichtig, onvoorspelbaar, autoriteit, leiderschap, aggressiviteit, vasteberaden"
   },
@@ -977,7 +977,7 @@
     "definition": "koninklijke waardigheid, hartstochtelijke liefde, levenskracht"
   },
   {
-    "category": "Symbolen",
+    "category": "Kleuren",
     "name": "rood",
     "definition": "Hartstocht, fysieke manifestatie, actie, macht, levenskracht"
   },
@@ -997,7 +997,7 @@
     "definition": "geeft gemoedsrust,  fysieke/geestelijke/spirituele harmonie, helpt te concentreren, verlicht stress, verbondenheid met de Goddelijke wereld"
   },
   {
-    "category": "Symbolen",
+    "category": "Dieren",
     "name": "salamander",
     "refs": ["vuur"],
     "definition": "vernieuwing, geestelijk inzicht, ziel"
@@ -1023,18 +1023,18 @@
     "definition": "kennisoverdracht"
   },
   {
-    "category": "Symbolen",
+    "category": "Dieren",
     "name": "sfinx",
     "definition": "wijsheid, levensvragen, macht, middelpunt, balans"
   },
   {
-    "category": "Symbolen",
+    "category": "Dieren",
     "name": "slak",
     "refs": ["huis"],
     "definition": "langzaam maar zeker, draagt zijn eigen huis"
   },
   {
-    "category": "Symbolen",
+    "category": "Dieren",
     "name": "slang",
     "refs": ["kringloop"],
     "definition": "verleiding, onderwereld, dodenrijk"
@@ -1065,7 +1065,7 @@
     "definition": "hemel"
   },
   {
-    "category": "Symbolen",
+    "category": "Dieren",
     "name": "stier",
     "refs": ["aarde"],
     "definition": "offeren, mannelijke vruchtbaarheid, agressie, vechtlust"
@@ -1119,7 +1119,7 @@
     "definition": "zijn wapen is het leven zelf"
   },
   {
-    "category": "Symbolen",
+    "category": "Dieren",
     "name": "valk",
     "refs": ["vogel"],
     "definition": "adel, koninklijk, alziend oog, onkwetsbaar"
@@ -1147,7 +1147,7 @@
     "definition": "verschuilen"
   },
   {
-    "category": "Symbolen",
+    "category": "Dieren",
     "name": "vis",
     "definition": "diepgaande transformatie, inwijding"
   },
@@ -1162,12 +1162,12 @@
     "definition": "onze tijd van leven vervliegt bij dag en nacht, bij goed en kwaad"
   },
   {
-    "category": "Symbolen",
+    "category": "Dieren",
     "name": "vlinder",
     "definition": "transformatie"
   },
   {
-    "category": "Symbolen",
+    "category": "Dieren",
     "name": "vogel",
     "definition": "vrijheid, van ver halen, hoogvlieger"
   },
@@ -1199,12 +1199,12 @@
     "definition": "intu\u00eftie, ontvankelijk"
   },
   {
-    "category": "Symbolen",
+    "category": "Elementen",
     "name": "vuur",
     "definition": "kracht, zowel verterend als reinigend"
   },
   {
-    "category": "Symbolen",
+    "category": "Elementen",
     "name": "water",
     "definition": "Emoties, gevoelens, oerzee, spiegel, de diepte van de ziel, het nog niet gemanifesteerde"
   },
@@ -1225,13 +1225,13 @@
     "refs": ["globe"]
   },
   {
-    "category": "Symbolen",
+    "category": "Dieren",
     "name": "wijngaardslak",
     "refs": ["slak"],
     "definition": "overwinteren"
   },
   {
-    "category": "Symbolen",
+    "category": "Kleuren",
     "name": "wit",
     "definition": "onschuld, open, zuiver, \u2018ware' spiritualiteit, na\u00efviteit, leegte, perfectionisme"
   },
@@ -1294,7 +1294,7 @@
     "definition": "scherpzinnigheid, gerechtigheid"
   },
   {
-    "category": "Symbolen",
+    "category": "Kleuren",
     "name": "zwart",
     "definition": "nacht, duisternis, rebellie, mysterie"
   },
