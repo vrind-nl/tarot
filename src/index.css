@@ -11,7 +11,12 @@ code {
     monospace;
 }
 
-td {
+td, th {
     vertical-align: top;
     padding: 5pt;
+    text-align: left;
+}
+
+th, tr:nth-child(even) {
+    background: #eee;
 }

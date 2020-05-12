@@ -4,7 +4,7 @@ import packageInfo from "../../package.json";
 
 export function Page({ title, children }) {
   return (
-    <div style={{ margin: "20pt", transform: "translate(0, 30pt)" }}>
+    <div style={{ margin: "20pt" }}>
       <h1>{title}</h1>
       {children}
       <hr />

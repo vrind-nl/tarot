@@ -1,1220 +1,1318 @@
 [
   {
+    "category": "Kaartsoorten",
     "name": "Grote Arcana",
-    "refs": [],
     "definition": "de grote geheimen van het leven, archetypes"
   },
   {
+    "category": "Kaartsoorten",
     "name": "Grote Arcana 1-10",
-    "refs": [],
     "definition": "verwerven van eigenschappen en innerlijke kwaliteiten"
   },
   {
+    "category": "Kaartsoorten",
     "name": "Grote Arcana 11-20",
-    "refs": [],
     "definition": "leren omgaan met de ervaringen die het leven brengt"
   },
   {
+    "category": "Kaartsoorten",
     "name": "Kleine Arcana",
-    "refs": [],
     "definition": "geheimen van het alledaagse leven"
   },
   {
+    "category": "Kaartsoorten",
     "name": "getallen",
-    "refs": [],
     "definition": "Doen (dingen die je zelf in de hand hebt)"
   },
   {
+    "category": "Kaartsoorten",
     "name": "hofkaart",
-    "refs": [],
     "definition": "Zijn (invloeden van/naar je omgeving)"
   },
   {
+    "category": "Kaartsoorten",
     "name": "staven",
     "refs": ["vuur"],
     "definition": "&clubs;, verlangen, intu\u00eftie/idee\u00ebn/inspiratie, daadkracht/uitvoerend, boeren/arbeiders"
   },
   {
+    "category": "Kaartsoorten",
     "name": "pentakels",
     "refs": ["Aarde", "V"],
     "definition": "&diams;, fysiek/materie, zintuigen/praktisch, comfort, operationeel, ambachtslieden/handelaars"
   },
   {
+    "category": "Kaartsoorten",
     "name": "zwaarden",
     "refs": ["lucht"],
     "definition": "&spades;, denken, verstand, woorden, tactisch, adel"
   },
   {
+    "category": "Kaartsoorten",
     "name": "kelken",
     "refs": ["water"],
     "definition": "&hearts;, onderbewuste, emotie, strategisch, geestelijkheid/staatslieden"
   },
   {
+    "category": "Symbolen",
     "name": "staf",
     "refs": ["staven"]
   },
   {
+    "category": "Symbolen",
     "name": "pentakel",
     "refs": ["pentakels"]
   },
   {
+    "category": "Symbolen",
     "name": "zwaard",
     "refs": ["zwaarden"]
   },
   {
+    "category": "Symbolen",
     "name": "beker",
     "refs": ["kelken"]
   },
   {
+    "category": "Symbolen",
     "name": "kelk",
     "refs": ["kelken"]
   },
   {
+    "category": "Symbolen",
     "name": "klavers",
     "refs": ["staven"]
   },
   {
+    "category": "Symbolen",
     "name": "ruiten",
     "refs": ["pentakels"]
   },
   {
+    "category": "Symbolen",
     "name": "schoppen",
     "refs": ["zwaarden"]
   },
   {
+    "category": "Symbolen",
     "name": "harten",
     "refs": ["kelken"]
   },
   {
+    "category": "Symbolen",
     "name": "O",
-    "refs": [],
     "definition": "leegte, alomvattendheid, kosmische invloed, chaos"
   },
   {
+    "category": "Getallen",
     "name": "I",
-    "refs": [],
     "definition": "Potentie, eenheid, oorsprong, uniek"
   },
   {
+    "category": "Getallen",
     "name": "II",
-    "refs": [],
     "definition": "dualiteit, spiegelbeeld"
   },
   {
+    "category": "Getallen",
     "name": "III",
     "refs": ["Drie-eenheid"],
     "definition": "groei, vruchtbaarheid, gilden: leerling"
   },
   {
+    "category": "Getallen",
     "name": "IV",
     "refs": ["elementen"],
     "definition": "fixatie, vastzetten/vastzitten"
   },
   {
+    "category": "Getallen",
     "name": "V",
     "refs": ["zintuigen"],
     "definition": "conflict, tegenslag, kantelpunt, gilden: gezel"
   },
   {
+    "category": "Getallen",
     "name": "VI",
-    "refs": [],
     "definition": "voortgang, hoogtepunten, delen"
   },
   {
+    "category": "Getallen",
     "name": "VII",
-    "refs": [],
     "definition": "onzekerheid, geheimzinnigheid, gilden: meester"
   },
   {
+    "category": "Getallen",
     "name": "VIII",
-    "refs": [],
     "definition": "grenzen, stagnatie, promiscu"
   },
   {
+    "category": "Getallen",
     "name": "IX",
-    "refs": [],
     "definition": "voltoo\u00efng, bewustzijn, reflecteren, gilden: bouwmeester"
   },
   {
+    "category": "Getallen",
     "name": "X",
-    "refs": [],
     "definition": "climax, overgang, einde=begin"
   },
   {
+    "category": "Getallen",
     "name": "XI",
-    "refs": [],
     "definition": "openbaring, inspiratie"
   },
   {
+    "category": "Getallen",
     "name": "XII",
-    "refs": [],
     "definition": "volledigheid, perfectie, deelbaarheid"
   },
   {
+    "category": "Kaartsoorten",
     "name": "aas",
     "refs": ["I"],
     "definition": "waar je mee begint"
   },
   {
+    "category": "Kaartsoorten",
     "name": "page",
     "refs": ["jonge man"],
     "definition": "jongeling, kans"
   },
   {
+    "category": "Kaartsoorten",
     "name": "ridder",
-    "refs": [],
     "definition": "strijder, beschermen van zwakkeren, impulsief"
   },
   {
+    "category": "Kaartsoorten",
     "name": "koningin",
     "refs": ["volwassen vrouw"],
     "definition": "invloed, wijsheid, niet moederlijk"
   },
   {
+    "category": "Kaartsoorten",
     "name": "koning",
     "refs": ["volwassen man"],
     "definition": "gezag, competentie, verantwoordelijk"
   },
   {
+    "category": "Symbolen",
     "name": "aarde",
     "refs": ["globe"],
     "definition": "vruchtbaarheid"
   },
   {
+    "category": "Symbolen",
     "name": "adept",
     "refs": ["monnik"]
   },
   {
+    "category": "Symbolen",
     "name": "afgewend",
-    "refs": [],
     "definition": "vooruit- of terugblikken"
   },
   {
+    "category": "Symbolen",
     "name": "akker",
-    "refs": [],
     "definition": "Wat je zaait, zul je oogsten. Groei kost tijd."
   },
   {
+    "category": "Symbolen",
     "name": "altaar",
-    "refs": [],
     "definition": "religie"
   },
   {
+    "category": "Symbolen",
     "name": "ankh",
     "refs": ["skepter", "jakhalsgod"],
     "definition": "eeuwig leven"
   },
   {
+    "category": "Symbolen",
     "name": "appelboom",
-    "refs": [],
     "definition": "boom van kennis (van goed en kwaad), bewustzijn"
   },
   {
+    "category": "Symbolen",
     "name": "arcana",
-    "refs": [],
     "definition": "geheimen"
   },
   {
+    "category": "Symbolen",
     "name": "arend",
     "refs": ["water", "feniks"],
     "definition": "god ziet de mens"
   },
   {
+    "category": "Symbolen",
     "name": "aureool",
-    "refs": [],
     "definition": "diepe trance, verandering in bewustzijn"
   },
   {
+    "category": "Symbolen",
     "name": "baldakijn",
     "refs": ["troonhemel"]
   },
   {
+    "category": "Symbolen",
     "name": "bank",
-    "refs": [],
     "definition": "Neem tijd om na te denken"
   },
   {
+    "category": "Symbolen",
     "name": "bazuin",
-    "refs": [],
     "definition": "belangrijke aankondiging, oproep van de Hogere Natuur "
   },
   {
+    "category": "Symbolen",
     "name": "bel",
-    "refs": [],
     "definition": "melaatsheid, ziekte"
   },
   {
+    "category": "Symbolen",
     "name": "berg",
-    "refs": [],
     "definition": "standvastigheid, verwezenlijking, mystieke reis"
   },
   {
+    "category": "Symbolen",
     "name": "bergtop",
     "refs": ["berg"],
     "definition": "plaats dicht bij god"
   },
   {
+    "category": "Symbolen",
     "name": "bisschop",
     "refs": ["geestelijke"],
     "definition": "uiterlijke religie, kerkelijke macht"
   },
   {
+    "category": "Symbolen",
     "name": "blauw",
-    "refs": [],
     "definition": "rust, vrede, intelligentie, stabiliteit, loyaal, conservatief, koelheid"
   },
   {
+    "category": "Symbolen",
     "name": "blauw kleed",
     "refs": ["blauw"]
   },
   {
+    "category": "Symbolen",
     "name": "bliksem",
-    "refs": [],
     "definition": "goddelijke communicatie, vernietiging, plotseling en kortstondig inzicht"
   },
   {
+    "category": "Symbolen",
     "name": "blinddoek",
-    "refs": [],
     "definition": "onwetendheid, verblinding, overgeleverd zijn aan het lot"
   },
   {
+    "category": "Symbolen",
     "name": "bloed",
-    "refs": [],
     "definition": "liefde, levenskracht"
   },
   {
+    "category": "Symbolen",
     "name": "bloemen",
-    "refs": [],
     "definition": "natuurlijke levenskracht, levensvreugde, actief en viriel"
   },
   {
+    "category": "Symbolen",
     "name": "bloemenkrans",
     "refs": ["bloemen"]
   },
   {
+    "category": "Symbolen",
     "name": "Boaz",
-    "refs": [],
     "definition": "bevestigen, strengheid (intentie)"
   },
   {
+    "category": "Symbolen",
     "name": "boek",
-    "refs": [],
     "definition": "kennisbron"
   },
   {
+    "category": "Symbolen",
     "name": "boekrol",
     "refs": ["boek"],
     "definition": "intu\u00eftieve bron"
   },
   {
+    "category": "Symbolen",
     "name": "boog",
     "refs": ["poort"]
   },
   {
+    "category": "Symbolen",
     "name": "boom",
-    "refs": [],
     "definition": "levenskracht"
   },
   {
+    "category": "Symbolen",
     "name": "boot",
-    "refs": [],
     "definition": "Verre reis (door de onderwereld?)"
   },
   {
+    "category": "Symbolen",
     "name": "borsten",
-    "refs": [],
     "definition": "verborgen vruchtbaarheid, de mogelijkheid te cree\u00ebren en te vermenigvuldigen zonder de ander/Ander, androgyne figuur"
   },
   {
+    "category": "Symbolen",
     "name": "brug",
-    "refs": [],
     "definition": "overgang"
   },
   {
+    "category": "Symbolen",
     "name": "burcht",
-    "refs": [],
     "definition": "bescherming, veilige thuishaven"
   },
   {
+    "category": "Symbolen",
     "name": "caduceus",
-    "refs": [],
     "definition": "vereniging van tegengestelden, respect voor diversiteit"
   },
   {
+    "category": "Symbolen",
     "name": "cupido",
-    "refs": [],
     "definition": "liefde"
   },
   {
+    "category": "Symbolen",
     "name": "davidsster",
-    "refs": [],
     "definition": "harmonie"
   },
   {
+    "category": "Symbolen",
     "name": "doodshoofd",
-    "refs": [],
     "definition": "de dood, sterfelijkheid"
   },
   {
+    "category": "Symbolen",
     "name": "draak",
     "refs": ["vuur", "slang"],
     "definition": "tegenstander, schatbewaker, onsterfelijkheid"
   },
   {
+    "category": "Symbolen",
     "name": "drie-eenheid",
-    "refs": [],
     "definition": "geest/ziel/lichaam, vader/zoon/heilige geest, hemel/aarde/hel"
   },
   {
+    "category": "Symbolen",
     "name": "driehoek",
     "refs": ["III", "vuur"],
     "definition": "geest"
   },
   {
+    "category": "Symbolen",
     "name": "druiven",
-    "refs": [],
     "definition": "overvloed, rijke oogst, verlossing, gastvrijheid"
   },
   {
+    "category": "Symbolen",
     "name": "druppel",
-    "refs": [],
     "definition": "genade, vrede, hoop"
   },
   {
+    "category": "Symbolen",
     "name": "duif",
-    "refs": [],
     "definition": "brenger van vrede, heilige geest"
   },
   {
+    "category": "Symbolen",
     "name": "edelstenen",
-    "refs": [],
     "definition": "hebzucht, materialisme"
   },
   {
+    "category": "Symbolen",
     "name": "elementen",
     "refs": ["water", "vuur", "lucht", "aarde"]
   },
   {
+    "category": "Symbolen",
     "name": "engel",
     "refs": ["lucht"],
     "definition": "boodschapper van god, oorsprong van de mens"
   },
   {
+    "category": "Symbolen",
     "name": "feniks",
-    "refs": [],
     "definition": "verjonging (door drievoudige onderdompeling in water), herboren ziel"
   },
   {
+    "category": "Symbolen",
     "name": "geel",
     "refs": ["zon"],
     "definition": "levenskracht en warmte, nadenken, vrolijkheid, creativiteit, afgunst, onrust"
   },
   {
+    "category": "Symbolen",
     "name": "geel kleed",
     "refs": ["geel"]
   },
   {
+    "category": "Symbolen",
     "name": "geestelijke",
     "refs": ["hi\u00ebrofant"],
     "definition": "toewijding, toetreding, intelligentie"
   },
   {
+    "category": "Symbolen",
     "name": "geit",
-    "refs": [],
     "definition": "voedster, doorzettingsvermogen, seksueel plezier"
   },
   {
+    "category": "Symbolen",
     "name": "schoffel",
     "refs": ["gereedschap"],
     "definition": "hard werk, leunen, gebruik de juiste gereedschappen"
   },
   {
+    "category": "Symbolen",
     "name": "gezin",
-    "refs": [],
     "definition": "huiselijk geluk"
   },
   {
+    "category": "Symbolen",
     "name": "globe",
-    "refs": [],
     "definition": "de wereld ontdekken/veroveren, het grote plaatje zien"
   },
   {
+    "category": "Symbolen",
     "name": "golven",
     "refs": ["water"],
     "definition": "wisselende stemmingen, wisselend succes"
   },
   {
+    "category": "Symbolen",
     "name": "graan",
     "refs": ["koren"]
   },
   {
+    "category": "Symbolen",
     "name": "granaatappel",
-    "refs": [],
     "definition": "weelde, mensen in groep, vrouwelijke sexualiteit"
   },
   {
+    "category": "Symbolen",
     "name": "grijs",
     "refs": ["zwart", "wit"],
     "definition": "harmonie (zwart en wit gemengd), rust en onopvallendheid, evenwicht, wijsheid, dreiging"
   },
   {
+    "category": "Symbolen",
     "name": "grijs kleed",
     "refs": ["grijs"],
     "definition": "eenvoud, bewust leven"
   },
   {
+    "category": "Symbolen",
     "name": "groen",
     "refs": ["blauw", "geel"],
     "definition": "groei, ontwikkeling, harmonie, ontspanning, verveling, weerstand"
   },
   {
+    "category": "Symbolen",
     "name": "groen kleed",
     "refs": ["groen"],
     "definition": "afremmen, rusten, verlagen"
   },
   {
+    "category": "Symbolen",
     "name": "groene omgeving",
     "refs": ["natuur"]
   },
   {
+    "category": "Symbolen",
     "name": "haag",
     "refs": ["muur"]
   },
   {
+    "category": "Symbolen",
     "name": "haas",
-    "refs": [],
     "definition": "vruchtbaarheid, opofferingsgezindheid, reflexen, snel"
   },
   {
+    "category": "Symbolen",
     "name": "hagedis",
     "refs": ["salamander"]
   },
   {
+    "category": "Symbolen",
     "name": "hamer",
     "refs": ["gereedschap"],
     "definition": "kracht, actie, de klus klaren"
   },
   {
+    "category": "Symbolen",
     "name": "hand",
-    "refs": [],
     "definition": "geven en ontvangen, bescherming, hand van god"
   },
   {
+    "category": "Symbolen",
     "name": "harnas",
-    "refs": [],
     "definition": "mannelijkheid, beschermer, streng, onbuigzaam"
   },
   {
+    "category": "Symbolen",
     "name": "hartvorm",
-    "refs": [],
     "definition": "vrouw, aantrekkingskracht, emoties, het onbewuste, geweten"
   },
   {
+    "category": "Symbolen",
     "name": "herautenstaaf",
     "refs": ["caduceus"]
   },
   {
+    "category": "Symbolen",
     "name": "hermanubis",
     "refs": ["jakhalsgod"]
   },
   {
+    "category": "Symbolen",
     "name": "hermes",
-    "refs": [],
     "definition": "boodschapper van de goden"
   },
   {
+    "category": "Symbolen",
     "name": "hermesvleugels",
     "refs": ["hermes"]
   },
   {
+    "category": "Symbolen",
     "name": "heuvels",
-    "refs": [],
     "definition": "initiatie, vruchtbaarheid"
   },
   {
+    "category": "Symbolen",
     "name": "hi\u00ebrofant",
     "refs": ["hogepriester"]
   },
   {
+    "category": "Symbolen",
     "name": "hond",
-    "refs": [],
     "definition": "trouw, waakzaam, getemd, kent de weg, ongebreidelde lust, instinct"
   },
   {
+    "category": "Symbolen",
     "name": "hond + wolf",
-    "refs": [],
     "definition": "getemde en ongetemde energi\u00ebn (in de mens)"
   },
   {
+    "category": "Symbolen",
     "name": "hoorn",
     "refs": ["bazuin"]
   },
   {
+    "category": "Symbolen",
     "name": "hostie",
-    "refs": [],
     "definition": "offer"
   },
   {
+    "category": "Symbolen",
     "name": "huis",
     "refs": ["gezin"],
     "definition": "geborgenheid, thuis, diepste geheimen"
   },
   {
+    "category": "Symbolen",
     "name": "iris",
-    "refs": [],
     "definition": "boodschappers"
   },
   {
+    "category": "Symbolen",
     "name": "ijs",
-    "refs": [],
     "definition": "wachten, geduld"
   },
   {
+    "category": "Symbolen",
     "name": "Jachin",
-    "refs": [],
     "definition": "kracht, mededogen (vorm)"
   },
   {
+    "category": "Symbolen",
     "name": "jakhalsgod",
-    "refs": [],
     "definition": "voorbode van de dood, begeleider van zielen naar onderwereld"
   },
   {
+    "category": "Symbolen",
     "name": "Jahwe",
-    "refs": [],
     "definition": "de geheime, onuitspreekbare naam van God"
   },
   {
+    "category": "Symbolen",
     "name": "jod",
     "refs": ["yod"]
   },
   {
+    "category": "Symbolen",
     "name": "jonge man",
     "refs": ["man"],
     "definition": "energie, initiatief"
   },
   {
+    "category": "Symbolen",
     "name": "jonge vrouw",
     "refs": ["vrouw"],
     "definition": "vruchtbaar, zuiver"
   },
   {
+    "category": "Symbolen",
     "name": "kasteel",
     "refs": ["burcht"]
   },
   {
+    "category": "Symbolen",
     "name": "kat",
-    "refs": [],
     "definition": "magie, bewustzijn"
   },
   {
+    "category": "Symbolen",
     "name": "ketens",
-    "refs": [],
     "definition": "gebondenheid, verbondenheid, beperking, verslaving"
   },
   {
+    "category": "Symbolen",
     "name": "kind",
-    "refs": [],
     "definition": "goddelijke onschuld, het resultaat van de samensmelting tussen de mannelijke en vrouwelijke energie, einde van de dualiteit, vernieuwde eenheid, frisse blik, toekomst"
   },
   {
+    "category": "Symbolen",
     "name": "knapzak",
-    "refs": [],
     "definition": "wereldse bezittingen"
   },
   {
+    "category": "Symbolen",
     "name": "konijn",
     "refs": ["haas"]
   },
   {
+    "category": "Symbolen",
     "name": "koren",
-    "refs": [],
     "definition": "rijke oogst, toegeweid moederschap, scheppende kracht"
   },
   {
+    "category": "Symbolen",
     "name": "kreeft",
-    "refs": [],
     "definition": "primitief dier, de angsten en illusies willen zich manifesteren, rusteloosheid"
   },
   {
+    "category": "Symbolen",
     "name": "kringloop",
-    "refs": [],
     "definition": "circulair proces, eenheid van alles"
   },
   {
+    "category": "Symbolen",
     "name": "kroon",
-    "refs": [],
     "definition": "wereldse macht, talent, meesterschap"
   },
   {
+    "category": "Symbolen",
     "name": "kruik",
-    "refs": [],
     "definition": "het gaat om de inhoud, wat hou je vast?"
   },
   {
+    "category": "Symbolen",
     "name": "kruis",
-    "refs": [],
     "definition": "religie"
   },
   {
+    "category": "Symbolen",
     "name": "kubus",
-    "refs": [],
     "definition": "het aardse"
   },
   {
+    "category": "Symbolen",
     "name": "kwik",
-    "refs": [],
     "definition": "geest"
   },
   {
+    "category": "Symbolen",
     "name": "lantaarn",
-    "refs": [],
     "definition": "wegwijzen, verlichting, waakzaamheid"
   },
   {
+    "category": "Symbolen",
     "name": "lauwerkrans",
-    "refs": [],
     "definition": "vergankelijke macht, zegeviering na (innerlijke) strijd"
   },
   {
+    "category": "Symbolen",
     "name": "leeuw",
     "refs": ["vuur"],
     "definition": "moedige bewaker van grenzen, gevestigde macht, eenling, koning der dieren, nobel"
   },
   {
+    "category": "Symbolen",
     "name": "lelie",
-    "refs": [],
     "definition": "hartverlangens, maagdelijkheid, reinheid, onschuld, goddelijke genade/gaven, vrijheid om jezelf te zijn"
   },
   {
+    "category": "Symbolen",
     "name": "lemniscaat",
-    "refs": [],
     "definition": "oneindige verbondenheid, heilige geest"
   },
   {
+    "category": "Symbolen",
     "name": "lingam",
     "refs": ["yoni"],
     "definition": "fallussymbool"
   },
   {
+    "category": "Symbolen",
     "name": "links",
-    "refs": [],
     "definition": "vrouwelijke kant, intu\u00eftie, binnen, verleden"
   },
   {
+    "category": "Symbolen",
     "name": "linksboven",
-    "refs": [],
     "definition": "gedachtenwereld"
   },
   {
+    "category": "Symbolen",
     "name": "lotus",
-    "refs": [],
     "definition": "spiritualiteit, kunst, inzicht, zelfvernieuwing"
   },
   {
+    "category": "Symbolen",
     "name": "lucht",
-    "refs": [],
     "definition": "denken, liefhebben, van iedereen"
   },
   {
+    "category": "Symbolen",
     "name": "maagd",
     "refs": ["jonge vrouw"],
     "definition": "(nog) niet seksueel actief"
   },
   {
+    "category": "Symbolen",
     "name": "maan",
     "refs": ["vrouw"],
     "definition": "gids in donkere tijden (de maan reflecteert het licht van de zon), passiviteit, cycli, beweegt oceanen"
   },
   {
+    "category": "Symbolen",
     "name": "man",
-    "refs": [],
     "definition": "zichtbare, spirituele leider"
   },
   {
+    "category": "Symbolen",
     "name": "mirte",
-    "refs": [],
     "definition": "liefde, huwelijk, vruchtbaarheid"
   },
   {
+    "category": "Symbolen",
     "name": "monnik",
-    "refs": [],
     "definition": "aanbidding, onderwerping"
   },
   {
+    "category": "Symbolen",
     "name": "muur",
-    "refs": [],
     "definition": "veiligheid, bescherming, het sensitieve leven is afgescheiden van het goddelijke leven"
   },
   {
+    "category": "Symbolen",
     "name": "naaktheid",
-    "refs": [],
     "definition": "vrijheid, niets te verbergen, kwetsbaarheid"
   },
   {
+    "category": "Symbolen",
     "name": "natuur",
-    "refs": [],
     "definition": "werken met en in de natuur"
   },
   {
+    "category": "Symbolen",
     "name": "oceaan",
     "refs": ["water", "golven"],
     "definition": "oneindige mogelijkheden, grootsheid, mysterie, diepgang"
   },
   {
+    "category": "Symbolen",
     "name": "olijfblad",
-    "refs": [],
     "definition": "vrede"
   },
   {
+    "category": "Symbolen",
     "name": "ondersteboven",
-    "refs": [],
     "definition": "omgekeerde zienswijze"
   },
   {
+    "category": "Symbolen",
     "name": "oosten",
-    "refs": [],
     "definition": "zegebrengend"
   },
   {
+    "category": "Symbolen",
     "name": "oranje",
     "refs": ["geel", "rood"],
     "definition": "passie, hartstocht, optimisme, overdaad, losbandig"
   },
   {
+    "category": "Symbolen",
     "name": "oude man",
-    "refs": [],
     "definition": "wijs, ervaren, bewust van zijn pad"
   },
   {
+    "category": "Symbolen",
     "name": "ourobouros",
     "refs": ["kringloop"],
     "definition": "slangengordel"
   },
   {
+    "category": "Symbolen",
     "name": "paard",
-    "refs": [],
     "definition": "kracht en vitaliteit, edel en intelligent, fierheid, werklust"
   },
   {
+    "category": "Symbolen",
     "name": "paars",
-    "refs": [],
     "definition": "inventiviteit, inspiratie, originaliteit, spiritualiteit, boete doen"
   },
   {
+    "category": "Symbolen",
     "name": "paars kleed",
     "refs": ["paars"]
   },
   {
+    "category": "Symbolen",
     "name": "pad",
-    "refs": [],
     "definition": "reis, bestemming, herkomst, elke reis begint met de eerste stap"
   },
   {
+    "category": "Symbolen",
     "name": "palmhart",
-    "refs": [],
     "definition": "stijgen naar hoger niveau"
   },
   {
+    "category": "Symbolen",
     "name": "palmtak",
-    "refs": [],
     "definition": "overwinning"
   },
   {
+    "category": "Symbolen",
     "name": "parels",
-    "refs": [],
     "definition": "vrouw, verleiding"
   },
   {
+    "category": "Symbolen",
     "name": "pauw",
     "refs": ["zon"],
     "definition": "onsterfelijkheid, zelfvertrouwen"
   },
   {
+    "category": "Symbolen",
     "name": "pentagram",
     "refs": ["pentakel", "zintuigen"],
     "definition": "de nieuwe mens, het universum, elementen + ether (geest)"
   },
   {
+    "category": "Symbolen",
     "name": "perkamentrol",
     "refs": ["schriftrol"]
   },
   {
+    "category": "Symbolen",
     "name": "pilaren",
-    "refs": [],
     "definition": "wijsheid, evenwicht in de wereld"
   },
   {
+    "category": "Symbolen",
     "name": "podium",
-    "refs": [],
     "definition": "abstractie, toneelstuk"
   },
   {
+    "category": "Symbolen",
     "name": "poort",
-    "refs": [],
     "definition": "doorgang, toegang, naar hemel/hel"
   },
   {
+    "category": "Symbolen",
     "name": "pyramide",
-    "refs": [],
     "definition": "energie, occulte wijsheid, universele wetten"
   },
   {
+    "category": "Symbolen",
     "name": "rad",
-    "refs": [],
     "definition": "cyclus"
   },
   {
+    "category": "Symbolen",
     "name": "ram",
-    "refs": [],
     "definition": "daadkracht, onvoorzichtig, onvoorspelbaar, autoriteit, leiderschap, aggressiviteit, vasteberaden"
   },
   {
+    "category": "Symbolen",
     "name": "rechtsonder",
-    "refs": [],
     "definition": "fysieke wereld"
   },
   {
+    "category": "Symbolen",
     "name": "rechts",
     "refs": ["oosten"],
     "definition": "mannelijke kant, verstand, buiten, toekomst"
   },
   {
+    "category": "Symbolen",
     "name": "regen",
-    "refs": [],
     "definition": "schoonspoelen, schenkt leven"
   },
   {
+    "category": "Symbolen",
     "name": "regenboog",
-    "refs": [],
     "definition": "zegen van boven, goddelijke bescherming, (geestelijke) rijkdom, brug naar het paradijs"
   },
   {
+    "category": "Symbolen",
     "name": "rijksappel",
-    "refs": [],
     "definition": "macht over aarde"
   },
   {
+    "category": "Symbolen",
     "name": "rivier",
-    "refs": [],
     "definition": "waterbron"
   },
   {
+    "category": "Symbolen",
     "name": "robijn",
-    "refs": [],
     "definition": "koninklijke waardigheid, hartstochtelijke liefde, levenskracht"
   },
   {
+    "category": "Symbolen",
     "name": "rood",
-    "refs": [],
     "definition": "Hartstocht, fysieke manifestatie, actie, macht, levenskracht"
   },
   {
+    "category": "Symbolen",
     "name": "rood kleed",
     "refs": ["rood"]
   },
   {
+    "category": "Symbolen",
     "name": "roos",
-    "refs": [],
     "definition": "hartverlangens, schoonheid, doornen"
   },
   {
+    "category": "Symbolen",
     "name": "saffier",
-    "refs": [],
     "definition": "geeft gemoedsrust,  fysieke/geestelijke/spirituele harmonie, helpt te concentreren, verlicht stress, verbondenheid met de Goddelijke wereld"
   },
   {
+    "category": "Symbolen",
     "name": "salamander",
     "refs": ["vuur"],
     "definition": "vernieuwing, geestelijk inzicht, ziel"
   },
   {
+    "category": "Symbolen",
     "name": "skepter",
-    "refs": [],
     "definition": "wereldse macht"
   },
   {
+    "category": "Symbolen",
     "name": "schild",
-    "refs": [],
     "definition": "beschermen wat belangrijk/kwestbaar is"
   },
   {
+    "category": "Symbolen",
     "name": "schip",
     "refs": ["boot"]
   },
   {
+    "category": "Symbolen",
     "name": "schriftrol",
-    "refs": [],
     "definition": "kennisoverdracht"
   },
   {
+    "category": "Symbolen",
     "name": "sfinx",
-    "refs": [],
     "definition": "wijsheid, levensvragen, macht, middelpunt, balans"
   },
   {
+    "category": "Symbolen",
     "name": "slak",
     "refs": ["huis"],
     "definition": "langzaam maar zeker, draagt zijn eigen huis"
   },
   {
+    "category": "Symbolen",
     "name": "slang",
     "refs": ["kringloop"],
     "definition": "verleiding, onderwereld, dodenrijk"
   },
   {
+    "category": "Symbolen",
     "name": "sleutel",
-    "refs": [],
     "definition": "meesterschap, toegang (tot de hemel), open en sluiten"
   },
   {
+    "category": "Symbolen",
     "name": "sluier",
-    "refs": [],
     "definition": "mysterie, ontdekken"
   },
   {
+    "category": "Symbolen",
     "name": "stadsmuur",
-    "refs": [],
     "definition": "herkomst, samen ben je sterk, bescherming"
   },
   {
+    "category": "Symbolen",
     "name": "ster (achtpuntig)",
-    "refs": [],
     "definition": "verdrijft als ochtendster de duisternis,  vruchtbaarheid"
   },
   {
+    "category": "Symbolen",
     "name": "sterren",
-    "refs": [],
     "definition": "hemel"
   },
   {
+    "category": "Symbolen",
     "name": "stier",
     "refs": ["aarde"],
     "definition": "offeren, mannelijke vruchtbaarheid, agressie, vechtlust"
   },
   {
+    "category": "Symbolen",
     "name": "stroom",
     "refs": ["waterbron"],
     "definition": "zichtbare mysterie"
   },
   {
+    "category": "Symbolen",
     "name": "toorts",
-    "refs": [],
     "definition": "goddelijke energie, verschroe\u00efng"
   },
   {
+    "category": "Symbolen",
     "name": "tora",
     "refs": ["schriftrol"],
     "definition": "goddelijke wet of leer, heilige kennis"
   },
   {
+    "category": "Symbolen",
     "name": "toren",
-    "refs": [],
     "definition": "menselijke hoogmoed, huis van God, toren van Babel, de hel"
   },
   {
+    "category": "Symbolen",
     "name": "touw",
     "refs": ["ketens"],
     "definition": "knopen"
   },
   {
+    "category": "Symbolen",
     "name": "troon",
-    "refs": [],
     "definition": "macht"
   },
   {
+    "category": "Symbolen",
     "name": "troonhemel",
     "refs": ["troon"]
   },
   {
+    "category": "Symbolen",
     "name": "tweesprong",
-    "refs": [],
     "definition": "keuze"
   },
   {
+    "category": "Symbolen",
     "name": "vaandel",
-    "refs": [],
     "definition": "zijn wapen is het leven zelf"
   },
   {
+    "category": "Symbolen",
     "name": "valk",
     "refs": ["vogel"],
     "definition": "adel, koninklijk, alziend oog, onkwetsbaar"
   },
   {
+    "category": "Symbolen",
     "name": "venussymbool",
-    "refs": [],
     "definition": "godin van liefde en vruchtbaarheid"
   },
   {
+    "category": "Symbolen",
     "name": "vierkant",
     "refs": ["IV", "aarde"],
     "definition": "materie"
   },
   {
+    "category": "Symbolen",
     "name": "vierkant met driehoek",
     "refs": ["vierkant", "driehoek", "VII"],
     "definition": "het stoffelijke en het geestelijke"
   },
   {
+    "category": "Symbolen",
     "name": "vijgenblad",
-    "refs": [],
     "definition": "verschuilen"
   },
   {
+    "category": "Symbolen",
     "name": "vis",
-    "refs": [],
     "definition": "diepgaande transformatie, inwijding"
   },
   {
+    "category": "Symbolen",
     "name": "vlag",
-    "refs": [],
     "definition": "een grote verschuiving vereist aanpassing"
   },
   {
+    "category": "Symbolen",
     "name": "vleermuisvleugels",
-    "refs": [],
     "definition": "onze tijd van leven vervliegt bij dag en nacht, bij goed en kwaad"
   },
   {
+    "category": "Symbolen",
     "name": "vlinder",
-    "refs": [],
     "definition": "transformatie"
   },
   {
+    "category": "Symbolen",
     "name": "vogel",
-    "refs": [],
     "definition": "vrijheid, van ver halen, hoogvlieger"
   },
   {
+    "category": "Symbolen",
     "name": "vogelpoten",
     "refs": []
   },
   {
+    "category": "Symbolen",
     "name": "volwassen man",
     "refs": ["man"],
     "definition": "viriele, beschermende kracht"
   },
   {
+    "category": "Symbolen",
     "name": "volwassen vrouw",
     "refs": ["vrouw"],
     "definition": "actieve, vruchtbare kracht, moeder"
   },
   {
+    "category": "Symbolen",
     "name": "voorhang (bij pilaren)",
-    "refs": [],
     "definition": "verborgen, innerlijk (tegenovergesteld bij ontbreken)"
   },
   {
+    "category": "Symbolen",
     "name": "vrouw",
-    "refs": [],
     "definition": "intu\u00eftie, ontvankelijk"
   },
   {
+    "category": "Symbolen",
     "name": "vuur",
-    "refs": [],
     "definition": "kracht, zowel verterend als reinigend"
   },
   {
+    "category": "Symbolen",
     "name": "water",
-    "refs": [],
     "definition": "Emoties, gevoelens, oerzee, spiegel, de diepte van de ziel, het nog niet gemanifesteerde"
   },
   {
+    "category": "Symbolen",
     "name": "waterbron",
     "refs": ["water"],
     "definition": "geneeskrachtig"
   },
   {
+    "category": "Symbolen",
     "name": "weegschaal",
-    "refs": [],
     "definition": "evenwicht, rechtvaardigheid, juiste verhoudingen, voortdurende aanpassing om gerechtigheid te garanderen"
   },
   {
+    "category": "Symbolen",
     "name": "wereldbol",
     "refs": ["globe"]
   },
   {
+    "category": "Symbolen",
     "name": "wijngaardslak",
     "refs": ["slak"],
     "definition": "overwinteren"
   },
   {
+    "category": "Symbolen",
     "name": "wit",
-    "refs": [],
     "definition": "onschuld, open, zuiver, \u2018ware' spiritualiteit, na\u00efviteit, leegte, perfectionisme"
   },
   {
+    "category": "Symbolen",
     "name": "wit kleed",
     "refs": ["wit"]
   },
   {
+    "category": "Symbolen",
     "name": "wolken",
-    "refs": [],
     "definition": "openbaring, scheiding tussen zichtbare en onzichtbare wereld, dreiging"
   },
   {
+    "category": "Symbolen",
     "name": "Y-vorm",
     "refs": ["tweesprong"]
   },
   {
+    "category": "Symbolen",
     "name": "yod",
     "refs": ["druppel"],
     "definition": "het kleinste teken van het Hebreeuwse alfabet (druppel/blad-vorm) en de eerste letter van de naam van God: JHWH"
   },
   {
+    "category": "Symbolen",
     "name": "yoni",
     "refs": ["lingam"],
     "definition": "vrouwelijke geslachtsorganen"
   },
   {
+    "category": "Symbolen",
     "name": "zegening",
-    "refs": [],
     "definition": "cree\u00ebren van evenwicht"
   },
   {
+    "category": "Symbolen",
     "name": "zintuigen",
-    "refs": [],
     "definition": "horen, zien, ruiken, proeven, voelen"
   },
   {
+    "category": "Symbolen",
     "name": "zon",
-    "refs": [],
     "definition": "het licht dat de mensheid leidt, schepper, God, levenskracht"
   },
   {
+    "category": "Symbolen",
     "name": "zonnebloem",
     "refs": ["zon"],
     "definition": "waarheidslievend, wilskracht en vitaliteit, roem en overwinning"
   },
   {
+    "category": "Symbolen",
     "name": "zout",
-    "refs": [],
     "definition": "fysiek lichaam"
   },
   {
+    "category": "Symbolen",
     "name": "zwaard geheven",
-    "refs": [],
     "definition": "scherpzinnigheid, gerechtigheid"
   },
   {
+    "category": "Symbolen",
     "name": "zwart",
-    "refs": [],
     "definition": "nacht, duisternis, rebellie, mysterie"
   },
   {
+    "category": "Symbolen",
     "name": "zwart kleed",
     "refs": ["zwart"],
     "definition": "rouw, verdriet"
   },
   {
+    "category": "Symbolen",
     "name": "zwarte kat",
     "refs": ["zwart", "kat"],
     "definition": "Vrijheidsdrang, intu\u00eftieve gaven, magie, ongeluk, waarschuwer"
   },
   {
+    "category": "Symbolen",
     "name": "zwavel",
-    "refs": [],
     "definition": "ziel"
   }
 ]

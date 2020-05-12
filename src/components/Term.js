@@ -23,11 +23,7 @@ export function Term({ name, term, refs, nr }) {
     }
   }
   return (
-    <tr
-      id={name}
-      className="terms"
-      style={nr % 2 === 0 ? { backgroundColor: "#eee" } : {}}
-    >
+    <tr id={name} className="terms">
       <td>{name}</td>
       <td>
         <RawContent>{term}</RawContent>

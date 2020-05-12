@@ -5,13 +5,19 @@ import { Page } from "../components/Page";
 import { Terms as TermList } from "../components/Term";
 
 export function Terms() {
+  const categories = terms().distinct("category");
   return (
     <Page title="Begrippen">
-      <TermList
-        terms={terms()
-          .order("name")
-          .map(term => term)} // taffy.map does not provide a nr
-      />
+      {categories.map(category => (
+        <>
+          <h2>{category}</h2>
+          <TermList
+            terms={terms({ category })
+              .order("name")
+              .map(term => term)} // taffy.map does not provide a nr
+          />
+        </>
+      ))}
     </Page>
   );
 }
