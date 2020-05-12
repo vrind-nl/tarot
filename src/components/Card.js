@@ -8,7 +8,7 @@ import { RawContent } from "./Content";
 import { Terms } from "./Term";
 import { CardLinks } from "./Reference";
 
-import "./Card.css";
+// import "./Card.css";
 
 function Image({ suite, number, name, flipped, reversed, height, onClick }) {
   const props = { height, onClick };
@@ -21,7 +21,7 @@ function Image({ suite, number, name, flipped, reversed, height, onClick }) {
         : `/KleineArcana/${suite}/${suite}-${safeName}.jpg`;
     return (
       <img
-        /* className="card" */
+        className="card"
         style={reversed ? { transform: "rotate(180deg)" } : {}}
         src={src}
         alt={name}
