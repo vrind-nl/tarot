@@ -57,7 +57,7 @@ export function Terms({ terms }) {
       <thead>
         <tr>
           <th>Begrip</th>
-          <th>Definitie</th>
+          <th>Betekenis</th>
           <th>Zie ook</th>
         </tr>
       </thead>

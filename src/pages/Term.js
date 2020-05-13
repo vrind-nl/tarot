@@ -15,7 +15,7 @@ export function Terms() {
           <h2>{category}</h2>
           <TermList
             terms={terms({ category })
-              .order("name")
+              .order("order,name")
               .map(term => term)} // taffy.map does not provide a nr
           />
         </div>

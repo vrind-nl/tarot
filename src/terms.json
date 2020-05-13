@@ -1,54 +1,64 @@
 [
   {
     "category": "Kaartsoorten",
+    "order": "01",
     "name": "Grote Arcana",
     "definition": "de grote geheimen van het leven, archetypes"
   },
   {
     "category": "Kaartsoorten",
+    "order": "02",
     "name": "Grote Arcana 1-10",
     "definition": "verwerven van eigenschappen en innerlijke kwaliteiten"
   },
   {
     "category": "Kaartsoorten",
+    "order": "03",
     "name": "Grote Arcana 11-20",
     "definition": "leren omgaan met de ervaringen die het leven brengt"
   },
   {
     "category": "Kaartsoorten",
+    "order": "04",
     "name": "Kleine Arcana",
     "definition": "geheimen van het alledaagse leven"
   },
   {
     "category": "Kaartsoorten",
+    "order": "05",
     "name": "getallen",
     "definition": "Doen (dingen die je zelf in de hand hebt)"
   },
   {
     "category": "Kaartsoorten",
+    "order": "06",
     "name": "hofkaart",
     "definition": "Zijn (invloeden van/naar je omgeving)"
   },
   {
     "category": "Kaartsoorten",
+    "order": "07",
     "name": "staven",
     "refs": ["vuur"],
     "definition": "&clubs;, verlangen, intu\u00eftie/idee\u00ebn/inspiratie, daadkracht/uitvoerend, boeren/arbeiders"
   },
   {
     "category": "Kaartsoorten",
+    "order": "08",
     "name": "pentakels",
     "refs": ["Aarde", "V"],
     "definition": "&diams;, fysiek/materie, zintuigen/praktisch, comfort, operationeel, ambachtslieden/handelaars"
   },
   {
     "category": "Kaartsoorten",
+    "order": "09",
     "name": "zwaarden",
     "refs": ["lucht"],
     "definition": "&spades;, denken, verstand, woorden, tactisch, adel"
   },
   {
     "category": "Kaartsoorten",
+    "order": "10",
     "name": "kelken",
     "refs": ["water"],
     "definition": "&hearts;, onderbewuste, emotie, strategisch, geestelijkheid/staatslieden"
@@ -100,97 +110,115 @@
   },
   {
     "category": "Getallen",
+    "order": "00",
     "name": "O",
     "definition": "leegte, alomvattendheid, kosmische invloed, chaos"
   },
   {
     "category": "Getallen",
+    "order": "01",
     "name": "I",
     "definition": "Potentie, eenheid, oorsprong, uniek"
   },
   {
     "category": "Getallen",
+    "order": "02",
     "name": "II",
     "definition": "dualiteit, spiegelbeeld"
   },
   {
     "category": "Getallen",
+    "order": "03",
     "name": "III",
     "refs": ["drie-eenheid"],
     "definition": "groei, vruchtbaarheid, gilden: leerling"
   },
   {
     "category": "Getallen",
+    "order": "04",
     "name": "IV",
     "refs": ["elementen"],
     "definition": "fixatie, vastzetten/vastzitten"
   },
   {
     "category": "Getallen",
+    "order": "05",
     "name": "V",
     "refs": ["zintuigen"],
     "definition": "conflict, tegenslag, kantelpunt, gilden: gezel"
   },
   {
     "category": "Getallen",
+    "order": "06",
     "name": "VI",
     "definition": "voortgang, hoogtepunten, delen"
   },
   {
     "category": "Getallen",
+    "order": "07",
     "name": "VII",
     "definition": "onzekerheid, geheimzinnigheid, gilden: meester"
   },
   {
     "category": "Getallen",
+    "order": "08",
     "name": "VIII",
     "definition": "grenzen, stagnatie, promiscu"
   },
   {
     "category": "Getallen",
+    "order": "09",
     "name": "IX",
     "definition": "voltoo\u00efng, bewustzijn, reflecteren, gilden: bouwmeester"
   },
   {
     "category": "Getallen",
+    "order": "10",
     "name": "X",
     "definition": "climax, overgang, einde=begin"
   },
   {
     "category": "Getallen",
+    "order": "11",
     "name": "XI",
     "definition": "openbaring, inspiratie"
   },
   {
     "category": "Getallen",
+    "order": "12",
     "name": "XII",
     "definition": "volledigheid, perfectie, deelbaarheid"
   },
   {
     "category": "Kaartsoorten",
+    "order": "11",
     "name": "aas",
     "refs": ["I"],
     "definition": "waar je mee begint"
   },
   {
     "category": "Kaartsoorten",
+    "order": "12",
     "name": "page",
     "refs": ["jonge man"],
     "definition": "jongeling, kans"
   },
   {
     "category": "Kaartsoorten",
+    "order": "13",
     "name": "ridder",
     "definition": "strijder, beschermen van zwakkeren, impulsief"
   },
   {
     "category": "Kaartsoorten",
+    "order": "14",
     "name": "koningin",
     "refs": ["volwassen vrouw"],
     "definition": "invloed, wijsheid, niet moederlijk"
   },
   {
     "category": "Kaartsoorten",
+    "order": "15",
     "name": "koning",
     "refs": ["volwassen man"],
     "definition": "gezag, competentie, verantwoordelijk"
@@ -234,6 +262,7 @@
   },
   {
     "category": "Kaartsoorten",
+    "order": "00",
     "name": "arcana",
     "definition": "geheimen"
   },
