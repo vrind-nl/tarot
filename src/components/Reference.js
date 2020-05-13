@@ -1,6 +1,7 @@
 import React from "react";
 
 import { roman2arabic } from "../roman";
+import { card_name, card_value } from "../db";
 
 function pictorialKey({ suite, name }) {
   // https://en.wikisource.org/wiki/The_Pictorial_Key_to_the_Tarot#Seven_of_Cups """
@@ -119,16 +120,17 @@ function stapVoorStap({ suite, name, number }) {
   return base + name.replace(/ /g, "-").toLowerCase();
 }
 
-function kaartEnSterren({ suite, name, number }) {
+function kaartEnSterren(card) {
+  var { suite, name, number } = card;
   const base = "http://www.kaartensterren.nl/pagina's tarotkaarten";
   suite = suite === "groot" ? "arcana" : suite.toLowerCase();
   if (suite === "kelken") {
     suite = "bekers";
   }
 
-  number = roman2arabic(number) || number;
+  name = card_name(card).toLowerCase();
+  number = card_value(card);
 
-  name = name.toLowerCase();
   if (name.startsWith("de ")) {
     name = name.substring(3);
   } else if (name.startsWith("het ")) {
@@ -156,10 +158,12 @@ function kaartEnSterren({ suite, name, number }) {
   return `${base}/${suite}/pagina ${name}.html`;
 }
 
-function spiriDoc({ suite, name, number }) {
+function spiriDoc(card) {
+  var { suite, name, number } = card;
   // http://www.spiridoc.nl/grotearcana/1_de_magier.htm
   // "http://www.spiridoc.nl/grotearcana/5_de_hierophant.htm"
   const base = "http://www.spiridoc.nl/grotearcana/";
+  name = card_name(card);
 
   if (suite === "groot") {
     number = roman2arabic(number) || number;

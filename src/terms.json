@@ -110,84 +110,72 @@
   },
   {
     "category": "Getallen",
-    "order": "00",
-    "name": "O",
+    "name": 0,
     "definition": "leegte, alomvattendheid, kosmische invloed, chaos"
   },
   {
     "category": "Getallen",
-    "order": "01",
-    "name": "I",
-    "definition": "Potentie, eenheid, oorsprong, uniek"
+    "name": 1,
+    "definition": "potentie, eenheid, oorsprong, uniek, top, pionier"
   },
   {
     "category": "Getallen",
-    "order": "02",
-    "name": "II",
-    "definition": "dualiteit, spiegelbeeld"
+    "name": 2,
+    "definition": "dualiteit, polariteit, tweedracht, balans - bekende tweetallen: goed/fout, voor/na, onder/boven, zwart/wit, man/vrouw, voor/tegen, oorzaak/gevolg"
   },
   {
     "category": "Getallen",
-    "order": "03",
-    "name": "III",
+    "name": 3,
     "refs": ["drie-eenheid"],
-    "definition": "groei, vruchtbaarheid, gilden: leerling"
+    "definition": "groei, vruchtbaarheid, creativiteit - gilden: leerling - bekende drietallen: vader/zoon/heilige geest, verleden/heden/toekomst"
   },
   {
     "category": "Getallen",
-    "order": "04",
-    "name": "IV",
+    "name": 4,
     "refs": ["elementen"],
-    "definition": "fixatie, vastzetten/vastzitten"
+    "definition": "stabiel, standvastig, vastzetten/vastzitten"
   },
   {
     "category": "Getallen",
-    "order": "05",
-    "name": "V",
+    "name": 5,
     "refs": ["zintuigen"],
-    "definition": "conflict, tegenslag, kantelpunt, gilden: gezel"
+    "definition": "dynamiek, nieuwsgierig, kantelpunt - gilden: gezel"
   },
   {
     "category": "Getallen",
-    "order": "06",
+    "name": 6,
     "name": "VI",
-    "definition": "voortgang, hoogtepunten, delen"
+    "definition": "voortgang, hoogtepunten, delen, harmonie"
   },
   {
     "category": "Getallen",
-    "order": "07",
-    "name": "VII",
-    "definition": "onzekerheid, geheimzinnigheid, gilden: meester"
+    "name": 7,
+    "definition": "onzekerheid, geheimzinnigheid, denker - gilden: meester - bekende zeventallen: weekdagen"
   },
   {
     "category": "Getallen",
-    "order": "08",
-    "name": "VIII",
-    "definition": "grenzen, stagnatie, promiscu"
+    "name": 8,
+    "definition": "ambitie, leidend, doelmatig"
   },
   {
     "category": "Getallen",
-    "order": "09",
-    "name": "IX",
-    "definition": "voltoo\u00efng, bewustzijn, reflecteren, gilden: bouwmeester"
+    "name": 9,
+    "definition": "voltooïng, bewustzijn, reflecteren, idealisme - gilden: bouwmeester"
   },
   {
     "category": "Getallen",
-    "order": "10",
-    "name": "X",
-    "definition": "climax, overgang, einde=begin"
+    "name": 10,
+    "definition": "climax, overgang, einde=begin - bekende tientallen: 10 geboden, planeten"
   },
   {
     "category": "Getallen",
-    "order": "11",
-    "name": "XI",
+    "name": 11,
     "definition": "openbaring, inspiratie"
   },
   {
     "category": "Getallen",
-    "order": "12",
-    "name": "XII",
-    "definition": "volledigheid, perfectie, deelbaarheid"
+    "name": 12,
+    "definition": "volledigheid, perfectie, deelbaarheid - bekende twaalftallen: apostelen, maanden, sterrenbeelden"
   },
   {
     "category": "Kaartsoorten",
@@ -264,7 +252,7 @@
     "category": "Kaartsoorten",
     "order": "00",
     "name": "arcana",
-    "definition": "geheimen"
+    "definition": "geheime kennis of leer"
   },
   {
     "category": "Dieren",

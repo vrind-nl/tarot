@@ -4,10 +4,12 @@ import { useParams, Redirect, Link } from "react-router-dom";
 import { cards, cleanRecord } from "../db";
 import { Page } from "../components/Page";
 import { Thumbnail, CardInfo, cardLink } from "../components/Card";
+import { roman2arabic } from "../roman";
 
 export function Card(props) {
   const { suite, name } = useParams();
-  const card = cleanRecord(cards({ suite, name }).first());
+  const query = roman2arabic(name) ? { suite, number: name } : { suite, name };
+  const card = cleanRecord(cards(query).first());
   const title =
     suite === "groot" ? `${card.number} - ${name}` : `${suite} ${name}`;
 

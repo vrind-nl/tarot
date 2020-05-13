@@ -3,18 +3,20 @@ import PropTypes from "prop-types";
 
 import { Link } from "react-router-dom";
 
-import { findTerm } from "../db";
+import { findTerm, card_name, card_value } from "../db";
 import { RawContent } from "./Content";
 import { Terms } from "./Term";
 import { CardLinks } from "./Reference";
+import { arabic2roman } from "../roman";
 
 // import "./Card.css";
 
-function Image({ suite, number, name, flipped, reversed, height, onClick }) {
+function Image({ flipped, reversed, height, onClick, ...card }) {
+  const { suite, number, name } = card;
   const props = { height, onClick };
 
   if (flipped) {
-    const safeName = name.replace(/ /g, "-");
+    const safeName = card_name(card).replace(/ /g, "-");
     const src =
       suite === "groot"
         ? `/GroteArcana/${number}-${safeName}.jpg`
@@ -34,8 +36,8 @@ function Image({ suite, number, name, flipped, reversed, height, onClick }) {
 }
 
 Image.propTypes = {
-  number: PropTypes.string.isRequired,
-  name: PropTypes.string.isRequired,
+  number: PropTypes.string,
+  name: PropTypes.string,
   suite: PropTypes.string.isRequired
 };
 
@@ -44,8 +46,8 @@ Image.defaultProps = {
   reversed: 0
 };
 
-export function cardLink({ suite, name }) {
-  return `/card/${suite}/${name}`;
+export function cardLink({ suite, ...card }) {
+  return `/card/${suite}/${card_name(card)}`;
 }
 
 export function CardLink({ children, ...props }) {
@@ -53,7 +55,7 @@ export function CardLink({ children, ...props }) {
 }
 
 CardLink.propTypes = {
-  name: PropTypes.string.isRequired,
+  name: PropTypes.string,
   suite: PropTypes.string.isRequired
 };
 
@@ -102,12 +104,21 @@ function OptionalInfo({ label, term, children }) {
         {children} {term && <RawContent>{` (${term.definition})`}</RawContent>}
       </td>
     </tr>
-  ) : (
-    ""
+  ) : null;
+}
+
+function getNumerology(card) {
+  const value = card_value(card);
+  const numerology = Math.floor(value / 10) + (value % 10);
+  return (
+    <RawContent>{`${value} &rarr; ${numerology}: ${
+      findTerm(numerology).definition
+    }`}</RawContent>
   );
 }
 
 export function CardInfo(props) {
+  const numerology = getNumerology(props);
   return (
     <>
       <table>
@@ -121,9 +132,7 @@ export function CardInfo(props) {
           <OptionalInfo label="Kleur" term={props.suite.toLowerCase()}>
             {props.suite !== "groot" && props.suite}
           </OptionalInfo>
-          <OptionalInfo label="Nummer" term={props.number}>
-            {props.number}
-          </OptionalInfo>
+          <OptionalInfo label="Nummer">{props.number}</OptionalInfo>
           <OptionalInfo label="Kaart" term={props.name}>
             {props.name}
           </OptionalInfo>
@@ -143,6 +152,7 @@ export function CardInfo(props) {
                   ))}
             </OptionalInfo>
           )}
+          <OptionalInfo label="Numerologie">{numerology}</OptionalInfo>
         </tbody>
       </table>
       <h3>Begrippen</h3>

@@ -73,7 +73,8 @@
       "verborgen wijsheid",
       "esoterische kennis",
       "innerlijk conflict",
-      "vooruitziend"
+      "vooruitziend",
+      "wicca"
     ],
     "invitation": "Laat je eens leiden door je innerlijke stem.",
     "warning": "Laat de dingen niet te veel op hun beloop.",
@@ -628,7 +629,6 @@
   },
   {
     "suite": "Staven",
-    "number": "",
     "name": "Aas",
     "keyword": "INSPIRATIE",
     "keywords": ["visie", "enthousiasme", "vitaliteit", "initiatief"],
@@ -647,8 +647,7 @@
   },
   {
     "suite": "Staven",
-    "number": "2",
-    "name": "II",
+    "number": "II",
     "keyword": "OVERPEINZEN",
     "keywords": ["pionieren", "opties afwegen"],
     "invitation": "Alle begin is moeilijk.",
@@ -668,8 +667,7 @@
   },
   {
     "suite": "Staven",
-    "number": "3",
-    "name": "III",
+    "number": "III",
     "keyword": "ANTICIPEREN",
     "keywords": [
       "vooruitzien",
@@ -692,8 +690,7 @@
   },
   {
     "suite": "Staven",
-    "number": "4",
-    "name": "IV",
+    "number": "IV",
     "keyword": "OOGSTEN",
     "keywords": [
       "resultaten vieren",
@@ -714,8 +711,7 @@
   },
   {
     "suite": "Staven",
-    "number": "5",
-    "name": "V",
+    "number": "V",
     "keyword": "WEDIJVEREN",
     "keywords": ["schijngevecht", "rellen"],
     "invitation": "Laat je niet zomaar opzij zetten",
@@ -725,8 +721,7 @@
   },
   {
     "suite": "Staven",
-    "number": "6",
-    "name": "VI",
+    "number": "VI",
     "keyword": "TRIOMFEREN",
     "keywords": [
       "zegevieren",
@@ -742,8 +737,7 @@
   },
   {
     "suite": "Staven",
-    "number": "7",
-    "name": "VII",
+    "number": "VII",
     "keyword": "HANDHAVEN",
     "keywords": [
       "staande houden",
@@ -758,8 +752,7 @@
   },
   {
     "suite": "Staven",
-    "number": "8",
-    "name": "VIII",
+    "number": "VIII",
     "keyword": "CONVERGEREN",
     "keywords": [
       "veel energie",
@@ -775,8 +768,7 @@
   },
   {
     "suite": "Staven",
-    "number": "9",
-    "name": "IX",
+    "number": "IX",
     "keyword": "WAKEN",
     "keywords": [
       "op krachten komen",
@@ -792,8 +784,7 @@
   },
   {
     "suite": "Staven",
-    "number": "10",
-    "name": "X",
+    "number": "X",
     "keyword": "VOLHOUDEN",
     "keywords": [
       "afmaken",
@@ -808,7 +799,6 @@
   },
   {
     "suite": "Staven",
-    "number": "",
     "name": "Page",
     "keyword": "PREDIKER",
     "keywords": [
@@ -823,7 +813,6 @@
   },
   {
     "suite": "Staven",
-    "number": "",
     "name": "Ridder",
     "keyword": "VURIG",
     "keywords": ["idealen koesteren", "overtuigingskracht."],
@@ -842,7 +831,6 @@
   },
   {
     "suite": "Staven",
-    "number": "",
     "name": "Koningin",
     "keyword": "STEVIG",
     "keywords": [
@@ -868,7 +856,6 @@
   },
   {
     "suite": "Staven",
-    "number": "",
     "name": "Koning",
     "keyword": "VOORMAN",
     "keywords": [
@@ -897,7 +884,6 @@
   },
   {
     "suite": "Pentakels",
-    "number": "1",
     "name": "Aas",
     "keyword": "POTENTIE",
     "keywords": ["kunde", "tot stand brengen", "realisme", "waarde"],
@@ -919,8 +905,7 @@
   },
   {
     "suite": "Pentakels",
-    "number": "2",
-    "name": "II",
+    "number": "II",
     "keyword": "JONGLEREN",
     "keywords": [
       "evenwicht zoeken/houden",
@@ -935,8 +920,7 @@
   },
   {
     "suite": "Pentakels",
-    "number": "3",
-    "name": "III",
+    "number": "III",
     "keyword": "BEWIJZEN",
     "keywords": [
       "waardering",
@@ -953,8 +937,7 @@
   },
   {
     "suite": "Pentakels",
-    "number": "4",
-    "name": "IV",
+    "number": "IV",
     "keyword": "VASTHOUDEN",
     "keywords": ["houden wat je hebt", "energiestroom blokkeren", "hebzucht"],
     "invitation": "Wees zuinig op je mogelijkheden.",
@@ -964,8 +947,7 @@
   },
   {
     "suite": "Pentakels",
-    "number": "5",
-    "name": "V",
+    "number": "V",
     "keyword": "VREZEN",
     "keywords": [
       "(angst voor) ontbering",
@@ -980,8 +962,7 @@
   },
   {
     "suite": "Pentakels",
-    "number": "6",
-    "name": "VI",
+    "number": "VI",
     "keyword": "BEDELEN",
     "keywords": ["Bedelen vs beDElen", "arm vs rijk", "zaaien"],
     "invitation": "Delen = vermenigvuldigen",
@@ -1000,8 +981,7 @@
   },
   {
     "suite": "Pentakels",
-    "number": "7",
-    "name": "VII",
+    "number": "VII",
     "keyword": "VERLANGEN",
     "keywords": ["ongeduld", "onvrede", "beheren"],
     "invitation": "Kijk het nog even aan. Zie je voortgang.",
@@ -1011,8 +991,7 @@
   },
   {
     "suite": "Pentakels",
-    "number": "8",
-    "name": "VIII",
+    "number": "VIII",
     "keyword": "IJVEREN",
     "keywords": ["oefening baart kunst", "nederig werk", "ambachten"],
     "invitation": "Wat zou je willen leren?",
@@ -1022,8 +1001,7 @@
   },
   {
     "suite": "Pentakels",
-    "number": "9",
-    "name": "IX",
+    "number": "IX",
     "keyword": "GENIETEN",
     "keywords": ["vervulling", "verfraaien", "zekerheid", "meevaller"],
     "invitation": "Geniet van wat je doet.",
@@ -1033,8 +1011,7 @@
   },
   {
     "suite": "Pentakels",
-    "number": "10",
-    "name": "X",
+    "number": "X",
     "keyword": "DOORGEVEN",
     "keywords": [
       "traditie",
@@ -1059,7 +1036,6 @@
   },
   {
     "suite": "Pentakels",
-    "number": "",
     "name": "Page",
     "keyword": "LEERGIERIG",
     "keywords": ["behulpzaam", "precies", "kritisch", "student", "ijverig"],
@@ -1078,7 +1054,6 @@
   },
   {
     "suite": "Pentakels",
-    "number": "",
     "name": "Ridder",
     "keyword": "STANDVASTIG",
     "keywords": [
@@ -1102,7 +1077,6 @@
   },
   {
     "suite": "Pentakels",
-    "number": "",
     "name": "Koningin",
     "keyword": "ZORGZAAM",
     "keywords": ["innerlijke zekerheid", "zelfwaardering", "royaal"],
@@ -1124,7 +1098,6 @@
   },
   {
     "suite": "Pentakels",
-    "number": "",
     "name": "Koning",
     "keyword": "ONDERNEMER",
     "keywords": [
@@ -1149,7 +1122,6 @@
   },
   {
     "suite": "Zwaarden",
-    "number": "",
     "name": "Aas",
     "keyword": "INZICHT",
     "keywords": ["helderheid van geest", "objectiviteit"],
@@ -1169,8 +1141,7 @@
   },
   {
     "suite": "Zwaarden",
-    "number": "2",
-    "name": "II",
+    "number": "II",
     "keyword": "TWIJFELEN",
     "keywords": [
       "relativeren",
@@ -1194,8 +1165,7 @@
   },
   {
     "suite": "Zwaarden",
-    "number": "3",
-    "name": "III",
+    "number": "III",
     "keyword": "DOORBOREN",
     "keywords": ["pijn", "verdriet"],
     "invitation": "Ben je sterk genoeg om te doen wat noodzakelijk is?",
@@ -1205,8 +1175,7 @@
   },
   {
     "suite": "Zwaarden",
-    "number": "4",
-    "name": "IV",
+    "number": "IV",
     "keyword": "BEZINNEN",
     "keywords": ["overwegen", "rusten", "herstellen", "retraite", "testament"],
     "invitation": "Slaap er een nachtje over.",
@@ -1216,8 +1185,7 @@
   },
   {
     "suite": "Zwaarden",
-    "number": "5",
-    "name": "V",
+    "number": "V",
     "keyword": "MISGUNNEN",
     "keywords": [
       "debatteren",
@@ -1241,8 +1209,7 @@
   },
   {
     "suite": "Zwaarden",
-    "number": "6",
-    "name": "VI",
+    "number": "VI",
     "keyword": "OVERSTEKEN",
     "keywords": ["je terug trekken", "vlucht"],
     "invitation": "Maak een nieuw begin",
@@ -1252,8 +1219,7 @@
   },
   {
     "suite": "Zwaarden",
-    "number": "7",
-    "name": "VII",
+    "number": "VII",
     "keyword": "SLUIPEN",
     "keywords": ["slimheid", "spitsvondigheid", "oneerlijkheid"],
     "invitation": "Verzin een list.",
@@ -1263,8 +1229,7 @@
   },
   {
     "suite": "Zwaarden",
-    "number": "8",
-    "name": "VIII",
+    "number": "VIII",
     "keyword": "VASTLOPEN",
     "keywords": [
       "negatieve gedachtenpatronen",
@@ -1282,8 +1247,7 @@
   },
   {
     "suite": "Zwaarden",
-    "number": "9",
-    "name": "IX",
+    "number": "IX",
     "keyword": "WANHOPEN",
     "keywords": ["zelfverwijt", "wanhoop", "weeklagen", "zelfkastijding"],
     "invitation": "Waar heb je spijt van?",
@@ -1293,8 +1257,7 @@
   },
   {
     "suite": "Zwaarden",
-    "number": "10",
-    "name": "X",
+    "number": "X",
     "keyword": "BEEINDIGEN",
     "keywords": ["destructieve gedachten", "voortijdig einde"],
     "invitation": "Waar moet je nu rigoureus een streep onder zetten?",
@@ -1304,7 +1267,6 @@
   },
   {
     "suite": "Zwaarden",
-    "number": "",
     "name": "Page",
     "keyword": "ALERT",
     "keywords": ["verstand van zaken", "opmerkzaam", "escalatie"],
@@ -1322,7 +1284,6 @@
   },
   {
     "suite": "Zwaarden",
-    "number": "",
     "name": "Ridder",
     "keyword": "ONVERSCHROKKEN",
     "keywords": [
@@ -1338,7 +1299,6 @@
   },
   {
     "suite": "Zwaarden",
-    "number": "",
     "name": "Koningin",
     "keyword": "WIJS",
     "keywords": [
@@ -1368,7 +1328,6 @@
   },
   {
     "suite": "Zwaarden",
-    "number": "",
     "name": "Koning",
     "keyword": "HANDHAVER",
     "keywords": [
@@ -1395,7 +1354,6 @@
   },
   {
     "suite": "Kelken",
-    "number": "",
     "name": "Aas",
     "keyword": "OVERVLOED",
     "keywords": [
@@ -1423,8 +1381,7 @@
   },
   {
     "suite": "Kelken",
-    "number": "2",
-    "name": "II",
+    "number": "II",
     "keyword": "VERBINDEN",
     "keywords": [
       "verlangen naar een partner (eventueel platonisch)",
@@ -1447,8 +1404,7 @@
   },
   {
     "suite": "Kelken",
-    "number": "3",
-    "name": "III",
+    "number": "III",
     "keyword": "FEESTEN",
     "keywords": ["plezier hebben", "blijheid", "genezing", "troost"],
     "invitation": "Laat jezelf eens lekker gaan.",
@@ -1465,8 +1421,7 @@
   },
   {
     "suite": "Kelken",
-    "number": "4",
-    "name": "IV",
+    "number": "IV",
     "keyword": "MOPPEREN",
     "keywords": ["verlangen naar meer", "lusteloosheid"],
     "invitation": "Wat heb je w\u00e9l?",
@@ -1476,8 +1431,7 @@
   },
   {
     "suite": "Kelken",
-    "number": "5",
-    "name": "V",
+    "number": "V",
     "keyword": "BETREUREN",
     "keywords": ["teleurstelling", "verlies", "desillusie", "heroverwegen"],
     "invitation": "Wat blijft er over?",
@@ -1496,8 +1450,7 @@
   },
   {
     "suite": "Kelken",
-    "number": "6",
-    "name": "VI",
+    "number": "VI",
     "keyword": "HERINNEREN",
     "keywords": [
       "verbinden",
@@ -1512,8 +1465,7 @@
   },
   {
     "suite": "Kelken",
-    "number": "7",
-    "name": "VII",
+    "number": "VII",
     "keyword": "DROMEN",
     "keywords": [
       "visioenen",
@@ -1541,8 +1493,7 @@
   },
   {
     "suite": "Kelken",
-    "number": "8",
-    "name": "VIII",
+    "number": "VIII",
     "keyword": "WEGLOPEN",
     "keywords": [
       "illusies achter je laten",
@@ -1556,8 +1507,7 @@
   },
   {
     "suite": "Kelken",
-    "number": "9",
-    "name": "IX",
+    "number": "IX",
     "keyword": "WAARDEREN",
     "keywords": [
       "evenwichtigheid",
@@ -1571,8 +1521,7 @@
   },
   {
     "suite": "Kelken",
-    "number": "10",
-    "name": "X",
+    "number": "X",
     "keyword": "THUISKOMEN",
     "keywords": [
       "welzijn",
@@ -1588,7 +1537,6 @@
   },
   {
     "suite": "Kelken",
-    "number": "",
     "name": "Page",
     "keyword": "VERWONDERD",
     "keywords": ["fantasie", "verbeelding", "puberteit", "vlijtige jeugd"],
@@ -1599,7 +1547,6 @@
   },
   {
     "suite": "Kelken",
-    "number": "",
     "name": "Ridder",
     "keyword": "VERZOENER",
     "keywords": ["aanvoelen", "betrokkenheid", "waarheidsvinding", "voorstel"],
@@ -1619,7 +1566,6 @@
   },
   {
     "suite": "Kelken",
-    "number": "",
     "name": "Koningin",
     "keyword": "ZIENER",
     "keywords": [
@@ -1636,7 +1582,6 @@
   },
   {
     "suite": "Kelken",
-    "number": "",
     "name": "Koning",
     "keyword": "RAADSMAN",
     "keywords": [

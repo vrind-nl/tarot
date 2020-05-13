@@ -68,8 +68,8 @@ export function Reading() {
             <div
               key={nr}
               style={{
-                marginLeft: "10pt",
-                backgroundColor: nr === reading.info ? "#ddd" : "white"
+                padding: "5pt",
+                backgroundColor: nr === reading.info ? "purple" : "white"
               }}
             >
               <Thumbnail

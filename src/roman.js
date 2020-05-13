@@ -1,5 +1,8 @@
 export function arabic2roman(num) {
   if (isNaN(num)) return NaN;
+  if (num === 0) {
+    return "O";
+  }
   var digits = String(+num).split(""),
     key = [
       "",
@@ -40,6 +43,9 @@ export function arabic2roman(num) {
 }
 
 export function roman2arabic(s) {
+  if (s === "O") {
+    return 0;
+  }
   const map = { I: 1, V: 5, X: 10, L: 50, C: 100, D: 500, M: 1000 };
   return [...s].reduce(
     (r, c, i, s) => (map[s[i + 1]] > map[c] ? r - map[c] : r + map[c]),
