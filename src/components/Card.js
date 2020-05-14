@@ -7,7 +7,6 @@ import { findTerm, card_name, card_value } from "../db";
 import { RawContent } from "./Content";
 import { Terms } from "./Term";
 import { CardLinks } from "./Reference";
-import { arabic2roman } from "../roman";
 
 // import "./Card.css";
 
