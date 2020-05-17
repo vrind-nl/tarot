@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 import { Link } from "react-router-dom";
 
-import { findTerm, cardName, cardValue, cardImg, cardLink } from "../db";
+import { findTerm, cardValue, cardImg, cardLink } from "../db";
 import { RawContent } from "./Content";
 import { Terms } from "./Term";
 import { CardLinks } from "./Reference";

@@ -50,7 +50,7 @@ export function Term({ name, term, refs, nr }) {
 }
 
 Term.propTypes = {
-  name: PropTypes.oneOf([PropTypes.string, PropTypes.number]).isRequired,
+  name: PropTypes.oneOfType([PropTypes.string, PropTypes.number]).isRequired,
   term: PropTypes.string
 };
 
