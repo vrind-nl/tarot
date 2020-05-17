@@ -3,51 +3,43 @@ import PropTypes from "prop-types";
 
 import { Link } from "react-router-dom";
 
-import { findTerm, card_name, card_value } from "../db";
+import { findTerm, cardName, cardValue, cardImg, cardLink } from "../db";
 import { RawContent } from "./Content";
 import { Terms } from "./Term";
 import { CardLinks } from "./Reference";
 
 // import "./Card.css";
 
-function Image({ flipped, reversed, height, onClick, ...card }) {
-  const { suite, number, name } = card;
-  const props = { height, onClick };
-
-  if (flipped) {
-    const safeName = card_name(card).replace(/ /g, "-");
-    const src =
-      suite === "groot"
-        ? `/GroteArcana/${number}-${safeName}.jpg`
-        : `/KleineArcana/${suite}/${suite}-${safeName}.jpg`;
-    return (
-      <img
-        className="card"
-        style={reversed ? { transform: "rotate(180deg)" } : {}}
-        src={src}
-        alt={name}
-        {...props}
-      />
-    );
-  } else {
-    return <img src="/achterkant.jpg" alt="" {...props} />;
-  }
+export function CardImage({ reversed, ...props }) {
+  return (
+    <img
+      className="card"
+      style={reversed ? { transform: "rotate(180deg)" } : {}}
+      src={cardImg(props)}
+      alt={props.name}
+      {...props}
+    />
+  );
 }
 
-Image.propTypes = {
+function FlipImage({ flipped, ...props }) {
+  return flipped ? (
+    <CardImage {...props} />
+  ) : (
+    <img src="/achterkant.jpg" alt="Klik om te draaien" {...props} />
+  );
+}
+
+FlipImage.propTypes = {
   number: PropTypes.string,
   name: PropTypes.string,
   suite: PropTypes.string.isRequired
 };
 
-Image.defaultProps = {
+FlipImage.defaultProps = {
   flipped: 1,
   reversed: 0
 };
-
-export function cardLink({ suite, ...card }) {
-  return `/card/${suite}/${card_name(card)}`;
-}
 
 export function CardLink({ children, ...props }) {
   return <Link to={cardLink(props)}>{children}</Link>;
@@ -62,14 +54,14 @@ export function Thumbnail({ link, flipped, ...props }) {
   const [isFlipped, setIsFlipped] = React.useState(flipped);
 
   if (isFlipped) {
-    var img = <Image {...props} />;
+    var img = <FlipImage {...props} />;
     if (link) {
       img = <CardLink {...props}>{img}</CardLink>;
     }
     return <div style={{ textAlign: "center" }}>{img}</div>;
   } else {
     return (
-      <Image
+      <FlipImage
         {...props}
         flipped={0}
         onClick={e => {
@@ -84,7 +76,7 @@ export function Thumbnail({ link, flipped, ...props }) {
 Thumbnail.propTypes = {
   keyword: PropTypes.string.isRequired,
   link: PropTypes.number,
-  ...Image.propTypes
+  ...FlipImage.propTypes
 };
 
 Thumbnail.defaultProps = {
@@ -107,17 +99,24 @@ function OptionalInfo({ label, term, children }) {
 }
 
 function getNumerology(card) {
-  const value = card_value(card);
+  var value = cardValue(card);
   const numerology = Math.floor(value / 10) + (value % 10);
+  if (value !== numerology) {
+    value = `${value} &rarr; ${numerology}`;
+  }
   return (
-    <RawContent>{`${value} &rarr; ${numerology}: ${
-      findTerm(numerology).definition
-    }`}</RawContent>
+    <RawContent>{`${value}: ${findTerm(numerology).definition}`}</RawContent>
   );
 }
 
 export function CardInfo(props) {
   const numerology = getNumerology(props);
+  var { name } = props;
+  var nameDef = name && findTerm(name.toLowerCase());
+  if (nameDef) {
+    name += ` (${nameDef.definition})`;
+  }
+
   return (
     <>
       <table>
@@ -133,7 +132,7 @@ export function CardInfo(props) {
           </OptionalInfo>
           <OptionalInfo label="Nummer">{props.number}</OptionalInfo>
           <OptionalInfo label="Kaart" term={props.name}>
-            {props.name}
+            {name}
           </OptionalInfo>
           <OptionalInfo label="Kernwoord">{props.keyword}</OptionalInfo>
           <OptionalInfo label="Alias">{props.alias}</OptionalInfo>

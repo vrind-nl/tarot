@@ -1,23 +1,21 @@
 import React from "react";
 import { useParams, Redirect, Link } from "react-router-dom";
 
-import { cards, cleanRecord } from "../db";
+import { cards, cleanRecord, cardLink, cardTitle } from "../db";
 import { Page } from "../components/Page";
-import { Thumbnail, CardInfo, cardLink } from "../components/Card";
+import { Thumbnail, CardInfo } from "../components/Card";
 import { roman2arabic } from "../roman";
 
 export function Card(props) {
   const { suite, name } = useParams();
   const query = roman2arabic(name) ? { suite, number: name } : { suite, name };
   const card = cleanRecord(cards(query).first());
-  const title =
-    suite === "groot" ? `${card.number} - ${name}` : `${suite} ${name}`;
 
   const prev = card.seqnr > 1 ? card.seqnr - 1 : 78;
   const next = card.seqnr < 78 ? card.seqnr + 1 : 1;
   const rnd = Math.floor(Math.random() * 78) + 1;
   return (
-    <Page title={title}>
+    <Page title={cardTitle(card)}>
       <table>
         <tbody>
           <tr>

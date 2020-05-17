@@ -5,6 +5,7 @@ import { Index } from "../pages/Index";
 import { Help } from "../pages/Help";
 import { Card, CardByNumber } from "../pages/Card";
 import { Reading } from "../pages/Reading";
+import { Quiz } from "../pages/Quiz";
 import { Terms } from "../pages/Term";
 
 import "./Navigation.css";
@@ -18,6 +19,7 @@ export function Navigation() {
     <nav>
       <NavLink name="Overzicht" />
       <NavLink name="Begrippen" />
+      {/* <NavLink name="Quiz" /> */}
       <NavLink name="Legging" />
       <NavLink name="Uitleg" />
     </nav>
@@ -35,6 +37,9 @@ export function Routes() {
       </Route>
       <Route path="/legging">
         <Reading />
+      </Route>
+      <Route path="/quiz">
+        <Quiz />
       </Route>
       <Route path="/card/number/:seqnr">
         <CardByNumber />

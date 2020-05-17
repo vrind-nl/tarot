@@ -1,7 +1,7 @@
 import React from "react";
 
 import { roman2arabic } from "../roman";
-import { card_name, card_value } from "../db";
+import { cardName, cardValue } from "../db";
 
 function pictorialKey({ suite, name }) {
   // https://en.wikisource.org/wiki/The_Pictorial_Key_to_the_Tarot#Seven_of_Cups """
@@ -128,8 +128,8 @@ function kaartEnSterren(card) {
     suite = "bekers";
   }
 
-  name = card_name(card).toLowerCase();
-  number = card_value(card);
+  name = cardName(card).toLowerCase();
+  number = cardValue(card);
 
   if (name.startsWith("de ")) {
     name = name.substring(3);
@@ -163,7 +163,7 @@ function spiriDoc(card) {
   // http://www.spiridoc.nl/grotearcana/1_de_magier.htm
   // "http://www.spiridoc.nl/grotearcana/5_de_hierophant.htm"
   const base = "http://www.spiridoc.nl/grotearcana/";
-  name = card_name(card);
+  name = cardName(card);
 
   if (suite === "groot") {
     number = roman2arabic(number) || number;

@@ -1,4 +1,3 @@
-.terms div {
-    margin-top: 5pt;
-    margin-bottom: 5pt;
+tr.terms th, tr.terms:nth-child(even) {
+    background: #eee;
 }

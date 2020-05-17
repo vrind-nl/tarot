@@ -32,9 +32,38 @@ export function cleanRecords(records) {
   return records.map(record => record).map(cleanRecord);
 }
 
-export const card_name = ({ name, number }) => name || number;
+export const cardName = ({ name, number }) => name || number;
+export const cardTitle = ({ name, number, suite }) =>
+  suite === "groot"
+    ? `${number} - ${name}`
+    : `${suite} ${cardName({ name, number })}`;
 
-export const card_value = ({ name, number }) =>
+export const cardValue = ({ name, number }) =>
   (number = number
     ? roman2arabic(number)
     : { Aas: 1, Page: 11, Ridder: 12, Koningin: 13, Koning: 14 }[name]);
+
+export const cardLink = ({ suite, ...card }) =>
+  `/card/${suite}/${cardName(card)}`;
+
+export function cardImg(card) {
+  const safeName = cardName(card).replace(/ /g, "-");
+
+  return card.suite === "groot"
+    ? `/GroteArcana/${card.number}-${safeName}.jpg`
+    : `/KleineArcana/${card.suite}/${card.suite}-${safeName}.jpg`;
+}
+
+export function shuffle(array) {
+  // FisherYates algorithm
+  let i = array.length;
+  while (i--) {
+    const ri = Math.floor(Math.random() * (i + 1));
+    [array[i], array[ri]] = [array[ri], array[i]];
+  }
+  return array;
+}
+
+export function randomElement(array) {
+  return array[Math.floor(Math.random() * array.length)];
+}

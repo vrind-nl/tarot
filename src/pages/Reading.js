@@ -1,17 +1,8 @@
 import React from "react";
 
-import { cards, cleanRecords } from "../db";
+import { cards, cleanRecords, shuffle } from "../db";
 import { Thumbnail, CardInfo } from "../components/Card";
 import { Page } from "../components/Page";
-
-function shuffleFisherYates(array) {
-  let i = array.length;
-  while (i--) {
-    const ri = Math.floor(Math.random() * (i + 1));
-    [array[i], array[ri]] = [array[ri], array[i]];
-  }
-  return array;
-}
 
 function FormRow({ label, onChange, ...props }) {
   return (
@@ -42,7 +33,7 @@ export function Reading() {
     if (config.majors) {
       shuffled = shuffled.filter({ suite: "groot" });
     }
-    shuffled = shuffleFisherYates(shuffled.get());
+    shuffled = shuffle(shuffled.get());
     return cleanRecords(shuffled.splice(0, config.size));
   }
 

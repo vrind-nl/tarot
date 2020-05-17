@@ -22,6 +22,14 @@ export function Term({ name, term, refs, nr }) {
       term = definition.definition;
     }
   }
+
+  if (!term && refs.length === 1) {
+    const derived = findTerm(refs[0]).definition;
+    if (derived) {
+      term = `${derived} (via ${refs[0]})`;
+      refs = [];
+    }
+  }
   return (
     <tr id={name} className="terms">
       <td>{name}</td>
@@ -42,7 +50,7 @@ export function Term({ name, term, refs, nr }) {
 }
 
 Term.propTypes = {
-  name: PropTypes.string.isRequired,
+  name: PropTypes.oneOf([PropTypes.string, PropTypes.number]).isRequired,
   term: PropTypes.string
 };
 
@@ -55,7 +63,7 @@ export function Terms({ terms }) {
   return (
     <table>
       <thead>
-        <tr>
+        <tr className="terms">
           <th>Begrip</th>
           <th>Betekenis</th>
           <th>Zie ook</th>
