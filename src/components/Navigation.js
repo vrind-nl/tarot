@@ -35,7 +35,7 @@ export function Routes() {
       <Route path="/begrippen">
         <Terms />
       </Route>
-      <Route path="/legging">
+      <Route path="/legging/:perma?">
         <Reading />
       </Route>
       {/* <Route path="/quiz"> */}

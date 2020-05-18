@@ -23,7 +23,7 @@ export function Term({ name, term, refs, nr }) {
     }
   }
 
-  if (!term && refs.length === 1) {
+  if (!term && refs && refs.length === 1) {
     const derived = findTerm(refs[0]).definition;
     if (derived) {
       term = `${derived} (via ${refs[0]})`;

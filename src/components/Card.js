@@ -153,12 +153,16 @@ export function CardInfo(props) {
           <OptionalInfo label="Numerologie">{numerology}</OptionalInfo>
         </tbody>
       </table>
-      <h3>Begrippen</h3>
-      <Terms
-        terms={props.symbols.sort().map(name => ({
-          name
-        }))}
-      />
+      {props.symbols && (
+        <>
+          <h3>Begrippen</h3>
+          <Terms
+            terms={props.symbols.sort().map(name => ({
+              name
+            }))}
+          />
+        </>
+      )}
       <h3>Links</h3>
       <CardLinks {...props} />
     </>

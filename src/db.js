@@ -47,11 +47,16 @@ export const cardLink = ({ suite, ...card }) =>
   `/card/${suite}/${cardName(card)}`;
 
 export function cardImg(card) {
-  const safeName = cardName(card).replace(/ /g, "-");
+  try {
+    const safeName = cardName(card).replace(/ /g, "-");
 
-  return card.suite === "groot"
-    ? `/GroteArcana/${card.number}-${safeName}.jpg`
-    : `/KleineArcana/${card.suite}/${card.suite}-${safeName}.jpg`;
+    return card.suite === "groot"
+      ? `/GroteArcana/${card.number}-${safeName}.jpg`
+      : `/KleineArcana/${card.suite}/${card.suite}-${safeName}.jpg`;
+  } catch (err) {
+    console.log("Could not get image path for card: ", card);
+    return "ERROR";
+  }
 }
 
 export function shuffle(array) {
