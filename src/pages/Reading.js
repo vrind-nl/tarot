@@ -93,7 +93,7 @@ export function Reading() {
                 reversed={config.reversed && reading.reversed[nr]}
                 height="300pt"
                 onClick={(e, flipped) => handleInfo(nr, flipped)}
-                onTouchStart={(e, flipped) => handleInfo(nr, flipped)}
+                /* onTouchStart={(e, flipped) => handleInfo(nr, flipped)} */
               />
             </div>
           ))}
