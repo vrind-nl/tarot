@@ -3,10 +3,11 @@ import React from "react";
 import { roman2arabic } from "../roman";
 import { cardName, cardValue } from "../db";
 
-function pictorialKey({ suite, name }) {
+function pictorialKey({ suite, ...props }) {
   // https://en.wikisource.org/wiki/The_Pictorial_Key_to_the_Tarot#Seven_of_Cups """
   const base = "https://en.wikisource.org/wiki/The_Pictorial_Key_to_the_Tarot#";
-  var path;
+  var path,
+    name = cardName(props);
 
   if (suite === "groot") {
     path = {
