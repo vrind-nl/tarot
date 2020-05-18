@@ -62,7 +62,10 @@ function pictorialKey({ suite, name }) {
   return base + path.replace(/ /g, "_");
 }
 
-function stapVoorStap({ suite, name, number }) {
+function stapVoorStap(props) {
+  var { suite, name, number } = props;
+  name = cardName(props);
+
   const site = "http://tarotstapvoorstap.nl/";
   const base = site + "tarotkaarten/";
   // special cases
@@ -104,7 +107,7 @@ function stapVoorStap({ suite, name, number }) {
         "acht",
         "negen",
         "tien"
-      ][parseInt(number)];
+      ][roman2arabic(number)];
     } catch (err) {}
 
     if (name === "Page") {
@@ -364,25 +367,39 @@ function orakels({ seqnr }) {
   return "https://www.orakels.net/tarot/oud-engels/" + ORAKELS[seqnr - 1];
 }
 
-function Ref({ href, children }) {
+function Ref({ href, children, target }) {
   return (
     <li>
-      <a href={href} target="_blank" rel="noopener noreferrer">
+      <a href={href} target={target} rel="noopener noreferrer">
         {children}
       </a>
     </li>
   );
 }
 
+Ref.defaultProps = {
+  target: "_blank"
+};
+
 export function CardLinks(props) {
   orakels(props); // silence warning while not in use
   return (
     <ul>
-      <Ref href={pictorialKey(props)}>Pictorial Key to the Tarot (Eng)</Ref>
-      <Ref href={stapVoorStap(props)}>Tarot Stap Voor Stap</Ref>
-      <Ref href={kaartEnSterren(props)}>Kaart en Sterren</Ref>
-      <Ref href={leTarot(props)}>Le Tarot</Ref>
-      <Ref href={spiriDoc(props)}>SpiriDoc</Ref>
+      <Ref href={pictorialKey(props)} target="pict">
+        Pictorial Key to the Tarot (Eng)
+      </Ref>
+      <Ref href={stapVoorStap(props)} target="stap">
+        Tarot Stap Voor Stap
+      </Ref>
+      <Ref href={kaartEnSterren(props)} target="ster">
+        Kaart en Sterren
+      </Ref>
+      <Ref href={leTarot(props)} target="le_taror">
+        Le Tarot
+      </Ref>
+      <Ref href={spiriDoc(props)} target="spiri">
+        SpiriDoc
+      </Ref>
       {/* <Ref href={orakels(props)}>Orakels</Ref> */}
     </ul>
   );
