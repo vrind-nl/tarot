@@ -160,6 +160,7 @@ export function CardInfo(props) {
             terms={props.symbols.sort().map(name => ({
               name
             }))}
+            links={1}
           />
         </>
       )}

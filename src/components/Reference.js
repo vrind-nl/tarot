@@ -276,7 +276,7 @@ const LE_TAROT = [
 ];
 
 function leTarot({ seqnr }) {
-  return "http://www.letarot.nl/tarotkaart-" + LE_TAROT[seqnr];
+  return "http://www.letarot.nl/tarotkaart-" + LE_TAROT[seqnr - 1];
 }
 
 const ORAKELS = [
@@ -361,7 +361,7 @@ const ORAKELS = [
 ];
 
 function orakels({ seqnr }) {
-  return "https://www.orakels.net/tarot/oud-engels/" + ORAKELS[seqnr];
+  return "https://www.orakels.net/tarot/oud-engels/" + ORAKELS[seqnr - 1];
 }
 
 function Ref({ href, children }) {

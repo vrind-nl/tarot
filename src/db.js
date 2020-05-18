@@ -7,6 +7,18 @@ import { roman2arabic } from "./roman";
 
 export const terms = taffy(termData);
 export const cards = taffy(cardData);
+export const crossReferences = taffy(
+  cards()
+    .map(
+      card =>
+        card.symbols &&
+        card.symbols.map(term => ({
+          cardId: card.___id,
+          termId: terms({ name: term }).first().___id
+        }))
+    )
+    .flat()
+);
 
 export function findTerm(name) {
   return terms({ name }).first();
@@ -57,6 +69,15 @@ export function cardImg(card) {
     console.log("Could not get image path for card: ", card);
     return "ERROR";
   }
+}
+
+export const termLink = ({ suite, ...card }) =>
+  `/card/${suite}/${cardName(card)}`;
+
+export function termCards(term) {
+  return crossReferences({ termId: term.___id }).map(xRef =>
+    cards(xRef.cardId).first()
+  );
 }
 
 export function shuffle(array) {

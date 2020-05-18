@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 import { HashLink } from "react-router-hash-link";
 
-import { findTerm } from "../db";
+import { findTerm, cardLink, cardTitle, termCards } from "../db";
 import { RawContent } from "./Content";
 
 import "./Term.css";
@@ -12,7 +12,9 @@ export function TermLink({ name }) {
   return <HashLink to={"/begrippen#" + name}>{name}</HashLink>;
 }
 
-export function Term({ name, term, refs, nr }) {
+export function Term(props) {
+  var { name, term, refs, link } = props;
+
   if (term === "UNDEFINED") {
     const definition = findTerm(name);
     if (!term) {
@@ -30,9 +32,12 @@ export function Term({ name, term, refs, nr }) {
       refs = [];
     }
   }
+
+  const cards = link || termCards(props);
+
   return (
     <tr id={name} className="terms">
-      <td>{name}</td>
+      <td>{link ? <TermLink name={name} /> : name}</td>
       <td>
         <RawContent>{term}</RawContent>
       </td>
@@ -42,8 +47,17 @@ export function Term({ name, term, refs, nr }) {
             {refs
               .map(ref => <TermLink key={ref} name={ref} />)
               .map((link, nr) => [nr > 0 && ", ", link])}
+            {cards && cards.length > 0 ? ", " : ""}
           </>
         )}
+        {cards &&
+          cards.length > 0 &&
+          cards.map((card, nr) => (
+            <span key={nr}>
+              {nr > 0 && ", "}
+              <HashLink to={cardLink(card)}>{cardTitle(card)}</HashLink>
+            </span>
+          ))}
       </td>
     </tr>
   );
@@ -56,10 +70,11 @@ Term.propTypes = {
 
 Term.defaultProps = {
   term: "UNDEFINED",
+  link: 0,
   refs: []
 };
 
-export function Terms({ terms }) {
+export function Terms({ terms, links }) {
   return (
     <table>
       <thead>
@@ -71,9 +86,13 @@ export function Terms({ terms }) {
       </thead>
       <tbody>
         {terms.map((term, nr) => {
-          return <Term key={term.name} {...term} nr={nr} />;
+          return <Term key={term.name} {...term} nr={nr} link={links} />;
         })}
       </tbody>
     </table>
   );
 }
+
+Terms.defaultProps = {
+  links: 0
+};

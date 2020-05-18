@@ -36,12 +36,13 @@
     "name": "De Magier",
     "keyword": "MEESTERSCHAP",
     "keywords": [
-      "Bewust van kracht en mogelijkheden",
+      "bewust van kracht en mogelijkheden",
       "je (leer)proces aangaan",
       "diplomatie",
-      "zo boven zo beneden"
+      "zo boven zo beneden",
+      "alles is mogelijk"
     ],
-    "invitation": "Richt je op wat je w\u00e9l kunt.",
+    "invitation": "Wat zou je doen als alles kan?",
     "warning": "Je neemt teveel hooi op je vork.",
     "symbols": [
       "natuur",
@@ -67,7 +68,7 @@
     "number": "II",
     "name": "De Hogepriesteres",
     "alias": "De Pausin",
-    "keyword": "INTU\u00cfTIE",
+    "keyword": "INTUÏTIE",
     "keywords": [
       "beschermkaart",
       "verborgen wijsheid",
@@ -752,7 +753,7 @@
   {
     "suite": "Staven",
     "number": "VIII",
-    "keyword": "CONVERGEREN",
+    "keyword": "STROMEN",
     "keywords": [
       "veel energie",
       "alles op \u00e9\u00e9n lijn",
