@@ -52,10 +52,7 @@ export function Reading() {
   });
 
   function draw() {
-    var shuffled = cards();
-    if (config.majors) {
-      shuffled = shuffled.filter({ suite: "groot" });
-    }
+    var shuffled = config.majors ? cards() : cards({ suite: "groot" });
     shuffled = shuffle(shuffled.get());
     return cleanRecords(shuffled.splice(0, config.size));
   }

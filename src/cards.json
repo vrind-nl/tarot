@@ -11,7 +11,7 @@
       "lichtzinnig",
       "afgrond",
       "nieuw begin",
-      "na\u00efef",
+      "naïef",
       "kinderlijk",
       "ongericht"
     ],
@@ -28,7 +28,35 @@
       "geel",
       "ijs"
     ],
-    "seqnr": 1
+    "seqnr": 1,
+    "links": [
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "https://en.wikisource.org/wiki/The_Pictorial_Key_to_the_Tarot#0._Zero._The_Fool"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "http://tarotstapvoorstap.nl/tarotkaarten/de-dwaas-tarot-nul/"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "http://www.kaartensterren.nl/pagina's tarotkaarten/arcana/pagina dwaas dwaas.html",
+        "broken": "Not Found"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "http://www.letarot.nl/tarotkaart-01-de-dwaas-0-grote-arcana-de-tarot-in-de-herstelde-orde"
+      },
+      {
+        "name": "SpiriDoc",
+        "url": "http://www.spiridoc.nl/grotearcana/O_de_dwaas.htm",
+        "broken": "Not Found"
+      },
+      {
+        "name": "Orakels",
+        "url": "https://www.orakels.net/tarot/oud-engels/dwaas"
+      }
+    ]
   },
   {
     "suite": "groot",
@@ -61,7 +89,33 @@
       "geel",
       "skepter"
     ],
-    "seqnr": 2
+    "seqnr": 2,
+    "links": [
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "https://en.wikisource.org/wiki/The_Pictorial_Key_to_the_Tarot#I._The_Magician"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "http://tarotstapvoorstap.nl/tarotkaarten/tarotkaart-de-magier"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "http://www.kaartensterren.nl/pagina's tarotkaarten/arcana/pagina 01 magier.html"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "http://www.letarot.nl/tarotkaart-02-de-magier-1-grote-arcana-de-tarot-in-de-herstelde-orde"
+      },
+      {
+        "name": "SpiriDoc",
+        "url": "http://www.spiridoc.nl/grotearcana/1_de_magier.htm"
+      },
+      {
+        "name": "Orakels",
+        "url": "https://www.orakels.net/tarot/oud-engels/magier"
+      }
+    ]
   },
   {
     "suite": "groot",
@@ -96,7 +150,33 @@
       "waterbron",
       "zwart"
     ],
-    "seqnr": 3
+    "seqnr": 3,
+    "links": [
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "https://en.wikisource.org/wiki/The_Pictorial_Key_to_the_Tarot#II._The_High_Priestess"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "http://tarotstapvoorstap.nl/tarotkaarten/tarotkaart-hogepriesteres"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "http://www.kaartensterren.nl/pagina's tarotkaarten/arcana/pagina 02 hogepriesteres.html"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "http://www.letarot.nl/tarotkaart-03-de-priesteres-2-grote-arcana-de-tarot-in-de-herstelde-orde"
+      },
+      {
+        "name": "SpiriDoc",
+        "url": "http://www.spiridoc.nl/grotearcana/2_de_hogepriesteres.htm"
+      },
+      {
+        "name": "Orakels",
+        "url": "https://www.orakels.net/tarot/oud-engels/hogepriesteres"
+      }
+    ]
   },
   {
     "suite": "groot",
@@ -122,7 +202,33 @@
       "boom",
       "koren"
     ],
-    "seqnr": 4
+    "seqnr": 4,
+    "links": [
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "https://en.wikisource.org/wiki/The_Pictorial_Key_to_the_Tarot#III._The_Empress"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "http://tarotstapvoorstap.nl/tarotkaarten/tarotkaart-de-keizerin"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "http://www.kaartensterren.nl/pagina's tarotkaarten/arcana/pagina 03 keizerin.html"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "http://www.letarot.nl/tarotkaart-08-de-keizerin-6-grote-arcana-de-tarot-in-de-herstelde-orde"
+      },
+      {
+        "name": "SpiriDoc",
+        "url": "http://www.spiridoc.nl/grotearcana/3_de_keizerin.htm"
+      },
+      {
+        "name": "Orakels",
+        "url": "https://www.orakels.net/tarot/oud-engels/keizerin"
+      }
+    ]
   },
   {
     "suite": "groot",
@@ -150,13 +256,39 @@
       "harnas",
       "globe"
     ],
-    "seqnr": 5
+    "seqnr": 5,
+    "links": [
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "https://en.wikisource.org/wiki/The_Pictorial_Key_to_the_Tarot#IV._The_Emperor"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "http://tarotstapvoorstap.nl/tarotkaarten/tarotkaart-de-keizer"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "http://www.kaartensterren.nl/pagina's tarotkaarten/arcana/pagina 04 keizer.html"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "http://www.letarot.nl/tarotkaart-04-de-keizer-3-grote-arcana-de-tarot-in-de-herstelde-orde"
+      },
+      {
+        "name": "SpiriDoc",
+        "url": "http://www.spiridoc.nl/grotearcana/4_de_keizer.htm"
+      },
+      {
+        "name": "Orakels",
+        "url": "https://www.orakels.net/tarot/oud-engels/keizer"
+      }
+    ]
   },
   {
     "suite": "groot",
     "number": "V",
     "name": "De Hogepriester",
-    "alias": "De Hi\u00ebrofant, De Paus",
+    "alias": "De Hiërofant, De Paus",
     "keyword": "MORAAL",
     "keywords": [
       "Beschermkaart",
@@ -180,7 +312,33 @@
       "sleutel",
       "skepter"
     ],
-    "seqnr": 6
+    "seqnr": 6,
+    "links": [
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "https://en.wikisource.org/wiki/The_Pictorial_Key_to_the_Tarot#V._The_Hierophant"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "http://tarotstapvoorstap.nl/tarotkaarten/tarotkaart-de-hogepriester"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "http://www.kaartensterren.nl/pagina's tarotkaarten/arcana/pagina 05 hogepriester.html"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "http://www.letarot.nl/tarotkaart-07-de-priester-5-de-paus-grote-arcana-de-tarot-in-de-herstelde-orde"
+      },
+      {
+        "name": "SpiriDoc",
+        "url": "http://www.spiridoc.nl/grotearcana/5_de_hierophant.htm"
+      },
+      {
+        "name": "Orakels",
+        "url": "https://www.orakels.net/tarot/oud-engels/de-hogepriester"
+      }
+    ]
   },
   {
     "suite": "groot",
@@ -213,7 +371,33 @@
       "jonge vrouw",
       "paars kleed"
     ],
-    "seqnr": 7
+    "seqnr": 7,
+    "links": [
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "https://en.wikisource.org/wiki/The_Pictorial_Key_to_the_Tarot#VI._The_Lovers"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "http://tarotstapvoorstap.nl/tarotkaarten/tarotkaart-de-geliefden"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "http://www.kaartensterren.nl/pagina's tarotkaarten/arcana/pagina 06 geliefden.html"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "http://www.letarot.nl/tarotkaart-05-de-geliefden-4-grote-arcana-de-tarot-in-de-herstelde-orde"
+      },
+      {
+        "name": "SpiriDoc",
+        "url": "http://www.spiridoc.nl/grotearcana/6_de_geliefden.htm"
+      },
+      {
+        "name": "Orakels",
+        "url": "https://www.orakels.net/tarot/oud-engels/geliefden"
+      }
+    ]
   },
   {
     "suite": "groot",
@@ -246,7 +430,33 @@
       "baldakijn",
       "skepter"
     ],
-    "seqnr": 8
+    "seqnr": 8,
+    "links": [
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "https://en.wikisource.org/wiki/The_Pictorial_Key_to_the_Tarot#VII._The_Chariot"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "http://tarotstapvoorstap.nl/tarotkaarten/tarotkaart-de-zegewagen"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "http://www.kaartensterren.nl/pagina's tarotkaarten/arcana/pagina 07 zegewagen.html"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "http://www.letarot.nl/tarotkaart-09-de-zegewagen-7-grote-arcana-de-tarot-in-de-herstelde-orde"
+      },
+      {
+        "name": "SpiriDoc",
+        "url": "http://www.spiridoc.nl/grotearcana/7_de_zegewagen.htm"
+      },
+      {
+        "name": "Orakels",
+        "url": "https://www.orakels.net/tarot/oud-engels/zegewagen"
+      }
+    ]
   },
   {
     "suite": "groot",
@@ -275,7 +485,33 @@
       "kubus",
       "vrouw"
     ],
-    "seqnr": 9
+    "seqnr": 9,
+    "links": [
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "https://en.wikisource.org/wiki/The_Pictorial_Key_to_the_Tarot#XI._Justice"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "http://tarotstapvoorstap.nl/tarotkaarten/tarotkaart-gerechtigheid"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "http://www.kaartensterren.nl/pagina's tarotkaarten/arcana/pagina 11 gerechtigheid.html"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "http://www.letarot.nl/tarotkaart-11-de-rechtvaardigheid-9-grote-arcana-de-tarot-in-de-herstelde-orde"
+      },
+      {
+        "name": "SpiriDoc",
+        "url": "http://www.spiridoc.nl/grotearcana/11_rechtvaardigheid.htm"
+      },
+      {
+        "name": "Orakels",
+        "url": "https://www.orakels.net/tarot/oud-engels/kracht"
+      }
+    ]
   },
   {
     "suite": "groot",
@@ -306,7 +542,33 @@
       "links",
       "rechts"
     ],
-    "seqnr": 10
+    "seqnr": 10,
+    "links": [
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "https://en.wikisource.org/wiki/The_Pictorial_Key_to_the_Tarot#IX._The_Hermit"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "http://tarotstapvoorstap.nl/tarotkaarten/tarotkaart-de-kluizenaar-heremiet"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "http://www.kaartensterren.nl/pagina's tarotkaarten/arcana/pagina 09 heremiet.html"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "http://www.letarot.nl/tarotkaart-10-de-kluizenaar-8-de-heremiet-grote-arcana-de-tarot-in-de-herstelde-orde"
+      },
+      {
+        "name": "SpiriDoc",
+        "url": "http://www.spiridoc.nl/grotearcana/9_de_kluizenaar.htm"
+      },
+      {
+        "name": "Orakels",
+        "url": "https://www.orakels.net/tarot/oud-engels/heremiet"
+      }
+    ]
   },
   {
     "suite": "groot",
@@ -327,7 +589,33 @@
       "tora",
       "feniks"
     ],
-    "seqnr": 11
+    "seqnr": 11,
+    "links": [
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "https://en.wikisource.org/wiki/The_Pictorial_Key_to_the_Tarot#X._Wheel_of_Fortune"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "http://tarotstapvoorstap.nl/tarotkaarten/tarotkaart-het-rad-van-fortuin"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "http://www.kaartensterren.nl/pagina's tarotkaarten/arcana/pagina 10 rad van fortuin.html"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "http://www.letarot.nl/tarotkaart-24-het-universum-21-grote-arcana-de-tarot-in-de-herstelde-orde"
+      },
+      {
+        "name": "SpiriDoc",
+        "url": "http://www.spiridoc.nl/grotearcana/10_rad_van_fortuin.htm"
+      },
+      {
+        "name": "Orakels",
+        "url": "https://www.orakels.net/tarot/oud-engels/rad-van-fortuin"
+      }
+    ]
   },
   {
     "suite": "groot",
@@ -346,7 +634,33 @@
       "bergtop",
       "oranje"
     ],
-    "seqnr": 12
+    "seqnr": 12,
+    "links": [
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "https://en.wikisource.org/wiki/The_Pictorial_Key_to_the_Tarot#VIII._Strength,_or_Fortitude"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "http://tarotstapvoorstap.nl/tarotkaarten/tarotkaart-de-kracht"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "http://www.kaartensterren.nl/pagina's tarotkaarten/arcana/pagina 08 kracht.html"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "http://www.letarot.nl/tarotkaart-13-de-kracht-11-grote-arcana-de-tarot-in-de-herstelde-orde"
+      },
+      {
+        "name": "SpiriDoc",
+        "url": "http://www.spiridoc.nl/grotearcana/8_kracht.htm"
+      },
+      {
+        "name": "Orakels",
+        "url": "https://www.orakels.net/tarot/oud-engels/gerechtigheid"
+      }
+    ]
   },
   {
     "suite": "groot",
@@ -371,7 +685,34 @@
       "blauw",
       "staf"
     ],
-    "seqnr": 13
+    "seqnr": 13,
+    "links": [
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "https://en.wikisource.org/wiki/The_Pictorial_Key_to_the_Tarot#XII._The_Hanged_Man"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "http://tarotstapvoorstap.nl/tarotkaarten/tarotkaart-de-gehangene"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "http://www.kaartensterren.nl/pagina's tarotkaarten/arcana/pagina 12 gehangene.html"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "http://www.letarot.nl/tarotkaart-14-de-gehangene-12-grote-arcana-de-tarot-in-de-herstelde-orde"
+      },
+      {
+        "name": "SpiriDoc",
+        "url": "http://www.spiridoc.nl/grotearcana/12_de_gehangene.htm",
+        "broken": "Not Found"
+      },
+      {
+        "name": "Orakels",
+        "url": "https://www.orakels.net/tarot/oud-engels/gehangene"
+      }
+    ]
   },
   {
     "suite": "groot",
@@ -411,7 +752,34 @@
       "doodshoofd",
       "vlag"
     ],
-    "seqnr": 14
+    "seqnr": 14,
+    "links": [
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "https://en.wikisource.org/wiki/The_Pictorial_Key_to_the_Tarot#XIII._Death"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "http://tarotstapvoorstap.nl/tarotkaarten/tarotkaart-de-dood"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "http://www.kaartensterren.nl/pagina's tarotkaarten/arcana/pagina 13 dood.html"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "http://www.letarot.nl/tarotkaart-16-de-dood-14-grote-arcana-de-tarot-in-de-herstelde-orde"
+      },
+      {
+        "name": "SpiriDoc",
+        "url": "http://www.spiridoc.nl/grotearcana/13_de_dood.htm",
+        "broken": "Not Found"
+      },
+      {
+        "name": "Orakels",
+        "url": "https://www.orakels.net/tarot/oud-engels/dood"
+      }
+    ]
   },
   {
     "suite": "groot",
@@ -438,7 +806,33 @@
       "berg",
       "vierkant met driehoek"
     ],
-    "seqnr": 15
+    "seqnr": 15,
+    "links": [
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "https://en.wikisource.org/wiki/The_Pictorial_Key_to_the_Tarot#XIV._Temperance"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "http://tarotstapvoorstap.nl/tarotkaarten/tarotkaart-matigheid"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "http://www.kaartensterren.nl/pagina's tarotkaarten/arcana/pagina 14 gematigdheid.html"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "http://www.letarot.nl/tarotkaart-15-de-gematigdheid-13-grote-arcana-de-tarot-in-de-herstelde-orde"
+      },
+      {
+        "name": "SpiriDoc",
+        "url": "http://www.spiridoc.nl/grotearcana/14_matigheid.htm"
+      },
+      {
+        "name": "Orakels",
+        "url": "https://www.orakels.net/tarot/oud-engels/gematigdheid"
+      }
+    ]
   },
   {
     "suite": "groot",
@@ -469,7 +863,33 @@
       "pentagram",
       "zwart"
     ],
-    "seqnr": 16
+    "seqnr": 16,
+    "links": [
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "https://en.wikisource.org/wiki/The_Pictorial_Key_to_the_Tarot#XV._The_Devil"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "http://tarotstapvoorstap.nl/tarotkaarten/tarotkaart-de-duivel"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "http://www.kaartensterren.nl/pagina's tarotkaarten/arcana/pagina 15 duivel.html"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "http://www.letarot.nl/tarotkaart-17-de-duivel-15-grote-arcana-de-tarot-in-de-herstelde-orde"
+      },
+      {
+        "name": "SpiriDoc",
+        "url": "http://www.spiridoc.nl/grotearcana/15_de_duivel.htm"
+      },
+      {
+        "name": "Orakels",
+        "url": "https://www.orakels.net/tarot/oud-engels/duivel"
+      }
+    ]
   },
   {
     "suite": "groot",
@@ -499,7 +919,33 @@
       "yod",
       "zwart"
     ],
-    "seqnr": 17
+    "seqnr": 17,
+    "links": [
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "https://en.wikisource.org/wiki/The_Pictorial_Key_to_the_Tarot#XVI._The_Tower"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "http://tarotstapvoorstap.nl/tarotkaarten/tarotkaart-de-toren"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "http://www.kaartensterren.nl/pagina's tarotkaarten/arcana/pagina 16 toren.html"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "http://www.letarot.nl/tarotkaart-19-de-toren-16-grote-arcana-de-tarot-in-de-herstelde-orde"
+      },
+      {
+        "name": "SpiriDoc",
+        "url": "http://www.spiridoc.nl/grotearcana/16_de_toren.htm"
+      },
+      {
+        "name": "Orakels",
+        "url": "https://www.orakels.net/tarot/oud-engels/toren"
+      }
+    ]
   },
   {
     "suite": "groot",
@@ -523,7 +969,33 @@
       "water",
       "borsten"
     ],
-    "seqnr": 18
+    "seqnr": 18,
+    "links": [
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "https://en.wikisource.org/wiki/The_Pictorial_Key_to_the_Tarot#XVII._The_Star"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "http://tarotstapvoorstap.nl/tarotkaarten/tarotkaart-de-ster"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "http://www.kaartensterren.nl/pagina's tarotkaarten/arcana/pagina 17 ster.html"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "http://www.letarot.nl/tarotkaart-21-de-ster-18-grote-arcana-de-tarot-in-de-herstelde-orde"
+      },
+      {
+        "name": "SpiriDoc",
+        "url": "http://www.spiridoc.nl/grotearcana/17_de_ster.htm"
+      },
+      {
+        "name": "Orakels",
+        "url": "https://www.orakels.net/tarot/oud-engels/ster"
+      }
+    ]
   },
   {
     "suite": "groot",
@@ -553,7 +1025,33 @@
       "toren",
       "pilaren"
     ],
-    "seqnr": 19
+    "seqnr": 19,
+    "links": [
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "https://en.wikisource.org/wiki/The_Pictorial_Key_to_the_Tarot#XVIII._The_Moon"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "http://tarotstapvoorstap.nl/tarotkaarten/tarotkaart-de-maan"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "http://www.kaartensterren.nl/pagina's tarotkaarten/arcana/pagina 18 maan.html"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "http://www.letarot.nl/tarotkaart-20-de-maan-17-grote-arcana-de-tarot-in-de-herstelde-orde"
+      },
+      {
+        "name": "SpiriDoc",
+        "url": "http://www.spiridoc.nl/grotearcana/18_de_maan.htm"
+      },
+      {
+        "name": "Orakels",
+        "url": "https://www.orakels.net/tarot/oud-engels/zon"
+      }
+    ]
   },
   {
     "suite": "groot",
@@ -580,7 +1078,33 @@
       "golven",
       "vlag"
     ],
-    "seqnr": 20
+    "seqnr": 20,
+    "links": [
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "https://en.wikisource.org/wiki/The_Pictorial_Key_to_the_Tarot#XIX._The_Sun"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "http://tarotstapvoorstap.nl/tarotkaarten/tarotkaart-de-zon"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "http://www.kaartensterren.nl/pagina's tarotkaarten/arcana/pagina 19 zon.html"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "http://www.letarot.nl/tarotkaart-22-de-zon-19-grote-arcana-de-tarot-in-de-herstelde-orde"
+      },
+      {
+        "name": "SpiriDoc",
+        "url": "http://www.spiridoc.nl/grotearcana/19_de_zon.htm"
+      },
+      {
+        "name": "Orakels",
+        "url": "https://www.orakels.net/tarot/oud-engels/maan"
+      }
+    ]
   },
   {
     "suite": "groot",
@@ -604,7 +1128,33 @@
       "vlag",
       "borsten"
     ],
-    "seqnr": 21
+    "seqnr": 21,
+    "links": [
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "https://en.wikisource.org/wiki/The_Pictorial_Key_to_the_Tarot#XX._The_Last_Judgment"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "http://tarotstapvoorstap.nl/tarotkaarten/tarotkaart-het-oordeel"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "http://www.kaartensterren.nl/pagina's tarotkaarten/arcana/pagina 20 oordeel.html"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "http://www.letarot.nl/tarotkaart-23-het-laatste-oordeel-20-grote-arcana-de-tarot-in-de-herstelde-orde"
+      },
+      {
+        "name": "SpiriDoc",
+        "url": "http://www.spiridoc.nl/grotearcana/2_het_oordeel.htm"
+      },
+      {
+        "name": "Orakels",
+        "url": "https://www.orakels.net/tarot/oud-engels/oordeel"
+      }
+    ]
   },
   {
     "suite": "groot",
@@ -626,7 +1176,33 @@
       "arend",
       "engel"
     ],
-    "seqnr": 22
+    "seqnr": 22,
+    "links": [
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "https://en.wikisource.org/wiki/The_Pictorial_Key_to_the_Tarot#XXI._The_World"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "http://tarotstapvoorstap.nl/tarotkaarten/tarotkaart-de-wereld"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "http://www.kaartensterren.nl/pagina's tarotkaarten/arcana/pagina 21 wereld.html"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "http://www.letarot.nl/tarotkaart-12-de-wereld-10-het-rad-van-fortuin-grote-arcana-de-tarot-in-de-herstelde-orde"
+      },
+      {
+        "name": "SpiriDoc",
+        "url": "http://www.spiridoc.nl/grotearcana/21_de_wereld.htm"
+      },
+      {
+        "name": "Orakels",
+        "url": "https://www.orakels.net/tarot/oud-engels/wereld"
+      }
+    ]
   },
   {
     "suite": "Staven",
@@ -644,7 +1220,34 @@
       "rechts",
       "grijs"
     ],
-    "seqnr": 23
+    "seqnr": 23,
+    "links": [
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "https://en.wikisource.org/wiki/The_Pictorial_Key_to_the_Tarot#Ace_of_Wands"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "http://tarotstapvoorstap.nl/tarotkaarten/tarotkaart-staven-aas"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "http://www.kaartensterren.nl/pagina's tarotkaarten/staven/pagina staven 01.html"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "http://www.letarot.nl/tarotkaart-43-staven-1-aas-stokken-scepters-knotsen-of-batons-kleine-arcana"
+      },
+      {
+        "name": "SpiriDoc",
+        "url": "http://www.spiridoc.nl/grotearcana/Aas",
+        "broken": "Not Found"
+      },
+      {
+        "name": "Orakels",
+        "url": "https://www.orakels.net/tarot/oud-engels/aas-van-staven"
+      }
+    ]
   },
   {
     "suite": "Staven",
@@ -664,7 +1267,34 @@
       "rood kleed",
       "grijs"
     ],
-    "seqnr": 24
+    "seqnr": 24,
+    "links": [
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "https://en.wikisource.org/wiki/The_Pictorial_Key_to_the_Tarot#Two_of_Wands"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "http://tarotstapvoorstap.nl/tarotkaarten/tarotkaart-staven-twee"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "http://www.kaartensterren.nl/pagina's tarotkaarten/staven/pagina staven 02.html"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "http://www.letarot.nl/tarotkaart-44-staven-2-twee-stokken-scepters-knotsen-of-batons-kleine-arcana"
+      },
+      {
+        "name": "SpiriDoc",
+        "url": "http://www.spiridoc.nl/grotearcana/II",
+        "broken": "Not Found"
+      },
+      {
+        "name": "Orakels",
+        "url": "https://www.orakels.net/tarot/oud-engels/staven-twee"
+      }
+    ]
   },
   {
     "suite": "Staven",
@@ -687,7 +1317,34 @@
       "heuvels",
       "geel"
     ],
-    "seqnr": 25
+    "seqnr": 25,
+    "links": [
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "https://en.wikisource.org/wiki/The_Pictorial_Key_to_the_Tarot#Three_of_Wands"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "http://tarotstapvoorstap.nl/tarotkaarten/tarotkaart-staven-drie"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "http://www.kaartensterren.nl/pagina's tarotkaarten/staven/pagina staven 03.html"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "http://www.letarot.nl/tarotkaart-45-staven-3-drie-stokken-scepters-knotsen-of-batons-kleine-arcana"
+      },
+      {
+        "name": "SpiriDoc",
+        "url": "http://www.spiridoc.nl/grotearcana/III",
+        "broken": "Not Found"
+      },
+      {
+        "name": "Orakels",
+        "url": "https://www.orakels.net/tarot/oud-engels/staven-drie"
+      }
+    ]
   },
   {
     "suite": "Staven",
@@ -708,7 +1365,34 @@
       "bloemen",
       "oranje"
     ],
-    "seqnr": 26
+    "seqnr": 26,
+    "links": [
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "https://en.wikisource.org/wiki/The_Pictorial_Key_to_the_Tarot#Four_of_Wands"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "http://tarotstapvoorstap.nl/tarotkaarten/tarotkaart-staven-vier"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "http://www.kaartensterren.nl/pagina's tarotkaarten/staven/pagina staven 04.html"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "http://www.letarot.nl/tarotkaart-46-staven-4-vier-stokken-scepters-knotsen-of-batons-kleine-arcana"
+      },
+      {
+        "name": "SpiriDoc",
+        "url": "http://www.spiridoc.nl/grotearcana/IV",
+        "broken": "Not Found"
+      },
+      {
+        "name": "Orakels",
+        "url": "https://www.orakels.net/tarot/oud-engels/staven-vier"
+      }
+    ]
   },
   {
     "suite": "Staven",
@@ -717,7 +1401,34 @@
     "keywords": ["schijngevecht", "rellen"],
     "invitation": "Laat je niet zomaar opzij zetten",
     "warning": "Blijf niet hangen in gekissebis.",
-    "seqnr": 27
+    "seqnr": 27,
+    "links": [
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "https://en.wikisource.org/wiki/The_Pictorial_Key_to_the_Tarot#Five_of_Wands"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "http://tarotstapvoorstap.nl/tarotkaarten/tarotkaart-staven-vijf"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "http://www.kaartensterren.nl/pagina's tarotkaarten/staven/pagina staven 05.html"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "http://www.letarot.nl/tarotkaart-47-staven-5-vijf-stokken-scepters-knotsen-of-batons-kleine-arcana"
+      },
+      {
+        "name": "SpiriDoc",
+        "url": "http://www.spiridoc.nl/grotearcana/V",
+        "broken": "Not Found"
+      },
+      {
+        "name": "Orakels",
+        "url": "https://www.orakels.net/tarot/oud-engels/staven-vijf"
+      }
+    ]
   },
   {
     "suite": "Staven",
@@ -731,9 +1442,37 @@
       "groot nieuws"
     ],
     "invitation": "Stel je op als een leider",
-    "warning": "E\u00e9n zwaluw maakt nog geen zomer",
+    "warning": "Eén zwaluw maakt nog geen zomer",
     "symbols": ["groen kleed", "lauwerkrans", "paard"],
-    "seqnr": 28
+    "seqnr": 28,
+    "links": [
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "https://en.wikisource.org/wiki/The_Pictorial_Key_to_the_Tarot#Six_of_Wands"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "http://tarotstapvoorstap.nl/tarotkaarten/tarotkaart-staven-zes",
+        "broken": "Not Found"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "http://www.kaartensterren.nl/pagina's tarotkaarten/staven/pagina staven 06.html"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "http://www.letarot.nl/tarotkaart-48-staven-6-zes-stokken-scepters-knotsen-of-batons-kleine-arcana"
+      },
+      {
+        "name": "SpiriDoc",
+        "url": "http://www.spiridoc.nl/grotearcana/VI",
+        "broken": "Not Found"
+      },
+      {
+        "name": "Orakels",
+        "url": "https://www.orakels.net/tarot/oud-engels/staven-zes"
+      }
+    ]
   },
   {
     "suite": "Staven",
@@ -748,7 +1487,34 @@
     "invitation": "Neem het voor jezelf op.",
     "warning": "Vraag niet voortdurend goedkeuring. Doe het gewoon!",
     "symbols": ["stroom", "heuvels"],
-    "seqnr": 29
+    "seqnr": 29,
+    "links": [
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "https://en.wikisource.org/wiki/The_Pictorial_Key_to_the_Tarot#Seven_of_Wands"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "http://tarotstapvoorstap.nl/tarotkaarten/tarotkaart-staven-zeven"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "http://www.kaartensterren.nl/pagina's tarotkaarten/staven/pagina staven 07.html"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "http://www.letarot.nl/tarotkaart-49-staven-7-zeven-stokken-scepters-knotsen-of-batons-kleine-arcana"
+      },
+      {
+        "name": "SpiriDoc",
+        "url": "http://www.spiridoc.nl/grotearcana/VII",
+        "broken": "Not Found"
+      },
+      {
+        "name": "Orakels",
+        "url": "https://www.orakels.net/tarot/oud-engels/staven-zeven"
+      }
+    ]
   },
   {
     "suite": "Staven",
@@ -756,7 +1522,7 @@
     "keyword": "STROMEN",
     "keywords": [
       "veel energie",
-      "alles op \u00e9\u00e9n lijn",
+      "alles op één lijn",
       "van een lijen dakje",
       "haast",
       "liefdespijlen"
@@ -764,7 +1530,34 @@
     "invitation": "Laat je meevoeren",
     "warning": "Blijf zelf aan het roer",
     "symbols": ["stroom", "heuvels", "linksboven", "rechtsonder"],
-    "seqnr": 30
+    "seqnr": 30,
+    "links": [
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "https://en.wikisource.org/wiki/The_Pictorial_Key_to_the_Tarot#Eight_of_Wands"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "http://tarotstapvoorstap.nl/tarotkaarten/tarotkaart-staven-acht"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "http://www.kaartensterren.nl/pagina's tarotkaarten/staven/pagina staven 08.html"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "http://www.letarot.nl/tarotkaart-50-staven-8-acht-stokken-scepters-of-batons-kleine-arcana"
+      },
+      {
+        "name": "SpiriDoc",
+        "url": "http://www.spiridoc.nl/grotearcana/VIII",
+        "broken": "Not Found"
+      },
+      {
+        "name": "Orakels",
+        "url": "https://www.orakels.net/tarot/oud-engels/staven-acht"
+      }
+    ]
   },
   {
     "suite": "Staven",
@@ -780,7 +1573,34 @@
     "invitation": "Bekijk het eens uit het perspectief van de ander",
     "warning": "Is de dreiging wel echt?",
     "symbols": ["muur", "podium"],
-    "seqnr": 31
+    "seqnr": 31,
+    "links": [
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "https://en.wikisource.org/wiki/The_Pictorial_Key_to_the_Tarot#Nine_of_Wands"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "http://tarotstapvoorstap.nl/tarotkaarten/tarotkaart-staven-negen"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "http://www.kaartensterren.nl/pagina's tarotkaarten/staven/pagina staven 09.html"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "http://www.letarot.nl/tarotkaart-51-staven-9-negen-stokken-scepters-knotsen-of-batons-kleine-arcana"
+      },
+      {
+        "name": "SpiriDoc",
+        "url": "http://www.spiridoc.nl/grotearcana/IX",
+        "broken": "Not Found"
+      },
+      {
+        "name": "Orakels",
+        "url": "https://www.orakels.net/tarot/oud-engels/staven-negen"
+      }
+    ]
   },
   {
     "suite": "Staven",
@@ -795,21 +1615,76 @@
     "invitation": "Wie kan je helpen om deze last te dragen?",
     "warning": "Laat op tijd los",
     "symbols": ["akker", "stadsmuur", "podium"],
-    "seqnr": 32
+    "seqnr": 32,
+    "links": [
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "https://en.wikisource.org/wiki/The_Pictorial_Key_to_the_Tarot#Ten_of_Wands"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "http://tarotstapvoorstap.nl/tarotkaarten/tarotkaart-staven-tien"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "http://www.kaartensterren.nl/pagina's tarotkaarten/staven/pagina staven 10.html"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "http://www.letarot.nl/tarotkaart-52-staven-10-tien-stokken-scepters-knotsen-of-batons-kleine-arcana"
+      },
+      {
+        "name": "SpiriDoc",
+        "url": "http://www.spiridoc.nl/grotearcana/X",
+        "broken": "Not Found"
+      },
+      {
+        "name": "Orakels",
+        "url": "https://www.orakels.net/tarot/oud-engels/staven-tien"
+      }
+    ]
   },
   {
     "suite": "Staven",
     "name": "Page",
     "keyword": "PREDIKER",
     "keywords": [
-      "op idee\u00ebn komen",
+      "op ideeën komen",
       "meeslepende impuls",
       "groene blaadjes in de woestijn"
     ],
     "invitation": "Grijp je kans!",
     "warning": "Pas op voor (te) mooie verhalen",
     "symbols": ["heuvels", "pyramide", "rood kleed", "geel kleed", "blauw"],
-    "seqnr": 33
+    "seqnr": 33,
+    "links": [
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "https://en.wikisource.org/wiki/The_Pictorial_Key_to_the_Tarot#Page_of_Wands"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "http://tarotstapvoorstap.nl/tarotkaarten/tarotkaart-staven-schildknaap"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "http://www.kaartensterren.nl/pagina's tarotkaarten/staven/pagina staven 11.html",
+        "broken": "Not Found"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "http://www.letarot.nl/tarotkaart-42-staven-page-schildknaap-hofkaart-stokken-scepters-knotsen-of-batons-kleine-arcana"
+      },
+      {
+        "name": "SpiriDoc",
+        "url": "http://www.spiridoc.nl/grotearcana/Page",
+        "broken": "Not Found"
+      },
+      {
+        "name": "Orakels",
+        "url": "https://www.orakels.net/tarot/oud-engels/schildknaap-van-staven"
+      }
+    ]
   },
   {
     "suite": "Staven",
@@ -827,12 +1702,40 @@
       "vuur",
       "pyramide"
     ],
-    "seqnr": 34
+    "seqnr": 34,
+    "links": [
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "https://en.wikisource.org/wiki/The_Pictorial_Key_to_the_Tarot#Knight_of_Wands"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "http://tarotstapvoorstap.nl/tarotkaarten/tarotkaart-staven-ridder"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "http://www.kaartensterren.nl/pagina's tarotkaarten/staven/pagina staven 12.html",
+        "broken": "Not Found"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "http://www.letarot.nl/tarotkaart-41-staven-ridder-hofkaart-stokken-scepters-knotsen-of-batons-kleine-arcana"
+      },
+      {
+        "name": "SpiriDoc",
+        "url": "http://www.spiridoc.nl/grotearcana/Ridder",
+        "broken": "Not Found"
+      },
+      {
+        "name": "Orakels",
+        "url": "https://www.orakels.net/tarot/oud-engels/ridder-van-staven"
+      }
+    ]
   },
   {
     "suite": "Staven",
     "name": "Koningin",
-    "keyword": "STEVIG",
+    "keyword": "KRACHTIG",
     "keywords": [
       "onafhankelijk",
       "kundig",
@@ -852,7 +1755,35 @@
       "bloemenkrans",
       "zwarte kat"
     ],
-    "seqnr": 35
+    "seqnr": 35,
+    "links": [
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "https://en.wikisource.org/wiki/The_Pictorial_Key_to_the_Tarot#Queen_of_Wands"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "http://tarotstapvoorstap.nl/tarotkaarten/tarotkaart-staven-koningin"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "http://www.kaartensterren.nl/pagina's tarotkaarten/staven/pagina staven 13.html",
+        "broken": "Not Found"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "http://www.letarot.nl/tarotkaart-40-staven-koningin-hofkaart-stokken-scepters-knotsen-of-batons-kleine-arcana"
+      },
+      {
+        "name": "SpiriDoc",
+        "url": "http://www.spiridoc.nl/grotearcana/Koningin",
+        "broken": "Not Found"
+      },
+      {
+        "name": "Orakels",
+        "url": "https://www.orakels.net/tarot/oud-engels/koningin-van-staven"
+      }
+    ]
   },
   {
     "suite": "Staven",
@@ -880,7 +1811,35 @@
       "leeuw",
       "oranje"
     ],
-    "seqnr": 36
+    "seqnr": 36,
+    "links": [
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "https://en.wikisource.org/wiki/The_Pictorial_Key_to_the_Tarot#King_of_Wands"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "http://tarotstapvoorstap.nl/tarotkaarten/tarotkaart-staven-koning"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "http://www.kaartensterren.nl/pagina's tarotkaarten/staven/pagina staven 14.html",
+        "broken": "Not Found"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "http://www.letarot.nl/tarotkaart-39-staven-koning-hofkaart-stokken-scepters-knotsen-of-batons-kleine-arcana"
+      },
+      {
+        "name": "SpiriDoc",
+        "url": "http://www.spiridoc.nl/grotearcana/Koning",
+        "broken": "Not Found"
+      },
+      {
+        "name": "Orakels",
+        "url": "https://www.orakels.net/tarot/oud-engels/koning-van-staven"
+      }
+    ]
   },
   {
     "suite": "Pentakels",
@@ -901,7 +1860,35 @@
       "bergtop",
       "blauw"
     ],
-    "seqnr": 37
+    "seqnr": 37,
+    "links": [
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "https://en.wikisource.org/wiki/The_Pictorial_Key_to_the_Tarot#Ace_of_Pentacles"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "http://tarotstapvoorstap.nl/tarotkaarten/tarotkaart-pentakels-aas",
+        "broken": "Not Found"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "http://www.kaartensterren.nl/pagina's tarotkaarten/pentakels/pagina pentakels 01.html"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "http://www.letarot.nl/tarotkaart-29-pentagrammen-1-aas-munten-pentakels-of-schijven-kleine-arcana"
+      },
+      {
+        "name": "SpiriDoc",
+        "url": "http://www.spiridoc.nl/grotearcana/Aas",
+        "broken": "Not Found"
+      },
+      {
+        "name": "Orakels",
+        "url": "https://www.orakels.net/tarot/oud-engels/aas-van-pentakels"
+      }
+    ]
   },
   {
     "suite": "Pentakels",
@@ -916,7 +1903,34 @@
     "invitation": "Speel met je mogelijkheden",
     "warning": "Je kan niet alle opties open houden",
     "symbols": ["lemniscaat", "golven", "boot", "jonge man", "blauw", "podium"],
-    "seqnr": 38
+    "seqnr": 38,
+    "links": [
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "https://en.wikisource.org/wiki/The_Pictorial_Key_to_the_Tarot#Two_of_Pentacles"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "http://tarotstapvoorstap.nl/tarotkaarten/rider-waite-tarotkaart-pentakels-twee"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "http://www.kaartensterren.nl/pagina's tarotkaarten/pentakels/pagina pentakels 02.html"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "http://www.letarot.nl/tarotkaart-30-pentagrammen-2-twee-munten-pentakels-of-schijven-2-kleine-arcana"
+      },
+      {
+        "name": "SpiriDoc",
+        "url": "http://www.spiridoc.nl/grotearcana/II",
+        "broken": "Not Found"
+      },
+      {
+        "name": "Orakels",
+        "url": "https://www.orakels.net/tarot/oud-engels/pentakels-twee"
+      }
+    ]
   },
   {
     "suite": "Pentakels",
@@ -933,7 +1947,34 @@
     "invitation": "Waarmee kan je jezelf bewijzen?",
     "warning": "Sta open voor feedback",
     "symbols": ["bank", "monnik", "hamer", "grijs", "zwart"],
-    "seqnr": 39
+    "seqnr": 39,
+    "links": [
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "https://en.wikisource.org/wiki/The_Pictorial_Key_to_the_Tarot#Three_of_Pentacles"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "http://tarotstapvoorstap.nl/tarotkaarten/rider-waite-tarotkaart-pentakels-drie"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "http://www.kaartensterren.nl/pagina's tarotkaarten/pentakels/pagina pentakels 03.html"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "http://www.letarot.nl/tarotkaart-31-pentagrammen-3-drie-munten-pentakels-of-schijven-kleine-arcana"
+      },
+      {
+        "name": "SpiriDoc",
+        "url": "http://www.spiridoc.nl/grotearcana/III",
+        "broken": "Not Found"
+      },
+      {
+        "name": "Orakels",
+        "url": "https://www.orakels.net/tarot/oud-engels/pentakels-drie"
+      }
+    ]
   },
   {
     "suite": "Pentakels",
@@ -943,7 +1984,34 @@
     "invitation": "Wees zuinig op je mogelijkheden.",
     "warning": "Wat probeer je te krampachtig vast te houden?",
     "symbols": ["toren", "paars", "podium"],
-    "seqnr": 40
+    "seqnr": 40,
+    "links": [
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "https://en.wikisource.org/wiki/The_Pictorial_Key_to_the_Tarot#Four_of_Pentacles"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "http://tarotstapvoorstap.nl/tarotkaarten/rider-waite-tarotkaart-pentakels-vier"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "http://www.kaartensterren.nl/pagina's tarotkaarten/pentakels/pagina pentakels 04.html"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "http://www.letarot.nl/tarotkaart-32-pentagrammen-4-vier-munten-pentakels-of-schijven-kleine-arcana"
+      },
+      {
+        "name": "SpiriDoc",
+        "url": "http://www.spiridoc.nl/grotearcana/IV",
+        "broken": "Not Found"
+      },
+      {
+        "name": "Orakels",
+        "url": "https://www.orakels.net/tarot/oud-engels/pentakels-vier"
+      }
+    ]
   },
   {
     "suite": "Pentakels",
@@ -958,7 +2026,34 @@
     "invitation": "Wat heb je echt nodig?",
     "warning": "Angst is een slechte raadgever.",
     "symbols": ["bel"],
-    "seqnr": 41
+    "seqnr": 41,
+    "links": [
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "https://en.wikisource.org/wiki/The_Pictorial_Key_to_the_Tarot#Five_of_Pentacles"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "http://tarotstapvoorstap.nl/tarotkaarten/rider-waite-tarotkaart-pentakels-vijf"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "http://www.kaartensterren.nl/pagina's tarotkaarten/pentakels/pagina pentakels 05.html"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "http://www.letarot.nl/tarotkaart-33-pentagrammen-5-vijf-munten-pentakels-of-schijven-kleine-arcana"
+      },
+      {
+        "name": "SpiriDoc",
+        "url": "http://www.spiridoc.nl/grotearcana/V",
+        "broken": "Not Found"
+      },
+      {
+        "name": "Orakels",
+        "url": "https://www.orakels.net/tarot/oud-engels/pentakels-vijf"
+      }
+    ]
   },
   {
     "suite": "Pentakels",
@@ -977,7 +2072,34 @@
       "blauw kleed",
       "podium"
     ],
-    "seqnr": 42
+    "seqnr": 42,
+    "links": [
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "https://en.wikisource.org/wiki/The_Pictorial_Key_to_the_Tarot#Six_of_Pentacles"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "http://tarotstapvoorstap.nl/tarotkaarten/rider-waite-tarotkaart-pentakels-zes"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "http://www.kaartensterren.nl/pagina's tarotkaarten/pentakels/pagina pentakels 06.html"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "http://www.letarot.nl/tarotkaart-34-pentagrammen-6-zes-munten-pentakels-of-schijven-kleine-arcana"
+      },
+      {
+        "name": "SpiriDoc",
+        "url": "http://www.spiridoc.nl/grotearcana/VI",
+        "broken": "Not Found"
+      },
+      {
+        "name": "Orakels",
+        "url": "https://www.orakels.net/tarot/oud-engels/pentakels-zes"
+      }
+    ]
   },
   {
     "suite": "Pentakels",
@@ -987,7 +2109,34 @@
     "invitation": "Kijk het nog even aan. Zie je voortgang.",
     "warning": "Blijf niet toekijken",
     "symbols": ["schoffel", "paars"],
-    "seqnr": 43
+    "seqnr": 43,
+    "links": [
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "https://en.wikisource.org/wiki/The_Pictorial_Key_to_the_Tarot#Seven_of_Pentacles"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "http://tarotstapvoorstap.nl/tarotkaarten/rider-waite-tarotkaart-pentakels-zeven"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "http://www.kaartensterren.nl/pagina's tarotkaarten/pentakels/pagina pentakels 07.html"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "http://www.letarot.nl/tarotkaart-35-pentagrammen-7-zeven-munten-pentakels-of-schijven-kleine-arcana"
+      },
+      {
+        "name": "SpiriDoc",
+        "url": "http://www.spiridoc.nl/grotearcana/VII",
+        "broken": "Not Found"
+      },
+      {
+        "name": "Orakels",
+        "url": "https://www.orakels.net/tarot/oud-engels/pentakels-zeven"
+      }
+    ]
   },
   {
     "suite": "Pentakels",
@@ -997,7 +2146,34 @@
     "invitation": "Wat zou je willen leren?",
     "warning": "Moet je niet eens iets nieuws proberen?",
     "symbols": ["bank", "hamer", "geel", "podium"],
-    "seqnr": 44
+    "seqnr": 44,
+    "links": [
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "https://en.wikisource.org/wiki/The_Pictorial_Key_to_the_Tarot#Eight_of_Pentacles"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "http://tarotstapvoorstap.nl/tarotkaarten/rider-waite-tarotkaart-pentakels-acht"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "http://www.kaartensterren.nl/pagina's tarotkaarten/pentakels/pagina pentakels 08.html"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "http://www.letarot.nl/tarotkaart-36-pentagrammen-8-acht-munten-pentakels-of-schijven-kleine-arcana"
+      },
+      {
+        "name": "SpiriDoc",
+        "url": "http://www.spiridoc.nl/grotearcana/VIII",
+        "broken": "Not Found"
+      },
+      {
+        "name": "Orakels",
+        "url": "https://www.orakels.net/tarot/oud-engels/pentakels-acht"
+      }
+    ]
   },
   {
     "suite": "Pentakels",
@@ -1007,7 +2183,34 @@
     "invitation": "Geniet van wat je doet.",
     "warning": "Ben je alert op nieuwe kansen?",
     "symbols": ["druiven", "burcht", "boom", "geel", "valk", "wijngaardslak"],
-    "seqnr": 45
+    "seqnr": 45,
+    "links": [
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "https://en.wikisource.org/wiki/The_Pictorial_Key_to_the_Tarot#Nine_of_Pentacles"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "http://tarotstapvoorstap.nl/tarotkaarten/rider-waite-tarotkaart-pentakels-negen"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "http://www.kaartensterren.nl/pagina's tarotkaarten/pentakels/pagina pentakels 09.html"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "http://www.letarot.nl/tarotkaart-37-pentagrammen-9-negen-munten-pentakels-of-schijven-kleine-arcana"
+      },
+      {
+        "name": "SpiriDoc",
+        "url": "http://www.spiridoc.nl/grotearcana/IX",
+        "broken": "Not Found"
+      },
+      {
+        "name": "Orakels",
+        "url": "https://www.orakels.net/tarot/oud-engels/pentakels-negen"
+      }
+    ]
   },
   {
     "suite": "Pentakels",
@@ -1032,7 +2235,34 @@
       "oude man",
       "brug"
     ],
-    "seqnr": 46
+    "seqnr": 46,
+    "links": [
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "https://en.wikisource.org/wiki/The_Pictorial_Key_to_the_Tarot#Ten_of_Pentacles"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "http://tarotstapvoorstap.nl/tarotkaarten/rider-waite-tarotkaart-pentakels-tien"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "http://www.kaartensterren.nl/pagina's tarotkaarten/pentakels/pagina pentakels 10.html"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "http://www.letarot.nl/tarotkaart-38-pentagrammen-10-tien-munten-pentakels-of-schijven-kleine-arcana"
+      },
+      {
+        "name": "SpiriDoc",
+        "url": "http://www.spiridoc.nl/grotearcana/X",
+        "broken": "Not Found"
+      },
+      {
+        "name": "Orakels",
+        "url": "https://www.orakels.net/tarot/oud-engels/pentakels-tien"
+      }
+    ]
   },
   {
     "suite": "Pentakels",
@@ -1050,7 +2280,35 @@
       "stroom",
       "geel"
     ],
-    "seqnr": 47
+    "seqnr": 47,
+    "links": [
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "https://en.wikisource.org/wiki/The_Pictorial_Key_to_the_Tarot#Page_of_Pentacles"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "http://tarotstapvoorstap.nl/tarotkaarten/tarotkaart-pentakels-schildknaap-page/"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "http://www.kaartensterren.nl/pagina's tarotkaarten/pentakels/pagina pentakels 11.html",
+        "broken": "Not Found"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "http://www.letarot.nl/tarotkaart-28-pentagrammen-page-schildknaap-hofkaart-munten-pentakels-of-schijven-kleine-arcana"
+      },
+      {
+        "name": "SpiriDoc",
+        "url": "http://www.spiridoc.nl/grotearcana/Page",
+        "broken": "Not Found"
+      },
+      {
+        "name": "Orakels",
+        "url": "https://www.orakels.net/tarot/oud-engels/schildknaap-van-pentakels"
+      }
+    ]
   },
   {
     "suite": "Pentakels",
@@ -1073,7 +2331,35 @@
       "geel",
       "zwart"
     ],
-    "seqnr": 48
+    "seqnr": 48,
+    "links": [
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "https://en.wikisource.org/wiki/The_Pictorial_Key_to_the_Tarot#Knight_of_Pentacles"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "http://tarotstapvoorstap.nl/tarotkaarten/tarotkaart-pentakels-ridder"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "http://www.kaartensterren.nl/pagina's tarotkaarten/pentakels/pagina pentakels 12.html",
+        "broken": "Not Found"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "http://www.letarot.nl/tarotkaart-27-pentagrammen-ridder-hofkaart-munten-pentakels-of-schijven-kleine-arcana"
+      },
+      {
+        "name": "SpiriDoc",
+        "url": "http://www.spiridoc.nl/grotearcana/Ridder",
+        "broken": "Not Found"
+      },
+      {
+        "name": "Orakels",
+        "url": "https://www.orakels.net/tarot/oud-engels/ridder-van-pentakels"
+      }
+    ]
   },
   {
     "suite": "Pentakels",
@@ -1094,7 +2380,35 @@
       "afgewend",
       "geel"
     ],
-    "seqnr": 49
+    "seqnr": 49,
+    "links": [
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "https://en.wikisource.org/wiki/The_Pictorial_Key_to_the_Tarot#Queen_of_Pentacles"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "http://tarotstapvoorstap.nl/tarotkaarten/tarotkaart-pentakels-koningin"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "http://www.kaartensterren.nl/pagina's tarotkaarten/pentakels/pagina pentakels 13.html",
+        "broken": "Not Found"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "http://www.letarot.nl/tarotkaart-26-pentagrammen-koningin-hofkaart-munten-pentakels-of-schijven-kleine-arcana"
+      },
+      {
+        "name": "SpiriDoc",
+        "url": "http://www.spiridoc.nl/grotearcana/Koningin",
+        "broken": "Not Found"
+      },
+      {
+        "name": "Orakels",
+        "url": "https://www.orakels.net/tarot/oud-engels/koningin-van-pentakels"
+      }
+    ]
   },
   {
     "suite": "Pentakels",
@@ -1118,7 +2432,35 @@
       "geel",
       "skepter"
     ],
-    "seqnr": 50
+    "seqnr": 50,
+    "links": [
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "https://en.wikisource.org/wiki/The_Pictorial_Key_to_the_Tarot#King_of_Pentacles"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "http://tarotstapvoorstap.nl/tarotkaarten/tarotkaart-pentakels-koning"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "http://www.kaartensterren.nl/pagina's tarotkaarten/pentakels/pagina pentakels 14.html",
+        "broken": "Not Found"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "http://www.letarot.nl/tarotkaart-25-pentagrammen-koning-hofkaart-munten-pentakels-of-schijven-kleine-arcana"
+      },
+      {
+        "name": "SpiriDoc",
+        "url": "http://www.spiridoc.nl/grotearcana/Koning",
+        "broken": "Not Found"
+      },
+      {
+        "name": "Orakels",
+        "url": "https://www.orakels.net/tarot/oud-engels/koning-van-pentakels"
+      }
+    ]
   },
   {
     "suite": "Zwaarden",
@@ -1137,7 +2479,34 @@
       "zwaard geheven",
       "blauw"
     ],
-    "seqnr": 51
+    "seqnr": 51,
+    "links": [
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "https://en.wikisource.org/wiki/The_Pictorial_Key_to_the_Tarot#Ace_of_Swords"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "http://tarotstapvoorstap.nl/tarotkaarten/tarotkaart-zwaarden-aas"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "http://www.kaartensterren.nl/pagina's tarotkaarten/zwaarden/pagina zwaarden 01.html"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "http://www.letarot.nl/tarotkaart-71-zwaarden-aas-1-een-kleine-arcana"
+      },
+      {
+        "name": "SpiriDoc",
+        "url": "http://www.spiridoc.nl/grotearcana/Aas",
+        "broken": "Not Found"
+      },
+      {
+        "name": "Orakels",
+        "url": "https://www.orakels.net/tarot/oud-engels/aas-van-zwaarden"
+      }
+    ]
   },
   {
     "suite": "Zwaarden",
@@ -1161,7 +2530,34 @@
       "blauw",
       "podium"
     ],
-    "seqnr": 52
+    "seqnr": 52,
+    "links": [
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "https://en.wikisource.org/wiki/The_Pictorial_Key_to_the_Tarot#Two_of_Swords"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "http://tarotstapvoorstap.nl/tarotkaarten/tarotkaart-zwaarden-twee"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "http://www.kaartensterren.nl/pagina's tarotkaarten/zwaarden/pagina zwaarden 02.html"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "http://www.letarot.nl/tarotkaart-72-zwaarden-2-twee-kleine-arcana"
+      },
+      {
+        "name": "SpiriDoc",
+        "url": "http://www.spiridoc.nl/grotearcana/II",
+        "broken": "Not Found"
+      },
+      {
+        "name": "Orakels",
+        "url": "https://www.orakels.net/tarot/oud-engels/zwaarden-twee"
+      }
+    ]
   },
   {
     "suite": "Zwaarden",
@@ -1171,7 +2567,34 @@
     "invitation": "Ben je sterk genoeg om te doen wat noodzakelijk is?",
     "warning": "Laat je niet beheersen door je verdriet",
     "symbols": ["hartvorm", "wolken", "grijs", "regen"],
-    "seqnr": 53
+    "seqnr": 53,
+    "links": [
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "https://en.wikisource.org/wiki/The_Pictorial_Key_to_the_Tarot#Three_of_Swords"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "http://tarotstapvoorstap.nl/tarotkaarten/tarotkaart-zwaarden-drie"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "http://www.kaartensterren.nl/pagina's tarotkaarten/zwaarden/pagina zwaarden 03.html"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "http://www.letarot.nl/tarotkaart-73-zwaarden-3-drie-kleine-arcana"
+      },
+      {
+        "name": "SpiriDoc",
+        "url": "http://www.spiridoc.nl/grotearcana/III",
+        "broken": "Not Found"
+      },
+      {
+        "name": "Orakels",
+        "url": "https://www.orakels.net/tarot/oud-engels/zwaarden-drie"
+      }
+    ]
   },
   {
     "suite": "Zwaarden",
@@ -1181,7 +2604,34 @@
     "invitation": "Slaap er een nachtje over.",
     "warning": "Waarom staat alles stil?",
     "symbols": ["grijs", "ridder"],
-    "seqnr": 54
+    "seqnr": 54,
+    "links": [
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "https://en.wikisource.org/wiki/The_Pictorial_Key_to_the_Tarot#Four_of_Swords"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "http://tarotstapvoorstap.nl/tarotkaarten/tarotkaart-zwaarden-vier"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "http://www.kaartensterren.nl/pagina's tarotkaarten/zwaarden/pagina zwaarden 04.html"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "http://www.letarot.nl/tarotkaart-74-zwaarden-4-vier-kleine-arcana"
+      },
+      {
+        "name": "SpiriDoc",
+        "url": "http://www.spiridoc.nl/grotearcana/IV",
+        "broken": "Not Found"
+      },
+      {
+        "name": "Orakels",
+        "url": "https://www.orakels.net/tarot/oud-engels/zwaarden-vier"
+      }
+    ]
   },
   {
     "suite": "Zwaarden",
@@ -1195,7 +2645,7 @@
       "oneer"
     ],
     "invitation": "Eerlijk duurt het langst",
-    "warning": "Is het belangrijk om pers\u00e9 te winnen?",
+    "warning": "Is het belangrijk om persé te winnen?",
     "symbols": [
       "afgewend",
       "oceaan",
@@ -1205,7 +2655,34 @@
       "blauw",
       "podium"
     ],
-    "seqnr": 55
+    "seqnr": 55,
+    "links": [
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "https://en.wikisource.org/wiki/The_Pictorial_Key_to_the_Tarot#Five_of_Swords"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "http://tarotstapvoorstap.nl/tarotkaarten/tarotkaart-zwaarden-vijf"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "http://www.kaartensterren.nl/pagina's tarotkaarten/zwaarden/pagina zwaarden 05.html"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "http://www.letarot.nl/tarotkaart-75-zwaarden-5-vijf-kleine-arcana"
+      },
+      {
+        "name": "SpiriDoc",
+        "url": "http://www.spiridoc.nl/grotearcana/V",
+        "broken": "Not Found"
+      },
+      {
+        "name": "Orakels",
+        "url": "https://www.orakels.net/tarot/oud-engels/zwaarden-vijf"
+      }
+    ]
   },
   {
     "suite": "Zwaarden",
@@ -1215,7 +2692,34 @@
     "invitation": "Maak een nieuw begin",
     "warning": "Is het gras echt groener?",
     "symbols": ["water", "golven"],
-    "seqnr": 56
+    "seqnr": 56,
+    "links": [
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "https://en.wikisource.org/wiki/The_Pictorial_Key_to_the_Tarot#Six_of_Swords"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "http://tarotstapvoorstap.nl/tarotkaarten/tarotkaart-zwaarden-zes"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "http://www.kaartensterren.nl/pagina's tarotkaarten/zwaarden/pagina zwaarden 06.html"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "http://www.letarot.nl/tarotkaart-76-zwaarden-6-zes-kleine-arcana"
+      },
+      {
+        "name": "SpiriDoc",
+        "url": "http://www.spiridoc.nl/grotearcana/VI",
+        "broken": "Not Found"
+      },
+      {
+        "name": "Orakels",
+        "url": "https://www.orakels.net/tarot/oud-engels/zwaarden-zes"
+      }
+    ]
   },
   {
     "suite": "Zwaarden",
@@ -1225,7 +2729,34 @@
     "invitation": "Verzin een list.",
     "warning": "Je wordt in de maling genomen.",
     "symbols": ["oranje", "podium"],
-    "seqnr": 57
+    "seqnr": 57,
+    "links": [
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "https://en.wikisource.org/wiki/The_Pictorial_Key_to_the_Tarot#Seven_of_Swords"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "http://tarotstapvoorstap.nl/tarotkaarten/tarotkaart-zwaarden-zeven"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "http://www.kaartensterren.nl/pagina's tarotkaarten/zwaarden/pagina zwaarden 07.html"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "http://www.letarot.nl/tarotkaart-77-zwaarden7-zeven"
+      },
+      {
+        "name": "SpiriDoc",
+        "url": "http://www.spiridoc.nl/grotearcana/VII",
+        "broken": "Not Found"
+      },
+      {
+        "name": "Orakels",
+        "url": "https://www.orakels.net/tarot/oud-engels/zwaarden-zeven"
+      }
+    ]
   },
   {
     "suite": "Zwaarden",
@@ -1243,7 +2774,34 @@
     "invitation": "Laat alle remmende gedachten los",
     "warning": "Wat houdt je tegen?",
     "symbols": ["blinddoek", "burcht", "stroom", "berg", "grijs"],
-    "seqnr": 58
+    "seqnr": 58,
+    "links": [
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "https://en.wikisource.org/wiki/The_Pictorial_Key_to_the_Tarot#Eight_of_Swords"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "http://tarotstapvoorstap.nl/tarotkaarten/tarotkaart-zwaarden-acht"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "http://www.kaartensterren.nl/pagina's tarotkaarten/zwaarden/pagina zwaarden 08.html"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "http://www.letarot.nl/tarotkaart-78-zwaarden-08-acht-kleine-arcana"
+      },
+      {
+        "name": "SpiriDoc",
+        "url": "http://www.spiridoc.nl/grotearcana/VIII",
+        "broken": "Not Found"
+      },
+      {
+        "name": "Orakels",
+        "url": "https://www.orakels.net/tarot/oud-engels/zwaarden-acht"
+      }
+    ]
   },
   {
     "suite": "Zwaarden",
@@ -1253,7 +2811,35 @@
     "invitation": "Waar heb je spijt van?",
     "warning": "Is je verdriet terecht?",
     "symbols": ["afgewend", "roos", "wit kleed", "oosten", "vrouw", "zwart"],
-    "seqnr": 59
+    "seqnr": 59,
+    "links": [
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "https://en.wikisource.org/wiki/The_Pictorial_Key_to_the_Tarot#Nine_of_Swords"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "http://tarotstapvoorstap.nl/tarotkaarten/tarotkaart-zwaarden-negen",
+        "broken": "Not Found"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "http://www.kaartensterren.nl/pagina's tarotkaarten/zwaarden/pagina zwaarden 09.html"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "http://www.letarot.nl/tarotkaart-79-zwaarden-09-negen-kleine-arcana"
+      },
+      {
+        "name": "SpiriDoc",
+        "url": "http://www.spiridoc.nl/grotearcana/IX",
+        "broken": "Not Found"
+      },
+      {
+        "name": "Orakels",
+        "url": "https://www.orakels.net/tarot/oud-engels/zwaarden-negen"
+      }
+    ]
   },
   {
     "suite": "Zwaarden",
@@ -1263,7 +2849,34 @@
     "invitation": "Waar moet je nu rigoureus een streep onder zetten?",
     "warning": "Is het verstandig om er nu radicaal mee te breken?",
     "symbols": ["oceaan", "zon", "heuvels", "rood kleed", "zegening", "zwart"],
-    "seqnr": 60
+    "seqnr": 60,
+    "links": [
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "https://en.wikisource.org/wiki/The_Pictorial_Key_to_the_Tarot#Ten_of_Swords"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "http://tarotstapvoorstap.nl/tarotkaarten/tarotkaart-zwaarden-tien"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "http://www.kaartensterren.nl/pagina's tarotkaarten/zwaarden/pagina zwaarden 10.html"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "http://www.letarot.nl/tarotkaart-80-zwaarden-10-tien-kleine-arcana"
+      },
+      {
+        "name": "SpiriDoc",
+        "url": "http://www.spiridoc.nl/grotearcana/X",
+        "broken": "Not Found"
+      },
+      {
+        "name": "Orakels",
+        "url": "https://www.orakels.net/tarot/oud-engels/zwaarden-tien"
+      }
+    ]
   },
   {
     "suite": "Zwaarden",
@@ -1280,7 +2893,35 @@
       "grijs",
       "zwaard geheven"
     ],
-    "seqnr": 61
+    "seqnr": 61,
+    "links": [
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "https://en.wikisource.org/wiki/The_Pictorial_Key_to_the_Tarot#Page_of_Swords"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "http://tarotstapvoorstap.nl/tarotkaarten/tarotkaart-zwaarden-schildknaap"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "http://www.kaartensterren.nl/pagina's tarotkaarten/zwaarden/pagina zwaarden 11.html",
+        "broken": "Not Found"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "http://www.letarot.nl/tarotkaart-70-zwaarden-page-schildknaap"
+      },
+      {
+        "name": "SpiriDoc",
+        "url": "http://www.spiridoc.nl/grotearcana/Page",
+        "broken": "Not Found"
+      },
+      {
+        "name": "Orakels",
+        "url": "https://www.orakels.net/tarot/oud-engels/schildknaap-van-zwaarden"
+      }
+    ]
   },
   {
     "suite": "Zwaarden",
@@ -1295,7 +2936,35 @@
     "invitation": "Bezint, eer ge begint",
     "warning": "Is dit geen storm in een glas water?",
     "symbols": ["oranje", "rood kleed", "paard", "harnas", "vogel"],
-    "seqnr": 62
+    "seqnr": 62,
+    "links": [
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "https://en.wikisource.org/wiki/The_Pictorial_Key_to_the_Tarot#Knight_of_Swords"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "http://tarotstapvoorstap.nl/tarotkaarten/tarotkaart-zwaarden-ridder"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "http://www.kaartensterren.nl/pagina's tarotkaarten/zwaarden/pagina zwaarden 12.html",
+        "broken": "Not Found"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "http://www.letarot.nl/tarotkaart-69-zwaarden-ridder-kleine-arcana"
+      },
+      {
+        "name": "SpiriDoc",
+        "url": "http://www.spiridoc.nl/grotearcana/Ridder",
+        "broken": "Not Found"
+      },
+      {
+        "name": "Orakels",
+        "url": "https://www.orakels.net/tarot/oud-engels/ridder-van-zwaarden"
+      }
+    ]
   },
   {
     "suite": "Zwaarden",
@@ -1324,7 +2993,35 @@
       "grijs",
       "vlinder"
     ],
-    "seqnr": 63
+    "seqnr": 63,
+    "links": [
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "https://en.wikisource.org/wiki/The_Pictorial_Key_to_the_Tarot#Queen_of_Swords"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "http://tarotstapvoorstap.nl/tarotkaarten/tarotkaart-zwaarden-koningin"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "http://www.kaartensterren.nl/pagina's tarotkaarten/zwaarden/pagina zwaarden 13.html",
+        "broken": "Not Found"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "http://www.letarot.nl/tarotkaart-68-zwaarden-koningin-hofkaart-kleine-arcana"
+      },
+      {
+        "name": "SpiriDoc",
+        "url": "http://www.spiridoc.nl/grotearcana/Koningin",
+        "broken": "Not Found"
+      },
+      {
+        "name": "Orakels",
+        "url": "https://www.orakels.net/tarot/oud-engels/koningin-van-zwaarden"
+      }
+    ]
   },
   {
     "suite": "Zwaarden",
@@ -1350,7 +3047,35 @@
       "zwaard geheven",
       "vogel"
     ],
-    "seqnr": 64
+    "seqnr": 64,
+    "links": [
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "https://en.wikisource.org/wiki/The_Pictorial_Key_to_the_Tarot#King_of_Swords"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "http://tarotstapvoorstap.nl/tarotkaarten/tarotkaart-zwaarden-koning"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "http://www.kaartensterren.nl/pagina's tarotkaarten/zwaarden/pagina zwaarden 14.html",
+        "broken": "Not Found"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "http://www.letarot.nl/tarotkaart-67-zwaarden-koning-hofkaart-kleine-arcana"
+      },
+      {
+        "name": "SpiriDoc",
+        "url": "http://www.spiridoc.nl/grotearcana/Koning",
+        "broken": "Not Found"
+      },
+      {
+        "name": "Orakels",
+        "url": "https://www.orakels.net/tarot/oud-engels/koning-van-zwaarden"
+      }
+    ]
   },
   {
     "suite": "Kelken",
@@ -1377,7 +3102,34 @@
       "hostie",
       "blauw"
     ],
-    "seqnr": 65
+    "seqnr": 65,
+    "links": [
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "https://en.wikisource.org/wiki/The_Pictorial_Key_to_the_Tarot#Ace_of_Cups"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "http://tarotstapvoorstap.nl/tarotkaarten/tarotkaart-kelken-aas"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "http://www.kaartensterren.nl/pagina's tarotkaarten/bekers/pagina bekers 01.html"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "http://www.letarot.nl/tarotkaart-57-bekers-1-aas-een-bokalen-kleine-arcana"
+      },
+      {
+        "name": "SpiriDoc",
+        "url": "http://www.spiridoc.nl/grotearcana/Aas",
+        "broken": "Not Found"
+      },
+      {
+        "name": "Orakels",
+        "url": "https://www.orakels.net/tarot/oud-engels/aas-van-bekers"
+      }
+    ]
   },
   {
     "suite": "Kelken",
@@ -1400,7 +3152,34 @@
       "hermesvleugels",
       "podium"
     ],
-    "seqnr": 66
+    "seqnr": 66,
+    "links": [
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "https://en.wikisource.org/wiki/The_Pictorial_Key_to_the_Tarot#Two_of_Cups"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "http://tarotstapvoorstap.nl/tarotkaarten/tarotkaart-kelken-twee"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "http://www.kaartensterren.nl/pagina's tarotkaarten/bekers/pagina bekers 02.html"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "http://www.letarot.nl/tarotkaart-58-bekers-bokalen-2-twee-kleine-arcana"
+      },
+      {
+        "name": "SpiriDoc",
+        "url": "http://www.spiridoc.nl/grotearcana/II",
+        "broken": "Not Found"
+      },
+      {
+        "name": "Orakels",
+        "url": "https://www.orakels.net/tarot/oud-engels/bekers-twee"
+      }
+    ]
   },
   {
     "suite": "Kelken",
@@ -1417,17 +3196,71 @@
       "wit kleed",
       "blauw"
     ],
-    "seqnr": 67
+    "seqnr": 67,
+    "links": [
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "https://en.wikisource.org/wiki/The_Pictorial_Key_to_the_Tarot#Three_of_Cups"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "http://tarotstapvoorstap.nl/tarotkaarten/tarotkaart-kelken-drie"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "http://www.kaartensterren.nl/pagina's tarotkaarten/bekers/pagina bekers 03.html"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "http://www.letarot.nl/tarotkaart-59-bekers-3-drie-bokalen-kleine-arcana"
+      },
+      {
+        "name": "SpiriDoc",
+        "url": "http://www.spiridoc.nl/grotearcana/III",
+        "broken": "Not Found"
+      },
+      {
+        "name": "Orakels",
+        "url": "https://www.orakels.net/tarot/oud-engels/bekers-drie"
+      }
+    ]
   },
   {
     "suite": "Kelken",
     "number": "IV",
     "keyword": "MOPPEREN",
     "keywords": ["verlangen naar meer", "lusteloosheid"],
-    "invitation": "Wat heb je w\u00e9l?",
+    "invitation": "Wat heb je wél?",
     "warning": "Is je onvrede wel terecht?",
     "symbols": ["hand", "wolken", "boom", "links"],
-    "seqnr": 68
+    "seqnr": 68,
+    "links": [
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "https://en.wikisource.org/wiki/The_Pictorial_Key_to_the_Tarot#Four_of_Cups"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "http://tarotstapvoorstap.nl/tarotkaarten/tarotkaart-kelken-vier"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "http://www.kaartensterren.nl/pagina's tarotkaarten/bekers/pagina bekers 04.html"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "http://www.letarot.nl/tarotkaart-60-bekers-4-vier-bokalen-kleine-arcana"
+      },
+      {
+        "name": "SpiriDoc",
+        "url": "http://www.spiridoc.nl/grotearcana/IV",
+        "broken": "Not Found"
+      },
+      {
+        "name": "Orakels",
+        "url": "https://www.orakels.net/tarot/oud-engels/bekers-vier"
+      }
+    ]
   },
   {
     "suite": "Kelken",
@@ -1446,7 +3279,34 @@
       "bloed",
       "groen"
     ],
-    "seqnr": 69
+    "seqnr": 69,
+    "links": [
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "https://en.wikisource.org/wiki/The_Pictorial_Key_to_the_Tarot#Five_of_Cups"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "http://tarotstapvoorstap.nl/tarotkaarten/tarotkaart-kelken-vijf"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "http://www.kaartensterren.nl/pagina's tarotkaarten/bekers/pagina bekers 05.html"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "http://www.letarot.nl/tarotkaart-61-bekers-5-vijf-bokalen-kleine-arcana"
+      },
+      {
+        "name": "SpiriDoc",
+        "url": "http://www.spiridoc.nl/grotearcana/V",
+        "broken": "Not Found"
+      },
+      {
+        "name": "Orakels",
+        "url": "https://www.orakels.net/tarot/oud-engels/bekers-vijf"
+      }
+    ]
   },
   {
     "suite": "Kelken",
@@ -1461,7 +3321,34 @@
     "invitation": "Verheug je in kleine dingen.",
     "warning": "Behoudt het goede",
     "symbols": ["vrouw", "lelie", "burcht"],
-    "seqnr": 70
+    "seqnr": 70,
+    "links": [
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "https://en.wikisource.org/wiki/The_Pictorial_Key_to_the_Tarot#Six_of_Cups"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "http://tarotstapvoorstap.nl/tarotkaarten/tarotkaart-kelken-zes"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "http://www.kaartensterren.nl/pagina's tarotkaarten/bekers/pagina bekers 06.html"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "http://www.letarot.nl/tarotkaart-62-bekers-6-zes-bokalen-kleine-arcana"
+      },
+      {
+        "name": "SpiriDoc",
+        "url": "http://www.spiridoc.nl/grotearcana/VI",
+        "broken": "Not Found"
+      },
+      {
+        "name": "Orakels",
+        "url": "https://www.orakels.net/tarot/oud-engels/bekers-zes"
+      }
+    ]
   },
   {
     "suite": "Kelken",
@@ -1489,7 +3376,34 @@
       "doodshoofd",
       "zwart"
     ],
-    "seqnr": 71
+    "seqnr": 71,
+    "links": [
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "https://en.wikisource.org/wiki/The_Pictorial_Key_to_the_Tarot#Seven_of_Cups"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "http://tarotstapvoorstap.nl/tarotkaarten/tarotkaart-kelken-zeven"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "http://www.kaartensterren.nl/pagina's tarotkaarten/bekers/pagina bekers 07.html"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "http://www.letarot.nl/tarotkaart-63-bekers-7-zeven-bokalen"
+      },
+      {
+        "name": "SpiriDoc",
+        "url": "http://www.spiridoc.nl/grotearcana/VII",
+        "broken": "Not Found"
+      },
+      {
+        "name": "Orakels",
+        "url": "https://www.orakels.net/tarot/oud-engels/bekers-zeven"
+      }
+    ]
   },
   {
     "suite": "Kelken",
@@ -1503,7 +3417,34 @@
     "invitation": "Laat het verleden los.",
     "warning": "Een nieuwe illusie najagen.",
     "symbols": ["maan", "water", "berg", "rood kleed", "blauw"],
-    "seqnr": 72
+    "seqnr": 72,
+    "links": [
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "https://en.wikisource.org/wiki/The_Pictorial_Key_to_the_Tarot#Eight_of_Cups"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "http://tarotstapvoorstap.nl/tarotkaarten/tarotkaart-kelken-acht"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "http://www.kaartensterren.nl/pagina's tarotkaarten/bekers/pagina bekers 08.html"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "http://www.letarot.nl/tarotkaart-64-bekers-bokalen-8-acht-kleine-arcana"
+      },
+      {
+        "name": "SpiriDoc",
+        "url": "http://www.spiridoc.nl/grotearcana/VIII",
+        "broken": "Not Found"
+      },
+      {
+        "name": "Orakels",
+        "url": "https://www.orakels.net/tarot/oud-engels/bekers-acht"
+      }
+    ]
   },
   {
     "suite": "Kelken",
@@ -1514,10 +3455,37 @@
       "dromen zijn werkelijkheid geworden",
       "innerlijk geluk"
     ],
-    "invitation": "Sta eens stil om \u00e9cht te genieten",
+    "invitation": "Sta eens stil om écht te genieten",
     "warning": "Kan je je zorgen loslaten en genieten?",
     "symbols": ["bank", "blauw kleed"],
-    "seqnr": 73
+    "seqnr": 73,
+    "links": [
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "https://en.wikisource.org/wiki/The_Pictorial_Key_to_the_Tarot#Nine_of_Cups"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "http://tarotstapvoorstap.nl/tarotkaarten/tarotkaart-kelken-negen"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "http://www.kaartensterren.nl/pagina's tarotkaarten/bekers/pagina bekers 09.html"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "http://www.letarot.nl/tarotkaart-65-bekers-bokalen-9-negen-kleine-arcana"
+      },
+      {
+        "name": "SpiriDoc",
+        "url": "http://www.spiridoc.nl/grotearcana/IX",
+        "broken": "Not Found"
+      },
+      {
+        "name": "Orakels",
+        "url": "https://www.orakels.net/tarot/oud-engels/bekers-negen"
+      }
+    ]
   },
   {
     "suite": "Kelken",
@@ -1533,7 +3501,34 @@
     "invitation": "Maak ruimte voor gezamenlijk geluk",
     "warning": "Wat van ver komt is niet altijd lekkerder",
     "symbols": ["regenboog", "stroom", "gezin", "huis", "afgewend", "podium"],
-    "seqnr": 74
+    "seqnr": 74,
+    "links": [
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "https://en.wikisource.org/wiki/The_Pictorial_Key_to_the_Tarot#Ten_of_Cups"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "http://tarotstapvoorstap.nl/tarotkaarten/tarotkaart-kelken-tien"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "http://www.kaartensterren.nl/pagina's tarotkaarten/bekers/pagina bekers 10.html"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "http://www.letarot.nl/tarotkaart-66-bekers-10-tien-bokalen-kelken-kleine-arcana"
+      },
+      {
+        "name": "SpiriDoc",
+        "url": "http://www.spiridoc.nl/grotearcana/X",
+        "broken": "Not Found"
+      },
+      {
+        "name": "Orakels",
+        "url": "https://www.orakels.net/tarot/oud-engels/bekers-tien"
+      }
+    ]
   },
   {
     "suite": "Kelken",
@@ -1543,7 +3538,35 @@
     "invitation": "Laat je verwonderen",
     "warning": "Pas op voor goedgelovigheid.",
     "symbols": ["lotus", "vis", "oceaan", "blauw", "podium"],
-    "seqnr": 75
+    "seqnr": 75,
+    "links": [
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "https://en.wikisource.org/wiki/The_Pictorial_Key_to_the_Tarot#Page_of_Cups"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "http://tarotstapvoorstap.nl/tarotkaarten/tarotkaart-kelken-schildknaap"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "http://www.kaartensterren.nl/pagina's tarotkaarten/bekers/pagina bekers 11.html",
+        "broken": "Not Found"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "http://www.letarot.nl/tarotkaart-56-bekers-page-schildknaap-hofkaart-bokalen-kleine-arcana"
+      },
+      {
+        "name": "SpiriDoc",
+        "url": "http://www.spiridoc.nl/grotearcana/Page",
+        "broken": "Not Found"
+      },
+      {
+        "name": "Orakels",
+        "url": "https://www.orakels.net/tarot/oud-engels/schildknaap-van-bekers"
+      }
+    ]
   },
   {
     "suite": "Kelken",
@@ -1562,7 +3585,35 @@
       "afgewend",
       "blauw"
     ],
-    "seqnr": 76
+    "seqnr": 76,
+    "links": [
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "https://en.wikisource.org/wiki/The_Pictorial_Key_to_the_Tarot#Knight_of_Cups"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "http://tarotstapvoorstap.nl/tarotkaarten/tarotkaart-kelken-ridder"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "http://www.kaartensterren.nl/pagina's tarotkaarten/bekers/pagina bekers 12.html",
+        "broken": "Not Found"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "http://www.letarot.nl/tarotkaart-55-bekers-ridder-bokalen-hofkaart-kleine-arcana"
+      },
+      {
+        "name": "SpiriDoc",
+        "url": "http://www.spiridoc.nl/grotearcana/Ridder",
+        "broken": "Not Found"
+      },
+      {
+        "name": "Orakels",
+        "url": "https://www.orakels.net/tarot/oud-engels/ridder-van-bekers"
+      }
+    ]
   },
   {
     "suite": "Kelken",
@@ -1578,7 +3629,35 @@
     "invitation": "Erover praten kan je beeld verhelderen.",
     "warning": "Vergeet jezelf niet",
     "symbols": ["golven", "troon", "kroon", "wit kleed", "afgewend", "blauw"],
-    "seqnr": 77
+    "seqnr": 77,
+    "links": [
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "https://en.wikisource.org/wiki/The_Pictorial_Key_to_the_Tarot#Queen_of_Cups"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "http://tarotstapvoorstap.nl/tarotkaarten/tarotkaart-kelken-koningin"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "http://www.kaartensterren.nl/pagina's tarotkaarten/bekers/pagina bekers 13.html",
+        "broken": "Not Found"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "http://www.letarot.nl/tarotkaart-54-bekers-koningin-bokalen-hofkaart-kleine-arcana"
+      },
+      {
+        "name": "SpiriDoc",
+        "url": "http://www.spiridoc.nl/grotearcana/Koningin",
+        "broken": "Not Found"
+      },
+      {
+        "name": "Orakels",
+        "url": "https://www.orakels.net/tarot/oud-engels/koningin-van-bekers"
+      }
+    ]
   },
   {
     "suite": "Kelken",
@@ -1605,6 +3684,34 @@
       "geel kleed",
       "blauw"
     ],
-    "seqnr": 78
+    "seqnr": 78,
+    "links": [
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "https://en.wikisource.org/wiki/The_Pictorial_Key_to_the_Tarot#King_of_Cups"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "http://tarotstapvoorstap.nl/tarotkaarten/tarotkaart-kelken-koning"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "http://www.kaartensterren.nl/pagina's tarotkaarten/bekers/pagina bekers 14.html",
+        "broken": "Not Found"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "http://www.letarot.nl/tarotkaart-53-bekers-koning-bokalen-hofkaart-kleine-arcana"
+      },
+      {
+        "name": "SpiriDoc",
+        "url": "http://www.spiridoc.nl/grotearcana/Koning",
+        "broken": "Not Found"
+      },
+      {
+        "name": "Orakels",
+        "url": "https://www.orakels.net/tarot/oud-engels/koning-van-bekers"
+      }
+    ]
   }
 ]
