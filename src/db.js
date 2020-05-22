@@ -20,10 +20,6 @@ export const crossReferences = taffy(
     .flat()
 );
 
-export function findTerm(name) {
-  return terms({ name }).first();
-}
-
 export function suites(crds = cards) {
   return crds()
     .distinct("suite")
@@ -69,6 +65,36 @@ export function cardImg(card) {
     console.log("Could not get image path for card: ", card);
     return "ERROR";
   }
+}
+
+export function findTerm(name) {
+  const term = terms({ name }).first();
+  if (!term) {
+    console.warn(`No term for [${name}]`);
+  }
+  return term;
+}
+
+export function deriveDefinition(term) {
+  term = typeof term === "object" ? term : findTerm(term);
+  var { refs, definition } = term;
+
+  if (!definition && refs && refs.length === 1) {
+    const derived = findTerm(refs[0]).definition;
+    if (derived) {
+      term = {
+        ...term,
+        definition: `${derived} (via ${refs[0]})`,
+        refs: refs.plice(1)
+      };
+    }
+  }
+
+  return term;
+}
+
+export function findDefinition(name) {
+  return deriveDefinition(name).definition;
 }
 
 export const termLink = ({ suite, ...card }) =>
