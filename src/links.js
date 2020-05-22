@@ -4,6 +4,7 @@ const process = require("process");
 const cards = require("./cards");
 
 const brokenOnly = process.argv.length == 3 && process.argv[2] === "broken";
+const closed = ["Orakels"];
 
 // function roman2arabic(s) {
 //   if (s === "O") {
@@ -36,6 +37,9 @@ const cardTitle = ({ name, number, suite }) =>
 // });
 
 async function checkLink(link) {
+  if (closed.includes(link.name)) {
+    return new Promise(resolve => resolve({ ...link, broken: "Closed" }));
+  }
   if (!brokenOnly || link.broken) {
     return axios
       .get(link.url)

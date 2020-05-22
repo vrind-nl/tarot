@@ -40,8 +40,7 @@
       },
       {
         "name": "Kaart en Sterren",
-        "url": "http://www.kaartensterren.nl/pagina's tarotkaarten/arcana/pagina dwaas dwaas.html",
-        "broken": "Not Found"
+        "url": "http://www.kaartensterren.nl/pagina's%20tarotkaarten/arcana/pagina%2000%20dwaas.html"
       },
       {
         "name": "Le Tarot",
@@ -49,12 +48,12 @@
       },
       {
         "name": "SpiriDoc",
-        "url": "http://www.spiridoc.nl/grotearcana/O_de_dwaas.htm",
-        "broken": "Not Found"
+        "url": "http://www.spiridoc.nl/grotearcana/0_de_dwaas.htm"
       },
       {
         "name": "Orakels",
-        "url": "https://www.orakels.net/tarot/oud-engels/dwaas"
+        "url": "https://www.orakels.net/tarot/oud-engels/dwaas",
+        "broken": "Closed"
       }
     ]
   },
@@ -113,7 +112,8 @@
       },
       {
         "name": "Orakels",
-        "url": "https://www.orakels.net/tarot/oud-engels/magier"
+        "url": "https://www.orakels.net/tarot/oud-engels/magier",
+        "broken": "Closed"
       }
     ]
   },
@@ -174,7 +174,8 @@
       },
       {
         "name": "Orakels",
-        "url": "https://www.orakels.net/tarot/oud-engels/hogepriesteres"
+        "url": "https://www.orakels.net/tarot/oud-engels/hogepriesteres",
+        "broken": "Closed"
       }
     ]
   },
@@ -226,7 +227,8 @@
       },
       {
         "name": "Orakels",
-        "url": "https://www.orakels.net/tarot/oud-engels/keizerin"
+        "url": "https://www.orakels.net/tarot/oud-engels/keizerin",
+        "broken": "Closed"
       }
     ]
   },
@@ -280,7 +282,8 @@
       },
       {
         "name": "Orakels",
-        "url": "https://www.orakels.net/tarot/oud-engels/keizer"
+        "url": "https://www.orakels.net/tarot/oud-engels/keizer",
+        "broken": "Closed"
       }
     ]
   },
@@ -336,7 +339,8 @@
       },
       {
         "name": "Orakels",
-        "url": "https://www.orakels.net/tarot/oud-engels/de-hogepriester"
+        "url": "https://www.orakels.net/tarot/oud-engels/de-hogepriester",
+        "broken": "Closed"
       }
     ]
   },
@@ -395,7 +399,8 @@
       },
       {
         "name": "Orakels",
-        "url": "https://www.orakels.net/tarot/oud-engels/geliefden"
+        "url": "https://www.orakels.net/tarot/oud-engels/geliefden",
+        "broken": "Closed"
       }
     ]
   },
@@ -454,7 +459,8 @@
       },
       {
         "name": "Orakels",
-        "url": "https://www.orakels.net/tarot/oud-engels/zegewagen"
+        "url": "https://www.orakels.net/tarot/oud-engels/zegewagen",
+        "broken": "Closed"
       }
     ]
   },
@@ -509,7 +515,8 @@
       },
       {
         "name": "Orakels",
-        "url": "https://www.orakels.net/tarot/oud-engels/kracht"
+        "url": "https://www.orakels.net/tarot/oud-engels/kracht",
+        "broken": "Closed"
       }
     ]
   },
@@ -566,7 +573,8 @@
       },
       {
         "name": "Orakels",
-        "url": "https://www.orakels.net/tarot/oud-engels/heremiet"
+        "url": "https://www.orakels.net/tarot/oud-engels/heremiet",
+        "broken": "Closed"
       }
     ]
   },
@@ -613,7 +621,8 @@
       },
       {
         "name": "Orakels",
-        "url": "https://www.orakels.net/tarot/oud-engels/rad-van-fortuin"
+        "url": "https://www.orakels.net/tarot/oud-engels/rad-van-fortuin",
+        "broken": "Closed"
       }
     ]
   },
@@ -658,7 +667,8 @@
       },
       {
         "name": "Orakels",
-        "url": "https://www.orakels.net/tarot/oud-engels/gerechtigheid"
+        "url": "https://www.orakels.net/tarot/oud-engels/gerechtigheid",
+        "broken": "Closed"
       }
     ]
   },
@@ -705,12 +715,12 @@
       },
       {
         "name": "SpiriDoc",
-        "url": "http://www.spiridoc.nl/grotearcana/12_de_gehangene.htm",
-        "broken": "Not Found"
+        "url": "http://www.spiridoc.nl/grotearcana/12_gehangene.htm"
       },
       {
         "name": "Orakels",
-        "url": "https://www.orakels.net/tarot/oud-engels/gehangene"
+        "url": "https://www.orakels.net/tarot/oud-engels/gehangene",
+        "broken": "Closed"
       }
     ]
   },
@@ -772,12 +782,12 @@
       },
       {
         "name": "SpiriDoc",
-        "url": "http://www.spiridoc.nl/grotearcana/13_de_dood.htm",
-        "broken": "Not Found"
+        "url": "http://www.spiridoc.nl/grotearcana/13_dood.htm"
       },
       {
         "name": "Orakels",
-        "url": "https://www.orakels.net/tarot/oud-engels/dood"
+        "url": "https://www.orakels.net/tarot/oud-engels/dood",
+        "broken": "Closed"
       }
     ]
   },
@@ -830,7 +840,8 @@
       },
       {
         "name": "Orakels",
-        "url": "https://www.orakels.net/tarot/oud-engels/gematigdheid"
+        "url": "https://www.orakels.net/tarot/oud-engels/gematigdheid",
+        "broken": "Closed"
       }
     ]
   },
@@ -887,7 +898,8 @@
       },
       {
         "name": "Orakels",
-        "url": "https://www.orakels.net/tarot/oud-engels/duivel"
+        "url": "https://www.orakels.net/tarot/oud-engels/duivel",
+        "broken": "Closed"
       }
     ]
   },
@@ -943,7 +955,8 @@
       },
       {
         "name": "Orakels",
-        "url": "https://www.orakels.net/tarot/oud-engels/toren"
+        "url": "https://www.orakels.net/tarot/oud-engels/toren",
+        "broken": "Closed"
       }
     ]
   },
@@ -993,7 +1006,8 @@
       },
       {
         "name": "Orakels",
-        "url": "https://www.orakels.net/tarot/oud-engels/ster"
+        "url": "https://www.orakels.net/tarot/oud-engels/ster",
+        "broken": "Closed"
       }
     ]
   },
@@ -1049,7 +1063,8 @@
       },
       {
         "name": "Orakels",
-        "url": "https://www.orakels.net/tarot/oud-engels/zon"
+        "url": "https://www.orakels.net/tarot/oud-engels/zon",
+        "broken": "Closed"
       }
     ]
   },
@@ -1102,7 +1117,8 @@
       },
       {
         "name": "Orakels",
-        "url": "https://www.orakels.net/tarot/oud-engels/maan"
+        "url": "https://www.orakels.net/tarot/oud-engels/maan",
+        "broken": "Closed"
       }
     ]
   },
@@ -1152,7 +1168,8 @@
       },
       {
         "name": "Orakels",
-        "url": "https://www.orakels.net/tarot/oud-engels/oordeel"
+        "url": "https://www.orakels.net/tarot/oud-engels/oordeel",
+        "broken": "Closed"
       }
     ]
   },
@@ -1200,7 +1217,8 @@
       },
       {
         "name": "Orakels",
-        "url": "https://www.orakels.net/tarot/oud-engels/wereld"
+        "url": "https://www.orakels.net/tarot/oud-engels/wereld",
+        "broken": "Closed"
       }
     ]
   },
@@ -1239,13 +1257,9 @@
         "url": "http://www.letarot.nl/tarotkaart-43-staven-1-aas-stokken-scepters-knotsen-of-batons-kleine-arcana"
       },
       {
-        "name": "SpiriDoc",
-        "url": "http://www.spiridoc.nl/grotearcana/Aas",
-        "broken": "Not Found"
-      },
-      {
         "name": "Orakels",
-        "url": "https://www.orakels.net/tarot/oud-engels/aas-van-staven"
+        "url": "https://www.orakels.net/tarot/oud-engels/aas-van-staven",
+        "broken": "Closed"
       }
     ]
   },
@@ -1286,13 +1300,9 @@
         "url": "http://www.letarot.nl/tarotkaart-44-staven-2-twee-stokken-scepters-knotsen-of-batons-kleine-arcana"
       },
       {
-        "name": "SpiriDoc",
-        "url": "http://www.spiridoc.nl/grotearcana/II",
-        "broken": "Not Found"
-      },
-      {
         "name": "Orakels",
-        "url": "https://www.orakels.net/tarot/oud-engels/staven-twee"
+        "url": "https://www.orakels.net/tarot/oud-engels/staven-twee",
+        "broken": "Closed"
       }
     ]
   },
@@ -1336,13 +1346,9 @@
         "url": "http://www.letarot.nl/tarotkaart-45-staven-3-drie-stokken-scepters-knotsen-of-batons-kleine-arcana"
       },
       {
-        "name": "SpiriDoc",
-        "url": "http://www.spiridoc.nl/grotearcana/III",
-        "broken": "Not Found"
-      },
-      {
         "name": "Orakels",
-        "url": "https://www.orakels.net/tarot/oud-engels/staven-drie"
+        "url": "https://www.orakels.net/tarot/oud-engels/staven-drie",
+        "broken": "Closed"
       }
     ]
   },
@@ -1384,13 +1390,9 @@
         "url": "http://www.letarot.nl/tarotkaart-46-staven-4-vier-stokken-scepters-knotsen-of-batons-kleine-arcana"
       },
       {
-        "name": "SpiriDoc",
-        "url": "http://www.spiridoc.nl/grotearcana/IV",
-        "broken": "Not Found"
-      },
-      {
         "name": "Orakels",
-        "url": "https://www.orakels.net/tarot/oud-engels/staven-vier"
+        "url": "https://www.orakels.net/tarot/oud-engels/staven-vier",
+        "broken": "Closed"
       }
     ]
   },
@@ -1420,13 +1422,9 @@
         "url": "http://www.letarot.nl/tarotkaart-47-staven-5-vijf-stokken-scepters-knotsen-of-batons-kleine-arcana"
       },
       {
-        "name": "SpiriDoc",
-        "url": "http://www.spiridoc.nl/grotearcana/V",
-        "broken": "Not Found"
-      },
-      {
         "name": "Orakels",
-        "url": "https://www.orakels.net/tarot/oud-engels/staven-vijf"
+        "url": "https://www.orakels.net/tarot/oud-engels/staven-vijf",
+        "broken": "Closed"
       }
     ]
   },
@@ -1452,8 +1450,7 @@
       },
       {
         "name": "Tarot Stap voor Stap",
-        "url": "http://tarotstapvoorstap.nl/tarotkaarten/tarotkaart-staven-zes",
-        "broken": "Not Found"
+        "url": "https://tarotstapvoorstap.nl/tarotkaarten/tarotkaarten-staven-zes/"
       },
       {
         "name": "Kaart en Sterren",
@@ -1464,13 +1461,9 @@
         "url": "http://www.letarot.nl/tarotkaart-48-staven-6-zes-stokken-scepters-knotsen-of-batons-kleine-arcana"
       },
       {
-        "name": "SpiriDoc",
-        "url": "http://www.spiridoc.nl/grotearcana/VI",
-        "broken": "Not Found"
-      },
-      {
         "name": "Orakels",
-        "url": "https://www.orakels.net/tarot/oud-engels/staven-zes"
+        "url": "https://www.orakels.net/tarot/oud-engels/staven-zes",
+        "broken": "Closed"
       }
     ]
   },
@@ -1506,13 +1499,9 @@
         "url": "http://www.letarot.nl/tarotkaart-49-staven-7-zeven-stokken-scepters-knotsen-of-batons-kleine-arcana"
       },
       {
-        "name": "SpiriDoc",
-        "url": "http://www.spiridoc.nl/grotearcana/VII",
-        "broken": "Not Found"
-      },
-      {
         "name": "Orakels",
-        "url": "https://www.orakels.net/tarot/oud-engels/staven-zeven"
+        "url": "https://www.orakels.net/tarot/oud-engels/staven-zeven",
+        "broken": "Closed"
       }
     ]
   },
@@ -1549,13 +1538,9 @@
         "url": "http://www.letarot.nl/tarotkaart-50-staven-8-acht-stokken-scepters-of-batons-kleine-arcana"
       },
       {
-        "name": "SpiriDoc",
-        "url": "http://www.spiridoc.nl/grotearcana/VIII",
-        "broken": "Not Found"
-      },
-      {
         "name": "Orakels",
-        "url": "https://www.orakels.net/tarot/oud-engels/staven-acht"
+        "url": "https://www.orakels.net/tarot/oud-engels/staven-acht",
+        "broken": "Closed"
       }
     ]
   },
@@ -1592,13 +1577,9 @@
         "url": "http://www.letarot.nl/tarotkaart-51-staven-9-negen-stokken-scepters-knotsen-of-batons-kleine-arcana"
       },
       {
-        "name": "SpiriDoc",
-        "url": "http://www.spiridoc.nl/grotearcana/IX",
-        "broken": "Not Found"
-      },
-      {
         "name": "Orakels",
-        "url": "https://www.orakels.net/tarot/oud-engels/staven-negen"
+        "url": "https://www.orakels.net/tarot/oud-engels/staven-negen",
+        "broken": "Closed"
       }
     ]
   },
@@ -1634,13 +1615,9 @@
         "url": "http://www.letarot.nl/tarotkaart-52-staven-10-tien-stokken-scepters-knotsen-of-batons-kleine-arcana"
       },
       {
-        "name": "SpiriDoc",
-        "url": "http://www.spiridoc.nl/grotearcana/X",
-        "broken": "Not Found"
-      },
-      {
         "name": "Orakels",
-        "url": "https://www.orakels.net/tarot/oud-engels/staven-tien"
+        "url": "https://www.orakels.net/tarot/oud-engels/staven-tien",
+        "broken": "Closed"
       }
     ]
   },
@@ -1668,21 +1645,16 @@
       },
       {
         "name": "Kaart en Sterren",
-        "url": "http://www.kaartensterren.nl/pagina's tarotkaarten/staven/pagina staven 11.html",
-        "broken": "Not Found"
+        "url": "http://www.kaartensterren.nl/pagina's%20tarotkaarten/staven/pagina%20staven%20page.html"
       },
       {
         "name": "Le Tarot",
         "url": "http://www.letarot.nl/tarotkaart-42-staven-page-schildknaap-hofkaart-stokken-scepters-knotsen-of-batons-kleine-arcana"
       },
       {
-        "name": "SpiriDoc",
-        "url": "http://www.spiridoc.nl/grotearcana/Page",
-        "broken": "Not Found"
-      },
-      {
         "name": "Orakels",
-        "url": "https://www.orakels.net/tarot/oud-engels/schildknaap-van-staven"
+        "url": "https://www.orakels.net/tarot/oud-engels/schildknaap-van-staven",
+        "broken": "Closed"
       }
     ]
   },
@@ -1714,21 +1686,16 @@
       },
       {
         "name": "Kaart en Sterren",
-        "url": "http://www.kaartensterren.nl/pagina's tarotkaarten/staven/pagina staven 12.html",
-        "broken": "Not Found"
+        "url": "http://www.kaartensterren.nl/pagina's%20tarotkaarten/staven/pagina%20staven%20ridder.html"
       },
       {
         "name": "Le Tarot",
         "url": "http://www.letarot.nl/tarotkaart-41-staven-ridder-hofkaart-stokken-scepters-knotsen-of-batons-kleine-arcana"
       },
       {
-        "name": "SpiriDoc",
-        "url": "http://www.spiridoc.nl/grotearcana/Ridder",
-        "broken": "Not Found"
-      },
-      {
         "name": "Orakels",
-        "url": "https://www.orakels.net/tarot/oud-engels/ridder-van-staven"
+        "url": "https://www.orakels.net/tarot/oud-engels/ridder-van-staven",
+        "broken": "Closed"
       }
     ]
   },
@@ -1767,21 +1734,16 @@
       },
       {
         "name": "Kaart en Sterren",
-        "url": "http://www.kaartensterren.nl/pagina's tarotkaarten/staven/pagina staven 13.html",
-        "broken": "Not Found"
+        "url": "http://www.kaartensterren.nl/pagina's%20tarotkaarten/staven/pagina%20staven%20koningin.html"
       },
       {
         "name": "Le Tarot",
         "url": "http://www.letarot.nl/tarotkaart-40-staven-koningin-hofkaart-stokken-scepters-knotsen-of-batons-kleine-arcana"
       },
       {
-        "name": "SpiriDoc",
-        "url": "http://www.spiridoc.nl/grotearcana/Koningin",
-        "broken": "Not Found"
-      },
-      {
         "name": "Orakels",
-        "url": "https://www.orakels.net/tarot/oud-engels/koningin-van-staven"
+        "url": "https://www.orakels.net/tarot/oud-engels/koningin-van-staven",
+        "broken": "Closed"
       }
     ]
   },
@@ -1823,21 +1785,16 @@
       },
       {
         "name": "Kaart en Sterren",
-        "url": "http://www.kaartensterren.nl/pagina's tarotkaarten/staven/pagina staven 14.html",
-        "broken": "Not Found"
+        "url": "http://www.kaartensterren.nl/pagina's%20tarotkaarten/staven/pagina%20staven%20koning.html"
       },
       {
         "name": "Le Tarot",
         "url": "http://www.letarot.nl/tarotkaart-39-staven-koning-hofkaart-stokken-scepters-knotsen-of-batons-kleine-arcana"
       },
       {
-        "name": "SpiriDoc",
-        "url": "http://www.spiridoc.nl/grotearcana/Koning",
-        "broken": "Not Found"
-      },
-      {
         "name": "Orakels",
-        "url": "https://www.orakels.net/tarot/oud-engels/koning-van-staven"
+        "url": "https://www.orakels.net/tarot/oud-engels/koning-van-staven",
+        "broken": "Closed"
       }
     ]
   },
@@ -1868,8 +1825,7 @@
       },
       {
         "name": "Tarot Stap voor Stap",
-        "url": "http://tarotstapvoorstap.nl/tarotkaarten/tarotkaart-pentakels-aas",
-        "broken": "Not Found"
+        "url": "https://tarotstapvoorstap.nl/tarotkaarten/rider-waite-tarotkaart-pentakels-aas/"
       },
       {
         "name": "Kaart en Sterren",
@@ -1880,13 +1836,9 @@
         "url": "http://www.letarot.nl/tarotkaart-29-pentagrammen-1-aas-munten-pentakels-of-schijven-kleine-arcana"
       },
       {
-        "name": "SpiriDoc",
-        "url": "http://www.spiridoc.nl/grotearcana/Aas",
-        "broken": "Not Found"
-      },
-      {
         "name": "Orakels",
-        "url": "https://www.orakels.net/tarot/oud-engels/aas-van-pentakels"
+        "url": "https://www.orakels.net/tarot/oud-engels/aas-van-pentakels",
+        "broken": "Closed"
       }
     ]
   },
@@ -1922,13 +1874,9 @@
         "url": "http://www.letarot.nl/tarotkaart-30-pentagrammen-2-twee-munten-pentakels-of-schijven-2-kleine-arcana"
       },
       {
-        "name": "SpiriDoc",
-        "url": "http://www.spiridoc.nl/grotearcana/II",
-        "broken": "Not Found"
-      },
-      {
         "name": "Orakels",
-        "url": "https://www.orakels.net/tarot/oud-engels/pentakels-twee"
+        "url": "https://www.orakels.net/tarot/oud-engels/pentakels-twee",
+        "broken": "Closed"
       }
     ]
   },
@@ -1966,13 +1914,9 @@
         "url": "http://www.letarot.nl/tarotkaart-31-pentagrammen-3-drie-munten-pentakels-of-schijven-kleine-arcana"
       },
       {
-        "name": "SpiriDoc",
-        "url": "http://www.spiridoc.nl/grotearcana/III",
-        "broken": "Not Found"
-      },
-      {
         "name": "Orakels",
-        "url": "https://www.orakels.net/tarot/oud-engels/pentakels-drie"
+        "url": "https://www.orakels.net/tarot/oud-engels/pentakels-drie",
+        "broken": "Closed"
       }
     ]
   },
@@ -2003,13 +1947,9 @@
         "url": "http://www.letarot.nl/tarotkaart-32-pentagrammen-4-vier-munten-pentakels-of-schijven-kleine-arcana"
       },
       {
-        "name": "SpiriDoc",
-        "url": "http://www.spiridoc.nl/grotearcana/IV",
-        "broken": "Not Found"
-      },
-      {
         "name": "Orakels",
-        "url": "https://www.orakels.net/tarot/oud-engels/pentakels-vier"
+        "url": "https://www.orakels.net/tarot/oud-engels/pentakels-vier",
+        "broken": "Closed"
       }
     ]
   },
@@ -2045,13 +1985,9 @@
         "url": "http://www.letarot.nl/tarotkaart-33-pentagrammen-5-vijf-munten-pentakels-of-schijven-kleine-arcana"
       },
       {
-        "name": "SpiriDoc",
-        "url": "http://www.spiridoc.nl/grotearcana/V",
-        "broken": "Not Found"
-      },
-      {
         "name": "Orakels",
-        "url": "https://www.orakels.net/tarot/oud-engels/pentakels-vijf"
+        "url": "https://www.orakels.net/tarot/oud-engels/pentakels-vijf",
+        "broken": "Closed"
       }
     ]
   },
@@ -2091,13 +2027,9 @@
         "url": "http://www.letarot.nl/tarotkaart-34-pentagrammen-6-zes-munten-pentakels-of-schijven-kleine-arcana"
       },
       {
-        "name": "SpiriDoc",
-        "url": "http://www.spiridoc.nl/grotearcana/VI",
-        "broken": "Not Found"
-      },
-      {
         "name": "Orakels",
-        "url": "https://www.orakels.net/tarot/oud-engels/pentakels-zes"
+        "url": "https://www.orakels.net/tarot/oud-engels/pentakels-zes",
+        "broken": "Closed"
       }
     ]
   },
@@ -2128,13 +2060,9 @@
         "url": "http://www.letarot.nl/tarotkaart-35-pentagrammen-7-zeven-munten-pentakels-of-schijven-kleine-arcana"
       },
       {
-        "name": "SpiriDoc",
-        "url": "http://www.spiridoc.nl/grotearcana/VII",
-        "broken": "Not Found"
-      },
-      {
         "name": "Orakels",
-        "url": "https://www.orakels.net/tarot/oud-engels/pentakels-zeven"
+        "url": "https://www.orakels.net/tarot/oud-engels/pentakels-zeven",
+        "broken": "Closed"
       }
     ]
   },
@@ -2165,13 +2093,9 @@
         "url": "http://www.letarot.nl/tarotkaart-36-pentagrammen-8-acht-munten-pentakels-of-schijven-kleine-arcana"
       },
       {
-        "name": "SpiriDoc",
-        "url": "http://www.spiridoc.nl/grotearcana/VIII",
-        "broken": "Not Found"
-      },
-      {
         "name": "Orakels",
-        "url": "https://www.orakels.net/tarot/oud-engels/pentakels-acht"
+        "url": "https://www.orakels.net/tarot/oud-engels/pentakels-acht",
+        "broken": "Closed"
       }
     ]
   },
@@ -2202,13 +2126,9 @@
         "url": "http://www.letarot.nl/tarotkaart-37-pentagrammen-9-negen-munten-pentakels-of-schijven-kleine-arcana"
       },
       {
-        "name": "SpiriDoc",
-        "url": "http://www.spiridoc.nl/grotearcana/IX",
-        "broken": "Not Found"
-      },
-      {
         "name": "Orakels",
-        "url": "https://www.orakels.net/tarot/oud-engels/pentakels-negen"
+        "url": "https://www.orakels.net/tarot/oud-engels/pentakels-negen",
+        "broken": "Closed"
       }
     ]
   },
@@ -2254,13 +2174,9 @@
         "url": "http://www.letarot.nl/tarotkaart-38-pentagrammen-10-tien-munten-pentakels-of-schijven-kleine-arcana"
       },
       {
-        "name": "SpiriDoc",
-        "url": "http://www.spiridoc.nl/grotearcana/X",
-        "broken": "Not Found"
-      },
-      {
         "name": "Orakels",
-        "url": "https://www.orakels.net/tarot/oud-engels/pentakels-tien"
+        "url": "https://www.orakels.net/tarot/oud-engels/pentakels-tien",
+        "broken": "Closed"
       }
     ]
   },
@@ -2292,21 +2208,16 @@
       },
       {
         "name": "Kaart en Sterren",
-        "url": "http://www.kaartensterren.nl/pagina's tarotkaarten/pentakels/pagina pentakels 11.html",
-        "broken": "Not Found"
+        "url": "http://www.kaartensterren.nl/pagina's%20tarotkaarten/pentakels/pagina%20pentakels%20page.html"
       },
       {
         "name": "Le Tarot",
         "url": "http://www.letarot.nl/tarotkaart-28-pentagrammen-page-schildknaap-hofkaart-munten-pentakels-of-schijven-kleine-arcana"
       },
       {
-        "name": "SpiriDoc",
-        "url": "http://www.spiridoc.nl/grotearcana/Page",
-        "broken": "Not Found"
-      },
-      {
         "name": "Orakels",
-        "url": "https://www.orakels.net/tarot/oud-engels/schildknaap-van-pentakels"
+        "url": "https://www.orakels.net/tarot/oud-engels/schildknaap-van-pentakels",
+        "broken": "Closed"
       }
     ]
   },
@@ -2343,21 +2254,16 @@
       },
       {
         "name": "Kaart en Sterren",
-        "url": "http://www.kaartensterren.nl/pagina's tarotkaarten/pentakels/pagina pentakels 12.html",
-        "broken": "Not Found"
+        "url": "http://www.kaartensterren.nl/pagina's%20tarotkaarten/pentakels/pagina%20pentakels%20ridder.html"
       },
       {
         "name": "Le Tarot",
         "url": "http://www.letarot.nl/tarotkaart-27-pentagrammen-ridder-hofkaart-munten-pentakels-of-schijven-kleine-arcana"
       },
       {
-        "name": "SpiriDoc",
-        "url": "http://www.spiridoc.nl/grotearcana/Ridder",
-        "broken": "Not Found"
-      },
-      {
         "name": "Orakels",
-        "url": "https://www.orakels.net/tarot/oud-engels/ridder-van-pentakels"
+        "url": "https://www.orakels.net/tarot/oud-engels/ridder-van-pentakels",
+        "broken": "Closed"
       }
     ]
   },
@@ -2392,21 +2298,16 @@
       },
       {
         "name": "Kaart en Sterren",
-        "url": "http://www.kaartensterren.nl/pagina's tarotkaarten/pentakels/pagina pentakels 13.html",
-        "broken": "Not Found"
+        "url": "http://www.kaartensterren.nl/pagina's%20tarotkaarten/pentakels/pagina%20pentakels%20koningin.html"
       },
       {
         "name": "Le Tarot",
         "url": "http://www.letarot.nl/tarotkaart-26-pentagrammen-koningin-hofkaart-munten-pentakels-of-schijven-kleine-arcana"
       },
       {
-        "name": "SpiriDoc",
-        "url": "http://www.spiridoc.nl/grotearcana/Koningin",
-        "broken": "Not Found"
-      },
-      {
         "name": "Orakels",
-        "url": "https://www.orakels.net/tarot/oud-engels/koningin-van-pentakels"
+        "url": "https://www.orakels.net/tarot/oud-engels/koningin-van-pentakels",
+        "broken": "Closed"
       }
     ]
   },
@@ -2444,21 +2345,16 @@
       },
       {
         "name": "Kaart en Sterren",
-        "url": "http://www.kaartensterren.nl/pagina's tarotkaarten/pentakels/pagina pentakels 14.html",
-        "broken": "Not Found"
+        "url": "http://www.kaartensterren.nl/pagina's%20tarotkaarten/pentakels/pagina%20pentakels%20koning.html"
       },
       {
         "name": "Le Tarot",
         "url": "http://www.letarot.nl/tarotkaart-25-pentagrammen-koning-hofkaart-munten-pentakels-of-schijven-kleine-arcana"
       },
       {
-        "name": "SpiriDoc",
-        "url": "http://www.spiridoc.nl/grotearcana/Koning",
-        "broken": "Not Found"
-      },
-      {
         "name": "Orakels",
-        "url": "https://www.orakels.net/tarot/oud-engels/koning-van-pentakels"
+        "url": "https://www.orakels.net/tarot/oud-engels/koning-van-pentakels",
+        "broken": "Closed"
       }
     ]
   },
@@ -2498,13 +2394,9 @@
         "url": "http://www.letarot.nl/tarotkaart-71-zwaarden-aas-1-een-kleine-arcana"
       },
       {
-        "name": "SpiriDoc",
-        "url": "http://www.spiridoc.nl/grotearcana/Aas",
-        "broken": "Not Found"
-      },
-      {
         "name": "Orakels",
-        "url": "https://www.orakels.net/tarot/oud-engels/aas-van-zwaarden"
+        "url": "https://www.orakels.net/tarot/oud-engels/aas-van-zwaarden",
+        "broken": "Closed"
       }
     ]
   },
@@ -2549,13 +2441,9 @@
         "url": "http://www.letarot.nl/tarotkaart-72-zwaarden-2-twee-kleine-arcana"
       },
       {
-        "name": "SpiriDoc",
-        "url": "http://www.spiridoc.nl/grotearcana/II",
-        "broken": "Not Found"
-      },
-      {
         "name": "Orakels",
-        "url": "https://www.orakels.net/tarot/oud-engels/zwaarden-twee"
+        "url": "https://www.orakels.net/tarot/oud-engels/zwaarden-twee",
+        "broken": "Closed"
       }
     ]
   },
@@ -2586,13 +2474,9 @@
         "url": "http://www.letarot.nl/tarotkaart-73-zwaarden-3-drie-kleine-arcana"
       },
       {
-        "name": "SpiriDoc",
-        "url": "http://www.spiridoc.nl/grotearcana/III",
-        "broken": "Not Found"
-      },
-      {
         "name": "Orakels",
-        "url": "https://www.orakels.net/tarot/oud-engels/zwaarden-drie"
+        "url": "https://www.orakels.net/tarot/oud-engels/zwaarden-drie",
+        "broken": "Closed"
       }
     ]
   },
@@ -2623,13 +2507,9 @@
         "url": "http://www.letarot.nl/tarotkaart-74-zwaarden-4-vier-kleine-arcana"
       },
       {
-        "name": "SpiriDoc",
-        "url": "http://www.spiridoc.nl/grotearcana/IV",
-        "broken": "Not Found"
-      },
-      {
         "name": "Orakels",
-        "url": "https://www.orakels.net/tarot/oud-engels/zwaarden-vier"
+        "url": "https://www.orakels.net/tarot/oud-engels/zwaarden-vier",
+        "broken": "Closed"
       }
     ]
   },
@@ -2674,13 +2554,9 @@
         "url": "http://www.letarot.nl/tarotkaart-75-zwaarden-5-vijf-kleine-arcana"
       },
       {
-        "name": "SpiriDoc",
-        "url": "http://www.spiridoc.nl/grotearcana/V",
-        "broken": "Not Found"
-      },
-      {
         "name": "Orakels",
-        "url": "https://www.orakels.net/tarot/oud-engels/zwaarden-vijf"
+        "url": "https://www.orakels.net/tarot/oud-engels/zwaarden-vijf",
+        "broken": "Closed"
       }
     ]
   },
@@ -2711,13 +2587,9 @@
         "url": "http://www.letarot.nl/tarotkaart-76-zwaarden-6-zes-kleine-arcana"
       },
       {
-        "name": "SpiriDoc",
-        "url": "http://www.spiridoc.nl/grotearcana/VI",
-        "broken": "Not Found"
-      },
-      {
         "name": "Orakels",
-        "url": "https://www.orakels.net/tarot/oud-engels/zwaarden-zes"
+        "url": "https://www.orakels.net/tarot/oud-engels/zwaarden-zes",
+        "broken": "Closed"
       }
     ]
   },
@@ -2748,13 +2620,9 @@
         "url": "http://www.letarot.nl/tarotkaart-77-zwaarden7-zeven"
       },
       {
-        "name": "SpiriDoc",
-        "url": "http://www.spiridoc.nl/grotearcana/VII",
-        "broken": "Not Found"
-      },
-      {
         "name": "Orakels",
-        "url": "https://www.orakels.net/tarot/oud-engels/zwaarden-zeven"
+        "url": "https://www.orakels.net/tarot/oud-engels/zwaarden-zeven",
+        "broken": "Closed"
       }
     ]
   },
@@ -2793,13 +2661,9 @@
         "url": "http://www.letarot.nl/tarotkaart-78-zwaarden-08-acht-kleine-arcana"
       },
       {
-        "name": "SpiriDoc",
-        "url": "http://www.spiridoc.nl/grotearcana/VIII",
-        "broken": "Not Found"
-      },
-      {
         "name": "Orakels",
-        "url": "https://www.orakels.net/tarot/oud-engels/zwaarden-acht"
+        "url": "https://www.orakels.net/tarot/oud-engels/zwaarden-acht",
+        "broken": "Closed"
       }
     ]
   },
@@ -2819,8 +2683,7 @@
       },
       {
         "name": "Tarot Stap voor Stap",
-        "url": "http://tarotstapvoorstap.nl/tarotkaarten/tarotkaart-zwaarden-negen",
-        "broken": "Not Found"
+        "url": "https://tarotstapvoorstap.nl/tarot-vragen/zwaarden-9-uit-de-tarot-ook-dit-gaat-voorbij/"
       },
       {
         "name": "Kaart en Sterren",
@@ -2831,13 +2694,9 @@
         "url": "http://www.letarot.nl/tarotkaart-79-zwaarden-09-negen-kleine-arcana"
       },
       {
-        "name": "SpiriDoc",
-        "url": "http://www.spiridoc.nl/grotearcana/IX",
-        "broken": "Not Found"
-      },
-      {
         "name": "Orakels",
-        "url": "https://www.orakels.net/tarot/oud-engels/zwaarden-negen"
+        "url": "https://www.orakels.net/tarot/oud-engels/zwaarden-negen",
+        "broken": "Closed"
       }
     ]
   },
@@ -2868,13 +2727,9 @@
         "url": "http://www.letarot.nl/tarotkaart-80-zwaarden-10-tien-kleine-arcana"
       },
       {
-        "name": "SpiriDoc",
-        "url": "http://www.spiridoc.nl/grotearcana/X",
-        "broken": "Not Found"
-      },
-      {
         "name": "Orakels",
-        "url": "https://www.orakels.net/tarot/oud-engels/zwaarden-tien"
+        "url": "https://www.orakels.net/tarot/oud-engels/zwaarden-tien",
+        "broken": "Closed"
       }
     ]
   },
@@ -2905,21 +2760,16 @@
       },
       {
         "name": "Kaart en Sterren",
-        "url": "http://www.kaartensterren.nl/pagina's tarotkaarten/zwaarden/pagina zwaarden 11.html",
-        "broken": "Not Found"
+        "url": "http://www.kaartensterren.nl/pagina's%20tarotkaarten/zwaarden/pagina%20zwaarden%20page.html"
       },
       {
         "name": "Le Tarot",
         "url": "http://www.letarot.nl/tarotkaart-70-zwaarden-page-schildknaap"
       },
       {
-        "name": "SpiriDoc",
-        "url": "http://www.spiridoc.nl/grotearcana/Page",
-        "broken": "Not Found"
-      },
-      {
         "name": "Orakels",
-        "url": "https://www.orakels.net/tarot/oud-engels/schildknaap-van-zwaarden"
+        "url": "https://www.orakels.net/tarot/oud-engels/schildknaap-van-zwaarden",
+        "broken": "Closed"
       }
     ]
   },
@@ -2948,21 +2798,16 @@
       },
       {
         "name": "Kaart en Sterren",
-        "url": "http://www.kaartensterren.nl/pagina's tarotkaarten/zwaarden/pagina zwaarden 12.html",
-        "broken": "Not Found"
+        "url": "http://www.kaartensterren.nl/pagina's%20tarotkaarten/zwaarden/pagina%20zwaarden%20ridder.html"
       },
       {
         "name": "Le Tarot",
         "url": "http://www.letarot.nl/tarotkaart-69-zwaarden-ridder-kleine-arcana"
       },
       {
-        "name": "SpiriDoc",
-        "url": "http://www.spiridoc.nl/grotearcana/Ridder",
-        "broken": "Not Found"
-      },
-      {
         "name": "Orakels",
-        "url": "https://www.orakels.net/tarot/oud-engels/ridder-van-zwaarden"
+        "url": "https://www.orakels.net/tarot/oud-engels/ridder-van-zwaarden",
+        "broken": "Closed"
       }
     ]
   },
@@ -3005,21 +2850,16 @@
       },
       {
         "name": "Kaart en Sterren",
-        "url": "http://www.kaartensterren.nl/pagina's tarotkaarten/zwaarden/pagina zwaarden 13.html",
-        "broken": "Not Found"
+        "url": "http://www.kaartensterren.nl/pagina's%20tarotkaarten/zwaarden/pagina%20zwaarden%20koningin.html"
       },
       {
         "name": "Le Tarot",
         "url": "http://www.letarot.nl/tarotkaart-68-zwaarden-koningin-hofkaart-kleine-arcana"
       },
       {
-        "name": "SpiriDoc",
-        "url": "http://www.spiridoc.nl/grotearcana/Koningin",
-        "broken": "Not Found"
-      },
-      {
         "name": "Orakels",
-        "url": "https://www.orakels.net/tarot/oud-engels/koningin-van-zwaarden"
+        "url": "https://www.orakels.net/tarot/oud-engels/koningin-van-zwaarden",
+        "broken": "Closed"
       }
     ]
   },
@@ -3059,21 +2899,16 @@
       },
       {
         "name": "Kaart en Sterren",
-        "url": "http://www.kaartensterren.nl/pagina's tarotkaarten/zwaarden/pagina zwaarden 14.html",
-        "broken": "Not Found"
+        "url": "http://www.kaartensterren.nl/pagina's%20tarotkaarten/zwaarden/pagina%20zwaarden%20koning.html"
       },
       {
         "name": "Le Tarot",
         "url": "http://www.letarot.nl/tarotkaart-67-zwaarden-koning-hofkaart-kleine-arcana"
       },
       {
-        "name": "SpiriDoc",
-        "url": "http://www.spiridoc.nl/grotearcana/Koning",
-        "broken": "Not Found"
-      },
-      {
         "name": "Orakels",
-        "url": "https://www.orakels.net/tarot/oud-engels/koning-van-zwaarden"
+        "url": "https://www.orakels.net/tarot/oud-engels/koning-van-zwaarden",
+        "broken": "Closed"
       }
     ]
   },
@@ -3121,13 +2956,9 @@
         "url": "http://www.letarot.nl/tarotkaart-57-bekers-1-aas-een-bokalen-kleine-arcana"
       },
       {
-        "name": "SpiriDoc",
-        "url": "http://www.spiridoc.nl/grotearcana/Aas",
-        "broken": "Not Found"
-      },
-      {
         "name": "Orakels",
-        "url": "https://www.orakels.net/tarot/oud-engels/aas-van-bekers"
+        "url": "https://www.orakels.net/tarot/oud-engels/aas-van-bekers",
+        "broken": "Closed"
       }
     ]
   },
@@ -3171,13 +3002,9 @@
         "url": "http://www.letarot.nl/tarotkaart-58-bekers-bokalen-2-twee-kleine-arcana"
       },
       {
-        "name": "SpiriDoc",
-        "url": "http://www.spiridoc.nl/grotearcana/II",
-        "broken": "Not Found"
-      },
-      {
         "name": "Orakels",
-        "url": "https://www.orakels.net/tarot/oud-engels/bekers-twee"
+        "url": "https://www.orakels.net/tarot/oud-engels/bekers-twee",
+        "broken": "Closed"
       }
     ]
   },
@@ -3215,13 +3042,9 @@
         "url": "http://www.letarot.nl/tarotkaart-59-bekers-3-drie-bokalen-kleine-arcana"
       },
       {
-        "name": "SpiriDoc",
-        "url": "http://www.spiridoc.nl/grotearcana/III",
-        "broken": "Not Found"
-      },
-      {
         "name": "Orakels",
-        "url": "https://www.orakels.net/tarot/oud-engels/bekers-drie"
+        "url": "https://www.orakels.net/tarot/oud-engels/bekers-drie",
+        "broken": "Closed"
       }
     ]
   },
@@ -3252,13 +3075,9 @@
         "url": "http://www.letarot.nl/tarotkaart-60-bekers-4-vier-bokalen-kleine-arcana"
       },
       {
-        "name": "SpiriDoc",
-        "url": "http://www.spiridoc.nl/grotearcana/IV",
-        "broken": "Not Found"
-      },
-      {
         "name": "Orakels",
-        "url": "https://www.orakels.net/tarot/oud-engels/bekers-vier"
+        "url": "https://www.orakels.net/tarot/oud-engels/bekers-vier",
+        "broken": "Closed"
       }
     ]
   },
@@ -3298,13 +3117,9 @@
         "url": "http://www.letarot.nl/tarotkaart-61-bekers-5-vijf-bokalen-kleine-arcana"
       },
       {
-        "name": "SpiriDoc",
-        "url": "http://www.spiridoc.nl/grotearcana/V",
-        "broken": "Not Found"
-      },
-      {
         "name": "Orakels",
-        "url": "https://www.orakels.net/tarot/oud-engels/bekers-vijf"
+        "url": "https://www.orakels.net/tarot/oud-engels/bekers-vijf",
+        "broken": "Closed"
       }
     ]
   },
@@ -3340,13 +3155,9 @@
         "url": "http://www.letarot.nl/tarotkaart-62-bekers-6-zes-bokalen-kleine-arcana"
       },
       {
-        "name": "SpiriDoc",
-        "url": "http://www.spiridoc.nl/grotearcana/VI",
-        "broken": "Not Found"
-      },
-      {
         "name": "Orakels",
-        "url": "https://www.orakels.net/tarot/oud-engels/bekers-zes"
+        "url": "https://www.orakels.net/tarot/oud-engels/bekers-zes",
+        "broken": "Closed"
       }
     ]
   },
@@ -3395,13 +3206,9 @@
         "url": "http://www.letarot.nl/tarotkaart-63-bekers-7-zeven-bokalen"
       },
       {
-        "name": "SpiriDoc",
-        "url": "http://www.spiridoc.nl/grotearcana/VII",
-        "broken": "Not Found"
-      },
-      {
         "name": "Orakels",
-        "url": "https://www.orakels.net/tarot/oud-engels/bekers-zeven"
+        "url": "https://www.orakels.net/tarot/oud-engels/bekers-zeven",
+        "broken": "Closed"
       }
     ]
   },
@@ -3436,13 +3243,9 @@
         "url": "http://www.letarot.nl/tarotkaart-64-bekers-bokalen-8-acht-kleine-arcana"
       },
       {
-        "name": "SpiriDoc",
-        "url": "http://www.spiridoc.nl/grotearcana/VIII",
-        "broken": "Not Found"
-      },
-      {
         "name": "Orakels",
-        "url": "https://www.orakels.net/tarot/oud-engels/bekers-acht"
+        "url": "https://www.orakels.net/tarot/oud-engels/bekers-acht",
+        "broken": "Closed"
       }
     ]
   },
@@ -3477,13 +3280,9 @@
         "url": "http://www.letarot.nl/tarotkaart-65-bekers-bokalen-9-negen-kleine-arcana"
       },
       {
-        "name": "SpiriDoc",
-        "url": "http://www.spiridoc.nl/grotearcana/IX",
-        "broken": "Not Found"
-      },
-      {
         "name": "Orakels",
-        "url": "https://www.orakels.net/tarot/oud-engels/bekers-negen"
+        "url": "https://www.orakels.net/tarot/oud-engels/bekers-negen",
+        "broken": "Closed"
       }
     ]
   },
@@ -3520,13 +3319,9 @@
         "url": "http://www.letarot.nl/tarotkaart-66-bekers-10-tien-bokalen-kelken-kleine-arcana"
       },
       {
-        "name": "SpiriDoc",
-        "url": "http://www.spiridoc.nl/grotearcana/X",
-        "broken": "Not Found"
-      },
-      {
         "name": "Orakels",
-        "url": "https://www.orakels.net/tarot/oud-engels/bekers-tien"
+        "url": "https://www.orakels.net/tarot/oud-engels/bekers-tien",
+        "broken": "Closed"
       }
     ]
   },
@@ -3550,28 +3345,23 @@
       },
       {
         "name": "Kaart en Sterren",
-        "url": "http://www.kaartensterren.nl/pagina's tarotkaarten/bekers/pagina bekers 11.html",
-        "broken": "Not Found"
+        "url": "http://www.kaartensterren.nl/pagina's%20tarotkaarten/bekers/pagina%20bekers%20page.html"
       },
       {
         "name": "Le Tarot",
         "url": "http://www.letarot.nl/tarotkaart-56-bekers-page-schildknaap-hofkaart-bokalen-kleine-arcana"
       },
       {
-        "name": "SpiriDoc",
-        "url": "http://www.spiridoc.nl/grotearcana/Page",
-        "broken": "Not Found"
-      },
-      {
         "name": "Orakels",
-        "url": "https://www.orakels.net/tarot/oud-engels/schildknaap-van-bekers"
+        "url": "https://www.orakels.net/tarot/oud-engels/schildknaap-van-bekers",
+        "broken": "Closed"
       }
     ]
   },
   {
     "suite": "Kelken",
     "name": "Ridder",
-    "keyword": "VERZOENER",
+    "keyword": "DROMER",
     "keywords": ["aanvoelen", "betrokkenheid", "waarheidsvinding", "voorstel"],
     "invitation": "Met wie wil je vrede sluiten?",
     "warning": "Zorg voor een goede verstandhouding.",
@@ -3597,21 +3387,16 @@
       },
       {
         "name": "Kaart en Sterren",
-        "url": "http://www.kaartensterren.nl/pagina's tarotkaarten/bekers/pagina bekers 12.html",
-        "broken": "Not Found"
+        "url": "http://www.kaartensterren.nl/pagina's%20tarotkaarten/bekers/pagina%20bekers%20ridder.html"
       },
       {
         "name": "Le Tarot",
         "url": "http://www.letarot.nl/tarotkaart-55-bekers-ridder-bokalen-hofkaart-kleine-arcana"
       },
       {
-        "name": "SpiriDoc",
-        "url": "http://www.spiridoc.nl/grotearcana/Ridder",
-        "broken": "Not Found"
-      },
-      {
         "name": "Orakels",
-        "url": "https://www.orakels.net/tarot/oud-engels/ridder-van-bekers"
+        "url": "https://www.orakels.net/tarot/oud-engels/ridder-van-bekers",
+        "broken": "Closed"
       }
     ]
   },
@@ -3641,21 +3426,16 @@
       },
       {
         "name": "Kaart en Sterren",
-        "url": "http://www.kaartensterren.nl/pagina's tarotkaarten/bekers/pagina bekers 13.html",
-        "broken": "Not Found"
+        "url": "http://www.kaartensterren.nl/pagina's%20tarotkaarten/bekers/pagina%20bekers%20koningin.html"
       },
       {
         "name": "Le Tarot",
         "url": "http://www.letarot.nl/tarotkaart-54-bekers-koningin-bokalen-hofkaart-kleine-arcana"
       },
       {
-        "name": "SpiriDoc",
-        "url": "http://www.spiridoc.nl/grotearcana/Koningin",
-        "broken": "Not Found"
-      },
-      {
         "name": "Orakels",
-        "url": "https://www.orakels.net/tarot/oud-engels/koningin-van-bekers"
+        "url": "https://www.orakels.net/tarot/oud-engels/koningin-van-bekers",
+        "broken": "Closed"
       }
     ]
   },
@@ -3696,21 +3476,16 @@
       },
       {
         "name": "Kaart en Sterren",
-        "url": "http://www.kaartensterren.nl/pagina's tarotkaarten/bekers/pagina bekers 14.html",
-        "broken": "Not Found"
+        "url": "http://www.kaartensterren.nl/pagina's%20tarotkaarten/bekers/pagina%20bekers%20koning.html"
       },
       {
         "name": "Le Tarot",
         "url": "http://www.letarot.nl/tarotkaart-53-bekers-koning-bokalen-hofkaart-kleine-arcana"
       },
       {
-        "name": "SpiriDoc",
-        "url": "http://www.spiridoc.nl/grotearcana/Koning",
-        "broken": "Not Found"
-      },
-      {
         "name": "Orakels",
-        "url": "https://www.orakels.net/tarot/oud-engels/koning-van-bekers"
+        "url": "https://www.orakels.net/tarot/oud-engels/koning-van-bekers",
+        "broken": "Closed"
       }
     ]
   }
