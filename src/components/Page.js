@@ -8,7 +8,7 @@ export function Page({ title, children }) {
       <h1>{title}</h1>
       {children}
       <hr />
-      <footer style={{ textAlign: "right", fontSize: "80%" }}>
+      <footer style={{ fontSize: "80%" }}>
         &copy; 2020 - Tarot v{packageInfo.version} - Random Rambler
       </footer>
     </div>

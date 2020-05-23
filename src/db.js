@@ -70,9 +70,9 @@ export function cardImg(card) {
 export function findTerm(name) {
   name = typeof name === "string" ? name.toLowerCase() : name;
   const term = terms({ name }).first();
-  if (!term) {
-    console.warn(`No term for [${name}]`);
-  }
+  // if (!term) {
+  //   console.warn(`No term for [${name}]`);
+  // }
   return term;
 }
 
