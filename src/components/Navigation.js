@@ -1,8 +1,8 @@
 import React from "react";
-import { Switch, Route, Link } from "react-router-dom";
+import { Switch, Route, NavLink } from "react-router-dom";
 
 import { Index } from "../pages/Index";
-import { Help } from "../pages/Help";
+import { Page } from "../pages/Page";
 import { Card, CardByNumber } from "../pages/Card";
 import { Reading } from "../pages/Reading";
 // import { Quiz } from "../pages/Quiz";
@@ -10,18 +10,22 @@ import { Terms } from "../pages/Term";
 
 import "./Navigation.css";
 
-function NavLink({ name }) {
-  return <Link to={"/" + name.toLowerCase()}>{name}</Link>;
+function Link({ name }) {
+  return <NavLink to={"/" + name.toLowerCase()}>{name}</NavLink>;
+}
+
+function PageLink({ name }) {
+  return <NavLink to={"/page/" + name}>{name}</NavLink>;
 }
 
 export function Navigation() {
   return (
     <nav>
-      <NavLink name="Overzicht" />
-      <NavLink name="Begrippen" />
+      <Link name="Overzicht" />
+      <Link name="Begrippen" />
       {/* <NavLink name="Quiz" /> */}
-      <NavLink name="Legging" />
-      <NavLink name="Uitleg" />
+      <Link name="Legging" />
+      <PageLink name="Achtergrond" />
     </nav>
   );
 }
@@ -47,8 +51,8 @@ export function Routes() {
       <Route path="/card/:suite/:name">
         <Card />
       </Route>
-      <Route path="/uitleg">
-        <Help />
+      <Route path="/page/:name">
+        <Page />
       </Route>
       <Route path="/">
         <Index />

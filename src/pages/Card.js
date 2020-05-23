@@ -6,13 +6,44 @@ import { Page } from "../components/Page";
 import { Thumbnail, CardInfo } from "../components/Card";
 import { roman2arabic } from "../roman";
 
-export function Card(props) {
+function posmod(number, base, shift = 0) {
+  // return positive (>0), shifted modulo
+  const pm = (((number - shift) % base) + base) % base;
+  return shift + (pm === 0 ? base : pm);
+}
+
+function compass({ suite, name, seqnr }) {
+  const c = {
+    prev: posmod(seqnr - 1, 78),
+    next: posmod(seqnr + 1, 78)
+  };
+
+  if (suite === "groot") {
+    c.up = posmod(seqnr - 10, 20, 1);
+    c.down = posmod(seqnr + 10, 20, 1);
+  } else {
+    c.up = posmod(seqnr - 14, 56, 22);
+    c.down = posmod(seqnr + 14, 56, 22);
+  }
+
+  const specials = {
+    1: { up: 12, down: 2, prev: 21, next: 22 },
+    2: { up: 1, prev: 22 },
+    12: { up: 1, down: 1 },
+    11: { up: 22 },
+    21: { down: 22, next: 1 },
+    22: { up: 21, down: 11, prev: 1, next: 2 }
+  };
+
+  return { ...c, ...specials[seqnr] };
+}
+
+export function Card() {
   const { suite, name } = useParams();
   const query = roman2arabic(name) ? { suite, number: name } : { suite, name };
   const card = cleanRecord(cards(query).first());
+  const c = compass(card);
 
-  const prev = card.seqnr > 1 ? card.seqnr - 1 : 78;
-  const next = card.seqnr < 78 ? card.seqnr + 1 : 1;
   const rnd = Math.floor(Math.random() * 78) + 1;
   return (
     <Page title={cardTitle(card)}>
@@ -21,13 +52,35 @@ export function Card(props) {
           <tr>
             <td style={{ textAlign: "center" }}>
               <Thumbnail {...card} />
-              <div style={{ marginTop: "15pt" }}>
-                <Link to={"/card/number/" + prev}>&lt;&lt;&lt;</Link>
-                {"  "}
-                <Link to={"/card/number/" + rnd}>X</Link>
-                {"  "}
-                <Link to={"/card/number/" + next}>&gt;&gt;&gt;</Link>
-              </div>
+              <table style={{ marginTop: "15pt" }}>
+                <tbody>
+                  <tr>
+                    <td>&nbsp;</td>
+                    <td>
+                      <Link to={"/card/number/" + c.up}>&uarr;</Link>
+                    </td>
+                    <td>&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <Link to={"/card/number/" + c.prev}>&larr;</Link>
+                    </td>
+                    <td>
+                      <Link to={"/card/number/" + rnd}>X</Link>
+                    </td>
+                    <td>
+                      <Link to={"/card/number/" + c.next}>&rarr;</Link>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>&nbsp;</td>
+                    <td>
+                      <Link to={"/card/number/" + c.down}>&darr;</Link>
+                    </td>
+                    <td>&nbsp;</td>
+                  </tr>
+                </tbody>
+              </table>
             </td>
             <td className="definitions">
               <CardInfo {...card} />
@@ -39,8 +92,12 @@ export function Card(props) {
   );
 }
 
-export function CardByNumber(props) {
+export function CardByNumber() {
   const { seqnr } = useParams();
-  const card = cleanRecord(cards({ seqnr: parseInt(seqnr) }).first());
-  return <Redirect to={cardLink(card)} />;
+  const card = cards({ seqnr: parseInt(seqnr) }).first();
+  return card ? (
+    <Redirect to={cardLink(card)} />
+  ) : (
+    `Kaart ${seqnr} niet gevonden.`
+  );
 }

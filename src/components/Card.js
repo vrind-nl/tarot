@@ -87,7 +87,7 @@ Thumbnail.defaultProps = {
 };
 
 function OptionalInfo({ label, term, children }) {
-  term = findTerm(term);
+  term = term && findTerm(term);
   return children ? (
     <tr>
       <td>{label}: </td>
