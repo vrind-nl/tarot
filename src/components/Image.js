@@ -45,18 +45,13 @@ CardImage.defaultProps = {
 
 export function CardImages({ card, deck }) {
   const reordered = [deck].concat(decks.filter(d => d !== deck));
-  return (
-    <>
-      {reordered.map((deck, nr) => (
-        <div key={nr} style={{ textAlign: "center", padding: "5pt" }}>
-          {deck}
-          <br />
-          <CardImage card={card} deck={deck} />
-        </div>
-      ))}
-      (plaatjes van <a href="https://www.tarot.com/tarot/decks">tarot.com</a>)
-    </>
-  );
+  return reordered.map((deck, nr) => (
+    <div key={nr} style={{ textAlign: "center", padding: "5pt" }}>
+      {deck}
+      <br />
+      <CardImage card={card} deck={deck} />
+    </div>
+  ));
 }
 
 CardImages.defaultProps = CardImage.defaultProps;

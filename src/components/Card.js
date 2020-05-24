@@ -145,7 +145,7 @@ export function CardInfo(props) {
       </table>
       {props.symbols && (
         <>
-          <h3>Begrippen</h3>
+          <h3>Symbolen (op basis van Waite-Smith)</h3>
           <Terms
             terms={props.symbols.sort().map(name => ({
               name

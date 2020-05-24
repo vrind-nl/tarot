@@ -6,6 +6,17 @@ const cards = require("./cards");
 const brokenOnly = process.argv.length == 3 && process.argv[2] === "broken";
 const closed = ["Orakels"];
 
+const base = {
+  "Pictorial Key to the Tarot (Eng)":
+    "https://en.wikisource.org/wiki/The_Pictorial_Key_to_the_Tarot#",
+  "Tarot Stap voor Stap": "https://tarotstapvoorstap.nl/tarotkaarten/",
+  Catharinaweb: "https://www.catharinaweb.nl/tarot/tarot/",
+  "Kaart en Sterren": "http://www.kaartensterren.nl/pagina's tarotkaarten/",
+  "Le Tarot": "http://www.letarot.nl/",
+  SpiriDoc: "http://www.spiridoc.nl/grotearcana/",
+  Orakels: "https://www.orakels.net/tarot/oud-engels/"
+};
+
 // function roman2arabic(s) {
 //   if (s === "O") {
 //     return 0;
@@ -40,16 +51,21 @@ async function checkLink(link) {
   if (closed.includes(link.name)) {
     return new Promise(resolve => resolve({ ...link, broken: "Closed" }));
   }
+  const url = base[link.name] + link.url;
   if (!brokenOnly || link.broken) {
     return axios
-      .get(link.url)
+      .get(url)
       .then(() => {
         delete link.broken;
         return link;
       })
       .catch(err => {
-        link.broken = err.response.statusText;
-        console.log(`   ${link.url}: ${link.broken}`);
+        if (err.response) {
+          link.broken = err.response.statusText;
+          console.log(`   ${link.url}: ${link.broken}`);
+        } else {
+          console.log(link, url, err);
+        }
         return link;
       });
   }
@@ -57,17 +73,47 @@ async function checkLink(link) {
 }
 
 async function checkCard(card) {
-  return new Promise(async resolve => {
-    // console.log(cardTitle(card));
-    card.links = await Promise.all(card.links.map(checkLink));
-    resolve(card);
-  });
+  try {
+    var link = "ERROR";
+    switch (card.suite) {
+      case "groot":
+        link = "" + (card.seqnr - 1);
+        break;
+      case "Staven":
+        link = "s" + (card.seqnr - 22);
+        break;
+      case "Pentakels":
+        link = "p" + (card.seqnr - 36);
+        break;
+      case "Zwaarden":
+        link = "z" + (card.seqnr - 50);
+        break;
+      case "Kelken":
+        link = "k" + (card.seqnr - 64);
+        break;
+    }
+    card.links.push({
+      name: "Catharina",
+      url: link + ".htm"
+    });
+    return new Promise(async resolve => {
+      // console.log(cardTitle(card));
+      card.links = await Promise.all(card.links.map(checkLink));
+      resolve(card);
+    });
+  } catch (err) {
+    throw new Error(cardTitle(card) + ": " + err);
+  }
 }
 
 async function main() {
-  const checked = await Promise.all(cards.map(checkCard));
-  console.log("=======================");
-  console.log(JSON.stringify(checked));
+  try {
+    const checked = await Promise.all(cards.map(checkCard));
+    console.log("=======================");
+    console.log(JSON.stringify(checked));
+  } catch (err) {
+    console.log(err);
+  }
 }
 
 main();
