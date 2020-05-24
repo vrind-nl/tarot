@@ -21,18 +21,20 @@ function PageLink({ name }) {
 
 export function Navigation({ setDeck }) {
   return (
-    <nav>
+    <nav style={{ display: "flex" }}>
       <Link name="Overzicht" />
       <Link name="Begrippen" />
       {/* <NavLink name="Quiz" /> */}
       <Link name="Legging" />
       <PageLink name="Achtergrond" />
-      Kaarten:{" "}
-      <select onChange={data => setDeck(data.target.value)}>
-        {decks.map((deck, nr) => (
-          <option key={nr}>{deck}</option>
-        ))}
-      </select>
+      <div style={{ marginLeft: "150pt", marginTop: 0, marginBottom: 0 }}>
+        Kaarten:{" "}
+        <select onChange={data => setDeck(data.target.value)}>
+          {decks.map((deck, nr) => (
+            <option key={nr}>{deck}</option>
+          ))}
+        </select>
+      </div>
     </nav>
   );
 }

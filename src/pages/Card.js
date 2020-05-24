@@ -76,13 +76,13 @@ export function Card({ deck }) {
                   </tr>
                   <tr>
                     <td>
-                      <Link to={"/card/number/" + c.prev}>&#x25C0;</Link>
+                      <Link to={"/card/number/" + c.prev}>&#x25C2;</Link>
                     </td>
                     <td>
                       <Link to={"/card/number/" + rnd}>&infin;</Link>
                     </td>
                     <td>
-                      <Link to={"/card/number/" + c.next}>&#x25B6;</Link>
+                      <Link to={"/card/number/" + c.next}>&#x25B8;</Link>
                     </td>
                   </tr>
                   <tr>
