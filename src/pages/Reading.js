@@ -17,7 +17,7 @@ function FormRow({ label, onChange, ...props }) {
   );
 }
 
-export function Reading() {
+export function Reading({ deck }) {
   const { perma } = useParams();
   const [config, setConfig] = React.useState({
     size: 3,
@@ -85,7 +85,8 @@ export function Reading() {
             >
               <Thumbnail
                 key={reading.seqNr}
-                {...card}
+                card={card}
+                deck={deck}
                 flipped={reading.flipped}
                 reversed={config.reversed && reading.reversed[nr]}
                 height="300pt"

@@ -7,6 +7,7 @@ import { Card, CardByNumber } from "../pages/Card";
 import { Reading } from "../pages/Reading";
 // import { Quiz } from "../pages/Quiz";
 import { Terms } from "../pages/Term";
+import { decks } from "./Image";
 
 import "./Navigation.css";
 
@@ -18,7 +19,7 @@ function PageLink({ name }) {
   return <NavLink to={"/page/" + name}>{name}</NavLink>;
 }
 
-export function Navigation() {
+export function Navigation({ setDeck }) {
   return (
     <nav>
       <Link name="Overzicht" />
@@ -26,36 +27,42 @@ export function Navigation() {
       {/* <NavLink name="Quiz" /> */}
       <Link name="Legging" />
       <PageLink name="Achtergrond" />
+      Kaarten:{" "}
+      <select onChange={data => setDeck(data.target.value)}>
+        {decks.map((deck, nr) => (
+          <option key={nr}>{deck}</option>
+        ))}
+      </select>
     </nav>
   );
 }
 
-export function Routes() {
+export function Routes({ deck }) {
   return (
     <Switch>
       <Route path="/overzicht">
-        <Index />
+        <Index deck={deck} />
       </Route>
       <Route path="/begrippen">
         <Terms />
       </Route>
       <Route path="/legging/:perma?">
-        <Reading />
+        <Reading deck={deck} />
       </Route>
       {/* <Route path="/quiz"> */}
       {/*   <Quiz /> */}
       {/* </Route> */}
       <Route path="/card/number/:seqnr">
-        <CardByNumber />
+        <CardByNumber deck={deck} />
       </Route>
       <Route path="/card/:suite/:name">
-        <Card />
+        <Card deck={deck} />
       </Route>
       <Route path="/page/:name">
         <Page />
       </Route>
       <Route path="/">
-        <Index />
+        <Index deck={deck} />
       </Route>
     </Switch>
   );

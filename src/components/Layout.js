@@ -4,14 +4,14 @@ import React from "react";
 import { cleanRecords } from "../db";
 import { Thumbnail } from "./Card";
 
-function LayoutRow({ cards, layout }) {
+function LayoutRow({ cards, layout, deck }) {
   return (
     <tr>
       {layout.map((card, nr) => (
         <td key={nr} style={{ textAlign: "center" }}>
           {card !== null && (
             <>
-              <Thumbnail {...cards[card]} link={1} />
+              <Thumbnail card={cards[card]} link={1} deck={deck} />
               {cards[card].keyword}
             </>
           )}
@@ -21,7 +21,7 @@ function LayoutRow({ cards, layout }) {
   );
 }
 
-function LayoutSuite({ suite, cards, layout }) {
+function LayoutSuite({ suite, cards, layout, deck }) {
   cards = cards.filter({ suite }).get();
 
   return (
@@ -30,7 +30,12 @@ function LayoutSuite({ suite, cards, layout }) {
       <table>
         <tbody>
           {layout.map((row, nr) => (
-            <LayoutRow key={nr} cards={cleanRecords(cards)} layout={row} />
+            <LayoutRow
+              key={nr}
+              cards={cleanRecords(cards)}
+              layout={row}
+              deck={deck}
+            />
           ))}
         </tbody>
       </table>
@@ -38,7 +43,7 @@ function LayoutSuite({ suite, cards, layout }) {
   );
 }
 
-export function Layout({ cards }) {
+export function Layout({ cards, deck }) {
   const minorLayout = [
     [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
     [10, 11, 12, 13]
@@ -59,6 +64,6 @@ export function Layout({ cards }) {
   ];
 
   return layout.map(suite => (
-    <LayoutSuite key={suite.suite} {...suite} cards={cards} />
+    <LayoutSuite key={suite.suite} {...suite} cards={cards} deck={deck} />
   ));
 }

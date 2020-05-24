@@ -3,28 +3,21 @@ import PropTypes from "prop-types";
 
 import { Link } from "react-router-dom";
 
-import { findTerm, cardValue, cardImg, cardLink } from "../db";
+import { findTerm, cardValue, cardLink } from "../db";
+import { CardImage } from "./Image";
 import { RawContent } from "./Content";
 import { Terms } from "./Term";
 import { CardLinks } from "./Reference";
 
 // import "./Card.css";
 
-export function CardImage({ reversed, ...props }) {
-  return (
-    <img
-      className="card"
+function FlipImage({ flipped, reversed, ...props }) {
+  return flipped ? (
+    <CardImage
       style={reversed ? { transform: "rotate(180deg)" } : {}}
-      src={cardImg(props)}
       alt={props.name}
       {...props}
     />
-  );
-}
-
-function FlipImage({ flipped, ...props }) {
-  return flipped ? (
-    <CardImage {...props} />
   ) : (
     <img src="/achterkant.jpg" alt="Klik om te draaien" {...props} />
   );
@@ -33,7 +26,7 @@ function FlipImage({ flipped, ...props }) {
 FlipImage.propTypes = {
   number: PropTypes.string,
   name: PropTypes.string,
-  suite: PropTypes.string.isRequired
+  deck: PropTypes.string.isRequired
 };
 
 FlipImage.defaultProps = {
@@ -41,13 +34,12 @@ FlipImage.defaultProps = {
   reversed: 0
 };
 
-export function CardLink({ children, ...props }) {
-  return <Link to={cardLink(props)}>{children}</Link>;
+export function CardLink({ children, card }) {
+  return <Link to={cardLink(card)}>{children}</Link>;
 }
 
 CardLink.propTypes = {
-  name: PropTypes.string,
-  suite: PropTypes.string.isRequired
+  card: PropTypes.object.isRequired
 };
 
 export function Thumbnail({ link, flipped, ...props }) {
@@ -74,7 +66,6 @@ export function Thumbnail({ link, flipped, ...props }) {
 }
 
 Thumbnail.propTypes = {
-  keyword: PropTypes.string.isRequired,
   link: PropTypes.number,
   ...FlipImage.propTypes
 };

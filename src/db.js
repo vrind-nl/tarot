@@ -54,7 +54,7 @@ export const cardValue = ({ name, number }) =>
 export const cardLink = ({ suite, ...card }) =>
   `/card/${suite}/${cardName(card)}`;
 
-export function cardImg(card) {
+export function cardImgLocal(card) {
   try {
     const safeName = cardName(card).replace(/ /g, "-");
 

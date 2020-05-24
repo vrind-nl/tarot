@@ -3,8 +3,9 @@ import { useParams, Redirect, Link } from "react-router-dom";
 
 import { cards, cleanRecord, cardLink, cardTitle } from "../db";
 import { Page } from "../components/Page";
-import { Thumbnail, CardInfo } from "../components/Card";
+import { CardInfo } from "../components/Card";
 import { roman2arabic } from "../roman";
+import { CardImages } from "../components/Image";
 
 function posmod(number, base, shift = 0) {
   // return positive (>0), shifted modulo
@@ -38,7 +39,7 @@ function compass({ suite, name, seqnr }) {
   return { ...c, ...specials[seqnr] };
 }
 
-export function Card() {
+export function Card({ deck }) {
   const { suite, name } = useParams();
   const query = roman2arabic(name) ? { suite, number: name } : { suite, name };
   const card = cleanRecord(cards(query).first());
@@ -51,36 +52,45 @@ export function Card() {
         <tbody>
           <tr>
             <td style={{ textAlign: "center" }}>
-              <Thumbnail {...card} />
-              <table style={{ marginTop: "15pt" }}>
+              {/* <Thumbnail {...card} /> */}
+              <table
+                className="compass"
+                style={{
+                  marginTop: "15pt",
+                  marginBottom: "15pt",
+                  width: "100%"
+                }}
+              >
                 <tbody>
                   <tr>
+                    <td rowSpan={3}>&nbsp;</td>
                     <td>&nbsp;</td>
                     <td>
-                      <Link to={"/card/number/" + c.up}>&uarr;</Link>
+                      <Link to={"/card/number/" + c.up}>&#x25B2;</Link>
                     </td>
                     <td>&nbsp;</td>
                   </tr>
                   <tr>
                     <td>
-                      <Link to={"/card/number/" + c.prev}>&larr;</Link>
+                      <Link to={"/card/number/" + c.prev}>&#x25C0;</Link>
                     </td>
                     <td>
-                      <Link to={"/card/number/" + rnd}>X</Link>
+                      <Link to={"/card/number/" + rnd}>&infin;</Link>
                     </td>
                     <td>
-                      <Link to={"/card/number/" + c.next}>&rarr;</Link>
+                      <Link to={"/card/number/" + c.next}>&#x25BA;</Link>
                     </td>
                   </tr>
                   <tr>
                     <td>&nbsp;</td>
                     <td>
-                      <Link to={"/card/number/" + c.down}>&darr;</Link>
+                      <Link to={"/card/number/" + c.down}>&#x25BC;</Link>
                     </td>
                     <td>&nbsp;</td>
                   </tr>
                 </tbody>
               </table>
+              <CardImages card={card} deck={deck} />
             </td>
             <td className="definitions">
               <CardInfo {...card} />

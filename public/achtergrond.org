@@ -2,13 +2,15 @@
 
 Deze pagina beschrijft kort mijn ideeën over Tarot, welke bronnen ik heb gebruikt voor deze site en welke keuzes ik daarbij heb gemaakt. Daarnaast vind je onderaan nog een aantal zijdelings gerelateerde onderwerpen.
 
-* Beknopte uitleg van Tarot
+* Tarot
 
-Ik beschouw Tarot als kartonnetje met afbeeldingen er op. Ik geloof niet dat de kaarten of de lezer bovennatuurlijke eigenschappen hebben. Ik geloof wel dat we meer weten en waarnemen van we ons bewust zijn. Mensen die we helderziend of paranormaal begaafd noemen, kunnen beter waarnemen dan anderen en/of zijn zich beter bewust van die waarnemingen.
+Ik beschouw Tarot als kartonnetjes met afbeeldingen er op. Ik geloof niet dat de kaarten of de lezer bovennatuurlijke eigenschappen hebben. Ik geloof wel dat we meer weten en waarnemen dan we ons bewust zijn. Mensen die we helderziend of paranormaal noemen, kunnen beter waarnemen dan anderen en/of zijn zich beter bewust van die waarnemingen.
 
-De afbeeldingen op Tarot-kaarten zijn ook niet zomaar plaatjes. Ze zijn zo generiek en rijk dat ze veel associaties oproepen met
+De afbeeldingen op Tarot-kaarten zijn ook niet zomaar plaatjes. Ze zijn zo universeel en rijk dat ze veel associaties oproepen met belangrijke aspecten van het leven. Deze associaties brengen kennis uit ons onderbewuste naar boven. Tarot-kaarten (en de lezer) helpen de vrager daarmee hun onderbewuste aan te boren. De vrager komt dus niet meer te weten over zichzelf, een ander of de toekomst dan hij of zij eigenlijk al wist.
 
-** Arcana
+Maar dat is mijn mening. Anderen staan er heel anders in. En dat is prima. Ik hou van diversiteit.
+
+* Beknopte uitleg
 
 We onderscheiden:
   - Grote Arcana ('troeven')
@@ -18,9 +20,7 @@ We onderscheiden:
     - Zwaarden
     - Kelken
 
-*** Grote Arcana
-
-De Grote Arcana wordt veelal ingedeeld naar levensfase:
+De Grote Arcana worden veelal ingedeeld naar levensfase:
   - Variant I:
     - I en XXI als begin en einde
     - I-X: jeugd
@@ -37,7 +37,8 @@ De Grote Arcana wordt veelal ingedeeld naar levensfase:
 
 Waite heeft VIII en XI zonder verdere toelichting omgedraaid.
 
-*** Kleine Arcana
+De Kleine Arcana bestaan uit vier kleuren die elk hun eigen thema's hebben:
+
 
 | Kleur     | Aspect                                            | Element | m/v | Middeleeuwse standen         | Uitwerking van een idee              |
 |-----------+---------------------------------------------------+---------+-----+------------------------------+--------------------------------------|
@@ -48,7 +49,7 @@ Waite heeft VIII en XI zonder verdere toelichting omgedraaid.
 
 Waite hanteert de volgorde: staven, kelken, zwaarden, pentakels. En hij beschrijft de kaarten per kleur van Koning tot Aas.
 
-*** Deelseries
+Elke kleur bestaat uit een aantal deelseries:
 
   - Aas :: het begin
   - Getallen II t/m X :: wat je doet, actie
@@ -59,8 +60,10 @@ Waite hanteert de volgorde: staven, kelken, zwaarden, pentakels. En hij beschrij
 De informatie op deze site komt uit verschillende bronnen, waaronder:
   - [[https://en.wikisource.org/wiki/The_Pictorial_Key_to_the_Tarot][The Pictorial Key To The Tarot (Illustrated)]] van Arthur Edward Waite
     en de vertaalde betekenissen in het kleine boekje bij mijn kaarten.
-  - [[https://www.thismighthurttarot.com/the-deck][This might hurt tarot]] (Eng.)
   - [[https://tarotstapvoorstap.nl][Tarot Stap voor Stap]]
+  - [[https://www.thismighthurttarot.com/the-deck][This might hurt tarot]] (Eng.)
+  - [[https://www.tarot.com/tarot/decks][tarot.com]] voor de plaatjes van de kaarten
+  - [[https://www.reddit.com/r/tarot/][Reddit]] om van gedachten te wisselen met anderen [[[https://www.reddit.com/r/SecularTarot/][2]]], [[[https://www.reddit.com/r/tarotpractice/][3]]], [[[https://www.reddit.com/r/tarotreadings/][4]]]
   - [[http://www.letarot.nl/tarotkaart/overzicht/][Le Tarot]]: de kaarten in [[http://www.letarot.nl/welke-tarotkaarten-gebruik-ik-en-waarom-de-tarot-in-de-herstelde-orde/][herstelde orde]] en met 2 extra
   - [[http://www.inspiratiesite.nl/TAROT HANDLEIDING.pdf][Tarot handleiding]] van Jan de Graaf.
   - [[https://nl.wikipedia.org/wiki/Tarot][Wikipedia]]
