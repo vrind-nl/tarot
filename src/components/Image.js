@@ -1,13 +1,13 @@
 import React from "react";
 
 export const decks = [
-  "Smith Waite",
+  "Smith-Waite",
   "Morgan-Greer",
-  "Connolly",
-  "Roberts",
+  "Fenestra",
   "Crystal Visions",
-  "Aquarian",
-  "Marseilles"
+  "Modern Medieval",
+  "Marseilles",
+  "Visconti"
 ];
 
 export function cardImg(card, deck) {
@@ -47,7 +47,14 @@ export function CardImages({ card, deck }) {
   const reordered = [deck].concat(decks.filter(d => d !== deck));
   return reordered.map((deck, nr) => (
     <div key={nr} style={{ textAlign: "center", padding: "5pt" }}>
-      {deck}
+      <a
+        href={`https://www.tarot.com/tarot/decks/${deck
+          .toLowerCase()
+          .replace(/ /g, "-")}`}
+        target="tarot.com"
+      >
+        {deck}
+      </a>
       <br />
       <CardImage card={card} deck={deck} />
     </div>

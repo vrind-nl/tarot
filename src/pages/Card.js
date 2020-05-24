@@ -48,9 +48,6 @@ export function Card({ deck }) {
   const rnd = Math.floor(Math.random() * 78) + 1;
   return (
     <Page title={cardTitle(card)}>
-      <div style={{ textAlign: "right", fontSize: "80%" }}>
-        (plaatjes via <a href="https://www.tarot.com/tarot/decks">tarot.com</a>)
-      </div>
       <div style={{ display: "flex" }}>
         <CardImages card={card} deck={deck} /> <br />
       </div>
@@ -74,7 +71,7 @@ export function Card({ deck }) {
                     </td>
                     <td>&nbsp;</td>
                   </tr>
-                  <tr>
+                  <tr style={{ fontSize: "140%" }}>
                     <td>
                       <Link to={"/card/number/" + c.prev}>&#x25C2;</Link>
                     </td>
