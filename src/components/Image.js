@@ -30,7 +30,7 @@ export function CardImage({ card, deck, ...props }) {
     <div>
       <img
         className="card"
-        style={{ width: "150pt" }}
+        style={{ height: "250pt" }}
         src={cardImg(card, deck)}
         alt={deck}
         {...props}
@@ -39,11 +39,16 @@ export function CardImage({ card, deck, ...props }) {
   );
 }
 
+CardImage.defaultProps = {
+  deck: decks[0]
+};
+
 export function CardImages({ card, deck }) {
+  const reordered = [deck].concat(decks.filter(d => d !== deck));
   return (
     <>
-      {[deck].concat(decks.filter(d => d !== deck)).map((deck, nr) => (
-        <div key={nr}>
+      {reordered.map((deck, nr) => (
+        <div key={nr} style={{ textAlign: "center", padding: "5pt" }}>
           {deck}
           <br />
           <CardImage card={card} deck={deck} />
@@ -53,3 +58,5 @@ export function CardImages({ card, deck }) {
     </>
   );
 }
+
+CardImages.defaultProps = CardImage.defaultProps;

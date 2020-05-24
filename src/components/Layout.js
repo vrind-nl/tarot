@@ -4,10 +4,10 @@ import React from "react";
 import { cleanRecords } from "../db";
 import { Thumbnail } from "./Card";
 
-function LayoutRow({ cards, layout, deck }) {
+function LayoutRow({ cards, row, deck }) {
   return (
     <tr>
-      {layout.map((card, nr) => (
+      {row.map((card, nr) => (
         <td key={nr} style={{ textAlign: "center" }}>
           {card !== null && (
             <>
@@ -22,7 +22,7 @@ function LayoutRow({ cards, layout, deck }) {
 }
 
 function LayoutSuite({ suite, cards, layout, deck }) {
-  cards = cards.filter({ suite }).get();
+  cards = cleanRecords(cards.filter({ suite }).get());
 
   return (
     <div>
@@ -30,12 +30,7 @@ function LayoutSuite({ suite, cards, layout, deck }) {
       <table>
         <tbody>
           {layout.map((row, nr) => (
-            <LayoutRow
-              key={nr}
-              cards={cleanRecords(cards)}
-              layout={row}
-              deck={deck}
-            />
+            <LayoutRow key={nr} cards={cards} row={row} deck={deck} />
           ))}
         </tbody>
       </table>

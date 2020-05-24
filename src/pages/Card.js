@@ -48,6 +48,9 @@ export function Card({ deck }) {
   const rnd = Math.floor(Math.random() * 78) + 1;
   return (
     <Page title={cardTitle(card)}>
+      <div style={{ display: "flex" }}>
+        <CardImages card={card} deck={deck} />
+      </div>
       <table>
         <tbody>
           <tr>
@@ -57,13 +60,11 @@ export function Card({ deck }) {
                 className="compass"
                 style={{
                   marginTop: "15pt",
-                  marginBottom: "15pt",
-                  width: "100%"
+                  marginBottom: "15pt"
                 }}
               >
                 <tbody>
                   <tr>
-                    <td rowSpan={3}>&nbsp;</td>
                     <td>&nbsp;</td>
                     <td>
                       <Link to={"/card/number/" + c.up}>&#x25B2;</Link>
@@ -72,7 +73,7 @@ export function Card({ deck }) {
                   </tr>
                   <tr>
                     <td>
-                      <Link to={"/card/number/" + c.prev}>&#x25C0;</Link>
+                      <Link to={"/card/number/" + c.prev}>&#x25C4;</Link>
                     </td>
                     <td>
                       <Link to={"/card/number/" + rnd}>&infin;</Link>
@@ -90,7 +91,6 @@ export function Card({ deck }) {
                   </tr>
                 </tbody>
               </table>
-              <CardImages card={card} deck={deck} />
             </td>
             <td className="definitions">
               <CardInfo {...card} />

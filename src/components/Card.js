@@ -25,8 +25,7 @@ function FlipImage({ flipped, reversed, ...props }) {
 
 FlipImage.propTypes = {
   number: PropTypes.string,
-  name: PropTypes.string,
-  deck: PropTypes.string.isRequired
+  name: PropTypes.string
 };
 
 FlipImage.defaultProps = {

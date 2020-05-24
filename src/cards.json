@@ -1769,7 +1769,7 @@
       "troon",
       "kroon",
       "ourobouros",
-      "afgewend",
+      "links",
       "leeuw",
       "oranje"
     ],
@@ -2270,7 +2270,7 @@
   {
     "suite": "Pentakels",
     "name": "Koningin",
-    "keyword": "GUL",
+    "keyword": "WARM",
     "keywords": ["innerlijke zekerheid", "zelfwaardering", "royaal"],
     "invitation": "Kies voor rust en geleidelijkheid.",
     "warning": "Je hoeft niet alles te behouden",
@@ -2283,7 +2283,7 @@
       "cupido",
       "geit",
       "haas",
-      "afgewend",
+      "links",
       "geel"
     ],
     "seqnr": 49,
@@ -2826,7 +2826,7 @@
     "invitation": "Blijf bij de hoofdzaken",
     "warning": "Wat is de meest logische verklaring?",
     "symbols": [
-      "afgewend",
+      "rechts",
       "wolken",
       "troon",
       "kroon",
@@ -3413,7 +3413,7 @@
     ],
     "invitation": "Erover praten kan je beeld verhelderen.",
     "warning": "Vergeet jezelf niet",
-    "symbols": ["golven", "troon", "kroon", "wit kleed", "afgewend", "blauw"],
+    "symbols": ["golven", "troon", "kroon", "wit kleed", "links", "blauw"],
     "seqnr": 77,
     "links": [
       {
