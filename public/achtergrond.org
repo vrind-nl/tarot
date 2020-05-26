@@ -1,6 +1,8 @@
 #+LANGUAGE: nl
+#+STARTUP: inlineimages:t
+#+OPTIONS: toc:nil
 
-Deze pagina beschrijft kort mijn ideeën over Tarot, welke bronnen ik heb gebruikt voor deze site en welke keuzes ik daarbij heb gemaakt. Daarnaast vind je onderaan nog een aantal zijdelings gerelateerde onderwerpen.
+Deze pagina beschrijft kort mijn ideeën over Tarot, welke bronnen ik heb gebruikt voor deze site en welke keuzes ik daarbij heb gemaakt. Op een aparte pagina vind je informatie over [[./#/time][Zon, maan en sterrenbeelden]].
 
 * Tarot
 
@@ -82,33 +84,13 @@ De kaarten zijn die van [[https://www.psychicpowernetwork.com/2018/09/tarot-card
 
 Hieronder volgt een beknopte opsomming van sommige gegevens uit bovenstaande bronnen:
 
-* Zijdelings gerelateerd
+* Zijdelings gerelateerd :noexport:
 
 ** Elementen
 
-[[https://en.wikipedia.org/wiki/Alchemical_symbol][Alchemistiche elementen]] en hun [[https://www.heinpragt.com/symbols/alchemie-symbolen.php][symbolen]]:
+[[https://en.wikipedia.org/wiki/Alchemical_symbol][Alchemistiche elementen]] en hun [[https://www.heinpragt.com/symbols/alchemie-symbolen.php][symbolen]]
 
-| Kwaliteit | heet  | koud  |
-|-----------+-------+-------|
-| *droog*     | vuur  | aarde |
-| *vochtig*   | lucht | water |
-
-** Jaarwiel
-
-Niet direct gerelateerd aan Tarot, maar voor de volledigheid:
-
-| Seizoen | Zon         | [[https://tallsay.com/page/4294975342/wicca-het-jaarwiel-en-keltische-seizoensvieringen][Keltisch jaarwiel]]         |
-|---------+-------------+---------------------------|
-| herfst  | equinox     | Mabon (rond 21 sept)      |
-|         |             | Samhein (31 okt-1 nov)    |
-| winter  | kortste dag | Yule (rond 21 dec)        |
-|         |             | Imbolc (2 feb)            |
-| lente   | equinox     | Ostara (rond 21 maart)    |
-|         |             | Beltane (30 april-1 mei)  |
-| zomer   | langste dag | Litha (rond 21 juni)      |
-|         |             | Lughnsadh (31 juli/1 aug) |
-
-** Archetypen                                                     :noexport:
+** Archetypen
 
 Ik ben altijd geboeid geweest door de [[https://www.unlp.nl/kennisbank/begrippen-en-technieken/archetype-jung][Archetypen]] van Jung. De [[https://tallsay.com/page/4294988601/tarot-archetypen-naar-de-ontwikkelingspsychologie-van-carl-gustav-jung][Grote Arcana]] gaat ook over archetypen, maar de relatie is mij niet helemaal duidelijk:
 

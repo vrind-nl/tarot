@@ -7,6 +7,7 @@ import { Card, CardByNumber } from "../pages/Card";
 import { Reading } from "../pages/Reading";
 // import { Quiz } from "../pages/Quiz";
 import { Terms } from "../pages/Term";
+import { Time } from "../pages/Time";
 import { decks } from "./Image";
 
 import "./Navigation.css";
@@ -62,6 +63,9 @@ export function Routes({ deck }) {
       </Route>
       <Route path="/page/:name">
         <Page />
+      </Route>
+      <Route path="/Time">
+        <Time />
       </Route>
       <Route path="/">
         <Index deck={deck} />

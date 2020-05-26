@@ -1,0 +1,9 @@
+#face {
+    stroke-width: 2px; stroke: #fff;
+}
+#hour, #min, #sec, .grid  {
+    stroke-width: 1px; fill: #333; stroke: purple;
+}
+#sec {
+    stroke: #f55;
+}
