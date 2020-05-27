@@ -69,7 +69,7 @@ function moonPhase(time) {
 }
 
 export function Time() {
-  const now = new Date();
+  const [date, setDate] = React.useState(new Date());
   // const dummy = new Array(8);
   const moons = Array.from(new Array(8), (x, nr) => `/moon/1f31${nr + 1}.png`);
   // const moons = new Array(8).map((x, nr) => "X");
@@ -87,13 +87,27 @@ export function Time() {
         </a>{" "}
         en de verschillende{" "}
         <a href="https://www.sterrenbeelden.nu/">sterrenbeelden</a>. Daaromheen
-        staan de fasen van de maan. De kleine wijzer toont het huidige moment in
-        het jaar. De grote wijzer toons het huidige moment in de maancyclus.
+        staan de fasen van de maan. De kleine wijzer toont de datum in het jaar.
+        De grote wijzer toons de datum in de maancyclus.
       </p>
-      .{/* <Clock hours={3} minutes={30} seconds={45} /> */}
+      <input
+        type="date"
+        value={date.toISOString().slice(0, 10)}
+        onChange={event => {
+          console.log(event.target.value);
+          setDate(new Date(event.target.value));
+        }}
+      />
+      <button
+        style={{ marginLeft: "10pt" }}
+        onClick={() => setDate(new Date())}
+      >
+        Vandaag
+      </button>
+      {/* <Clock hours={3} minutes={30} seconds={45} /> */}
       <Clock
-        hours={now.getMonth() + now.getDate() / 30.5 + 0.25}
-        minutes={moonPhase(now) * 60}
+        hours={date.getMonth() + date.getDate() / 30.5 + 0.25}
+        minutes={moonPhase(date) * 60}
         seconds={-1}
         size={size}
       >
@@ -117,7 +131,7 @@ export function Time() {
           />
         ))}
       </Clock>
-      {/* <RunningClock time={now} /> */}
+      {/* <RunningClock time={date} /> */}
       <Content file="jaarwiel.html" />
     </Page>
   );
