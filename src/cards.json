@@ -147,11 +147,12 @@
     "suite": "groot",
     "number": "III",
     "name": "De Keizerin",
-    "keyword": "VRUCHTBAARHEID",
+    "keyword": "OVERVLOED",
     "keywords": [
-      "Ontspanning",
+      "ontspanning",
       "de overvloed van het leven en de kracht van de bloeiende aarde",
       "moeder",
+      "vruchtbaarheid",
       "liefde geven en ontvangen"
     ],
     "invitation": "Kijk eens om je heen en geniet.",
@@ -361,46 +362,36 @@
   },
   {
     "suite": "groot",
-    "number": "VIII",
-    "name": "Gerechtigheid",
-    "comment": "Waite XI",
-    "keyword": "OORDEEL",
-    "keywords": [
-      "oorzaak en gevolg",
-      "schuld en boete",
-      "rechtvaardig",
-      "zelfbeoordeling"
-    ],
-    "invitation": "Erken je eigen aandeel maar niet meer dan dat.",
-    "warning": "Zijn je motieven zuiver?",
+    "number": "XI",
+    "name": "Kracht",
+    "comment": "Waite VIII",
+    "keyword": "BEHEERSING",
+    "keywords": ["Met respekt omgaan met kracht en emoties", "temmen"],
+    "invitation": "Een besliste maar zachte hand is nodig.",
+    "warning": "Die Leeuw mag best af en toe eens brullen.",
     "symbols": [
-      "man",
-      "zwaard geheven",
-      "weegschaal",
-      "vierkant",
-      "troon",
-      "pilaren",
-      "paars kleed",
-      "rood kleed",
-      "groen kleed",
-      "kubus",
-      "vrouw"
+      "jonge vrouw",
+      "leeuw",
+      "bloemenkrans",
+      "lemniscaat",
+      "bergtop",
+      "oranje"
     ],
     "seqnr": 9,
     "links": [
-      { "name": "Pictorial Key to the Tarot (Eng)", "url": "XI._Justice" },
-      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-gerechtigheid" },
       {
-        "name": "Kaart en Sterren",
-        "url": "arcana/pagina 11 gerechtigheid.html"
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "VIII._Strength,_or_Fortitude"
       },
+      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-de-kracht" },
+      { "name": "Kaart en Sterren", "url": "arcana/pagina 08 kracht.html" },
       {
         "name": "Le Tarot",
-        "url": "tarotkaart-11-de-rechtvaardigheid-9-grote-arcana-de-tarot-in-de-herstelde-orde"
+        "url": "tarotkaart-13-de-kracht-11-grote-arcana-de-tarot-in-de-herstelde-orde"
       },
-      { "name": "SpiriDoc", "url": "11_rechtvaardigheid.htm" },
-      { "name": "Orakels", "url": "kracht", "broken": "Closed" },
-      { "name": "Catharinaweb", "url": "8.htm" }
+      { "name": "SpiriDoc", "url": "8_kracht.htm" },
+      { "name": "Orakels", "url": "gerechtigheid", "broken": "Closed" },
+      { "name": "Catharinaweb", "url": "11.htm" }
     ]
   },
   {
@@ -493,36 +484,46 @@
   },
   {
     "suite": "groot",
-    "number": "XI",
-    "name": "Kracht",
-    "comment": "Waite VIII",
-    "keyword": "BEHEERSING",
-    "keywords": ["Met respekt omgaan met kracht en emoties", "temmen"],
-    "invitation": "Een besliste maar zachte hand is nodig.",
-    "warning": "Die Leeuw mag best af en toe eens brullen.",
+    "number": "VIII",
+    "name": "Gerechtigheid",
+    "comment": "Waite XI",
+    "keyword": "OORDEEL",
+    "keywords": [
+      "oorzaak en gevolg",
+      "schuld en boete",
+      "rechtvaardig",
+      "zelfbeoordeling"
+    ],
+    "invitation": "Erken je eigen aandeel maar niet meer dan dat.",
+    "warning": "Zijn je motieven zuiver?",
     "symbols": [
-      "jonge vrouw",
-      "leeuw",
-      "bloemenkrans",
-      "lemniscaat",
-      "bergtop",
-      "oranje"
+      "man",
+      "zwaard geheven",
+      "weegschaal",
+      "vierkant",
+      "troon",
+      "pilaren",
+      "paars kleed",
+      "rood kleed",
+      "groen kleed",
+      "kubus",
+      "vrouw"
     ],
     "seqnr": 12,
     "links": [
+      { "name": "Pictorial Key to the Tarot (Eng)", "url": "XI._Justice" },
+      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-gerechtigheid" },
       {
-        "name": "Pictorial Key to the Tarot (Eng)",
-        "url": "VIII._Strength,_or_Fortitude"
+        "name": "Kaart en Sterren",
+        "url": "arcana/pagina 11 gerechtigheid.html"
       },
-      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-de-kracht" },
-      { "name": "Kaart en Sterren", "url": "arcana/pagina 08 kracht.html" },
       {
         "name": "Le Tarot",
-        "url": "tarotkaart-13-de-kracht-11-grote-arcana-de-tarot-in-de-herstelde-orde"
+        "url": "tarotkaart-11-de-rechtvaardigheid-9-grote-arcana-de-tarot-in-de-herstelde-orde"
       },
-      { "name": "SpiriDoc", "url": "8_kracht.htm" },
-      { "name": "Orakels", "url": "gerechtigheid", "broken": "Closed" },
-      { "name": "Catharinaweb", "url": "11.htm" }
+      { "name": "SpiriDoc", "url": "11_rechtvaardigheid.htm" },
+      { "name": "Orakels", "url": "kracht", "broken": "Closed" },
+      { "name": "Catharinaweb", "url": "8.htm" }
     ]
   },
   {
@@ -966,7 +967,7 @@
   {
     "suite": "Staven",
     "number": "II",
-    "keyword": "OVERWEGEN",
+    "keyword": "BROEDEN",
     "keywords": ["pionieren", "opties afwegen"],
     "invitation": "Alle begin is moeilijk.",
     "warning": "Vernieuwing is nog geen verbetering.",
