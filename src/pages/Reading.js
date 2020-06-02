@@ -52,7 +52,7 @@ export function Reading({ deck }) {
   });
 
   function draw() {
-    var shuffled = config.majors ? cards() : cards({ suite: "groot" });
+    var shuffled = config.majors ? cards({ suite: "groot" }) : cards();
     shuffled = shuffle(shuffled.get());
     return cleanRecords(shuffled.splice(0, config.size));
   }
