@@ -2,7 +2,8 @@ import React from "react";
 
 import { Clock } from "../components/Clock";
 import { Page } from "../components/Page";
-import { Content } from "../components/Content";
+import sterrenbeelden from "./sterrenbeelden.json";
+// import maanden from "./maanden.json";
 
 const lunarMonth = 29.53059;
 
@@ -125,14 +126,76 @@ export function Time() {
             x="-10"
             y={-middle + 5}
             width={moonSize}
-            transform={` rotate(${nr * 45} 0 0) rotate(${nr * -45} 0 ${-middle +
+            transform={`rotate(${nr * 45} 0 0) rotate(${nr * -45} 0 ${-middle +
               5 +
               moonSize / 2})`}
           />
         ))}
+        {/* {maanden.map((maand, nr) => ( */}
+        {/*   <text */}
+        {/*     key={nr} */}
+        {/*     x="-10" */}
+        {/*     y={-middle + 30} */}
+        {/*     /\* text-anchor="middle" *\/ */}
+        {/*     transform={`rotate(${20 + nr * 30} 0 0)`} */}
+        {/*     style={{ fontSize: "5px" }} */}
+        {/*   > */}
+        {/*     {maand}maand */}
+        {/*   </text> */}
+        {/* ))} */}
       </Clock>
       {/* <RunningClock time={date} /> */}
-      <Content file="jaarwiel.html" />
+      {/* <Content file="jaarwiel.html" /> */}
+      <h3>Sterrenbeelden</h3>
+      <table>
+        <thead>
+          <tr style={{ background: "#eee" }}>
+            <th>Astronomie</th>
+            <th>Symbool</th>
+            <th>Astrologie</th>
+            <th>Vanaf</th>
+            <th>Aanleg</th>
+            <th>Geslacht</th>
+            <th>Natuur</th>
+            <th colSpan={4}>Hemellichaam</th>
+            <th>Kruis</th>
+            <th>Element</th>
+          </tr>
+        </thead>
+        <tbody>
+          {sterrenbeelden.map((sb, nr) => (
+            <tr key={nr} style={{ background: nr % 2 ? "#eee" : "#fff" }}>
+              <td>
+                <a
+                  href={`https://nl.m.wikipedia.org/wiki/${sb.teken}_(sterrenbeeld)`}
+                  target="wiki"
+                >
+                  {sb.naam}
+                </a>
+              </td>
+              <td>{sb.symbool}</td>
+              <td>
+                <a
+                  href={`https://nl.m.wikipedia.org/wiki/${sb.teken}_(astrologie)`}
+                  target="wiki"
+                >
+                  {sb.teken}
+                </a>
+              </td>
+              <td>{sb.vanaf}</td>
+              <td>{sb.aanleg}</td>
+              <td>{sb.geslacht}</td>
+              <td>{sb.natuur}</td>
+              <td>{sb.hemellichaam.naam}</td>
+              <td>{sb.hemellichaam.afkorting}</td>
+              <td>{sb.hemellichaam.symbool}</td>
+              <td>{sb.hemellichaam.kenmerk}</td>
+              <td>{sb.kruis}</td>
+              <td>{sb.element}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
     </Page>
   );
 }

@@ -1,0 +1,206 @@
+[
+  {
+    "naam": "Aries",
+    "teken": "Ram",
+    "symbool": "♈",
+    "vanaf": "21 mrt",
+    "aanleg": "ondernemend",
+    "element": "vuur",
+    "geslacht": "♂",
+    "kruis": "hoofd",
+    "natuur": "ontwaakt voor een nieuw leven",
+    "hemellichaam": {
+      "naam": "Mars",
+      "afkorting": "Ma",
+      "symbool": "♂",
+      "kenmerk": "strijdlust"
+    }
+  },
+  {
+    "naam": "Taurus",
+    "teken": "Stier",
+    "symbool": "♉",
+    "vanaf": "20 apr",
+    "aanleg": "praktisch",
+    "element": "aarde",
+    "geslacht": "♀",
+    "kruis": "vast",
+    "natuur": "groeit en gedijt",
+    "hemellichaam": {
+      "naam": "Venus",
+      "afkorting": "V",
+      "symbool": "♀",
+      "kenmerk": "liefde"
+    }
+  },
+  {
+    "naam": "Gemini",
+    "teken": "Tweelingen",
+    "symbool": "♊",
+    "vanaf": "21 mei",
+    "aanleg": "communiceren",
+    "element": "lucht",
+    "geslacht": "♂",
+    "kruis": "beweeglijk",
+    "natuur": "bloeit",
+    "hemellichaam": {
+      "naam": "Mercurius",
+      "afkorting": "Me",
+      "symbool": "☿",
+      "kenmerk": "ratio"
+    }
+  },
+  {
+    "naam": "Cancer",
+    "teken": "Kreef",
+    "symbool": "♋",
+    "vanaf": "21 juni",
+    "aanleg": "zorgzaam",
+    "element": "water",
+    "geslacht": "♀",
+    "kruis": "hoofd",
+    "natuur": "verenigt zich",
+    "hemellichaam": {
+      "naam": "Maan",
+      "afkorting": "",
+      "symbool": "☾",
+      "kenmerk": "ontvankelijkheid"
+    }
+  },
+  {
+    "naam": "Leo",
+    "teken": "Leeuw",
+    "symbool": "♌",
+    "vanaf": "23 juli",
+    "aanleg": "groothartig",
+    "element": "vuur",
+    "geslacht": "♂",
+    "kruis": "vast",
+    "natuur": "laat vruchten rijpen",
+    "hemellichaam": {
+      "naam": "Zon",
+      "afkorting": "",
+      "symbool": "☉",
+      "kenmerk": "levenskracht"
+    }
+  },
+  {
+    "naam": "Virgo",
+    "teken": "Maagd",
+    "symbool": "♍",
+    "vanaf": "23 aug",
+    "aanleg": "dienstbaar",
+    "element": "aarde",
+    "geslacht": "♀",
+    "kruis": "beweeglijk",
+    "natuur": "oogst",
+    "hemellichaam": {
+      "naam": "Mercurius",
+      "afkorting": "Me",
+      "symbool": "☿",
+      "kenmerk": "ratio"
+    }
+  },
+  {
+    "naam": "Libra",
+    "teken": "Weegschaal",
+    "symbool": "♎",
+    "vanaf": "23 sept",
+    "aanleg": "sociaal",
+    "element": "lucht",
+    "geslacht": "♂",
+    "kruis": "hoofd",
+    "natuur": "trekt zich langzaam terug",
+    "hemellichaam": {
+      "naam": "Venus",
+      "afkorting": "V",
+      "symbool": "♀",
+      "kenmerk": "liefde"
+    }
+  },
+  {
+    "naam": "Scorpius",
+    "teken": "Schorpioen",
+    "symbool": "♏",
+    "vanaf": "23 okt",
+    "aanleg": "beheersen",
+    "element": "water",
+    "geslacht": "♀",
+    "kruis": "vast",
+    "natuur": "sterft en verandert",
+    "hemellichaam": {
+      "naam": "Pluto",
+      "afkorting": "P",
+      "symbool": "♇",
+      "kenmerk": "dwang/passie"
+    }
+  },
+  {
+    "naam": "Sagitarius",
+    "teken": "Boogschutter",
+    "symbool": "♐",
+    "vanaf": "22 nov",
+    "aanleg": "positief",
+    "element": "vuur",
+    "geslacht": "♂",
+    "kruis": "beweeglijk",
+    "natuur": "valt in winterslaap",
+    "hemellichaam": {
+      "naam": "Jupiter",
+      "afkorting": "J",
+      "symbool": "♃",
+      "kenmerk": "groeikracht"
+    }
+  },
+  {
+    "naam": "Capricornus",
+    "teken": "Steenbok",
+    "symbool": "♑",
+    "vanaf": "22 dec",
+    "aanleg": "ambitieus",
+    "element": "aarde",
+    "geslacht": "♀",
+    "kruis": "hoofd",
+    "natuur": "kiemt in het donker",
+    "hemellichaam": {
+      "naam": "Saturnus",
+      "afkorting": "S",
+      "symbool": "♄",
+      "kenmerk": "beperking"
+    }
+  },
+  {
+    "naam": "Aquarius",
+    "teken": "Waterman",
+    "symbool": "♒",
+    "vanaf": "20 jan",
+    "aanleg": "idealistisch",
+    "element": "lucht",
+    "geslacht": "♂",
+    "kruis": "vast",
+    "natuur": "bereidt zich voor",
+    "hemellichaam": {
+      "naam": "Uranus",
+      "afkorting": "U",
+      "symbool": "⛢",
+      "kenmerk": "vernieuwing"
+    }
+  },
+  {
+    "naam": "Pisces",
+    "teken": "Vissen",
+    "symbool": "♓",
+    "vanaf": "19 feb",
+    "aanleg": "gevoelig",
+    "element": "water",
+    "geslacht": "♀",
+    "kruis": "beweeglijk",
+    "natuur": "wil ontwaken",
+    "hemellichaam": {
+      "naam": "neptunes",
+      "afkorting": "N",
+      "symbool": "♆",
+      "kenmerk": "beweeglijk"
+    }
+  }
+]
