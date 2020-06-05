@@ -6,6 +6,7 @@ import sterrenbeelden from "./sterrenbeelden.json";
 // import maanden from "./maanden.json";
 
 const lunarMonth = 29.53059;
+const posMod = (x, n) => ((x % n) + n) % n;
 
 function getJulian(date) {
   return date / 86400000 - date.getTimezoneOffset() / 1440 + 2440587.5;
@@ -65,10 +66,6 @@ function moonDay(today) {
   return thisJD - oldJ;
 }
 
-function moonPhase(time) {
-  return moonDay(time) / lunarMonth;
-}
-
 export function Time() {
   const [date, setDate] = React.useState(new Date());
   // const dummy = new Array(8);
@@ -78,6 +75,12 @@ export function Time() {
     middle = size / 2,
     moonSize = 20,
     margin = moonSize * 1.5;
+  const moonDays = moonDay(date);
+  const fullMoonDays = Math.ceil(
+    posMod(lunarMonth * 0.5 - moonDays, lunarMonth)
+  );
+  const moonDate = new Date(date);
+  moonDate.setDate(moonDate.getDate() + fullMoonDays);
 
   return (
     <Page title="Zon, maan en sterrenbeelden">
@@ -105,10 +108,14 @@ export function Time() {
       >
         Vandaag
       </button>
+      <p>
+        Volgende volle maan: {moonDate.toDateString()} (nog {fullMoonDays}{" "}
+        {fullMoonDays === 1 ? "dag" : "dagen"})
+      </p>
       {/* <Clock hours={3} minutes={30} seconds={45} /> */}
       <Clock
         hours={date.getMonth() + date.getDate() / 30.5 + 0.25}
-        minutes={moonPhase(date) * 60}
+        minutes={(moonDays / lunarMonth) * 60}
         seconds={-1}
         size={size}
       >
