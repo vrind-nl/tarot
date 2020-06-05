@@ -21,7 +21,7 @@ export function Reading({ deck }) {
   const { perma } = useParams();
   const [config, setConfig] = React.useState({
     size: 3,
-    reversed: false,
+    reversed: true,
     majors: false
   });
   const [reading, setReading] = React.useState(() => {
