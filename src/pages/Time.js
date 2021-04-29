@@ -109,8 +109,11 @@ export function Time() {
         Vandaag
       </button>
       <p>
-        Volgende volle maan: {moonDate.toDateString()} (nog {fullMoonDays}{" "}
-        {fullMoonDays === 1 ? "dag" : "dagen"})
+        {/* niet zeker of een kwartier een punt of een periode is */}
+        {/* De maan staat in het{" "} */}
+        {/* {1 + posMod(Math.ceil((moonDays * 4) / lunarMonth) - 2, 4)}e kwartier. */}
+        De volgende volle maan is op {moonDate.toDateString()} (nog{" "}
+        {fullMoonDays} {fullMoonDays === 1 ? "dag" : "dagen"})
       </p>
       {/* <Clock hours={3} minutes={30} seconds={45} /> */}
       <Clock

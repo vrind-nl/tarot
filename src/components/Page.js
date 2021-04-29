@@ -9,7 +9,8 @@ export function Page({ title, children }) {
       {children}
       <hr />
       <footer style={{ fontSize: "80%" }}>
-        &copy; 2020 - Tarot v{packageInfo.version} - Random Rambler
+        &copy; 2020-{new Date().getFullYear()} - Tarot v{packageInfo.version} -
+        Random Rambler
       </footer>
     </div>
   );

@@ -1,0 +1,2703 @@
+[
+  {
+    "suite": "groot",
+    "number": "O",
+    "name": "De Dwaas",
+    "alias": "De Zot",
+    "comment": "Zij die dansten werden voor gek verklaard door hen die de muziek niet hoorden",
+    "keyword": "ONSCHULD",
+    "keywords": [
+      "ongevormd",
+      "lichtzinnig",
+      "afgrond",
+      "nieuw begin",
+      "naïef",
+      "kinderlijk",
+      "ongericht"
+    ],
+    "invitation": "Doe eens iets spontaans.",
+    "warning": "Waar is het kind in je gebleven?",
+    "symbols": [
+      "jonge man",
+      "roos",
+      "staf",
+      "zon",
+      "berg",
+      "hond",
+      "bloemenkrans",
+      "geel",
+      "ijs"
+    ],
+    "seqnr": 1,
+    "links": [
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "0._Zero._The_Fool"
+      },
+      { "name": "Tarot Stap voor Stap", "url": "de-dwaas-tarot-nul/" },
+      { "name": "Kaart en Sterren", "url": "arcana/pagina%2000%20dwaas.html" },
+      {
+        "name": "Le Tarot",
+        "url": "tarotkaart-01-de-dwaas-0-grote-arcana-de-tarot-in-de-herstelde-orde"
+      },
+      { "name": "SpiriDoc", "url": "0_de_dwaas.htm" },
+      { "name": "Orakels", "url": "dwaas", "broken": "Closed" },
+      { "name": "Catharina", "url": "0.htm" }
+    ]
+  },
+  {
+    "suite": "groot",
+    "number": "I",
+    "name": "De Magier",
+    "keyword": "MEESTERSCHAP",
+    "keywords": [
+      "bewust van kracht en mogelijkheden",
+      "je (leer)proces aangaan",
+      "diplomatie",
+      "zo boven zo beneden",
+      "alles is mogelijk"
+    ],
+    "invitation": "Wat zou je doen als alles kan?",
+    "warning": "Je neemt teveel hooi op je vork.",
+    "symbols": [
+      "natuur",
+      "roos",
+      "lelie",
+      "baldakijn",
+      "altaar",
+      "zwaard",
+      "staf",
+      "kelk",
+      "pentakel",
+      "jonge man",
+      "ourobouros",
+      "lemniscaat",
+      "bloemen",
+      "geel",
+      "skepter"
+    ],
+    "seqnr": 2,
+    "links": [
+      { "name": "Pictorial Key to the Tarot (Eng)", "url": "I._The_Magician" },
+      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-de-magier" },
+      { "name": "Kaart en Sterren", "url": "arcana/pagina 01 magier.html" },
+      {
+        "name": "Le Tarot",
+        "url": "tarotkaart-02-de-magier-1-grote-arcana-de-tarot-in-de-herstelde-orde"
+      },
+      { "name": "SpiriDoc", "url": "1_de_magier.htm" },
+      { "name": "Orakels", "url": "magier", "broken": "Closed" },
+      { "name": "Catharina", "url": "1.htm" }
+    ]
+  },
+  {
+    "suite": "groot",
+    "number": "II",
+    "name": "De Hogepriesteres",
+    "alias": "De Pausin",
+    "keyword": "INTUÏTIE",
+    "keywords": [
+      "beschermkaart",
+      "verborgen wijsheid",
+      "esoterische kennis",
+      "innerlijk conflict",
+      "vooruitziend",
+      "wicca"
+    ],
+    "invitation": "Laat je eens leiden door je innerlijke stem.",
+    "warning": "Laat de dingen niet te veel op hun beloop.",
+    "symbols": [
+      "blauw",
+      "Boaz",
+      "granaatappel",
+      "Jachin",
+      "kroon",
+      "kruis",
+      "maagd",
+      "maan",
+      "palmhart",
+      "pilaren",
+      "schriftrol",
+      "sluier",
+      "troon",
+      "waterbron",
+      "zwart"
+    ],
+    "seqnr": 3,
+    "links": [
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "II._The_High_Priestess"
+      },
+      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-hogepriesteres" },
+      {
+        "name": "Kaart en Sterren",
+        "url": "arcana/pagina 02 hogepriesteres.html"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "tarotkaart-03-de-priesteres-2-grote-arcana-de-tarot-in-de-herstelde-orde"
+      },
+      { "name": "SpiriDoc", "url": "2_de_hogepriesteres.htm" },
+      { "name": "Orakels", "url": "hogepriesteres", "broken": "Closed" },
+      { "name": "Catharina", "url": "2.htm" }
+    ]
+  },
+  {
+    "suite": "groot",
+    "number": "III",
+    "name": "De Keizerin",
+    "keyword": "VRUCHTBAARHEID",
+    "keywords": [
+      "Ontspanning",
+      "de overvloed van het leven en de kracht van de bloeiende aarde",
+      "moeder",
+      "liefde geven en ontvangen"
+    ],
+    "invitation": "Kijk eens om je heen en geniet.",
+    "warning": "Leef je in harmonie met je omgeving/de natuur?",
+    "symbols": [
+      "volwassen vrouw",
+      "troon",
+      "kroon",
+      "parels",
+      "skepter",
+      "venussymbool",
+      "stroom",
+      "boom",
+      "koren"
+    ],
+    "seqnr": 4,
+    "links": [
+      { "name": "Pictorial Key to the Tarot (Eng)", "url": "III._The_Empress" },
+      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-de-keizerin" },
+      { "name": "Kaart en Sterren", "url": "arcana/pagina 03 keizerin.html" },
+      {
+        "name": "Le Tarot",
+        "url": "tarotkaart-08-de-keizerin-6-grote-arcana-de-tarot-in-de-herstelde-orde"
+      },
+      { "name": "SpiriDoc", "url": "3_de_keizerin.htm" },
+      { "name": "Orakels", "url": "keizerin", "broken": "Closed" },
+      { "name": "Catharina", "url": "3.htm" }
+    ]
+  },
+  {
+    "suite": "groot",
+    "number": "IV",
+    "name": "De Keizer",
+    "keyword": "GEZAG",
+    "keywords": [
+      "Verwezenlijking",
+      "verantwoordelijkheid",
+      "zelfhandhaving",
+      "bescherming",
+      "vader"
+    ],
+    "invitation": "Neem zelf het heft in handen.",
+    "warning": "Is er voldoende ruimte voor je gevoelens?",
+    "symbols": [
+      "volwassen man",
+      "stroom",
+      "ankh",
+      "berg",
+      "troon",
+      "kroon",
+      "rijksappel",
+      "rood kleed",
+      "harnas",
+      "globe"
+    ],
+    "seqnr": 5,
+    "links": [
+      { "name": "Pictorial Key to the Tarot (Eng)", "url": "IV._The_Emperor" },
+      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-de-keizer" },
+      { "name": "Kaart en Sterren", "url": "arcana/pagina 04 keizer.html" },
+      {
+        "name": "Le Tarot",
+        "url": "tarotkaart-04-de-keizer-3-grote-arcana-de-tarot-in-de-herstelde-orde"
+      },
+      { "name": "SpiriDoc", "url": "4_de_keizer.htm" },
+      { "name": "Orakels", "url": "keizer", "broken": "Closed" },
+      { "name": "Catharina", "url": "4.htm" }
+    ]
+  },
+  {
+    "suite": "groot",
+    "number": "V",
+    "name": "De Hogepriester",
+    "alias": "De Hiërofant, De Paus",
+    "keyword": "MORAAL",
+    "keywords": [
+      "Beschermkaart",
+      "religie",
+      "geestelijkheid",
+      "staan voor je mening",
+      "verkondigen",
+      "expertise",
+      "inspiratie",
+      "gewoontegetrouw"
+    ],
+    "invitation": "Wees niet bang om je mening te delen.",
+    "warning": "Luister ook goed naar anderen.",
+    "symbols": [
+      "zegening",
+      "pilaren",
+      "kruis",
+      "kroon",
+      "adept",
+      "rood kleed",
+      "sleutel",
+      "skepter"
+    ],
+    "seqnr": 6,
+    "links": [
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "V._The_Hierophant"
+      },
+      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-de-hogepriester" },
+      {
+        "name": "Kaart en Sterren",
+        "url": "arcana/pagina 05 hogepriester.html"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "tarotkaart-07-de-priester-5-de-paus-grote-arcana-de-tarot-in-de-herstelde-orde"
+      },
+      { "name": "SpiriDoc", "url": "5_de_hierophant.htm" },
+      { "name": "Orakels", "url": "de-hogepriester", "broken": "Closed" },
+      { "name": "Catharina", "url": "5.htm" }
+    ]
+  },
+  {
+    "suite": "groot",
+    "number": "VI",
+    "name": "De Geliefden",
+    "keyword": "KEUZE",
+    "keywords": [
+      "Dualiteit mannelijk - vrouwelijk",
+      "(sexuele) aantrekkingskracht",
+      "vrije wil",
+      "paradijs",
+      "bewust van tegenstellingen",
+      "samenwerking",
+      "onvoorwaardelijk ja",
+      "zich losmaken"
+    ],
+    "invitation": "Maak een definitieve, bindende keuze.",
+    "warning": "Verlies jezelf niet in deze relatie.",
+    "symbols": [
+      "naaktheid",
+      "borsten",
+      "engel",
+      "zegening",
+      "appelboom",
+      "slang",
+      "wolken",
+      "bergtop",
+      "zon",
+      "jonge man",
+      "jonge vrouw",
+      "paars kleed"
+    ],
+    "seqnr": 7,
+    "links": [
+      { "name": "Pictorial Key to the Tarot (Eng)", "url": "VI._The_Lovers" },
+      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-de-geliefden" },
+      { "name": "Kaart en Sterren", "url": "arcana/pagina 06 geliefden.html" },
+      {
+        "name": "Le Tarot",
+        "url": "tarotkaart-05-de-geliefden-4-grote-arcana-de-tarot-in-de-herstelde-orde"
+      },
+      { "name": "SpiriDoc", "url": "6_de_geliefden.htm" },
+      { "name": "Orakels", "url": "geliefden", "broken": "Closed" },
+      { "name": "Catharina", "url": "6.htm" }
+    ]
+  },
+  {
+    "suite": "groot",
+    "number": "VII",
+    "name": "De Zegewagen",
+    "keyword": "HEERSCHAPPIJ",
+    "keywords": [
+      "wilskracht",
+      "zelfdiscipline",
+      "controle",
+      "tot stand brengen",
+      "sprong voorwaarts",
+      "blij vertrek"
+    ],
+    "invitation": "Bepaal je koers en hou die vast.",
+    "warning": "Teugels te strak of zwalkend.",
+    "symbols": [
+      "jonge man",
+      "kroon",
+      "lauwerkrans",
+      "ster (achtpuntig)",
+      "vierkant",
+      "yoni",
+      "lingam",
+      "sfinx",
+      "stadsmuur",
+      "hermesvleugels",
+      "maan",
+      "harnas",
+      "baldakijn",
+      "skepter"
+    ],
+    "seqnr": 8,
+    "links": [
+      { "name": "Pictorial Key to the Tarot (Eng)", "url": "VII._The_Chariot" },
+      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-de-zegewagen" },
+      { "name": "Kaart en Sterren", "url": "arcana/pagina 07 zegewagen.html" },
+      {
+        "name": "Le Tarot",
+        "url": "tarotkaart-09-de-zegewagen-7-grote-arcana-de-tarot-in-de-herstelde-orde"
+      },
+      { "name": "SpiriDoc", "url": "7_de_zegewagen.htm" },
+      { "name": "Orakels", "url": "zegewagen", "broken": "Closed" },
+      { "name": "Catharina", "url": "7.htm" }
+    ]
+  },
+  {
+    "suite": "groot",
+    "number": "VIII",
+    "name": "Gerechtigheid",
+    "comment": "Waite XI",
+    "keyword": "OORDEEL",
+    "keywords": [
+      "oorzaak en gevolg",
+      "schuld en boete",
+      "rechtvaardig",
+      "zelfbeoordeling"
+    ],
+    "invitation": "Erken je eigen aandeel maar niet meer dan dat.",
+    "warning": "Zijn je motieven zuiver?",
+    "symbols": [
+      "man",
+      "zwaard geheven",
+      "weegschaal",
+      "vierkant",
+      "troon",
+      "pilaren",
+      "paars kleed",
+      "rood kleed",
+      "groen kleed",
+      "kubus",
+      "vrouw"
+    ],
+    "seqnr": 9,
+    "links": [
+      { "name": "Pictorial Key to the Tarot (Eng)", "url": "XI._Justice" },
+      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-gerechtigheid" },
+      {
+        "name": "Kaart en Sterren",
+        "url": "arcana/pagina 11 gerechtigheid.html"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "tarotkaart-11-de-rechtvaardigheid-9-grote-arcana-de-tarot-in-de-herstelde-orde"
+      },
+      { "name": "SpiriDoc", "url": "11_rechtvaardigheid.htm" },
+      { "name": "Orakels", "url": "kracht", "broken": "Closed" },
+      { "name": "Catharina", "url": "8.htm" }
+    ]
+  },
+  {
+    "suite": "groot",
+    "number": "IX",
+    "name": "De Kluizenaar",
+    "alias": "De Heremiet",
+    "keyword": "TOP",
+    "keywords": [
+      "Je eigen weg gaan",
+      "op zoek zijn",
+      "dwalen",
+      "inkeer",
+      "teruggetrokken",
+      "voorzichtig",
+      "geduldig",
+      "zorgvuldig",
+      "baken"
+    ],
+    "invitation": "Volg je eigen licht.",
+    "warning": "Heb je genoeg aan jezelf?",
+    "symbols": [
+      "oude man",
+      "blauw",
+      "lantaarn",
+      "staf",
+      "ster (achtpuntig)",
+      "afgewend",
+      "links",
+      "rechts"
+    ],
+    "seqnr": 10,
+    "links": [
+      { "name": "Pictorial Key to the Tarot (Eng)", "url": "IX._The_Hermit" },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "tarotkaart-de-kluizenaar-heremiet"
+      },
+      { "name": "Kaart en Sterren", "url": "arcana/pagina 09 heremiet.html" },
+      {
+        "name": "Le Tarot",
+        "url": "tarotkaart-10-de-kluizenaar-8-de-heremiet-grote-arcana-de-tarot-in-de-herstelde-orde"
+      },
+      { "name": "SpiriDoc", "url": "9_de_kluizenaar.htm" },
+      { "name": "Orakels", "url": "heremiet", "broken": "Closed" },
+      { "name": "Catharina", "url": "9.htm" }
+    ]
+  },
+  {
+    "suite": "groot",
+    "number": "X",
+    "name": "Het Rad van Fortuin",
+    "comment": "Wiel van Fortuin",
+    "keyword": "LOT",
+    "keywords": ["Aanvaarding", "succes of falen."],
+    "invitation": "Wie niet waagt die niet wint.",
+    "warning": "Je laat teveel aan het toeval over.",
+    "symbols": [
+      "engel",
+      "stier",
+      "leeuw",
+      "sfinx",
+      "slang",
+      "hermanubis",
+      "tora",
+      "feniks"
+    ],
+    "seqnr": 11,
+    "links": [
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "X._Wheel_of_Fortune"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "tarotkaart-het-rad-van-fortuin"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "arcana/pagina 10 rad van fortuin.html"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "tarotkaart-24-het-universum-21-grote-arcana-de-tarot-in-de-herstelde-orde"
+      },
+      { "name": "SpiriDoc", "url": "10_rad_van_fortuin.htm" },
+      { "name": "Orakels", "url": "rad-van-fortuin", "broken": "Closed" },
+      { "name": "Catharina", "url": "10.htm" }
+    ]
+  },
+  {
+    "suite": "groot",
+    "number": "XI",
+    "name": "Kracht",
+    "comment": "Waite VIII",
+    "keyword": "BEHEERSING",
+    "keywords": ["Met respekt omgaan met kracht en emoties", "temmen"],
+    "invitation": "Een besliste maar zachte hand is nodig.",
+    "warning": "Die Leeuw mag best af en toe eens brullen.",
+    "symbols": [
+      "jonge vrouw",
+      "leeuw",
+      "bloemenkrans",
+      "lemniscaat",
+      "bergtop",
+      "oranje"
+    ],
+    "seqnr": 12,
+    "links": [
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "VIII._Strength,_or_Fortitude"
+      },
+      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-de-kracht" },
+      { "name": "Kaart en Sterren", "url": "arcana/pagina 08 kracht.html" },
+      {
+        "name": "Le Tarot",
+        "url": "tarotkaart-13-de-kracht-11-grote-arcana-de-tarot-in-de-herstelde-orde"
+      },
+      { "name": "SpiriDoc", "url": "8_kracht.htm" },
+      { "name": "Orakels", "url": "gerechtigheid", "broken": "Closed" },
+      { "name": "Catharina", "url": "11.htm" }
+    ]
+  },
+  {
+    "suite": "groot",
+    "number": "XII",
+    "name": "De Gehangene",
+    "keyword": "PERSPECTIEF",
+    "keywords": [
+      "Ergens aan vast zitten",
+      "consequenties aanvaarden",
+      "beproeving",
+      "opoffering",
+      "ommekeer",
+      "herprioriteren"
+    ],
+    "invitation": "Bekijk het eens anders",
+    "warning": "Waardoor zit je vast?",
+    "symbols": [
+      "volwassen man",
+      "ondersteboven",
+      "aureool",
+      "kruis",
+      "blauw",
+      "staf"
+    ],
+    "seqnr": 13,
+    "links": [
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "XII._The_Hanged_Man"
+      },
+      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-de-gehangene" },
+      { "name": "Kaart en Sterren", "url": "arcana/pagina 12 gehangene.html" },
+      {
+        "name": "Le Tarot",
+        "url": "tarotkaart-14-de-gehangene-12-grote-arcana-de-tarot-in-de-herstelde-orde"
+      },
+      { "name": "SpiriDoc", "url": "12_gehangene.htm" },
+      { "name": "Orakels", "url": "gehangene", "broken": "Closed" },
+      { "name": "Catharina", "url": "12.htm" }
+    ]
+  },
+  {
+    "suite": "groot",
+    "number": "XIII",
+    "name": "De Dood",
+    "comment": "De Kaart zonder Naam",
+    "keyword": "TRANSFORMATIE",
+    "keywords": [
+      "vernietiging van het oude",
+      "doorbraak",
+      "het onvermijdelijke",
+      "afsluiting",
+      "vergankelijkheid",
+      "voltooiing",
+      "overgang naar het onbekende"
+    ],
+    "invitation": "Acceptatie is de eerste stap op weg naar verandering.",
+    "warning": "Steek je energie in iets wat onhaalbaar is?",
+    "symbols": [
+      "wit",
+      "vaandel",
+      "wolken",
+      "toren",
+      "zon",
+      "koning",
+      "bisschop",
+      "jonge vrouw",
+      "kind",
+      "boot",
+      "man",
+      "stroom",
+      "paard",
+      "afgewend",
+      "zwart",
+      "roos",
+      "harnas",
+      "doodshoofd",
+      "vlag"
+    ],
+    "seqnr": 14,
+    "links": [
+      { "name": "Pictorial Key to the Tarot (Eng)", "url": "XIII._Death" },
+      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-de-dood" },
+      { "name": "Kaart en Sterren", "url": "arcana/pagina 13 dood.html" },
+      {
+        "name": "Le Tarot",
+        "url": "tarotkaart-16-de-dood-14-grote-arcana-de-tarot-in-de-herstelde-orde"
+      },
+      { "name": "SpiriDoc", "url": "13_dood.htm" },
+      { "name": "Orakels", "url": "dood", "broken": "Closed" },
+      { "name": "Catharina", "url": "13.htm" }
+    ]
+  },
+  {
+    "suite": "groot",
+    "number": "XIV",
+    "name": "Matigheid",
+    "keyword": "HARMONIE",
+    "keywords": [
+      "Afwegen",
+      "evenwicht verstand en gevoel",
+      "integratie",
+      "zuinigheid",
+      "tact"
+    ],
+    "invitation": "Wat kan je weglaten?",
+    "warning": "Overmaat schaadt, ondermaat ook.",
+    "symbols": [
+      "engel",
+      "natuur",
+      "iris",
+      "kelken",
+      "pad",
+      "driehoek",
+      "stroom",
+      "berg",
+      "vierkant met driehoek"
+    ],
+    "seqnr": 15,
+    "links": [
+      { "name": "Pictorial Key to the Tarot (Eng)", "url": "XIV._Temperance" },
+      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-matigheid" },
+      {
+        "name": "Kaart en Sterren",
+        "url": "arcana/pagina 14 gematigdheid.html"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "tarotkaart-15-de-gematigdheid-13-grote-arcana-de-tarot-in-de-herstelde-orde"
+      },
+      { "name": "SpiriDoc", "url": "14_matigheid.htm" },
+      { "name": "Orakels", "url": "gematigdheid", "broken": "Closed" },
+      { "name": "Catharina", "url": "14.htm" }
+    ]
+  },
+  {
+    "suite": "groot",
+    "number": "XV",
+    "name": "De Duivel",
+    "keyword": "VERLEIDING",
+    "keywords": [
+      "Obsessie",
+      "de Schaduw",
+      "sexualiteit",
+      "zwart-wit denken",
+      "fanatisme",
+      "materialisme"
+    ],
+    "invitation": "Welke principes zitten je in de weg?",
+    "warning": "Zit je verstrikt in dat wat niet goed voor je is?",
+    "symbols": [
+      "geit",
+      "vleermuisvleugels",
+      "vogelpoten",
+      "borsten",
+      "troon",
+      "zegening",
+      "vierkant",
+      "toorts",
+      "naaktheid",
+      "ketens",
+      "pentagram",
+      "zwart"
+    ],
+    "seqnr": 16,
+    "links": [
+      { "name": "Pictorial Key to the Tarot (Eng)", "url": "XV._The_Devil" },
+      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-de-duivel" },
+      { "name": "Kaart en Sterren", "url": "arcana/pagina 15 duivel.html" },
+      {
+        "name": "Le Tarot",
+        "url": "tarotkaart-17-de-duivel-15-grote-arcana-de-tarot-in-de-herstelde-orde"
+      },
+      { "name": "SpiriDoc", "url": "15_de_duivel.htm" },
+      { "name": "Orakels", "url": "duivel", "broken": "Closed" },
+      { "name": "Catharina", "url": "15.htm" }
+    ]
+  },
+  {
+    "suite": "groot",
+    "number": "XVI",
+    "name": "De Toren",
+    "comment": "Het Huis Gods",
+    "keyword": "ONTWRICHTING",
+    "keywords": [
+      "leermoment",
+      "Aha-erlebnis",
+      "crisis",
+      "vertwijfeling",
+      "loslaten van zekerheid",
+      "noodlot",
+      "toren van Babel",
+      "Goddelijke interventie"
+    ],
+    "invitation": "Wat moet je openbreken?",
+    "warning": "Zit je gevangen in vastgeroeste patronen?",
+    "symbols": [
+      "toren",
+      "vuur",
+      "bergtop",
+      "wolken",
+      "bliksem",
+      "kroon",
+      "yod",
+      "zwart"
+    ],
+    "seqnr": 17,
+    "links": [
+      { "name": "Pictorial Key to the Tarot (Eng)", "url": "XVI._The_Tower" },
+      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-de-toren" },
+      { "name": "Kaart en Sterren", "url": "arcana/pagina 16 toren.html" },
+      {
+        "name": "Le Tarot",
+        "url": "tarotkaart-19-de-toren-16-grote-arcana-de-tarot-in-de-herstelde-orde"
+      },
+      { "name": "SpiriDoc", "url": "16_de_toren.htm" },
+      { "name": "Orakels", "url": "toren", "broken": "Closed" },
+      { "name": "Catharina", "url": "16.htm" }
+    ]
+  },
+  {
+    "suite": "groot",
+    "number": "XVII",
+    "name": "De Ster",
+    "keyword": "HOOP",
+    "keywords": [
+      "bezieling",
+      "wees de ster in je eigen leven",
+      "de sterren bereiken"
+    ],
+    "invitation": "Durf vol vertrouwen je toekomst tegemoet te zien.",
+    "warning": "Valse hoop, misplaatst vertrouwen.",
+    "symbols": [
+      "ster (achtpuntig)",
+      "naaktheid",
+      "jonge vrouw",
+      "kruik",
+      "heuvels",
+      "feniks",
+      "water",
+      "borsten"
+    ],
+    "seqnr": 18,
+    "links": [
+      { "name": "Pictorial Key to the Tarot (Eng)", "url": "XVII._The_Star" },
+      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-de-ster" },
+      { "name": "Kaart en Sterren", "url": "arcana/pagina 17 ster.html" },
+      {
+        "name": "Le Tarot",
+        "url": "tarotkaart-21-de-ster-18-grote-arcana-de-tarot-in-de-herstelde-orde"
+      },
+      { "name": "SpiriDoc", "url": "17_de_ster.htm" },
+      { "name": "Orakels", "url": "ster", "broken": "Closed" },
+      { "name": "Catharina", "url": "17.htm" }
+    ]
+  },
+  {
+    "suite": "groot",
+    "number": "XVIII",
+    "name": "De Maan",
+    "keyword": "SCHEMER",
+    "keywords": [
+      "verlangens",
+      "droom en daad",
+      "behoefte aan bescherming",
+      "uit je schulp kruipen",
+      "dwaling",
+      "stemmingswisselingen",
+      "onbestemde angst",
+      "hersenschimmen",
+      "betovering"
+    ],
+    "invitation": "Durf je angsten onder ogen te zien",
+    "warning": "Waar ben je zo bang voor?",
+    "symbols": [
+      "maan",
+      "pad",
+      "hond + wolf",
+      "water",
+      "kreeft",
+      "yod",
+      "toren",
+      "pilaren"
+    ],
+    "seqnr": 19,
+    "links": [
+      { "name": "Pictorial Key to the Tarot (Eng)", "url": "XVIII._The_Moon" },
+      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-de-maan" },
+      { "name": "Kaart en Sterren", "url": "arcana/pagina 18 maan.html" },
+      {
+        "name": "Le Tarot",
+        "url": "tarotkaart-20-de-maan-17-grote-arcana-de-tarot-in-de-herstelde-orde"
+      },
+      { "name": "SpiriDoc", "url": "18_de_maan.htm" },
+      { "name": "Orakels", "url": "zon", "broken": "Closed" },
+      { "name": "Catharina", "url": "18.htm" }
+    ]
+  },
+  {
+    "suite": "groot",
+    "number": "XIX",
+    "name": "De Zon",
+    "keyword": "OPTIMISME",
+    "keywords": [
+      "creativiteit",
+      "speelsheid",
+      "levenslust",
+      "zelfvertrouwen",
+      "je hart",
+      "je kern"
+    ],
+    "invitation": "Wees ongedwongen jezelf",
+    "warning": "Het speelkwartier is allang voorbij.",
+    "symbols": [
+      "kind",
+      "bloemenkrans",
+      "wit",
+      "rood kleed",
+      "zon",
+      "zonnebloem",
+      "golven",
+      "vlag"
+    ],
+    "seqnr": 20,
+    "links": [
+      { "name": "Pictorial Key to the Tarot (Eng)", "url": "XIX._The_Sun" },
+      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-de-zon" },
+      { "name": "Kaart en Sterren", "url": "arcana/pagina 19 zon.html" },
+      {
+        "name": "Le Tarot",
+        "url": "tarotkaart-22-de-zon-19-grote-arcana-de-tarot-in-de-herstelde-orde"
+      },
+      { "name": "SpiriDoc", "url": "19_de_zon.htm" },
+      { "name": "Orakels", "url": "maan", "broken": "Closed" },
+      { "name": "Catharina", "url": "19.htm" }
+    ]
+  },
+  {
+    "suite": "groot",
+    "number": "XX",
+    "name": "Het Oordeel",
+    "keyword": "VERLOSSING",
+    "keywords": ["Transformatie", "het laatste oordeel", "verrijzenis"],
+    "invitation": "Laat het verleden los.",
+    "warning": "Waar heb je je de hele tijd van afgesloten?",
+    "symbols": [
+      "engel",
+      "wolken",
+      "bazuin",
+      "volwassen man",
+      "volwassen vrouw",
+      "kind",
+      "grijs",
+      "naaktheid",
+      "berg",
+      "ijs",
+      "vlag",
+      "borsten"
+    ],
+    "seqnr": 21,
+    "links": [
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "XX._The_Last_Judgment"
+      },
+      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-het-oordeel" },
+      { "name": "Kaart en Sterren", "url": "arcana/pagina 20 oordeel.html" },
+      {
+        "name": "Le Tarot",
+        "url": "tarotkaart-23-het-laatste-oordeel-20-grote-arcana-de-tarot-in-de-herstelde-orde"
+      },
+      { "name": "SpiriDoc", "url": "2_het_oordeel.htm" },
+      { "name": "Orakels", "url": "oordeel", "broken": "Closed" },
+      { "name": "Catharina", "url": "20.htm" }
+    ]
+  },
+  {
+    "suite": "groot",
+    "number": "XXI",
+    "name": "De Wereld",
+    "keyword": "VOLTOOÏNG",
+    "keywords": [
+      "Het leven aangaan zonder jezelf er in te verliezen",
+      "verlichting hervonden paradijs"
+    ],
+    "invitation": "Ga voluit voor wat je wilt bereiken.",
+    "warning": "Het is tijd voor bezinning.",
+    "symbols": [
+      "jonge vrouw",
+      "staven",
+      "lauwerkrans",
+      "leeuw",
+      "stier",
+      "arend",
+      "engel"
+    ],
+    "seqnr": 22,
+    "links": [
+      { "name": "Pictorial Key to the Tarot (Eng)", "url": "XXI._The_World" },
+      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-de-wereld" },
+      { "name": "Kaart en Sterren", "url": "arcana/pagina 21 wereld.html" },
+      {
+        "name": "Le Tarot",
+        "url": "tarotkaart-12-de-wereld-10-het-rad-van-fortuin-grote-arcana-de-tarot-in-de-herstelde-orde"
+      },
+      { "name": "SpiriDoc", "url": "21_de_wereld.htm" },
+      { "name": "Orakels", "url": "wereld", "broken": "Closed" },
+      { "name": "Catharina", "url": "21.htm" }
+    ]
+  },
+  {
+    "suite": "Staven",
+    "name": "Aas",
+    "keyword": "INSPIRATIE",
+    "keywords": ["visie", "enthousiasme", "vitaliteit", "initiatief"],
+    "invitation": "Sta open om te groeien",
+    "warning": "Wat doe ik aan mijn ontplooiing?",
+    "symbols": [
+      "wolken",
+      "stroom",
+      "heuvels",
+      "burcht",
+      "hand",
+      "rechts",
+      "grijs"
+    ],
+    "seqnr": 23,
+    "links": [
+      { "name": "Pictorial Key to the Tarot (Eng)", "url": "Ace_of_Wands" },
+      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-staven-aas" },
+      { "name": "Kaart en Sterren", "url": "staven/pagina staven 01.html" },
+      {
+        "name": "Le Tarot",
+        "url": "tarotkaart-43-staven-1-aas-stokken-scepters-knotsen-of-batons-kleine-arcana"
+      },
+      { "name": "Orakels", "url": "aas-van-staven", "broken": "Closed" },
+      { "name": "Catharina", "url": "s1.htm" }
+    ]
+  },
+  {
+    "suite": "Staven",
+    "number": "II",
+    "keyword": "OVERWEGEN",
+    "keywords": ["pionieren", "opties afwegen"],
+    "invitation": "Alle begin is moeilijk.",
+    "warning": "Vernieuwing is nog geen verbetering.",
+    "symbols": [
+      "globe",
+      "links",
+      "oceaan",
+      "muur",
+      "roos",
+      "lelie",
+      "berg",
+      "rood kleed",
+      "grijs"
+    ],
+    "seqnr": 24,
+    "links": [
+      { "name": "Pictorial Key to the Tarot (Eng)", "url": "Two_of_Wands" },
+      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-staven-twee" },
+      { "name": "Kaart en Sterren", "url": "staven/pagina staven 02.html" },
+      {
+        "name": "Le Tarot",
+        "url": "tarotkaart-44-staven-2-twee-stokken-scepters-knotsen-of-batons-kleine-arcana"
+      },
+      { "name": "Orakels", "url": "staven-twee", "broken": "Closed" },
+      { "name": "Catharina", "url": "s2.htm" }
+    ]
+  },
+  {
+    "suite": "Staven",
+    "number": "III",
+    "keyword": "ANTICIPEREN",
+    "keywords": [
+      "vooruitzien",
+      "handel",
+      "ontdekkingsreizen",
+      "actief wachten"
+    ],
+    "invitation": "Wacht rustig af",
+    "warning": "Je kunt nu niet meer terug.",
+    "symbols": [
+      "rechts",
+      "rood kleed",
+      "groen kleed",
+      "boot",
+      "oceaan",
+      "heuvels",
+      "geel"
+    ],
+    "seqnr": 25,
+    "links": [
+      { "name": "Pictorial Key to the Tarot (Eng)", "url": "Three_of_Wands" },
+      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-staven-drie" },
+      { "name": "Kaart en Sterren", "url": "staven/pagina staven 03.html" },
+      {
+        "name": "Le Tarot",
+        "url": "tarotkaart-45-staven-3-drie-stokken-scepters-knotsen-of-batons-kleine-arcana"
+      },
+      { "name": "Orakels", "url": "staven-drie", "broken": "Closed" },
+      { "name": "Catharina", "url": "s3.htm" }
+    ]
+  },
+  {
+    "suite": "Staven",
+    "number": "IV",
+    "keyword": "OOGSTEN",
+    "keywords": [
+      "resultaten vieren",
+      "harmonieuze samenwerking",
+      "terugkerende feesten"
+    ],
+    "invitation": "Je initiatief is vruchtbaar.",
+    "warning": "Het is nog te vroeg om op je lauweren te rusten.",
+    "symbols": [
+      "kasteel",
+      "wit kleed",
+      "rood kleed",
+      "blauw kleed",
+      "bloemen",
+      "oranje"
+    ],
+    "seqnr": 26,
+    "links": [
+      { "name": "Pictorial Key to the Tarot (Eng)", "url": "Four_of_Wands" },
+      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-staven-vier" },
+      { "name": "Kaart en Sterren", "url": "staven/pagina staven 04.html" },
+      {
+        "name": "Le Tarot",
+        "url": "tarotkaart-46-staven-4-vier-stokken-scepters-knotsen-of-batons-kleine-arcana"
+      },
+      { "name": "Orakels", "url": "staven-vier", "broken": "Closed" },
+      { "name": "Catharina", "url": "s4.htm" }
+    ]
+  },
+  {
+    "suite": "Staven",
+    "number": "V",
+    "keyword": "WEDIJVEREN",
+    "keywords": ["schijngevecht", "rellen"],
+    "invitation": "Laat je niet zomaar opzij zetten",
+    "warning": "Blijf niet hangen in gekissebis.",
+    "seqnr": 27,
+    "links": [
+      { "name": "Pictorial Key to the Tarot (Eng)", "url": "Five_of_Wands" },
+      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-staven-vijf" },
+      {
+        "name": "Kaart en Sterren",
+        "url": "tarotkaart-staven-vijf/",
+        "broken": "Not Found"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "tarotkaart-47-staven-5-vijf-stokken-scepters-knotsen-of-batons-kleine-arcana"
+      },
+      { "name": "Orakels", "url": "staven-vijf", "broken": "Closed" },
+      { "name": "Catharina", "url": "s5.htm" }
+    ]
+  },
+  {
+    "suite": "Staven",
+    "number": "VI",
+    "keyword": "TRIOMFEREN",
+    "keywords": [
+      "zegevieren",
+      "mijlpaal",
+      "beginnend succes",
+      "waardering",
+      "groot nieuws"
+    ],
+    "invitation": "Stel je op als een leider",
+    "warning": "Eén zwaluw maakt nog geen zomer",
+    "symbols": ["groen kleed", "lauwerkrans", "paard"],
+    "seqnr": 28,
+    "links": [
+      { "name": "Pictorial Key to the Tarot (Eng)", "url": "Six_of_Wands" },
+      { "name": "Tarot Stap voor Stap", "url": "tarotkaarten-staven-zes/" },
+      { "name": "Kaart en Sterren", "url": "staven/pagina staven 06.html" },
+      {
+        "name": "Le Tarot",
+        "url": "tarotkaart-48-staven-6-zes-stokken-scepters-knotsen-of-batons-kleine-arcana"
+      },
+      { "name": "Orakels", "url": "staven-zes", "broken": "Closed" },
+      { "name": "Catharina", "url": "s6.htm" }
+    ]
+  },
+  {
+    "suite": "Staven",
+    "number": "VII",
+    "keyword": "HANDHAVEN",
+    "keywords": [
+      "staande houden",
+      "vaak alleen",
+      "overmacht",
+      "gunstige positie"
+    ],
+    "invitation": "Neem het voor jezelf op.",
+    "warning": "Vraag niet voortdurend goedkeuring. Doe het gewoon!",
+    "symbols": ["stroom", "heuvels"],
+    "seqnr": 29,
+    "links": [
+      { "name": "Pictorial Key to the Tarot (Eng)", "url": "Seven_of_Wands" },
+      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-staven-zeven" },
+      { "name": "Kaart en Sterren", "url": "staven/pagina staven 07.html" },
+      {
+        "name": "Le Tarot",
+        "url": "tarotkaart-49-staven-7-zeven-stokken-scepters-knotsen-of-batons-kleine-arcana"
+      },
+      { "name": "Orakels", "url": "staven-zeven", "broken": "Closed" },
+      { "name": "Catharina", "url": "s7.htm" }
+    ]
+  },
+  {
+    "suite": "Staven",
+    "number": "VIII",
+    "keyword": "STROMEN",
+    "keywords": [
+      "veel energie",
+      "alles op één lijn",
+      "van een lijen dakje",
+      "haast",
+      "liefdespijlen"
+    ],
+    "invitation": "Laat je meevoeren",
+    "warning": "Blijf zelf aan het roer",
+    "symbols": ["stroom", "heuvels", "linksboven", "rechtsonder"],
+    "seqnr": 30,
+    "links": [
+      { "name": "Pictorial Key to the Tarot (Eng)", "url": "Eight_of_Wands" },
+      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-staven-acht" },
+      { "name": "Kaart en Sterren", "url": "staven/pagina staven 08.html" },
+      {
+        "name": "Le Tarot",
+        "url": "tarotkaart-50-staven-8-acht-stokken-scepters-of-batons-kleine-arcana"
+      },
+      { "name": "Orakels", "url": "staven-acht", "broken": "Closed" },
+      { "name": "Catharina", "url": "s8.htm" }
+    ]
+  },
+  {
+    "suite": "Staven",
+    "number": "IX",
+    "keyword": "WAKEN",
+    "keywords": [
+      "op krachten komen",
+      "verzet",
+      "achterdocht",
+      "oponthoud",
+      "uitstel"
+    ],
+    "invitation": "Bekijk het eens uit het perspectief van de ander",
+    "warning": "Is de dreiging wel echt?",
+    "symbols": ["muur", "podium"],
+    "seqnr": 31,
+    "links": [
+      { "name": "Pictorial Key to the Tarot (Eng)", "url": "Nine_of_Wands" },
+      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-staven-negen" },
+      { "name": "Kaart en Sterren", "url": "staven/pagina staven 09.html" },
+      {
+        "name": "Le Tarot",
+        "url": "tarotkaart-51-staven-9-negen-stokken-scepters-knotsen-of-batons-kleine-arcana"
+      },
+      { "name": "Orakels", "url": "staven-negen", "broken": "Closed" },
+      { "name": "Catharina", "url": "s9.htm" }
+    ]
+  },
+  {
+    "suite": "Staven",
+    "number": "X",
+    "keyword": "VOLHOUDEN",
+    "keywords": [
+      "afmaken",
+      "heroverwegen",
+      "opstand tegen onderdrukking",
+      "koppig"
+    ],
+    "invitation": "Wie kan je helpen om deze last te dragen?",
+    "warning": "Laat op tijd los",
+    "symbols": ["akker", "stadsmuur", "podium"],
+    "seqnr": 32,
+    "links": [
+      { "name": "Pictorial Key to the Tarot (Eng)", "url": "Ten_of_Wands" },
+      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-staven-tien" },
+      { "name": "Kaart en Sterren", "url": "staven/pagina staven 10.html" },
+      {
+        "name": "Le Tarot",
+        "url": "tarotkaart-52-staven-10-tien-stokken-scepters-knotsen-of-batons-kleine-arcana"
+      },
+      { "name": "Orakels", "url": "staven-tien", "broken": "Closed" },
+      { "name": "Catharina", "url": "s10.htm" }
+    ]
+  },
+  {
+    "suite": "Staven",
+    "name": "Page",
+    "keyword": "PREDIKER",
+    "keywords": [
+      "op ideeën komen",
+      "meeslepende impuls",
+      "groene blaadjes in de woestijn"
+    ],
+    "invitation": "Grijp je kans!",
+    "warning": "Pas op voor (te) mooie verhalen",
+    "symbols": ["heuvels", "pyramide", "rood kleed", "geel kleed", "blauw"],
+    "seqnr": 33,
+    "links": [
+      { "name": "Pictorial Key to the Tarot (Eng)", "url": "Page_of_Wands" },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "tarotkaart-staven-schildknaap"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "staven/pagina%20staven%20page.html"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "tarotkaart-42-staven-page-schildknaap-hofkaart-stokken-scepters-knotsen-of-batons-kleine-arcana"
+      },
+      {
+        "name": "Orakels",
+        "url": "schildknaap-van-staven",
+        "broken": "Closed"
+      },
+      { "name": "Catharina", "url": "s11.htm" }
+    ]
+  },
+  {
+    "suite": "Staven",
+    "name": "Ridder",
+    "keyword": "VURIG",
+    "keywords": ["idealen koesteren", "overtuigingskracht."],
+    "invitation": "Laat jezelf eens lekker gaan",
+    "warning": "Wie/wat zet je in vuur en vlam?",
+    "symbols": [
+      "salamander",
+      "geel",
+      "oranje",
+      "paard",
+      "harnas",
+      "vuur",
+      "pyramide"
+    ],
+    "seqnr": 34,
+    "links": [
+      { "name": "Pictorial Key to the Tarot (Eng)", "url": "Knight_of_Wands" },
+      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-staven-ridder" },
+      {
+        "name": "Kaart en Sterren",
+        "url": "staven/pagina%20staven%20ridder.html"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "tarotkaart-41-staven-ridder-hofkaart-stokken-scepters-knotsen-of-batons-kleine-arcana"
+      },
+      { "name": "Orakels", "url": "ridder-van-staven", "broken": "Closed" },
+      { "name": "Catharina", "url": "s12.htm" }
+    ]
+  },
+  {
+    "suite": "Staven",
+    "name": "Koningin",
+    "keyword": "KRACHTIG",
+    "keywords": [
+      "onafhankelijk",
+      "kundig",
+      "identiteit",
+      "mild",
+      "zelfvertrouwen"
+    ],
+    "invitation": "Geloof in jezelf.",
+    "warning": "Neem ook eens iets van een ander aan",
+    "symbols": [
+      "geel kleed",
+      "grijs kleed",
+      "troon",
+      "leeuw",
+      "zonnebloem",
+      "kroon",
+      "bloemenkrans",
+      "zwarte kat"
+    ],
+    "seqnr": 35,
+    "links": [
+      { "name": "Pictorial Key to the Tarot (Eng)", "url": "Queen_of_Wands" },
+      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-staven-koningin" },
+      {
+        "name": "Kaart en Sterren",
+        "url": "staven/pagina%20staven%20koningin.html"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "tarotkaart-40-staven-koningin-hofkaart-stokken-scepters-knotsen-of-batons-kleine-arcana"
+      },
+      { "name": "Orakels", "url": "koningin-van-staven", "broken": "Closed" },
+      { "name": "Catharina", "url": "s13.htm" }
+    ]
+  },
+  {
+    "suite": "Staven",
+    "name": "Koning",
+    "keyword": "VOORMAN",
+    "keywords": [
+      "creatief",
+      "inspirerend",
+      "charmant",
+      "geestig",
+      "rechtvaardig",
+      "gedreven"
+    ],
+    "invitation": "Hoe zou hij het aanpakken?",
+    "warning": "Eerlijk duurt het langst",
+    "symbols": [
+      "salamander",
+      "geel",
+      "rood kleed",
+      "groen kleed",
+      "troon",
+      "kroon",
+      "ourobouros",
+      "links",
+      "leeuw",
+      "oranje"
+    ],
+    "seqnr": 36,
+    "links": [
+      { "name": "Pictorial Key to the Tarot (Eng)", "url": "King_of_Wands" },
+      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-staven-koning" },
+      {
+        "name": "Kaart en Sterren",
+        "url": "staven/pagina%20staven%20koning.html"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "tarotkaart-39-staven-koning-hofkaart-stokken-scepters-knotsen-of-batons-kleine-arcana"
+      },
+      { "name": "Orakels", "url": "koning-van-staven", "broken": "Closed" },
+      { "name": "Catharina", "url": "s14.htm" }
+    ]
+  },
+  {
+    "suite": "Pentakels",
+    "name": "Aas",
+    "keyword": "POTENTIE",
+    "keywords": ["kunde", "tot stand brengen", "realisme", "waarde"],
+    "invitation": "Hoe kan je deze kans verzilveren?",
+    "warning": "Lever een constructieve bijdrage.",
+    "symbols": [
+      "hand",
+      "wolken",
+      "boog",
+      "bloemen",
+      "links",
+      "roos",
+      "lelie",
+      "pad",
+      "bergtop",
+      "blauw"
+    ],
+    "seqnr": 37,
+    "links": [
+      { "name": "Pictorial Key to the Tarot (Eng)", "url": "Ace_of_Pentacles" },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "rider-waite-tarotkaart-pentakels-aas/"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "pentakels/pagina pentakels 01.html"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "tarotkaart-29-pentagrammen-1-aas-munten-pentakels-of-schijven-kleine-arcana"
+      },
+      { "name": "Orakels", "url": "aas-van-pentakels", "broken": "Closed" },
+      { "name": "Catharina", "url": "p1.htm" }
+    ]
+  },
+  {
+    "suite": "Pentakels",
+    "number": "II",
+    "keyword": "JONGLEREN",
+    "keywords": [
+      "evenwicht zoeken/houden",
+      "uitgekiende inzet van middelen",
+      "oefenen",
+      "schijnplezier"
+    ],
+    "invitation": "Speel met je mogelijkheden",
+    "warning": "Je kan niet alle opties open houden",
+    "symbols": ["lemniscaat", "golven", "boot", "jonge man", "blauw", "podium"],
+    "seqnr": 38,
+    "links": [
+      { "name": "Pictorial Key to the Tarot (Eng)", "url": "Two_of_Pentacles" },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "rider-waite-tarotkaart-pentakels-twee"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "pentakels/pagina pentakels 02.html"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "tarotkaart-30-pentagrammen-2-twee-munten-pentakels-of-schijven-2-kleine-arcana"
+      },
+      { "name": "Orakels", "url": "pentakels-twee", "broken": "Closed" },
+      { "name": "Catharina", "url": "p2.htm" }
+    ]
+  },
+  {
+    "suite": "Pentakels",
+    "number": "III",
+    "keyword": "BEWIJZEN",
+    "keywords": [
+      "waardering",
+      "vakmanschap",
+      "uitvoering",
+      "inzet",
+      "proef",
+      "presenteren"
+    ],
+    "invitation": "Waarmee kan je jezelf bewijzen?",
+    "warning": "Sta open voor feedback",
+    "symbols": ["bank", "monnik", "hamer", "grijs", "zwart"],
+    "seqnr": 39,
+    "links": [
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "Three_of_Pentacles"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "rider-waite-tarotkaart-pentakels-drie"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "pentakels/pagina pentakels 03.html"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "tarotkaart-31-pentagrammen-3-drie-munten-pentakels-of-schijven-kleine-arcana"
+      },
+      { "name": "Orakels", "url": "pentakels-drie", "broken": "Closed" },
+      { "name": "Catharina", "url": "p3.htm" }
+    ]
+  },
+  {
+    "suite": "Pentakels",
+    "number": "IV",
+    "keyword": "VASTHOUDEN",
+    "keywords": ["houden wat je hebt", "energiestroom blokkeren", "hebzucht"],
+    "invitation": "Wees zuinig op je mogelijkheden.",
+    "warning": "Wat probeer je te krampachtig vast te houden?",
+    "symbols": ["toren", "paars", "podium"],
+    "seqnr": 40,
+    "links": [
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "Four_of_Pentacles"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "rider-waite-tarotkaart-pentakels-vier"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "pentakels/pagina pentakels 04.html"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "tarotkaart-32-pentagrammen-4-vier-munten-pentakels-of-schijven-kleine-arcana"
+      },
+      { "name": "Orakels", "url": "pentakels-vier", "broken": "Closed" },
+      { "name": "Catharina", "url": "p4.htm" }
+    ]
+  },
+  {
+    "suite": "Pentakels",
+    "number": "V",
+    "keyword": "VREZEN",
+    "keywords": [
+      "(angst voor) ontbering",
+      "gebrek",
+      "kou",
+      "angst voor de toekomst"
+    ],
+    "invitation": "Wat heb je echt nodig?",
+    "warning": "Angst is een slechte raadgever.",
+    "symbols": ["bel"],
+    "seqnr": 41,
+    "links": [
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "Five_of_Pentacles"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "rider-waite-tarotkaart-pentakels-vijf"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "pentakels/pagina pentakels 05.html"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "tarotkaart-33-pentagrammen-5-vijf-munten-pentakels-of-schijven-kleine-arcana"
+      },
+      { "name": "Orakels", "url": "pentakels-vijf", "broken": "Closed" },
+      { "name": "Catharina", "url": "p5.htm" }
+    ]
+  },
+  {
+    "suite": "Pentakels",
+    "number": "VI",
+    "keyword": "BEDELEN",
+    "keywords": ["Bedelen vs beDElen", "arm vs rijk", "zaaien"],
+    "invitation": "Delen = vermenigvuldigen",
+    "warning": "Ben je bereid hulp te accepteren?",
+    "symbols": [
+      "rood kleed",
+      "zegening",
+      "boom",
+      "burcht",
+      "weegschaal",
+      "geel kleed",
+      "blauw kleed",
+      "podium"
+    ],
+    "seqnr": 42,
+    "links": [
+      { "name": "Pictorial Key to the Tarot (Eng)", "url": "Six_of_Pentacles" },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "rider-waite-tarotkaart-pentakels-zes"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "pentakels/pagina pentakels 06.html"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "tarotkaart-34-pentagrammen-6-zes-munten-pentakels-of-schijven-kleine-arcana"
+      },
+      { "name": "Orakels", "url": "pentakels-zes", "broken": "Closed" },
+      { "name": "Catharina", "url": "p6.htm" }
+    ]
+  },
+  {
+    "suite": "Pentakels",
+    "number": "VII",
+    "keyword": "VERLANGEN",
+    "keywords": ["ongeduld", "onvrede", "beheren"],
+    "invitation": "Kijk het nog even aan. Zie je voortgang.",
+    "warning": "Blijf niet toekijken",
+    "symbols": ["schoffel", "paars"],
+    "seqnr": 43,
+    "links": [
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "Seven_of_Pentacles"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "rider-waite-tarotkaart-pentakels-zeven"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "pentakels/pagina pentakels 07.html"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "tarotkaart-35-pentagrammen-7-zeven-munten-pentakels-of-schijven-kleine-arcana"
+      },
+      { "name": "Orakels", "url": "pentakels-zeven", "broken": "Closed" },
+      { "name": "Catharina", "url": "p7.htm" }
+    ]
+  },
+  {
+    "suite": "Pentakels",
+    "number": "VIII",
+    "keyword": "IJVEREN",
+    "keywords": ["oefening baart kunst", "nederig werk", "ambachten"],
+    "invitation": "Wat zou je willen leren?",
+    "warning": "Moet je niet eens iets nieuws proberen?",
+    "symbols": ["bank", "hamer", "geel", "podium"],
+    "seqnr": 44,
+    "links": [
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "Eight_of_Pentacles"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "rider-waite-tarotkaart-pentakels-acht"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "pentakels/pagina pentakels 08.html"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "tarotkaart-36-pentagrammen-8-acht-munten-pentakels-of-schijven-kleine-arcana"
+      },
+      { "name": "Orakels", "url": "pentakels-acht", "broken": "Closed" },
+      { "name": "Catharina", "url": "p8.htm" }
+    ]
+  },
+  {
+    "suite": "Pentakels",
+    "number": "IX",
+    "keyword": "GENIETEN",
+    "keywords": ["vervulling", "verfraaien", "zekerheid", "meevaller"],
+    "invitation": "Geniet van wat je doet.",
+    "warning": "Ben je alert op nieuwe kansen?",
+    "symbols": ["druiven", "burcht", "boom", "geel", "valk", "wijngaardslak"],
+    "seqnr": 45,
+    "links": [
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "Nine_of_Pentacles"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "rider-waite-tarotkaart-pentakels-negen"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "pentakels/pagina pentakels 09.html"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "tarotkaart-37-pentagrammen-9-negen-munten-pentakels-of-schijven-kleine-arcana"
+      },
+      { "name": "Orakels", "url": "pentakels-negen", "broken": "Closed" },
+      { "name": "Catharina", "url": "p9.htm" }
+    ]
+  },
+  {
+    "suite": "Pentakels",
+    "number": "X",
+    "keyword": "DOORGEVEN",
+    "keywords": [
+      "traditie",
+      "iets opbouwen",
+      "zekerheid",
+      "welvaart",
+      "familiezaken"
+    ],
+    "invitation": "Draag bij aan het grotere geheel.",
+    "warning": "Wees niet te gefixeerd op zekerheid.",
+    "symbols": [
+      "druiven",
+      "hond",
+      "burcht",
+      "toren",
+      "poort",
+      "weegschaal",
+      "oude man",
+      "brug"
+    ],
+    "seqnr": 46,
+    "links": [
+      { "name": "Pictorial Key to the Tarot (Eng)", "url": "Ten_of_Pentacles" },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "rider-waite-tarotkaart-pentakels-tien"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "pentakels/pagina pentakels 10.html"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "tarotkaart-38-pentagrammen-10-tien-munten-pentakels-of-schijven-kleine-arcana"
+      },
+      { "name": "Orakels", "url": "pentakels-tien", "broken": "Closed" },
+      { "name": "Catharina", "url": "p10.htm" }
+    ]
+  },
+  {
+    "suite": "Pentakels",
+    "name": "Page",
+    "keyword": "LEERGIERIG",
+    "keywords": ["behulpzaam", "precies", "kritisch", "student", "ijverig"],
+    "invitation": "Hoe kun je jezelf nuttig maken?",
+    "warning": "Pas op voor vluchtige belangstelling",
+    "symbols": [
+      "akker",
+      "natuur",
+      "heuvels",
+      "bloemen",
+      "groen kleed",
+      "stroom",
+      "geel"
+    ],
+    "seqnr": 47,
+    "links": [
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "Page_of_Pentacles"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "tarotkaart-pentakels-schildknaap-page/"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "pentakels/pagina%20pentakels%20page.html"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "tarotkaart-28-pentagrammen-page-schildknaap-hofkaart-munten-pentakels-of-schijven-kleine-arcana"
+      },
+      {
+        "name": "Orakels",
+        "url": "schildknaap-van-pentakels",
+        "broken": "Closed"
+      },
+      { "name": "Catharina", "url": "p11.htm" }
+    ]
+  },
+  {
+    "suite": "Pentakels",
+    "name": "Ridder",
+    "keyword": "STANDVASTIG",
+    "keywords": [
+      "organisatievermogen",
+      "degelijk",
+      "plichtgetrouw",
+      "praktisch"
+    ],
+    "invitation": "Richt je op het haalbare.",
+    "warning": "Hoe stevig is je basis?",
+    "symbols": [
+      "akker",
+      "paard",
+      "harnas",
+      "rood kleed",
+      "afgewend",
+      "geel",
+      "zwart"
+    ],
+    "seqnr": 48,
+    "links": [
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "Knight_of_Pentacles"
+      },
+      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-pentakels-ridder" },
+      {
+        "name": "Kaart en Sterren",
+        "url": "pentakels/pagina%20pentakels%20ridder.html"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "tarotkaart-27-pentagrammen-ridder-hofkaart-munten-pentakels-of-schijven-kleine-arcana"
+      },
+      { "name": "Orakels", "url": "ridder-van-pentakels", "broken": "Closed" },
+      { "name": "Catharina", "url": "p12.htm" }
+    ]
+  },
+  {
+    "suite": "Pentakels",
+    "name": "Koningin",
+    "keyword": "WARM",
+    "keywords": ["innerlijke zekerheid", "zelfwaardering", "royaal"],
+    "invitation": "Kies voor rust en geleidelijkheid.",
+    "warning": "Je hoeft niet alles te behouden",
+    "symbols": [
+      "natuur",
+      "troon",
+      "kroon",
+      "bloemen",
+      "berg",
+      "cupido",
+      "geit",
+      "haas",
+      "links",
+      "geel"
+    ],
+    "seqnr": 49,
+    "links": [
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "Queen_of_Pentacles"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "tarotkaart-pentakels-koningin"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "pentakels/pagina%20pentakels%20koningin.html"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "tarotkaart-26-pentagrammen-koningin-hofkaart-munten-pentakels-of-schijven-kleine-arcana"
+      },
+      {
+        "name": "Orakels",
+        "url": "koningin-van-pentakels",
+        "broken": "Closed"
+      },
+      { "name": "Catharina", "url": "p13.htm" }
+    ]
+  },
+  {
+    "suite": "Pentakels",
+    "name": "Koning",
+    "keyword": "ONDERNEMER",
+    "keywords": [
+      "standvastigheid",
+      "autoriteit",
+      "realiserende intelligentie",
+      "rechtlijnig",
+      "besluitvaardig"
+    ],
+    "invitation": "Ga voor realistische ambitie",
+    "warning": "Bezit maakt niet gelukkig",
+    "symbols": [
+      "stier",
+      "druiven",
+      "troon",
+      "kroon",
+      "harnas",
+      "geel",
+      "skepter"
+    ],
+    "seqnr": 50,
+    "links": [
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "King_of_Pentacles"
+      },
+      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-pentakels-koning" },
+      {
+        "name": "Kaart en Sterren",
+        "url": "pentakels/pagina%20pentakels%20koning.html"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "tarotkaart-25-pentagrammen-koning-hofkaart-munten-pentakels-of-schijven-kleine-arcana"
+      },
+      { "name": "Orakels", "url": "koning-van-pentakels", "broken": "Closed" },
+      { "name": "Catharina", "url": "p14.htm" }
+    ]
+  },
+  {
+    "suite": "Zwaarden",
+    "name": "Aas",
+    "keyword": "INZICHT",
+    "keywords": ["helderheid van geest", "objectiviteit"],
+    "invitation": "Welke beslissing moet je nu nemen?",
+    "warning": "Heb je alles goed overwogen?",
+    "symbols": [
+      "wolken",
+      "hand",
+      "kroon",
+      "robijn",
+      "olijfblad",
+      "palmtak",
+      "zwaard geheven",
+      "blauw"
+    ],
+    "seqnr": 51,
+    "links": [
+      { "name": "Pictorial Key to the Tarot (Eng)", "url": "Ace_of_Swords" },
+      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-zwaarden-aas" },
+      { "name": "Kaart en Sterren", "url": "zwaarden/pagina zwaarden 01.html" },
+      {
+        "name": "Le Tarot",
+        "url": "tarotkaart-71-zwaarden-aas-1-een-kleine-arcana"
+      },
+      { "name": "Orakels", "url": "aas-van-zwaarden", "broken": "Closed" },
+      { "name": "Catharina", "url": "z1.htm" }
+    ]
+  },
+  {
+    "suite": "Zwaarden",
+    "number": "II",
+    "keyword": "TWIJFELEN",
+    "keywords": [
+      "relativeren",
+      "twee kanten van de medaille zien",
+      "dilemma",
+      "elke keuze is beter dan geen keuze"
+    ],
+    "invitation": "Luister naar je innerlijke stem",
+    "warning": "Is het belangrijk om alles zo veel te analyseren?",
+    "symbols": [
+      "wit kleed",
+      "oceaan",
+      "heuvels",
+      "kubus",
+      "blinddoek",
+      "maan",
+      "blauw",
+      "podium"
+    ],
+    "seqnr": 52,
+    "links": [
+      { "name": "Pictorial Key to the Tarot (Eng)", "url": "Two_of_Swords" },
+      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-zwaarden-twee" },
+      { "name": "Kaart en Sterren", "url": "zwaarden/pagina zwaarden 02.html" },
+      {
+        "name": "Le Tarot",
+        "url": "tarotkaart-72-zwaarden-2-twee-kleine-arcana"
+      },
+      { "name": "Orakels", "url": "zwaarden-twee", "broken": "Closed" },
+      { "name": "Catharina", "url": "z2.htm" }
+    ]
+  },
+  {
+    "suite": "Zwaarden",
+    "number": "III",
+    "keyword": "DOORBOREN",
+    "keywords": ["pijn", "verdriet"],
+    "invitation": "Ben je sterk genoeg om te doen wat noodzakelijk is?",
+    "warning": "Laat je niet beheersen door je verdriet",
+    "symbols": ["hartvorm", "wolken", "grijs", "regen"],
+    "seqnr": 53,
+    "links": [
+      { "name": "Pictorial Key to the Tarot (Eng)", "url": "Three_of_Swords" },
+      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-zwaarden-drie" },
+      { "name": "Kaart en Sterren", "url": "zwaarden/pagina zwaarden 03.html" },
+      {
+        "name": "Le Tarot",
+        "url": "tarotkaart-73-zwaarden-3-drie-kleine-arcana"
+      },
+      { "name": "Orakels", "url": "zwaarden-drie", "broken": "Closed" },
+      { "name": "Catharina", "url": "z3.htm" }
+    ]
+  },
+  {
+    "suite": "Zwaarden",
+    "number": "IV",
+    "keyword": "BEZINNEN",
+    "keywords": ["overwegen", "rusten", "herstellen", "retraite", "testament"],
+    "invitation": "Slaap er een nachtje over.",
+    "warning": "Waarom staat alles stil?",
+    "symbols": ["grijs", "ridder"],
+    "seqnr": 54,
+    "links": [
+      { "name": "Pictorial Key to the Tarot (Eng)", "url": "Four_of_Swords" },
+      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-zwaarden-vier" },
+      { "name": "Kaart en Sterren", "url": "zwaarden/pagina zwaarden 04.html" },
+      {
+        "name": "Le Tarot",
+        "url": "tarotkaart-74-zwaarden-4-vier-kleine-arcana"
+      },
+      { "name": "Orakels", "url": "zwaarden-vier", "broken": "Closed" },
+      { "name": "Catharina", "url": "z4.htm" }
+    ]
+  },
+  {
+    "suite": "Zwaarden",
+    "number": "V",
+    "keyword": "MISGUNNEN",
+    "keywords": [
+      "debatteren",
+      "negatieve gedachtepatronen",
+      "verraad",
+      "degradatie",
+      "oneer"
+    ],
+    "invitation": "Eerlijk duurt het langst",
+    "warning": "Is het belangrijk om persé te winnen?",
+    "symbols": [
+      "afgewend",
+      "oceaan",
+      "berg",
+      "zwaard geheven",
+      "oranje",
+      "blauw",
+      "podium"
+    ],
+    "seqnr": 55,
+    "links": [
+      { "name": "Pictorial Key to the Tarot (Eng)", "url": "Five_of_Swords" },
+      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-zwaarden-vijf" },
+      { "name": "Kaart en Sterren", "url": "zwaarden/pagina zwaarden 05.html" },
+      {
+        "name": "Le Tarot",
+        "url": "tarotkaart-75-zwaarden-5-vijf-kleine-arcana"
+      },
+      { "name": "Orakels", "url": "zwaarden-vijf", "broken": "Closed" },
+      { "name": "Catharina", "url": "z5.htm" }
+    ]
+  },
+  {
+    "suite": "Zwaarden",
+    "number": "VI",
+    "keyword": "OVERSTEKEN",
+    "keywords": ["je terug trekken", "vlucht"],
+    "invitation": "Maak een nieuw begin",
+    "warning": "Is het gras echt groener?",
+    "symbols": ["water", "golven"],
+    "seqnr": 56,
+    "links": [
+      { "name": "Pictorial Key to the Tarot (Eng)", "url": "Six_of_Swords" },
+      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-zwaarden-zes" },
+      { "name": "Kaart en Sterren", "url": "zwaarden/pagina zwaarden 06.html" },
+      {
+        "name": "Le Tarot",
+        "url": "tarotkaart-76-zwaarden-6-zes-kleine-arcana"
+      },
+      { "name": "Orakels", "url": "zwaarden-zes", "broken": "Closed" },
+      { "name": "Catharina", "url": "z6.htm" }
+    ]
+  },
+  {
+    "suite": "Zwaarden",
+    "number": "VII",
+    "keyword": "SLUIPEN",
+    "keywords": ["slimheid", "spitsvondigheid", "oneerlijkheid"],
+    "invitation": "Verzin een list.",
+    "warning": "Je wordt in de maling genomen.",
+    "symbols": ["oranje", "podium"],
+    "seqnr": 57,
+    "links": [
+      { "name": "Pictorial Key to the Tarot (Eng)", "url": "Seven_of_Swords" },
+      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-zwaarden-zeven" },
+      { "name": "Kaart en Sterren", "url": "zwaarden/pagina zwaarden 07.html" },
+      { "name": "Le Tarot", "url": "tarotkaart-77-zwaarden7-zeven" },
+      { "name": "Orakels", "url": "zwaarden-zeven", "broken": "Closed" },
+      { "name": "Catharina", "url": "z7.htm" }
+    ]
+  },
+  {
+    "suite": "Zwaarden",
+    "number": "VIII",
+    "keyword": "VASTLOPEN",
+    "keywords": [
+      "negatieve gedachtenpatronen",
+      "censuur",
+      "ziekte",
+      "schaamte",
+      "verdenking",
+      "angst voor confrontatie",
+      "dubbelhartigheid"
+    ],
+    "invitation": "Laat alle remmende gedachten los",
+    "warning": "Wat houdt je tegen?",
+    "symbols": ["blinddoek", "burcht", "stroom", "berg", "grijs"],
+    "seqnr": 58,
+    "links": [
+      { "name": "Pictorial Key to the Tarot (Eng)", "url": "Eight_of_Swords" },
+      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-zwaarden-acht" },
+      { "name": "Kaart en Sterren", "url": "zwaarden/pagina zwaarden 08.html" },
+      {
+        "name": "Le Tarot",
+        "url": "tarotkaart-78-zwaarden-08-acht-kleine-arcana"
+      },
+      { "name": "Orakels", "url": "zwaarden-acht", "broken": "Closed" },
+      { "name": "Catharina", "url": "z8.htm" }
+    ]
+  },
+  {
+    "suite": "Zwaarden",
+    "number": "IX",
+    "keyword": "WANHOPEN",
+    "keywords": ["zelfverwijt", "wanhoop", "weeklagen", "zelfkastijding"],
+    "invitation": "Waar heb je spijt van?",
+    "warning": "Is je verdriet terecht?",
+    "symbols": ["afgewend", "roos", "wit kleed", "oosten", "vrouw", "zwart"],
+    "seqnr": 59,
+    "links": [
+      { "name": "Pictorial Key to the Tarot (Eng)", "url": "Nine_of_Swords" },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "https://tarotstapvoorstap.nl/tarot-vragen/zwaarden-9-uit-de-tarot-ook-dit-gaat-voorbij/"
+      },
+      { "name": "Kaart en Sterren", "url": "zwaarden/pagina zwaarden 09.html" },
+      {
+        "name": "Le Tarot",
+        "url": "tarotkaart-79-zwaarden-09-negen-kleine-arcana"
+      },
+      { "name": "Orakels", "url": "zwaarden-negen", "broken": "Closed" },
+      { "name": "Catharina", "url": "z9.htm" }
+    ]
+  },
+  {
+    "suite": "Zwaarden",
+    "number": "X",
+    "keyword": "BEEINDIGEN",
+    "keywords": ["destructieve gedachten", "voortijdig einde"],
+    "invitation": "Waar moet je nu rigoureus een streep onder zetten?",
+    "warning": "Is het verstandig om er nu radicaal mee te breken?",
+    "symbols": ["oceaan", "zon", "heuvels", "rood kleed", "zegening", "zwart"],
+    "seqnr": 60,
+    "links": [
+      { "name": "Pictorial Key to the Tarot (Eng)", "url": "Ten_of_Swords" },
+      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-zwaarden-tien" },
+      { "name": "Kaart en Sterren", "url": "zwaarden/pagina zwaarden 10.html" },
+      {
+        "name": "Le Tarot",
+        "url": "tarotkaart-80-zwaarden-10-tien-kleine-arcana"
+      },
+      { "name": "Orakels", "url": "zwaarden-tien", "broken": "Closed" },
+      { "name": "Catharina", "url": "z10.htm" }
+    ]
+  },
+  {
+    "suite": "Zwaarden",
+    "name": "Page",
+    "keyword": "ALERT",
+    "keywords": ["verstand van zaken", "opmerkzaam", "escalatie"],
+    "invitation": "Laat het over je heen komen",
+    "warning": "Komt de dreiging wel van buiten?",
+    "symbols": [
+      "wolken",
+      "heuvels",
+      "vogel",
+      "water",
+      "grijs",
+      "zwaard geheven"
+    ],
+    "seqnr": 61,
+    "links": [
+      { "name": "Pictorial Key to the Tarot (Eng)", "url": "Page_of_Swords" },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "tarotkaart-zwaarden-schildknaap"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "zwaarden/pagina%20zwaarden%20page.html"
+      },
+      { "name": "Le Tarot", "url": "tarotkaart-70-zwaarden-page-schildknaap" },
+      {
+        "name": "Orakels",
+        "url": "schildknaap-van-zwaarden",
+        "broken": "Closed"
+      },
+      { "name": "Catharina", "url": "z11.htm" }
+    ]
+  },
+  {
+    "suite": "Zwaarden",
+    "name": "Ridder",
+    "keyword": "ONVERSCHROKKEN",
+    "keywords": [
+      "onverwachte doorbraak",
+      "confrontatie",
+      "bekwaamheid",
+      "dapperheid"
+    ],
+    "invitation": "Bezint, eer ge begint",
+    "warning": "Is dit geen storm in een glas water?",
+    "symbols": ["oranje", "rood kleed", "paard", "harnas", "vogel"],
+    "seqnr": 62,
+    "links": [
+      { "name": "Pictorial Key to the Tarot (Eng)", "url": "Knight_of_Swords" },
+      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-zwaarden-ridder" },
+      {
+        "name": "Kaart en Sterren",
+        "url": "zwaarden/pagina%20zwaarden%20ridder.html"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "tarotkaart-69-zwaarden-ridder-kleine-arcana"
+      },
+      { "name": "Orakels", "url": "ridder-van-zwaarden", "broken": "Closed" },
+      { "name": "Catharina", "url": "z12.htm" }
+    ]
+  },
+  {
+    "suite": "Zwaarden",
+    "name": "Koningin",
+    "keyword": "WIJS",
+    "keywords": [
+      "innerlijke overtuiging",
+      "eerlijkheid",
+      "levenswijsheid",
+      "heldere/rustige geest",
+      "deugdzaam",
+      "streng"
+    ],
+    "invitation": "Blijf bij de hoofdzaken",
+    "warning": "Wat is de meest logische verklaring?",
+    "symbols": [
+      "rechts",
+      "wolken",
+      "troon",
+      "kroon",
+      "wit kleed",
+      "volwassen vrouw",
+      "zwaard geheven",
+      "cupido",
+      "vogel",
+      "grijs",
+      "vlinder"
+    ],
+    "seqnr": 63,
+    "links": [
+      { "name": "Pictorial Key to the Tarot (Eng)", "url": "Queen_of_Swords" },
+      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-zwaarden-koningin" },
+      {
+        "name": "Kaart en Sterren",
+        "url": "zwaarden/pagina%20zwaarden%20koningin.html"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "tarotkaart-68-zwaarden-koningin-hofkaart-kleine-arcana"
+      },
+      { "name": "Orakels", "url": "koningin-van-zwaarden", "broken": "Closed" },
+      { "name": "Catharina", "url": "z13.htm" }
+    ]
+  },
+  {
+    "suite": "Zwaarden",
+    "name": "Koning",
+    "keyword": "HANDHAVER",
+    "keywords": [
+      "De gedachte gaat aan de manifestatie vooraf",
+      "rationeel",
+      "skeptisch",
+      "hard",
+      "dominant"
+    ],
+    "invitation": "Kom tot een conclusie",
+    "warning": "Schenk ook aandacht aan de relatie",
+    "symbols": [
+      "troon",
+      "kroon",
+      "blauw",
+      "paars kleed",
+      "wolken",
+      "heuvels",
+      "boom",
+      "zwaard geheven",
+      "vogel"
+    ],
+    "seqnr": 64,
+    "links": [
+      { "name": "Pictorial Key to the Tarot (Eng)", "url": "King_of_Swords" },
+      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-zwaarden-koning" },
+      {
+        "name": "Kaart en Sterren",
+        "url": "zwaarden/pagina%20zwaarden%20koning.html"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "tarotkaart-67-zwaarden-koning-hofkaart-kleine-arcana"
+      },
+      { "name": "Orakels", "url": "koning-van-zwaarden", "broken": "Closed" },
+      { "name": "Catharina", "url": "z14.htm" }
+    ]
+  },
+  {
+    "suite": "Kelken",
+    "name": "Aas",
+    "keyword": "BEZIELING",
+    "keywords": [
+      "verlangen naar eenheid en verbondenheid",
+      "overgave",
+      "bewustwording",
+      "de bron",
+      "de Graal",
+      "droom"
+    ],
+    "invitation": "Laat je gevoel stromen.",
+    "warning": "Laat deze kans niet schieten",
+    "symbols": [
+      "rechts",
+      "hand",
+      "wolken",
+      "waterbron",
+      "duif",
+      "yod",
+      "lelie",
+      "hostie",
+      "blauw"
+    ],
+    "seqnr": 65,
+    "links": [
+      { "name": "Pictorial Key to the Tarot (Eng)", "url": "Ace_of_Cups" },
+      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-kelken-aas" },
+      { "name": "Kaart en Sterren", "url": "bekers/pagina bekers 01.html" },
+      {
+        "name": "Le Tarot",
+        "url": "tarotkaart-57-bekers-1-aas-een-bokalen-kleine-arcana"
+      },
+      { "name": "Orakels", "url": "aas-van-bekers", "broken": "Closed" },
+      { "name": "Catharina", "url": "k1.htm" }
+    ]
+  },
+  {
+    "suite": "Kelken",
+    "number": "II",
+    "keyword": "VERBINDEN",
+    "keywords": [
+      "verlangen naar een partner (eventueel platonisch)",
+      "gevoel vs verstand",
+      "valse liefde"
+    ],
+    "invitation": "Treed de ander liefdevol tegemoet",
+    "warning": "Sta ik open voor een eerlijk compromis?",
+    "symbols": [
+      "caduceus",
+      "lauwerkrans",
+      "roos",
+      "slang",
+      "leeuw",
+      "heuvels",
+      "hermesvleugels",
+      "podium"
+    ],
+    "seqnr": 66,
+    "links": [
+      { "name": "Pictorial Key to the Tarot (Eng)", "url": "Two_of_Cups" },
+      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-kelken-twee" },
+      { "name": "Kaart en Sterren", "url": "bekers/pagina bekers 02.html" },
+      {
+        "name": "Le Tarot",
+        "url": "tarotkaart-58-bekers-bokalen-2-twee-kleine-arcana"
+      },
+      { "name": "Orakels", "url": "bekers-twee", "broken": "Closed" },
+      { "name": "Catharina", "url": "k2.htm" }
+    ]
+  },
+  {
+    "suite": "Kelken",
+    "number": "III",
+    "keyword": "FEESTEN",
+    "keywords": ["plezier hebben", "blijheid", "genezing", "troost"],
+    "invitation": "Laat jezelf eens lekker gaan.",
+    "warning": "Succes moet je vieren",
+    "symbols": [
+      "druiven",
+      "bloemen",
+      "rood kleed",
+      "geel kleed",
+      "wit kleed",
+      "blauw"
+    ],
+    "seqnr": 67,
+    "links": [
+      { "name": "Pictorial Key to the Tarot (Eng)", "url": "Three_of_Cups" },
+      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-kelken-drie" },
+      { "name": "Kaart en Sterren", "url": "bekers/pagina bekers 03.html" },
+      {
+        "name": "Le Tarot",
+        "url": "tarotkaart-59-bekers-3-drie-bokalen-kleine-arcana"
+      },
+      { "name": "Orakels", "url": "bekers-drie", "broken": "Closed" },
+      { "name": "Catharina", "url": "k3.htm" }
+    ]
+  },
+  {
+    "suite": "Kelken",
+    "number": "IV",
+    "keyword": "MOPPEREN",
+    "keywords": ["verlangen naar meer", "lusteloosheid"],
+    "invitation": "Wat heb je wél?",
+    "warning": "Is je onvrede wel terecht?",
+    "symbols": ["hand", "wolken", "boom", "links"],
+    "seqnr": 68,
+    "links": [
+      { "name": "Pictorial Key to the Tarot (Eng)", "url": "Four_of_Cups" },
+      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-kelken-vier" },
+      { "name": "Kaart en Sterren", "url": "bekers/pagina bekers 04.html" },
+      {
+        "name": "Le Tarot",
+        "url": "tarotkaart-60-bekers-4-vier-bokalen-kleine-arcana"
+      },
+      { "name": "Orakels", "url": "bekers-vier", "broken": "Closed" },
+      { "name": "Catharina", "url": "k4.htm" }
+    ]
+  },
+  {
+    "suite": "Kelken",
+    "number": "V",
+    "keyword": "BETREUREN",
+    "keywords": ["teleurstelling", "verlies", "desillusie", "heroverwegen"],
+    "invitation": "Wat blijft er over?",
+    "warning": "Blijven hangen in verdriet.",
+    "symbols": [
+      "grijs",
+      "stroom",
+      "brug",
+      "burcht",
+      "afgewend",
+      "zwart kleed",
+      "bloed",
+      "groen"
+    ],
+    "seqnr": 69,
+    "links": [
+      { "name": "Pictorial Key to the Tarot (Eng)", "url": "Five_of_Cups" },
+      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-kelken-vijf" },
+      { "name": "Kaart en Sterren", "url": "bekers/pagina bekers 05.html" },
+      {
+        "name": "Le Tarot",
+        "url": "tarotkaart-61-bekers-5-vijf-bokalen-kleine-arcana"
+      },
+      { "name": "Orakels", "url": "bekers-vijf", "broken": "Closed" },
+      { "name": "Catharina", "url": "k5.htm" }
+    ]
+  },
+  {
+    "suite": "Kelken",
+    "number": "VI",
+    "keyword": "HERINNEREN",
+    "keywords": [
+      "verbinden",
+      "delen vanuit overvloed",
+      "vreugde schenken",
+      "(zinloze) nostalgie"
+    ],
+    "invitation": "Verheug je in kleine dingen.",
+    "warning": "Behoudt het goede",
+    "symbols": ["vrouw", "lelie", "burcht"],
+    "seqnr": 70,
+    "links": [
+      { "name": "Pictorial Key to the Tarot (Eng)", "url": "Six_of_Cups" },
+      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-kelken-zes" },
+      { "name": "Kaart en Sterren", "url": "bekers/pagina bekers 06.html" },
+      {
+        "name": "Le Tarot",
+        "url": "tarotkaart-62-bekers-6-zes-bokalen-kleine-arcana"
+      },
+      { "name": "Orakels", "url": "bekers-zes", "broken": "Closed" },
+      { "name": "Catharina", "url": "k6.htm" }
+    ]
+  },
+  {
+    "suite": "Kelken",
+    "number": "VII",
+    "keyword": "DROMEN",
+    "keywords": [
+      "visioenen",
+      "illusie",
+      "mystery guest",
+      "verbeelding",
+      "vergankelijke weelde",
+      "luchtkastelen"
+    ],
+    "invitation": "Wat heb je werkelijk nodig?",
+    "warning": "Wat is de echte waarde?",
+    "symbols": [
+      "slang",
+      "lauwerkrans",
+      "draak",
+      "edelstenen",
+      "burcht",
+      "engel",
+      "wolken",
+      "afgewend",
+      "doodshoofd",
+      "zwart"
+    ],
+    "seqnr": 71,
+    "links": [
+      { "name": "Pictorial Key to the Tarot (Eng)", "url": "Seven_of_Cups" },
+      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-kelken-zeven" },
+      { "name": "Kaart en Sterren", "url": "bekers/pagina bekers 07.html" },
+      { "name": "Le Tarot", "url": "tarotkaart-63-bekers-7-zeven-bokalen" },
+      { "name": "Orakels", "url": "bekers-zeven", "broken": "Closed" },
+      { "name": "Catharina", "url": "k7.htm" }
+    ]
+  },
+  {
+    "suite": "Kelken",
+    "number": "VIII",
+    "keyword": "WEGLOPEN",
+    "keywords": [
+      "illusies achter je laten",
+      "het roer om",
+      "een nieuw pad kiezen"
+    ],
+    "invitation": "Laat het verleden los.",
+    "warning": "Een nieuwe illusie najagen.",
+    "symbols": ["maan", "water", "berg", "rood kleed", "blauw"],
+    "seqnr": 72,
+    "links": [
+      { "name": "Pictorial Key to the Tarot (Eng)", "url": "Eight_of_Cups" },
+      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-kelken-acht" },
+      { "name": "Kaart en Sterren", "url": "bekers/pagina bekers 08.html" },
+      {
+        "name": "Le Tarot",
+        "url": "tarotkaart-64-bekers-bokalen-8-acht-kleine-arcana"
+      },
+      { "name": "Orakels", "url": "bekers-acht", "broken": "Closed" },
+      { "name": "Catharina", "url": "k8.htm" }
+    ]
+  },
+  {
+    "suite": "Kelken",
+    "number": "IX",
+    "keyword": "WAARDEREN",
+    "keywords": [
+      "evenwichtigheid",
+      "dromen zijn werkelijkheid geworden",
+      "innerlijk geluk"
+    ],
+    "invitation": "Sta eens stil om écht te genieten",
+    "warning": "Kan je je zorgen loslaten en genieten?",
+    "symbols": ["bank", "blauw kleed"],
+    "seqnr": 73,
+    "links": [
+      { "name": "Pictorial Key to the Tarot (Eng)", "url": "Nine_of_Cups" },
+      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-kelken-negen" },
+      { "name": "Kaart en Sterren", "url": "bekers/pagina bekers 09.html" },
+      {
+        "name": "Le Tarot",
+        "url": "tarotkaart-65-bekers-bokalen-9-negen-kleine-arcana"
+      },
+      { "name": "Orakels", "url": "bekers-negen", "broken": "Closed" },
+      { "name": "Catharina", "url": "k9.htm" }
+    ]
+  },
+  {
+    "suite": "Kelken",
+    "number": "X",
+    "keyword": "THUISKOMEN",
+    "keywords": [
+      "welzijn",
+      "voltooiing",
+      "samen (gezin/dorp/gemeente)",
+      "veilig",
+      "geborgen"
+    ],
+    "invitation": "Maak ruimte voor gezamenlijk geluk",
+    "warning": "Wat van ver komt is niet altijd lekkerder",
+    "symbols": ["regenboog", "stroom", "gezin", "huis", "afgewend", "podium"],
+    "seqnr": 74,
+    "links": [
+      { "name": "Pictorial Key to the Tarot (Eng)", "url": "Ten_of_Cups" },
+      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-kelken-tien" },
+      { "name": "Kaart en Sterren", "url": "bekers/pagina bekers 10.html" },
+      {
+        "name": "Le Tarot",
+        "url": "tarotkaart-66-bekers-10-tien-bokalen-kelken-kleine-arcana"
+      },
+      { "name": "Orakels", "url": "bekers-tien", "broken": "Closed" },
+      { "name": "Catharina", "url": "k10.htm" }
+    ]
+  },
+  {
+    "suite": "Kelken",
+    "name": "Page",
+    "keyword": "VERWONDERD",
+    "keywords": ["fantasie", "verbeelding", "puberteit", "vlijtige jeugd"],
+    "invitation": "Laat je verwonderen",
+    "warning": "Pas op voor goedgelovigheid.",
+    "symbols": ["lotus", "vis", "oceaan", "blauw", "podium"],
+    "seqnr": 75,
+    "links": [
+      { "name": "Pictorial Key to the Tarot (Eng)", "url": "Page_of_Cups" },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "tarotkaart-kelken-schildknaap"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "bekers/pagina%20bekers%20page.html"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "tarotkaart-56-bekers-page-schildknaap-hofkaart-bokalen-kleine-arcana"
+      },
+      {
+        "name": "Orakels",
+        "url": "schildknaap-van-bekers",
+        "broken": "Closed"
+      },
+      { "name": "Catharina", "url": "k11.htm" }
+    ]
+  },
+  {
+    "suite": "Kelken",
+    "name": "Ridder",
+    "keyword": "DROMER",
+    "keywords": ["aanvoelen", "betrokkenheid", "waarheidsvinding", "voorstel"],
+    "invitation": "Met wie wil je vrede sluiten?",
+    "warning": "Zorg voor een goede verstandhouding.",
+    "symbols": [
+      "hermesvleugels",
+      "harnas",
+      "paard",
+      "stroom",
+      "heuvels",
+      "vis",
+      "afgewend",
+      "blauw"
+    ],
+    "seqnr": 76,
+    "links": [
+      { "name": "Pictorial Key to the Tarot (Eng)", "url": "Knight_of_Cups" },
+      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-kelken-ridder" },
+      {
+        "name": "Kaart en Sterren",
+        "url": "bekers/pagina%20bekers%20ridder.html"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "tarotkaart-55-bekers-ridder-bokalen-hofkaart-kleine-arcana"
+      },
+      { "name": "Orakels", "url": "ridder-van-bekers", "broken": "Closed" },
+      { "name": "Catharina", "url": "k12.htm" }
+    ]
+  },
+  {
+    "suite": "Kelken",
+    "name": "Koningin",
+    "keyword": "ZIENER",
+    "keywords": [
+      "inlevingsvermogen",
+      "innerlijk weten",
+      "visioenen/dromerig",
+      "gedistingeerd",
+      "toegewijd"
+    ],
+    "invitation": "Erover praten kan je beeld verhelderen.",
+    "warning": "Vergeet jezelf niet",
+    "symbols": ["golven", "troon", "kroon", "wit kleed", "links", "blauw"],
+    "seqnr": 77,
+    "links": [
+      { "name": "Pictorial Key to the Tarot (Eng)", "url": "Queen_of_Cups" },
+      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-kelken-koningin" },
+      {
+        "name": "Kaart en Sterren",
+        "url": "bekers/pagina%20bekers%20koningin.html"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "tarotkaart-54-bekers-koningin-bokalen-hofkaart-kleine-arcana"
+      },
+      { "name": "Orakels", "url": "koningin-van-bekers", "broken": "Closed" },
+      { "name": "Catharina", "url": "k13.htm" }
+    ]
+  },
+  {
+    "suite": "Kelken",
+    "name": "Koning",
+    "keyword": "RAADSMAN",
+    "keywords": [
+      "bewustwording",
+      "compassie",
+      "gevoelig man",
+      "onderhandelaar",
+      "brede belangstelling",
+      "wetsman",
+      "wetenschapper"
+    ],
+    "invitation": "Ben jij een rots in de branding?",
+    "warning": "Vergeet je eigen gevoelens niet",
+    "symbols": [
+      "golven",
+      "vis",
+      "boot",
+      "kroon",
+      "troon",
+      "skepter",
+      "geel kleed",
+      "blauw"
+    ],
+    "seqnr": 78,
+    "links": [
+      { "name": "Pictorial Key to the Tarot (Eng)", "url": "King_of_Cups" },
+      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-kelken-koning" },
+      {
+        "name": "Kaart en Sterren",
+        "url": "bekers/pagina%20bekers%20koning.html"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "tarotkaart-53-bekers-koning-bokalen-hofkaart-kleine-arcana"
+      },
+      { "name": "Orakels", "url": "koning-van-bekers", "broken": "Closed" },
+      { "name": "Catharina", "url": "k14.htm" }
+    ]
+  }
+]

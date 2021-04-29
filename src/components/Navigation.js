@@ -5,6 +5,7 @@ import { Index } from "../pages/Index";
 import { Page } from "../pages/Page";
 import { Card, CardByNumber } from "../pages/Card";
 import { Reading } from "../pages/Reading";
+import { Pull } from "../pages/Pull";
 // import { Quiz } from "../pages/Quiz";
 import { Terms } from "../pages/Term";
 import { Time } from "../pages/Time";
@@ -27,6 +28,7 @@ export function Navigation({ setDeck }) {
       <Link name="Begrippen" />
       {/* <NavLink name="Quiz" /> */}
       <Link name="Legging" />
+      <Link name="Trekking" />
       <PageLink name="Achtergrond" />
       <div style={{ marginLeft: "150pt", marginTop: 0, marginBottom: 0 }}>
         Kaarten:{" "}
@@ -51,6 +53,9 @@ export function Routes({ deck }) {
       </Route>
       <Route path="/legging/:perma?">
         <Reading deck={deck} />
+      </Route>
+      <Route path="/trekking/">
+        <Pull deck={deck} />
       </Route>
       {/* <Route path="/quiz"> */}
       {/*   <Quiz /> */}

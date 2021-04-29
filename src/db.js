@@ -5,6 +5,9 @@ import taffy from "taffy";
 
 import { roman2arabic } from "./roman";
 
+export const categories = ["grote arcana", "nummerkaarten", "hofkaarten"];
+export const suite_names = ["Staven", "Pentakels", "Zwaarden", "Kelken"];
+
 export const terms = taffy(termData);
 export const cards = taffy(cardData);
 export const crossReferences = taffy(
