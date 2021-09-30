@@ -121,7 +121,7 @@ export function CardInfo(props) {
             {props.suite !== "groot" && props.suite}
           </OptionalInfo>
           <OptionalInfo label="Nummer">{props.number}</OptionalInfo>
-          <OptionalInfo label="Kaart" term={props.name}>
+          <OptionalInfo label="Kaart" term={name}>
             {name}
           </OptionalInfo>
           <OptionalInfo label="Kernwoord">{props.keyword}</OptionalInfo>

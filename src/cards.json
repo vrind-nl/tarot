@@ -1032,7 +1032,7 @@
   {
     "suite": "Staven",
     "number": "IV",
-    "keyword": "OOGSTEN",
+    "keyword": "VIEREN",
     "keywords": [
       "resultaten vieren",
       "harmonieuze samenwerking",
@@ -1439,7 +1439,7 @@
   {
     "suite": "Pentakels",
     "number": "III",
-    "keyword": "BEWIJZEN",
+    "keyword": "DEMONSTREREN",
     "keywords": [
       "waardering",
       "vakmanschap",
@@ -2600,7 +2600,7 @@
   {
     "suite": "Kelken",
     "name": "Ridder",
-    "keyword": "DROMER",
+    "keyword": "VERZOENER",
     "keywords": ["aanvoelen", "betrokkenheid", "waarheidsvinding", "voorstel"],
     "invitation": "Met wie wil je vrede sluiten?",
     "warning": "Zorg voor een goede verstandhouding.",
