@@ -1922,7 +1922,7 @@
   {
     "suite": "Staven",
     "name": "Page",
-    "keyword": "PREDIKER",
+    "keyword": "MEESLEPEND",
     "keywords": [
       "op ideeën komen",
       "meeslepende impuls",
@@ -1975,6 +1975,8 @@
     "name": "Ridder",
     "keyword": "VURIG",
     "keywords": [
+      "charisma",
+      "spontaan",
       "idealen koesteren",
       "overtuigingskracht."
     ],
@@ -2031,7 +2033,7 @@
       "kundig",
       "identiteit",
       "mild",
-      "zelfvertrouwen"
+      "zelfverzekerd"
     ],
     "invitation": "Geloof in jezelf.",
     "warning": "Neem ook eens iets van een ander aan",

@@ -65,7 +65,7 @@ De informatie op deze site komt uit verschillende bronnen, waaronder:
   - [[https://tarotstapvoorstap.nl][Tarot Stap voor Stap]]
   - [[https://www.thismighthurttarot.com/the-deck][This might hurt tarot]] (Eng.)
   - [[https://www.tarot.com/tarot/decks][tarot.com]] voor de plaatjes van de kaarten
-  - [[https://www.reddit.com/r/tarot/][Reddit]] om van gedachten te wisselen met anderen [[[https://www.reddit.com/r/SecularTarot/][2]]], [[[https://www.reddit.com/r/tarotpractice/][3]]], [[[https://www.reddit.com/r/tarotreadings/][4]]]
+  - [[https://www.reddit.com/r/tarot/][Reddit]] om van gedachten te wisselen met anderen [[https://www.reddit.com/r/SecularTarot/][2]], [[https://www.reddit.com/r/tarotpractice/][3]], [[https://www.reddit.com/r/tarotreadings/][4]]
   - [[http://www.letarot.nl/tarotkaart/overzicht/][Le Tarot]]: de kaarten in [[http://www.letarot.nl/welke-tarotkaarten-gebruik-ik-en-waarom-de-tarot-in-de-herstelde-orde/][herstelde orde]] en met 2 extra
   - [[http://www.inspiratiesite.nl/TAROT HANDLEIDING.pdf][Tarot handleiding]] van Jan de Graaf.
   - [[https://www.catharinaweb.nl/tarot/][Catharinaweb]]
@@ -81,8 +81,6 @@ Bij verschillen tussen de bronnen heb ik intuïtief mijn voorkeur gekozen.
 Om mij te helpen om de betekenissen van de kaarten te onthouden, heb ik elke kaart een kernwoord toegekend. Dit kernwoord is persoonlijk, waarbij ik heb geprobeerd om binnen de geldende duidingen van de betreffende kaart te blijven.
 
 De kaarten zijn die van [[https://www.psychicpowernetwork.com/2018/09/tarot-card-decks-classic-and-rare/][Rider, Waite & Smith]], maar er zijn er [[https://www.tarot.com/tarot/decks][veel meer]]. Zie hier voor een [[/tarot.pdf][overzicht]] van verschillende tarots naast elkaar.
-
-Hieronder volgt een beknopte opsomming van sommige gegevens uit bovenstaande bronnen:
 
 * Zijdelings gerelateerd :noexport:
 
