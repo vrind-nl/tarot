@@ -34,22 +34,42 @@
         "name": "Pictorial Key to the Tarot (Eng)",
         "url": "0._Zero._The_Fool"
       },
-      { "name": "Tarot Stap voor Stap", "url": "de-dwaas-tarot-nul/" },
-      { "name": "Kaart en Sterren", "url": "arcana/pagina%2000%20dwaas.html" },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "de-dwaas-tarot-nul/"
+      },
+      {
+        "name": "The Light Seer's Tarot (Eng)",
+        "url": "the-fool"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "arcana/pagina%2000%20dwaas.html"
+      },
       {
         "name": "Le Tarot",
         "url": "tarotkaart-01-de-dwaas-0-grote-arcana-de-tarot-in-de-herstelde-orde"
       },
-      { "name": "SpiriDoc", "url": "0_de_dwaas.htm" },
-      { "name": "Orakels", "url": "dwaas", "broken": "Closed" },
-      { "name": "Catharinaweb", "url": "0.htm" }
+      {
+        "name": "SpiriDoc",
+        "url": "0_de_dwaas.htm"
+      },
+      {
+        "name": "Orakels",
+        "url": "dwaas",
+        "broken": "Closed"
+      },
+      {
+        "name": "Catharinaweb",
+        "url": "0.htm"
+      }
     ]
   },
   {
     "suite": "groot",
     "number": "I",
     "name": "De Magier",
-    "keyword": "MEESTERSCHAP",
+    "keyword": "MANIFESTATIE",
     "keywords": [
       "bewust van kracht en mogelijkheden",
       "je (leer)proces aangaan",
@@ -78,16 +98,39 @@
     ],
     "seqnr": 2,
     "links": [
-      { "name": "Pictorial Key to the Tarot (Eng)", "url": "I._The_Magician" },
-      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-de-magier" },
-      { "name": "Kaart en Sterren", "url": "arcana/pagina 01 magier.html" },
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "I._The_Magician"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "tarotkaart-de-magier"
+      },
+      {
+        "name": "The Light Seer's Tarot (Eng)",
+        "url": "the-magician"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "arcana/pagina 01 magier.html"
+      },
       {
         "name": "Le Tarot",
         "url": "tarotkaart-02-de-magier-1-grote-arcana-de-tarot-in-de-herstelde-orde"
       },
-      { "name": "SpiriDoc", "url": "1_de_magier.htm" },
-      { "name": "Orakels", "url": "magier", "broken": "Closed" },
-      { "name": "Catharinaweb", "url": "1.htm" }
+      {
+        "name": "SpiriDoc",
+        "url": "1_de_magier.htm"
+      },
+      {
+        "name": "Orakels",
+        "url": "magier",
+        "broken": "Closed"
+      },
+      {
+        "name": "Catharinaweb",
+        "url": "1.htm"
+      }
     ]
   },
   {
@@ -129,7 +172,14 @@
         "name": "Pictorial Key to the Tarot (Eng)",
         "url": "II._The_High_Priestess"
       },
-      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-hogepriesteres" },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "tarotkaart-hogepriesteres"
+      },
+      {
+        "name": "The Light Seer's Tarot (Eng)",
+        "url": "the-high-priestess"
+      },
       {
         "name": "Kaart en Sterren",
         "url": "arcana/pagina 02 hogepriesteres.html"
@@ -138,9 +188,19 @@
         "name": "Le Tarot",
         "url": "tarotkaart-03-de-priesteres-2-grote-arcana-de-tarot-in-de-herstelde-orde"
       },
-      { "name": "SpiriDoc", "url": "2_de_hogepriesteres.htm" },
-      { "name": "Orakels", "url": "hogepriesteres", "broken": "Closed" },
-      { "name": "Catharinaweb", "url": "2.htm" }
+      {
+        "name": "SpiriDoc",
+        "url": "2_de_hogepriesteres.htm"
+      },
+      {
+        "name": "Orakels",
+        "url": "hogepriesteres",
+        "broken": "Closed"
+      },
+      {
+        "name": "Catharinaweb",
+        "url": "2.htm"
+      }
     ]
   },
   {
@@ -170,16 +230,39 @@
     ],
     "seqnr": 4,
     "links": [
-      { "name": "Pictorial Key to the Tarot (Eng)", "url": "III._The_Empress" },
-      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-de-keizerin" },
-      { "name": "Kaart en Sterren", "url": "arcana/pagina 03 keizerin.html" },
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "III._The_Empress"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "tarotkaart-de-keizerin"
+      },
+      {
+        "name": "The Light Seer's Tarot (Eng)",
+        "url": "the-empress"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "arcana/pagina 03 keizerin.html"
+      },
       {
         "name": "Le Tarot",
         "url": "tarotkaart-08-de-keizerin-6-grote-arcana-de-tarot-in-de-herstelde-orde"
       },
-      { "name": "SpiriDoc", "url": "3_de_keizerin.htm" },
-      { "name": "Orakels", "url": "keizerin", "broken": "Closed" },
-      { "name": "Catharinaweb", "url": "3.htm" }
+      {
+        "name": "SpiriDoc",
+        "url": "3_de_keizerin.htm"
+      },
+      {
+        "name": "Orakels",
+        "url": "keizerin",
+        "broken": "Closed"
+      },
+      {
+        "name": "Catharinaweb",
+        "url": "3.htm"
+      }
     ]
   },
   {
@@ -210,16 +293,39 @@
     ],
     "seqnr": 5,
     "links": [
-      { "name": "Pictorial Key to the Tarot (Eng)", "url": "IV._The_Emperor" },
-      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-de-keizer" },
-      { "name": "Kaart en Sterren", "url": "arcana/pagina 04 keizer.html" },
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "IV._The_Emperor"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "tarotkaart-de-keizer"
+      },
+      {
+        "name": "The Light Seer's Tarot (Eng)",
+        "url": "the-emperor"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "arcana/pagina 04 keizer.html"
+      },
       {
         "name": "Le Tarot",
         "url": "tarotkaart-04-de-keizer-3-grote-arcana-de-tarot-in-de-herstelde-orde"
       },
-      { "name": "SpiriDoc", "url": "4_de_keizer.htm" },
-      { "name": "Orakels", "url": "keizer", "broken": "Closed" },
-      { "name": "Catharinaweb", "url": "4.htm" }
+      {
+        "name": "SpiriDoc",
+        "url": "4_de_keizer.htm"
+      },
+      {
+        "name": "Orakels",
+        "url": "keizer",
+        "broken": "Closed"
+      },
+      {
+        "name": "Catharinaweb",
+        "url": "4.htm"
+      }
     ]
   },
   {
@@ -256,7 +362,14 @@
         "name": "Pictorial Key to the Tarot (Eng)",
         "url": "V._The_Hierophant"
       },
-      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-de-hogepriester" },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "tarotkaart-de-hogepriester"
+      },
+      {
+        "name": "The Light Seer's Tarot (Eng)",
+        "url": "the-hierophant"
+      },
       {
         "name": "Kaart en Sterren",
         "url": "arcana/pagina 05 hogepriester.html"
@@ -265,9 +378,19 @@
         "name": "Le Tarot",
         "url": "tarotkaart-07-de-priester-5-de-paus-grote-arcana-de-tarot-in-de-herstelde-orde"
       },
-      { "name": "SpiriDoc", "url": "5_de_hierophant.htm" },
-      { "name": "Orakels", "url": "de-hogepriester", "broken": "Closed" },
-      { "name": "Catharinaweb", "url": "5.htm" }
+      {
+        "name": "SpiriDoc",
+        "url": "5_de_hierophant.htm"
+      },
+      {
+        "name": "Orakels",
+        "url": "de-hogepriester",
+        "broken": "Closed"
+      },
+      {
+        "name": "Catharinaweb",
+        "url": "5.htm"
+      }
     ]
   },
   {
@@ -303,16 +426,39 @@
     ],
     "seqnr": 7,
     "links": [
-      { "name": "Pictorial Key to the Tarot (Eng)", "url": "VI._The_Lovers" },
-      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-de-geliefden" },
-      { "name": "Kaart en Sterren", "url": "arcana/pagina 06 geliefden.html" },
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "VI._The_Lovers"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "tarotkaart-de-geliefden"
+      },
+      {
+        "name": "The Light Seer's Tarot (Eng)",
+        "url": "the-lovers"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "arcana/pagina 06 geliefden.html"
+      },
       {
         "name": "Le Tarot",
         "url": "tarotkaart-05-de-geliefden-4-grote-arcana-de-tarot-in-de-herstelde-orde"
       },
-      { "name": "SpiriDoc", "url": "6_de_geliefden.htm" },
-      { "name": "Orakels", "url": "geliefden", "broken": "Closed" },
-      { "name": "Catharinaweb", "url": "6.htm" }
+      {
+        "name": "SpiriDoc",
+        "url": "6_de_geliefden.htm"
+      },
+      {
+        "name": "Orakels",
+        "url": "geliefden",
+        "broken": "Closed"
+      },
+      {
+        "name": "Catharinaweb",
+        "url": "6.htm"
+      }
     ]
   },
   {
@@ -348,16 +494,39 @@
     ],
     "seqnr": 8,
     "links": [
-      { "name": "Pictorial Key to the Tarot (Eng)", "url": "VII._The_Chariot" },
-      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-de-zegewagen" },
-      { "name": "Kaart en Sterren", "url": "arcana/pagina 07 zegewagen.html" },
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "VII._The_Chariot"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "tarotkaart-de-zegewagen"
+      },
+      {
+        "name": "The Light Seer's Tarot (Eng)",
+        "url": "the-chariot"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "arcana/pagina 07 zegewagen.html"
+      },
       {
         "name": "Le Tarot",
         "url": "tarotkaart-09-de-zegewagen-7-grote-arcana-de-tarot-in-de-herstelde-orde"
       },
-      { "name": "SpiriDoc", "url": "7_de_zegewagen.htm" },
-      { "name": "Orakels", "url": "zegewagen", "broken": "Closed" },
-      { "name": "Catharinaweb", "url": "7.htm" }
+      {
+        "name": "SpiriDoc",
+        "url": "7_de_zegewagen.htm"
+      },
+      {
+        "name": "Orakels",
+        "url": "zegewagen",
+        "broken": "Closed"
+      },
+      {
+        "name": "Catharinaweb",
+        "url": "7.htm"
+      }
     ]
   },
   {
@@ -366,7 +535,10 @@
     "name": "Kracht",
     "comment": "Waite VIII",
     "keyword": "BEHEERSING",
-    "keywords": ["Met respekt omgaan met kracht en emoties", "temmen"],
+    "keywords": [
+      "Met respekt omgaan met kracht en emoties",
+      "temmen"
+    ],
     "invitation": "Een besliste maar zachte hand is nodig.",
     "warning": "Die Leeuw mag best af en toe eens brullen.",
     "symbols": [
@@ -383,15 +555,35 @@
         "name": "Pictorial Key to the Tarot (Eng)",
         "url": "VIII._Strength,_or_Fortitude"
       },
-      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-de-kracht" },
-      { "name": "Kaart en Sterren", "url": "arcana/pagina 08 kracht.html" },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "tarotkaart-de-kracht"
+      },
+      {
+        "name": "The Light Seer's Tarot (Eng)",
+        "url": "strength"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "arcana/pagina 08 kracht.html"
+      },
       {
         "name": "Le Tarot",
         "url": "tarotkaart-13-de-kracht-11-grote-arcana-de-tarot-in-de-herstelde-orde"
       },
-      { "name": "SpiriDoc", "url": "8_kracht.htm" },
-      { "name": "Orakels", "url": "gerechtigheid", "broken": "Closed" },
-      { "name": "Catharinaweb", "url": "11.htm" }
+      {
+        "name": "SpiriDoc",
+        "url": "8_kracht.htm"
+      },
+      {
+        "name": "Orakels",
+        "url": "gerechtigheid",
+        "broken": "Closed"
+      },
+      {
+        "name": "Catharinaweb",
+        "url": "11.htm"
+      }
     ]
   },
   {
@@ -425,19 +617,39 @@
     ],
     "seqnr": 10,
     "links": [
-      { "name": "Pictorial Key to the Tarot (Eng)", "url": "IX._The_Hermit" },
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "IX._The_Hermit"
+      },
       {
         "name": "Tarot Stap voor Stap",
         "url": "tarotkaart-de-kluizenaar-heremiet"
       },
-      { "name": "Kaart en Sterren", "url": "arcana/pagina 09 heremiet.html" },
+      {
+        "name": "The Light Seer's Tarot (Eng)",
+        "url": "the-hermit"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "arcana/pagina 09 heremiet.html"
+      },
       {
         "name": "Le Tarot",
         "url": "tarotkaart-10-de-kluizenaar-8-de-heremiet-grote-arcana-de-tarot-in-de-herstelde-orde"
       },
-      { "name": "SpiriDoc", "url": "9_de_kluizenaar.htm" },
-      { "name": "Orakels", "url": "heremiet", "broken": "Closed" },
-      { "name": "Catharinaweb", "url": "9.htm" }
+      {
+        "name": "SpiriDoc",
+        "url": "9_de_kluizenaar.htm"
+      },
+      {
+        "name": "Orakels",
+        "url": "heremiet",
+        "broken": "Closed"
+      },
+      {
+        "name": "Catharinaweb",
+        "url": "9.htm"
+      }
     ]
   },
   {
@@ -446,7 +658,10 @@
     "name": "Het Rad van Fortuin",
     "comment": "Wiel van Fortuin",
     "keyword": "LOT",
-    "keywords": ["Aanvaarding", "succes of falen."],
+    "keywords": [
+      "Aanvaarding",
+      "succes of falen."
+    ],
     "invitation": "Wie niet waagt die niet wint.",
     "warning": "Je laat teveel aan het toeval over.",
     "symbols": [
@@ -470,6 +685,10 @@
         "url": "tarotkaart-het-rad-van-fortuin"
       },
       {
+        "name": "The Light Seer's Tarot (Eng)",
+        "url": "wheel of fortune"
+      },
+      {
         "name": "Kaart en Sterren",
         "url": "arcana/pagina 10 rad van fortuin.html"
       },
@@ -477,9 +696,19 @@
         "name": "Le Tarot",
         "url": "tarotkaart-24-het-universum-21-grote-arcana-de-tarot-in-de-herstelde-orde"
       },
-      { "name": "SpiriDoc", "url": "10_rad_van_fortuin.htm" },
-      { "name": "Orakels", "url": "rad-van-fortuin", "broken": "Closed" },
-      { "name": "Catharinaweb", "url": "10.htm" }
+      {
+        "name": "SpiriDoc",
+        "url": "10_rad_van_fortuin.htm"
+      },
+      {
+        "name": "Orakels",
+        "url": "rad-van-fortuin",
+        "broken": "Closed"
+      },
+      {
+        "name": "Catharinaweb",
+        "url": "10.htm"
+      }
     ]
   },
   {
@@ -487,7 +716,7 @@
     "number": "VIII",
     "name": "Gerechtigheid",
     "comment": "Waite XI",
-    "keyword": "OORDEEL",
+    "keyword": "INTEGRITEIT",
     "keywords": [
       "oorzaak en gevolg",
       "schuld en boete",
@@ -511,8 +740,18 @@
     ],
     "seqnr": 12,
     "links": [
-      { "name": "Pictorial Key to the Tarot (Eng)", "url": "XI._Justice" },
-      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-gerechtigheid" },
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "XI._Justice"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "tarotkaart-gerechtigheid"
+      },
+      {
+        "name": "The Light Seer's Tarot (Eng)",
+        "url": "justice"
+      },
       {
         "name": "Kaart en Sterren",
         "url": "arcana/pagina 11 gerechtigheid.html"
@@ -521,9 +760,19 @@
         "name": "Le Tarot",
         "url": "tarotkaart-11-de-rechtvaardigheid-9-grote-arcana-de-tarot-in-de-herstelde-orde"
       },
-      { "name": "SpiriDoc", "url": "11_rechtvaardigheid.htm" },
-      { "name": "Orakels", "url": "kracht", "broken": "Closed" },
-      { "name": "Catharinaweb", "url": "8.htm" }
+      {
+        "name": "SpiriDoc",
+        "url": "11_rechtvaardigheid.htm"
+      },
+      {
+        "name": "Orakels",
+        "url": "kracht",
+        "broken": "Closed"
+      },
+      {
+        "name": "Catharinaweb",
+        "url": "8.htm"
+      }
     ]
   },
   {
@@ -555,15 +804,35 @@
         "name": "Pictorial Key to the Tarot (Eng)",
         "url": "XII._The_Hanged_Man"
       },
-      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-de-gehangene" },
-      { "name": "Kaart en Sterren", "url": "arcana/pagina 12 gehangene.html" },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "tarotkaart-de-gehangene"
+      },
+      {
+        "name": "The Light Seer's Tarot (Eng)",
+        "url": "the-hanged man"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "arcana/pagina 12 gehangene.html"
+      },
       {
         "name": "Le Tarot",
         "url": "tarotkaart-14-de-gehangene-12-grote-arcana-de-tarot-in-de-herstelde-orde"
       },
-      { "name": "SpiriDoc", "url": "12_gehangene.htm" },
-      { "name": "Orakels", "url": "gehangene", "broken": "Closed" },
-      { "name": "Catharinaweb", "url": "12.htm" }
+      {
+        "name": "SpiriDoc",
+        "url": "12_gehangene.htm"
+      },
+      {
+        "name": "Orakels",
+        "url": "gehangene",
+        "broken": "Closed"
+      },
+      {
+        "name": "Catharinaweb",
+        "url": "12.htm"
+      }
     ]
   },
   {
@@ -606,16 +875,39 @@
     ],
     "seqnr": 14,
     "links": [
-      { "name": "Pictorial Key to the Tarot (Eng)", "url": "XIII._Death" },
-      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-de-dood" },
-      { "name": "Kaart en Sterren", "url": "arcana/pagina 13 dood.html" },
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "XIII._Death"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "tarotkaart-de-dood"
+      },
+      {
+        "name": "The Light Seer's Tarot (Eng)",
+        "url": "death"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "arcana/pagina 13 dood.html"
+      },
       {
         "name": "Le Tarot",
         "url": "tarotkaart-16-de-dood-14-grote-arcana-de-tarot-in-de-herstelde-orde"
       },
-      { "name": "SpiriDoc", "url": "13_dood.htm" },
-      { "name": "Orakels", "url": "dood", "broken": "Closed" },
-      { "name": "Catharinaweb", "url": "13.htm" }
+      {
+        "name": "SpiriDoc",
+        "url": "13_dood.htm"
+      },
+      {
+        "name": "Orakels",
+        "url": "dood",
+        "broken": "Closed"
+      },
+      {
+        "name": "Catharinaweb",
+        "url": "13.htm"
+      }
     ]
   },
   {
@@ -645,8 +937,18 @@
     ],
     "seqnr": 15,
     "links": [
-      { "name": "Pictorial Key to the Tarot (Eng)", "url": "XIV._Temperance" },
-      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-matigheid" },
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "XIV._Temperance"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "tarotkaart-matigheid"
+      },
+      {
+        "name": "The Light Seer's Tarot (Eng)",
+        "url": "temperance"
+      },
       {
         "name": "Kaart en Sterren",
         "url": "arcana/pagina 14 gematigdheid.html"
@@ -655,9 +957,19 @@
         "name": "Le Tarot",
         "url": "tarotkaart-15-de-gematigdheid-13-grote-arcana-de-tarot-in-de-herstelde-orde"
       },
-      { "name": "SpiriDoc", "url": "14_matigheid.htm" },
-      { "name": "Orakels", "url": "gematigdheid", "broken": "Closed" },
-      { "name": "Catharinaweb", "url": "14.htm" }
+      {
+        "name": "SpiriDoc",
+        "url": "14_matigheid.htm"
+      },
+      {
+        "name": "Orakels",
+        "url": "gematigdheid",
+        "broken": "Closed"
+      },
+      {
+        "name": "Catharinaweb",
+        "url": "14.htm"
+      }
     ]
   },
   {
@@ -691,16 +1003,39 @@
     ],
     "seqnr": 16,
     "links": [
-      { "name": "Pictorial Key to the Tarot (Eng)", "url": "XV._The_Devil" },
-      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-de-duivel" },
-      { "name": "Kaart en Sterren", "url": "arcana/pagina 15 duivel.html" },
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "XV._The_Devil"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "tarotkaart-de-duivel"
+      },
+      {
+        "name": "The Light Seer's Tarot (Eng)",
+        "url": "the-devil"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "arcana/pagina 15 duivel.html"
+      },
       {
         "name": "Le Tarot",
         "url": "tarotkaart-17-de-duivel-15-grote-arcana-de-tarot-in-de-herstelde-orde"
       },
-      { "name": "SpiriDoc", "url": "15_de_duivel.htm" },
-      { "name": "Orakels", "url": "duivel", "broken": "Closed" },
-      { "name": "Catharinaweb", "url": "15.htm" }
+      {
+        "name": "SpiriDoc",
+        "url": "15_de_duivel.htm"
+      },
+      {
+        "name": "Orakels",
+        "url": "duivel",
+        "broken": "Closed"
+      },
+      {
+        "name": "Catharinaweb",
+        "url": "15.htm"
+      }
     ]
   },
   {
@@ -733,16 +1068,39 @@
     ],
     "seqnr": 17,
     "links": [
-      { "name": "Pictorial Key to the Tarot (Eng)", "url": "XVI._The_Tower" },
-      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-de-toren" },
-      { "name": "Kaart en Sterren", "url": "arcana/pagina 16 toren.html" },
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "XVI._The_Tower"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "tarotkaart-de-toren"
+      },
+      {
+        "name": "The Light Seer's Tarot (Eng)",
+        "url": "the tower"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "arcana/pagina 16 toren.html"
+      },
       {
         "name": "Le Tarot",
         "url": "tarotkaart-19-de-toren-16-grote-arcana-de-tarot-in-de-herstelde-orde"
       },
-      { "name": "SpiriDoc", "url": "16_de_toren.htm" },
-      { "name": "Orakels", "url": "toren", "broken": "Closed" },
-      { "name": "Catharinaweb", "url": "16.htm" }
+      {
+        "name": "SpiriDoc",
+        "url": "16_de_toren.htm"
+      },
+      {
+        "name": "Orakels",
+        "url": "toren",
+        "broken": "Closed"
+      },
+      {
+        "name": "Catharinaweb",
+        "url": "16.htm"
+      }
     ]
   },
   {
@@ -769,16 +1127,39 @@
     ],
     "seqnr": 18,
     "links": [
-      { "name": "Pictorial Key to the Tarot (Eng)", "url": "XVII._The_Star" },
-      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-de-ster" },
-      { "name": "Kaart en Sterren", "url": "arcana/pagina 17 ster.html" },
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "XVII._The_Star"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "tarotkaart-de-ster"
+      },
+      {
+        "name": "The Light Seer's Tarot (Eng)",
+        "url": "the-star"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "arcana/pagina 17 ster.html"
+      },
       {
         "name": "Le Tarot",
         "url": "tarotkaart-21-de-ster-18-grote-arcana-de-tarot-in-de-herstelde-orde"
       },
-      { "name": "SpiriDoc", "url": "17_de_ster.htm" },
-      { "name": "Orakels", "url": "ster", "broken": "Closed" },
-      { "name": "Catharinaweb", "url": "17.htm" }
+      {
+        "name": "SpiriDoc",
+        "url": "17_de_ster.htm"
+      },
+      {
+        "name": "Orakels",
+        "url": "ster",
+        "broken": "Closed"
+      },
+      {
+        "name": "Catharinaweb",
+        "url": "17.htm"
+      }
     ]
   },
   {
@@ -811,16 +1192,39 @@
     ],
     "seqnr": 19,
     "links": [
-      { "name": "Pictorial Key to the Tarot (Eng)", "url": "XVIII._The_Moon" },
-      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-de-maan" },
-      { "name": "Kaart en Sterren", "url": "arcana/pagina 18 maan.html" },
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "XVIII._The_Moon"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "tarotkaart-de-maan"
+      },
+      {
+        "name": "The Light Seer's Tarot (Eng)",
+        "url": "the-moon"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "arcana/pagina 18 maan.html"
+      },
       {
         "name": "Le Tarot",
         "url": "tarotkaart-20-de-maan-17-grote-arcana-de-tarot-in-de-herstelde-orde"
       },
-      { "name": "SpiriDoc", "url": "18_de_maan.htm" },
-      { "name": "Orakels", "url": "zon", "broken": "Closed" },
-      { "name": "Catharinaweb", "url": "18.htm" }
+      {
+        "name": "SpiriDoc",
+        "url": "18_de_maan.htm"
+      },
+      {
+        "name": "Orakels",
+        "url": "zon",
+        "broken": "Closed"
+      },
+      {
+        "name": "Catharinaweb",
+        "url": "18.htm"
+      }
     ]
   },
   {
@@ -850,16 +1254,39 @@
     ],
     "seqnr": 20,
     "links": [
-      { "name": "Pictorial Key to the Tarot (Eng)", "url": "XIX._The_Sun" },
-      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-de-zon" },
-      { "name": "Kaart en Sterren", "url": "arcana/pagina 19 zon.html" },
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "XIX._The_Sun"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "tarotkaart-de-zon"
+      },
+      {
+        "name": "The Light Seer's Tarot (Eng)",
+        "url": "the-sun"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "arcana/pagina 19 zon.html"
+      },
       {
         "name": "Le Tarot",
         "url": "tarotkaart-22-de-zon-19-grote-arcana-de-tarot-in-de-herstelde-orde"
       },
-      { "name": "SpiriDoc", "url": "19_de_zon.htm" },
-      { "name": "Orakels", "url": "maan", "broken": "Closed" },
-      { "name": "Catharinaweb", "url": "19.htm" }
+      {
+        "name": "SpiriDoc",
+        "url": "19_de_zon.htm"
+      },
+      {
+        "name": "Orakels",
+        "url": "maan",
+        "broken": "Closed"
+      },
+      {
+        "name": "Catharinaweb",
+        "url": "19.htm"
+      }
     ]
   },
   {
@@ -867,7 +1294,11 @@
     "number": "XX",
     "name": "Het Oordeel",
     "keyword": "VERLOSSING",
-    "keywords": ["Transformatie", "het laatste oordeel", "verrijzenis"],
+    "keywords": [
+      "Transformatie",
+      "het laatste oordeel",
+      "verrijzenis"
+    ],
     "invitation": "Laat het verleden los.",
     "warning": "Waar heb je je de hele tijd van afgesloten?",
     "symbols": [
@@ -890,15 +1321,35 @@
         "name": "Pictorial Key to the Tarot (Eng)",
         "url": "XX._The_Last_Judgment"
       },
-      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-het-oordeel" },
-      { "name": "Kaart en Sterren", "url": "arcana/pagina 20 oordeel.html" },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "tarotkaart-het-oordeel"
+      },
+      {
+        "name": "The Light Seer's Tarot (Eng)",
+        "url": "judgement"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "arcana/pagina 20 oordeel.html"
+      },
       {
         "name": "Le Tarot",
         "url": "tarotkaart-23-het-laatste-oordeel-20-grote-arcana-de-tarot-in-de-herstelde-orde"
       },
-      { "name": "SpiriDoc", "url": "2_het_oordeel.htm" },
-      { "name": "Orakels", "url": "oordeel", "broken": "Closed" },
-      { "name": "Catharinaweb", "url": "20.htm" }
+      {
+        "name": "SpiriDoc",
+        "url": "2_het_oordeel.htm"
+      },
+      {
+        "name": "Orakels",
+        "url": "oordeel",
+        "broken": "Closed"
+      },
+      {
+        "name": "Catharinaweb",
+        "url": "20.htm"
+      }
     ]
   },
   {
@@ -923,23 +1374,51 @@
     ],
     "seqnr": 22,
     "links": [
-      { "name": "Pictorial Key to the Tarot (Eng)", "url": "XXI._The_World" },
-      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-de-wereld" },
-      { "name": "Kaart en Sterren", "url": "arcana/pagina 21 wereld.html" },
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "XXI._The_World"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "tarotkaart-de-wereld"
+      },
+      {
+        "name": "The Light Seer's Tarot (Eng)",
+        "url": "the-world"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "arcana/pagina 21 wereld.html"
+      },
       {
         "name": "Le Tarot",
         "url": "tarotkaart-12-de-wereld-10-het-rad-van-fortuin-grote-arcana-de-tarot-in-de-herstelde-orde"
       },
-      { "name": "SpiriDoc", "url": "21_de_wereld.htm" },
-      { "name": "Orakels", "url": "wereld", "broken": "Closed" },
-      { "name": "Catharinaweb", "url": "21.htm" }
+      {
+        "name": "SpiriDoc",
+        "url": "21_de_wereld.htm"
+      },
+      {
+        "name": "Orakels",
+        "url": "wereld",
+        "broken": "Closed"
+      },
+      {
+        "name": "Catharinaweb",
+        "url": "21.htm"
+      }
     ]
   },
   {
     "suite": "Staven",
     "name": "Aas",
     "keyword": "INSPIRATIE",
-    "keywords": ["visie", "enthousiasme", "vitaliteit", "initiatief"],
+    "keywords": [
+      "visie",
+      "enthousiasme",
+      "vitaliteit",
+      "initiatief"
+    ],
     "invitation": "Sta open om te groeien",
     "warning": "Wat doe ik aan mijn ontplooiing?",
     "symbols": [
@@ -953,22 +1432,45 @@
     ],
     "seqnr": 23,
     "links": [
-      { "name": "Pictorial Key to the Tarot (Eng)", "url": "Ace_of_Wands" },
-      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-staven-aas" },
-      { "name": "Kaart en Sterren", "url": "staven/pagina staven 01.html" },
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "Ace_of_Wands"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "tarotkaart-staven-aas"
+      },
+      {
+        "name": "The Light Seer's Tarot (Eng)",
+        "url": "ace-of-wands"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "staven/pagina staven 01.html"
+      },
       {
         "name": "Le Tarot",
         "url": "tarotkaart-43-staven-1-aas-stokken-scepters-knotsen-of-batons-kleine-arcana"
       },
-      { "name": "Orakels", "url": "aas-van-staven", "broken": "Closed" },
-      { "name": "Catharinaweb", "url": "s1.htm" }
+      {
+        "name": "Orakels",
+        "url": "aas-van-staven",
+        "broken": "Closed"
+      },
+      {
+        "name": "Catharinaweb",
+        "url": "s1.htm"
+      }
     ]
   },
   {
     "suite": "Staven",
     "number": "II",
     "keyword": "BROEDEN",
-    "keywords": ["pionieren", "opties afwegen"],
+    "keywords": [
+      "pionieren",
+      "opties afwegen"
+    ],
     "invitation": "Alle begin is moeilijk.",
     "warning": "Vernieuwing is nog geen verbetering.",
     "symbols": [
@@ -984,15 +1486,35 @@
     ],
     "seqnr": 24,
     "links": [
-      { "name": "Pictorial Key to the Tarot (Eng)", "url": "Two_of_Wands" },
-      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-staven-twee" },
-      { "name": "Kaart en Sterren", "url": "staven/pagina staven 02.html" },
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "Two_of_Wands"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "tarotkaart-staven-twee"
+      },
+      {
+        "name": "The Light Seer's Tarot (Eng)",
+        "url": "2-of-wands"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "staven/pagina staven 02.html"
+      },
       {
         "name": "Le Tarot",
         "url": "tarotkaart-44-staven-2-twee-stokken-scepters-knotsen-of-batons-kleine-arcana"
       },
-      { "name": "Orakels", "url": "staven-twee", "broken": "Closed" },
-      { "name": "Catharinaweb", "url": "s2.htm" }
+      {
+        "name": "Orakels",
+        "url": "staven-twee",
+        "broken": "Closed"
+      },
+      {
+        "name": "Catharinaweb",
+        "url": "s2.htm"
+      }
     ]
   },
   {
@@ -1018,15 +1540,35 @@
     ],
     "seqnr": 25,
     "links": [
-      { "name": "Pictorial Key to the Tarot (Eng)", "url": "Three_of_Wands" },
-      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-staven-drie" },
-      { "name": "Kaart en Sterren", "url": "staven/pagina staven 03.html" },
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "Three_of_Wands"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "tarotkaart-staven-drie"
+      },
+      {
+        "name": "The Light Seer's Tarot (Eng)",
+        "url": "3-of-wands"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "staven/pagina staven 03.html"
+      },
       {
         "name": "Le Tarot",
         "url": "tarotkaart-45-staven-3-drie-stokken-scepters-knotsen-of-batons-kleine-arcana"
       },
-      { "name": "Orakels", "url": "staven-drie", "broken": "Closed" },
-      { "name": "Catharinaweb", "url": "s3.htm" }
+      {
+        "name": "Orakels",
+        "url": "staven-drie",
+        "broken": "Closed"
+      },
+      {
+        "name": "Catharinaweb",
+        "url": "s3.htm"
+      }
     ]
   },
   {
@@ -1050,28 +1592,61 @@
     ],
     "seqnr": 26,
     "links": [
-      { "name": "Pictorial Key to the Tarot (Eng)", "url": "Four_of_Wands" },
-      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-staven-vier" },
-      { "name": "Kaart en Sterren", "url": "staven/pagina staven 04.html" },
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "Four_of_Wands"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "tarotkaart-staven-vier"
+      },
+      {
+        "name": "The Light Seer's Tarot (Eng)",
+        "url": "4-of-wands"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "staven/pagina staven 04.html"
+      },
       {
         "name": "Le Tarot",
         "url": "tarotkaart-46-staven-4-vier-stokken-scepters-knotsen-of-batons-kleine-arcana"
       },
-      { "name": "Orakels", "url": "staven-vier", "broken": "Closed" },
-      { "name": "Catharinaweb", "url": "s4.htm" }
+      {
+        "name": "Orakels",
+        "url": "staven-vier",
+        "broken": "Closed"
+      },
+      {
+        "name": "Catharinaweb",
+        "url": "s4.htm"
+      }
     ]
   },
   {
     "suite": "Staven",
     "number": "V",
     "keyword": "WEDIJVEREN",
-    "keywords": ["schijngevecht", "rellen"],
+    "keywords": [
+      "schijngevecht",
+      "rellen"
+    ],
     "invitation": "Laat je niet zomaar opzij zetten",
     "warning": "Blijf niet hangen in gekissebis.",
     "seqnr": 27,
     "links": [
-      { "name": "Pictorial Key to the Tarot (Eng)", "url": "Five_of_Wands" },
-      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-staven-vijf" },
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "Five_of_Wands"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "tarotkaart-staven-vijf"
+      },
+      {
+        "name": "The Light Seer's Tarot (Eng)",
+        "url": "5-of-wands"
+      },
       {
         "name": "Kaart en Sterren",
         "url": "tarotkaart-staven-vijf/",
@@ -1081,8 +1656,15 @@
         "name": "Le Tarot",
         "url": "tarotkaart-47-staven-5-vijf-stokken-scepters-knotsen-of-batons-kleine-arcana"
       },
-      { "name": "Orakels", "url": "staven-vijf", "broken": "Closed" },
-      { "name": "Catharinaweb", "url": "s5.htm" }
+      {
+        "name": "Orakels",
+        "url": "staven-vijf",
+        "broken": "Closed"
+      },
+      {
+        "name": "Catharinaweb",
+        "url": "s5.htm"
+      }
     ]
   },
   {
@@ -1098,18 +1680,42 @@
     ],
     "invitation": "Stel je op als een leider",
     "warning": "Eén zwaluw maakt nog geen zomer",
-    "symbols": ["groen kleed", "lauwerkrans", "paard"],
+    "symbols": [
+      "groen kleed",
+      "lauwerkrans",
+      "paard"
+    ],
     "seqnr": 28,
     "links": [
-      { "name": "Pictorial Key to the Tarot (Eng)", "url": "Six_of_Wands" },
-      { "name": "Tarot Stap voor Stap", "url": "tarotkaarten-staven-zes/" },
-      { "name": "Kaart en Sterren", "url": "staven/pagina staven 06.html" },
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "Six_of_Wands"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "tarotkaarten-staven-zes/"
+      },
+      {
+        "name": "The Light Seer's Tarot (Eng)",
+        "url": "6-of-wands"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "staven/pagina staven 06.html"
+      },
       {
         "name": "Le Tarot",
         "url": "tarotkaart-48-staven-6-zes-stokken-scepters-knotsen-of-batons-kleine-arcana"
       },
-      { "name": "Orakels", "url": "staven-zes", "broken": "Closed" },
-      { "name": "Catharinaweb", "url": "s6.htm" }
+      {
+        "name": "Orakels",
+        "url": "staven-zes",
+        "broken": "Closed"
+      },
+      {
+        "name": "Catharinaweb",
+        "url": "s6.htm"
+      }
     ]
   },
   {
@@ -1124,18 +1730,41 @@
     ],
     "invitation": "Neem het voor jezelf op.",
     "warning": "Vraag niet voortdurend goedkeuring. Doe het gewoon!",
-    "symbols": ["stroom", "heuvels"],
+    "symbols": [
+      "stroom",
+      "heuvels"
+    ],
     "seqnr": 29,
     "links": [
-      { "name": "Pictorial Key to the Tarot (Eng)", "url": "Seven_of_Wands" },
-      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-staven-zeven" },
-      { "name": "Kaart en Sterren", "url": "staven/pagina staven 07.html" },
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "Seven_of_Wands"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "tarotkaart-staven-zeven"
+      },
+      {
+        "name": "The Light Seer's Tarot (Eng)",
+        "url": "7-of-wands"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "staven/pagina staven 07.html"
+      },
       {
         "name": "Le Tarot",
         "url": "tarotkaart-49-staven-7-zeven-stokken-scepters-knotsen-of-batons-kleine-arcana"
       },
-      { "name": "Orakels", "url": "staven-zeven", "broken": "Closed" },
-      { "name": "Catharinaweb", "url": "s7.htm" }
+      {
+        "name": "Orakels",
+        "url": "staven-zeven",
+        "broken": "Closed"
+      },
+      {
+        "name": "Catharinaweb",
+        "url": "s7.htm"
+      }
     ]
   },
   {
@@ -1151,18 +1780,43 @@
     ],
     "invitation": "Laat je meevoeren",
     "warning": "Blijf zelf aan het roer",
-    "symbols": ["stroom", "heuvels", "linksboven", "rechtsonder"],
+    "symbols": [
+      "stroom",
+      "heuvels",
+      "linksboven",
+      "rechtsonder"
+    ],
     "seqnr": 30,
     "links": [
-      { "name": "Pictorial Key to the Tarot (Eng)", "url": "Eight_of_Wands" },
-      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-staven-acht" },
-      { "name": "Kaart en Sterren", "url": "staven/pagina staven 08.html" },
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "Eight_of_Wands"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "tarotkaart-staven-acht"
+      },
+      {
+        "name": "The Light Seer's Tarot (Eng)",
+        "url": "8-of-wands"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "staven/pagina staven 08.html"
+      },
       {
         "name": "Le Tarot",
         "url": "tarotkaart-50-staven-8-acht-stokken-scepters-of-batons-kleine-arcana"
       },
-      { "name": "Orakels", "url": "staven-acht", "broken": "Closed" },
-      { "name": "Catharinaweb", "url": "s8.htm" }
+      {
+        "name": "Orakels",
+        "url": "staven-acht",
+        "broken": "Closed"
+      },
+      {
+        "name": "Catharinaweb",
+        "url": "s8.htm"
+      }
     ]
   },
   {
@@ -1178,18 +1832,41 @@
     ],
     "invitation": "Bekijk het eens uit het perspectief van de ander",
     "warning": "Is de dreiging wel echt?",
-    "symbols": ["muur", "podium"],
+    "symbols": [
+      "muur",
+      "podium"
+    ],
     "seqnr": 31,
     "links": [
-      { "name": "Pictorial Key to the Tarot (Eng)", "url": "Nine_of_Wands" },
-      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-staven-negen" },
-      { "name": "Kaart en Sterren", "url": "staven/pagina staven 09.html" },
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "Nine_of_Wands"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "tarotkaart-staven-negen"
+      },
+      {
+        "name": "The Light Seer's Tarot (Eng)",
+        "url": "9-of-wands"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "staven/pagina staven 09.html"
+      },
       {
         "name": "Le Tarot",
         "url": "tarotkaart-51-staven-9-negen-stokken-scepters-knotsen-of-batons-kleine-arcana"
       },
-      { "name": "Orakels", "url": "staven-negen", "broken": "Closed" },
-      { "name": "Catharinaweb", "url": "s9.htm" }
+      {
+        "name": "Orakels",
+        "url": "staven-negen",
+        "broken": "Closed"
+      },
+      {
+        "name": "Catharinaweb",
+        "url": "s9.htm"
+      }
     ]
   },
   {
@@ -1204,18 +1881,42 @@
     ],
     "invitation": "Wie kan je helpen om deze last te dragen?",
     "warning": "Laat op tijd los",
-    "symbols": ["akker", "stadsmuur", "podium"],
+    "symbols": [
+      "akker",
+      "stadsmuur",
+      "podium"
+    ],
     "seqnr": 32,
     "links": [
-      { "name": "Pictorial Key to the Tarot (Eng)", "url": "Ten_of_Wands" },
-      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-staven-tien" },
-      { "name": "Kaart en Sterren", "url": "staven/pagina staven 10.html" },
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "Ten_of_Wands"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "tarotkaart-staven-tien"
+      },
+      {
+        "name": "The Light Seer's Tarot (Eng)",
+        "url": "10-of-wands"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "staven/pagina staven 10.html"
+      },
       {
         "name": "Le Tarot",
         "url": "tarotkaart-52-staven-10-tien-stokken-scepters-knotsen-of-batons-kleine-arcana"
       },
-      { "name": "Orakels", "url": "staven-tien", "broken": "Closed" },
-      { "name": "Catharinaweb", "url": "s10.htm" }
+      {
+        "name": "Orakels",
+        "url": "staven-tien",
+        "broken": "Closed"
+      },
+      {
+        "name": "Catharinaweb",
+        "url": "s10.htm"
+      }
     ]
   },
   {
@@ -1229,13 +1930,26 @@
     ],
     "invitation": "Grijp je kans!",
     "warning": "Pas op voor (te) mooie verhalen",
-    "symbols": ["heuvels", "pyramide", "rood kleed", "geel kleed", "blauw"],
+    "symbols": [
+      "heuvels",
+      "pyramide",
+      "rood kleed",
+      "geel kleed",
+      "blauw"
+    ],
     "seqnr": 33,
     "links": [
-      { "name": "Pictorial Key to the Tarot (Eng)", "url": "Page_of_Wands" },
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "Page_of_Wands"
+      },
       {
         "name": "Tarot Stap voor Stap",
         "url": "tarotkaart-staven-schildknaap"
+      },
+      {
+        "name": "The Light Seer's Tarot (Eng)",
+        "url": "page-of-wands"
       },
       {
         "name": "Kaart en Sterren",
@@ -1250,14 +1964,20 @@
         "url": "schildknaap-van-staven",
         "broken": "Closed"
       },
-      { "name": "Catharinaweb", "url": "s11.htm" }
+      {
+        "name": "Catharinaweb",
+        "url": "s11.htm"
+      }
     ]
   },
   {
     "suite": "Staven",
     "name": "Ridder",
     "keyword": "VURIG",
-    "keywords": ["idealen koesteren", "overtuigingskracht."],
+    "keywords": [
+      "idealen koesteren",
+      "overtuigingskracht."
+    ],
     "invitation": "Laat jezelf eens lekker gaan",
     "warning": "Wie/wat zet je in vuur en vlam?",
     "symbols": [
@@ -1271,8 +1991,18 @@
     ],
     "seqnr": 34,
     "links": [
-      { "name": "Pictorial Key to the Tarot (Eng)", "url": "Knight_of_Wands" },
-      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-staven-ridder" },
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "Knight_of_Wands"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "tarotkaart-staven-ridder"
+      },
+      {
+        "name": "The Light Seer's Tarot (Eng)",
+        "url": "knight-of-wands"
+      },
       {
         "name": "Kaart en Sterren",
         "url": "staven/pagina%20staven%20ridder.html"
@@ -1281,8 +2011,15 @@
         "name": "Le Tarot",
         "url": "tarotkaart-41-staven-ridder-hofkaart-stokken-scepters-knotsen-of-batons-kleine-arcana"
       },
-      { "name": "Orakels", "url": "ridder-van-staven", "broken": "Closed" },
-      { "name": "Catharinaweb", "url": "s12.htm" }
+      {
+        "name": "Orakels",
+        "url": "ridder-van-staven",
+        "broken": "Closed"
+      },
+      {
+        "name": "Catharinaweb",
+        "url": "s12.htm"
+      }
     ]
   },
   {
@@ -1310,8 +2047,18 @@
     ],
     "seqnr": 35,
     "links": [
-      { "name": "Pictorial Key to the Tarot (Eng)", "url": "Queen_of_Wands" },
-      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-staven-koningin" },
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "Queen_of_Wands"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "tarotkaart-staven-koningin"
+      },
+      {
+        "name": "The Light Seer's Tarot (Eng)",
+        "url": "queen-of-wands"
+      },
       {
         "name": "Kaart en Sterren",
         "url": "staven/pagina%20staven%20koningin.html"
@@ -1320,8 +2067,15 @@
         "name": "Le Tarot",
         "url": "tarotkaart-40-staven-koningin-hofkaart-stokken-scepters-knotsen-of-batons-kleine-arcana"
       },
-      { "name": "Orakels", "url": "koningin-van-staven", "broken": "Closed" },
-      { "name": "Catharinaweb", "url": "s13.htm" }
+      {
+        "name": "Orakels",
+        "url": "koningin-van-staven",
+        "broken": "Closed"
+      },
+      {
+        "name": "Catharinaweb",
+        "url": "s13.htm"
+      }
     ]
   },
   {
@@ -1352,8 +2106,18 @@
     ],
     "seqnr": 36,
     "links": [
-      { "name": "Pictorial Key to the Tarot (Eng)", "url": "King_of_Wands" },
-      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-staven-koning" },
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "King_of_Wands"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "tarotkaart-staven-koning"
+      },
+      {
+        "name": "The Light Seer's Tarot (Eng)",
+        "url": "king-of-wands"
+      },
       {
         "name": "Kaart en Sterren",
         "url": "staven/pagina%20staven%20koning.html"
@@ -1362,15 +2126,27 @@
         "name": "Le Tarot",
         "url": "tarotkaart-39-staven-koning-hofkaart-stokken-scepters-knotsen-of-batons-kleine-arcana"
       },
-      { "name": "Orakels", "url": "koning-van-staven", "broken": "Closed" },
-      { "name": "Catharinaweb", "url": "s14.htm" }
+      {
+        "name": "Orakels",
+        "url": "koning-van-staven",
+        "broken": "Closed"
+      },
+      {
+        "name": "Catharinaweb",
+        "url": "s14.htm"
+      }
     ]
   },
   {
     "suite": "Pentakels",
     "name": "Aas",
     "keyword": "POTENTIE",
-    "keywords": ["kunde", "tot stand brengen", "realisme", "waarde"],
+    "keywords": [
+      "kunde",
+      "tot stand brengen",
+      "realisme",
+      "waarde"
+    ],
     "invitation": "Hoe kan je deze kans verzilveren?",
     "warning": "Lever een constructieve bijdrage.",
     "symbols": [
@@ -1387,10 +2163,17 @@
     ],
     "seqnr": 37,
     "links": [
-      { "name": "Pictorial Key to the Tarot (Eng)", "url": "Ace_of_Pentacles" },
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "Ace_of_Pentacles"
+      },
       {
         "name": "Tarot Stap voor Stap",
         "url": "rider-waite-tarotkaart-pentakels-aas/"
+      },
+      {
+        "name": "The Light Seer's Tarot (Eng)",
+        "url": "ace-of-pentacles"
       },
       {
         "name": "Kaart en Sterren",
@@ -1400,8 +2183,15 @@
         "name": "Le Tarot",
         "url": "tarotkaart-29-pentagrammen-1-aas-munten-pentakels-of-schijven-kleine-arcana"
       },
-      { "name": "Orakels", "url": "aas-van-pentakels", "broken": "Closed" },
-      { "name": "Catharinaweb", "url": "p1.htm" }
+      {
+        "name": "Orakels",
+        "url": "aas-van-pentakels",
+        "broken": "Closed"
+      },
+      {
+        "name": "Catharinaweb",
+        "url": "p1.htm"
+      }
     ]
   },
   {
@@ -1416,13 +2206,27 @@
     ],
     "invitation": "Speel met je mogelijkheden",
     "warning": "Je kan niet alle opties open houden",
-    "symbols": ["lemniscaat", "golven", "boot", "jonge man", "blauw", "podium"],
+    "symbols": [
+      "lemniscaat",
+      "golven",
+      "boot",
+      "jonge man",
+      "blauw",
+      "podium"
+    ],
     "seqnr": 38,
     "links": [
-      { "name": "Pictorial Key to the Tarot (Eng)", "url": "Two_of_Pentacles" },
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "Two_of_Pentacles"
+      },
       {
         "name": "Tarot Stap voor Stap",
         "url": "rider-waite-tarotkaart-pentakels-twee"
+      },
+      {
+        "name": "The Light Seer's Tarot (Eng)",
+        "url": "2-of-pentacles"
       },
       {
         "name": "Kaart en Sterren",
@@ -1432,8 +2236,15 @@
         "name": "Le Tarot",
         "url": "tarotkaart-30-pentagrammen-2-twee-munten-pentakels-of-schijven-2-kleine-arcana"
       },
-      { "name": "Orakels", "url": "pentakels-twee", "broken": "Closed" },
-      { "name": "Catharinaweb", "url": "p2.htm" }
+      {
+        "name": "Orakels",
+        "url": "pentakels-twee",
+        "broken": "Closed"
+      },
+      {
+        "name": "Catharinaweb",
+        "url": "p2.htm"
+      }
     ]
   },
   {
@@ -1450,7 +2261,13 @@
     ],
     "invitation": "Waarmee kan je jezelf bewijzen?",
     "warning": "Sta open voor feedback",
-    "symbols": ["bank", "monnik", "hamer", "grijs", "zwart"],
+    "symbols": [
+      "bank",
+      "monnik",
+      "hamer",
+      "grijs",
+      "zwart"
+    ],
     "seqnr": 39,
     "links": [
       {
@@ -1462,6 +2279,10 @@
         "url": "rider-waite-tarotkaart-pentakels-drie"
       },
       {
+        "name": "The Light Seer's Tarot (Eng)",
+        "url": "3-of-pentacles"
+      },
+      {
         "name": "Kaart en Sterren",
         "url": "pentakels/pagina pentakels 03.html"
       },
@@ -1469,18 +2290,33 @@
         "name": "Le Tarot",
         "url": "tarotkaart-31-pentagrammen-3-drie-munten-pentakels-of-schijven-kleine-arcana"
       },
-      { "name": "Orakels", "url": "pentakels-drie", "broken": "Closed" },
-      { "name": "Catharinaweb", "url": "p3.htm" }
+      {
+        "name": "Orakels",
+        "url": "pentakels-drie",
+        "broken": "Closed"
+      },
+      {
+        "name": "Catharinaweb",
+        "url": "p3.htm"
+      }
     ]
   },
   {
     "suite": "Pentakels",
     "number": "IV",
     "keyword": "VASTHOUDEN",
-    "keywords": ["houden wat je hebt", "energiestroom blokkeren", "hebzucht"],
+    "keywords": [
+      "houden wat je hebt",
+      "energiestroom blokkeren",
+      "hebzucht"
+    ],
     "invitation": "Wees zuinig op je mogelijkheden.",
     "warning": "Wat probeer je te krampachtig vast te houden?",
-    "symbols": ["toren", "paars", "podium"],
+    "symbols": [
+      "toren",
+      "paars",
+      "podium"
+    ],
     "seqnr": 40,
     "links": [
       {
@@ -1492,6 +2328,10 @@
         "url": "rider-waite-tarotkaart-pentakels-vier"
       },
       {
+        "name": "The Light Seer's Tarot (Eng)",
+        "url": "4-of-pentacles"
+      },
+      {
         "name": "Kaart en Sterren",
         "url": "pentakels/pagina pentakels 04.html"
       },
@@ -1499,8 +2339,15 @@
         "name": "Le Tarot",
         "url": "tarotkaart-32-pentagrammen-4-vier-munten-pentakels-of-schijven-kleine-arcana"
       },
-      { "name": "Orakels", "url": "pentakels-vier", "broken": "Closed" },
-      { "name": "Catharinaweb", "url": "p4.htm" }
+      {
+        "name": "Orakels",
+        "url": "pentakels-vier",
+        "broken": "Closed"
+      },
+      {
+        "name": "Catharinaweb",
+        "url": "p4.htm"
+      }
     ]
   },
   {
@@ -1515,7 +2362,9 @@
     ],
     "invitation": "Wat heb je echt nodig?",
     "warning": "Angst is een slechte raadgever.",
-    "symbols": ["bel"],
+    "symbols": [
+      "bel"
+    ],
     "seqnr": 41,
     "links": [
       {
@@ -1527,6 +2376,10 @@
         "url": "rider-waite-tarotkaart-pentakels-vijf"
       },
       {
+        "name": "The Light Seer's Tarot (Eng)",
+        "url": "5-of-pentacles"
+      },
+      {
         "name": "Kaart en Sterren",
         "url": "pentakels/pagina pentakels 05.html"
       },
@@ -1534,15 +2387,26 @@
         "name": "Le Tarot",
         "url": "tarotkaart-33-pentagrammen-5-vijf-munten-pentakels-of-schijven-kleine-arcana"
       },
-      { "name": "Orakels", "url": "pentakels-vijf", "broken": "Closed" },
-      { "name": "Catharinaweb", "url": "p5.htm" }
+      {
+        "name": "Orakels",
+        "url": "pentakels-vijf",
+        "broken": "Closed"
+      },
+      {
+        "name": "Catharinaweb",
+        "url": "p5.htm"
+      }
     ]
   },
   {
     "suite": "Pentakels",
     "number": "VI",
     "keyword": "BEDELEN",
-    "keywords": ["Bedelen vs beDElen", "arm vs rijk", "zaaien"],
+    "keywords": [
+      "Bedelen vs beDElen",
+      "arm vs rijk",
+      "zaaien"
+    ],
     "invitation": "Delen = vermenigvuldigen",
     "warning": "Ben je bereid hulp te accepteren?",
     "symbols": [
@@ -1557,10 +2421,17 @@
     ],
     "seqnr": 42,
     "links": [
-      { "name": "Pictorial Key to the Tarot (Eng)", "url": "Six_of_Pentacles" },
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "Six_of_Pentacles"
+      },
       {
         "name": "Tarot Stap voor Stap",
         "url": "rider-waite-tarotkaart-pentakels-zes"
+      },
+      {
+        "name": "The Light Seer's Tarot (Eng)",
+        "url": "6-of-pentacles"
       },
       {
         "name": "Kaart en Sterren",
@@ -1570,18 +2441,32 @@
         "name": "Le Tarot",
         "url": "tarotkaart-34-pentagrammen-6-zes-munten-pentakels-of-schijven-kleine-arcana"
       },
-      { "name": "Orakels", "url": "pentakels-zes", "broken": "Closed" },
-      { "name": "Catharinaweb", "url": "p6.htm" }
+      {
+        "name": "Orakels",
+        "url": "pentakels-zes",
+        "broken": "Closed"
+      },
+      {
+        "name": "Catharinaweb",
+        "url": "p6.htm"
+      }
     ]
   },
   {
     "suite": "Pentakels",
     "number": "VII",
     "keyword": "VERLANGEN",
-    "keywords": ["ongeduld", "onvrede", "beheren"],
+    "keywords": [
+      "ongeduld",
+      "onvrede",
+      "beheren"
+    ],
     "invitation": "Kijk het nog even aan. Zie je voortgang.",
     "warning": "Blijf niet toekijken",
-    "symbols": ["schoffel", "paars"],
+    "symbols": [
+      "schoffel",
+      "paars"
+    ],
     "seqnr": 43,
     "links": [
       {
@@ -1593,6 +2478,10 @@
         "url": "rider-waite-tarotkaart-pentakels-zeven"
       },
       {
+        "name": "The Light Seer's Tarot (Eng)",
+        "url": "7-of-pentacles"
+      },
+      {
         "name": "Kaart en Sterren",
         "url": "pentakels/pagina pentakels 07.html"
       },
@@ -1600,18 +2489,34 @@
         "name": "Le Tarot",
         "url": "tarotkaart-35-pentagrammen-7-zeven-munten-pentakels-of-schijven-kleine-arcana"
       },
-      { "name": "Orakels", "url": "pentakels-zeven", "broken": "Closed" },
-      { "name": "Catharinaweb", "url": "p7.htm" }
+      {
+        "name": "Orakels",
+        "url": "pentakels-zeven",
+        "broken": "Closed"
+      },
+      {
+        "name": "Catharinaweb",
+        "url": "p7.htm"
+      }
     ]
   },
   {
     "suite": "Pentakels",
     "number": "VIII",
     "keyword": "IJVEREN",
-    "keywords": ["oefening baart kunst", "nederig werk", "ambachten"],
+    "keywords": [
+      "oefening baart kunst",
+      "nederig werk",
+      "ambachten"
+    ],
     "invitation": "Wat zou je willen leren?",
     "warning": "Moet je niet eens iets nieuws proberen?",
-    "symbols": ["bank", "hamer", "geel", "podium"],
+    "symbols": [
+      "bank",
+      "hamer",
+      "geel",
+      "podium"
+    ],
     "seqnr": 44,
     "links": [
       {
@@ -1623,6 +2528,10 @@
         "url": "rider-waite-tarotkaart-pentakels-acht"
       },
       {
+        "name": "The Light Seer's Tarot (Eng)",
+        "url": "8-of-pentacles"
+      },
+      {
         "name": "Kaart en Sterren",
         "url": "pentakels/pagina pentakels 08.html"
       },
@@ -1630,18 +2539,37 @@
         "name": "Le Tarot",
         "url": "tarotkaart-36-pentagrammen-8-acht-munten-pentakels-of-schijven-kleine-arcana"
       },
-      { "name": "Orakels", "url": "pentakels-acht", "broken": "Closed" },
-      { "name": "Catharinaweb", "url": "p8.htm" }
+      {
+        "name": "Orakels",
+        "url": "pentakels-acht",
+        "broken": "Closed"
+      },
+      {
+        "name": "Catharinaweb",
+        "url": "p8.htm"
+      }
     ]
   },
   {
     "suite": "Pentakels",
     "number": "IX",
     "keyword": "GENIETEN",
-    "keywords": ["vervulling", "verfraaien", "zekerheid", "meevaller"],
+    "keywords": [
+      "vervulling",
+      "verfraaien",
+      "zekerheid",
+      "meevaller"
+    ],
     "invitation": "Geniet van wat je doet.",
     "warning": "Ben je alert op nieuwe kansen?",
-    "symbols": ["druiven", "burcht", "boom", "geel", "valk", "wijngaardslak"],
+    "symbols": [
+      "druiven",
+      "burcht",
+      "boom",
+      "geel",
+      "valk",
+      "wijngaardslak"
+    ],
     "seqnr": 45,
     "links": [
       {
@@ -1653,6 +2581,10 @@
         "url": "rider-waite-tarotkaart-pentakels-negen"
       },
       {
+        "name": "The Light Seer's Tarot (Eng)",
+        "url": "9-of-pentacles"
+      },
+      {
         "name": "Kaart en Sterren",
         "url": "pentakels/pagina pentakels 09.html"
       },
@@ -1660,8 +2592,15 @@
         "name": "Le Tarot",
         "url": "tarotkaart-37-pentagrammen-9-negen-munten-pentakels-of-schijven-kleine-arcana"
       },
-      { "name": "Orakels", "url": "pentakels-negen", "broken": "Closed" },
-      { "name": "Catharinaweb", "url": "p9.htm" }
+      {
+        "name": "Orakels",
+        "url": "pentakels-negen",
+        "broken": "Closed"
+      },
+      {
+        "name": "Catharinaweb",
+        "url": "p9.htm"
+      }
     ]
   },
   {
@@ -1689,10 +2628,17 @@
     ],
     "seqnr": 46,
     "links": [
-      { "name": "Pictorial Key to the Tarot (Eng)", "url": "Ten_of_Pentacles" },
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "Ten_of_Pentacles"
+      },
       {
         "name": "Tarot Stap voor Stap",
         "url": "rider-waite-tarotkaart-pentakels-tien"
+      },
+      {
+        "name": "The Light Seer's Tarot (Eng)",
+        "url": "10-of-pentacles"
       },
       {
         "name": "Kaart en Sterren",
@@ -1702,15 +2648,28 @@
         "name": "Le Tarot",
         "url": "tarotkaart-38-pentagrammen-10-tien-munten-pentakels-of-schijven-kleine-arcana"
       },
-      { "name": "Orakels", "url": "pentakels-tien", "broken": "Closed" },
-      { "name": "Catharinaweb", "url": "p10.htm" }
+      {
+        "name": "Orakels",
+        "url": "pentakels-tien",
+        "broken": "Closed"
+      },
+      {
+        "name": "Catharinaweb",
+        "url": "p10.htm"
+      }
     ]
   },
   {
     "suite": "Pentakels",
     "name": "Page",
     "keyword": "LEERGIERIG",
-    "keywords": ["behulpzaam", "precies", "kritisch", "student", "ijverig"],
+    "keywords": [
+      "behulpzaam",
+      "precies",
+      "kritisch",
+      "student",
+      "ijverig"
+    ],
     "invitation": "Hoe kun je jezelf nuttig maken?",
     "warning": "Pas op voor vluchtige belangstelling",
     "symbols": [
@@ -1733,6 +2692,10 @@
         "url": "tarotkaart-pentakels-schildknaap-page/"
       },
       {
+        "name": "The Light Seer's Tarot (Eng)",
+        "url": "page-of-pentacles"
+      },
+      {
         "name": "Kaart en Sterren",
         "url": "pentakels/pagina%20pentakels%20page.html"
       },
@@ -1745,7 +2708,10 @@
         "url": "schildknaap-van-pentakels",
         "broken": "Closed"
       },
-      { "name": "Catharinaweb", "url": "p11.htm" }
+      {
+        "name": "Catharinaweb",
+        "url": "p11.htm"
+      }
     ]
   },
   {
@@ -1775,7 +2741,14 @@
         "name": "Pictorial Key to the Tarot (Eng)",
         "url": "Knight_of_Pentacles"
       },
-      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-pentakels-ridder" },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "tarotkaart-pentakels-ridder"
+      },
+      {
+        "name": "The Light Seer's Tarot (Eng)",
+        "url": "knight-of-pentacles"
+      },
       {
         "name": "Kaart en Sterren",
         "url": "pentakels/pagina%20pentakels%20ridder.html"
@@ -1784,15 +2757,26 @@
         "name": "Le Tarot",
         "url": "tarotkaart-27-pentagrammen-ridder-hofkaart-munten-pentakels-of-schijven-kleine-arcana"
       },
-      { "name": "Orakels", "url": "ridder-van-pentakels", "broken": "Closed" },
-      { "name": "Catharinaweb", "url": "p12.htm" }
+      {
+        "name": "Orakels",
+        "url": "ridder-van-pentakels",
+        "broken": "Closed"
+      },
+      {
+        "name": "Catharinaweb",
+        "url": "p12.htm"
+      }
     ]
   },
   {
     "suite": "Pentakels",
     "name": "Koningin",
     "keyword": "WARM",
-    "keywords": ["innerlijke zekerheid", "zelfwaardering", "royaal"],
+    "keywords": [
+      "innerlijke zekerheid",
+      "zelfwaardering",
+      "royaal"
+    ],
     "invitation": "Kies voor rust en geleidelijkheid.",
     "warning": "Je hoeft niet alles te behouden",
     "symbols": [
@@ -1818,6 +2802,10 @@
         "url": "tarotkaart-pentakels-koningin"
       },
       {
+        "name": "The Light Seer's Tarot (Eng)",
+        "url": "queen-of-pentacles"
+      },
+      {
         "name": "Kaart en Sterren",
         "url": "pentakels/pagina%20pentakels%20koningin.html"
       },
@@ -1830,7 +2818,10 @@
         "url": "koningin-van-pentakels",
         "broken": "Closed"
       },
-      { "name": "Catharinaweb", "url": "p13.htm" }
+      {
+        "name": "Catharinaweb",
+        "url": "p13.htm"
+      }
     ]
   },
   {
@@ -1861,7 +2852,14 @@
         "name": "Pictorial Key to the Tarot (Eng)",
         "url": "King_of_Pentacles"
       },
-      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-pentakels-koning" },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "tarotkaart-pentakels-koning"
+      },
+      {
+        "name": "The Light Seer's Tarot (Eng)",
+        "url": "king-of-pentacles"
+      },
       {
         "name": "Kaart en Sterren",
         "url": "pentakels/pagina%20pentakels%20koning.html"
@@ -1870,15 +2868,25 @@
         "name": "Le Tarot",
         "url": "tarotkaart-25-pentagrammen-koning-hofkaart-munten-pentakels-of-schijven-kleine-arcana"
       },
-      { "name": "Orakels", "url": "koning-van-pentakels", "broken": "Closed" },
-      { "name": "Catharinaweb", "url": "p14.htm" }
+      {
+        "name": "Orakels",
+        "url": "koning-van-pentakels",
+        "broken": "Closed"
+      },
+      {
+        "name": "Catharinaweb",
+        "url": "p14.htm"
+      }
     ]
   },
   {
     "suite": "Zwaarden",
     "name": "Aas",
     "keyword": "INZICHT",
-    "keywords": ["helderheid van geest", "objectiviteit"],
+    "keywords": [
+      "helderheid van geest",
+      "objectiviteit"
+    ],
     "invitation": "Welke beslissing moet je nu nemen?",
     "warning": "Heb je alles goed overwogen?",
     "symbols": [
@@ -1893,15 +2901,35 @@
     ],
     "seqnr": 51,
     "links": [
-      { "name": "Pictorial Key to the Tarot (Eng)", "url": "Ace_of_Swords" },
-      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-zwaarden-aas" },
-      { "name": "Kaart en Sterren", "url": "zwaarden/pagina zwaarden 01.html" },
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "Ace_of_Swords"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "tarotkaart-zwaarden-aas"
+      },
+      {
+        "name": "The Light Seer's Tarot (Eng)",
+        "url": "ace-of-swords"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "zwaarden/pagina zwaarden 01.html"
+      },
       {
         "name": "Le Tarot",
         "url": "tarotkaart-71-zwaarden-aas-1-een-kleine-arcana"
       },
-      { "name": "Orakels", "url": "aas-van-zwaarden", "broken": "Closed" },
-      { "name": "Catharinaweb", "url": "z1.htm" }
+      {
+        "name": "Orakels",
+        "url": "aas-van-zwaarden",
+        "broken": "Closed"
+      },
+      {
+        "name": "Catharinaweb",
+        "url": "z1.htm"
+      }
     ]
   },
   {
@@ -1928,57 +2956,134 @@
     ],
     "seqnr": 52,
     "links": [
-      { "name": "Pictorial Key to the Tarot (Eng)", "url": "Two_of_Swords" },
-      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-zwaarden-twee" },
-      { "name": "Kaart en Sterren", "url": "zwaarden/pagina zwaarden 02.html" },
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "Two_of_Swords"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "tarotkaart-zwaarden-twee"
+      },
+      {
+        "name": "The Light Seer's Tarot (Eng)",
+        "url": "2-of-swords"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "zwaarden/pagina zwaarden 02.html"
+      },
       {
         "name": "Le Tarot",
         "url": "tarotkaart-72-zwaarden-2-twee-kleine-arcana"
       },
-      { "name": "Orakels", "url": "zwaarden-twee", "broken": "Closed" },
-      { "name": "Catharinaweb", "url": "z2.htm" }
+      {
+        "name": "Orakels",
+        "url": "zwaarden-twee",
+        "broken": "Closed"
+      },
+      {
+        "name": "Catharinaweb",
+        "url": "z2.htm"
+      }
     ]
   },
   {
     "suite": "Zwaarden",
     "number": "III",
     "keyword": "DOORBOREN",
-    "keywords": ["pijn", "verdriet"],
+    "keywords": [
+      "pijn",
+      "verdriet"
+    ],
     "invitation": "Ben je sterk genoeg om te doen wat noodzakelijk is?",
     "warning": "Laat je niet beheersen door je verdriet",
-    "symbols": ["hartvorm", "wolken", "grijs", "regen"],
+    "symbols": [
+      "hartvorm",
+      "wolken",
+      "grijs",
+      "regen"
+    ],
     "seqnr": 53,
     "links": [
-      { "name": "Pictorial Key to the Tarot (Eng)", "url": "Three_of_Swords" },
-      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-zwaarden-drie" },
-      { "name": "Kaart en Sterren", "url": "zwaarden/pagina zwaarden 03.html" },
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "Three_of_Swords"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "tarotkaart-zwaarden-drie"
+      },
+      {
+        "name": "The Light Seer's Tarot (Eng)",
+        "url": "3-of-swords"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "zwaarden/pagina zwaarden 03.html"
+      },
       {
         "name": "Le Tarot",
         "url": "tarotkaart-73-zwaarden-3-drie-kleine-arcana"
       },
-      { "name": "Orakels", "url": "zwaarden-drie", "broken": "Closed" },
-      { "name": "Catharinaweb", "url": "z3.htm" }
+      {
+        "name": "Orakels",
+        "url": "zwaarden-drie",
+        "broken": "Closed"
+      },
+      {
+        "name": "Catharinaweb",
+        "url": "z3.htm"
+      }
     ]
   },
   {
     "suite": "Zwaarden",
     "number": "IV",
     "keyword": "BEZINNEN",
-    "keywords": ["overwegen", "rusten", "herstellen", "retraite", "testament"],
+    "keywords": [
+      "overwegen",
+      "rusten",
+      "herstellen",
+      "retraite",
+      "testament"
+    ],
     "invitation": "Slaap er een nachtje over.",
     "warning": "Waarom staat alles stil?",
-    "symbols": ["grijs", "ridder"],
+    "symbols": [
+      "grijs",
+      "ridder"
+    ],
     "seqnr": 54,
     "links": [
-      { "name": "Pictorial Key to the Tarot (Eng)", "url": "Four_of_Swords" },
-      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-zwaarden-vier" },
-      { "name": "Kaart en Sterren", "url": "zwaarden/pagina zwaarden 04.html" },
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "Four_of_Swords"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "tarotkaart-zwaarden-vier"
+      },
+      {
+        "name": "The Light Seer's Tarot (Eng)",
+        "url": "4-of-swords"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "zwaarden/pagina zwaarden 04.html"
+      },
       {
         "name": "Le Tarot",
         "url": "tarotkaart-74-zwaarden-4-vier-kleine-arcana"
       },
-      { "name": "Orakels", "url": "zwaarden-vier", "broken": "Closed" },
-      { "name": "Catharinaweb", "url": "z4.htm" }
+      {
+        "name": "Orakels",
+        "url": "zwaarden-vier",
+        "broken": "Closed"
+      },
+      {
+        "name": "Catharinaweb",
+        "url": "z4.htm"
+      }
     ]
   },
   {
@@ -2005,54 +3110,130 @@
     ],
     "seqnr": 55,
     "links": [
-      { "name": "Pictorial Key to the Tarot (Eng)", "url": "Five_of_Swords" },
-      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-zwaarden-vijf" },
-      { "name": "Kaart en Sterren", "url": "zwaarden/pagina zwaarden 05.html" },
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "Five_of_Swords"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "tarotkaart-zwaarden-vijf"
+      },
+      {
+        "name": "The Light Seer's Tarot (Eng)",
+        "url": "5-of-swords"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "zwaarden/pagina zwaarden 05.html"
+      },
       {
         "name": "Le Tarot",
         "url": "tarotkaart-75-zwaarden-5-vijf-kleine-arcana"
       },
-      { "name": "Orakels", "url": "zwaarden-vijf", "broken": "Closed" },
-      { "name": "Catharinaweb", "url": "z5.htm" }
+      {
+        "name": "Orakels",
+        "url": "zwaarden-vijf",
+        "broken": "Closed"
+      },
+      {
+        "name": "Catharinaweb",
+        "url": "z5.htm"
+      }
     ]
   },
   {
     "suite": "Zwaarden",
     "number": "VI",
     "keyword": "OVERSTEKEN",
-    "keywords": ["je terug trekken", "vlucht"],
+    "keywords": [
+      "je terug trekken",
+      "vlucht"
+    ],
     "invitation": "Maak een nieuw begin",
     "warning": "Is het gras echt groener?",
-    "symbols": ["water", "golven"],
+    "symbols": [
+      "water",
+      "golven"
+    ],
     "seqnr": 56,
     "links": [
-      { "name": "Pictorial Key to the Tarot (Eng)", "url": "Six_of_Swords" },
-      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-zwaarden-zes" },
-      { "name": "Kaart en Sterren", "url": "zwaarden/pagina zwaarden 06.html" },
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "Six_of_Swords"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "tarotkaart-zwaarden-zes"
+      },
+      {
+        "name": "The Light Seer's Tarot (Eng)",
+        "url": "6-of-swords"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "zwaarden/pagina zwaarden 06.html"
+      },
       {
         "name": "Le Tarot",
         "url": "tarotkaart-76-zwaarden-6-zes-kleine-arcana"
       },
-      { "name": "Orakels", "url": "zwaarden-zes", "broken": "Closed" },
-      { "name": "Catharinaweb", "url": "z6.htm" }
+      {
+        "name": "Orakels",
+        "url": "zwaarden-zes",
+        "broken": "Closed"
+      },
+      {
+        "name": "Catharinaweb",
+        "url": "z6.htm"
+      }
     ]
   },
   {
     "suite": "Zwaarden",
     "number": "VII",
     "keyword": "SLUIPEN",
-    "keywords": ["slimheid", "spitsvondigheid", "oneerlijkheid"],
+    "keywords": [
+      "slimheid",
+      "spitsvondigheid",
+      "oneerlijkheid"
+    ],
     "invitation": "Verzin een list.",
     "warning": "Je wordt in de maling genomen.",
-    "symbols": ["oranje", "podium"],
+    "symbols": [
+      "oranje",
+      "podium"
+    ],
     "seqnr": 57,
     "links": [
-      { "name": "Pictorial Key to the Tarot (Eng)", "url": "Seven_of_Swords" },
-      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-zwaarden-zeven" },
-      { "name": "Kaart en Sterren", "url": "zwaarden/pagina zwaarden 07.html" },
-      { "name": "Le Tarot", "url": "tarotkaart-77-zwaarden7-zeven" },
-      { "name": "Orakels", "url": "zwaarden-zeven", "broken": "Closed" },
-      { "name": "Catharinaweb", "url": "z7.htm" }
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "Seven_of_Swords"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "tarotkaart-zwaarden-zeven"
+      },
+      {
+        "name": "The Light Seer's Tarot (Eng)",
+        "url": "7-of-swords"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "zwaarden/pagina zwaarden 07.html"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "tarotkaart-77-zwaarden7-zeven"
+      },
+      {
+        "name": "Orakels",
+        "url": "zwaarden-zeven",
+        "broken": "Closed"
+      },
+      {
+        "name": "Catharinaweb",
+        "url": "z7.htm"
+      }
     ]
   },
   {
@@ -2070,70 +3251,159 @@
     ],
     "invitation": "Laat alle remmende gedachten los",
     "warning": "Wat houdt je tegen?",
-    "symbols": ["blinddoek", "burcht", "stroom", "berg", "grijs"],
+    "symbols": [
+      "blinddoek",
+      "burcht",
+      "stroom",
+      "berg",
+      "grijs"
+    ],
     "seqnr": 58,
     "links": [
-      { "name": "Pictorial Key to the Tarot (Eng)", "url": "Eight_of_Swords" },
-      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-zwaarden-acht" },
-      { "name": "Kaart en Sterren", "url": "zwaarden/pagina zwaarden 08.html" },
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "Eight_of_Swords"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "tarotkaart-zwaarden-acht"
+      },
+      {
+        "name": "The Light Seer's Tarot (Eng)",
+        "url": "8-of-swords"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "zwaarden/pagina zwaarden 08.html"
+      },
       {
         "name": "Le Tarot",
         "url": "tarotkaart-78-zwaarden-08-acht-kleine-arcana"
       },
-      { "name": "Orakels", "url": "zwaarden-acht", "broken": "Closed" },
-      { "name": "Catharinaweb", "url": "z8.htm" }
+      {
+        "name": "Orakels",
+        "url": "zwaarden-acht",
+        "broken": "Closed"
+      },
+      {
+        "name": "Catharinaweb",
+        "url": "z8.htm"
+      }
     ]
   },
   {
     "suite": "Zwaarden",
     "number": "IX",
     "keyword": "WANHOPEN",
-    "keywords": ["zelfverwijt", "wanhoop", "weeklagen", "zelfkastijding"],
+    "keywords": [
+      "zelfverwijt",
+      "wanhoop",
+      "weeklagen",
+      "zelfkastijding"
+    ],
     "invitation": "Waar heb je spijt van?",
     "warning": "Is je verdriet terecht?",
-    "symbols": ["afgewend", "roos", "wit kleed", "oosten", "vrouw", "zwart"],
+    "symbols": [
+      "afgewend",
+      "roos",
+      "wit kleed",
+      "oosten",
+      "vrouw",
+      "zwart"
+    ],
     "seqnr": 59,
     "links": [
-      { "name": "Pictorial Key to the Tarot (Eng)", "url": "Nine_of_Swords" },
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "Nine_of_Swords"
+      },
       {
         "name": "Tarot Stap voor Stap",
         "url": "https://tarotstapvoorstap.nl/tarot-vragen/zwaarden-9-uit-de-tarot-ook-dit-gaat-voorbij/"
       },
-      { "name": "Kaart en Sterren", "url": "zwaarden/pagina zwaarden 09.html" },
+      {
+        "name": "The Light Seer's Tarot (Eng)",
+        "url": "9-of-swords"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "zwaarden/pagina zwaarden 09.html"
+      },
       {
         "name": "Le Tarot",
         "url": "tarotkaart-79-zwaarden-09-negen-kleine-arcana"
       },
-      { "name": "Orakels", "url": "zwaarden-negen", "broken": "Closed" },
-      { "name": "Catharinaweb", "url": "z9.htm" }
+      {
+        "name": "Orakels",
+        "url": "zwaarden-negen",
+        "broken": "Closed"
+      },
+      {
+        "name": "Catharinaweb",
+        "url": "z9.htm"
+      }
     ]
   },
   {
     "suite": "Zwaarden",
     "number": "X",
     "keyword": "BEEINDIGEN",
-    "keywords": ["destructieve gedachten", "voortijdig einde"],
+    "keywords": [
+      "destructieve gedachten",
+      "voortijdig einde"
+    ],
     "invitation": "Waar moet je nu rigoureus een streep onder zetten?",
     "warning": "Is het verstandig om er nu radicaal mee te breken?",
-    "symbols": ["oceaan", "zon", "heuvels", "rood kleed", "zegening", "zwart"],
+    "symbols": [
+      "oceaan",
+      "zon",
+      "heuvels",
+      "rood kleed",
+      "zegening",
+      "zwart"
+    ],
     "seqnr": 60,
     "links": [
-      { "name": "Pictorial Key to the Tarot (Eng)", "url": "Ten_of_Swords" },
-      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-zwaarden-tien" },
-      { "name": "Kaart en Sterren", "url": "zwaarden/pagina zwaarden 10.html" },
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "Ten_of_Swords"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "tarotkaart-zwaarden-tien"
+      },
+      {
+        "name": "The Light Seer's Tarot (Eng)",
+        "url": "10-of-swords"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "zwaarden/pagina zwaarden 10.html"
+      },
       {
         "name": "Le Tarot",
         "url": "tarotkaart-80-zwaarden-10-tien-kleine-arcana"
       },
-      { "name": "Orakels", "url": "zwaarden-tien", "broken": "Closed" },
-      { "name": "Catharinaweb", "url": "z10.htm" }
+      {
+        "name": "Orakels",
+        "url": "zwaarden-tien",
+        "broken": "Closed"
+      },
+      {
+        "name": "Catharinaweb",
+        "url": "z10.htm"
+      }
     ]
   },
   {
     "suite": "Zwaarden",
     "name": "Page",
     "keyword": "ALERT",
-    "keywords": ["verstand van zaken", "opmerkzaam", "escalatie"],
+    "keywords": [
+      "verstand van zaken",
+      "opmerkzaam",
+      "escalatie"
+    ],
     "invitation": "Laat het over je heen komen",
     "warning": "Komt de dreiging wel van buiten?",
     "symbols": [
@@ -2146,22 +3416,35 @@
     ],
     "seqnr": 61,
     "links": [
-      { "name": "Pictorial Key to the Tarot (Eng)", "url": "Page_of_Swords" },
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "Page_of_Swords"
+      },
       {
         "name": "Tarot Stap voor Stap",
         "url": "tarotkaart-zwaarden-schildknaap"
       },
       {
+        "name": "The Light Seer's Tarot (Eng)",
+        "url": "page-of-swords"
+      },
+      {
         "name": "Kaart en Sterren",
         "url": "zwaarden/pagina%20zwaarden%20page.html"
       },
-      { "name": "Le Tarot", "url": "tarotkaart-70-zwaarden-page-schildknaap" },
+      {
+        "name": "Le Tarot",
+        "url": "tarotkaart-70-zwaarden-page-schildknaap"
+      },
       {
         "name": "Orakels",
         "url": "schildknaap-van-zwaarden",
         "broken": "Closed"
       },
-      { "name": "Catharinaweb", "url": "z11.htm" }
+      {
+        "name": "Catharinaweb",
+        "url": "z11.htm"
+      }
     ]
   },
   {
@@ -2176,11 +3459,27 @@
     ],
     "invitation": "Bezint, eer ge begint",
     "warning": "Is dit geen storm in een glas water?",
-    "symbols": ["oranje", "rood kleed", "paard", "harnas", "vogel"],
+    "symbols": [
+      "oranje",
+      "rood kleed",
+      "paard",
+      "harnas",
+      "vogel"
+    ],
     "seqnr": 62,
     "links": [
-      { "name": "Pictorial Key to the Tarot (Eng)", "url": "Knight_of_Swords" },
-      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-zwaarden-ridder" },
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "Knight_of_Swords"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "tarotkaart-zwaarden-ridder"
+      },
+      {
+        "name": "The Light Seer's Tarot (Eng)",
+        "url": "knight-of-swords"
+      },
       {
         "name": "Kaart en Sterren",
         "url": "zwaarden/pagina%20zwaarden%20ridder.html"
@@ -2189,8 +3488,15 @@
         "name": "Le Tarot",
         "url": "tarotkaart-69-zwaarden-ridder-kleine-arcana"
       },
-      { "name": "Orakels", "url": "ridder-van-zwaarden", "broken": "Closed" },
-      { "name": "Catharinaweb", "url": "z12.htm" }
+      {
+        "name": "Orakels",
+        "url": "ridder-van-zwaarden",
+        "broken": "Closed"
+      },
+      {
+        "name": "Catharinaweb",
+        "url": "z12.htm"
+      }
     ]
   },
   {
@@ -2222,8 +3528,18 @@
     ],
     "seqnr": 63,
     "links": [
-      { "name": "Pictorial Key to the Tarot (Eng)", "url": "Queen_of_Swords" },
-      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-zwaarden-koningin" },
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "Queen_of_Swords"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "tarotkaart-zwaarden-koningin"
+      },
+      {
+        "name": "The Light Seer's Tarot (Eng)",
+        "url": "queen-of-swords"
+      },
       {
         "name": "Kaart en Sterren",
         "url": "zwaarden/pagina%20zwaarden%20koningin.html"
@@ -2232,8 +3548,15 @@
         "name": "Le Tarot",
         "url": "tarotkaart-68-zwaarden-koningin-hofkaart-kleine-arcana"
       },
-      { "name": "Orakels", "url": "koningin-van-zwaarden", "broken": "Closed" },
-      { "name": "Catharinaweb", "url": "z13.htm" }
+      {
+        "name": "Orakels",
+        "url": "koningin-van-zwaarden",
+        "broken": "Closed"
+      },
+      {
+        "name": "Catharinaweb",
+        "url": "z13.htm"
+      }
     ]
   },
   {
@@ -2262,8 +3585,18 @@
     ],
     "seqnr": 64,
     "links": [
-      { "name": "Pictorial Key to the Tarot (Eng)", "url": "King_of_Swords" },
-      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-zwaarden-koning" },
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "King_of_Swords"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "tarotkaart-zwaarden-koning"
+      },
+      {
+        "name": "The Light Seer's Tarot (Eng)",
+        "url": "king-of-swords"
+      },
       {
         "name": "Kaart en Sterren",
         "url": "zwaarden/pagina%20zwaarden%20koning.html"
@@ -2272,8 +3605,15 @@
         "name": "Le Tarot",
         "url": "tarotkaart-67-zwaarden-koning-hofkaart-kleine-arcana"
       },
-      { "name": "Orakels", "url": "koning-van-zwaarden", "broken": "Closed" },
-      { "name": "Catharinaweb", "url": "z14.htm" }
+      {
+        "name": "Orakels",
+        "url": "koning-van-zwaarden",
+        "broken": "Closed"
+      },
+      {
+        "name": "Catharinaweb",
+        "url": "z14.htm"
+      }
     ]
   },
   {
@@ -2303,15 +3643,35 @@
     ],
     "seqnr": 65,
     "links": [
-      { "name": "Pictorial Key to the Tarot (Eng)", "url": "Ace_of_Cups" },
-      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-kelken-aas" },
-      { "name": "Kaart en Sterren", "url": "bekers/pagina bekers 01.html" },
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "Ace_of_Cups"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "tarotkaart-kelken-aas"
+      },
+      {
+        "name": "The Light Seer's Tarot (Eng)",
+        "url": "ace-of-cups"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "bekers/pagina bekers 01.html"
+      },
       {
         "name": "Le Tarot",
         "url": "tarotkaart-57-bekers-1-aas-een-bokalen-kleine-arcana"
       },
-      { "name": "Orakels", "url": "aas-van-bekers", "broken": "Closed" },
-      { "name": "Catharinaweb", "url": "k1.htm" }
+      {
+        "name": "Orakels",
+        "url": "aas-van-bekers",
+        "broken": "Closed"
+      },
+      {
+        "name": "Catharinaweb",
+        "url": "k1.htm"
+      }
     ]
   },
   {
@@ -2337,22 +3697,47 @@
     ],
     "seqnr": 66,
     "links": [
-      { "name": "Pictorial Key to the Tarot (Eng)", "url": "Two_of_Cups" },
-      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-kelken-twee" },
-      { "name": "Kaart en Sterren", "url": "bekers/pagina bekers 02.html" },
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "Two_of_Cups"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "tarotkaart-kelken-twee"
+      },
+      {
+        "name": "The Light Seer's Tarot (Eng)",
+        "url": "2-of-cups"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "bekers/pagina bekers 02.html"
+      },
       {
         "name": "Le Tarot",
         "url": "tarotkaart-58-bekers-bokalen-2-twee-kleine-arcana"
       },
-      { "name": "Orakels", "url": "bekers-twee", "broken": "Closed" },
-      { "name": "Catharinaweb", "url": "k2.htm" }
+      {
+        "name": "Orakels",
+        "url": "bekers-twee",
+        "broken": "Closed"
+      },
+      {
+        "name": "Catharinaweb",
+        "url": "k2.htm"
+      }
     ]
   },
   {
     "suite": "Kelken",
     "number": "III",
     "keyword": "FEESTEN",
-    "keywords": ["plezier hebben", "blijheid", "genezing", "troost"],
+    "keywords": [
+      "plezier hebben",
+      "blijheid",
+      "genezing",
+      "troost"
+    ],
     "invitation": "Laat jezelf eens lekker gaan.",
     "warning": "Succes moet je vieren",
     "symbols": [
@@ -2365,43 +3750,96 @@
     ],
     "seqnr": 67,
     "links": [
-      { "name": "Pictorial Key to the Tarot (Eng)", "url": "Three_of_Cups" },
-      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-kelken-drie" },
-      { "name": "Kaart en Sterren", "url": "bekers/pagina bekers 03.html" },
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "Three_of_Cups"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "tarotkaart-kelken-drie"
+      },
+      {
+        "name": "The Light Seer's Tarot (Eng)",
+        "url": "3-of-cups"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "bekers/pagina bekers 03.html"
+      },
       {
         "name": "Le Tarot",
         "url": "tarotkaart-59-bekers-3-drie-bokalen-kleine-arcana"
       },
-      { "name": "Orakels", "url": "bekers-drie", "broken": "Closed" },
-      { "name": "Catharinaweb", "url": "k3.htm" }
+      {
+        "name": "Orakels",
+        "url": "bekers-drie",
+        "broken": "Closed"
+      },
+      {
+        "name": "Catharinaweb",
+        "url": "k3.htm"
+      }
     ]
   },
   {
     "suite": "Kelken",
     "number": "IV",
     "keyword": "MOPPEREN",
-    "keywords": ["verlangen naar meer", "lusteloosheid"],
+    "keywords": [
+      "verlangen naar meer",
+      "lusteloosheid"
+    ],
     "invitation": "Wat heb je wél?",
     "warning": "Is je onvrede wel terecht?",
-    "symbols": ["hand", "wolken", "boom", "links"],
+    "symbols": [
+      "hand",
+      "wolken",
+      "boom",
+      "links"
+    ],
     "seqnr": 68,
     "links": [
-      { "name": "Pictorial Key to the Tarot (Eng)", "url": "Four_of_Cups" },
-      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-kelken-vier" },
-      { "name": "Kaart en Sterren", "url": "bekers/pagina bekers 04.html" },
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "Four_of_Cups"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "tarotkaart-kelken-vier"
+      },
+      {
+        "name": "The Light Seer's Tarot (Eng)",
+        "url": "4-of-cups"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "bekers/pagina bekers 04.html"
+      },
       {
         "name": "Le Tarot",
         "url": "tarotkaart-60-bekers-4-vier-bokalen-kleine-arcana"
       },
-      { "name": "Orakels", "url": "bekers-vier", "broken": "Closed" },
-      { "name": "Catharinaweb", "url": "k4.htm" }
+      {
+        "name": "Orakels",
+        "url": "bekers-vier",
+        "broken": "Closed"
+      },
+      {
+        "name": "Catharinaweb",
+        "url": "k4.htm"
+      }
     ]
   },
   {
     "suite": "Kelken",
     "number": "V",
     "keyword": "BETREUREN",
-    "keywords": ["teleurstelling", "verlies", "desillusie", "heroverwegen"],
+    "keywords": [
+      "teleurstelling",
+      "verlies",
+      "desillusie",
+      "heroverwegen"
+    ],
     "invitation": "Wat blijft er over?",
     "warning": "Blijven hangen in verdriet.",
     "symbols": [
@@ -2416,15 +3854,35 @@
     ],
     "seqnr": 69,
     "links": [
-      { "name": "Pictorial Key to the Tarot (Eng)", "url": "Five_of_Cups" },
-      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-kelken-vijf" },
-      { "name": "Kaart en Sterren", "url": "bekers/pagina bekers 05.html" },
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "Five_of_Cups"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "tarotkaart-kelken-vijf"
+      },
+      {
+        "name": "The Light Seer's Tarot (Eng)",
+        "url": "5-of-cups"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "bekers/pagina bekers 05.html"
+      },
       {
         "name": "Le Tarot",
         "url": "tarotkaart-61-bekers-5-vijf-bokalen-kleine-arcana"
       },
-      { "name": "Orakels", "url": "bekers-vijf", "broken": "Closed" },
-      { "name": "Catharinaweb", "url": "k5.htm" }
+      {
+        "name": "Orakels",
+        "url": "bekers-vijf",
+        "broken": "Closed"
+      },
+      {
+        "name": "Catharinaweb",
+        "url": "k5.htm"
+      }
     ]
   },
   {
@@ -2439,18 +3897,42 @@
     ],
     "invitation": "Verheug je in kleine dingen.",
     "warning": "Behoudt het goede",
-    "symbols": ["vrouw", "lelie", "burcht"],
+    "symbols": [
+      "vrouw",
+      "lelie",
+      "burcht"
+    ],
     "seqnr": 70,
     "links": [
-      { "name": "Pictorial Key to the Tarot (Eng)", "url": "Six_of_Cups" },
-      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-kelken-zes" },
-      { "name": "Kaart en Sterren", "url": "bekers/pagina bekers 06.html" },
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "Six_of_Cups"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "tarotkaart-kelken-zes"
+      },
+      {
+        "name": "The Light Seer's Tarot (Eng)",
+        "url": "6-of-cups"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "bekers/pagina bekers 06.html"
+      },
       {
         "name": "Le Tarot",
         "url": "tarotkaart-62-bekers-6-zes-bokalen-kleine-arcana"
       },
-      { "name": "Orakels", "url": "bekers-zes", "broken": "Closed" },
-      { "name": "Catharinaweb", "url": "k6.htm" }
+      {
+        "name": "Orakels",
+        "url": "bekers-zes",
+        "broken": "Closed"
+      },
+      {
+        "name": "Catharinaweb",
+        "url": "k6.htm"
+      }
     ]
   },
   {
@@ -2481,12 +3963,35 @@
     ],
     "seqnr": 71,
     "links": [
-      { "name": "Pictorial Key to the Tarot (Eng)", "url": "Seven_of_Cups" },
-      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-kelken-zeven" },
-      { "name": "Kaart en Sterren", "url": "bekers/pagina bekers 07.html" },
-      { "name": "Le Tarot", "url": "tarotkaart-63-bekers-7-zeven-bokalen" },
-      { "name": "Orakels", "url": "bekers-zeven", "broken": "Closed" },
-      { "name": "Catharinaweb", "url": "k7.htm" }
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "Seven_of_Cups"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "tarotkaart-kelken-zeven"
+      },
+      {
+        "name": "The Light Seer's Tarot (Eng)",
+        "url": "7-of-cups"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "bekers/pagina bekers 07.html"
+      },
+      {
+        "name": "Le Tarot",
+        "url": "tarotkaart-63-bekers-7-zeven-bokalen"
+      },
+      {
+        "name": "Orakels",
+        "url": "bekers-zeven",
+        "broken": "Closed"
+      },
+      {
+        "name": "Catharinaweb",
+        "url": "k7.htm"
+      }
     ]
   },
   {
@@ -2500,18 +4005,44 @@
     ],
     "invitation": "Laat het verleden los.",
     "warning": "Een nieuwe illusie najagen.",
-    "symbols": ["maan", "water", "berg", "rood kleed", "blauw"],
+    "symbols": [
+      "maan",
+      "water",
+      "berg",
+      "rood kleed",
+      "blauw"
+    ],
     "seqnr": 72,
     "links": [
-      { "name": "Pictorial Key to the Tarot (Eng)", "url": "Eight_of_Cups" },
-      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-kelken-acht" },
-      { "name": "Kaart en Sterren", "url": "bekers/pagina bekers 08.html" },
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "Eight_of_Cups"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "tarotkaart-kelken-acht"
+      },
+      {
+        "name": "The Light Seer's Tarot (Eng)",
+        "url": "8-of-cups"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "bekers/pagina bekers 08.html"
+      },
       {
         "name": "Le Tarot",
         "url": "tarotkaart-64-bekers-bokalen-8-acht-kleine-arcana"
       },
-      { "name": "Orakels", "url": "bekers-acht", "broken": "Closed" },
-      { "name": "Catharinaweb", "url": "k8.htm" }
+      {
+        "name": "Orakels",
+        "url": "bekers-acht",
+        "broken": "Closed"
+      },
+      {
+        "name": "Catharinaweb",
+        "url": "k8.htm"
+      }
     ]
   },
   {
@@ -2525,18 +4056,41 @@
     ],
     "invitation": "Sta eens stil om écht te genieten",
     "warning": "Kan je je zorgen loslaten en genieten?",
-    "symbols": ["bank", "blauw kleed"],
+    "symbols": [
+      "bank",
+      "blauw kleed"
+    ],
     "seqnr": 73,
     "links": [
-      { "name": "Pictorial Key to the Tarot (Eng)", "url": "Nine_of_Cups" },
-      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-kelken-negen" },
-      { "name": "Kaart en Sterren", "url": "bekers/pagina bekers 09.html" },
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "Nine_of_Cups"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "tarotkaart-kelken-negen"
+      },
+      {
+        "name": "The Light Seer's Tarot (Eng)",
+        "url": "9-of-cups"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "bekers/pagina bekers 09.html"
+      },
       {
         "name": "Le Tarot",
         "url": "tarotkaart-65-bekers-bokalen-9-negen-kleine-arcana"
       },
-      { "name": "Orakels", "url": "bekers-negen", "broken": "Closed" },
-      { "name": "Catharinaweb", "url": "k9.htm" }
+      {
+        "name": "Orakels",
+        "url": "bekers-negen",
+        "broken": "Closed"
+      },
+      {
+        "name": "Catharinaweb",
+        "url": "k9.htm"
+      }
     ]
   },
   {
@@ -2552,34 +4106,79 @@
     ],
     "invitation": "Maak ruimte voor gezamenlijk geluk",
     "warning": "Wat van ver komt is niet altijd lekkerder",
-    "symbols": ["regenboog", "stroom", "gezin", "huis", "afgewend", "podium"],
+    "symbols": [
+      "regenboog",
+      "stroom",
+      "gezin",
+      "huis",
+      "afgewend",
+      "podium"
+    ],
     "seqnr": 74,
     "links": [
-      { "name": "Pictorial Key to the Tarot (Eng)", "url": "Ten_of_Cups" },
-      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-kelken-tien" },
-      { "name": "Kaart en Sterren", "url": "bekers/pagina bekers 10.html" },
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "Ten_of_Cups"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "tarotkaart-kelken-tien"
+      },
+      {
+        "name": "The Light Seer's Tarot (Eng)",
+        "url": "10-of-cups"
+      },
+      {
+        "name": "Kaart en Sterren",
+        "url": "bekers/pagina bekers 10.html"
+      },
       {
         "name": "Le Tarot",
         "url": "tarotkaart-66-bekers-10-tien-bokalen-kelken-kleine-arcana"
       },
-      { "name": "Orakels", "url": "bekers-tien", "broken": "Closed" },
-      { "name": "Catharinaweb", "url": "k10.htm" }
+      {
+        "name": "Orakels",
+        "url": "bekers-tien",
+        "broken": "Closed"
+      },
+      {
+        "name": "Catharinaweb",
+        "url": "k10.htm"
+      }
     ]
   },
   {
     "suite": "Kelken",
     "name": "Page",
     "keyword": "VERWONDERD",
-    "keywords": ["fantasie", "verbeelding", "puberteit", "vlijtige jeugd"],
+    "keywords": [
+      "fantasie",
+      "verbeelding",
+      "puberteit",
+      "vlijtige jeugd"
+    ],
     "invitation": "Laat je verwonderen",
     "warning": "Pas op voor goedgelovigheid.",
-    "symbols": ["lotus", "vis", "oceaan", "blauw", "podium"],
+    "symbols": [
+      "lotus",
+      "vis",
+      "oceaan",
+      "blauw",
+      "podium"
+    ],
     "seqnr": 75,
     "links": [
-      { "name": "Pictorial Key to the Tarot (Eng)", "url": "Page_of_Cups" },
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "Page_of_Cups"
+      },
       {
         "name": "Tarot Stap voor Stap",
         "url": "tarotkaart-kelken-schildknaap"
+      },
+      {
+        "name": "The Light Seer's Tarot (Eng)",
+        "url": "page-of-cups"
       },
       {
         "name": "Kaart en Sterren",
@@ -2594,14 +4193,22 @@
         "url": "schildknaap-van-bekers",
         "broken": "Closed"
       },
-      { "name": "Catharinaweb", "url": "k11.htm" }
+      {
+        "name": "Catharinaweb",
+        "url": "k11.htm"
+      }
     ]
   },
   {
     "suite": "Kelken",
     "name": "Ridder",
     "keyword": "VERZOENER",
-    "keywords": ["aanvoelen", "betrokkenheid", "waarheidsvinding", "voorstel"],
+    "keywords": [
+      "aanvoelen",
+      "betrokkenheid",
+      "waarheidsvinding",
+      "voorstel"
+    ],
     "invitation": "Met wie wil je vrede sluiten?",
     "warning": "Zorg voor een goede verstandhouding.",
     "symbols": [
@@ -2616,8 +4223,18 @@
     ],
     "seqnr": 76,
     "links": [
-      { "name": "Pictorial Key to the Tarot (Eng)", "url": "Knight_of_Cups" },
-      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-kelken-ridder" },
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "Knight_of_Cups"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "tarotkaart-kelken-ridder"
+      },
+      {
+        "name": "The Light Seer's Tarot (Eng)",
+        "url": "knight-of-cups"
+      },
       {
         "name": "Kaart en Sterren",
         "url": "bekers/pagina%20bekers%20ridder.html"
@@ -2626,8 +4243,15 @@
         "name": "Le Tarot",
         "url": "tarotkaart-55-bekers-ridder-bokalen-hofkaart-kleine-arcana"
       },
-      { "name": "Orakels", "url": "ridder-van-bekers", "broken": "Closed" },
-      { "name": "Catharinaweb", "url": "k12.htm" }
+      {
+        "name": "Orakels",
+        "url": "ridder-van-bekers",
+        "broken": "Closed"
+      },
+      {
+        "name": "Catharinaweb",
+        "url": "k12.htm"
+      }
     ]
   },
   {
@@ -2643,11 +4267,28 @@
     ],
     "invitation": "Erover praten kan je beeld verhelderen.",
     "warning": "Vergeet jezelf niet",
-    "symbols": ["golven", "troon", "kroon", "wit kleed", "links", "blauw"],
+    "symbols": [
+      "golven",
+      "troon",
+      "kroon",
+      "wit kleed",
+      "links",
+      "blauw"
+    ],
     "seqnr": 77,
     "links": [
-      { "name": "Pictorial Key to the Tarot (Eng)", "url": "Queen_of_Cups" },
-      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-kelken-koningin" },
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "Queen_of_Cups"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "tarotkaart-kelken-koningin"
+      },
+      {
+        "name": "The Light Seer's Tarot (Eng)",
+        "url": "queen-of-cups"
+      },
       {
         "name": "Kaart en Sterren",
         "url": "bekers/pagina%20bekers%20koningin.html"
@@ -2656,8 +4297,15 @@
         "name": "Le Tarot",
         "url": "tarotkaart-54-bekers-koningin-bokalen-hofkaart-kleine-arcana"
       },
-      { "name": "Orakels", "url": "koningin-van-bekers", "broken": "Closed" },
-      { "name": "Catharinaweb", "url": "k13.htm" }
+      {
+        "name": "Orakels",
+        "url": "koningin-van-bekers",
+        "broken": "Closed"
+      },
+      {
+        "name": "Catharinaweb",
+        "url": "k13.htm"
+      }
     ]
   },
   {
@@ -2687,8 +4335,18 @@
     ],
     "seqnr": 78,
     "links": [
-      { "name": "Pictorial Key to the Tarot (Eng)", "url": "King_of_Cups" },
-      { "name": "Tarot Stap voor Stap", "url": "tarotkaart-kelken-koning" },
+      {
+        "name": "Pictorial Key to the Tarot (Eng)",
+        "url": "King_of_Cups"
+      },
+      {
+        "name": "Tarot Stap voor Stap",
+        "url": "tarotkaart-kelken-koning"
+      },
+      {
+        "name": "The Light Seer's Tarot (Eng)",
+        "url": "king-of-cups"
+      },
       {
         "name": "Kaart en Sterren",
         "url": "bekers/pagina%20bekers%20koning.html"
@@ -2697,8 +4355,15 @@
         "name": "Le Tarot",
         "url": "tarotkaart-53-bekers-koning-bokalen-hofkaart-kleine-arcana"
       },
-      { "name": "Orakels", "url": "koning-van-bekers", "broken": "Closed" },
-      { "name": "Catharinaweb", "url": "k14.htm" }
+      {
+        "name": "Orakels",
+        "url": "koning-van-bekers",
+        "broken": "Closed"
+      },
+      {
+        "name": "Catharinaweb",
+        "url": "k14.htm"
+      }
     ]
   }
 ]

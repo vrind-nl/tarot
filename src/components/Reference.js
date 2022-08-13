@@ -5,10 +5,12 @@ const base = {
     "https://en.wikisource.org/wiki/The_Pictorial_Key_to_the_Tarot#",
   "Tarot Stap voor Stap": "https://tarotstapvoorstap.nl/tarotkaarten/",
   Catharinaweb: "https://www.catharinaweb.nl/tarot/tarot/",
+  "The Light Seer's Tarot (Eng)":
+    "https://lightseerstarot.com/light-seers-tarot-meanings-",
   "Kaart en Sterren": "http://www.kaartensterren.nl/pagina's tarotkaarten/",
   "Le Tarot": "http://www.letarot.nl/",
   SpiriDoc: "http://www.spiridoc.nl/grotearcana/",
-  Orakels: "https://www.orakels.net/tarot/oud-engels/"
+  Orakels: "https://www.orakels.net/tarot/oud-engels/",
 };
 
 function Ref({ href, children, target }) {
@@ -22,7 +24,7 @@ function Ref({ href, children, target }) {
 }
 
 Ref.defaultProps = {
-  target: "_blank"
+  target: "_blank",
 };
 
 export function CardLinks({ links }) {
