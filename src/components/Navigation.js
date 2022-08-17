@@ -13,8 +13,8 @@ import { decks } from "./Image";
 
 import "./Navigation.css";
 
-function Link({ name }) {
-  return <NavLink to={"/" + name.toLowerCase()}>{name}</NavLink>;
+function Link({ name, label }) {
+  return <NavLink to={"/" + name.toLowerCase()}>{label || name}</NavLink>;
 }
 
 function PageLink({ name }) {
@@ -29,6 +29,7 @@ export function Navigation({ setDeck }) {
       {/* <NavLink name="Quiz" /> */}
       <Link name="Legging" />
       <Link name="Trekking" />
+      <Link name="time" label="Tijd" />
       <PageLink name="Achtergrond" />
       <div style={{ marginLeft: "150pt", marginTop: 0, marginBottom: 0 }}>
         Kaarten:{" "}

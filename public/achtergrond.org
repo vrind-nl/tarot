@@ -2,7 +2,7 @@
 #+STARTUP: inlineimages:t
 #+OPTIONS: toc:nil
 
-Deze pagina beschrijft kort mijn ideeën over Tarot, welke bronnen ik heb gebruikt voor deze site en welke keuzes ik daarbij heb gemaakt. Op een aparte pagina vind je informatie over [[./#/time][Zon, maan en sterrenbeelden]].
+Deze pagina beschrijft kort mijn ideeën over Tarot, welke bronnen ik heb gebruikt voor deze site en welke keuzes ik daarbij heb gemaakt.
 
 * Tarot
 

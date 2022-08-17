@@ -1,0 +1,3 @@
+#+TITLE: Tarot
+
+Website met tarot-informatie.
