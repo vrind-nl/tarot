@@ -1,3 +1,5 @@
+// https://in-the-sky.org/ephemeris.php
+
 import React from "react";
 
 import { Clock } from "../components/Clock";
@@ -5,19 +7,19 @@ import { Page } from "../components/Page";
 import sterrenbeelden from "./sterrenbeelden.json";
 // import maanden from "./maanden.json";
 
-const lunarMonth = 29.53059;
+const MOON_MONTH = 29.530588853;
 const posMod = (x, n) => ((x % n) + n) % n;
 
-function getJulian(date) {
-  return date / 86400000 - date.getTimezoneOffset() / 1440 + 2440587.5;
+function getJulianDate(date) {
+  return date.getTime() / 86400000 - date.getTimezoneOffset() / 1440 + 2440587.5;
 }
 
 // http://www.ben-daglish.net/moon.shtml
-function moonDay(today) {
+function getMoonAge(today) {
   var GetFrac = function(fr) {
     return fr - Math.floor(fr);
   };
-  var thisJD = getJulian(today);
+  var thisJD = getJulianDate(today);
   var year = today.getFullYear();
   var degToRad = 3.14159265 / 180;
   var K0, T, T2, T3, J0, F0, M0, M1, B1, oldJ;
@@ -68,20 +70,24 @@ function moonDay(today) {
 
 export function Time() {
   const [date, setDate] = React.useState(new Date());
-  // const dummy = new Array(8);
-  const moons = Array.from(new Array(8), (x, nr) => `/moon/1f31${nr + 1}.png`);
-  // const moons = new Array(8).map((x, nr) => "X");
-  const size = 200,
-    middle = size / 2,
-    moonSize = 20,
-    margin = moonSize * 1.5;
-  const moonDays = moonDay(date);
-  const fullMoonDays = Math.ceil(
-    posMod(lunarMonth * 0.5 - moonDays, lunarMonth)
-  );
-  const moonDate = new Date(date);
-  moonDate.setDate(moonDate.getDate() + fullMoonDays);
 
+  function NextDay({label, days}) {
+    const day = new Date(date);
+    day.setDate(day.getDate() + days);
+
+    return <>
+	     De volgende {label} maan is op {day.toDateString()} (nog{" "}
+             {Number(days).toFixed(2)} {days === 1 ? "dag" : "dagen"})
+	   </>
+  }
+
+  const moons = Array.from(new Array(8), (x, nr) => `/moon/1f31${nr + 1}.png`);
+  const size = 200,
+	middle = size / 2,
+	moonSize = 20,
+	margin = moonSize * 1.5;
+  const moonDays = getMoonAge(date);
+  
   return (
     <Page title="Zon, maan en sterrenbeelden">
       <p>
@@ -92,7 +98,7 @@ export function Time() {
         en de verschillende{" "}
         <a href="https://www.sterrenbeelden.nu/">sterrenbeelden</a>. Daaromheen
         staan de fasen van de maan. De kleine wijzer toont de datum in het jaar.
-        De grote wijzer toons de datum in de maancyclus.
+        De grote wijzer toont de datum in de maancyclus.
       </p>
       <input
         type="date"
@@ -108,17 +114,14 @@ export function Time() {
       >
         Vandaag
       </button>
-      <p>
-        {/* niet zeker of een kwartier een punt of een periode is */}
-        {/* De maan staat in het{" "} */}
-        {/* {1 + posMod(Math.ceil((moonDays * 4) / lunarMonth) - 2, 4)}e kwartier. */}
-        De volgende volle maan is op {moonDate.toDateString()} (nog{" "}
-        {fullMoonDays} {fullMoonDays === 1 ? "dag" : "dagen"})
-      </p>
-      {/* <Clock hours={3} minutes={30} seconds={45} /> */}
+      <ul>
+	<li>De maan is in dag {Number(moonDays).toFixed(2)} van de cyclus van {Number(MOON_MONTH).toFixed(2)} dagen ({Number(moonDays / MOON_MONTH).toFixed(2)}%).</li>
+        <li><NextDay label="nieuwe" days={MOON_MONTH - moonDays} /></li>
+        <li><NextDay label="volle" days={posMod(MOON_MONTH * 0.5 - moonDays, MOON_MONTH)} /></li>
+      </ul>
       <Clock
         hours={date.getMonth() + date.getDate() / 30.5 + 0.25}
-        minutes={(moonDays / lunarMonth) * 60}
+        minutes={(moonDays / MOON_MONTH) * 60}
         seconds={-1}
         size={size}
       >
@@ -154,58 +157,58 @@ export function Time() {
         {/*   </text> */}
         {/* ))} */}
       </Clock>
-      {/* <RunningClock time={date} /> */}
-      {/* <Content file="jaarwiel.html" /> */}
-      <h3>Sterrenbeelden</h3>
-      <table>
-        <thead>
-          <tr style={{ background: "#eee" }}>
-            <th>Astronomie</th>
-            <th>Symbool</th>
-            <th>Astrologie</th>
-            <th>Vanaf</th>
-            <th>Aanleg</th>
-            <th>Geslacht</th>
-            <th>Natuur</th>
-            <th colSpan={4}>Hemellichaam</th>
-            <th>Kruis</th>
-            <th>Element</th>
+    {/* <RunningClock time={date} /> */}
+    {/* <Content file="jaarwiel.html" /> */}
+    <h3>Sterrenbeelden</h3>
+    <table>
+      <thead>
+        <tr style={{ background: "#eee" }}>
+          <th>Astronomie</th>
+          <th>Symbool</th>
+          <th>Astrologie</th>
+          <th>Vanaf</th>
+          <th>Aanleg</th>
+          <th>Geslacht</th>
+          <th>Natuur</th>
+          <th colSpan={4}>Hemellichaam</th>
+          <th>Kruis</th>
+          <th>Element</th>
+        </tr>
+      </thead>
+      <tbody>
+        {sterrenbeelden.map((sb, nr) => (
+          <tr key={nr} style={{ background: nr % 2 ? "#eee" : "#fff" }}>
+            <td>
+              <a
+                href={`https://nl.m.wikipedia.org/wiki/${sb.teken}_(sterrenbeeld)`}
+                target="wiki"
+              >
+                {sb.naam}
+              </a>
+            </td>
+            <td>{sb.symbool}</td>
+            <td>
+              <a
+                href={`https://nl.m.wikipedia.org/wiki/${sb.teken}_(astrologie)`}
+                target="wiki"
+              >
+                {sb.teken}
+              </a>
+            </td>
+            <td>{sb.vanaf}</td>
+            <td>{sb.aanleg}</td>
+            <td>{sb.geslacht}</td>
+            <td>{sb.natuur}</td>
+            <td>{sb.hemellichaam.naam}</td>
+            <td>{sb.hemellichaam.afkorting}</td>
+            <td>{sb.hemellichaam.symbool}</td>
+            <td>{sb.hemellichaam.kenmerk}</td>
+            <td>{sb.kruis}</td>
+            <td>{sb.element}</td>
           </tr>
-        </thead>
-        <tbody>
-          {sterrenbeelden.map((sb, nr) => (
-            <tr key={nr} style={{ background: nr % 2 ? "#eee" : "#fff" }}>
-              <td>
-                <a
-                  href={`https://nl.m.wikipedia.org/wiki/${sb.teken}_(sterrenbeeld)`}
-                  target="wiki"
-                >
-                  {sb.naam}
-                </a>
-              </td>
-              <td>{sb.symbool}</td>
-              <td>
-                <a
-                  href={`https://nl.m.wikipedia.org/wiki/${sb.teken}_(astrologie)`}
-                  target="wiki"
-                >
-                  {sb.teken}
-                </a>
-              </td>
-              <td>{sb.vanaf}</td>
-              <td>{sb.aanleg}</td>
-              <td>{sb.geslacht}</td>
-              <td>{sb.natuur}</td>
-              <td>{sb.hemellichaam.naam}</td>
-              <td>{sb.hemellichaam.afkorting}</td>
-              <td>{sb.hemellichaam.symbool}</td>
-              <td>{sb.hemellichaam.kenmerk}</td>
-              <td>{sb.kruis}</td>
-              <td>{sb.element}</td>
-            </tr>
-          ))}
-        </tbody>
-      </table>
+        ))}
+      </tbody>
+    </table>
     </Page>
   );
 }
