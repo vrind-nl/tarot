@@ -65,7 +65,7 @@ function getMoonAge(today) {
     phase++;
   }
 
-  return thisJD - oldJ;
+  return (thisJD - oldJ) % MOON_MONTH;
 }
 
 export function Time() {
@@ -115,7 +115,7 @@ export function Time() {
         Vandaag
       </button>
       <ul>
-	<li>De maan is in dag {Number(moonDays).toFixed(2)} van de cyclus van {Number(MOON_MONTH).toFixed(2)} dagen ({Number(moonDays / MOON_MONTH).toFixed(2)}%).</li>
+	<li>De maan is in dag {Number(moonDays).toFixed(2)} van de cyclus van {Number(MOON_MONTH).toFixed(2)} dagen ({Number(100* moonDays / MOON_MONTH).toFixed(1)}%).</li>
         <li><NextDay label="nieuwe" days={MOON_MONTH - moonDays} /></li>
         <li><NextDay label="volle" days={posMod(MOON_MONTH * 0.5 - moonDays, MOON_MONTH)} /></li>
       </ul>
