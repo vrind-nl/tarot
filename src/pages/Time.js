@@ -9,7 +9,7 @@ import jaarwiel from "./jaarwiel.json";
 
 const MS_PER_DAY = 1000 * 60 * 60 * 24
 const MOON_MONTH = 29.530588853;
-const posMod = (x, n) => ((x % n) + n) % n;
+// const posMod = (x, n) => ((x % n) + n) % n;
 
 function formatDate(d) {
   return d.toDateString();
@@ -78,6 +78,7 @@ function getMoonAge(today) {
 }
 
 export function Time() {
+  const today = new Date();
   const [date, setDate] = React.useState(new Date());
   
   function nextDay(days) {
@@ -87,7 +88,7 @@ export function Time() {
   }
 
   function nextEvent(events) {
-    const today = new Date(), year = today.getFullYear();
+    const year = today.getFullYear();
     var event = null, date=null;
     events.forEach(e => {
       const [month,day] = e.datum.split("-").map(s=>parseInt(s));
@@ -95,7 +96,7 @@ export function Time() {
       if(date < today) {
 	date.setYear(date.getFullYear()+1);
       }
-      debugger;
+
       if(!event || (date < event.date)) {
 	e.date = date;
 	event = e;
@@ -185,7 +186,15 @@ export function Time() {
       <h3>Programma</h3>
       <p>De maan is in dag {Number(moonDays).toFixed(2)} van de cyclus van {Number(MOON_MONTH).toFixed(2)} dagen ({Number(100* moonDays / MOON_MONTH).toFixed(1)}%).</p>
       <table>
-	{events.map(({day, label}) => <tr key={day}><td>{formatDate(day)}</td><td>{ label}</td></tr>)}
+	<tbody>
+	  {events.map(({day, label}) =>
+	    <tr key={day}>
+	      <td>{formatDate(day)}</td>
+	      <td>{label}</td>
+	      <td>nog {getDays(today, day)} dagen</td>
+	    </tr>
+	  )}
+	</tbody>
       </table>
     {/* <RunningClock time={date} /> */}
     {/* <Content file="jaarwiel.html" /> */}
