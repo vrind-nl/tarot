@@ -19,6 +19,10 @@ function getJulianDate(date) {
   return date.getTime() / 86400000 - date.getTimezoneOffset() / 1440 + 2440587.5;
 }
 
+function getDays(date1, date2) {
+  return Math.floor((date2 - date1) / MS_PER_DAY);
+}
+
 // http://www.ben-daglish.net/moon.shtml
 function getMoonAge(today) {
   var GetFrac = function(fr) {
@@ -75,18 +79,14 @@ function getMoonAge(today) {
 
 export function Time() {
   const [date, setDate] = React.useState(new Date());
-
-  function NextDay({label, days}) {
+  
+  function nextDay(days) {
     const day = new Date(date);
     day.setDate(day.getDate() + days);
-
-    return <>
-	     De volgende {label} maan is op {formatDate(day)} (nog{" "}
-             {Number(days).toFixed(2)} {days === 1 ? "dag" : "dagen"})
-	   </>
+    return day;
   }
 
-  function NextEvent({name, events}) {
+  function nextEvent(events) {
     const today = new Date(), year = today.getFullYear();
     var event = null, date=null;
     events.forEach(e => {
@@ -101,7 +101,8 @@ export function Time() {
 	event = e;
       }
     })
-    return <>Het volgende {name} is {event.naam} ({event.omschrijving}) op {formatDate(event.date)} (over {Math.floor((event.date - today) / MS_PER_DAY)} dagen).</>;
+
+    return { day: event.date, label: `${event.naam} (${event.omschrijving})`};
   }
   
   const moons = Array.from(new Array(8), (x, nr) => `/moon/1f31${nr + 1}.png`);
@@ -110,6 +111,12 @@ export function Time() {
 	moonSize = 20,
 	margin = moonSize * 1.5;
   const moonDays = getMoonAge(date);
+  const events = [
+    {label: "nieuwe maan", day: nextDay(MOON_MONTH-moonDays)},
+    {label: "volle maan", day: nextDay(MOON_MONTH * 0.5 - moonDays)},
+    nextEvent(jaarwiel.zonnefeesten),
+    nextEvent(jaarwiel.seizoensfeesten),
+  ].sort((e1, e2) => e1.day - e2.day);
   
   return (
     <Page title="Zon, maan en sterrenbeelden">
@@ -137,13 +144,6 @@ export function Time() {
       >
         Vandaag
       </button>
-      <ul>
-	<li>De maan is in dag {Number(moonDays).toFixed(2)} van de cyclus van {Number(MOON_MONTH).toFixed(2)} dagen ({Number(100* moonDays / MOON_MONTH).toFixed(1)}%).</li>
-        <li><NextDay label="nieuwe" days={MOON_MONTH - moonDays} /></li>
-        <li><NextDay label="volle" days={posMod(MOON_MONTH * 0.5 - moonDays, MOON_MONTH)} /></li>
-	<li><NextEvent name="zonnefeest" events={jaarwiel.zonnefeesten} /></li>
-	<li><NextEvent name="seizoensfeest" events={jaarwiel.seizoensfeesten} /></li>
-      </ul>
       <Clock
         hours={date.getMonth() + date.getDate() / 30.5 + 0.25}
         minutes={(moonDays / MOON_MONTH) * 60}
@@ -182,6 +182,11 @@ export function Time() {
         {/*   </text> */}
         {/* ))} */}
       </Clock>
+      <h3>Programma</h3>
+      <p>De maan is in dag {Number(moonDays).toFixed(2)} van de cyclus van {Number(MOON_MONTH).toFixed(2)} dagen ({Number(100* moonDays / MOON_MONTH).toFixed(1)}%).</p>
+      <table>
+	{events.map(({day, label}) => <tr key={day}><td>{formatDate(day)}</td><td>{ label}</td></tr>)}
+      </table>
     {/* <RunningClock time={date} /> */}
     {/* <Content file="jaarwiel.html" /> */}
     <h3>Sterrenbeelden</h3>

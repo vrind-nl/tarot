@@ -1,3 +1,7 @@
+#clock {
+    max-width: 500px;
+}
+
 #face {
     stroke-width: 2px; stroke: #fff;
 }
