@@ -5,10 +5,15 @@ import React from "react";
 import { Clock } from "../components/Clock";
 import { Page } from "../components/Page";
 import sterrenbeelden from "./sterrenbeelden.json";
-// import maanden from "./maanden.json";
+import jaarwiel from "./jaarwiel.json";
 
+const MS_PER_DAY = 1000 * 60 * 60 * 24
 const MOON_MONTH = 29.530588853;
 const posMod = (x, n) => ((x % n) + n) % n;
+
+function formatDate(d) {
+  return d.toDateString();
+}
 
 function getJulianDate(date) {
   return date.getTime() / 86400000 - date.getTimezoneOffset() / 1440 + 2440587.5;
@@ -76,11 +81,29 @@ export function Time() {
     day.setDate(day.getDate() + days);
 
     return <>
-	     De volgende {label} maan is op {day.toDateString()} (nog{" "}
+	     De volgende {label} maan is op {formatDate(day)} (nog{" "}
              {Number(days).toFixed(2)} {days === 1 ? "dag" : "dagen"})
 	   </>
   }
 
+  function NextEvent({name, events}) {
+    const today = new Date(), year = today.getFullYear();
+    var event = null, date=null;
+    events.forEach(e => {
+      const [month,day] = e.datum.split("-").map(s=>parseInt(s));
+      date = new Date(year, month-1, day);
+      if(date < today) {
+	date.setYear(date.getFullYear()+1);
+      }
+      debugger;
+      if(!event || (date < event.date)) {
+	e.date = date;
+	event = e;
+      }
+    })
+    return <>Het volgende {name} is {event.naam} ({event.omschrijving}) op {formatDate(event.date)} (over {Math.floor((event.date - today) / MS_PER_DAY)} dagen).</>;
+  }
+  
   const moons = Array.from(new Array(8), (x, nr) => `/moon/1f31${nr + 1}.png`);
   const size = 200,
 	middle = size / 2,
@@ -102,7 +125,7 @@ export function Time() {
       </p>
       <input
         type="date"
-        value={date.toISOString().slice(0, 10)}
+        value={formatDate(date)}
         onChange={event => {
           console.log(event.target.value);
           setDate(new Date(event.target.value));
@@ -118,6 +141,8 @@ export function Time() {
 	<li>De maan is in dag {Number(moonDays).toFixed(2)} van de cyclus van {Number(MOON_MONTH).toFixed(2)} dagen ({Number(100* moonDays / MOON_MONTH).toFixed(1)}%).</li>
         <li><NextDay label="nieuwe" days={MOON_MONTH - moonDays} /></li>
         <li><NextDay label="volle" days={posMod(MOON_MONTH * 0.5 - moonDays, MOON_MONTH)} /></li>
+	<li><NextEvent name="zonnefeest" events={jaarwiel.zonnefeesten} /></li>
+	<li><NextEvent name="seizoensfeest" events={jaarwiel.seizoensfeesten} /></li>
       </ul>
       <Clock
         hours={date.getMonth() + date.getDate() / 30.5 + 0.25}

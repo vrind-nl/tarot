@@ -1,0 +1,46 @@
+{
+  "zonnefeesten": [
+    {"naam": "Ostara",
+     "omschrijving": "lente equinox",
+     "datum": "3-21",
+     "link": ""
+    },
+    {"naam": "Litha",
+     "omschrijving": "midzomer",
+     "datum": "6-21",
+     "link": ""
+    },
+    {"naam": "Mabon",
+     "omschrijving": "herfst equinox",
+     "datum": "9-21",
+     "link": ""
+    },
+    {"naam": "Yule",
+     "omschrijving": "midwinter",
+     "datum": "12-21",
+     "link": ""
+    }
+  ],
+  "seizoensfeesten": [
+    {"naam": "Imbolc",
+     "omschrijving": "lentefeest",
+     "datum": "2-1",
+     "link": ""
+    },
+    {"naam": "Beltane",
+     "omschrijving": "vruchtbaarheidsfeest",
+     "datum": "5-1",
+     "link": ""
+    },
+    {"naam": "Lammas",
+     "omschrijving": "oogst-/herfstfeest",
+     "datum": "8-1",
+     "link": ""
+    },
+    {"naam": "Samhein",
+     "omschrijving": "nieuwjaar",
+     "datum": "11-1",
+     "link": ""
+    }
+  ]
+}
