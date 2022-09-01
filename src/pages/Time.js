@@ -12,7 +12,7 @@ const MOON_MONTH = 29.530588853;
 // const posMod = (x, n) => ((x % n) + n) % n;
 
 function formatDate(d) {
-  return d.toDateString();
+  return new Intl.DateTimeFormat('nl-NL', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' }).format(d);
 }
 
 function getJulianDate(date) {
