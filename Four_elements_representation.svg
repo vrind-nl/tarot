@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg7482"
+   sodipodi:version="0.32"
+   inkscape:version="0.44.1"
+   width="333"
+   height="278"
+   version="1.0"
+   sodipodi:docbase="C:\Documents and Settings\tkelley\My Documents\WIKI"
+   sodipodi:docname="fourelements.svg">
+  <metadata
+     id="metadata7487">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs7485" />
+  <sodipodi:namedview
+     inkscape:window-height="964"
+     inkscape:window-width="1280"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     guidetolerance="10.0"
+     gridtolerance="10.0"
+     objecttolerance="10.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base"
+     inkscape:zoom="1.4172662"
+     inkscape:cx="166.5"
+     inkscape:cy="134.57996"
+     inkscape:window-x="-4"
+     inkscape:window-y="-4"
+     inkscape:current-layer="svg7482" />
+  <g
+     id="g11087"
+     transform="translate(7.021939,0)">
+    <path
+       id="rect9266"
+       d="M 32.35779,139.25627 L 91.80452,79.809542 L 151.25125,20.362818 L 210.69797,79.809548 L 270.14471,139.25628 L 210.69798,198.70301 L 151.25125,258.14974 L 91.80452,198.70301 L 32.35779,139.25627 z "
+       style="opacity:0.81999972;fill:#e7ffe7;fill-opacity:1;fill-rule:nonzero;stroke:black;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       sodipodi:nodetypes="ccccc"
+       style="opacity:1;fill:#ffe7e7;fill-opacity:1;fill-rule:nonzero;stroke:black;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 91.80452,79.809542 L 210.69797,79.809548 L 210.69798,198.70301 L 91.80452,198.70301 L 91.80452,79.809542 z "
+       id="path10198" />
+    <text
+       id="text10160"
+       y="143.93909"
+       x="6.3502569"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:black;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Rockwell Condensed"
+       xml:space="preserve"><tspan
+         style="font-family:Verdana"
+         id="tspan10164"
+         y="143.93909"
+         x="6.3502569"
+         sodipodi:role="line">AIR</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:black;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Rockwell Condensed"
+       x="136.88326"
+       y="15.52284"
+       id="text10168"><tspan
+         sodipodi:role="line"
+         x="136.88326"
+         y="15.52284"
+         id="tspan10170"
+         style="font-family:Verdana">FIRE</tspan></text>
+    <text
+       id="text10172"
+       y="143.93907"
+       x="273.06094"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:black;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Rockwell Condensed"
+       xml:space="preserve"><tspan
+         style="font-family:Verdana"
+         id="tspan10174"
+         y="143.93907"
+         x="273.06094"
+         sodipodi:role="line">EARTH</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:black;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Rockwell Condensed"
+       x="129.82742"
+       y="270.94415"
+       id="text10176"><tspan
+         sodipodi:role="line"
+         x="129.82742"
+         y="270.94415"
+         id="tspan10178"
+         style="font-family:Verdana">WATER</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:11px;font-style:normal;font-weight:normal;fill:black;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Rockwell Condensed"
+       x="71.969543"
+       y="74.79187"
+       id="text10180"><tspan
+         sodipodi:role="line"
+         x="71.969543"
+         y="74.79187"
+         id="tspan10182"
+         style="font-size:11px;font-family:Verdana">hot</tspan></text>
+    <text
+       id="text10184"
+       y="211.67513"
+       x="70.55838"
+       style="font-size:11px;font-style:normal;font-weight:normal;fill:black;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Rockwell Condensed"
+       xml:space="preserve"><tspan
+         style="font-size:11px;font-family:Verdana"
+         id="tspan10186"
+         y="211.67513"
+         x="70.55838"
+         sodipodi:role="line">wet</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:11px;font-style:normal;font-weight:normal;fill:black;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Rockwell Condensed"
+       x="216.61421"
+       y="76.203041"
+       id="text10188"><tspan
+         sodipodi:role="line"
+         x="216.61421"
+         y="76.203041"
+         id="tspan10190"
+         style="font-size:11px;font-family:Verdana">dry</tspan></text>
+    <text
+       id="text10192"
+       y="211.67513"
+       x="217.31979"
+       style="font-size:11px;font-style:normal;font-weight:normal;fill:black;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Rockwell Condensed"
+       xml:space="preserve"><tspan
+         style="font-size:11px;font-family:Verdana"
+         id="tspan10194"
+         y="211.67513"
+         x="217.31979"
+         sodipodi:role="line">cold</tspan></text>
+  </g>
+</svg>
