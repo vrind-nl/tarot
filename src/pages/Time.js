@@ -78,27 +78,31 @@ function getMoonAge(today) {
 }
 
 export function Time() {
-  const today = new Date();
   const [date, setDate] = React.useState(new Date());
+
+  if(!date) {
+    return "Calculating";
+  }
   
-  function nextDay(days) {
+  function nextMoonEvent(days) {
     const day = new Date(date);
     day.setDate(day.getDate() + days);
+    if(day < date) day.setDate(day.getDate() + MOON_MONTH);
     return day;
   }
 
-  function nextEvent(events) {
-    const year = today.getFullYear();
-    var event = null, date=null;
+  function nextSunEvent(events) {
+    const year = date.getFullYear();
+    var event = null;
     events.forEach(e => {
-      const [month,day] = e.datum.split("-").map(s=>parseInt(s));
-      date = new Date(year, month-1, day);
-      if(date < today) {
-	date.setYear(date.getFullYear()+1);
+      var [month,day] = e.datum.split("-").map(s=>parseInt(s));
+      day = new Date(year, month-1, day);
+      if(day < date) {
+	day.setYear(date.getFullYear()+1);
       }
 
-      if(!event || (date < event.date)) {
-	e.date = date;
+      if(!event || (day < event.date)) {
+	e.date = day;
 	event = e;
       }
     })
@@ -113,10 +117,10 @@ export function Time() {
 	margin = moonSize * 1.5;
   const moonDays = getMoonAge(date);
   const events = [
-    {label: "nieuwe maan", day: nextDay(MOON_MONTH-moonDays)},
-    {label: "volle maan", day: nextDay(MOON_MONTH * 0.5 - moonDays)},
-    nextEvent(jaarwiel.zonnefeesten),
-    nextEvent(jaarwiel.seizoensfeesten),
+    {label: "nieuwe maan", day: nextMoonEvent(MOON_MONTH-moonDays)},
+    {label: "volle maan", day: nextMoonEvent(MOON_MONTH * 0.5 - moonDays)},
+    nextSunEvent(jaarwiel.zonnefeesten),
+    nextSunEvent(jaarwiel.seizoensfeesten),
   ].sort((e1, e2) => e1.day - e2.day);
   
   return (
@@ -191,7 +195,7 @@ export function Time() {
 	    <tr key={day}>
 	      <td>{formatDate(day)}</td>
 	      <td>{label}</td>
-	      <td>nog {getDays(today, day)} dagen</td>
+	      <td>nog {getDays(date, day)} dagen</td>
 	    </tr>
 	  )}
 	</tbody>
